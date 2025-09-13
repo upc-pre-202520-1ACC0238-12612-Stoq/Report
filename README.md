@@ -92,7 +92,38 @@
 - Branding fuerte centrado en el enfoque PYME
 
 ## 2.2. Entrevistas
+La finalidad de realizar entrevistas es obtener un alcance más completo sobre las experiencias, perspectivas y opiniones de los segmentos de mercado definidos. Nuestro objetivo es recolectar información valiosa que nos permita conocer mejor a nuestro público objetivo. Con estas entrevistas se tendrá una visión más clara de las necesidades y expectativas de nuestros usuarios.
 ### 2.2.1. Diseño de entrevistas
+**Segmento #1: Bodegas especializadas por rubro**
+
+**Preguntas principales**
+
+1. ¿Podrías contarme cómo gestionas actualmente el inventario de tu bodega?
+2. ¿Cuáles son los mayores retos que enfrentas al momento de organizar tus productos?
+3. ¿Has tenido pérdidas o problemas por errores en el inventario? ¿Cómo los resolviste?
+4. ¿Qué tan importante es para ti tener un control en tiempo real de tu stock?
+5. ¿Utilizas algún sistema o herramienta digital? ¿Cuál y cómo te va con ella?
+
+**Preguntas complementarias**
+1. ¿Cómo te enteras cuando falta un producto o está a punto de vencerse?
+2. ¿Qué tipo de reportes o información te gustaría tener sobre tu inventario?
+3. ¿Qué dispositivos usas más en tu trabajo (laptop, celular, tablet)?
+4. ¿Cómo crees que una plataforma digital podría ayudarte a mejorar tu operación?
+
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
+
+**Preguntas principales**
+1. ¿Cómo manejas actualmente el inventario de tu negocio?
+2. ¿En qué momentos has sentido que el control del stock te limita o te hace perder tiempo?
+3. ¿Cómo llevas el registro de entradas y salidas de productos?
+4. ¿Qué te gustaría mejorar de tu proceso logístico actual?
+5. ¿Has considerado usar alguna plataforma para gestionar tu inventario? ¿Por qué sí o por qué no?
+   
+**Preguntas complementarias**
+1. ¿Qué herramientas digitales usas en tu negocio actualmente?
+2. ¿Dónde almacenas tus productos?
+3. ¿Qué tan seguido necesitas revisar el stock?
+4. ¿Qué redes sociales o canales digitales usas para vender?
 
 ### 2.2.2. Registro de entrevistas
 
