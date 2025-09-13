@@ -399,6 +399,20 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 | Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización)| Media          | Alta             |
 
 ### 2.3.3. User Journey Mapping
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="assets/Chapter-2/journeymap1.png" alt="User persona - segmento 1" width="600"/>
+
+*Imagen (N°4). Elaboración propia. Realizado en UXPressia*
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-2/journeymap1.png" alt="User persona - segmento 2" width="600"/>
+
+*Imagen (N°5). Elaboración propia. Realizado en UXPressia*
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Ubiquitous Language
 
