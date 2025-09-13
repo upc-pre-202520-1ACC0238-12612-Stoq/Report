@@ -6,7 +6,17 @@
 
 StockWise es un aplicativo movil de gestión de inventarios dirigida a pequeñas y medianas empresas, startups y bodegas especializadas. Su objetivo principal es facilitar el control eficiente de entradas y salidas de productos, la gestión de usuarios, la configuración de alertas inteligentes, la generación de reportes detallados y de boleta de venta, todo a través de una interfaz intuitiva y accesible desde cualquier dispositivo.
 
-La solución responde a una problemática concreta: muchos negocios aún utilizan métodos manuales (como hojas de cálculo o registros en papel) para administrar sus inventarios y pagos, lo cual genera errores, desorganización, sobrecompras y pérdidas económicas. StockWise busca resolver este problema digitalizando y centralizando el control del inventario y de las ganancias de la tienda, permitiendo a los negocios tomar decisiones basadas en datos y optimizar su operación.
+La solución responde a una problemática concreta: muchos negocios aún utilizan métodos manuales (como hojas de cálculo o registros en papel) para administrar sus inventarios y pagos, lo cual genera errores, desorganización, sobrecompras y pérdidas económicas. StockWise busca resolver este problema digitalizando y centralizando el control del inventario y de las ganancias de la tienda, permitiendo a los negocios tomar decisiones basadas en datos y optimizar su operación mediante cuatro planes de funcionalidad avanzada:
+
+- **Plan A – Entrada por voz:** Permite registrar productos mediante comandos de voz (ejemplo: “Agregar 20 botellas de agua al inventario”), ofreciendo mayor rapidez y comodidad, especialmente en situaciones donde el personal no pueda usar el teclado.
+
+- **Plan B – Geolocalización (GPS):** Integra funciones de ubicación para optimizar la trazabilidad y distribución de productos, permitiendo identificar su procedencia, registrar puntos de entrega y visualizar en un mapa interactivo las distintas sedes o sucursales vinculadas a la tienda principal.
+
+- **Plan C – Localización y predicción inteligente:**
+  - Localiza: Utiliza un mapa interactivo con integración de códigos QR para ubicar productos dentro del almacén de manera precisa.
+  - Predice: Implementa un sistema de reabastecimiento inteligente basado en patrones de ventas, que sugiere cuándo y cuánto stock reponer para evitar quiebres de inventario.
+
+- **Plan D – Escaneo por lotes con cámara rápida:** En lugar de códigos de barras, la app toma una foto del producto o lote y una API de visión (como Google ML Kit) devuelve etiquetas genéricas. El usuario confirma el producto exacto y la cantidad en un menú antes de registrarlo, pudiendo ver directamente su ubicación en el almacén virtual.
 
 <br>
 <b>Misión: </b>Brindar a pequeñas y medianas empresas una solución de gestión de inventarios y pagos sencilla, accesible y eficiente, que les permita digitalizar su operación, reducir errores logísticos y tomar decisiones basadas en datos reales, apoyando así su crecimiento sostenible.
@@ -108,58 +118,58 @@ El problema se encuentra en que muchos de estos negocios aún dependen de métod
 
 Hemos observado que esta situación impacta negativamente en la productividad del negocio, la satisfacción del cliente y la capacidad de tomar decisiones basadas en datos. A medida que estos negocios escalan, el desorden operativo se vuelve insostenible, provocando sobrecostos y afectando su crecimiento.
 
-¿Cómo podríamos diseñar una plataforma de gestión de inventarios que sea lo suficientemente simple, funcional y adaptable para cubrir las necesidades reales de estos negocios en expansión, facilitando el control del inventario, reduciendo errores y mejorando la toma de decisiones, con métricas que midan eficiencia operativa, precisión del stock y satisfacción del usuario?
+¿Cómo podríamos diseñar una aplicación de gestión de inventarios que sea lo suficientemente simple, funcional y adaptable para cubrir las necesidades reales de estos negocios en expansión, facilitando el control del inventario, reduciendo errores y mejorando la toma de decisiones, con métricas que midan eficiencia operativa, precisión del stock y satisfacción del usuario?
 
 #### 1.2.2.2. Lean UX Assumptions
-Business Assumptions:
+**Business Assumptions:**
 
-1.Creemos que los negocios emergentes necesitan digitalizar su gestión de inventarios.
+1. Creemos que los negocios emergentes necesitan digitalizar su gestión de inventarios a través de una solución móvil accesible.
 
-2.Estas necesidades se pueden satisfacer con una aplicación intuitiva, escalable y accesible.
+2. Estas necesidades se pueden satisfacer con una aplicación móvil intuitiva, escalable y de bajo costo.
 
-3.Nuestros clientes iniciales serán emprendedores y start ups con bodegas especializadas.
+3. Nuestros clientes iniciales serán emprendedores, startups y pequeñas empresas con bodegas especializadas que operan de manera ágil.
 
-4.El valor más importante que un cliente quiere de nuestros servicios es control y visibilidad de su inventario.
+4. El principal valor que busca el cliente es tener control y visibilidad total de su inventario en tiempo real, desde cualquier lugar.
 
-5.El cliente también va a obtener alertas inteligentes, reportes automáticos, boletas de venta y una experiencia intuitiva.
+5. El cliente obtendrá además alertas inteligentes, reportes automáticos, generación de boletas de venta y una experiencia de usuario móvil optimizada.
 
-6.Vamos a obtener la mayoría de los clientes mediante publicidad en línea  y asociaciones con comunidades de emprendedores.
+6. Adquiriremos la mayoría de nuestros clientes mediante publicidad en redes sociales dirigida, ASO (Optimización de la App Store) y asociaciones con comunidades de emprendedores.
 
-7.Vamos a obtener ingresos mediante un modelo freemium con upgrade a planes premium.
+7. Nuestro modelo de ingresos se basará en un esquema freemium dentro de la app, con upgrade a planes premium que desbloqueen funcionalidades avanzadas.
 
-8.Nuestra competencia en el mercado serán herramientas genéricas como Excel, Google Sheets, Google Calendar y ERPs complejos.
+8. Nuestra competencia directa e indirecta incluye aplicaciones genéricas como hojas de cálculo móviles (Excel, Sheets), recordatorios básicos (Calendar) y ERPs complejos con apps móviles poco intuitivas.
 
-9.Vamos a tener ventaja frente a nuestra competencia debido a nuestra simplicidad, enfoque en pymes, y especialización en inventarios.
+9. Nuestra ventaja competitiva radicará en la simplicidad móvil, el enfoque específico en las pymes y la especialización en la gestión de inventarios sobre la marcha.
 
-10.El mayor riesgo del servicio es la baja adopción o la percepción de que es complejo o costoso.
+10. El mayor riesgo para el negocio es una baja tasa de adopción o la percepción de que la app es compleja o redundante frente a métodos manuales.
 
-11.Lo resolveremos realizando pruebas con usuarios reales, iteraciones constantes y una estrategia clara de onboarding.
+11. Mitigaremos este riesgo realizando pruebas de usabilidad móvil con usuarios reales, iteraciones rápidas basadas en feedback y una estrategia de onboarding dentro de la app que guíe al usuario paso a paso.
 
 **User Assumptions:**</br>
-¿Quién es el usuario? Dueños de negocios, encargados de bodegas o logística en pymes/startups.
+- **¿Quién es el usuario?** Dueños de negocios, encargados de bodegas o logística en pymes/startups que necesitan gestionar inventarios de forma remota.
+  
+- **¿Qué problemas busca resolver nuestro producto?** La falta de control inmediato del stock, los errores por registros manuales en papel, los sobrecostos por pérdidas y las ventas fallidas debido a quiebres de stock inesperados.
 
-¿Qué problemas tiene nuestro producto que busca resolver? Falta de control de stock, errores manuales, sobrecostos, quiebres de stock.
+- **¿Qué características son importantes?** Un registro rápido de productos (por voz, cámara o manual), un historial de movimientos accesible, alertas push personalizables, reportes visuales simplificados y la generación de boletas de venta directamente desde el dispositivo móvil.
 
-¿Qué características son importantes? Registro de productos, historial de movimientos, alertas, reportes, boleta de venta, roles y permisos.
+- **¿Dónde encaja nuestro producto en su trabajo?** Se integra en su flujo de trabajo diario para la gestión del inventario en la bodega, en el punto de venta o durante las rondas de reposición, permitiendo decisiones informadas desde cualquier lugar.
 
-¿Dónde encaja nuestro producto en su vida/trabajo? En la gestión diaria del inventario, decisiones de compra, y control de logística.
+- **¿Cuándo y cómo es usado nuestro producto?** Se utiliza de manera frecuente a lo largo del día, directamente desde sus teléfonos inteligentes, para registrar entradas/salidas al momento, consultar niveles de stock en tiempo real y generar comprobantes al instante.
 
-¿Cuándo y cómo es usado nuestro producto? A diario, desde computadoras o móviles, al inicio y cierre de turnos, y durante reposiciones.
-
-¿Cómo debe verse y comportarse? Simple, rápida, intuitiva, con interfaz limpia, adaptable a cualquier dispositivo.
+- **¿Cómo debe verse y comportarse?** Debe tener una interfaz de usuario (UI) móvil limpia, simple y con navegación táctil intuitiva. Debe ser rápida, responsiva y funcionar sin conexión para casos de uso críticos.
 
 **Feature Assumptions:**
 
-Creemos que la aplicación debe contar con una interfaz de usuario intuitiva y responsiva que permitirá a los encargados de almacén, emprendedores y administradores adoptarla sin dificultad, reduciendo la curva de aprendizaje.
+Creemos que la aplicación móvil debe contar con una interfaz táctil intuitiva y diseños adaptados a dispositivos móviles que permitan a emprendedores y administradores adoptarla sin dificultad, minimizando la curva de aprendizaje.
 
-Creemos que la aplicación debe proporcionar notificaciones y alertas personalizables (como stock bajo, fechas proximas de provedores o vencimiento) que mantendrán a los usuarios informados de manera oportuna para evitar errores logísticos y quiebres de stock.
+Creemos que la app debe proporcionar notificaciones push y alertas personalizables (por stock bajo, fechas de vencimiento o pedidos de proveedores) que mantendrán a los usuarios informados de manera proactiva para prevenir errores operativos.
 
-Creemos que el sistema debe incluir herramientas de generación de reportes y gráficos que permitan visualizar fácilmente información clave del inventario (productos más rotados, niveles de stock, tendencias de ventas), ayudando a los usuarios a tomar decisiones informadas.
+Creemos que el sistema debe incluir un módulo de reportes y dashboards visuales optimizados para móvil que permitan visualizar de un vistazo métricas clave (productos más vendidos, niveles de stock, tendencias), facilitando la toma de decisiones ágiles.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Creemos que los usuarios valorarán las alertas inteligentes.</br> Sabremos que es cierto. 
-</br>Cuando recibamos al menos un 80% de los usuarios, un  feedback positivo y alta frecuencia de uso en esta funcionalidad.
+**Hipótesis 1:** Creemos que los usuarios valorarán las alertas inteligentes push.</br> Sabremos que es cierto. 
+</br>Cuando al menos el 80% de los usuarios activos tengan las notificaciones activadas y reporten una reducción en quiebres de stock en encuestas de satisfacción.
 
 Creemos que los usuarios encontrarán valiosos los reportes visuales.</br> Sabremos que es cierto .
 </br>Cuando observemos mínimamente un 20% mayor retención y uso del módulo de reportes.
