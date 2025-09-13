@@ -355,7 +355,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 *Imagen (N°2). Elaboración propia. Realizado en UXPressia*
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-<img src="assets/Chapter-2/nuevosegmento2.png" alt="User persona - segmento 2" width="600"/>
+<img src="assets/Chapter-2/segmento2.png" alt="User persona - segmento 2" width="600"/>
 
 *Imagen (N°3). Elaboración propia. Realizado en UXPressia*
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
@@ -363,6 +363,41 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.2. User Task Matrix
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+| **Task Matrix**                                                     | **Frecuencia** | **Importancia** |
+|----------------------------------------------------------------------|----------------|------------------|
+| Supervisar el stock y revisar niveles de inventario                 | Alta           | Alta             |
+| Realizar conteos físicos o auditorías manuales                      | Media          | Alta             |
+| Negociar precios y coordinar con proveedores                        | Alta           | Alta             |
+| Revisar reportes de ventas, rotación y márgenes                     | Media          | Alta             |
+| Ingresar datos en Excel o sistemas básicos de control               | Media          | Media            |
+| Delegar tareas a sus asistentes o empleados                         | Media          | Alta             |
+| Atender clientes en tienda                                          | Alta           | Alta             |
+| Coordinar pedidos con mayoristas o distribuidores                   | Alta           | Alta             |
+| Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
+| Resolver errores de inventario (*sobrestock*, productos vencidos)  | Alta           | Alta             |
+
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+| **Task Matrix**                                                                       | **Frecuencia** | **Importancia** |
+|---------------------------------------------------------------------------------------|----------------|------------------|
+| Supervisar la producción (propia o con talleres externos)                             | Alta           | Alta             |
+| Gestionar inventario de insumos y productos terminados (telas, hilos, prendas)        | Alta           | Alta             |
+| Registrar entradas, salidas y devoluciones de productos                               | Media          | Alta             |
+| Coordinar pedidos con clientes o puntos de venta                                      | Alta           | Alta             |
+| Diseñar nuevas piezas o adaptar modelos a la demanda                                  | Alta           | Alta             |
+| Publicar contenido y gestionar redes sociales                                         | Alta           | Media            |
+| Empaquetar productos y organizar despachos                                            | Media          | Alta             |
+| Analizar qué productos se venden más y qué insumos se usan más                        | Media          | Alta             |
+| Actualizar listas de precios, catálogos o colecciones                                 | Media          | Media            |
+| Registrar ventas y organizar información contable o administrativa                    | Media          | Alta             |
+| Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización)| Media          | Alta             |
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. Ubiquitous Language
