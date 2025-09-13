@@ -414,6 +414,20 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.4. Empathy Mapping
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="assets/Chapter-2/empathymap1.png" alt="User persona - segmento 1" width="800"/>
+
+*Imagen (N°6). Elaboración propia. Realizado en UXPressia*
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-2/empathymap2.png" alt="User persona - segmento 2" width="800"/>
+
+*Imagen (N°7). Elaboración propia. Realizado en UXPressia*
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
 ### 2.3.5. Ubiquitous Language
 
 ## 2.4. Requirements specification
