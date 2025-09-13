@@ -430,6 +430,19 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 ### 2.3.5. Ubiquitous Language
 
+**Segmento 1: Bodegas especializadas por rubro**
+
+<img src="assets/Chapter-2/as-is1.jpg" alt="User persona - segmento 1" width="900"/>
+
+*Imagen (N°8). Elaboración propia. Realizado en LucidChart*
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-2/as-is2.jpg" alt="User persona - segmento 2" width="900"/>
+
+*Imagen (N°9). Elaboración propia. Realizado en LucidChart*
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
 ### 2.4.2. Impact Mapping
