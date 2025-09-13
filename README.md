@@ -344,7 +344,12 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
+
 ### 2.3.1. User Personas
+
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
