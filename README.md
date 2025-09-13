@@ -171,20 +171,20 @@ Creemos que el sistema debe incluir un módulo de reportes y dashboards visuales
 **Hipótesis 1:** Creemos que los usuarios valorarán las alertas inteligentes push.</br> Sabremos que es cierto. 
 </br>Cuando al menos el 80% de los usuarios activos tengan las notificaciones activadas y reporten una reducción en quiebres de stock en encuestas de satisfacción.
 
-Creemos que los usuarios encontrarán valiosos los reportes visuales.</br> Sabremos que es cierto .
-</br>Cuando observemos mínimamente un 20% mayor retención y uso del módulo de reportes.
+**Hipótesis 2:** Creemos que los usuarios encontrarán valiosos los reportes visuales optimizados para móvil.</br> Sabremos que es cierto .
+</br>el módulo de reportes muestre una tasa de uso semanal superior al 40% y contribuya a un aumento del 20% en la retención de usuarios.
 
-Creemos que ofrecer una versión gratuita con funcionalidades limitadas incentivará la adopción inicial.</br>
- Sabremos que es cierto.</br>
-  Cuando el número de registros y usuarios activos supere nuestras métricas objetivo durante el primer mes.
+**Hipótesis 3:** Creemos que ofrecer una versión gratuita con funcionalidades básicas incentivará la adopción inicial y las conversiones a premium.</br>
+ Sabremos que es cierto</br>
+si la tasa de conversión de usuarios gratuitos a premium supera el 5% y el tiempo hasta la conversión es menor a 90 días.
 
-Creemos que implementar alertas inteligentes por stock bajo y fechas de vencimiento reducirá los quiebres de stock.</br>
+**Hipótesis 4:** Creemos que implementar alertas inteligentes por stock bajo y fechas de vencimiento reducirá significativamente los quiebres de inventario.</br>
 Sabremos que tenemos razón </br>
-Cuando comparemos el número de productos con quiebre antes y después de la activación de alertas por parte del usuario.
+Cuando los usuarios que activan las alertas experimenten una reducción del 30% en incidentes de stock cero en un período de 3 meses.
 
-Creemos que implementar el reporte de boleta de venta facilitara los pagos con los clientes. </br>
+**Hipótesis 5:** Creemos que implementar  la generación de boletas de venta directamente en la app agilizará el proceso de cierre de ventas y el control de ingresos.</br>
 Sabremos que tenemos razón, </br>
-Cuando el usuario controle más rápido el flujo de la tienda y los ingresos diarios de venta.    
+Cuando los usuarios que utilizan la función reporten un ahorro de tiempo mínimo de 1 hora diaria en administración y un control más preciso de su flujo de caja diario.  
 
 #### 1.2.2.4. Lean UX Canvas
 
