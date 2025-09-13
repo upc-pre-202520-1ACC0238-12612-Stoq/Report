@@ -1265,7 +1265,18 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 
 ### 2.4.2. Impact Mapping
 
+### Segmento Objetivo 1: Bodegas especializadas por rubro
+![bodeguero](assets/Chapter-2/stockwise%20-%20impact%20map-bodeguero.png)
+
+*Imagen (N°12). Elaboración propia. Realizado en UXPRESSIA*
+
+### Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas
+![emprendedor](assets/Chapter-2/stockwise%20-%20impact%20map-emprendedor.png)
+
+*Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA*
+
 ### 2.4.3. Product Backlog
+
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
