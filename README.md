@@ -378,6 +378,11 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 | Coordinar pedidos con mayoristas o distribuidores                   | Alta           | Alta             |
 | Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
 | Resolver errores de inventario (*sobrestock*, productos vencidos)  | Alta           | Alta             |
+| Registrar productos por voz y confirmar datos | Media          | Alta            |
+| Escanear lotes con cámara rápida y validar    | Alta           | Alta            |
+| Ubicar productos en almacén con QR/mapa       | Alta           | Alta            |
+| Revisar alertas de predicción de stock        | Media          | Alta            |
+| Visualizar sedes y rutas en mapa (GPS)        | Baja           | Media           |
 
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
@@ -397,6 +402,13 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 | Actualizar listas de precios, catálogos o colecciones                                 | Media          | Media            |
 | Registrar ventas y organizar información contable o administrativa                    | Media          | Alta             |
 | Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización)| Media          | Alta             |
+| Dictar insumos o productos por voz              | Alta           | Alta            |
+| Registrar clientes y entregas con GPS           | Alta           | Alta            |
+| Analizar predicciones de producción/ventas      | Media          | Alta            |
+| Escanear productos en lotes y asignar ubicación | Alta           | Alta            |
+| Recibir alertas de sobrestock o quiebre         | Media          | Alta            |
+
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.3. User Journey Mapping
 
@@ -461,807 +473,1862 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 13. **Versión Freemium:** Modelo de negocio que permite a los usuarios acceder a funciones básicas de forma gratuita, con la posibilidad de pagar por funciones premium.
 14. **Onboarding:** Proceso de bienvenida y guía para nuevos usuarios que les enseña cómo usar la plataforma y aprovechar sus funcionalidades.
 15. **MVP (Producto Mínimo Viable):** Versión inicial de la plataforma con las funciones mínimas necesarias para validar hipótesis clave con usuarios reales.
+16. **Registro por Voz:** Funcionalidad que permite ingresar datos dictando productos, cantidades o insumos, validados por el sistema.
+17. **Escaneo QR:** Proceso de registrar productos o lotes mediante el uso de lector, facilitando la velocidad de captura.
+18. **Mapa/GPS:** Herramienta que permite ubicar bodegas, almacenes o rutas de distribución, y registrar entregas.
+19. **Alertas de Stock:** Notificaciones automáticas que advierten sobre riesgos de quiebre, sobrestock o vencimiento de productos.
+20. **Rotación de Productos:** Indicador que mide la velocidad de venta o uso de un producto en el inventario.
+21. **Gestión de Producción:** Capacidad de registrar y controlar procesos productivos.
+22. **Contabilidad Básica:** Registro y organización de ventas, costos y márgenes, integrados a reportes financieros simples.
+
 
 ### 2.4.1. User Stories
 
 <table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>Título</th>
-      <th>Descripción técnica</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US01</td>
-      <td>Registra producto nuevo</td>
-      <td>Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado de su existencia desde el comienzo.</td>
-      <td>
-       <strong>Escenario 01:Registro exitoso de producto</strong><br>
-        <strong>Dado</strong> que el usuario está en el formulario de “Nuevo producto”,<br>
-        <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
-        <strong>Y</strong> le da clic a “Guardar”<br>
-        <strong>Entonces</strong> el producto se registra en la base<br>
-        <strong>Y</strong> aparece en el inventario<br>
-        <strong>Escenario 02: Interno de registro en campos vacíos</strong><br>
-        <strong>Dado</strong> que el usuario está en el formulario de “Nuevo producto”<br>
-        <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
-        <strong>Cuando</strong> dejas campos obligatorios vacíos<br>
-        <strong>Y</strong> hace clic a “Guardar”<br>
-        <strong>Entonces</strong> el sistema muestra un mensaje de error en los campos que se deben corregir<br>
-      </td>
-      <td>US01</td>
-    </tr>
-    <tr>
-      <td>US02</td>
-      <td>Editar información de producto</td>
-      <td><strong>Como</strong> usuario, <strong>quiero</strong> editar la información de un producto registrado, <strong>para</strong> corregir o actualizar datos.</td>
-      <td>
-        <strong>Escenario 01: Edición con éxito</strong><br>
-        <strong>Dado que</strong> el usuario ya tiene un producto en el inventario<br>
-        <strong>Cuando</strong> modifica campos de información del producto<br>
-        <strong>Y</strong> le da clic a “Guardar”<br>
-        <strong>Entonces</strong> el sistema guarda los cambios<br><br>
-        <strong>Escenario 02: Edición con datos inválidos</strong><br>
-        <strong>Dado que</strong> el usuario está editando información de un producto<br>
-        <strong>Cuando</strong> ingrese datos inválidos<br>
-        <strong>Entonces</strong> el sistema le muestra los errores<br>
-        <strong>Y</strong> no se guardan los cambios
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US03</td>
-      <td>Registrar salida de producto</td>
-      <td><strong>Como</strong> usuario, <strong>quiero</strong> registrar la salida de productos del inventario, <strong>para</strong> mantener actualizado el stock en tiempo real.</td>
-      <td>
-        <strong>Escenario 01: Registro válido de salida de stock</strong><br>
-        <strong>Dado que</strong> un producto tiene suficiente stock disponible<br>
-        <strong>Cuando</strong> el usuario ingresa una cantidad válida de salida<br>
-        <strong>Entonces</strong> el sistema descuenta esa cantidad del stock total<br>
-        <strong>Y</strong> guarda el movimiento<br><br>
-        <strong>Escenario 02: Intento de salida mayor al stock disponible</strong><br>
-        <strong>Dado que</strong> un producto tiene un stock exacto<br>
-        <strong>Cuando</strong> el usuario ingresa una cantidad mayor al stock actual<br>
-        <strong>Entonces</strong> el sistema le muestra un mensaje de error<br>
-        <strong>Y</strong> no permite registrar la salida
-        </td>
-      <td>EP01</td>
-    </tr>
-   <tr>
-    <td>US04</td>
-      <td>Ver historial de movimientos</td>
-      <td>
-        <strong>Como</strong> usuario,<br>
-        <strong>quiero</strong> ver el historial de entrada y salida de mis productos,<br>
-        <strong>para</strong> rastrear los cambios y movimientos en el inventario.
-      </td>
-      <td>
-        <strong>Escenario 01: Visualización del historial completo</strong><br>
-        <strong>Dado que</strong> el usuario está en la sección historial de un producto<br>
-        <strong>Cuando</strong> este producto tiene movimientos registrados<br>
-        <strong>Entonces</strong> el sistema muestra una lista con toda la información del producto<br><br>
-        <strong>Escenario 02: Producto sin historial de movimientos</strong><br>
-        <strong>Dado que</strong> el usuario accede al historial de un producto nuevo o sin registro<br>
-        <strong>Cuando</strong> no hay datos previos<br>
-        <strong>Entonces</strong> el sistema muestra un mensaje indicando que no hay movimientos registrados
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Generar alertas por bajo stock</td>
-      <td>
-        <strong>Como</strong> usuario,<br>
-        <strong>quiero</strong> recibir alertas cuando un producto está debajo del stock mínimo,<br>
-        <strong>para</strong> re-abastecerse a tiempo.
-      </td>
-      <td>
-        <strong>Escenario 01: Activación automática de alerta por stock bajo</strong><br>
-        <strong>Dado que</strong> un producto tiene un límite mínimo configurado<br>
-        <strong>Cuando</strong> su stock baja por debajo del mínimo<br>
-        <strong>Entonces</strong> el sistema genera una alerta visual<br>
-        <strong>Y</strong> notifica al usuario<br><br>
-        <strong>Escenario 02: Personalización de la alerta</strong><br>
-        <strong>Dado que</strong> el usuario desea configurar alertas específicas<br>
-        <strong>Cuando</strong> accede a la edición del producto<br>
-        <strong>Y</strong> define un nuevo valor de stock mínimo<br>
-        <strong>Entonces</strong> el sistema guarda la alerta y la activa con el nuevo valor
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-    <td>US06</td>
-      <td>Buscar productos en inventarios</td>
-      <td>
-        <strong>Como</strong> usuario,<br>
-        <strong>quiero</strong> buscar productos en el inventario por nombre o categoría,<br>
-        <strong>para</strong> encontrarlo de manera rápida y fácil.
-      </td>
-      <td>
-        <strong>Escenario 01: Búsqueda por nombre o código</strong><br>
-        <strong>Dado que</strong> el usuario está en la sección “Inventario”<br>
-        <strong>Cuando</strong> ingresa el nombre o código de un producto en el buscador<br>
-        <strong>Entonces</strong> se muestran los productos que coinciden con los términos de búsqueda<br><br>
-        <strong>Escenario 02: Búsqueda sin coincidencias</strong><br>
-        <strong>Dado que</strong> el usuario realiza una búsqueda con término no registrado<br>
-        <strong>Cuando</strong> presione “Buscar”<br>
-        <strong>Entonces</strong> el sistema le muestra un mensaje “No se encontraron los resultados”
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US07</td>
-      <td>Añadir etiquetas para productos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> poder clasificar los productos mediante etiquetas<br>
-        <strong>para</strong> organizar el stock y agilizar búsquedas.
-      </td>
-      <td>
-        <strong>Escenario 01: Añadir etiqueta correctamente</strong><br>
-        <strong>Dado que</strong> el usuario está en el formulario de “Nuevo producto”<br>
-        <strong>Cuando</strong> escribe una o varias etiquetas personalizadas<br>
-        <strong>Y</strong> hace clic en “Guardar”<br>
-        <strong>Entonces</strong> las etiquetas se registran con el producto<br>
-        <strong>Y</strong> son visibles en el detalle del producto<br><br>
-        <strong>Escenario 02: Usar etiquetas existentes</strong><br>
-        <strong>Dado que</strong> el usuario comienza a escribir una etiqueta<br>
-        <strong>Cuando</strong> ya existe una similar en el sistema<br>
-        <strong>Entonces</strong> el sistema sugiere etiquetas existentes para evitar duplicados<br><br>
-        <strong>Escenario 03: Filtrar por etiquetas</strong><br>
-        <strong>Dado que</strong> el usuario está en el módulo de inventario<br>
-        <strong>Cuando</strong> selecciona una etiqueta desde el filtro<br>
-        <strong>Entonces</strong> se muestran solo los productos que contienen esa etiqueta
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US08</td>
-      <td>Estadística de productos más vendidos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> ver un listado con los productos más vendidos durante un periodo de tiempo,<br>
-        <strong>para</strong> poder identificar qué modelos tienen mayor demanda y así planificar mejor.
-      </td>
-      <td>
-        <strong>Escenario 01: Ver productos más vendidos en un periodo</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        <strong>Cuando</strong> selecciona un rango de fechas<br>
-        <strong>Entonces</strong> el sistema muestra un ranking de productos más vendidos<br>
-        <strong>Y</strong> permite ordenarlos por unidades o ingresos<br><br>
-        <strong>Escenario 02: Exportar reporte de productos más vendidos</strong><br>
-        <strong>Dado que</strong> el usuario ya visualiza el listado<br>
-        <strong>Cuando</strong> hace clic en “Exportar”<br>
-        <strong>Entonces</strong> el sistema genera un archivo PDF o Excel con el ranking
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US09</td>
-      <td>Estadística de categoría más vendida</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> visualizar qué categorías o líneas de productos son las que más se venden,<br>
-        <strong>para</strong> saber cuál promocionar o reducir del catálogo.
-      </td>
-      <td>
-        <strong>Escenario 01: Ver categorías más vendidas</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        <strong>Cuando</strong> selecciona un rango de fechas<br>
-        <strong>Entonces</strong> se muestra un gráfico con la participación de cada categoría en las ventas<br><br>
-        <strong>Escenario 02: Ver detalle de productos por categoría</strong><br>
-        <strong>Dado que</strong> el usuario visualiza las categorías más vendidas<br>
-        <strong>Cuando</strong> hace clic sobre una categoría<br>
-        <strong>Entonces</strong> se muestra una lista con los productos que la componen y sus respectivas ventas
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-    <td>US10</td>
-      <td>Ticket promedio</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> conocer el ticket promedio de mis ventas<br>
-        <strong>para</strong> entender cuánto gasta en promedio cada cliente y evaluar la efectividad de los precios.
-      </td>
-      <td>
-        <strong>Escenario 01: Visualizar ticket promedio</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        <strong>Cuando</strong> selecciona un rango de fechas<br>
-        <strong>Entonces</strong> se muestra el ticket promedio, el total de ingresos y número de ventas<br><br>
-        <strong>Escenario 02: Comparar ticket con periodo anterior</strong><br>
-        <strong>Dado que</strong> el usuario ve el ticket promedio actual<br>
-        <strong>Cuando</strong> habilita la opción de comparación<br>
-        <strong>Entonces</strong> el sistema muestra la variación respecto al periodo anterior
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Estadística de stock promedio</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> visualizar el promedio de stock disponible<br>
-        <strong>para</strong> identificar si mantengo niveles óptimos de inventario y evitar tanto quiebres como exceso de stock.
-      </td>
-      <td>
-        <strong>Escenario 01: Visualizar stock promedio</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        <strong>Cuando</strong> seleccionan un producto o categoría y un rango de fechas<br>
-        <strong>Entonces</strong> se muestra el promedio de stock disponible en ese periodo<br><br>
-        <strong>Escenario 02: Detectar stock por fuera del rango óptimo</strong><br>
-        <strong>Dado que</strong> el usuario ve el reporte de stock promedio<br>
-        <strong>Cuando</strong> el valor está por debajo o por encima del stock ideal<br>
-        <strong>Entonces</strong> el sistema resalta los productos con riesgo de quiebre o sobrestock<br>
-        Y puede mostrar sugerencias de acción (reposición, liquidación, etc.)
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Generar reportes de inventario</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> generar reportes detallados del inventario,<br>
-        <strong>para</strong> analizar el estado general y tomar decisiones informadas.
-      </td>
-      <td>
-        <strong>Escenario 01: Generar reporte completo</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de reportes<br>
-        <strong>Cuando</strong> selecciona parámetros como fecha, información solicitada, categorías o stock mínimo<br>
-        <strong>Entonces</strong> el sistema genera un reporte con esa información<br><br>
-        <strong>Escenario 02: Exportar reporte</strong><br>
-        <strong>Dado que</strong> el usuario visualiza el reporte generado<br>
-        <strong>Cuando</strong> hace clic en “Exportar”<br>
-        <strong>Entonces</strong> el sistema descarga el reporte en formato PDF o Excel
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Controlar productos caducados</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> identificar productos próximos a caducar o ya caducados,<br>
-        <strong>para</strong> evitar pérdidas y mantener la calidad del inventario.
-      </td>
-      <td>
-        <strong>Escenario 01: Visualizar productos próximos a caducar</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
-        <strong>Cuando</strong> filtra por fecha de caducidad próxima<br>
-        <strong>Entonces</strong> el sistema muestra una lista con los productos que caducan pronto<br><br>
-        <strong>Escenario 02: Alerta de productos caducados</strong><br>
-        <strong>Dado que</strong> un producto está caducado<br>
-        <strong>Cuando</strong> el usuario accede al inventario<br>
-        <strong>Entonces</strong> el sistema muestra una alerta visual destacando esos productos
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Registrar devolución de productos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> registrar devoluciones de productos al inventario,<br>
-        <strong>para</strong> mantener el stock actualizado y controlar incidencias.
-      </td>
-      <td>
-        <strong>Escenario 01: Registro de devolución válida</strong><br>
-        <strong>Dado que</strong> un producto fue devuelto por un cliente<br>
-        <strong>Cuando</strong> el usuario ingresa la cantidad devuelta y la razón<br>
-        <strong>Y</strong> confirma el registro<br>
-        <strong>Entonces</strong> el sistema incrementa el stock del producto<br>
-        <strong>Y</strong> guarda el movimiento de devolución<br><br>
-        <strong>Escenario 02: Devolución con cantidad inválida</strong><br>
-        <strong>Dado que</strong> el usuario intenta registrar una devolución con cantidad negativa o mayor a la vendida<br>
-        <strong>Cuando</strong> hace clic en “Guardar”<br>
-        <strong>Entonces</strong> el sistema muestra un mensaje de error y no registra la devolución
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US15</td>
-      <td>Configurar roles y permisos de usuario</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> definir roles y permisos<br>
-        <strong>para</strong> los usuarios del sistema,
-      </td>
-      <td>
-        <strong>Escenario 01: Crear nuevo rol con permisos específicos</strong><br>
-        <strong>Dado que</strong> el administrador accede a la sección de configuración de usuarios<br>
-        <strong>Cuando</strong> crea un nuevo rol y asigna permisos detallados<br>
-        <strong>Entonces</strong> el rol se guarda y puede ser asignado a usuarios<br><br>
-        <strong>Escenario 02: Asignar rol a usuario</strong><br>
-        <strong>Dado que</strong> el administrador selecciona un usuario existente<br>
-        <strong>Cuando</strong> asigna un rol específico<br>
-        <strong>Entonces</strong> el sistema muestra los permisos correspondientes al rol asignado
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US16</td>
-      <td>Gestionar proveedores</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> registrar y gestionar la información de proveedores,<br>
-        <strong>para</strong> mantener un control actualizado de los contactos y facilitar la reposición de productos.
-      </td>
-      <td>
-        <strong>Escenario 01: Registro exitoso de proveedor</strong><br>
-        <strong>Dado que</strong> el usuario está en el formulario de “Nuevo proveedor”<br>
-        <strong>Cuando</strong> completa correctamente todos los campos obligatorios<br>
-        <strong>Y</strong> hace clic en “Guardar”<br>
-        <strong>Entonces</strong> el proveedor se registra en la base de datos<br>
-        <strong>Y</strong> aparece en la lista de proveedores<br><br>
-        <strong>Escenario 02: Edición de datos de proveedor</strong><br>
-        <strong>Dado que</strong> el usuario selecciona un proveedor existente<br>
-        <strong>Cuando</strong> modifica la información y guarda los cambios<br>
-        <strong>Entonces</strong> el sistema actualiza los datos del proveedor
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US17</td>
-      <td>Registrar lote de productos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> registrar productos por lote,<br>
-        <strong>para</strong> controlar el ingreso masivo con un mismo proveedor, fecha y condiciones.
-      </td>
-      <td>
-        <strong>Escenario 01: Registro de lote con múltiples productos</strong><br>
-        <strong>Dado que</strong> el usuario accede al formulario de “Nuevo lote”<br>
-        <strong>Cuando</strong> añade varios productos con fecha de ingreso, proveedor y condiciones<br>
-        <strong>Entonces</strong> el sistema guarda el lote completo<br>
-        <strong>Y</strong> vincula los productos con ese lote<br><br>
-        <strong>Escenario 02: Visualizar lote registrado</strong><br>
-        <strong>Dado que</strong> el usuario visualiza la lista de productos<br>
-        <strong>Cuando</strong> selecciona “Ver lote”<br>
-        <strong>Entonces</strong> se muestra la información común de ese grupo de productos
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-    <td>US18</td>
-      <td>Visualizar historial de stock</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> ver el historial de stock de un producto,<br>
-        <strong>para</strong> analizar su comportamiento en el tiempo y tomar mejores decisiones de compra.
-      </td>
-      <td>
-        <strong>Escenario 01: Visualizar historial por producto</strong><br>
-        <strong>Dado que</strong> el usuario accede a la ficha de un producto<br>
-        <strong>Cuando</strong> selecciona la opción 'Ver historial'<br>
-        <strong>Entonces</strong> se muestra una gráfica con las variaciones de stock a lo largo del tiempo<br><br>
-        <strong>Escenario 02: Filtro por periodo</strong><br>
-        <strong>Dado que</strong> el usuario visualiza el historial de stock<br>
-        <strong>Cuando</strong> aplica un filtro por rango de fechas<br>
-        <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos del periodo seleccionado
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US19</td>
-      <td>Configurar alertas de stock mínimo</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> configurar alertas cuando un producto alcance su stock mínimo,<br>
-        <strong>para</strong> poder reabastecerme a tiempo.
-      </td>
-      <td>
-        <strong>Escenario 01: Configurar stock mínimo</strong><br>
-        <strong>Dado que</strong> el usuario accede a la configuración de productos<br>
-        <strong>Cuando</strong> establece un valor de stock mínimo por producto<br>
-        <strong>Entonces</strong> el sistema guarda ese valor y lo considera para alertas<br><br>
-        <strong>Escenario 02: Alerta de bajo stock</strong><br>
-        <strong>Dado que</strong> un producto llega o baja del stock mínimo configurado<br>
-        <strong>Cuando</strong> el usuario accede al panel principal o al módulo de inventario<br>
-        <strong>Entonces</strong> se muestra una alerta visual indicando que se debe reponer el producto
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US20</td>
-      <td>Añadir etiquetas a productos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> añadir etiquetas personalizadas a los productos,<br>
-        <strong>para</strong> facilitar su clasificación y búsqueda dentro del inventario.
-      </td>
-      <td>
-        <strong>Escenario 01: Etiquetado desde el formulario del producto</strong><br>
-        <strong>Dado que</strong> el usuario está registrando o editando un producto<br>
-        <strong>Cuando</strong> escribe nuevas etiquetas o selecciona existentes<br>
-        <strong>Entonces</strong> las etiquetas se asocian al producto guardado<br><br>
-        <strong>Escenario 02: Buscar productos por etiqueta</strong><br>
-        <strong>Dado que</strong> el usuario está en el módulo de búsqueda o lista de productos<br>
-        <strong>Cuando</strong> ingresa el nombre de una etiqueta en el buscador<br>
-        <strong>Entonces</strong> se filtran los productos asociados a dicha etiqueta
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US21</td>
-      <td>Buscar productos en inventario</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> buscar productos en el inventario por nombre o categoría,<br>
-        <strong>para</strong> encontrarlos de forma rápida y eficiente.
-      </td>
-      <td>
-        <strong>Escenario 01: Búsqueda por nombre</strong><br>
-        <strong>Dado que</strong> el usuario accede al buscador<br>
-        <strong>Cuando</strong> ingresa parte del nombre del producto<br>
-        <strong>Entonces</strong> se muestran resultados coincidentes en tiempo real<br><br>
-        <strong>Escenario 02: Búsqueda por categoría</strong><br>
-        <strong>Dado que</strong> el usuario está en el buscador<br>
-        <strong>Cuando</strong> selecciona una categoría del filtro<br>
-        <strong>Entonces</strong> se muestran solo productos de esa categoría
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US22</td>
-      <td>Generar alertas por productos caducados</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> recibir alertas automáticas de productos caducados,<br>
-        <strong>para</strong> poder retirarlos del inventario a tiempo.
-      </td>
-      <td>
-        <strong>Escenario 01: Activar alertas automáticas</strong><br>
-        <strong>Dado que</strong> el usuario accede a configuración de alertas<br>
-        <strong>Cuando</strong> activa la opción de alerta por caducidad<br>
-        <strong>Entonces</strong> el sistema enviará notificaciones cuando haya productos vencidos<br><br>
-        <strong>Escenario 02: Visualización de productos vencidos</strong><br>
-        <strong>Dado que</strong> hay productos caducados en el inventario<br>
-        <strong>Cuando</strong> el usuario accede al sistema<br>
-        <strong>Entonces</strong> se muestra un panel o lista resaltando estos productos
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US23</td>
-      <td>Registrar ingreso de productos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> registrar el ingreso de productos al inventario,<br>
-        <strong>para</strong> mantener actualizado el stock disponible.
-      </td>
-      <td>
-        <strong>Escenario 01: Ingreso individual de producto</strong><br>
-        <strong>Dado que</strong> el usuario accede al formulario de ingreso<br>
-        <strong>Cuando</strong> registra los datos del producto y la cantidad recibida<br>
-        <strong>Entonces</strong> el sistema actualiza el stock del producto<br><br>
-        <strong>Escenario 02: Ingreso masivo por archivo</strong><br>
-        <strong>Dado que</strong> el usuario cuenta con un archivo de productos<br>
-        <strong>Cuando</strong> carga el archivo en el sistema<br>
-        <strong>Entonces</strong> se actualiza el inventario con los productos del archivo
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US24</td>
-      <td>Visualizar resumen de stock por categoría</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> ver un resumen del stock agrupado por categoría,<br>
-        <strong>para</strong> conocer el estado general del inventario de forma ordenada.
-      </td>
-      <td>
-        <strong>Escenario 01: Visualización del resumen por categoría</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de inventario<br>
-        <strong>Cuando</strong> selecciona 'Resumen por categoría'<br>
-        <strong>Entonces</strong> se muestra una tabla con cada categoría, cantidad total de productos y stock promedio<br><br>
-        <strong>Escenario 02: Acceso al detalle desde resumen</strong><br>
-        <strong>Dado que</strong> el usuario está visualizando el resumen por categoría<br>
-        <strong>Cuando</strong> hace clic en una categoría<br>
-        <strong>Entonces</strong> se despliega la lista de productos que la conforman
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-    <tr>
-      <td>US25</td>
-      <td>Comparar ventas entre periodos</td>
-      <td>
-        <strong>Como</strong> usuario<br>
-        <strong>quiero</strong> comparar las ventas entre dos periodos,<br>
-        <strong>para</strong> identificar tendencias y evaluar el impacto de promociones.
-      </td>
-      <td>
-        <strong>Escenario 01: Comparación de periodos seleccionados</strong><br>
-        <strong>Dado que</strong> el usuario accede al módulo de estadísticas<br>
-        <strong>Cuando</strong> selecciona dos periodos a comparar<br>
-        <strong>Entonces</strong> se muestra una gráfica con la diferencia de ventas<br><br>
-        <strong>Escenario 02: Comparación por categoría o producto</strong><br>
-        <strong>Dado que</strong> el usuario está visualizando la comparación general<br>
-        <strong>Cuando</strong> filtra por categoría o producto específico<br>
-        <strong>Entonces</strong> la gráfica se actualiza mostrando solo los datos seleccionados
-      </td>
-      <td>EP01 - Gestión de Inventario</td>
-    </tr>
-  </tbody>
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <th>Title</th>
+    <td colspan="3">Registra producto nuevo</td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado de su existencia desde el comienzo.
+    </td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro exitoso de producto</strong></p>
+      <ul>
+        <li>Dado que el usuario está en el formulario de “Nuevo producto”,</li>
+        <li>Cuando completa correctamente todos los campos obligatorios</li>
+        <li>Y le da clic a “Guardar”</li>
+        <li>Entonces el producto se registra en la base</li>
+        <li>Y aparece en el inventario</li>
+      </ul>
+        <p><strong>Escenario 02: Interno de registro en campos vacíos</strong></p>
+      <ul>
+        <li>Dado que el usuario está en el formulario de “Nuevo producto”</li>
+        <li>Cuando completa correctamente todos los campos obligatorios</li>
+        <li>Cuando dejas campos obligatorios vacíos</li>
+        <li>Y hace clic a “Guardar”</li>
+        <li>Entonces el sistema muestra un mensaje de error en los campos que se deben corregir</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
+<!-- US02 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td></td>
+    <td></td>
+    <td>EP01</td>
+  </tr>
+
+  <tr>
+    <th>Title</th>
+    <td colspan="3">Editar información de producto</td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.
+    </td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Edición con éxito</strong></p>
+      <ul>
+        <li><strong>Dado que</strong> el usuario ya tiene un producto en el inventario</li>
+        <li><strong>Cuando</strong> modifica campos de información del producto</li>
+        <li><strong>Y</strong> le da clic a “Guardar”</li>
+        <li><strong>Entonces</strong> el sistema guarda los cambios</li>
+      </ul>
+        <p><strong>Escenario 02: Edición con datos inválidos</strong></p>
+      <ul>
+        <li><strong>Dado que</strong> el usuario está editando información de un producto</li>
+        <li><strong>Cuando</strong> ingrese datos inválidos</li>
+        <li><strong>Entonces</strong> el sistema le muestra los errores</li>
+        <li><strong>Y</strong> no se guardan los cambios</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US03 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td></td>
+    <td></td>
+    <td>EP01</td>
+  </tr>
+
+  <tr>
+    <th>Title</th>
+    <td colspan="3">Registrar salida de producto</td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero registrar la salida de productos del inventario, para mantener actualizado el stock en tiempo real.
+    </td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro válido de salida de stock</strong></p>
+      <ul>
+        <li><strong>Dado que</strong> un producto tiene suficiente stock disponible</li>
+        <li><strong>Cuando</strong> el usuario ingresa una cantidad válida de salida</li>
+        <li><strong>Entonces</strong> el sistema descuenta esa cantidad del stock total</li>
+        <li><strong>Y</strong> guarda el movimiento</li>
+      </ul>
+        <p><strong>Escenario 02: Intento de salida mayor al stock disponible</strong></p>
+      <ul>
+        <li><strong>Dado que</strong> un producto tiene un stock exacto</li>
+        <li><strong>Cuando</strong> el usuario ingresa una cantidad mayor al stock actual</li>
+        <li><strong>Entonces</strong> el sistema le muestra un mensaje de error</li>
+        <li><strong>Y</strong> no permite registrar la salida</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<!-- US04 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US04</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Ver historial de movimientos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero ver el historial de entrada y salida de mis productos, para rastrear los cambios y movimientos en el inventario.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Visualización del historial completo</strong></p>
+      <ul>
+        <li>Dado que el usuario está en la sección historial de un producto</li>
+        <li>Cuando este producto tiene movimientos registrados</li>
+        <li>Entonces el sistema muestra una lista con toda la información del producto</li>
+      </ul>
+      <p><strong>Escenario 02: Producto sin historial de movimientos</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al historial de un producto nuevo o sin registro</li>
+        <li>Cuando no hay datos previos</li>
+        <li>Entonces el sistema muestra un mensaje indicando que no hay movimientos registrados</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US05 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US05</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Generar alertas por bajo stock</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero recibir alertas cuando un producto está debajo del stock mínimo, para reabastecerme a tiempo.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Activación automática de alerta por stock bajo</strong></p>
+      <ul>
+        <li>Dado que un producto tiene un límite mínimo configurado</li>
+        <li>Cuando su stock baja por debajo del mínimo</li>
+        <li>Entonces el sistema genera una alerta visual y notifica al usuario</li>
+      </ul>
+      <p><strong>Escenario 02: Personalización de la alerta</strong></p>
+      <ul>
+        <li>Dado que el usuario desea configurar alertas específicas</li>
+        <li>Cuando accede a la edición del producto y define un nuevo valor de stock mínimo</li>
+        <li>Entonces el sistema guarda la alerta y la activa con el nuevo valor</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US06 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US06</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Buscar productos en inventarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero buscar productos en el inventario por nombre o categoría, para encontrarlo de manera rápida y fácil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Búsqueda por nombre o código</strong></p>
+      <ul>
+        <li>Dado que el usuario está en la sección “Inventario”</li>
+        <li>Cuando ingresa el nombre o código de un producto en el buscador</li>
+        <li>Entonces se muestran los productos que coinciden con los términos de búsqueda</li>
+      </ul>
+      <p><strong>Escenario 02: Búsqueda sin coincidencias</strong></p>
+      <ul>
+        <li>Dado que el usuario realiza una búsqueda con término no registrado</li>
+        <li>Cuando presiona “Buscar”</li>
+        <li>Entonces el sistema muestra el mensaje “No se encontraron resultados”</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US07 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US07</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Añadir etiquetas para productos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero poder clasificar los productos mediante etiquetas, para organizar el stock y agilizar búsquedas.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Añadir etiqueta correctamente</strong></p>
+      <ul>
+        <li>Dado que el usuario está en el formulario de “Nuevo producto”</li>
+        <li>Cuando escribe una o varias etiquetas personalizadas y hace clic en “Guardar”</li>
+        <li>Entonces las etiquetas se registran con el producto y son visibles en su detalle</li>
+      </ul>
+      <p><strong>Escenario 02: Usar etiquetas existentes</strong></p>
+      <ul>
+        <li>Dado que el usuario comienza a escribir una etiqueta</li>
+        <li>Cuando ya existe una similar en el sistema</li>
+        <li>Entonces el sistema sugiere etiquetas existentes para evitar duplicados</li>
+      </ul>
+      <p><strong>Escenario 03: Filtrar por etiquetas</strong></p>
+      <ul>
+        <li>Dado que el usuario está en el módulo de inventario</li>
+        <li>Cuando selecciona una etiqueta desde el filtro</li>
+        <li>Entonces se muestran solo los productos que contienen esa etiqueta</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US08 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US08</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Estadística de productos más vendidos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero ver un listado con los productos más vendidos durante un periodo de tiempo, para identificar los de mayor demanda y planificar mejor.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Ver productos más vendidos en un periodo</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de estadísticas</li>
+        <li>Cuando selecciona un rango de fechas</li>
+        <li>Entonces el sistema muestra un ranking de productos más vendidos y permite ordenarlos por unidades o ingresos</li>
+      </ul>
+      <p><strong>Escenario 02: Exportar reporte</strong></p>
+      <ul>
+        <li>Dado que el usuario visualiza el listado</li>
+        <li>Cuando hace clic en “Exportar”</li>
+        <li>Entonces el sistema genera un archivo PDF o Excel con el ranking</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US09 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US09</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Estadística de categoría más vendida</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero visualizar qué categorías o líneas de productos son las que más se venden, para saber cuál promocionar o reducir del catálogo.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Ver categorías más vendidas</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de estadísticas</li>
+        <li>Cuando selecciona un rango de fechas</li>
+        <li>Entonces se muestra un gráfico con la participación de cada categoría en las ventas</li>
+      </ul>
+      <p><strong>Escenario 02: Ver detalle de productos por categoría</strong></p>
+      <ul>
+        <li>Dado que el usuario visualiza las categorías más vendidas</li>
+        <li>Cuando hace clic sobre una categoría</li>
+        <li>Entonces se muestra la lista con los productos que la componen y sus ventas</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US10 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US10</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Ticket promedio</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero conocer el ticket promedio de mis ventas para entender cuánto gasta en promedio cada cliente y evaluar la efectividad de los precios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Visualizar ticket promedio</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de estadísticas</li>
+        <li>Cuando selecciona un rango de fechas</li>
+        <li>Entonces se muestra el ticket promedio, el total de ingresos y el número de ventas</li>
+      </ul>
+      <p><strong>Escenario 02: Comparar ticket con periodo anterior</strong></p>
+      <ul>
+        <li>Dado que el usuario ve el ticket promedio actual</li>
+        <li>Cuando habilita la opción de comparación</li>
+        <li>Entonces el sistema muestra la variación respecto al periodo anterior</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US11 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US11</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Estadística de stock promedio</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero visualizar el promedio de stock disponible para identificar niveles óptimos y evitar quiebres o exceso de stock.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Visualizar stock promedio</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de estadísticas</li>
+        <li>Cuando selecciona un producto o categoría y un rango de fechas</li>
+        <li>Entonces se muestra el promedio de stock disponible en ese periodo</li>
+      </ul>
+      <p><strong>Escenario 02: Detectar stock por fuera del rango óptimo</strong></p>
+      <ul>
+        <li>Dado que el usuario ve el reporte de stock promedio</li>
+        <li>Cuando el valor está por debajo o por encima del stock ideal</li>
+        <li>Entonces el sistema resalta los productos con riesgo de quiebre o sobrestock y puede sugerir acciones</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US12 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US12</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Generar reportes de inventario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero generar reportes detallados del inventario para analizar el estado general y tomar decisiones informadas.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Generar reporte completo</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de reportes</li>
+        <li>Cuando selecciona parámetros como fecha, información, categorías o stock mínimo</li>
+        <li>Entonces el sistema genera un reporte con esa información</li>
+      </ul>
+      <p><strong>Escenario 02: Exportar reporte</strong></p>
+      <ul>
+        <li>Dado que el usuario visualiza el reporte generado</li>
+        <li>Cuando hace clic en “Exportar”</li>
+        <li>Entonces el sistema descarga el reporte en PDF o Excel</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US13 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US13</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Controlar productos caducados</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero identificar productos próximos a caducar o ya caducados, para evitar pérdidas y mantener la calidad del inventario.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Visualizar productos próximos a caducar</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de inventario</li>
+        <li>Cuando filtra por fecha de caducidad próxima</li>
+        <li>Entonces el sistema muestra una lista con los productos que caducan pronto</li>
+      </ul>
+      <p><strong>Escenario 02: Alerta de productos caducados</strong></p>
+      <ul>
+        <li>Dado que un producto está caducado</li>
+        <li>Cuando el usuario accede al inventario</li>
+        <li>Entonces el sistema muestra una alerta visual destacando esos productos</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US14 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US14</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Registrar devolución de productos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero registrar devoluciones de productos al inventario, para mantener el stock actualizado y controlar incidencias.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro de devolución válida</strong></p>
+      <ul>
+        <li>Dado que un producto fue devuelto por un cliente</li>
+        <li>Cuando el usuario ingresa la cantidad devuelta y la razón y confirma</li>
+        <li>Entonces el sistema incrementa el stock y guarda el movimiento</li>
+      </ul>
+      <p><strong>Escenario 02: Devolución con cantidad inválida</strong></p>
+      <ul>
+        <li>Dado que el usuario intenta registrar una devolución con cantidad negativa o mayor a la vendida</li>
+        <li>Cuando hace clic en “Guardar”</li>
+        <li>Entonces el sistema muestra un error y no registra la devolución</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US15 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US15</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Configurar roles y permisos de usuario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero definir roles y permisos para los usuarios del sistema.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Crear nuevo rol con permisos específicos</strong></p>
+      <ul>
+        <li>Dado que el administrador accede a la configuración de usuarios</li>
+        <li>Cuando crea un nuevo rol y asigna permisos</li>
+        <li>Entonces el rol se guarda y puede ser asignado</li>
+      </ul>
+      <p><strong>Escenario 02: Asignar rol a usuario</strong></p>
+      <ul>
+        <li>Dado que el administrador selecciona un usuario existente</li>
+        <li>Cuando asigna un rol específico</li>
+        <li>Entonces el sistema muestra los permisos del rol asignado</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US16 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US16</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Gestionar proveedores</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero registrar y gestionar la información de proveedores, para mantener contactos actualizados y facilitar la reposición.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro exitoso de proveedor</strong></p>
+      <ul>
+        <li>Dado que el usuario está en “Nuevo proveedor”</li>
+        <li>Cuando completa los campos obligatorios y guarda</li>
+        <li>Entonces el proveedor se registra y aparece en la lista</li>
+      </ul>
+      <p><strong>Escenario 02: Edición de datos de proveedor</strong></p>
+      <ul>
+        <li>Dado que el usuario selecciona un proveedor existente</li>
+        <li>Cuando modifica la información y guarda</li>
+        <li>Entonces el sistema actualiza los datos del proveedor</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US17 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US17</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Registrar lote de productos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero registrar productos por lote, para controlar el ingreso masivo con un mismo proveedor, fecha y condiciones.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro de lote con múltiples productos</strong></p>
+      <ul>
+        <li>Dado que el usuario accede a “Nuevo lote”</li>
+        <li>Cuando añade varios productos con fecha, proveedor y condiciones</li>
+        <li>Entonces el sistema guarda el lote y vincula los productos</li>
+      </ul>
+      <p><strong>Escenario 02: Visualizar lote registrado</strong></p>
+      <ul>
+        <li>Dado que el usuario visualiza la lista de productos</li>
+        <li>Cuando selecciona “Ver lote”</li>
+        <li>Entonces se muestra la información común del lote</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US18 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US18</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Visualizar historial de stock</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero ver el historial de stock de un producto, para analizar su comportamiento y tomar mejores decisiones de compra.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Visualizar historial por producto</strong></p>
+      <ul>
+        <li>Dado que el usuario accede a la ficha de un producto</li>
+        <li>Cuando selecciona “Ver historial”</li>
+        <li>Entonces se muestra una gráfica con variaciones de stock en el tiempo</li>
+      </ul>
+      <p><strong>Escenario 02: Filtro por periodo</strong></p>
+      <ul>
+        <li>Dado que el usuario visualiza el historial de stock</li>
+        <li>Cuando aplica un filtro por rango de fechas</li>
+        <li>Entonces la gráfica se actualiza con el periodo seleccionado</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US19 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US19</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Configurar alertas de stock mínimo</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero configurar alertas cuando un producto alcance su stock mínimo, para poder reabastecerme a tiempo.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Configurar stock mínimo</strong></p>
+      <ul>
+        <li>Dado que el usuario accede a la configuración de productos</li>
+        <li>Cuando establece un valor de stock mínimo por producto</li>
+        <li>Entonces el sistema guarda ese valor para alertas</li>
+      </ul>
+      <p><strong>Escenario 02: Alerta de bajo stock</strong></p>
+      <ul>
+        <li>Dado que un producto llega o baja del stock mínimo configurado</li>
+        <li>Cuando el usuario accede al panel o inventario</li>
+        <li>Entonces se muestra una alerta visual indicando que se debe reponer</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US20 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US20</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Añadir etiquetas a productos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero añadir etiquetas personalizadas a los productos, para facilitar su clasificación y búsqueda.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Etiquetado desde el formulario del producto</strong></p>
+      <ul>
+        <li>Dado que el usuario está registrando o editando un producto</li>
+        <li>Cuando escribe nuevas etiquetas o selecciona existentes</li>
+        <li>Entonces las etiquetas se asocian al producto guardado</li>
+      </ul>
+      <p><strong>Escenario 02: Buscar productos por etiqueta</strong></p>
+      <ul>
+        <li>Dado que el usuario está en el módulo de búsqueda o lista</li>
+        <li>Cuando ingresa el nombre de una etiqueta</li>
+        <li>Entonces se filtran los productos asociados a esa etiqueta</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US21 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US21</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Buscar productos en inventario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero buscar productos en el inventario por nombre o categoría, para encontrarlos de forma rápida y eficiente.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Búsqueda por nombre</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al buscador</li>
+        <li>Cuando ingresa parte del nombre del producto</li>
+        <li>Entonces se muestran resultados coincidentes en tiempo real</li>
+      </ul>
+      <p><strong>Escenario 02: Búsqueda por categoría</strong></p>
+      <ul>
+        <li>Dado que el usuario está en el buscador</li>
+        <li>Cuando selecciona una categoría del filtro</li>
+        <li>Entonces se muestran solo productos de esa categoría</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US22 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US22</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Generar alertas por productos caducados</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero recibir alertas automáticas de productos caducados, para poder retirarlos del inventario a tiempo.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Activar alertas automáticas</strong></p>
+      <ul>
+        <li>Dado que el usuario accede a configuración de alertas</li>
+        <li>Cuando activa la opción de alerta por caducidad</li>
+        <li>Entonces el sistema enviará notificaciones cuando haya productos vencidos</li>
+      </ul>
+      <p><strong>Escenario 02: Visualización de productos vencidos</strong></p>
+      <ul>
+        <li>Dado que hay productos caducados en el inventario</li>
+        <li>Cuando el usuario accede al sistema</li>
+        <li>Entonces se muestra un panel o lista resaltando estos productos</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US23 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US23</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Registrar ingreso de productos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero registrar el ingreso de productos al inventario, para mantener actualizado el stock disponible.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Ingreso individual de producto</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al formulario de ingreso</li>
+        <li>Cuando registra los datos del producto y la cantidad recibida</li>
+        <li>Entonces el sistema actualiza el stock del producto</li>
+      </ul>
+      <p><strong>Escenario 02: Ingreso masivo por archivo</strong></p>
+      <ul>
+        <li>Dado que el usuario cuenta con un archivo de productos</li>
+        <li>Cuando carga el archivo en el sistema</li>
+        <li>Entonces se actualiza el inventario con los productos del archivo</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US24 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US24</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Visualizar resumen de stock por categoría</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero ver un resumen del stock agrupado por categoría, para conocer el estado general del inventario de forma ordenada.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Visualización del resumen por categoría</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de inventario</li>
+        <li>Cuando selecciona “Resumen por categoría”</li>
+        <li>Entonces se muestra una tabla con cada categoría, cantidad total de productos y stock promedio</li>
+      </ul>
+      <p><strong>Escenario 02: Acceso al detalle desde el resumen</strong></p>
+      <ul>
+        <li>Dado que el usuario visualiza el resumen por categoría</li>
+        <li>Cuando hace clic en una categoría</li>
+        <li>Entonces se despliega la lista de productos que la conforman</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US25 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US25</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Comparar ventas entre periodos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero comparar las ventas entre dos periodos, para identificar tendencias y evaluar el impacto de promociones.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Comparación de periodos seleccionados</strong></p>
+      <ul>
+        <li>Dado que el usuario accede al módulo de estadísticas</li>
+        <li>Cuando selecciona dos periodos a comparar</li>
+        <li>Entonces se muestra una gráfica con la diferencia de ventas</li>
+      </ul>
+      <p><strong>Escenario 02: Comparación por categoría o producto</strong></p>
+      <ul>
+        <li>Dado que el usuario visualiza la comparación general</li>
+        <li>Cuando filtra por categoría o producto</li>
+        <li>Entonces la gráfica se actualiza con los datos seleccionados</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<!-- US26 – Plan A: Entrada por voz -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US26</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Registrar productos por voz</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero registrar productos mediante comandos de voz (ej. “Agregar 20 botellas de agua al inventario”), para ganar rapidez y comodidad cuando no pueda usar el teclado.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Comando válido</strong></p>
+      <ul>
+        <li>Dado que el usuario activa el modo voz,</li>
+        <li>Cuando dicta “Agregar &lt;cantidad&gt; &lt;producto&gt; al inventario”,</li>
+        <li>Entonces el sistema reconoce cantidad y producto, muestra un resumen y al confirmar registra el movimiento.</li>
+      </ul>
+      <p><strong>Escenario 02: Ambigüedad o error</strong></p>
+      <ul>
+        <li>Dado que el audio no es claro o hay varias coincidencias,</li>
+        <li>Cuando el sistema no puede identificar el producto,</li>
+        <li>Entonces solicita confirmación/sugerencias y permite corregir o escribir manualmente.</li>
+      </ul>
+      <p><strong>Escenario 03: Dictado continuo</strong></p>
+      <ul>
+        <li>Dado que el usuario permanece en modo voz,</li>
+        <li>Cuando dicta varios comandos consecutivos,</li>
+        <li>Entonces el sistema procesa cada ítem y permite “cancelar” o “terminar” por voz.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US27 – Plan B: Geolocalización (GPS) -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US27</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Geolocalización de productos y entregas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero integrar GPS para registrar procedencia, puntos de entrega y visualizar en un mapa las sedes vinculadas a la tienda principal, para optimizar trazabilidad y distribución.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Captura de ubicación</strong></p>
+      <ul>
+        <li>Dado que el usuario registra un movimiento/entrega,</li>
+        <li>Cuando concede permisos de ubicación,</li>
+        <li>Entonces el sistema guarda lat/long y muestra un pin en el mapa del producto o entrega.</li>
+      </ul>
+      <p><strong>Escenario 02: Mapa de sedes</strong></p>
+      <ul>
+        <li>Dado que el usuario abre el mapa,</li>
+        <li>Cuando selecciona “Sedes y rutas”,</li>
+        <li>Entonces visualiza marcadores por sede y puede filtrar por estado.</li>
+      </ul>
+      <p><strong>Escenario 03: Sin permisos</strong></p>
+      <ul>
+        <li>Dado que el usuario deniega GPS,</li>
+        <li>Cuando intenta registrar ubicación,</li>
+        <li>Entonces el sistema muestra aviso y permite ingresar dirección manual.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US28 – Plan C (Localiza): Mapa + QR en almacén -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US28</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Localizar productos con mapa y QR</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero ubicar productos dentro del almacén usando un mapa interactivo e integración de códigos QR, para encontrarlos con precisión.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Asociar ubicación por QR</strong></p>
+      <ul>
+        <li>Dado que el usuario escanea un QR de estantería/pasillo,</li>
+        <li>Cuando guarda la ubicación en la ficha del producto,</li>
+        <li>Entonces el sistema vincula el producto a ese punto del mapa.</li>
+      </ul>
+      <p><strong>Escenario 02: Búsqueda y ruta</strong></p>
+      <ul>
+        <li>Dado que el usuario busca un producto,</li>
+        <li>Cuando selecciona “Ver ubicación”,</li>
+        <li>Entonces el mapa señala pasillo/estante y puede mostrar ruta sugerida.</li>
+      </ul>
+      <p><strong>Escenario 03: QR inválido</strong></p>
+      <ul>
+        <li>Dado que el QR no existe o está dañado,</li>
+        <li>Cuando intenta asociarlo,</li>
+        <li>Entonces el sistema alerta y permite ingresar ubicación manual.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US29 – Plan C (Predice): Reabastecimiento inteligente -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US29</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Predicción de reabastecimiento</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero recibir sugerencias de cuándo y cuánto reponer según patrones de ventas y stock mínimo, para evitar quiebres y sobrestock.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Sugerencia de compra</strong></p>
+      <ul>
+        <li>Dado que el sistema analiza histórico y lead time,</li>
+        <li>Cuando el stock proyectado cae bajo el nivel objetivo,</li>
+        <li>Entonces propone fecha y cantidad de reabastecimiento y permite aceptarla/editarla.</li>
+      </ul>
+      <p><strong>Escenario 02: Alerta de quiebre inminente</strong></p>
+      <ul>
+        <li>Dado que el consumo supera la previsión,</li>
+        <li>Cuando se detecta riesgo de quiebre,</li>
+        <li>Entonces se muestra alerta prioritaria y recomendaciones de acción.</li>
+      </ul>
+      <p><strong>Escenario 03: Parámetros ajustables</strong></p>
+      <ul>
+        <li>Dado que el usuario abre “Predicción”,</li>
+        <li>Cuando ajusta stock mínimo, tiempo de reposición y estacionalidad,</li>
+        <li>Entonces el modelo recalcula y actualiza las sugerencias.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- US30 – Plan D: Escaneo por lotes con cámara rápida (visión) -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>US30</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero registrar lotes tomando una foto del producto/lote para que una API de visión devuelva etiquetas genéricas; luego confirmar producto exacto y cantidad y ver su ubicación en el almacén virtual.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro por visión</strong></p>
+      <ul>
+        <li>Dado que el usuario abre “Escaneo rápido”,</li>
+        <li>Cuando toma una foto del lote,</li>
+        <li>Entonces la API (p.ej., ML Kit) devuelve etiquetas; el usuario elige el producto, ingresa cantidad y confirma el registro del lote.</li>
+      </ul>
+      <p><strong>Escenario 02: Etiquetas ambiguas</strong></p>
+      <ul>
+        <li>Dado que la API devuelve varias opciones o no encuentra coincidencias,</li>
+        <li>Cuando el usuario revisa sugerencias,</li>
+        <li>Entonces puede seleccionar/corregir manualmente y continuar sin perder el flujo.</li>
+      </ul>
+      <p><strong>Escenario 03: Ubicación en almacén virtual</strong></p>
+      <ul>
+        <li>Dado que el lote quedó registrado,</li>
+        <li>Cuando el usuario finaliza,</li>
+        <li>Entonces el sistema muestra o permite elegir la ubicación del lote en el mapa del almacén.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### Technical Stories
 
 En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave de StockWise. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros. 
 
-### Technical Stories
+<!-- TS01 -->
 <table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>Título</th>
-      <th>Descripción técnica</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>TS01</td>
-      <td>POST sign up</td>
-      <td>Como desarrollador, Quiero tener un endpoint para permitir el registro de nuevos usuarios, Para que los datos se almacenen correctamente en el backend.</td>
-      <td>
-        <strong>Escenario 1:</strong><br>
-        Dado que tengo acceso al endpoint de registro de usuarios,<br>
-        Cuando envío una solicitud con datos válidos de un nuevo usuario,<br>
-        Entonces el usuario se registra exitosamente en la base de datos y recibo una confirmación.<br><br>
-        <strong>Escenario 2:</strong><br>
-        Dado que tengo acceso al endpoint de registro de usuarios,<br>
-        Cuando envío una solicitud con datos inválidos,<br>
-        Entonces la solicitud es rechazada y recibo un mensaje de error adecuado.
-      </td>
-      <td>US12</td>
-    </tr>
-    <tr>
-      <td>TS02</td>
-      <td>POST sign in</td>
-      <td>Como desarrollador, Quiero implementar el login de usuarios, Para que accedan de forma segura al sistema.</td>
-      <td>
-        <strong>Escenario 1</strong><br>
-        Dado que tengo acceso al endpoint de autenticación,<br>
-        Cuando envío credenciales válidas,<br>
-        Entonces el sistema me devuelve un token de acceso o confirmación de inicio de sesión.<br><br>
-        <strong>Escenario 2</strong><br>
-        Dado que tengo acceso al endpoint de autenticación,<br>
-        Cuando envío credenciales inválidas,<br>
-        Entonces el sistema rechaza la autenticación y recibo un mensaje de error adecuado.
-      </td>
-      <td>US11</td>
-    </tr>
-    <tr>
-      <td>TS03</td>
-      <td>POST products</td>
-      <td>Como desarrollador, Quiero crear un endpoint para registrar productos, Para que puedan ser almacenados y gestionados en el sistema.</td>
-      <td>
-        <strong>Escenario 1</strong><br>
-        Dado que tengo acceso al endpoint de productos,<br>
-        Cuando envío los datos correctos de un nuevo producto,<br>
-        Entonces el producto se guarda correctamente y recibo una confirmacióno.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de productos,<br>
-        Cuando envío datos inválidos o incompletos,<br>
-        Entonces recibo un mensaje de error adecuado y el producto no se registra.
-      </td>
-      <td>US01</td>
-    </tr>
-    <tr>
-      <td>TS04</td>
-      <td>GET product</td>
-      <td>Como desarrollador, Quiero obtener la lista de productos registrados mediante un endpoint, Para mostrarlos en la aplicación.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de productos,<br>
-        Cuando hago una solicitud,<br>
-        Entonces recibo una lista de productos en el formato esperado.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de productos,<br>
-        Cuando no hay productos registrados,<br>
-        Entonces recibo un mensaje indicando que no existen productos.
-      </td>
-      <td>US01</td>
-    </tr>
-    <tr>
-      <td>TS05</td>
-      <td>GET products by category</td>
-      <td>Como desarrollador, Quiero obtener productos por categoría mediante un endpoint, Para facilitar búsquedas específicas en la aplicación.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de productos por categoría,<br>
-        Cuando envío una solicitud con una categoría existente,<br>
-        Entonces recibo los productos correspondientes a esa categoría.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de productos por categoría,<br>
-        Cuando envío una categoría que no existe,<br>
-        Entonces recibo un mensaje de error o lista vacía.
-      </td>
-      <td>US01</td>
-    </tr>
-    <tr>
-      <td>TS06</td>
-      <td>GET products by tag</td>
-      <td>Como desarrollador, Quiero obtener productos por etiqueta (tag) mediante un endpoint, Para mejorar la organización y búsqueda.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de productos por etiqueta,<br>
-        Cuando envío una etiqueta válida,<br>
-        Entonces recibo los productos correspondientes.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de productos por etiqueta,<br>
-        Cuando envío una etiqueta inexistente,<br>
-        Entonces recibo un mensaje de que no hay resultados.
-      </td>
-      <td>US01</td>
-    </tr>
-    <tr>
-      <td>TS07</td>
-      <td>POST inventories</td>
-      <td>Como desarrollador, Quiero registrar inventario de productos mediante un endpoint, Para mantener el control de stock.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios,<br>
-        Cuando envío datos válidos de inventario,<br>
-        Entonces el inventario se registra correctamente.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios,<br>
-        Cuando envío datos inválidos,<br>
-        Entonces el registro es rechazado y recibo un mensaje de error.
-      </td>
-      <td>US12</td>
-    </tr>
-    <tr>
-      <td>TS08</td>
-      <td>GET inventories by price/td>
-      <td>Como desarrollador, Quiero obtener inventarios filtrados por precio, Para facilitar el análisis de costos.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por precio,<br>
-        Cuando consulto con un rango válido,<br>
-        Entonces recibo los inventarios que cumplen con el filtro.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por precio,<br>
-        Cuando no hay inventarios dentro del rango,<br>
-        Entonces recibo un mensaje indicando que no hay resultados.
-      </td>
-      <td>US06</td>
-    </tr>
-    <tr>
-      <td>TS09</td>
-      <td>GET inventories by product</td>
-      <td>Como desarrollador, Quiero obtener el inventario correspondiente a un producto específico, Para conocer su disponibilidad actual.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por producto,<br>
-        Cuando envío el ID de un producto existente,<br>
-        Entonces recibo la información del inventario de ese producto en el formato esperado.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por producto,<br>
-        Cuando envío el ID de un producto que no existe,<br>
-        Entonces recibo un mensaje indicando que no se encontró información de inventario.
-      </td>
-      <td>US06</td>
-    </tr>
-    <tr>
-      <td>TS10</td>
-      <td>GET inventories by entry date</td>
-      <td>Como desarrollador, Quiero obtener inventarios filtrados por fecha de ingreso, Para realizar consultas cronológicas del inventario.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por fecha de ingreso,<br>
-        Cuando envío una fecha con registros existente,<br>
-        Entonces recibo la lista de inventarios correspondientes a esa fecha.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por fecha de ingreso,<br>
-        Cuando envío una fecha sin registros,<br>
-        EEntonces recibo un mensaje indicando que no hay resultados para esa fecha.
-      </td>
-      <td>US06</td>
-    </tr>
-    <tr>
-      <td>TUS11</td>
-      <td>GET inventories by quantity </td>
-      <td>Como desarrollador, Quiero obtener inventarios que coincidan con una cantidad específica o rango, Para monitorear niveles de stock críticos o excesivos.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por cantidad,<br>
-        Cuando envío un valor o rango válido,<br>
-        Entonces recibo los inventarios correspondientes.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por cantidad,<br>
-        Cuando envío un valor o rango sin coincidencias,<br>
-        Entonces recibo un mensaje de que no hay inventarios con esas cantidades.
-      </td>
-      <td>US06</td>
-    </tr>
-    <tr>
-      <td>TS12</td>
-      <td>GET inventories by  supplier</td>
-      <td>Como desarrollador, Quiero obtener el inventario de productos filtrado por proveedor mediante un endpoint, Para consultar qué productos están asociados a cada proveedor.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por proveedor,<br>
-        Cuando envío el identificador de un proveedor existente,<br>
-        Entonces recibo la lista de inventarios asociados a ese proveedor en el formato esperado.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de inventarios por proveedor,<br>
-        Cuando envío el identificador de un proveedor que no tiene productos,<br>
-        Entonces recibo un mensaje indicando que no se encontraron inventarios para ese proveedor.
-      </td>
-      <td>US06</td>
-    </tr>
-    <tr>
-      <td>TS13</td>
-      <td>POST alerts</td>
-      <td>Como desarrollador, Quiero registrar alertas mediante un endpoint, Para notificar situaciones como bajo stock o eventos relevantes del sistema.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de alertas,<br>
-        Cuando envío una alerta con datos válidos,<br>
-        Entonces la alerta se guarda correctamente y recibo confirmación.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de alertas,<br>
-        Cuando envío datos inválido,<br>
-        Entonces recibo un mensaje de error y la alerta no se registra.
-      </td>
-      <td>US19</td>
-    </tr>
-    <tr>
-      <td>TS14</td>
-      <td>GET alerts</td>
-      <td>Como desarrollador, Quiero obtener el listado de alertas del sistema, Para visualizar y actuar sobre situaciones críticas o inusuales.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de alertas,<br>
-        Cuando realizo una solicitud,<br>
-        Entonces recibo todas las alertas registradas en el formato esperado.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de alertas,<br>
-        Cuando no hay alertas registradas,<br>
-        Entonces recibo un mensaje indicando que no existen alertas.
-      </td>
-      <td>US019</td>
-    </tr>
-    <tr>
-      <td>TS15</td>
-      <td>POST combos</td>
-      <td>Como desarrollador, Quiero registrar combos de productos (paquetes) mediante un endpoint, Para ofrecerlos como promociones o agrupaciones de productos.</td>
-      <td>
-        <strong>Escenario 1: </strong><br>
-        Dado que tengo acceso al endpoint de combos,<br>
-        Cuando envío un combo con datos válidos,<br>
-        Entonces el combo se registra exitosamente y recibo una confirmación.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de combos,<br>
-        Cuando envío un combo con datos inválidos,<br>
-        Entonces recibo un mensaje de error y el combo no se registra.
-      </td>
-      <td>US01</td>
-    </tr>
-    <tr>
-      <td>TS16</td>
-      <td>GET combos</td>
-      <td>Como desarrollador, Quiero obtener los combos registrados en el sistema, Para mostrarlos como opciones agrupadas de productos.</td>
-      <td>
-        <strong>Escenario 1: </strong> <br> 
-        Dado que tengo acceso al endpoint de combos,<br>
-        Cuando hago una solicitud,<br>
-        Entonces recibo la lista de combos registrados.<br><br>
-        <strong>Escenario 2: </strong><br>
-        Dado que tengo acceso al endpoint de combos,<br>
-        Cuando no hay combos registrados,<br>
-        Entonces recibo un mensaje indicando que no existen combos disponibles.
-      </td>
-      <td>US01</td>
-    </tr>
-  </tbody>
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS01</td><td></td><td></td><td>US12</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">POST sign up</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero tener un endpoint para permitir el registro de nuevos usuarios, Para que los datos se almacenen correctamente en el backend.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1:</strong><br>
+      Dado que tengo acceso al endpoint de registro de usuarios,<br>
+      Cuando envío una solicitud con datos válidos de un nuevo usuario,<br>
+      Entonces el usuario se registra exitosamente en la base de datos y recibo una confirmación.<br><br>
+      <strong>Escenario 2:</strong><br>
+      Dado que tengo acceso al endpoint de registro de usuarios,<br>
+      Cuando envío una solicitud con datos inválidos,<br>
+      Entonces la solicitud es rechazada y recibo un mensaje de error adecuado.
+    </td>
+  </tr>
 </table>
+<br>
+
+<!-- TS02 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS02</td><td></td><td></td><td>US11</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">POST sign in</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero implementar el login de usuarios, Para que accedan de forma segura al sistema.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1</strong><br>
+      Dado que tengo acceso al endpoint de autenticación,<br>
+      Cuando envío credenciales válidas,<br>
+      Entonces el sistema me devuelve un token de acceso o confirmación de inicio de sesión.<br><br>
+      <strong>Escenario 2</strong><br>
+      Dado que tengo acceso al endpoint de autenticación,<br>
+      Cuando envío credenciales inválidas,<br>
+      Entonces el sistema rechaza la autenticación y recibo un mensaje de error adecuado.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS03 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS03</td><td></td><td></td><td>US01</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">POST products</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero crear un endpoint para registrar productos, Para que puedan ser almacenados y gestionados en el sistema.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1</strong><br>
+      Dado que tengo acceso al endpoint de productos,<br>
+      Cuando envío los datos correctos de un nuevo producto,<br>
+      Entonces el producto se guarda correctamente y recibo una confirmación.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de productos,<br>
+      Cuando envío datos inválidos o incompletos,<br>
+      Entonces recibo un mensaje de error adecuado y el producto no se registra.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS04 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS04</td><td></td><td></td><td>US01</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET product</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener la lista de productos registrados mediante un endpoint, Para mostrarlos en la aplicación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de productos,<br>
+      Cuando hago una solicitud,<br>
+      Entonces recibo una lista de productos en el formato esperado.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de productos,<br>
+      Cuando no hay productos registrados,<br>
+      Entonces recibo un mensaje indicando que no existen productos.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS05 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS05</td><td></td><td></td><td>US01</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET products by category</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener productos por categoría mediante un endpoint, Para facilitar búsquedas específicas en la aplicación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de productos por categoría,<br>
+      Cuando envío una solicitud con una categoría existente,<br>
+      Entonces recibo los productos correspondientes a esa categoría.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de productos por categoría,<br>
+      Cuando envío una categoría que no existe,<br>
+      Entonces recibo un mensaje de error o lista vacía.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS06 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS06</td><td></td><td></td><td>US01</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET products by tag</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener productos por etiqueta (tag) mediante un endpoint, Para mejorar la organización y búsqueda.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de productos por etiqueta,<br>
+      Cuando envío una etiqueta válida,<br>
+      Entonces recibo los productos correspondientes.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de productos por etiqueta,<br>
+      Cuando envío una etiqueta inexistente,<br>
+      Entonces recibo un mensaje de que no hay resultados.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS07 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS07</td><td></td><td></td><td>US12</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">POST inventories</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero registrar inventario de productos mediante un endpoint, Para mantener el control de stock.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios,<br>
+      Cuando envío datos válidos de inventario,<br>
+      Entonces el inventario se registra correctamente.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios,<br>
+      Cuando envío datos inválidos,<br>
+      Entonces el registro es rechazado y recibo un mensaje de error.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS08 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS08</td><td></td><td></td><td>US06</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET inventories by price</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener inventarios filtrados por precio, Para facilitar el análisis de costos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por precio,<br>
+      Cuando consulto con un rango válido,<br>
+      Entonces recibo los inventarios que cumplen con el filtro.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por precio,<br>
+      Cuando no hay inventarios dentro del rango,<br>
+      Entonces recibo un mensaje indicando que no hay resultados.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS09 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS09</td><td></td><td></td><td>US06</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET inventories by product</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener el inventario correspondiente a un producto específico, Para conocer su disponibilidad actual.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por producto,<br>
+      Cuando envío el ID de un producto existente,<br>
+      Entonces recibo la información del inventario de ese producto en el formato esperado.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por producto,<br>
+      Cuando envío el ID de un producto que no existe,<br>
+      Entonces recibo un mensaje indicando que no se encontró información de inventario.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS10 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS10</td><td></td><td></td><td>US06</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET inventories by entry date</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener inventarios filtrados por fecha de ingreso, Para realizar consultas cronológicas del inventario.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por fecha de ingreso,<br>
+      Cuando envío una fecha con registros existente,<br>
+      Entonces recibo la lista de inventarios correspondientes a esa fecha.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por fecha de ingreso,<br>
+      Cuando envío una fecha sin registros,<br>
+      EEntonces recibo un mensaje indicando que no hay resultados para esa fecha.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TUS11 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TUS11</td><td></td><td></td><td>US06</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET inventories by quantity</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener inventarios que coincidan con una cantidad específica o rango, Para monitorear niveles de stock críticos o excesivos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por cantidad,<br>
+      Cuando envío un valor o rango válido,<br>
+      Entonces recibo los inventarios correspondientes.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por cantidad,<br>
+      Cuando envío un valor o rango sin coincidencias,<br>
+      Entonces recibo un mensaje de que no hay inventarios con esas cantidades.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS12 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS12</td><td></td><td></td><td>US06</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET inventories by  supplier</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener el inventario de productos filtrado por proveedor mediante un endpoint, Para consultar qué productos están asociados a cada proveedor.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por proveedor,<br>
+      Cuando envío el identificador de un proveedor existente,<br>
+      Entonces recibo la lista de inventarios asociados a ese proveedor en el formato esperado.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de inventarios por proveedor,<br>
+      Cuando envío el identificador de un proveedor que no tiene productos,<br>
+      Entonces recibo un mensaje indicando que no se encontraron inventarios para ese proveedor.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS13 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS13</td><td></td><td></td><td>US19</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">POST alerts</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero registrar alertas mediante un endpoint, Para notificar situaciones como bajo stock o eventos relevantes del sistema.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de alertas,<br>
+      Cuando envío una alerta con datos válidos,<br>
+      Entonces la alerta se guarda correctamente y recibo confirmación.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de alertas,<br>
+      Cuando envío datos inválido,<br>
+      Entonces recibo un mensaje de error y la alerta no se registra.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS14 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS14</td><td></td><td></td><td>US019</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET alerts</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener el listado de alertas del sistema, Para visualizar y actuar sobre situaciones críticas o inusuales.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de alertas,<br>
+      Cuando realizo una solicitud,<br>
+      Entonces recibo todas las alertas registradas en el formato esperado.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de alertas,<br>
+      Cuando no hay alertas registradas,<br>
+      Entonces recibo un mensaje indicando que no existen alertas.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS15 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS15</td><td></td><td></td><td>US01</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">POST combos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero registrar combos de productos (paquetes) mediante un endpoint, Para ofrecerlos como promociones o agrupaciones de productos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong><br>
+      Dado que tengo acceso al endpoint de combos,<br>
+      Cuando envío un combo con datos válidos,<br>
+      Entonces el combo se registra exitosamente y recibo una confirmación.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de combos,<br>
+      Cuando envío un combo con datos inválidos,<br>
+      Entonces recibo un mensaje de error y el combo no se registra.
+    </td>
+  </tr>
+</table>
+<br>
+
+<!-- TS16 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS16</td><td></td><td></td><td>US01</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">GET combos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, Quiero obtener los combos registrados en el sistema, Para mostrarlos como opciones agrupadas de productos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <strong>Escenario 1: </strong> <br>
+      Dado que tengo acceso al endpoint de combos,<br>
+      Cuando hago una solicitud,<br>
+      Entonces recibo la lista de combos registrados.<br><br>
+      <strong>Escenario 2: </strong><br>
+      Dado que tengo acceso al endpoint de combos,<br>
+      Cuando no hay combos registrados,<br>
+      Entonces recibo un mensaje indicando que no existen combos disponibles.
+    </td>
+  </tr>
+</table>
+
 
 ### 2.4.2. Impact Mapping
 
