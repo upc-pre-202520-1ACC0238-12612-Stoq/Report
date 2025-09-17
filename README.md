@@ -1,46 +1,54 @@
 # Capítulo II: Requirements Development and Software Solution Design
+
 ## 2.1. Competidores
+
 ### 2.1.1. Análisis competitivo
- # Análisis Competitivo
+
+# Análisis Competitivo
 
 ## Competitive Analysis Landscape
 
-| **Objetivo del análisis:** Identificar el posicionamiento competitivo de StockWise en el mercado de aplicaciones móviles de gestión de inventarios para pymes, entendiendo las ventajas diferenciales y oportunidades de mejora. |  |  |  |
-|---|---|---|---|
-|  | **StockWise** | **Zoho Inventory** | **Odoo Inventory** | **TradeGecko** |
-| **PERFIL** | **Overview** | Solución móvil integral especializada en gestión de inventarios para pymes y emprendedores | Suite de negocio completa con módulo de inventario como parte de su ecosistema | Software de gestión open-source con módulo de inventario personalizable | Plataforma de gestión de inventario centrada en comercio electrónico y retail |
-|  | **Ventaja competitiva** | Especialización móvil, interfaz intuitiva, planes funcionales específicos (voz, GPS, IA) y enfoque en pymes | Integración completa con ecosistema Zoho y terceros, robustez funcional | Flexibilidad y personalización por ser open-source | Fuerte integración con canales de e-commerce y plataformas de venta |
-| **PERFIL DE MARKETING** | **Mercado objetivo** | Pymes, emprendedores, startups y bodegas especializadas | Medianas empresas y pymes en crecimiento | Empresas de todos los tamaños que buscan personalización | Negocios de e-commerce y retail |
-|  | **Estrategias de marketing** | Marketing digital, ASO, comunidades de emprendedores, modelo freemium | Marketing B2B, fuerza de ventas, contenido educativo | Comunidad open-source, partners de implementación | Marketing especializado en e-commerce, ferias sectoriales |
-| **PERFIL DE PRODUCTO** | **Productos & Servicios** | App móvil con: gestión inventory, alertas, reportes, boletas, planes voz/GPS/IA/scanner | Software web y móvil con: inventory, órdenes venta, envíos, facturación | Suite modular web/móvil con: inventory, manufactura, ventas, CRM | Plataforma web/móvil: inventory, pedidos, logística, analytics |
-|  | **Precios & Costos** | Modelo freemium con planes premium escalables por funcionalidad | Planes por volumen de órdenes, desde gratis hasta enterprise | Freemium modular, costos de implementación y personalización | Planes premium por volumen de ventas y usuarios |
-|  | **Canales de distribución** | Móvil (iOS/Android) | Web y móvil (iOS/Android) | Web y móvil (iOS/Android) | Web y móvil (iOS/Android) |
+| **Objetivo del análisis:** Identificar el posicionamiento competitivo de StockWise en el mercado de aplicaciones móviles de gestión de inventarios para pymes, entendiendo las ventajas diferenciales y oportunidades de mejora. |                              |                                                                                                             |                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+|                                                                                                                                                                                                                                  | **StockWise**                | **Zoho Inventory**                                                                                          | **Odoo Inventory**                                                             | **TradeGecko**                                                          |
+| **PERFIL**                                                                                                                                                                                                                       | **Overview**                 | Solución móvil integral especializada en gestión de inventarios para pymes y emprendedores                  | Suite de negocio completa con módulo de inventario como parte de su ecosistema | Software de gestión open-source con módulo de inventario personalizable | Plataforma de gestión de inventario centrada en comercio electrónico y retail |
+|                                                                                                                                                                                                                                  | **Ventaja competitiva**      | Especialización móvil, interfaz intuitiva, planes funcionales específicos (voz, GPS, IA) y enfoque en pymes | Integración completa con ecosistema Zoho y terceros, robustez funcional        | Flexibilidad y personalización por ser open-source                      | Fuerte integración con canales de e-commerce y plataformas de venta           |
+| **PERFIL DE MARKETING**                                                                                                                                                                                                          | **Mercado objetivo**         | Pymes, emprendedores, startups y bodegas especializadas                                                     | Medianas empresas y pymes en crecimiento                                       | Empresas de todos los tamaños que buscan personalización                | Negocios de e-commerce y retail                                               |
+|                                                                                                                                                                                                                                  | **Estrategias de marketing** | Marketing digital, ASO, comunidades de emprendedores, modelo freemium                                       | Marketing B2B, fuerza de ventas, contenido educativo                           | Comunidad open-source, partners de implementación                       | Marketing especializado en e-commerce, ferias sectoriales                     |
+| **PERFIL DE PRODUCTO**                                                                                                                                                                                                           | **Productos & Servicios**    | App móvil con: gestión inventory, alertas, reportes, boletas, planes voz/GPS/IA/scanner                     | Software web y móvil con: inventory, órdenes venta, envíos, facturación        | Suite modular web/móvil con: inventory, manufactura, ventas, CRM        | Plataforma web/móvil: inventory, pedidos, logística, analytics                |
+|                                                                                                                                                                                                                                  | **Precios & Costos**         | Modelo freemium con planes premium escalables por funcionalidad                                             | Planes por volumen de órdenes, desde gratis hasta enterprise                   | Freemium modular, costos de implementación y personalización            | Planes premium por volumen de ventas y usuarios                               |
+|                                                                                                                                                                                                                                  | **Canales de distribución**  | Móvil (iOS/Android)                                                                                         | Web y móvil (iOS/Android)                                                      | Web y móvil (iOS/Android)                                               | Web y móvil (iOS/Android)                                                     |
 
 ## Análisis SWOT
 
-| **Análisis SWOT** | **StockWise** | **Zoho Inventory** | **Odoo Inventory** | **TradeGecko** |
-|---|---|---|---|---|
-| **Fortalezas** | - Especialización móvil nativa<br>- Interfaz intuitiva<br>- Funcionalidades innovadoras (voz, GPS, IA)<br>- Enfoque específico en pymes | - Ecosistema integrado<br>- Solución completa<br>- Reconocimiento de marca<br>- Escalabilidad | - Flexibilidad y personalización<br>- Comunidad activa<br>- Modelo open-source<br>- Múltiples módulos integrados | - Especialización en e-commerce<br>- Integraciones con plataformas de venta<br>- Analytics avanzado |
-| **Debilidades** | - Marca desconocida<br>- Ecosistema limitado vs competidores<br>- Recursos limitados vs grandes competidores | - Curva de aprendizaje más pronunciada<br>- Puede ser complejo para pymes muy pequeñas<br>- Costo elevado para planes avanzados | - Requiere personalización para funcionar óptimamente<br>- Soporte puede ser limitado en versión community | - Enfoque muy específico en e-commerce<br>- Menos adaptable a otros modelos de negocio<br>- Precios elevados |
-| **Oportunidades** | - Crecimiento mercado pymes digitales<br>- Tendencia hacia soluciones móviles<br>- Expansión a Latinoamérica<br>- Alianzas con comunidades de emprendedores | - Expansión a nuevos mercados<br>- Desarrollo de más integraciones<br>- Consolidación como suite integral | - Crecimiento de la comunidad de desarrolladores<br>- Expansión de funcionalidades móviles<br>- Alianzas con implementadores | - Crecimiento del e-commerce global<br>- Expansión a nuevos verticales de retail<br>- Desarrollo de analytics predictivo |
-| **Amenazas** | - Entrada de competidores establecidos al mercado móvil<br>- Commoditización de funcionalidades básicas<br>- Dificultad para captar usuarios frente a alternativas gratuitas | - Competencia de soluciones más especializadas<br>- Precios más competitivos de alternativas<br>- Cambios en regulaciones internacionales | - Fragmentación de la comunidad<br>- Calidad variable de implementaciones<br>- Competencia de soluciones SaaS más pulidas | - Competencia de plataformas de e-commerce con módulos nativos<br>- Cambios en APIs de plataformas de venta<br>- Consolidación del mercado |
+| **Análisis SWOT** | **StockWise**                                                                                                                                                                | **Zoho Inventory**                                                                                                                        | **Odoo Inventory**                                                                                                           | **TradeGecko**                                                                                                                             |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Fortalezas**    | - Especialización móvil nativa<br>- Interfaz intuitiva<br>- Funcionalidades innovadoras (voz, GPS, IA)<br>- Enfoque específico en pymes                                      | - Ecosistema integrado<br>- Solución completa<br>- Reconocimiento de marca<br>- Escalabilidad                                             | - Flexibilidad y personalización<br>- Comunidad activa<br>- Modelo open-source<br>- Múltiples módulos integrados             | - Especialización en e-commerce<br>- Integraciones con plataformas de venta<br>- Analytics avanzado                                        |
+| **Debilidades**   | - Marca desconocida<br>- Ecosistema limitado vs competidores<br>- Recursos limitados vs grandes competidores                                                                 | - Curva de aprendizaje más pronunciada<br>- Puede ser complejo para pymes muy pequeñas<br>- Costo elevado para planes avanzados           | - Requiere personalización para funcionar óptimamente<br>- Soporte puede ser limitado en versión community                   | - Enfoque muy específico en e-commerce<br>- Menos adaptable a otros modelos de negocio<br>- Precios elevados                               |
+| **Oportunidades** | - Crecimiento mercado pymes digitales<br>- Tendencia hacia soluciones móviles<br>- Expansión a Latinoamérica<br>- Alianzas con comunidades de emprendedores                  | - Expansión a nuevos mercados<br>- Desarrollo de más integraciones<br>- Consolidación como suite integral                                 | - Crecimiento de la comunidad de desarrolladores<br>- Expansión de funcionalidades móviles<br>- Alianzas con implementadores | - Crecimiento del e-commerce global<br>- Expansión a nuevos verticales de retail<br>- Desarrollo de analytics predictivo                   |
+| **Amenazas**      | - Entrada de competidores establecidos al mercado móvil<br>- Commoditización de funcionalidades básicas<br>- Dificultad para captar usuarios frente a alternativas gratuitas | - Competencia de soluciones más especializadas<br>- Precios más competitivos de alternativas<br>- Cambios en regulaciones internacionales | - Fragmentación de la comunidad<br>- Calidad variable de implementaciones<br>- Competencia de soluciones SaaS más pulidas    | - Competencia de plataformas de e-commerce con módulos nativos<br>- Cambios en APIs de plataformas de venta<br>- Consolidación del mercado |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
 ## Estrategias Generales de Posicionamiento
 
 ### 1. Especialización en Experiencia Móvil
+
 **Objetivo:** Diferenciarnos como la solución móvil nativa más intuitiva del mercado.
 
 **Tácticas:**
+
 - Desarrollar funcionalidades exclusivas móviles (voz, GPS, escaneo por cámara)
 - Optimizar la interfaz para uso táctil con gestos intuitivos
 - Garantizar funcionamiento offline para operaciones críticas
 - Implementar notificaciones push contextuales y personalizables
 
 ### 2. Enfoque en Usabilidad para PYMES
+
 **Objetivo:** Ofrecer la curva de aprendizaje más corta del mercado.
 
 **Tácticas:**
+
 - Crear sistema de onboarding guiado dentro de la aplicación
 - Desarrollar tutoriales interactivos por funcionalidad
 - Implementar asistente inteligente para tareas complejas
@@ -49,27 +57,33 @@
 ## Estrategias Ofensivas frente a Competidores
 
 ### 1. Contra Zoho Inventory
+
 **Debilidad a explotar:** Complejidad para PYMES pequeñas
 
 **Tácticas:**
+
 - Campañas comparativas destacando simplicidad vs complejidad
 - Programa de migración asistida desde Zoho
 - Planes precio más competitivos para segmento pequeño-mediano
 - Funcionalidades "justo lo necesario" sin sobrecarga de opciones
 
 ### 2. Contra Odoo Inventory
+
 **Debilidad a explotar:** Requiere personalización e implementación
 
 **Tácticas:**
+
 - Mensajería centrada en "funciona desde el día 1"
 - Precios transparentes sin costos ocultos de implementación
 - Casos de éxito de implementación en menos de 24 horas
 - Servicio de configuración inicial incluido en planes premium
 
 ### 3. Contra TradeGecko
+
 **Debilidad a explotar:** Enfoque limitado a e-commerce
 
 **Tácticas:**
+
 - Posicionamiento como solución multi-canal integral
 - Funcionalidades para negocios físicos + digitales
 - Campañas dirigidas a retail tradicional con interés en digitalizarse
@@ -78,22 +92,29 @@
 ## Estrategias Defensivas
 
 ### 1. Ante posible commoditización
+
 **Tácticas:**
+
 - Desarrollo continuo de funcionalidades innovadoras (voz, IA, realidad aumentada)
 - Programa de fidelización con beneficios escalables
 - Integraciones exclusivas con proveedores locales
 - Comunidad de usuarios para feedback y co-creación
 
 ### 2. Protección frente a entrada de grandes competidores
+
 **Tácticas:**
+
 - Alianzas estratégicas con asociaciones de PYMES
 - Contratos a largo plazo con precios congelados
 - Desarrollo de especialización vertical por industria
 - Branding fuerte centrado en el enfoque PYME
 
 ## 2.2. Entrevistas
+
 La finalidad de realizar entrevistas es obtener un alcance más completo sobre las experiencias, perspectivas y opiniones de los segmentos de mercado definidos. Nuestro objetivo es recolectar información valiosa que nos permita conocer mejor a nuestro público objetivo. Con estas entrevistas se tendrá una visión más clara de las necesidades y expectativas de nuestros usuarios.
+
 ### 2.2.1. Diseño de entrevistas
+
 **Segmento #1: Bodegas especializadas por rubro**
 
 **Preguntas principales**
@@ -105,6 +126,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 5. ¿Utilizas algún sistema o herramienta digital? ¿Cuál y cómo te va con ella?
 
 **Preguntas complementarias**
+
 1. ¿Cómo te enteras cuando falta un producto o está a punto de vencerse?
 2. ¿Qué tipo de reportes o información te gustaría tener sobre tu inventario?
 3. ¿Qué dispositivos usas más en tu trabajo (laptop, celular, tablet)?
@@ -113,19 +135,22 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 **Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
 
 **Preguntas principales**
+
 1. ¿Cómo manejas actualmente el inventario de tu negocio?
 2. ¿En qué momentos has sentido que el control del stock te limita o te hace perder tiempo?
 3. ¿Cómo llevas el registro de entradas y salidas de productos?
 4. ¿Qué te gustaría mejorar de tu proceso logístico actual?
 5. ¿Has considerado usar alguna plataforma para gestionar tu inventario? ¿Por qué sí o por qué no?
-   
+
 **Preguntas complementarias**
+
 1. ¿Qué herramientas digitales usas en tu negocio actualmente?
 2. ¿Dónde almacenas tus productos?
 3. ¿Qué tan seguido necesitas revisar el stock?
 4. ¿Qué redes sociales o canales digitales usas para vender?
 
 ### 2.2.2. Registro de entrevistas
+
 **Segmento 1: Bodegas especializadas por rubro**
 
 <table border="1">
@@ -276,18 +301,18 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>5</td>
     <th>Nombre</th>
-    <td>xx</td>
+    <td>Leonardo Ganboa</td></td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>xx</td>
+    <td>26</td>
     <th>Distrito</th>
-    <td>xx</td>
+    <td>San Miguel</td>
   </tr>
   <tr>
     <th>Captura de la entrevista: <img src="assets/Chapter-2/" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        xxx
+        Leonardo G., emprendedor, maneja actualmente su inventario de forma manual utilizando principalmente hojas de Excel y, en ocasiones, una libreta para registrar entradas y salidas de productos. La actualización no siempre está al día, lo que le genera retrasos al atender pedidos y, en algunos casos, ventas de productos agotados que afectan la experiencia de sus clientes. Sus ventas se coordinan principalmente a través de WhatsApp, mientras que la promoción la realiza en Facebook e Instagram. Revisa su stock casi a diario debido a la demanda constante y almacena sus productos en un cuarto adaptado en su casa. Aunque ha considerado implementar plataformas digitales para gestionar su inventario, aún no lo hace por temor a los costos y a la complejidad de uso. Su principal objetivo es contar con un sistema más rápido y automático que le avise cuando se esté quedando sin stock y que le permita organizar mejor los pedidos, optimizando así su tiempo y eficiencia.
     </td>
   </tr>
   <tr>
@@ -301,7 +326,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        xx
+        20:45 - 23:20
     </td>
   </tr>
 </table>
@@ -352,12 +377,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 **Segmento 1: Bodegas especializadas por rubro**
 <img src="assets/Chapter-2/segmento1.png" alt="User persona - segmento 1" width="600"/>
 
-*Imagen (N°2). Elaboración propia. Realizado en UXPressia*
+_Imagen (N°2). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 <img src="assets/Chapter-2/segmento2.png" alt="User persona - segmento 2" width="600"/>
 
-*Imagen (N°3). Elaboración propia. Realizado en UXPressia*
+_Imagen (N°3). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
@@ -366,47 +391,46 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 **Segmento 1: Bodegas especializadas por rubro**
 
-| **Task Matrix**                                                     | **Frecuencia** | **Importancia** |
-|----------------------------------------------------------------------|----------------|------------------|
-| Supervisar el stock y revisar niveles de inventario                 | Alta           | Alta             |
-| Realizar conteos físicos o auditorías manuales                      | Media          | Alta             |
-| Negociar precios y coordinar con proveedores                        | Alta           | Alta             |
-| Revisar reportes de ventas, rotación y márgenes                     | Media          | Alta             |
-| Ingresar datos en Excel o sistemas básicos de control               | Media          | Media            |
-| Delegar tareas a sus asistentes o empleados                         | Media          | Alta             |
-| Atender clientes en tienda                                          | Alta           | Alta             |
-| Coordinar pedidos con mayoristas o distribuidores                   | Alta           | Alta             |
-| Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
-| Resolver errores de inventario (*sobrestock*, productos vencidos)  | Alta           | Alta             |
-| Registrar productos por voz y confirmar datos | Media          | Alta            |
-| Escanear lotes con cámara rápida y validar    | Alta           | Alta            |
-| Ubicar productos en almacén con QR/mapa       | Alta           | Alta            |
-| Revisar alertas de predicción de stock        | Media          | Alta            |
-| Visualizar sedes y rutas en mapa (GPS)        | Baja           | Media           |
+| **Task Matrix**                                                   | **Frecuencia** | **Importancia** |
+| ----------------------------------------------------------------- | -------------- | --------------- |
+| Supervisar el stock y revisar niveles de inventario               | Alta           | Alta            |
+| Realizar conteos físicos o auditorías manuales                    | Media          | Alta            |
+| Negociar precios y coordinar con proveedores                      | Alta           | Alta            |
+| Revisar reportes de ventas, rotación y márgenes                   | Media          | Alta            |
+| Ingresar datos en Excel o sistemas básicos de control             | Media          | Media           |
+| Delegar tareas a sus asistentes o empleados                       | Media          | Alta            |
+| Atender clientes en tienda                                        | Alta           | Alta            |
+| Coordinar pedidos con mayoristas o distribuidores                 | Alta           | Alta            |
+| Capacitarse en nuevas herramientas tecnológicas                   | Baja           | Media           |
+| Resolver errores de inventario (_sobrestock_, productos vencidos) | Alta           | Alta            |
+| Registrar productos por voz y confirmar datos                     | Media          | Alta            |
+| Escanear lotes con cámara rápida y validar                        | Alta           | Alta            |
+| Ubicar productos en almacén con QR/mapa                           | Alta           | Alta            |
+| Revisar alertas de predicción de stock                            | Media          | Alta            |
+| Visualizar sedes y rutas en mapa (GPS)                            | Baja           | Media           |
 
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
-
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 
-| **Task Matrix**                                                                       | **Frecuencia** | **Importancia** |
-|---------------------------------------------------------------------------------------|----------------|------------------|
-| Supervisar la producción (propia o con talleres externos)                             | Alta           | Alta             |
-| Gestionar inventario de insumos y productos terminados (telas, hilos, prendas)        | Alta           | Alta             |
-| Registrar entradas, salidas y devoluciones de productos                               | Media          | Alta             |
-| Coordinar pedidos con clientes o puntos de venta                                      | Alta           | Alta             |
-| Diseñar nuevas piezas o adaptar modelos a la demanda                                  | Alta           | Alta             |
-| Publicar contenido y gestionar redes sociales                                         | Alta           | Media            |
-| Empaquetar productos y organizar despachos                                            | Media          | Alta             |
-| Analizar qué productos se venden más y qué insumos se usan más                        | Media          | Alta             |
-| Actualizar listas de precios, catálogos o colecciones                                 | Media          | Media            |
-| Registrar ventas y organizar información contable o administrativa                    | Media          | Alta             |
-| Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización)| Media          | Alta             |
-| Dictar insumos o productos por voz              | Alta           | Alta            |
-| Registrar clientes y entregas con GPS           | Alta           | Alta            |
-| Analizar predicciones de producción/ventas      | Media          | Alta            |
-| Escanear productos en lotes y asignar ubicación | Alta           | Alta            |
-| Recibir alertas de sobrestock o quiebre         | Media          | Alta            |
+| **Task Matrix**                                                                        | **Frecuencia** | **Importancia** |
+| -------------------------------------------------------------------------------------- | -------------- | --------------- |
+| Supervisar la producción (propia o con talleres externos)                              | Alta           | Alta            |
+| Gestionar inventario de insumos y productos terminados (telas, hilos, prendas)         | Alta           | Alta            |
+| Registrar entradas, salidas y devoluciones de productos                                | Media          | Alta            |
+| Coordinar pedidos con clientes o puntos de venta                                       | Alta           | Alta            |
+| Diseñar nuevas piezas o adaptar modelos a la demanda                                   | Alta           | Alta            |
+| Publicar contenido y gestionar redes sociales                                          | Alta           | Media           |
+| Empaquetar productos y organizar despachos                                             | Media          | Alta            |
+| Analizar qué productos se venden más y qué insumos se usan más                         | Media          | Alta            |
+| Actualizar listas de precios, catálogos o colecciones                                  | Media          | Media           |
+| Registrar ventas y organizar información contable o administrativa                     | Media          | Alta            |
+| Aprender herramientas nuevas para mejorar su operativa (apps, control, automatización) | Media          | Alta            |
+| Dictar insumos o productos por voz                                                     | Alta           | Alta            |
+| Registrar clientes y entregas con GPS                                                  | Alta           | Alta            |
+| Analizar predicciones de producción/ventas                                             | Media          | Alta            |
+| Escanear productos en lotes y asignar ubicación                                        | Alta           | Alta            |
+| Recibir alertas de sobrestock o quiebre                                                | Media          | Alta            |
 
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
@@ -416,12 +440,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 <img src="assets/Chapter-2/journeymap1.png" alt="User persona - segmento 1" width="600"/>
 
-*Imagen (N°4). Elaboración propia. Realizado en UXPressia*
+_Imagen (N°4). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 <img src="assets/Chapter-2/journeymap1.png" alt="User persona - segmento 2" width="600"/>
 
-*Imagen (N°5). Elaboración propia. Realizado en UXPressia*
+_Imagen (N°5). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
@@ -431,12 +455,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 <img src="assets/Chapter-2/empathymap1.png" alt="User persona - segmento 1" width="800"/>
 
-*Imagen (N°6). Elaboración propia. Realizado en UXPressia*
+_Imagen (N°6). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 <img src="assets/Chapter-2/empathymap2.png" alt="User persona - segmento 2" width="800"/>
 
-*Imagen (N°7). Elaboración propia. Realizado en UXPressia*
+_Imagen (N°7). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
@@ -446,23 +470,24 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 <img src="assets/Chapter-2/as-is1.jpg" alt="User persona - segmento 1" width="900"/>
 
-*Imagen (N°8). Elaboración propia. Realizado en LucidChart*
+_Imagen (N°8). Elaboración propia. Realizado en LucidChart_
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 <img src="assets/Chapter-2/as-is2.jpg" alt="User persona - segmento 2" width="900"/>
 
-*Imagen (N°9). Elaboración propia. Realizado en LucidChart*
+_Imagen (N°9). Elaboración propia. Realizado en LucidChart_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ## 2.4. Requirements specification
+
 El siguiente glosario presenta los términos clave utilizados a lo largo del desarrollo del proyecto StockWise. Este lenguaje común busca asegurar que todos los miembros del equipo (tanto técnicos como no ténicos) compartan una compresnión unificada de los conceptos centrales del sistema, facilitando así la comunicación y el diseño colaborativo.
 
 1. **Landing Page:** Página de presentación a la que llegan los usuarios cuando visitan el sitio oficial de stockwise.
 2. **Inventario:** Conjunto de productos almacenados en una bodega. Incluye información como cantidad disponible, ubicación, fecha de vencimiento, entre otros.
 3. **Producto:** Bien que se registra en la plataforma, con atributos específicos como nombre, descripción, stock mínimo, unidades, fecha de vencimiento, y categoría.
 4. **Stock:** Cantidad disponible de un producto exacto en el inventario
-5. **Stock bajo:** Estado de un producto que ha superado la mínima cantidad definida por el usuario. 
+5. **Stock bajo:** Estado de un producto que ha superado la mínima cantidad definida por el usuario.
 6. **Panel de Control:** Interfaz principal de la plataforma donde el usuario puede visualizar métricas clave del inventario, movimientos y reportes
 7. **Movimiento de Inventario:** Registro de cualquier cambio en la cantidad de productos: entrada (nueva compra), salida (venta o pérdida), ajuste manual, etc.
 8. **Reporte:** Documento visual o estadístico que resume información clave del inventario
@@ -481,8 +506,9 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 21. **Gestión de Producción:** Capacidad de registrar y controlar procesos productivos.
 22. **Contabilidad Básica:** Registro y organización de ventas, costos y márgenes, integrados a reportes financieros simples.
 
-
 ### 2.4.1. User Stories
+
+Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
 
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
@@ -493,9 +519,9 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
   </tr>
   <tr>
     <td>US01</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Usuario de inventario</td>
+    <td>Alta</td>
+    <td>EP01 – Funciones básicas de inventario</td>
   </tr>
 
   <tr>
@@ -547,9 +573,9 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
   </tr>
   <tr>
     <td>US02</td>
-    <td></td>
-    <td></td>
-    <td>EP01</td>
+    <td>Usuario de inventario</td>
+    <td>Alta</td>
+    <td>EP01 – Funciones básicas de inventario</td>
   </tr>
 
   <tr>
@@ -601,9 +627,9 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
   </tr>
   <tr>
     <td>US03</td>
-    <td></td>
-    <td></td>
-    <td>EP01</td>
+    <td>Usuario de inventario</td>
+    <td>Alta</td>
+    <td>EP01 – Funciones básicas de inventario</td>
   </tr>
 
   <tr>
@@ -643,14 +669,13 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
   </tr>
 </table>
 
-
 <!-- US04 -->
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US04</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US04</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Ver historial de movimientos</td>
@@ -690,7 +715,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US05</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US05</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Generar alertas por bajo stock</td>
@@ -730,7 +755,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US06</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US06</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Buscar productos en inventarios</td>
@@ -770,7 +795,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US07</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US07</td><td>Usuario de inventario</td><td></td><td>EP01 – Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Añadir etiquetas para productos</td>
@@ -816,7 +841,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US08</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US08</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Estadística de productos más vendidos</td>
@@ -856,7 +881,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US09</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US09</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Estadística de categoría más vendida</td>
@@ -896,7 +921,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US10</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US10</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Ticket promedio</td>
@@ -936,7 +961,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US11</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US11</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Estadística de stock promedio</td>
@@ -976,7 +1001,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US12</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US12</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Generar reportes de inventario</td>
@@ -1016,7 +1041,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US13</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US13</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Controlar productos caducados</td>
@@ -1056,7 +1081,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US14</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US14</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar devolución de productos</td>
@@ -1096,7 +1121,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US15</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US15</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Configurar roles y permisos de usuario</td>
@@ -1136,7 +1161,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US16</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US16</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Gestionar proveedores</td>
@@ -1176,7 +1201,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US17</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US17</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar lote de productos</td>
@@ -1216,7 +1241,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US18</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US18</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Visualizar historial de stock</td>
@@ -1256,7 +1281,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US19</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US19</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Configurar alertas de stock mínimo</td>
@@ -1296,7 +1321,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US20</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US20</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Añadir etiquetas a productos</td>
@@ -1336,7 +1361,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US21</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US21</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Buscar productos en inventario</td>
@@ -1376,7 +1401,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US22</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US22</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Generar alertas por productos caducados</td>
@@ -1416,7 +1441,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US23</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US23</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar ingreso de productos</td>
@@ -1456,7 +1481,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US24</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US24</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Visualizar resumen de stock por categoría</td>
@@ -1496,7 +1521,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US25</td><td></td><td></td><td>EP01 - Gestión de Inventario</td>
+    <td>US25</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Comparar ventas entre periodos</td>
@@ -1534,7 +1559,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US26</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+    <td>US26</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar productos por voz</td>
@@ -1582,7 +1607,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US27</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+    <td>US27</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Geolocalización de productos y entregas</td>
@@ -1630,7 +1655,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US28</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+    <td>US28</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Localizar productos con mapa y QR</td>
@@ -1678,7 +1703,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US29</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+    <td>US29</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Predicción de reabastecimiento</td>
@@ -1726,7 +1751,7 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US30</td><td></td><td></td><td>EP02 - Entrada & Ubicación Inteligente</td>
+    <td>US30</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida</td>
@@ -1766,581 +1791,56 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
   </tr>
 </table>
 
+
 ### Technical Stories
 
-En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave de StockWise. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros. 
+En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave de StockWise. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros.
 
-<!-- TS01 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS01</td><td></td><td></td><td>US12</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">POST sign up</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero tener un endpoint para permitir el registro de nuevos usuarios, Para que los datos se almacenen correctamente en el backend.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1:</strong><br>
-      Dado que tengo acceso al endpoint de registro de usuarios,<br>
-      Cuando envío una solicitud con datos válidos de un nuevo usuario,<br>
-      Entonces el usuario se registra exitosamente en la base de datos y recibo una confirmación.<br><br>
-      <strong>Escenario 2:</strong><br>
-      Dado que tengo acceso al endpoint de registro de usuarios,<br>
-      Cuando envío una solicitud con datos inválidos,<br>
-      Entonces la solicitud es rechazada y recibo un mensaje de error adecuado.
-    </td>
-  </tr>
-</table>
-<br>
+<!-- TS01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS01</td><td>Developer</td><td>Alta</td><td>US12</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar nuevos usuarios, asegurando validaciones y persistencia correcta en el backend.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Registro exitoso</strong><br> Dado que el endpoint de registro está disponible y la app valida email/contraseña,<br> Cuando el usuario envía datos válidos desde el móvil,<br> Entonces el backend crea la cuenta (201), retorna token y la app lo guarda de forma segura (Keychain/Keystore).<br><br> <strong>E02: Datos inválidos o duplicados</strong><br> Dado el endpoint de registro,<br> Cuando el email ya existe o los campos no cumplen las reglas (formato/fortaleza),<br> Entonces se responde 400/409 con mensaje claro y la app muestra los errores sin duplicar el envío. </td> </tr> </table> <br> 
 
-<!-- TS02 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS02</td><td></td><td></td><td>US11</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">POST sign in</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero implementar el login de usuarios, Para que accedan de forma segura al sistema.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1</strong><br>
-      Dado que tengo acceso al endpoint de autenticación,<br>
-      Cuando envío credenciales válidas,<br>
-      Entonces el sistema me devuelve un token de acceso o confirmación de inicio de sesión.<br><br>
-      <strong>Escenario 2</strong><br>
-      Dado que tengo acceso al endpoint de autenticación,<br>
-      Cuando envío credenciales inválidas,<br>
-      Entonces el sistema rechaza la autenticación y recibo un mensaje de error adecuado.
-    </td>
-  </tr>
-</table>
-<br>
+<!-- TS02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS02</td><td>Developer</td><td>Alta</td><td>US11</td> </tr> <tr> <th>Title</th><td colspan="3">API Autenticación de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito implementar endpoints de autenticación para que la app móvil inicie sesión de forma segura (emisión y validación de tokens).</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Login válido</strong><br> Dado el endpoint de autenticación,<br> Cuando se envían credenciales válidas desde la app,<br> Entonces se retorna 200 con access/refresh token y datos mínimos del perfil; la app inicia sesión persistente y puede habilitar biometría.<br><br> <strong>E02: Login inválido</strong><br> Dado el endpoint de autenticación,<br> Cuando las credenciales son incorrectas o el usuario está inactivo,<br> Entonces se retorna 401/403 con mensaje adecuado y la app ofrece “recuperar contraseña”. </td> </tr> </table> <br> 
 
-<!-- TS03 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS03</td><td></td><td></td><td>US01</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">POST products</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero crear un endpoint para registrar productos, Para que puedan ser almacenados y gestionados en el sistema.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1</strong><br>
-      Dado que tengo acceso al endpoint de productos,<br>
-      Cuando envío los datos correctos de un nuevo producto,<br>
-      Entonces el producto se guarda correctamente y recibo una confirmación.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de productos,<br>
-      Cuando envío datos inválidos o incompletos,<br>
-      Entonces recibo un mensaje de error adecuado y el producto no se registra.
-    </td>
-  </tr>
-</table>
-<br>
+<!-- TS03 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS03</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Creación de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar productos con validaciones de campos requeridos y unicidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Producto creado</strong><br> Dado que la app permite capturar foto/código de barras,<br> Cuando se envían datos correctos desde el móvil,<br> Entonces el backend crea el producto (201) y la app sincroniza la imagen en segundo plano.<br><br> <strong>E02: Datos inválidos</strong><br> Dado el endpoint de productos,<br> Cuando el código está duplicado o faltan campos requeridos,<br> Entonces se retorna 400/409 con detalle y la app resalta los campos a corregir. </td> </tr> </table> <br> 
 
-<!-- TS04 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS04</td><td></td><td></td><td>US01</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET product</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener la lista de productos registrados mediante un endpoint, Para mostrarlos en la aplicación.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de productos,<br>
-      Cuando hago una solicitud,<br>
-      Entonces recibo una lista de productos en el formato esperado.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de productos,<br>
-      Cuando no hay productos registrados,<br>
-      Entonces recibo un mensaje indicando que no existen productos.
-    </td>
-  </tr>
-</table>
-<br>
+<!-- TS04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS04</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar productos con soporte de paginación y orden para su visualización en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Lista disponible</strong><br> Dado que la app lista con “infinite scroll”,<br> Cuando consulta el endpoint,<br> Entonces se retorna colección paginada (200) mostrando placeholders y usando caché local si no hay conexión.<br><br> <strong>E02: Sin registros</strong><br> Dado el endpoint de consulta,<br> Cuando no existen productos,<br> Entonces se retorna 200 con lista vacía y la app muestra estado vacío con CTA para crear. </td> </tr> </table> <br>
 
-<!-- TS05 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS05</td><td></td><td></td><td>US01</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET products by category</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener productos por categoría mediante un endpoint, Para facilitar búsquedas específicas en la aplicación.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de productos por categoría,<br>
-      Cuando envío una solicitud con una categoría existente,<br>
-      Entonces recibo los productos correspondientes a esa categoría.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de productos por categoría,<br>
-      Cuando envío una categoría que no existe,<br>
-      Entonces recibo un mensaje de error o lista vacía.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS06 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS06</td><td></td><td></td><td>US01</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET products by tag</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener productos por etiqueta (tag) mediante un endpoint, Para mejorar la organización y búsqueda.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de productos por etiqueta,<br>
-      Cuando envío una etiqueta válida,<br>
-      Entonces recibo los productos correspondientes.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de productos por etiqueta,<br>
-      Cuando envío una etiqueta inexistente,<br>
-      Entonces recibo un mensaje de que no hay resultados.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS07 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS07</td><td></td><td></td><td>US12</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">POST inventories</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero registrar inventario de productos mediante un endpoint, Para mantener el control de stock.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios,<br>
-      Cuando envío datos válidos de inventario,<br>
-      Entonces el inventario se registra correctamente.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios,<br>
-      Cuando envío datos inválidos,<br>
-      Entonces el registro es rechazado y recibo un mensaje de error.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS08 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS08</td><td></td><td></td><td>US06</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET inventories by price</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener inventarios filtrados por precio, Para facilitar el análisis de costos.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por precio,<br>
-      Cuando consulto con un rango válido,<br>
-      Entonces recibo los inventarios que cumplen con el filtro.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por precio,<br>
-      Cuando no hay inventarios dentro del rango,<br>
-      Entonces recibo un mensaje indicando que no hay resultados.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS09 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS09</td><td></td><td></td><td>US06</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET inventories by product</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener el inventario correspondiente a un producto específico, Para conocer su disponibilidad actual.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por producto,<br>
-      Cuando envío el ID de un producto existente,<br>
-      Entonces recibo la información del inventario de ese producto en el formato esperado.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por producto,<br>
-      Cuando envío el ID de un producto que no existe,<br>
-      Entonces recibo un mensaje indicando que no se encontró información de inventario.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS10 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS10</td><td></td><td></td><td>US06</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET inventories by entry date</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener inventarios filtrados por fecha de ingreso, Para realizar consultas cronológicas del inventario.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por fecha de ingreso,<br>
-      Cuando envío una fecha con registros existente,<br>
-      Entonces recibo la lista de inventarios correspondientes a esa fecha.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por fecha de ingreso,<br>
-      Cuando envío una fecha sin registros,<br>
-      EEntonces recibo un mensaje indicando que no hay resultados para esa fecha.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TUS11 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TUS11</td><td></td><td></td><td>US06</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET inventories by quantity</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener inventarios que coincidan con una cantidad específica o rango, Para monitorear niveles de stock críticos o excesivos.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por cantidad,<br>
-      Cuando envío un valor o rango válido,<br>
-      Entonces recibo los inventarios correspondientes.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por cantidad,<br>
-      Cuando envío un valor o rango sin coincidencias,<br>
-      Entonces recibo un mensaje de que no hay inventarios con esas cantidades.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS12 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS12</td><td></td><td></td><td>US06</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET inventories by  supplier</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener el inventario de productos filtrado por proveedor mediante un endpoint, Para consultar qué productos están asociados a cada proveedor.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por proveedor,<br>
-      Cuando envío el identificador de un proveedor existente,<br>
-      Entonces recibo la lista de inventarios asociados a ese proveedor en el formato esperado.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de inventarios por proveedor,<br>
-      Cuando envío el identificador de un proveedor que no tiene productos,<br>
-      Entonces recibo un mensaje indicando que no se encontraron inventarios para ese proveedor.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS13 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS13</td><td></td><td></td><td>US19</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">POST alerts</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero registrar alertas mediante un endpoint, Para notificar situaciones como bajo stock o eventos relevantes del sistema.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de alertas,<br>
-      Cuando envío una alerta con datos válidos,<br>
-      Entonces la alerta se guarda correctamente y recibo confirmación.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de alertas,<br>
-      Cuando envío datos inválido,<br>
-      Entonces recibo un mensaje de error y la alerta no se registra.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS14 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS14</td><td></td><td></td><td>US019</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET alerts</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener el listado de alertas del sistema, Para visualizar y actuar sobre situaciones críticas o inusuales.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de alertas,<br>
-      Cuando realizo una solicitud,<br>
-      Entonces recibo todas las alertas registradas en el formato esperado.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de alertas,<br>
-      Cuando no hay alertas registradas,<br>
-      Entonces recibo un mensaje indicando que no existen alertas.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS15 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS15</td><td></td><td></td><td>US01</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">POST combos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero registrar combos de productos (paquetes) mediante un endpoint, Para ofrecerlos como promociones o agrupaciones de productos.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong><br>
-      Dado que tengo acceso al endpoint de combos,<br>
-      Cuando envío un combo con datos válidos,<br>
-      Entonces el combo se registra exitosamente y recibo una confirmación.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de combos,<br>
-      Cuando envío un combo con datos inválidos,<br>
-      Entonces recibo un mensaje de error y el combo no se registra.
-    </td>
-  </tr>
-</table>
-<br>
-
-<!-- TS16 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
-  </tr>
-  <tr>
-    <td>TS16</td><td></td><td></td><td>US01</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">GET combos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, Quiero obtener los combos registrados en el sistema, Para mostrarlos como opciones agrupadas de productos.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <strong>Escenario 1: </strong> <br>
-      Dado que tengo acceso al endpoint de combos,<br>
-      Cuando hago una solicitud,<br>
-      Entonces recibo la lista de combos registrados.<br><br>
-      <strong>Escenario 2: </strong><br>
-      Dado que tengo acceso al endpoint de combos,<br>
-      Cuando no hay combos registrados,<br>
-      Entonces recibo un mensaje indicando que no existen combos disponibles.
-    </td>
-  </tr>
-</table>
-
+ <!-- TS05 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS05</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por categoría</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar productos por categoría para agilizar búsquedas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Categoría existente</strong><br> Dado que el usuario selecciona una categoría (chips/filtros),<br> Cuando se consulta el endpoint con la categoría,<br> Entonces se retorna 200 con resultados ignorando mayúsculas/acentos y la app recuerda el filtro.<br><br> <strong>E02: Sin coincidencias</strong><br> Dado el filtro por categoría,<br> Cuando no hay productos asociados,<br> Entonces se retorna 200 con lista vacía y la app permite limpiar filtros. </td> </tr> </table> <br> 
+ 
+ <!-- TS06 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS06</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por etiqueta</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito permitir la consulta de productos por etiqueta para mejorar la organización y búsqueda.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Etiqueta válida</strong><br> Dado que la app ofrece autocompletado de etiquetas recientes,<br> Cuando el usuario selecciona una etiqueta y consulta,<br> Entonces el backend retorna los productos (200) y la app permite combinar con otros filtros activos.<br><br> <strong>E02: Etiqueta sin resultados</strong><br> Dado que se consulta por una etiqueta inexistente o sin datos,<br> Cuando el backend no encuentra coincidencias,<br> Entonces responde 200 con lista vacía y la app sugiere etiquetas relacionadas. </td> </tr> </table> <br> 
+ 
+ <!-- TS07 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS07</td><td>Developer</td><td>Alta</td><td>US12</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de inventario</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar movimientos/stock de inventario con validaciones de negocio.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Registro válido</strong><br> Dado que la app permite escanear código/QR,<br> Cuando se registra una entrada o salida con cantidad válida,<br> Entonces el backend guarda el movimiento (201) y retorna el stock actualizado para mostrar en la app.<br><br> <strong>E02: Registro inválido</strong><br> Dado el endpoint de inventario,<br> Cuando la cantidad es negativa o la salida supera el stock,<br> Entonces se retorna 400 con detalle y la app resalta el campo con error. </td> </tr> </table> <br> 
+ 
+ <!-- TS08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS08</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por precio</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Rango válido</strong><br> Dado que el usuario ajusta un rango (slider),<br> Cuando se consulta el endpoint con la moneda/locale del dispositivo,<br> Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.<br><br> <strong>E02: Sin resultados</strong><br> Dado un rango sin coincidencias,<br> Cuando el backend no encuentra registros,<br> Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango. </td> </tr> </table> <br>
+ 
+ <!-- TS09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS09</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventario por producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Producto existente</strong><br> Dado que la app escanea o selecciona un producto,<br> Cuando se consulta por su ID,<br> Entonces el backend retorna 200 con stock actual y últimos movimientos.<br><br> <strong>E02: Producto inexistente</strong><br> Dado el endpoint por producto,<br> Cuando el ID no existe o está inactivo,<br> Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto. </td> </tr> </table> <br> 
+ 
+ <!-- TS10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS10</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Fecha con registros</strong><br> Dado que el usuario selecciona un rango con el date picker del móvil,<br> Cuando la app consulta con la zona horaria del dispositivo,<br> Entonces el backend retorna 200 con los registros del período.<br><br> <strong>E02: Fecha sin registros</strong><br> Dado el endpoint por fecha,<br> Cuando el rango no tiene datos,<br> Entonces se retorna 200 con lista vacía y la app propone rangos cercanos. </td> </tr> </table> <br> 
+ 
+ <!-- TS11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS11</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por cantidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Rango/cantidad válida</strong><br> Dado que la app permite filtrar por cantidad o rango,<br> Cuando se consulta el endpoint,<br> Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.<br><br> <strong>E02: Sin coincidencias</strong><br> Dado el filtro por cantidad/rango,<br> Cuando no hay resultados,<br> Entonces se retorna 200 con lista vacía y la app permite guardar el filtro. </td> </tr> </table> <br> 
+ 
+ <!-- TS12 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS12</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por proveedor</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Proveedor existente</strong><br> Dado que el usuario selecciona un proveedor en la app,<br> Cuando se consulta el endpoint con su identificador,<br> Entonces retorna 200 con la lista paginada de inventarios.<br><br> <strong>E02: Proveedor sin productos</strong><br> Dado el endpoint por proveedor,<br> Cuando no hay inventarios vinculados,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado informativo. </td> </tr> </table> <br> 
+ 
+ <!-- TS13 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS13</td><td>Developer</td><td>Alta</td><td>US19</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito registrar alertas del sistema (p.ej., bajo stock) para su notificación en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Alerta registrada</strong><br> Dado un evento de bajo stock detectado en la app o backend,<br> Cuando se envía la alerta con datos válidos al endpoint,<br> Entonces se registra (201) y la app puede disparar notificación local/push.<br><br> <strong>E02: Datos inválidos</strong><br> Dado el endpoint de alertas,<br> Cuando el tipo es inválido o faltan campos requeridos,<br> Entonces se retorna 400 con detalle de validaciones. </td> </tr> </table> <br> 
+ 
+ <!-- TS14 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS14</td><td>Developer</td><td>Alta</td><td>US19</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar alertas para su visualización y seguimiento en la aplicación móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Listado disponible</strong><br> Dado que la app muestra un feed con “pull to refresh”,<br> Cuando consulta el endpoint,<br> Entonces se retornan alertas paginadas (200) ordenadas por severidad/fecha y se pueden marcar como leídas.<br><br> <strong>E02: Sin alertas</strong><br> Dado el endpoint de consulta de alertas,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app ofrece ir a configuración de alertas. </td> </tr> </table> <br> 
+ 
+ <!-- TS15 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS15</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar combos de productos respetando reglas de composición.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Combo registrado</strong><br> Dado que el usuario arma un combo en la app seleccionando productos y cantidades,<br> Cuando envía la creación,<br> Entonces el backend valida reglas (stock mínimo, no repetidos) y crea el combo (201) de forma atómica.<br><br> <strong>E02: Datos inválidos</strong><br> Dado el endpoint de combos,<br> Cuando la composición es inválida o hay productos inexistentes,<br> Entonces se retorna 400 con detalle y la app conserva la selección para corregir. </td> </tr> </table> <br> 
+ 
+ <!-- TS16 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS16</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar combos registrados para mostrarlos como opciones agrupadas en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Listado de combos</strong><br> Dado que la app lista combos con imágenes y precio total,<br> Cuando consulta el endpoint,<br> Entonces el backend retorna 200 con lista paginada y la app permite ordenar y guardar favoritos.<br><br> <strong>E02: Sin combos</strong><br> Dado el endpoint de combos,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado sin datos con botón para crear combo. </td> </tr> </table>
 
 ### 2.4.2. Impact Mapping
 
 ### Segmento Objetivo 1: Bodegas especializadas por rubro
+
 ![bodeguero](assets/Chapter-2/stockwise%20-%20impact%20map-bodeguero.png)
 
-*Imagen (N°12). Elaboración propia. Realizado en UXPRESSIA*
+_Imagen (N°12). Elaboración propia. Realizado en UXPRESSIA_
 
 ### Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas
+
 ![emprendedor](assets/Chapter-2/stockwise%20-%20impact%20map-emprendedor.png)
 
-*Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA*
+_Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
 
 ### 2.4.3. Product Backlog
 
@@ -2383,15 +1883,20 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
   </tbody>
 </table>
 
-
-
 ## 2.5. Strategic-Level Domain-Driven Design
+
 ### 2.5.1. EventStorming
+
 #### 2.5.1.1. Candidate Context Discovery
+
 #### 2.5.1.2. Domain Message Flows Modeling
+
 #### 2.5.1.3. Bounded Context Canvases
+
 ### 2.5.2. Context Mapping
+
 ### 2.5.3. Software Architecture
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
 <div align="center">
