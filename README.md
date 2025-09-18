@@ -2313,8 +2313,6 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/class-alertstock-domain.png" alt="class-container"/>
 </div>
 
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
-
 ### 2.6.2. Bounded Context: Iam Context
 
 ### 2.6.2.1. Domain Layer  
@@ -2388,6 +2386,10 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 </div>
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+<div align="center">
+  <img src="assets/Chapter-2/db-iam-context.png" alt="db-diagram"/>
+</div>
 
 ### 2.6.3. Bounded Context: Inventory Context
 ### 2.6.3.1. Domain Layer  
@@ -2470,6 +2472,10 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 </div>
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+<div align="center">
+  <img src="assets/Chapter-2/db-inventory.png" alt="db-diagram"/>
+</div>
 
 ### 2.6.4.1. Domain Layer  
 
@@ -2574,6 +2580,10 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="center">
+  <img src="assets/Chapter-2/db-products.png" alt="db-diagram"/>
+</div>
+
 ###### Domain: Model
 
 <div align="center">
@@ -2677,6 +2687,8 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/class-reports-domain-services.png" alt="c4-container"/>
 </div>
 
-
-
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+<div align="center">
+  <img src="assets/Chapter-2/db-reports.png" alt="db-diagram"/>
+</div>
