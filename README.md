@@ -39,12 +39,12 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/" alt="Foto de perfil de " width="800px">
+      <img src="https://imgur.com/ylpKMx2.png" alt="Foto de perfil de Jeremy" width="800px">
     </th>
     <td valign="top">
-      <p><b>xxxx</b></p>
+      <p><b>Jeremy Paucar Meneses</b></p>
       <p>
-        .........
+        Estudiante de Ingeniería de Software, apacionado a programar, tengo conocimientos en c++, js, c#, y algunos frameworks como Vue, dentro de mis pasatiempos esta escuchar musica, ver futbol y ver series
       </p>
     </td>
   </tr>
