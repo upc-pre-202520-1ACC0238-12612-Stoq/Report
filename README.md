@@ -229,24 +229,24 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>3</td>
     <th>Nombre</th>
-    <td>xx</td>
+    <td>Catalina Villa Guerra</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>xx</td>
+    <td>28</td>
     <th>Distrito</th>
-    <td>xx</td>
+    <td>Breña</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/Interview-Catalina-Villa.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        xxx
+        Catalina Guerra, de 28 años encargada de administrar una bodega familiar en el distrito de breña, ella cuenta que gestiona la bodega de manera manual y lo pasa a una tabla de excel, también nos comenta lo dificil que es tener control de todas las ventas, ella menciona mucho algunas dificultades cuando llega nuevos lotes de productos, ya que no se lleva un control estricto de esto, por otro lado, ella hace enfacis de las perdidas monetarias que enfrenta por no poder gestionar bien las entradas y salidas de productos, en este contexto también nos cuenta sobre los expiración de algunos producto que ella no puede gestionar de manera correcta y por lo cual le va generando muchas perdidas. Ella considera que si tuviera acceso a una plataforma orientada a su rubro de trabajo podría solventar algunos de los problemas ya mencionados anteriormente y también de esta menera dejar de lado el uso de apuntes manuales que es pesado. También dice que le permitiría delegar de mejor manera los inventarios.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EUKDKqAkF5JElUPukRAiW58BeSQ_iE_2kfrKInIh4Ulm_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JiTffP">
         Ver grabación
       </a>
     </td>
@@ -254,7 +254,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        xx
+        05:20- 09:10
     </td>
   </tr>
 </table>
