@@ -234,7 +234,7 @@ profesional y en especial
 para su proyecto en
 soluciones de software.</b></td>
       <td>
-        <p><b>name  </b></p>
+        <p><b>Jocelyn Almerco </b></p>
         <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
@@ -245,14 +245,14 @@ soluciones de software.</b></td>
         <p>.</p>
         <p><b>Camila Sanchez Rios</b></p>
        <p><b>TB1:</b></p>
-        <p></p>
+        <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
         <p><b>TP1:</b></p>
         <p></p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
+        <p><b>Kevin Chi</b></p>
         <p><b>TB1:</b></p>
         <p>     
         </p>
@@ -261,7 +261,17 @@ soluciones de software.</b></td>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p><b>Alejandro Oroncoy</b></p>
+        <p><b></b></p>
+       <p><b>TB1:</b></p>
+        <p></p>
+        <p><b>TP1:</b></p>
+        <p></p>
+        <p><b>TB2:</b></p>
+        <p></p>
+        <p><b>TF:</b></p>
+        <p></p>
+        <p><b>Jeremy Paucar</b></p>
         <p><b></b></p>
        <p><b>TB1:</b></p>
         <p></p>
@@ -274,13 +284,13 @@ soluciones de software.</b></td>
       </td>
       <td>
         <p><strong>TB1:</strong></p>
-        <p></p>
+        <p>..</p>
         <p><strong>TP1:</strong></p>
-        <p>.</p>
+        <p>..</p>
         <p><strong>TB2:</strong></p>
-        <p></p>
+        <p>..</p>
         <p><strong>TF:</strong></p>
-        <p></p>
+        <p>..</p>
       </td>
     </tr>
     <tr>
@@ -291,7 +301,7 @@ profesional y el desarrollo
 de proyectos en soluciones
 de software.</td>
       <td>
-        <p><b>name  </b></p>
+        <p><b>Jocelyn Almerco</b></p>
         <p><b>TB1:</b></p>
         <p>..</p>
         <p><b>TP1:</b></p>
@@ -300,16 +310,16 @@ de software.</td>
         <p>..</p>
         <p><b>TF:</b></p>
         <p>..</p>
-        <p><b>name</b></p>
+        <p><b> Camila Sanchez</b></p>
        <p><b>TB1:</b></p>
-        <p>..</p>
+        <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
         <p><b>TP1:</b></p>
         <p>..</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
+        <p><b>Kevin Chi</b></p>
         <p><b>TB1:</b></p>
         <p>..
         </p>
@@ -319,7 +329,16 @@ de software.</td>
         <p>...</p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
+        <p><b>Alejandro Oroncoy</b></p>
+       <p><b>TB1:</b></p>
+        <p>...</p>
+        <p><b>TP1:</b></p>
+        <p>...</p>
+        <p><b>TB2:</b></p>
+        <p>...</p>
+        <p><b>TF:</b></p>
+        <p>...</p>
+        <p><b>Jeremy Paucar</b></p>
        <p><b>TB1:</b></p>
         <p>...</p>
         <p><b>TP1:</b></p>
