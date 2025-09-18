@@ -416,7 +416,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>6</td>
     <th>Nombre</th>
-    <td>xx</td>
+    <td>Gael Rivera</td>
   </tr>
   <tr>
     <th>Edad</th>
@@ -425,7 +425,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>xx</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         xxx
     </td>
@@ -441,7 +441,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        xx
+       xx 
     </td>
   </tr>
 </table>
@@ -545,19 +545,80 @@ _Imagen (N°7). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.5. Ubiquitous Language
+El siguiente glosario presenta los términos clave utilizados a lo largo del desarrollo del proyecto StockWise. Este lenguaje común busca asegurar que todos los miembros del equipo (tanto técnicos como no ténicos) compartan una compresnión unificada de los conceptos centrales del sistema, facilitando así la comunicación y el diseño colaborativo.
 
-**Segmento 1: Bodegas especializadas por rubro**
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead style="background-color: #f2a654; color: white;">
+    <tr>
+      <th style="width: 30%;">Palabra</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Landing Page</td>
+      <td>Página principal de presentación al llegar al sitio oficial de StockWise.</td>
+    </tr>
+    <tr>
+      <td>Inventario</td>
+      <td>Conjunto de productos almacenados en una bodega con detalles como cantidad, ubicación y fecha de vencimiento.</td>
+    </tr>
+    <tr>
+      <td>Producto</td>
+      <td>Artículo registrado en la plataforma con nombre, descripción, stock mínimo, unidades, fecha de vencimiento y categoría.</td>
+    </tr>
+    <tr>
+      <td>Stock</td>
+      <td>Cantidad disponible de un producto específico en el inventario.</td>
+    </tr>
+    <tr>
+      <td>Stock bajo</td>
+      <td>Estado que indica que la cantidad de un producto está por debajo del mínimo definido por el usuario.</td>
+    </tr>
+    <tr>
+      <td>Panel de Control</td>
+      <td>Interfaz principal para visualizar métricas, movimientos y reportes del inventario.</td>
+    </tr>
+    <tr>
+      <td>Movimiento de Inventario</td>
+      <td>Registro de cambios en cantidades de productos por compras, ventas, pérdidas o ajustes.</td>
+    </tr>
+    <tr>
+      <td>Reporte</td>
+      <td>Documento visual o estadístico que resume información clave del inventario para la toma de decisiones.</td>
+    </tr>
+    <tr>
+      <td>Bodega</td>
+      <td>Negocio pequeño con venta de productos de primera necesidad, como alimentos y bebidas.</td>
+    </tr>
+    <tr>
+      <td>Usuario Administrador</td>
+      <td>Persona con acceso total que puede gestionar usuarios, configuraciones y datos.</td>
+    </tr>
+    <tr>
+      <td>Emprendedor</td>
+      <td>Usuario en etapa de crecimiento que busca profesionalizar la gestión de su negocio.</td>
+    </tr>
+    <tr>
+      <td>Dueña de bodega</td>
+      <td>Usuario con experiencia comercial que desea optimizar la gestión operativa con herramientas digitales.</td>
+    </tr>
+    <tr>
+      <td>Versión Freemium</td>
+      <td>Modelo que permite acceso gratuito a funciones básicas y pago por funciones premium.</td>
+    </tr>
+    <tr>
+      <td>Onboarding</td>
+      <td>Proceso de bienvenida y guía para enseñar a nuevos usuarios a usar la plataforma.</td>
+    </tr>
+    <tr>
+      <td>MVP (Producto Mínimo Viable)</td>
+      <td>Versión inicial con funciones mínimas para validar hipótesis clave con usuarios reales.</td>
+    </tr>
+  </tbody>
+</table>
 
-<img src="assets/Chapter-2/as-is1.jpg" alt="User persona - segmento 1" width="900"/>
 
-_Imagen (N°8). Elaboración propia. Realizado en LucidChart_
-
-**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-<img src="assets/Chapter-2/as-is2.jpg" alt="User persona - segmento 2" width="900"/>
-
-_Imagen (N°9). Elaboración propia. Realizado en LucidChart_
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ## 2.4. Requirements specification
 
