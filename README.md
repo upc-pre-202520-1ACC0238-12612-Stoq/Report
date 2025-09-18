@@ -1941,6 +1941,21 @@ En esta sección se marcaron los puntos clave que denotan transiciones significa
 <img src="./assets/Chapter-2/eventStorming_step4.2.png">
 <br><br>  
 
+#### Step 5: Commands
+En este paso se definen los comandos que representan las acciones que los usuarios pueden ejecutar en el sistema. Estos comandos son fundamentales para desencadenar eventos y modificar el estado del sistema, y deben estar alineados con los eventos identificados previamente. A continuación, se muestran los comandos relevantes para nuestro dominio.
+
+<img src="./assets/Chapter-2/eventStorming_step5.1.png">
+<br>Crear cuenta de usuario registra la cuenta y dispara la verificación (SMS/Email); Iniciar sesión autentica factores y abre una sesión válida; Cambiar plan de suscripción solicita upgrade/downgrade, coordina el cobro y aplica el plan activo tras confirmación; Cerrar sesión invalida la sesión/token en curso.<br>  
+<img src="./assets/Chapter-2/eventStorming_step5.2.png">
+<br>Agregar producto da de alta un ítem con sus datos base; Actualizar producto modifica atributos (nombre, descripción, imágenes, etc.); Cambiar la categoría de producto reasigna su clasificación; Archivar producto cambia el estado a “archivado” cuando no existen existencias ni reservas activas.<br>  
+<img src="./assets/Chapter-2/eventStorming_step5.3.png">
+<br>Registrar lote ingresa stock por lote (cantidad, almacén, vencimiento); Definir stock establece umbrales mínimo/máximo para alertas y reposición; Ajuste de stock corrige existencias con doble validación cuando procede; Liberar reserva de stock devuelve a disponible las cantidades apartadas que ya no se necesitan.<br>  
+<img src="./assets/Chapter-2/eventStorming_step5.4.png">
+<br>Generar alerta crea una alerta con severidad y canales según reglas; Marcar alerta como resuelta cierra el caso tras confirmación de atención; Marcar como urgente eleva prioridad y canal; Ignorar alerta cambia el estado cuando aplica (con trazabilidad).<br>  
+<img src="./assets/Chapter-2/eventStorming_step5.5.png">
+<br>Generar reporte ejecuta una consulta/KPI sobre datos validados; Exportar reporte materializa el resultado (Excel/PDF) con sello/firma; Enviar/Compartir reporte distribuye el archivo por correo o canal elegido y registra la entrega.<br>  
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
 
 #### 2.5.1.3. Bounded Context Canvases
