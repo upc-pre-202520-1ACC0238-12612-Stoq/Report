@@ -1901,6 +1901,21 @@ A continuación, se presentan una serie de figuras que evidencian este proceso d
 <br>En esta figura se aprecia un mural con todos los eventos del dominio que fueron rescatados de la lluvia de ideas que realizó el equipo.<br>
 
 ### Step 2 : Timeline construction
+Una vez identificados los eventos, organizamos la secuencia cronológica en la que estos ocurren dentro del flujo del sistema. Esto nos permitió identificar la secuencia natural del negocio y clarificar la narrativa del dominio.
+A continuación, se presentan una serie de capturas de pantalla que ilustran cómo estructuramos esta línea temporal. 
+
+<img src="./assets/Chapter-2/eventStorming_step2.1.png">
+
+<br><br>  
+<img src="./assets/Chapter-2/eventStorming_step2.2.png">
+<br><br>
+<img src="./assets/Chapter-2/eventStorming_step2.3.png">
+<br><br>
+<img src="./assets/Chapter-2/eventStorming_step2.4.png">
+<br><br>  
+<img src="./assets/Chapter-2/eventStorming_step2.5.png">
+<br><br>  
+
 #### 2.5.1.2. Domain Message Flows Modeling
 
 #### 2.5.1.3. Bounded Context Canvases
