@@ -1892,6 +1892,15 @@ En este apartado se documenta el proceso del Event Storming, una herramienta cla
 
 A continuación se detalla el proceso y la evolución final del event storming.
 
+### Step 1: Unstructured exploration 
+Primero tuvimos una lluvia de ideas en la cual nos propusimos identificar exhaustivamente todos los eventos que ocurrirán en nuestro aplicativo, para asegurarnos de abarcar una amplia gama de posibilidades y ofrecer una experiencia completa y satisfactoria a nuestros usuarios.
+
+A continuación, se presentan una serie de figuras que evidencian este proceso de exploración inicial.
+
+<img src="./assets/Chapter-2/eventStorming_step1.png"> 
+<br>En esta figura se aprecia un mural con todos los eventos del dominio que fueron rescatados de la lluvia de ideas que realizó el equipo.<br>
+
+### Step 2 : Timeline construction
 #### 2.5.1.2. Domain Message Flows Modeling
 
 #### 2.5.1.3. Bounded Context Canvases
