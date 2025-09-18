@@ -2253,6 +2253,10 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
+<div align="center">
+  <img src="assets/Chapter-2/deployment-diagram.png" alt="deploy-diagram"/>
+</div>
+
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: AlertStockManagement Context
