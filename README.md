@@ -448,6 +448,15 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 
 ### 2.2.3. Análisis de entrevistas
 
+**Segmento 1: Bodegas especializadas por rubro**
+Los entrevistados (Milagros, Elvis, Catalina) gestionan inventarios de forma manual, con apuntes en cuadernos o Excel, lo que genera dificultades para mantener un control preciso y actualizado. Las principales problemáticas incluyen falta de control sobre fechas de vencimiento, pérdidas por productos no vendidos a tiempo, ausencia de automatización, y falta de sistemas que permitan actualizar precios en tiempo real o visualizar el inventario de manera dinámica. Los entrevistados manifiestan la necesidad de plataformas digitales con alertas y reportes para mejorar la gestión, delegar tareas y reducir errores humanos, lo que apuntaría a una alta demanda por soluciones tecnológicas accesibles y específicas para bodegas tradicionales.
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (uso de Excel, cuadernos, y sistemas en proceso de digitalización). Tienen una mayor actividad y volumen, con operaciones en crecimiento, y venden usando canales digitales como WhatsApp y redes sociales. Aunque reconocen la importancia de digitalizar y automatizar sus procesos para ganar eficiencia, enfrentan obstáculos como la complejidad o altos costos de las soluciones disponibles. Buscan sistemas simples, automáticos, que avisen sobre niveles de stock y faciliten la organización para poder escalar su negocio sin perder control.
+
+Ambos segmentos comparten retos similares: control manual, dificultades con productos perecibles, pérdidas por falta de actualización o visibilidad, y la necesidad de automatización. Sin embargo, los bodegueros tradicionales tienen una menor adopción y experiencia con herramientas digitales y requieren soluciones accesibles y adaptadas a su realidad, mientras que las startups muestran interés en herramientas integradas y avanzadas, pero preocupadas por la complejidad y costos. Una solución escalable, intuitiva y que pueda adaptarse a distintos tamaños de negocios sería ideal para cubrir ambos mercados.
+
 ## 2.3. Needfinding
 
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
