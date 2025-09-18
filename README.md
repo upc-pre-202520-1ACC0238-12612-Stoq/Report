@@ -478,23 +478,24 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/" alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotoKevin.jpg" alt="Foto de perfil de " width="800px">
     </th>
     <td valign="top">
-      <p><b>xxxxxxxxx</b></p>
+      <p><b>	
+Chi Cruzatt, Kevin Jorge</b></p>
       <p>
-        ..........
+        Actualmente estoy cursando la carrera de ingeniería de Software y me encuentro en el 6° ciclo. Tengo experiencia utilizando diferentes metodologías de diseño, como Domain Driven Design (DDD) y CMV, además de frameworks como Laravel y Spring en lenguajes como Java, PHP, etc. Me considero una persona paciente y perseverante en situaciones difíciles.
       </p>
     </td>
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/" alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotoAlejo.png" alt="Foto de perfil de " width="800px">
     </th>
     <td valign="top">
-      <p><b>xxxxxxxxxxx</b></p>
+      <p><b>Oroncoy Almeyda, Alejandro Daniel</b></p>
       <p>
-      ,,,,,,,,,,,,,
+     Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 6to ciclo. Me considero una persona proactiva, autodidacta y orientada a objetivos.
       </p>
     </td>
   </tr>
