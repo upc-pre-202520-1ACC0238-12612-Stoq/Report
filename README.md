@@ -1932,6 +1932,14 @@ A continuación, se presentan una serie de figuras que evidencian el proceso rea
 <img src="./assets/Chapter-2/eventStorming_step3.5.png">
 <br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo garantizar que un “ajuste de stock” refleje la realidad y no oculte errores o maniobras: cuándo corresponde usar ajuste versus quitar stock por venta o baja por daño, qué evidencias (motivo, usuario, documento/foto) y doble validación exigir, cómo conciliar el conteo físico sin duplicar salidas previas, cómo impactar lotes y reservas (p. ej., liberar reservas ya innecesarias) y cómo disparar alertas por umbral después de cada movimiento.<br> 
 
+#### Step 4: Pivotal Points
+En esta sección se marcaron los puntos clave que denotan transiciones significativas dentro del proceso de desarrollo, especialmente aquellos eventos o decisiones que implican un cambio en el comportamiento del sistema o en la forma en que los distintos Bounded Contexts interactúan entre sí. Como se puede observar, los pivotal points son sumamente importantes. Por ello, para poder comprender y apreciar el diseño realizado en este paso, se muestran las siguientes imágenes. 
+
+<img src="./assets/Chapter-2/eventStorming_step4.1.png">
+<br><br>  
+
+<img src="./assets/Chapter-2/eventStorming_step4.2.png">
+<br><br>  
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
