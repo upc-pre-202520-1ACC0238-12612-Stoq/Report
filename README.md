@@ -1,39 +1,118 @@
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
-
 ### 2.1.1. Análisis competitivo
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th colspan="5">
+      <b>Objetivo del análisis:</b> Identificar el posicionamiento competitivo de StockWise en el mercado de aplicaciones móviles de gestión de inventarios para pymes, entendiendo las ventajas diferenciales y oportunidades de mejora.
+    </th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>StockWise</th>
+    <th>Zoho Inventory</th>
+    <th>Odoo Inventory</th>
+    <th>TradeGecko</th>
+  </tr>
+  <tr>
+    <th colspan="5"><b>PERFIL</b></th>
+  </tr>
+  <tr>
+    <td><b>Overview</b></td>
+    <td>Solución móvil integral especializada en gestión de inventarios para pymes y emprendedores</td>
+    <td>Suite de negocio completa con módulo de inventario como parte de su ecosistema</td>
+    <td>Software de gestión open-source con módulo de inventario personalizable</td>
+    <td>Plataforma de gestión de inventario centrada en comercio electrónico y retail</td>
+  </tr>
+  <tr>
+    <td><b>Ventaja competitiva</b></td>
+    <td>Especialización móvil, interfaz intuitiva, planes funcionales específicos (voz, GPS, IA) y enfoque en pymes</td>
+    <td>Integración completa con ecosistema Zoho y terceros, robustez funcional</td>
+    <td>Flexibilidad y personalización por ser open-source</td>
+    <td>Fuerte integración con canales de e-commerce y plataformas de venta</td>
+  </tr>
+  <tr>
+    <th colspan="5"><b>PERFIL DE MARKETING</b></th>
+  </tr>
+  <tr>
+    <td><b>Mercado objetivo</b></td>
+    <td>Pymes, emprendedores, startups y bodegas especializadas</td>
+    <td>Medianas empresas y pymes en crecimiento</td>
+    <td>Empresas de todos los tamaños que buscan personalización</td>
+    <td>Negocios de e-commerce y retail</td>
+  </tr>
+  <tr>
+    <td><b>Estrategias de marketing</b></td>
+    <td>Marketing digital, ASO, comunidades de emprendedores, modelo freemium</td>
+    <td>Marketing B2B, fuerza de ventas, contenido educativo</td>
+    <td>Comunidad open-source, partners de implementación</td>
+    <td>Marketing especializado en e-commerce, ferias sectoriales</td>
+  </tr>
+  <tr>
+    <th colspan="5"><b>PERFIL DE PRODUCTO</b></th>
+  </tr>
+  <tr>
+    <td><b>Productos & Servicios</b></td>
+    <td>App móvil con: gestión inventory, alertas, reportes, boletas, planes voz/GPS/IA/scanner</td>
+    <td>Software web y móvil con: inventory, órdenes venta, envíos, facturación</td>
+    <td>Suite modular web/móvil con: inventory, manufactura, ventas, CRM</td>
+    <td>Plataforma web/móvil: inventory, pedidos, logística, analytics</td>
+  </tr>
+  <tr>
+    <td><b>Precios & Costos</b></td>
+    <td>Modelo freemium con planes premium escalables por funcionalidad</td>
+    <td>Planes por volumen de órdenes, desde gratis hasta enterprise</td>
+    <td>Freemium modular, costos de implementación y personalización</td>
+    <td>Planes premium por volumen de ventas y usuarios</td>
+  </tr>
+  <tr>
+    <td><b>Canales de distribución</b></td>
+    <td>Móvil (iOS/Android)</td>
+    <td>Web y móvil (iOS/Android)</td>
+    <td>Web y móvil (iOS/Android)</td>
+    <td>Web y móvil (iOS/Android)</td>
+  </tr>
 
-# Análisis Competitivo
+<tr>
+    <th colspan="5"><b>Análisis SWOT</b></th>
+  </tr>
+<tr>
+    <td><b>Fortalezas</b></td>
+    <td>- Especialización móvil nativa<br>- Interfaz intuitiva<br>- Funcionalidades innovadoras (voz, GPS, IA)<br>- Enfoque específico en pymes</td>
+    <td>- Ecosistema integrado<br>- Solución completa<br>- Reconocimiento de marca<br>- Escalabilidad</td>
+    <td>- Flexibilidad y personalización<br>- Comunidad activa<br>- Modelo open-source<br>- Múltiples módulos integrados</td>
+    <td>- Especialización en e-commerce<br>- Integraciones con plataformas de venta<br>- Analytics avanzado</td>
+  </tr>
+  <tr>
+    <td><b>Debilidades</b></td>
+    <td>- Marca desconocida<br>- Ecosistema limitado vs competidores<br>- Recursos limitados vs grandes competidores</td>
+    <td>- Curva de aprendizaje más pronunciada<br>- Puede ser complejo para pymes muy pequeñas<br>- Costo elevado para planes avanzados</td>
+    <td>- Requiere personalización para funcionar óptimamente<br>- Soporte puede ser limitado en versión community</td>
+    <td>- Enfoque muy específico en e-commerce<br>- Menos adaptable a otros modelos de negocio<br>- Precios elevados</td>
+  </tr>
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>- Crecimiento mercado pymes digitales<br>- Tendencia hacia soluciones móviles<br>- Expansión a Latinoamérica<br>- Alianzas con comunidades de emprendedores</td>
+    <td>- Expansión a nuevos mercados<br>- Desarrollo de más integraciones<br>- Consolidación como suite integral</td>
+    <td>- Crecimiento de la comunidad de desarrolladores<br>- Expansión de funcionalidades móviles<br>- Alianzas con implementadores</td>
+    <td>- Crecimiento del e-commerce global<br>- Expansión a nuevos verticales de retail<br>- Desarrollo de analytics predictivo</td>
+  </tr>
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>- Entrada de competidores establecidos al mercado móvil<br>- Commoditización de funcionalidades básicas<br>- Dificultad para captar usuarios frente a alternativas gratuitas</td>
+    <td>- Competencia de soluciones más especializadas<br>- Precios más competitivos de alternativas<br>- Cambios en regulaciones internacionales</td>
+    <td>- Fragmentación de la comunidad<br>- Calidad variable de implementaciones<br>- Competencia de soluciones SaaS más pulidas</td>
+    <td>- Competencia de plataformas de e-commerce con módulos nativos<br>- Cambios en APIs de plataformas de venta<br>- Consolidación del mercado</td>
+  </tr>
 
-## Competitive Analysis Landscape
-
-| **Objetivo del análisis:** Identificar el posicionamiento competitivo de StockWise en el mercado de aplicaciones móviles de gestión de inventarios para pymes, entendiendo las ventajas diferenciales y oportunidades de mejora. |  |  |  |
-|---|---|---|---|
-|  | **StockWise** | **Zoho Inventory** | **Odoo Inventory** | **TradeGecko** |
-| **PERFIL** | **Overview** | Solución móvil integral especializada en gestión de inventarios para pymes y emprendedores | Suite de negocio completa con módulo de inventario como parte de su ecosistema | Software de gestión open-source con módulo de inventario personalizable | Plataforma de gestión de inventario centrada en comercio electrónico y retail |
-|  | **Ventaja competitiva** | Especialización móvil, interfaz intuitiva, planes funcionales específicos (voz, GPS, IA) y enfoque en pymes | Integración completa con ecosistema Zoho y terceros, robustez funcional | Flexibilidad y personalización por ser open-source | Fuerte integración con canales de e-commerce y plataformas de venta |
-| **PERFIL DE MARKETING** | **Mercado objetivo** | Pymes, emprendedores, startups y bodegas especializadas | Medianas empresas y pymes en crecimiento | Empresas de todos los tamaños que buscan personalización | Negocios de e-commerce y retail |
-|  | **Estrategias de marketing** | Marketing digital, ASO, comunidades de emprendedores, modelo freemium | Marketing B2B, fuerza de ventas, contenido educativo | Comunidad open-source, partners de implementación | Marketing especializado en e-commerce, ferias sectoriales |
-| **PERFIL DE PRODUCTO** | **Productos & Servicios** | App móvil con: gestión inventory, alertas, reportes, boletas, planes voz/GPS/IA/scanner | Software web y móvil con: inventory, órdenes venta, envíos, facturación | Suite modular web/móvil con: inventory, manufactura, ventas, CRM | Plataforma web/móvil: inventory, pedidos, logística, analytics |
-|  | **Precios & Costos** | Modelo freemium con planes premium escalables por funcionalidad | Planes por volumen de órdenes, desde gratis hasta enterprise | Freemium modular, costos de implementación y personalización | Planes premium por volumen de ventas y usuarios |
-|  | **Canales de distribución** | Móvil (iOS/Android) | Web y móvil (iOS/Android) | Web y móvil (iOS/Android) | Web y móvil (iOS/Android) |
-
-
-## Análisis SWOT
-
-| **Análisis SWOT** | **StockWise**                                                                                                                                                                | **Zoho Inventory**                                                                                                                        | **Odoo Inventory**                                                                                                           | **TradeGecko**                                                                                                                             |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Fortalezas**    | - Especialización móvil nativa<br>- Interfaz intuitiva<br>- Funcionalidades innovadoras (voz, GPS, IA)<br>- Enfoque específico en pymes                                      | - Ecosistema integrado<br>- Solución completa<br>- Reconocimiento de marca<br>- Escalabilidad                                             | - Flexibilidad y personalización<br>- Comunidad activa<br>- Modelo open-source<br>- Múltiples módulos integrados             | - Especialización en e-commerce<br>- Integraciones con plataformas de venta<br>- Analytics avanzado                                        |
-| **Debilidades**   | - Marca desconocida<br>- Ecosistema limitado vs competidores<br>- Recursos limitados vs grandes competidores                                                                 | - Curva de aprendizaje más pronunciada<br>- Puede ser complejo para pymes muy pequeñas<br>- Costo elevado para planes avanzados           | - Requiere personalización para funcionar óptimamente<br>- Soporte puede ser limitado en versión community                   | - Enfoque muy específico en e-commerce<br>- Menos adaptable a otros modelos de negocio<br>- Precios elevados                               |
-| **Oportunidades** | - Crecimiento mercado pymes digitales<br>- Tendencia hacia soluciones móviles<br>- Expansión a Latinoamérica<br>- Alianzas con comunidades de emprendedores                  | - Expansión a nuevos mercados<br>- Desarrollo de más integraciones<br>- Consolidación como suite integral                                 | - Crecimiento de la comunidad de desarrolladores<br>- Expansión de funcionalidades móviles<br>- Alianzas con implementadores | - Crecimiento del e-commerce global<br>- Expansión a nuevos verticales de retail<br>- Desarrollo de analytics predictivo                   |
-| **Amenazas**      | - Entrada de competidores establecidos al mercado móvil<br>- Commoditización de funcionalidades básicas<br>- Dificultad para captar usuarios frente a alternativas gratuitas | - Competencia de soluciones más especializadas<br>- Precios más competitivos de alternativas<br>- Cambios en regulaciones internacionales | - Fragmentación de la comunidad<br>- Calidad variable de implementaciones<br>- Competencia de soluciones SaaS más pulidas    | - Competencia de plataformas de e-commerce con módulos nativos<br>- Cambios en APIs de plataformas de venta<br>- Consolidación del mercado |
+</table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## Estrategias Generales de Posicionamiento
 
-### 1. Especialización en Experiencia Móvil
+**1. Especialización en Experiencia Móvil**
 
 **Objetivo:** Diferenciarnos como la solución móvil nativa más intuitiva del mercado.
 
@@ -44,7 +123,7 @@
 - Garantizar funcionamiento offline para operaciones críticas
 - Implementar notificaciones push contextuales y personalizables
 
-### 2. Enfoque en Usabilidad para PYMES
+**2. Enfoque en Usabilidad para PYMES**
 
 **Objetivo:** Ofrecer la curva de aprendizaje más corta del mercado.
 
@@ -57,7 +136,7 @@
 
 ## Estrategias Ofensivas frente a Competidores
 
-### 1. Contra Zoho Inventory
+**1. Contra Zoho Inventory**
 
 **Debilidad a explotar:** Complejidad para PYMES pequeñas
 
@@ -68,7 +147,7 @@
 - Planes precio más competitivos para segmento pequeño-mediano
 - Funcionalidades "justo lo necesario" sin sobrecarga de opciones
 
-### 2. Contra Odoo Inventory
+**2. Contra Odoo Inventory**
 
 **Debilidad a explotar:** Requiere personalización e implementación
 
@@ -79,7 +158,7 @@
 - Casos de éxito de implementación en menos de 24 horas
 - Servicio de configuración inicial incluido en planes premium
 
-### 3. Contra TradeGecko
+**3. Contra TradeGecko**
 
 **Debilidad a explotar:** Enfoque limitado a e-commerce
 
@@ -92,7 +171,7 @@
 
 ## Estrategias Defensivas
 
-### 1. Ante posible commoditización
+**1. Ante posible commoditización**
 
 **Tácticas:**
 
@@ -101,7 +180,7 @@
 - Integraciones exclusivas con proveedores locales
 - Comunidad de usuarios para feedback y co-creación
 
-### 2. Protección frente a entrada de grandes competidores
+**2. Protección frente a entrada de grandes competidores**
 
 **Tácticas:**
 
