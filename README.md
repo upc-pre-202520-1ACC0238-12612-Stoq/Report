@@ -72,7 +72,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/" alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotoAlejo.png" alt="Foto de perfil de Alejandro" width="800px">
     </th>
     <td valign="top">
       <p><b>Oroncoy Almeyda, Alejandro Daniel</b></p>
