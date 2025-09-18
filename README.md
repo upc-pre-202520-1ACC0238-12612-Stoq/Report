@@ -2022,8 +2022,8 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
 
 ### 2.4.3. Product Backlog
 
-<table>
-  <thead>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead style="background-color: #f2a654; color: white;">
     <tr>
       <th>#</th>
       <th>User Story ID</th>
@@ -2033,33 +2033,39 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>US01</td><td>Registra producto nuevo</td><td>Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado desde el inicio</td><td>5</td></tr>
-    <tr><td>2</td><td>US03</td><td>Registrar salida de producto</td><td>Como usuario, quiero registrar la salida de productos, para mantener actualizado el stock en tiempo real</td><td>3</td></tr>
-    <tr><td>3</td><td>US05</td><td>Generar alertas por bajo stock</td><td>Como usuario, quiero recibir alertas por bajo stock, para reabastecerme a tiempo</td><td>5</td></tr>
-    <tr><td>4</td><td>US02</td><td>Editar información de producto</td><td>Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos</td><td>3</td></tr>
-    <tr><td>5</td><td>US04</td><td>Ver historial de movimientos</td><td>Como usuario, quiero ver el historial de movimientos, para rastrear los cambios en el inventario</td><td>3</td></tr>
-    <tr><td>6</td><td>US12</td><td>Generar reportes de inventario</td><td>Como usuario, quiero generar reportes detallados del inventario para tomar decisiones informadas</td><td>3</td></tr>
-    <tr><td>7</td><td>US13</td><td>Controlar productos caducados</td><td>Como usuario, quiero identificar productos caducados para evitar pérdidas</td><td>3</td></tr>
-    <tr><td>8</td><td>US06</td><td>Buscar productos en inventario</td><td>Como usuario, quiero buscar productos por nombre o categoría, para encontrarlos rápidamente</td><td>3</td></tr>
-    <tr><td>9</td><td>US07</td><td>Añadir etiquetas para productos</td><td>Como usuario, quiero clasificar productos con etiquetas, para organizar el stock y facilitar búsquedas</td><td>5</td></tr>
-    <tr><td>10</td><td>US18</td><td>Registrar precios de compra y venta</td><td>Como usuario, quiero registrar precios para calcular márgenes de ganancia</td><td>3</td></tr>
-    <tr><td>11</td><td>US08</td><td>Estadística de productos más vendidos</td><td>Como usuario, quiero ver los productos más vendidos para identificar los de mayor demanda</td><td>5</td></tr>
-    <tr><td>12</td><td>US09</td><td>Estadística de categoría más vendida</td><td>Como usuario, quiero saber qué categorías son las más vendidas para tomar decisiones comerciales</td><td>5</td></tr>
-    <tr><td>13</td><td>US11</td><td>Estadística de stock promedio</td><td>Como usuario, quiero ver el stock promedio para detectar quiebres o sobrestock</td><td>5</td></tr>
-    <tr><td>14</td><td>US10</td><td>Ticket promedio</td><td>Como usuario, quiero conocer el ticket promedio para evaluar efectividad de precios</td><td>3</td></tr>
-    <tr><td>15</td><td>US14</td><td>Registrar devolución de productos</td><td>Como usuario, quiero registrar devoluciones al inventario para mantener el stock actualizado</td><td>3</td></tr>
-    <tr><td>16</td><td>US16</td><td>Gestionar proveedores</td><td>Como usuario, quiero registrar y gestionar proveedores para facilitar la reposición de productos</td><td>3</td></tr>
-    <tr><td>17</td><td>US17</td><td>Registrar lote de productos</td><td>Como usuario, quiero registrar productos por lote para facilitar el control masivo</td><td>5</td></tr>
-    <tr><td>18</td><td>US15</td><td>Configurar roles y permisos</td><td>Como administrador, quiero definir roles y permisos para proteger la información del sistema</td><td>5</td></tr>
-    <tr><td>19</td><td>US20</td><td>Crear kits o combos de productos</td><td>Como usuario, quiero agrupar productos en kits para venderlos como un solo paquete</td><td>5</td></tr>
-    <tr><td>20</td><td>US19</td><td>Registrar unidades de medida</td><td>Como usuario, quiero definir unidades de medida para cada producto</td><td>3</td></tr>
-    <tr><td>21</td><td>US21</td><td>Agregar ubicación de producto</td><td>Como usuario, quiero registrar la ubicación del producto para facilitar su localización</td><td>3</td></tr>
-    <tr><td>22</td><td>US25</td><td>Ver inventario por estantería</td><td>Como usuario, quiero ver inventario por ubicación física para facilitar el control por zonas</td><td>3</td></tr>
-    <tr><td>23</td><td>US22</td><td>Personalizar columnas en inventario</td><td>Como usuario, quiero personalizar la vista del inventario según mis necesidades</td><td>3</td></tr>
-    <tr><td>24</td><td>US23</td><td>Duplicar ficha de producto</td><td>Como usuario, quiero duplicar productos para registrar variantes fácilmente</td><td>3</td></tr>
-    <tr><td>25</td><td>US24</td><td>Añadir notas internas a productos</td><td>Como usuario, quiero añadir comentarios internos para registrar incidencias sin mostrarlas al cliente</td><td>2</td></tr>
+    <tr><td>1</td><td>US01</td><td>Registra producto nuevo</td><td>Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado desde el inicio.</td><td>5</td></tr>
+    <tr><td>2</td><td>US05</td><td>Generar alertas por bajo stock</td><td>Como usuario, quiero recibir alertas por bajo stock, para reabastecerme a tiempo.</td><td>5</td></tr>
+    <tr><td>3</td><td>US07</td><td>Añadir etiquetas para productos</td><td>Como usuario, quiero clasificar productos con etiquetas, para organizar el stock y facilitar búsquedas.</td><td>5</td></tr>
+    <tr><td>4</td><td>US08</td><td>Estadística de productos más vendidos</td><td>Como usuario, quiero ver los productos más vendidos para identificar los de mayor demanda.</td><td>5</td></tr>
+    <tr><td>5</td><td>US09</td><td>Estadística de categoría más vendida</td><td>Como usuario, quiero saber qué categorías son las más vendidas para tomar decisiones comerciales.</td><td>5</td></tr>
+    <tr><td>6</td><td>US11</td><td>Estadística de stock promedio</td><td>Como usuario, quiero ver el stock promedio para detectar quiebres o sobrestock.</td><td>5</td></tr>
+    <tr><td>7</td><td>US15</td><td>Configurar roles y permisos</td><td>Como administrador, quiero definir roles y permisos para proteger la información del sistema.</td><td>5</td></tr>
+    <tr><td>8</td><td>US17</td><td>Registrar lote de productos</td><td>Como usuario, quiero registrar productos por lote para facilitar el control masivo.</td><td>5</td></tr>
+    <tr><td>9</td><td>US20</td><td>Crear kits o combos de productos</td><td>Como usuario, quiero agrupar productos en kits para venderlos como un solo paquete.</td><td>5</td></tr>
+    <tr><td>10</td><td>US26</td><td>Registrar productos por voz</td><td>Como usuario, quiero registrar productos mediante comandos de voz para ganar rapidez y comodidad.</td><td>5</td></tr>
+    <tr><td>11</td><td>US27</td><td>Geolocalización de productos y entregas</td><td>Como usuario, quiero integrar GPS para registrar procedencia y puntos de entrega para optimizar trazabilidad.</td><td>5</td></tr>
+    <tr><td>12</td><td>US28</td><td>Localizar productos con mapa y QR</td><td>Como usuario, quiero ubicar productos dentro del almacén usando mapa y QR para encontrarlos con precisión.</td><td>5</td></tr>
+    <tr><td>13</td><td>US02</td><td>Editar información de producto</td><td>Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.</td><td>3</td></tr>
+    <tr><td>14</td><td>US03</td><td>Registrar salida de producto</td><td>Como usuario, quiero registrar la salida de productos, para mantener actualizado el stock en tiempo real.</td><td>3</td></tr>
+    <tr><td>15</td><td>US04</td><td>Ver historial de movimientos</td><td>Como usuario, quiero ver el historial de movimientos, para rastrear los cambios en el inventario.</td><td>3</td></tr>
+    <tr><td>16</td><td>US06</td><td>Buscar productos en inventario</td><td>Como usuario, quiero buscar productos por nombre o categoría, para encontrarlos rápidamente.</td><td>3</td></tr>
+    <tr><td>17</td><td>US10</td><td>Ticket promedio</td><td>Como usuario, quiero conocer el ticket promedio para evaluar efectividad de precios.</td><td>3</td></tr>
+    <tr><td>18</td><td>US12</td><td>Generar reportes de inventario</td><td>Como usuario, quiero generar reportes detallados del inventario para tomar decisiones informadas.</td><td>3</td></tr>
+    <tr><td>19</td><td>US13</td><td>Controlar productos caducados</td><td>Como usuario, quiero identificar productos caducados para evitar pérdidas.</td><td>3</td></tr>
+    <tr><td>20</td><td>US14</td><td>Registrar devolución de productos</td><td>Como usuario, quiero registrar devoluciones al inventario para mantener el stock actualizado.</td><td>3</td></tr>
+    <tr><td>21</td><td>US16</td><td>Gestionar proveedores</td><td>Como usuario, quiero registrar y gestionar proveedores para facilitar la reposición de productos.</td><td>3</td></tr>
+    <tr><td>22</td><td>US18</td><td>Registrar precios de compra y venta</td><td>Como usuario, quiero registrar precios para calcular márgenes de ganancia.</td><td>3</td></tr>
+    <tr><td>23</td><td>US19</td><td>Registrar unidades de medida</td><td>Como usuario, quiero definir unidades de medida para cada producto.</td><td>3</td></tr>
+    <tr><td>24</td><td>US21</td><td>Agregar ubicación de producto</td><td>Como usuario, quiero registrar la ubicación del producto para facilitar su localización.</td><td>3</td></tr>
+    <tr><td>25</td><td>US22</td><td>Personalizar columnas en inventario</td><td>Como usuario, quiero personalizar la vista del inventario según mis necesidades.</td><td>3</td></tr>
+    <tr><td>26</td><td>US23</td><td>Duplicar ficha de producto</td><td>Como usuario, quiero duplicar productos para registrar variantes fácilmente.</td><td>3</td></tr>
+    <tr><td>27</td><td>US25</td><td>Ver inventario por estantería</td><td>Como usuario, quiero ver inventario por ubicación física para facilitar el control por zonas.</td><td>3</td></tr>
+    <tr><td>28</td><td>US29</td><td>Exportar reportes</td><td>Como usuario, quiero exportar reportes a PDF o Excel para compartir y analizar fuera de la plataforma.</td><td>3</td></tr>
+    <tr><td>29</td><td>US30</td><td>Personalizar notificaciones</td><td>Como usuario, quiero configurar notificaciones personalizadas para alertas de stock, caducidad y otras condiciones.</td><td>3</td></tr>
+    <tr><td>30</td><td>US24</td><td>Añadir notas internas a productos</td><td>Como usuario, quiero añadir comentarios internos para registrar incidencias sin mostrarlas al cliente.</td><td>2</td></tr>
   </tbody>
 </table>
+
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
