@@ -2027,6 +2027,24 @@ Este es un escenario de recepción de lote: el admin, a través de la Web App, e
 Este es un escenario de cambio de plan (Subscription): el usuario solicita en el Website el comando Cambio de plan, que es atendido por el BC IAM; IAM coordina con la pasarela de pagos para capturar el cobro y, una vez confirmado, publica los eventos “Cambio de plan realizado” y “Pasa a plan premium”, los cuales habilitan capacidades en los demás contextos: Alerts reconfigura sus canales (por ejemplo, activa SMS para notificaciones críticas) y Report registra el movimiento de suscripción en la auditoría; como efecto visible, el Website recibe el permiso de exportar reportes (gating por plan) y el usuario continúa operando con las nuevas funcionalidades asociadas a su plan activo..<br>
 
 #### 2.5.1.3. Bounded Context Canvases
+El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DDD) que permite definir, entender y comunicar de forma clara los límites, responsabilidades y elementos clave de un Bounded Context. Ayuda a alinear al equipo en torno a una visión compartida del dominio, identificando entidades, eventos, comandos y relaciones externas. Además, elaborar un diseño modular del sistema de manera coherente es posible gracias a las nomenclaturas establecidas por un Bounded Context Canvas
+
+<br>Bounded Context: IAM<br> 
+<img src="./assets/Chapter-2/eventStorming_BoundenContextCavas1.png">
+<br><br> 
+<br>Bounded Context: Product catalog<br>
+<img src="./assets/Chapter-2/eventStorming_BoundenContextCavas2.png">
+<br><br>
+<br>Bounded Context: Inventory<br> 
+<img src="./assets/Chapter-2/eventStorming_BoundenContextCavas3.png">
+<br><br>
+<br>Bounded Context: Alerts<br> 
+<img src="./assets/Chapter-2/eventStorming_BoundenContextCavas4.png">
+<br><br>
+<br>Bounded Context: AuditReport<br> 
+<img src="./assets/Chapter-2/eventStorming_BoundenContextCavas5.png">
+<br><br>
+
 
 ### 2.5.2. Context Mapping
 
