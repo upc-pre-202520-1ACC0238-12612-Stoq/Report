@@ -273,10 +273,9 @@ soluciones de software.</b></td>
         <p><b>TF:</b></p>
         <p></p>
         <p><b>Jeremy Paucar</b></p>
-          Aprendí nuevas formas de mapear el flujo de eventos y actualicé mi conocimiento aplicando EventStorming en el proyecto.
         <p><b></b></p>
-       <p><b>TB1:</b></p>
-        <p></p>
+       <p><b>TB1:</b></p>         
+        <p> Aprendí nuevas formas de mapear el flujo de eventos y actualicé mi conocimiento aplicando EventStorming en el proyecto.</p>
         <p><b>TP1:</b></p>
         <p></p>
         <p><b>TB2:</b></p>
@@ -286,7 +285,7 @@ soluciones de software.</b></td>
       </td>
       <td>
         <p><strong>TB1:</strong></p>
-        <p>..</p>
+        <p>Como equipo logramos actualizar nuestros conocimientos al aplicar diferentes técnicas y herramientas en el proyecto, lo que nos permitió mejorar nuestra formación profesional y fortalecer el desarrollo de la solución de software.</p>
         <p><strong>TP1:</strong></p>
         <p>..</p>
         <p><strong>TB2:</strong></p>
@@ -352,7 +351,7 @@ de software.</td>
       </td>
        <td>
         <p><strong>TB1:</strong></p>
-        <p>..</p>
+        <p>Es importante contar con la capacidad de trabajar en equipo, ya que permite compartir ideas, resolver problemas juntos y mejorar los resultados del proyecto.</p>
         <p><strong>TP1:</strong></p>
         <p>...</p>
         <p><strong>TB2:</strong></p>
