@@ -1959,17 +1959,17 @@ En este paso se definen los comandos que representan las acciones que los usuari
 En este paso se describen políticas que rigen decisiones y acciones dentro del sistema, asegurando que este se alinie con las necesidades del usuario y los objetivos del negocio.
 Los siguientes frames contienen políticas que indican diferentes restricciones o condiciones descritas a continuación:
 
--Validar contacto antes de activar la cuenta. El correo o teléfono debe confirmarse (OTP) antes de permitir inicio de sesión o uso de la app.
--Un solo plan activo por cuenta. La suscripción vigente es única (Free o Premium) y el cambio de plan solo se aplica cuando el pago está confirmado.
--Producto con datos mínimos obligatorios. Todo producto debe tener categoría y precio; además se definen umbrales de stock min/máx para integrarse con inventario.
--No archivar con stock/Reserva. Prohibido archivar si existen existencias o reservas; primero se libera/traslada el stock.
--Perecibles con fecha de vencimiento. Lotes de productos perecibles deben registrar expiryDate.
--Ajuste con doble validación. Cualquier ajuste de inventario requiere aprobación en un segundo paso.
--No reservar más que disponible. Las reservas nunca pueden exceder el stock disponible.
--Críticas en < 1 minuto. Las alertas de alta severidad (stock bajo, vencimiento) deben generarse y enviarse en menos de un minuto.
--ACK obligatorio antes de cerrar. El usuario debe reconocer/escalar una alerta antes de marcarla como resuelta.
--Reportes solo con datos validados. Los informes se generan a partir de eventos confirmados (inventario/catálogo).
--Exportos con firma/sello. Los archivos exportados (Excel/PDF) deben incluir firma digital o sello de autenticidad.
+-Validar contacto antes de activar la cuenta. El correo o teléfono debe confirmarse (OTP) antes de permitir inicio de sesión o uso de la app.<br>
+-Un solo plan activo por cuenta. La suscripción vigente es única (Free o Premium) y el cambio de plan solo se aplica cuando el pago está confirmado.<br>
+-Producto con datos mínimos obligatorios. Todo producto debe tener categoría y precio; además se definen umbrales de stock min/máx para integrarse con inventario.<br>
+-No archivar con stock/Reserva. Prohibido archivar si existen existencias o reservas; primero se libera/traslada el stock.<br>
+-Perecibles con fecha de vencimiento. Lotes de productos perecibles deben registrar expiryDate.<br>
+-Ajuste con doble validación. Cualquier ajuste de inventario requiere aprobación en un segundo paso.<br>
+-No reservar más que disponible. Las reservas nunca pueden exceder el stock disponible.<br>
+-Críticas en < 1 minuto. Las alertas de alta severidad (stock bajo, vencimiento) deben generarse y enviarse en menos de un minuto.<br>
+-ACK obligatorio antes de cerrar. El usuario debe reconocer/escalar una alerta antes de marcarla como resuelta.<br>
+-Reportes solo con datos validados. Los informes se generan a partir de eventos confirmados (inventario/catálogo).<br>
+-Exportos con firma/sello. Los archivos exportados (Excel/PDF) deben incluir firma digital o sello de autenticidad.<br>
 
 <img src="./assets/Chapter-2/eventStorming_step6.1.png">
 <br><br> 
@@ -2012,6 +2012,19 @@ En los pasos 9 y 10 se introducen dos conceptos clave del Domain-Driven Design: 
 <br><br>
 
 #### 2.5.1.2. Domain Message Flows Modeling
+En los siguientes gráficos, se representa el proceso seguido para visualizar cómo  deben colaborar los bounded contexts para resolver distintos escenarios que pueden presentarse en el negocio.
+
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow1.png"><br>
+Este es un escenario de creación e inicio/cierre de sesión para nuestra app de bodega: primero, el usuario registra su cuenta en la Web App enviando su correo o teléfono; la aplicación remite el comando a IAM, que coordina con el proveedor OTP/SMS/Email para verificar el contacto y, una vez confirmado, publica el evento “Nuevo usuario ingresado” dejando la cuenta activa. A continuación, el usuario solicita iniciar sesión; la Web App envía el comando a IAM, que valida credenciales/OTP y emite “Sesión iniciada”, habilitando el acceso a las demás funciones. Finalmente, cuando el usuario decide salir, la Web App manda “Cerrar sesión” a IAM, que invalida el token/sesión y concluye el ciclo de autenticación.<br> 
+
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow2.png"><br>
+Este es un escenario de archivado de producto con validación de stock: el Admin solicita en Product Catalog el comando Archivar producto y, antes de ejecutar el cambio, el catálogo consulta a Inventory el estado de existencias y reservas. Con la Consulta de stock, Inventory responde si hay unidades o reservas activas; si aún existe stock o reservas, desde la Web App se genera la notificación correspondiente y se envía a Alerts (Alerta generada) para informar y bloquear la acción. Si el resultado confirma stock=0 y sin reservas, el catálogo procede a completar la operación y se publica el evento Producto archivado, quedando el ítem fuera de publicación.<br>
+
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow3.png"><br>
+Este es un escenario de recepción de lote: el admin, a través de la Web App, envía a Inventory el comando Registrar lote con productId, lotId, qty y expiryDate; Inventory valida la política de perecibles (exigir fecha de vencimiento) y confirma la alta con el evento Lote registrado; a partir de ese hecho aplica sus reglas: si el lote es perecible y cae dentro del umbral, detecta “Próximo a vencer” y ordena en Alerts el comando Generar Alerta para notificar al usuario; en paralelo, registra la trazabilidad de la operación en AuditReport mediante el evento Movimiento registrado en historial, dejando el ingreso listo para reportes e indicadores.<br>
+
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow4.png"><br>
+Este es un escenario de cambio de plan (Subscription): el usuario solicita en el Website el comando Cambio de plan, que es atendido por el BC IAM; IAM coordina con la pasarela de pagos para capturar el cobro y, una vez confirmado, publica los eventos “Cambio de plan realizado” y “Pasa a plan premium”, los cuales habilitan capacidades en los demás contextos: Alerts reconfigura sus canales (por ejemplo, activa SMS para notificaciones críticas) y Report registra el movimiento de suscripción en la auditoría; como efecto visible, el Website recibe el permiso de exportar reportes (gating por plan) y el usuario continúa operando con las nuevas funcionalidades asociadas a su plan activo..<br>
 
 #### 2.5.1.3. Bounded Context Canvases
 
