@@ -10,10 +10,10 @@
   </tr>
   <tr>
     <th></th>
-    <th>StockWise</th>
-    <th>Zoho Inventory</th>
-    <th>Odoo Inventory</th>
-    <th>TradeGecko</th>
+    <th>StockWise <img src="./assets/Chapter-2/stock.jpeg"></th>
+    <th>Zoho Inventory <img src="./assets/Chapter-2/Zoho.png"></th>
+    <th>Odoo Inventory <img src="./assets/Chapter-2/odoo.png"></th>
+    <th>TradeGecko <img src="./assets/Chapter-2/trade.png"></th>
   </tr>
   <tr>
     <th colspan="5"><b>PERFIL</b></th>
