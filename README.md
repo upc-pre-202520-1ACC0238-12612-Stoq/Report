@@ -10,10 +10,10 @@
   </tr>
   <tr>
     <th></th>
-    <th>StockWise</th>
-    <th>Zoho Inventory</th>
-    <th>Odoo Inventory</th>
-    <th>TradeGecko</th>
+    <th>StockWise <img src="./assets/Chapter-2/stock.jpeg"></th>
+    <th>Zoho Inventory <img src="./assets/Chapter-2/Zoho.png"></th>
+    <th>Odoo Inventory <img src="./assets/Chapter-2/odoo.png"></th>
+    <th>TradeGecko <img src="./assets/Chapter-2/trade.png"></th>
   </tr>
   <tr>
     <th colspan="5"><b>PERFIL</b></th>
@@ -255,7 +255,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
         Ver grabación
       </a>
     </td>
@@ -263,7 +263,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        05:24 -11:12
+         00:00 -5:48
     </td>
   </tr>
 </table>
@@ -291,7 +291,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
         Ver grabación
       </a>
     </td>
@@ -299,7 +299,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        11:12 - 17:11
+         5:48 - 11:47
     </td>
   </tr>
 </table>
@@ -326,7 +326,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313773_upc_edu_pe/EUKDKqAkF5JElUPukRAiW58BeSQ_iE_2kfrKInIh4Ulm_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JiTffP">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
         Ver grabación
       </a>
     </td>
@@ -334,7 +334,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        05:20- 09:10
+        11:48 - 21:31
     </td>
   </tr>
 </table>
@@ -363,7 +363,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
         Ver grabación
       </a>
     </td>
@@ -371,7 +371,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        17:11 - 20:45
+         21:31 - 25:14
     </td>
   </tr>
 </table>
@@ -406,7 +406,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        20:45 - 23:20
+         25:14 - 29:36
     </td>
   </tr>
 </table>
@@ -416,7 +416,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>6</td>
     <th>Nombre</th>
-    <td>xx</td>
+    <td>Gael Rivera</td>
   </tr>
   <tr>
     <th>Edad</th>
@@ -425,15 +425,15 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>xx</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        xxx
+        La entrevista trata sobre Eduardo de Rivera Sosa, un emprendedor que importa productos desde Asia para venderlos en Perú. Actualmente, gestiona su inventario manualmente con Excel, lo que le consume mucho tiempo y recursos, generando pérdidas. Busca una solución automatizada y fácil de usar para controlar mejor su stock y evitar la necesidad de estar actualizando constantemente la información. También usa Notion para organizar pedidos y vende a través de Facebook, Instagram y TikTok. En resumen, la entrevista aborda los retos y necesidades en la gestión de inventarios en su negocio de importación y venta.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
         Ver grabación
       </a>
     </td>
@@ -441,12 +441,21 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        xx
+       29:36 - 33:36 
     </td>
   </tr>
 </table>
 
 ### 2.2.3. Análisis de entrevistas
+
+**Segmento 1: Bodegas especializadas por rubro**
+Los entrevistados (Milagros, Elvis, Catalina) gestionan inventarios de forma manual, con apuntes en cuadernos o Excel, lo que genera dificultades para mantener un control preciso y actualizado. Las principales problemáticas incluyen falta de control sobre fechas de vencimiento, pérdidas por productos no vendidos a tiempo, ausencia de automatización, y falta de sistemas que permitan actualizar precios en tiempo real o visualizar el inventario de manera dinámica. Los entrevistados manifiestan la necesidad de plataformas digitales con alertas y reportes para mejorar la gestión, delegar tareas y reducir errores humanos, lo que apuntaría a una alta demanda por soluciones tecnológicas accesibles y específicas para bodegas tradicionales.
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (uso de Excel, cuadernos, y sistemas en proceso de digitalización). Tienen una mayor actividad y volumen, con operaciones en crecimiento, y venden usando canales digitales como WhatsApp y redes sociales. Aunque reconocen la importancia de digitalizar y automatizar sus procesos para ganar eficiencia, enfrentan obstáculos como la complejidad o altos costos de las soluciones disponibles. Buscan sistemas simples, automáticos, que avisen sobre niveles de stock y faciliten la organización para poder escalar su negocio sin perder control.
+
+Ambos segmentos comparten retos similares: control manual, dificultades con productos perecibles, pérdidas por falta de actualización o visibilidad, y la necesidad de automatización. Sin embargo, los bodegueros tradicionales tienen una menor adopción y experiencia con herramientas digitales y requieren soluciones accesibles y adaptadas a su realidad, mientras que las startups muestran interés en herramientas integradas y avanzadas, pero preocupadas por la complejidad y costos. Una solución escalable, intuitiva y que pueda adaptarse a distintos tamaños de negocios sería ideal para cubrir ambos mercados.
 
 ## 2.3. Needfinding
 
@@ -545,19 +554,80 @@ _Imagen (N°7). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.5. Ubiquitous Language
+El siguiente glosario presenta los términos clave utilizados a lo largo del desarrollo del proyecto StockWise. Este lenguaje común busca asegurar que todos los miembros del equipo (tanto técnicos como no ténicos) compartan una compresnión unificada de los conceptos centrales del sistema, facilitando así la comunicación y el diseño colaborativo.
 
-**Segmento 1: Bodegas especializadas por rubro**
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+  <thead style="background-color: #f2a654; color: white;">
+    <tr>
+      <th style="width: 30%;">Palabra</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Landing Page</td>
+      <td>Página principal de presentación al llegar al sitio oficial de StockWise.</td>
+    </tr>
+    <tr>
+      <td>Inventario</td>
+      <td>Conjunto de productos almacenados en una bodega con detalles como cantidad, ubicación y fecha de vencimiento.</td>
+    </tr>
+    <tr>
+      <td>Producto</td>
+      <td>Artículo registrado en la plataforma con nombre, descripción, stock mínimo, unidades, fecha de vencimiento y categoría.</td>
+    </tr>
+    <tr>
+      <td>Stock</td>
+      <td>Cantidad disponible de un producto específico en el inventario.</td>
+    </tr>
+    <tr>
+      <td>Stock bajo</td>
+      <td>Estado que indica que la cantidad de un producto está por debajo del mínimo definido por el usuario.</td>
+    </tr>
+    <tr>
+      <td>Panel de Control</td>
+      <td>Interfaz principal para visualizar métricas, movimientos y reportes del inventario.</td>
+    </tr>
+    <tr>
+      <td>Movimiento de Inventario</td>
+      <td>Registro de cambios en cantidades de productos por compras, ventas, pérdidas o ajustes.</td>
+    </tr>
+    <tr>
+      <td>Reporte</td>
+      <td>Documento visual o estadístico que resume información clave del inventario para la toma de decisiones.</td>
+    </tr>
+    <tr>
+      <td>Bodega</td>
+      <td>Negocio pequeño con venta de productos de primera necesidad, como alimentos y bebidas.</td>
+    </tr>
+    <tr>
+      <td>Usuario Administrador</td>
+      <td>Persona con acceso total que puede gestionar usuarios, configuraciones y datos.</td>
+    </tr>
+    <tr>
+      <td>Emprendedor</td>
+      <td>Usuario en etapa de crecimiento que busca profesionalizar la gestión de su negocio.</td>
+    </tr>
+    <tr>
+      <td>Dueña de bodega</td>
+      <td>Usuario con experiencia comercial que desea optimizar la gestión operativa con herramientas digitales.</td>
+    </tr>
+    <tr>
+      <td>Versión Freemium</td>
+      <td>Modelo que permite acceso gratuito a funciones básicas y pago por funciones premium.</td>
+    </tr>
+    <tr>
+      <td>Onboarding</td>
+      <td>Proceso de bienvenida y guía para enseñar a nuevos usuarios a usar la plataforma.</td>
+    </tr>
+    <tr>
+      <td>MVP (Producto Mínimo Viable)</td>
+      <td>Versión inicial con funciones mínimas para validar hipótesis clave con usuarios reales.</td>
+    </tr>
+  </tbody>
+</table>
 
-<img src="assets/Chapter-2/as-is1.jpg" alt="User persona - segmento 1" width="900"/>
 
-_Imagen (N°8). Elaboración propia. Realizado en LucidChart_
-
-**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
-<img src="assets/Chapter-2/as-is2.jpg" alt="User persona - segmento 2" width="900"/>
-
-_Imagen (N°9). Elaboración propia. Realizado en LucidChart_
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ## 2.4. Requirements specification
 
@@ -1907,27 +1977,34 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 
 ### Spike Story
 
-<!-- SPK01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK01</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Modelo de datos y validaciones de producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga y prototipa el esquema de productos (campos obligatorios, unicidad por código, estados y auditoría) para definir reglas de validación y errores estándar.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Reglas de unicidad y requeridos</strong></p> <ul> <li>Dado que el modelo preliminar de producto está definido,</li> <li>Cuando valida la unicidad de código y los campos requeridos,</li> <li>Entonces documenta reglas y códigos de error por campo.</li> </ul> <p><strong>Escenario 02: Datos inválidos normalizados</strong></p> <ul> <li>Dado que existen escenarios de datos inválidos,</li> <li>Cuando ejecuta la validación,</li> <li>Entonces rechaza la operación y registra causas normalizadas.</li> </ul> <p><strong>Escenario 03: Auditoría mínima de producto</strong></p> <ul> <li>Dado que se definen requisitos de auditoría,</li> <li>Cuando configura metadatos,</li> <li>Entonces persiste timestamps, actor y versión en pruebas de PoC.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK01</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Entrada por voz: comandos estructurados e interpretación</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga gramática mínima y extracción de entidades (cantidad, producto) para registrar movimientos por voz con manejo de ambigüedad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Extracción de entidades con confianza mínima</strong></p> <ul> <li>Dado que se recibe un comando válido,</li> <li>Cuando procesa audio o texto,</li> <li>Entonces extrae cantidad y referencia de producto con un umbral de confianza definido.</li> </ul> <p><strong>Escenario 02: Manejo de ambigüedad</strong></p> <ul> <li>Dado que existen múltiples coincidencias,</li> <li>Cuando detecta ambigüedad,</li> <li>Entonces solicita desambiguación dentro del flujo técnico.</li> </ul> <p><strong>Escenario 03: Dictado consecutivo</strong></p> <ul> <li>Dado que el usuario dicta varios comandos,</li> <li>Cuando los recibe en secuencia,</li> <li>Entonces procesa cada uno y conserva estado hasta terminación.</li> </ul> </td> </tr> </table> <br>
 
-<!-- SPK02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK02</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Concurrencia de stock y movimientos atómicos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga estrategias de bloqueo/versión, transacciones e idempotencia para asegurar consistencia en entradas, salidas, devoluciones y lotes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Consistencia ante salidas concurrentes</strong></p> <ul> <li>Dado que existen solicitudes concurrentes de salida,</li> <li>Cuando la suma excede el stock,</li> <li>Entonces una operación se rechaza y el stock final permanece consistente.</li> </ul> <p><strong>Escenario 02: Idempotencia de movimientos</strong></p> <ul> <li>Dado que se reintenta un movimiento con la misma clave de idempotencia,</li> <li>Cuando procesa la operación,</li> <li>Entonces retorna el mismo resultado sin duplicados.</li> </ul> <p><strong>Escenario 03: Transacción atómica válida</strong></p> <ul> <li>Dado que el movimiento es válido,</li> <li>Cuando confirma la transacción,</li> <li>Entonces registra el movimiento y devuelve el stock actualizado.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK02</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP04 – Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">Roles y permisos en API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo RBAC con matriz rol permiso y puntos de control en API para operaciones de inventario y administración.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Autorización según política</strong></p> <ul> <li>Dado que un rol tiene permisos definidos,</li> <li>Cuando solicita una operación restringida,</li> <li>Entonces autoriza o rechaza de acuerdo con la política.</li> </ul> <p><strong>Escenario 02: Intentos no autorizados</strong></p> <ul> <li>Dado que un usuario carece del permiso,</li> <li>Cuando intenta modificar recursos,</li> <li>Entonces rechaza la acción y registra el intento.</li> </ul> <p><strong>Escenario 03: Efecto de cambios de rol</strong></p> <ul> <li>Dado que se actualizan las asignaciones de rol,</li> <li>Cuando el cambio entra en vigor,</li> <li>Entonces aplica permisos vigentes sin inconsistencias.</li> </ul> </td> </tr> </table> <br>
 
-<!-- SPK03 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK03</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Búsqueda y etiquetado: normalización e índices</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga normalización (acentos/case), diseño de índices y control de duplicidad semántica de etiquetas para búsquedas por nombre, código, categoría y etiqueta.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Búsqueda insensible a acentos y mayúsculas</strong></p> <ul> <li>Dado que se ingresa un término con acentos o mayúsculas,</li> <li>Cuando se ejecuta la búsqueda,</li> <li>Entonces retorna coincidencias insensibles a acentos y case.</li> </ul> <p><strong>Escenario 02: Equivalencia y deduplicación de etiquetas</strong></p> <ul> <li>Dado que existen etiquetas equivalentes,</li> <li>Cuando se evalúa su alta o uso,</li> <li>Entonces evita duplicidad lógica mediante normalización definida.</li> </ul> <p><strong>Escenario 03: Filtros combinados consistentes</strong></p> <ul> <li>Dado que se aplican filtros por etiqueta y categoría,</li> <li>Cuando se ejecuta la consulta,</li> <li>Entonces retorna la intersección consistente.</li> </ul> </td> </tr> </table> <br>
 
-<!-- SPK04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK04</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Historial y auditoría de movimientos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo de historial transaccional y criterios de auditoría para consultar entradas y salidas con metadatos esenciales y retención.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Historial ordenado con metadatos</strong></p> <ul> <li>Dado que un producto posee movimientos,</li> <li>Cuando se consulta el historial,</li> <li>Entonces retorna eventos ordenados con tipo, cantidad, fecha y actor.</li> </ul> <p><strong>Escenario 02: Historial vacío documentado</strong></p> <ul> <li>Dado que un producto no posee movimientos,</li> <li>Cuando se consulta el historial,</li> <li>Entonces retorna colección vacía documentada.</li> </ul> <p><strong>Escenario 03: Trazabilidad de movimientos</strong></p> <ul> <li>Dado que se registra un movimiento,</li> <li>Cuando persiste el evento,</li> <li>Entonces guarda autor, motivo y correlación.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK3 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK03</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Geolocalización y modelo de ubicación (GPS y QR)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga captura de lat/long, precisión, almacenamiento, permisos y asociación de ubicación por QR para productos y entregas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Persistencia de coordenadas</strong></p> <ul> <li>Dado que los permisos de ubicación están concedidos,</li> <li>Cuando captura la ubicación,</li> <li>Entonces persiste coordenadas con precisión y timestamp.</li> </ul> <p><strong>Escenario 02: Flujo sin permisos</strong></p> <ul> <li>Dado que los permisos son denegados,</li> <li>Cuando se requiere ubicación,</li> <li>Entonces documenta flujo de entrada manual de dirección o coordenadas.</li> </ul> <p><strong>Escenario 03: Asociación por QR</strong></p> <ul> <li>Dado que se dispone de un QR válido,</li> <li>Cuando asocia la ubicación,</li> <li>Entonces vincula el producto al punto definido y lo hace consultable.</li> </ul> </td> </tr> </table> <br>
 
-<!-- SPK05 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK05</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP05 – Alertas y notificaciones</td> </tr> <tr> <th>Title</th><td colspan="3">Alertas por stock mínimo y caducidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga disparadores, deduplicación y severidad de alertas para bajo stock, vencidos y próximos a vencer, con almacenamiento y consulta.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Alerta única por estado</strong></p> <ul> <li>Dado que un producto tiene un umbral configurado,</li> <li>Cuando el stock cae por debajo del mínimo,</li> <li>Entonces registra una alerta única por estado hasta la recuperación.</li> </ul> <p><strong>Escenario 02: Severidad por caducidad</strong></p> <ul> <li>Dado que existen fechas de caducidad,</li> <li>Cuando detecta vencidos o próximos a vencer,</li> <li>Entonces genera alertas con severidad definida y agrupación por producto.</li> </ul> <p><strong>Escenario 03: Consulta paginada de alertas</strong></p> <ul> <li>Dado que el repositorio de alertas está disponible,</li> <li>Cuando se consulta,</li> <li>Entonces retorna resultados paginados y ordenados por severidad y fecha.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK04</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Predicción de reabastecimiento</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga una fórmula base (media móvil + lead time) con parámetros ajustables para sugerir fecha y cantidad de reabastecimiento.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Sugerencia con supuestos explícitos</strong></p> <ul> <li>Dado que existe histórico de ventas y stock mínimo,</li> <li>Cuando calcula demanda proyectada,</li> <li>Entonces sugiere fecha y cantidad con supuestos explícitos.</li> </ul> <p><strong>Escenario 02: Recalculo por parámetros</strong></p> <ul> <li>Dado que los parámetros son ajustables,</li> <li>Cuando actualiza valores,</li> <li>Entonces recalcula sugerencias con trazabilidad de versiones.</li> </ul> <p><strong>Escenario 03: Detección de quiebre inminente</strong></p> <ul> <li>Dado que el consumo supera la previsión,</li> <li>Cuando se detecta desvío relevante,</li> <li>Entonces marca riesgo de quiebre y registra recomendación prioritaria.</li> </ul> </td> </tr> </table> <br>
 
-<!-- SPK06 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK06</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">Definiciones de KPIs y analítica (ventas, ticket, stock, comparativos)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga definiciones métricas, fuentes y materialización para productos más vendidos, categorías, ticket promedio, stock promedio e indicadores comparativos.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: KPIs reproducibles</strong></p> <ul> <li>Dado que existe un diccionario de KPIs,</li> <li>Cuando calcula sobre un dataset de prueba,</li> <li>Entonces obtiene resultados reproducibles y documentados.</li> </ul> <p><strong>Escenario 02: Comparación por periodos</strong></p> <ul> <li>Dado que se seleccionan periodos a comparar,</li> <li>Cuando procesa ventas por periodo,</li> <li>Entonces retorna variaciones con la misma granularidad.</li> </ul> <p><strong>Escenario 03: Consistencia con filtros</strong></p> <ul> <li>Dado que se aplican filtros por categoría o producto,</li> <li>Cuando se recalculan los KPIs,</li> <li>Entonces mantiene consistencia con los totales de referencia.</li> </ul> </td> </tr> </table> <br>
 
-<!-- SPK07 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK07</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">Importación y exportación (PDF) y límites operativos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga formatos, validaciones y manejo de tamaños grandes con procesamiento paginado o en streaming para importaciones y exportaciones.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Importación validada por fila</strong></p> <ul> <li>Dado que el archivo posee encabezados válidos,</li> <li>Cuando procesa la importación,</li> <li>Entonces valida filas, reporta errores por línea y aplica cambios atómicos por lote.</li> </ul> <p><strong>Escenario 02: Exportación con tipos correctos</strong></p> <ul> <li>Dado que se solicita una exportación,</li> <li>Cuando genera el archivo,</li> <li>Entonces produce el formato solicitado con tipos de datos correctos.</li> </ul> <p><strong>Escenario 03: Manejo de archivos grandes</strong></p> <ul> <li>Dado que el tamaño supera el umbral definido,</li> <li>Cuando procesa la operación,</li> <li>Entonces utiliza streaming/paginación y documenta límites.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK05 -->
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
+  <tr><td>SPK054</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td></tr>
+  <tr><th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida (visión ML)</td></tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr><td colspan="4">La app toma una foto al lote; una API de visión (p.ej., Google ML Kit) devuelve etiquetas genéricas. El usuario confirma producto exacto y cantidad antes de registrar; se puede saltar a su ubicación en el almacén virtual.</td></tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr><td colspan="4">
+    <p><strong>Escenario 01: Etiquetado y confirmación</strong></p>
+    <ul><li>Dado una imagen de lote,</li><li>Cuando el servicio devuelve top-N etiquetas,</li><li>Entonces el usuario selecciona producto y define cantidad en un paso.</li></ul>
+    <p><strong>Escenario 02: Registro por lotes</strong></p>
+    <ul><li>Dado múltiples fotos consecutivas,</li><li>Cuando procesa cada captura,</li><li>Entonces registra movimientos en cola con feedback de éxito/error por ítem.</li></ul>
+    <p><strong>Escenario 03: Acceso a ubicación</strong></p>
+    <ul><li>Dado un producto confirmado,</li><li>Cuando el usuario lo solicita,</li><li>Entonces navega a su ubicación (QR o GPS) en el mapa del almacén.</li></ul>
+  </td></tr>
+</table>
 
-<!-- SPK08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK08</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP04 – Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">Roles y permisos en API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo RBAC con matriz rol permiso y puntos de control en API para operaciones de inventario y administración.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Autorización según política</strong></p> <ul> <li>Dado que un rol tiene permisos definidos,</li> <li>Cuando solicita una operación restringida,</li> <li>Entonces autoriza o rechaza de acuerdo con la política.</li> </ul> <p><strong>Escenario 02: Intentos no autorizados</strong></p> <ul> <li>Dado que un usuario carece del permiso,</li> <li>Cuando intenta modificar recursos,</li> <li>Entonces rechaza la acción y registra el intento.</li> </ul> <p><strong>Escenario 03: Efecto de cambios de rol</strong></p> <ul> <li>Dado que se actualizan las asignaciones de rol,</li> <li>Cuando el cambio entra en vigor,</li> <li>Entonces aplica permisos vigentes sin inconsistencias.</li> </ul> </td> </tr> </table> <br>
-
-<!-- SPK09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK09</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Entrada por voz: comandos estructurados e interpretación</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga gramática mínima y extracción de entidades (cantidad, producto) para registrar movimientos por voz con manejo de ambigüedad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Extracción de entidades con confianza mínima</strong></p> <ul> <li>Dado que se recibe un comando válido,</li> <li>Cuando procesa audio o texto,</li> <li>Entonces extrae cantidad y referencia de producto con un umbral de confianza definido.</li> </ul> <p><strong>Escenario 02: Manejo de ambigüedad</strong></p> <ul> <li>Dado que existen múltiples coincidencias,</li> <li>Cuando detecta ambigüedad,</li> <li>Entonces solicita desambiguación dentro del flujo técnico.</li> </ul> <p><strong>Escenario 03: Dictado consecutivo</strong></p> <ul> <li>Dado que el usuario dicta varios comandos,</li> <li>Cuando los recibe en secuencia,</li> <li>Entonces procesa cada uno y conserva estado hasta terminación.</li> </ul> </td> </tr> </table> <br>
-
-<!-- SPK10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK10</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Geolocalización y modelo de ubicación (GPS y QR)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga captura de lat/long, precisión, almacenamiento, permisos y asociación de ubicación por QR para productos y entregas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Persistencia de coordenadas</strong></p> <ul> <li>Dado que los permisos de ubicación están concedidos,</li> <li>Cuando captura la ubicación,</li> <li>Entonces persiste coordenadas con precisión y timestamp.</li> </ul> <p><strong>Escenario 02: Flujo sin permisos</strong></p> <ul> <li>Dado que los permisos son denegados,</li> <li>Cuando se requiere ubicación,</li> <li>Entonces documenta flujo de entrada manual de dirección o coordenadas.</li> </ul> <p><strong>Escenario 03: Asociación por QR</strong></p> <ul> <li>Dado que se dispone de un QR válido,</li> <li>Cuando asocia la ubicación,</li> <li>Entonces vincula el producto al punto definido y lo hace consultable.</li> </ul> </td> </tr> </table> <br>
-
-<!-- SPK11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK11</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Predicción de reabastecimiento</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga una fórmula base (media móvil + lead time) con parámetros ajustables para sugerir fecha y cantidad de reabastecimiento.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Sugerencia con supuestos explícitos</strong></p> <ul> <li>Dado que existe histórico de ventas y stock mínimo,</li> <li>Cuando calcula demanda proyectada,</li> <li>Entonces sugiere fecha y cantidad con supuestos explícitos.</li> </ul> <p><strong>Escenario 02: Recalculo por parámetros</strong></p> <ul> <li>Dado que los parámetros son ajustables,</li> <li>Cuando actualiza valores,</li> <li>Entonces recalcula sugerencias con trazabilidad de versiones.</li> </ul> <p><strong>Escenario 03: Detección de quiebre inminente</strong></p> <ul> <li>Dado que el consumo supera la previsión,</li> <li>Cuando se detecta desvío relevante,</li> <li>Entonces marca riesgo de quiebre y registra recomendación prioritaria.</li> </ul> </td> </tr> </table> <br>
 
 ### 2.4.2. Impact Mapping
 
