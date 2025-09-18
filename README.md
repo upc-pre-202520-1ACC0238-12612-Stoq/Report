@@ -2198,6 +2198,10 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+<div align="center">
+  <img src="assets/Chapter-2/class-alertstock-domain.png" alt="class-container"/>
+</div>
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.2. Bounded Context: Iam Context
@@ -2219,6 +2223,10 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<div align="center">
+  <img src="assets/Chapter-2/class-iam-domain.png" alt="class-container"/>
+</div>
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
@@ -2242,6 +2250,18 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+###### Domain: Model
+
+<div align="center">
+  <img src="assets/Chapter-2/class-inventory-domain-model.png" alt="class-container"/>
+</div>
+
+###### Domain: Services
+
+<div align="center">
+  <img src="assets/Chapter-2/class-inventory-domain-services.png" alt="c4-container"/>
+</div>
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.4. Bounded Context: ProductManagement Context
@@ -2264,6 +2284,19 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+###### Domain: Model
+
+<div align="center">
+  <img src="assets/Chapter-2/class-productmanagement-domain-model.png" alt="c4-container"/>
+</div>
+
+###### Domain: Services
+
+<div align="center">
+  <img src="assets/Chapter-2/class-productmanagement-domain-services.png" alt="c4-container"/>
+</div>
+
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.5. Bounded Context: Reports Context
@@ -2285,5 +2318,19 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+###### Domain: Model
+
+<div align="center">
+  <img src="assets/Chapter-2/class-reports-domain-model.png" alt="c4-container"/>
+</div>
+
+###### Domain: Services
+
+<div align="center">
+  <img src="assets/Chapter-2/class-reports-domain-services.png" alt="c4-container"/>
+</div>
+
+
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
