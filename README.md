@@ -1992,6 +1992,25 @@ Estos dos pasos conforman la aparición de los read models y los external system
 <img src="./assets/Chapter-2/eventStorming_step7.3.png">
 <br><br> 
 
+#### Step 9 & 10: Aggregates & Bounded Contexts
+En los pasos 9 y 10 se introducen dos conceptos clave del Domain-Driven Design: Aggregates y Bounded Contexts. Los aggregates representan unidades de consistencia dentro del modelo de dominio, agrupando entidades y objetos de valor que deben mantenerse coherentes bajo una misma raíz (aggregate root). Por otro lado, los bounded contexts definen límites en los cuales un modelo tiene significado y coherencia, estableciendo una frontera clara para evitar ambigüedades conceptuales.
+
+<br>Bounded Context: IAM<br> 
+<img src="./assets/Chapter-2/eventStorming_step9.1.png">
+<br><br> 
+<br>Bounded Context: Product catalog<br>
+<img src="./assets/Chapter-2/eventStorming_step9.2.png">
+<br><br>
+<br>Bounded Context: Inventory<br> 
+<img src="./assets/Chapter-2/eventStorming_step9.3.png">
+<br><br>
+<br>Bounded Context: Alerts<br> 
+<img src="./assets/Chapter-2/eventStorming_step9.4.png">
+<br><br>
+<br>Bounded Context: AuditReport<br> 
+<img src="./assets/Chapter-2/eventStorming_step9.5.png">
+<br><br>
+
 #### 2.5.1.2. Domain Message Flows Modeling
 
 #### 2.5.1.3. Bounded Context Canvases
