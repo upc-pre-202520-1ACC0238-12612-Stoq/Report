@@ -1954,7 +1954,33 @@ En este paso se definen los comandos que representan las acciones que los usuari
 <br>Generar alerta crea una alerta con severidad y canales según reglas; Marcar alerta como resuelta cierra el caso tras confirmación de atención; Marcar como urgente eleva prioridad y canal; Ignorar alerta cambia el estado cuando aplica (con trazabilidad).<br>  
 <img src="./assets/Chapter-2/eventStorming_step5.5.png">
 <br>Generar reporte ejecuta una consulta/KPI sobre datos validados; Exportar reporte materializa el resultado (Excel/PDF) con sello/firma; Enviar/Compartir reporte distribuye el archivo por correo o canal elegido y registra la entrega.<br>  
+ 
+#### Step 6: Policies
+En este paso se describen políticas que rigen decisiones y acciones dentro del sistema, asegurando que este se alinie con las necesidades del usuario y los objetivos del negocio.
+Los siguientes frames contienen políticas que indican diferentes restricciones o condiciones descritas a continuación:
 
+-Validar contacto antes de activar la cuenta. El correo o teléfono debe confirmarse (OTP) antes de permitir inicio de sesión o uso de la app.
+-Un solo plan activo por cuenta. La suscripción vigente es única (Free o Premium) y el cambio de plan solo se aplica cuando el pago está confirmado.
+-Producto con datos mínimos obligatorios. Todo producto debe tener categoría y precio; además se definen umbrales de stock min/máx para integrarse con inventario.
+-No archivar con stock/Reserva. Prohibido archivar si existen existencias o reservas; primero se libera/traslada el stock.
+-Perecibles con fecha de vencimiento. Lotes de productos perecibles deben registrar expiryDate.
+-Ajuste con doble validación. Cualquier ajuste de inventario requiere aprobación en un segundo paso.
+-No reservar más que disponible. Las reservas nunca pueden exceder el stock disponible.
+-Críticas en < 1 minuto. Las alertas de alta severidad (stock bajo, vencimiento) deben generarse y enviarse en menos de un minuto.
+-ACK obligatorio antes de cerrar. El usuario debe reconocer/escalar una alerta antes de marcarla como resuelta.
+-Reportes solo con datos validados. Los informes se generan a partir de eventos confirmados (inventario/catálogo).
+-Exportos con firma/sello. Los archivos exportados (Excel/PDF) deben incluir firma digital o sello de autenticidad.
+
+<img src="./assets/Chapter-2/eventStorming_step6.1.png">
+<br><br> 
+<img src="./assets/Chapter-2/eventStorming_step6.2.png">
+<br><br> 
+<img src="./assets/Chapter-2/eventStorming_step6.3.png">
+<br><br> 
+<img src="./assets/Chapter-2/eventStorming_step6.4.png">
+<br><br> 
+<img src="./assets/Chapter-2/eventStorming_step6.5.png">
+<br><br> 
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
