@@ -1982,6 +1982,16 @@ Los siguientes frames contienen políticas que indican diferentes restricciones 
 <img src="./assets/Chapter-2/eventStorming_step6.5.png">
 <br><br> 
 
+#### Step 7 & 8: Read Models & External Systems
+Estos dos pasos conforman la aparición de los read models y los external systems respectivamente. Por un lado, los read models son proyecciones que representan vistas personalizadas, dashboards, o reportes. Por otro lado, los external systems en DDD representan aquellos componentes o servicios externos con los que el sistema necesita interactuar, como pasarelas de pago, servicios de autenticación, sistemas de terceros, o integraciones con otras plataformas empresariales.
+
+<img src="./assets/Chapter-2/eventStorming_step7.1.png">
+<br><br> 
+<img src="./assets/Chapter-2/eventStorming_step7.2.png">
+<br><br> 
+<img src="./assets/Chapter-2/eventStorming_step7.3.png">
+<br><br> 
+
 #### 2.5.1.2. Domain Message Flows Modeling
 
 #### 2.5.1.3. Bounded Context Canvases
