@@ -8,7 +8,6 @@
 
 ## Competitive Analysis Landscape
 
-
 | **Objetivo del análisis:** Identificar el posicionamiento competitivo de StockWise en el mercado de aplicaciones móviles de gestión de inventarios para pymes, entendiendo las ventajas diferenciales y oportunidades de mejora. |  |  |  |
 |---|---|---|---|
 |  | **StockWise** | **Zoho Inventory** | **Odoo Inventory** | **TradeGecko** |
@@ -303,7 +302,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <th>Entrevista</th>
     <td>5</td>
     <th>Nombre</th>
-    <td>Leonardo Ganboa</td></td>
+    <td>Leonardo Gamboa</td></td>
   </tr>
   <tr>
     <th>Edad</th>
@@ -312,7 +311,7 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>San Miguel</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-2/Segmento2_Leo.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Leonardo G., emprendedor, maneja actualmente su inventario de forma manual utilizando principalmente hojas de Excel y, en ocasiones, una libreta para registrar entradas y salidas de productos. La actualización no siempre está al día, lo que le genera retrasos al atender pedidos y, en algunos casos, ventas de productos agotados que afectan la experiencia de sus clientes. Sus ventas se coordinan principalmente a través de WhatsApp, mientras que la promoción la realiza en Facebook e Instagram. Revisa su stock casi a diario debido a la demanda constante y almacena sus productos en un cuarto adaptado en su casa. Aunque ha considerado implementar plataformas digitales para gestionar su inventario, aún no lo hace por temor a los costos y a la complejidad de uso. Su principal objetivo es contar con un sistema más rápido y automático que le avise cuando se esté quedando sin stock y que le permita organizar mejor los pedidos, optimizando así su tiempo y eficiencia.
     </td>
@@ -547,19 +546,17 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td colspan="4">
       <p><strong>Escenario 01: Registro exitoso de producto</strong></p>
       <ul>
-        <li>Dado que el usuario está en el formulario de “Nuevo producto”,</li>
-        <li>Cuando completa correctamente todos los campos obligatorios</li>
-        <li>Y le da clic a “Guardar”</li>
-        <li>Entonces el producto se registra en la base</li>
-        <li>Y aparece en el inventario</li>
+        <li>Dado que el sistema recibe datos válidos para un producto,</li>
+        <li>Cuando procesa el registro,</li>
+        <li>Entonces guarda el producto en la base de datos</li>
+        <li>Y lo incluye en el inventario.</li>
       </ul>
         <p><strong>Escenario 02: Interno de registro en campos vacíos</strong></p>
       <ul>
-        <li>Dado que el usuario está en el formulario de “Nuevo producto”</li>
-        <li>Cuando completa correctamente todos los campos obligatorios</li>
-        <li>Cuando dejas campos obligatorios vacíos</li>
-        <li>Y hace clic a “Guardar”</li>
-        <li>Entonces el sistema muestra un mensaje de error en los campos que se deben corregir</li>
+        <li>Dado que el sistema recibe un producto con campos requeridos vacíos,</li>
+        <li>Cuando intenta registrar el producto,</li>
+        <li>Entonces el sistema rechaza la operación</li>
+        <li>Y muestra mensajes de validación sobre los campos faltantes.</li>
       </ul>
     </td>
   </tr>
@@ -577,7 +574,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US02</td>
     <td>Usuario de inventario</td>
     <td>Alta</td>
-    <td>EP01 – Funciones básicas de inventario</td>
+    <td>EP01 - Funciones básicas de inventario</td>
   </tr>
 
   <tr>
@@ -603,7 +600,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       <ul>
         <li><strong>Dado que</strong> el usuario ya tiene un producto en el inventario</li>
         <li><strong>Cuando</strong> modifica campos de información del producto</li>
-        <li><strong>Y</strong> le da clic a “Guardar”</li>
+        <li><strong>Y</strong> procesa el regitsro adecuadamente</li>
         <li><strong>Entonces</strong> el sistema guarda los cambios</li>
       </ul>
         <p><strong>Escenario 02: Edición con datos inválidos</strong></p>
@@ -656,16 +653,16 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       <p><strong>Escenario 01: Registro válido de salida de stock</strong></p>
       <ul>
         <li><strong>Dado que</strong> un producto tiene suficiente stock disponible</li>
-        <li><strong>Cuando</strong> el usuario ingresa una cantidad válida de salida</li>
-        <li><strong>Entonces</strong> el sistema descuenta esa cantidad del stock total</li>
-        <li><strong>Y</strong> guarda el movimiento</li>
+        <li><strong>Cuando</strong> el sistema recibe una salida con cantidad permitida,</li>
+        <li><strong>Entonces</strong> descuenta la cantidad del stock</li>
+        <li><strong>Y</strong> registra el movimiento. </li>
       </ul>
         <p><strong>Escenario 02: Intento de salida mayor al stock disponible</strong></p>
       <ul>
-        <li><strong>Dado que</strong> un producto tiene un stock exacto</li>
-        <li><strong>Cuando</strong> el usuario ingresa una cantidad mayor al stock actual</li>
-        <li><strong>Entonces</strong> el sistema le muestra un mensaje de error</li>
-        <li><strong>Y</strong> no permite registrar la salida</li>
+        <li><strong>Dado que</strong> que el stock actual es menor que la cantidad solicitada</li>
+        <li><strong>Cuando</strong> valida la salida</li>
+        <li><strong>Entonces</strong> rechaza la operación</li>
+        <li><strong>Y</strong> expone el motivo “cantidad supera stock disponible”</li>
       </ul>
     </td>
   </tr>
@@ -782,7 +779,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       <p><strong>Escenario 02: Búsqueda sin coincidencias</strong></p>
       <ul>
         <li>Dado que el usuario realiza una búsqueda con término no registrado</li>
-        <li>Cuando presiona “Buscar”</li>
+        <li>Cuando busca el producto</li>
         <li>Entonces el sistema muestra el mensaje “No se encontraron resultados”</li>
       </ul>
     </td>
@@ -816,7 +813,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       <p><strong>Escenario 01: Añadir etiqueta correctamente</strong></p>
       <ul>
         <li>Dado que el usuario está en el formulario de “Nuevo producto”</li>
-        <li>Cuando escribe una o varias etiquetas personalizadas y hace clic en “Guardar”</li>
+        <li>Cuando escribe una o varias etiquetas personalizadas y lo guarda exitosamente</li>
         <li>Entonces las etiquetas se registran con el producto y son visibles en su detalle</li>
       </ul>
       <p><strong>Escenario 02: Usar etiquetas existentes</strong></p>
@@ -868,8 +865,8 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       <p><strong>Escenario 02: Exportar reporte</strong></p>
       <ul>
         <li>Dado que el usuario visualiza el listado</li>
-        <li>Cuando hace clic en “Exportar”</li>
-        <li>Entonces el sistema genera un archivo PDF o Excel con el ranking</li>
+        <li>Cuando solicita la exportación</li>
+        <li>Entonces el sistema genera un archivo PDF con el ranking</li>
       </ul>
     </td>
   </tr>
@@ -908,7 +905,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       <p><strong>Escenario 02: Ver detalle de productos por categoría</strong></p>
       <ul>
         <li>Dado que el usuario visualiza las categorías más vendidas</li>
-        <li>Cuando hace clic sobre una categoría</li>
+        <li>Cuando busca en categoría</li>
         <li>Entonces se muestra la lista con los productos que la componen y sus ventas</li>
       </ul>
     </td>
@@ -1609,7 +1606,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US27</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
+    <td>US27</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Geolocalización de productos y entregas</td>
@@ -1631,7 +1628,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       <ul>
         <li>Dado que el usuario registra un movimiento/entrega,</li>
         <li>Cuando concede permisos de ubicación,</li>
-        <li>Entonces el sistema guarda lat/long y muestra un pin en el mapa del producto o entrega.</li>
+        <li>Entonces el sistema guarda latitud/longitud y muestra un pin en el mapa del producto o entrega.</li>
       </ul>
       <p><strong>Escenario 02: Mapa de sedes</strong></p>
       <ul>
@@ -1657,7 +1654,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US28</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
+    <td>US28</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Localizar productos con mapa y QR</td>
@@ -1793,42 +1790,65 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
-
 ### Technical Stories
 
-En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave de StockWise. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros.
+En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros.
 
-<!-- TS01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS01</td><td>Developer</td><td>Alta</td><td>US12</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar nuevos usuarios, asegurando validaciones y persistencia correcta en el backend.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Registro exitoso</strong><br> Dado que el endpoint de registro está disponible y la app valida email/contraseña,<br> Cuando el usuario envía datos válidos desde el móvil,<br> Entonces el backend crea la cuenta (201), retorna token y la app lo guarda de forma segura (Keychain/Keystore).<br><br> <strong>E02: Datos inválidos o duplicados</strong><br> Dado el endpoint de registro,<br> Cuando el email ya existe o los campos no cumplen las reglas (formato/fortaleza),<br> Entonces se responde 400/409 con mensaje claro y la app muestra los errores sin duplicar el envío. </td> </tr> </table> <br> 
+<!-- TS01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS01</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar nuevos usuarios, asegurando validaciones y persistencia correcta en el backend.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Registro exitoso</strong><br> Dado que el endpoint de registro está disponible y la app valida email/contraseña,<br> Cuando el usuario envía datos válidos desde el móvil,<br> Entonces el backend crea la cuenta (201), retorna token y la app lo guarda de forma segura (Keychain/Keystore).<br><br> <strong>Escenario 02: Datos inválidos o duplicados</strong><br> Dado el endpoint de registro,<br> Cuando el email ya existe o los campos no cumplen las reglas (formato/fortaleza),<br> Entonces se responde 400/409 con mensaje claro y la app muestra los errores sin duplicar el envío. </td> </tr> </table> <br>
 
-<!-- TS02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS02</td><td>Developer</td><td>Alta</td><td>US11</td> </tr> <tr> <th>Title</th><td colspan="3">API Autenticación de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito implementar endpoints de autenticación para que la app móvil inicie sesión de forma segura (emisión y validación de tokens).</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Login válido</strong><br> Dado el endpoint de autenticación,<br> Cuando se envían credenciales válidas desde la app,<br> Entonces se retorna 200 con access/refresh token y datos mínimos del perfil; la app inicia sesión persistente y puede habilitar biometría.<br><br> <strong>E02: Login inválido</strong><br> Dado el endpoint de autenticación,<br> Cuando las credenciales son incorrectas o el usuario está inactivo,<br> Entonces se retorna 401/403 con mensaje adecuado y la app ofrece “recuperar contraseña”. </td> </tr> </table> <br> 
+<!-- TS02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS02</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">API Autenticación de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito implementar endpoints de autenticación para que la app móvil inicie sesión de forma segura (emisión y validación de tokens).</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Login válido</strong><br> Dado el endpoint de autenticación,<br> Cuando se envían credenciales válidas desde la app,<br> Entonces se retorna 200 con access/refresh token y datos mínimos del perfil; la app inicia sesión persistente y puede habilitar biometría.<br><br> <strong>Escenario 02: Login inválido</strong><br> Dado el endpoint de autenticación,<br> Cuando las credenciales son incorrectas o el usuario está inactivo,<br> Entonces se retorna 401/403 con mensaje adecuado y la app ofrece “recuperar contraseña”. </td> </tr> </table> <br>
 
-<!-- TS03 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS03</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Creación de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar productos con validaciones de campos requeridos y unicidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Producto creado</strong><br> Dado que la app permite capturar foto/código de barras,<br> Cuando se envían datos correctos desde el móvil,<br> Entonces el backend crea el producto (201) y la app sincroniza la imagen en segundo plano.<br><br> <strong>E02: Datos inválidos</strong><br> Dado el endpoint de productos,<br> Cuando el código está duplicado o faltan campos requeridos,<br> Entonces se retorna 400/409 con detalle y la app resalta los campos a corregir. </td> </tr> </table> <br> 
+<!-- TS03 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS03</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Creación de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar productos con validaciones de campos requeridos y unicidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Producto creado</strong><br> Dado que la app permite capturar foto/código de barras,<br> Cuando se envían datos correctos desde el móvil,<br> Entonces el backend crea el producto (201) y la app sincroniza la imagen en segundo plano.<br><br> <strong>Escenario 02: Datos inválidos</strong><br> Dado el endpoint de productos,<br> Cuando el código está duplicado o faltan campos requeridos,<br> Entonces se retorna 400/409 con detalle y la app resalta los campos a corregir. </td> </tr> </table> <br>
 
-<!-- TS04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS04</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar productos con soporte de paginación y orden para su visualización en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Lista disponible</strong><br> Dado que la app lista con “infinite scroll”,<br> Cuando consulta el endpoint,<br> Entonces se retorna colección paginada (200) mostrando placeholders y usando caché local si no hay conexión.<br><br> <strong>E02: Sin registros</strong><br> Dado el endpoint de consulta,<br> Cuando no existen productos,<br> Entonces se retorna 200 con lista vacía y la app muestra estado vacío con CTA para crear. </td> </tr> </table> <br>
+<!-- TS04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS04</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar productos con soporte de paginación y orden para su visualización en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Lista disponible</strong><br> Dado que la app lista con “infinite scroll”,<br> Cuando consulta el endpoint,<br> Entonces se retorna colección paginada (200) mostrando placeholders y usando caché local si no hay conexión.<br><br> <strong>Escenario 02: Sin registros</strong><br> Dado el endpoint de consulta,<br> Cuando no existen productos,<br> Entonces se retorna 200 con lista vacía y la app muestra estado vacío con CTA para crear. </td> </tr> </table> <br>
 
- <!-- TS05 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS05</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por categoría</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar productos por categoría para agilizar búsquedas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Categoría existente</strong><br> Dado que el usuario selecciona una categoría (chips/filtros),<br> Cuando se consulta el endpoint con la categoría,<br> Entonces se retorna 200 con resultados ignorando mayúsculas/acentos y la app recuerda el filtro.<br><br> <strong>E02: Sin coincidencias</strong><br> Dado el filtro por categoría,<br> Cuando no hay productos asociados,<br> Entonces se retorna 200 con lista vacía y la app permite limpiar filtros. </td> </tr> </table> <br> 
- 
- <!-- TS06 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS06</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por etiqueta</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito permitir la consulta de productos por etiqueta para mejorar la organización y búsqueda.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Etiqueta válida</strong><br> Dado que la app ofrece autocompletado de etiquetas recientes,<br> Cuando el usuario selecciona una etiqueta y consulta,<br> Entonces el backend retorna los productos (200) y la app permite combinar con otros filtros activos.<br><br> <strong>E02: Etiqueta sin resultados</strong><br> Dado que se consulta por una etiqueta inexistente o sin datos,<br> Cuando el backend no encuentra coincidencias,<br> Entonces responde 200 con lista vacía y la app sugiere etiquetas relacionadas. </td> </tr> </table> <br> 
- 
- <!-- TS07 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS07</td><td>Developer</td><td>Alta</td><td>US12</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de inventario</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar movimientos/stock de inventario con validaciones de negocio.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Registro válido</strong><br> Dado que la app permite escanear código/QR,<br> Cuando se registra una entrada o salida con cantidad válida,<br> Entonces el backend guarda el movimiento (201) y retorna el stock actualizado para mostrar en la app.<br><br> <strong>E02: Registro inválido</strong><br> Dado el endpoint de inventario,<br> Cuando la cantidad es negativa o la salida supera el stock,<br> Entonces se retorna 400 con detalle y la app resalta el campo con error. </td> </tr> </table> <br> 
- 
- <!-- TS08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS08</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por precio</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Rango válido</strong><br> Dado que el usuario ajusta un rango (slider),<br> Cuando se consulta el endpoint con la moneda/locale del dispositivo,<br> Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.<br><br> <strong>E02: Sin resultados</strong><br> Dado un rango sin coincidencias,<br> Cuando el backend no encuentra registros,<br> Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango. </td> </tr> </table> <br>
- 
- <!-- TS09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS09</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventario por producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Producto existente</strong><br> Dado que la app escanea o selecciona un producto,<br> Cuando se consulta por su ID,<br> Entonces el backend retorna 200 con stock actual y últimos movimientos.<br><br> <strong>E02: Producto inexistente</strong><br> Dado el endpoint por producto,<br> Cuando el ID no existe o está inactivo,<br> Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto. </td> </tr> </table> <br> 
- 
- <!-- TS10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS10</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Fecha con registros</strong><br> Dado que el usuario selecciona un rango con el date picker del móvil,<br> Cuando la app consulta con la zona horaria del dispositivo,<br> Entonces el backend retorna 200 con los registros del período.<br><br> <strong>E02: Fecha sin registros</strong><br> Dado el endpoint por fecha,<br> Cuando el rango no tiene datos,<br> Entonces se retorna 200 con lista vacía y la app propone rangos cercanos. </td> </tr> </table> <br> 
- 
- <!-- TS11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS11</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por cantidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Rango/cantidad válida</strong><br> Dado que la app permite filtrar por cantidad o rango,<br> Cuando se consulta el endpoint,<br> Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.<br><br> <strong>E02: Sin coincidencias</strong><br> Dado el filtro por cantidad/rango,<br> Cuando no hay resultados,<br> Entonces se retorna 200 con lista vacía y la app permite guardar el filtro. </td> </tr> </table> <br> 
- 
- <!-- TS12 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS12</td><td>Developer</td><td>Alta</td><td>US06</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por proveedor</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Proveedor existente</strong><br> Dado que el usuario selecciona un proveedor en la app,<br> Cuando se consulta el endpoint con su identificador,<br> Entonces retorna 200 con la lista paginada de inventarios.<br><br> <strong>E02: Proveedor sin productos</strong><br> Dado el endpoint por proveedor,<br> Cuando no hay inventarios vinculados,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado informativo. </td> </tr> </table> <br> 
- 
- <!-- TS13 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS13</td><td>Developer</td><td>Alta</td><td>US19</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito registrar alertas del sistema (p.ej., bajo stock) para su notificación en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Alerta registrada</strong><br> Dado un evento de bajo stock detectado en la app o backend,<br> Cuando se envía la alerta con datos válidos al endpoint,<br> Entonces se registra (201) y la app puede disparar notificación local/push.<br><br> <strong>E02: Datos inválidos</strong><br> Dado el endpoint de alertas,<br> Cuando el tipo es inválido o faltan campos requeridos,<br> Entonces se retorna 400 con detalle de validaciones. </td> </tr> </table> <br> 
- 
- <!-- TS14 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS14</td><td>Developer</td><td>Alta</td><td>US19</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar alertas para su visualización y seguimiento en la aplicación móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Listado disponible</strong><br> Dado que la app muestra un feed con “pull to refresh”,<br> Cuando consulta el endpoint,<br> Entonces se retornan alertas paginadas (200) ordenadas por severidad/fecha y se pueden marcar como leídas.<br><br> <strong>E02: Sin alertas</strong><br> Dado el endpoint de consulta de alertas,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app ofrece ir a configuración de alertas. </td> </tr> </table> <br> 
- 
- <!-- TS15 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS15</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar combos de productos respetando reglas de composición.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Combo registrado</strong><br> Dado que el usuario arma un combo en la app seleccionando productos y cantidades,<br> Cuando envía la creación,<br> Entonces el backend valida reglas (stock mínimo, no repetidos) y crea el combo (201) de forma atómica.<br><br> <strong>E02: Datos inválidos</strong><br> Dado el endpoint de combos,<br> Cuando la composición es inválida o hay productos inexistentes,<br> Entonces se retorna 400 con detalle y la app conserva la selección para corregir. </td> </tr> </table> <br> 
- 
- <!-- TS16 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS16</td><td>Developer</td><td>Alta</td><td>US01</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar combos registrados para mostrarlos como opciones agrupadas en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>E01: Listado de combos</strong><br> Dado que la app lista combos con imágenes y precio total,<br> Cuando consulta el endpoint,<br> Entonces el backend retorna 200 con lista paginada y la app permite ordenar y guardar favoritos.<br><br> <strong>E02: Sin combos</strong><br> Dado el endpoint de combos,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado sin datos con botón para crear combo. </td> </tr> </table>
+ <!-- TS05 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS05</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por categoría</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar productos por categoría para agilizar búsquedas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Categoría existente</strong><br> Dado que el usuario selecciona una categoría (chips/filtros),<br> Cuando se consulta el endpoint con la categoría,<br> Entonces se retorna 200 con resultados ignorando mayúsculas/acentos y la app recuerda el filtro.<br><br> <strong>Escenario 02: Sin coincidencias</strong><br> Dado el filtro por categoría,<br> Cuando no hay productos asociados,<br> Entonces se retorna 200 con lista vacía y la app permite limpiar filtros. </td> </tr> </table> <br>
+
+ <!-- TS06 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS06</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por etiqueta</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito permitir la consulta de productos por etiqueta para mejorar la organización y búsqueda.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Etiqueta válida</strong><br> Dado que la app ofrece autocompletado de etiquetas recientes,<br> Cuando el usuario selecciona una etiqueta y consulta,<br> Entonces el backend retorna los productos (200) y la app permite combinar con otros filtros activos.<br><br> <strong>Escenario 02: Etiqueta sin resultados</strong><br> Dado que se consulta por una etiqueta inexistente o sin datos,<br> Cuando el backend no encuentra coincidencias,<br> Entonces responde 200 con lista vacía y la app sugiere etiquetas relacionadas. </td> </tr> </table> <br>
+
+ <!-- TS07 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS07</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de inventario</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar movimientos/stock de inventario con validaciones de negocio.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Registro válido</strong><br> Dado que la app permite escanear código/QR,<br> Cuando se registra una entrada o salida con cantidad válida,<br> Entonces el backend guarda el movimiento (201) y retorna el stock actualizado para mostrar en la app.<br><br> <strong>Escenario 02: Registro inválido</strong><br> Dado el endpoint de inventario,<br> Cuando la cantidad es negativa o la salida supera el stock,<br> Entonces se retorna 400 con detalle y la app resalta el campo con error. </td> </tr> </table> <br>
+
+ <!-- TS08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS08</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por precio</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango válido</strong><br> Dado que el usuario ajusta un rango (slider),<br> Cuando se consulta el endpoint con la moneda/locale del dispositivo,<br> Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.<br><br> <strong>Escenario 02: Sin resultados</strong><br> Dado un rango sin coincidencias,<br> Cuando el backend no encuentra registros,<br> Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango. </td> </tr> </table> <br>
+
+ <!-- TS09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS09</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventario por producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Producto existente</strong><br> Dado que la app escanea o selecciona un producto,<br> Cuando se consulta por su ID,<br> Entonces el backend retorna 200 con stock actual y últimos movimientos.<br><br> <strong>Escenario 02: Producto inexistente</strong><br> Dado el endpoint por producto,<br> Cuando el ID no existe o está inactivo,<br> Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto. </td> </tr> </table> <br>
+
+ <!-- TS10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS10</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Fecha con registros</strong><br> Dado que el usuario selecciona un rango con el date picker del móvil,<br> Cuando la app consulta con la zona horaria del dispositivo,<br> Entonces el backend retorna 200 con los registros del período.<br><br> <strong>Escenario 02: Fecha sin registros</strong><br> Dado el endpoint por fecha,<br> Cuando el rango no tiene datos,<br> Entonces se retorna 200 con lista vacía y la app propone rangos cercanos. </td> </tr> </table> <br>
+
+ <!-- TS11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS11</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por cantidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango/cantidad válida</strong><br> Dado que la app permite filtrar por cantidad o rango,<br> Cuando se consulta el endpoint,<br> Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.<br><br> <strong>Escenario 02: Sin coincidencias</strong><br> Dado el filtro por cantidad/rango,<br> Cuando no hay resultados,<br> Entonces se retorna 200 con lista vacía y la app permite guardar el filtro. </td> </tr> </table> <br>
+
+ <!-- TS12 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS12</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por proveedor</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Proveedor existente</strong><br> Dado que el usuario selecciona un proveedor en la app,<br> Cuando se consulta el endpoint con su identificador,<br> Entonces retorna 200 con la lista paginada de inventarios.<br><br> <strong>Escenario 02: Proveedor sin productos</strong><br> Dado el endpoint por proveedor,<br> Cuando no hay inventarios vinculados,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado informativo. </td> </tr> </table> <br>
+
+ <!-- TS13 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS13</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito registrar alertas del sistema (p.ej., bajo stock) para su notificación en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Alerta registrada</strong><br> Dado un evento de bajo stock detectado en la app o backend,<br> Cuando se envía la alerta con datos válidos al endpoint,<br> Entonces se registra (201) y la app puede disparar notificación local/push.<br><br> <strong>Escenario 02: Datos inválidos</strong><br> Dado el endpoint de alertas,<br> Cuando el tipo es inválido o faltan campos requeridos,<br> Entonces se retorna 400 con detalle de validaciones. </td> </tr> </table> <br>
+
+ <!-- TS14 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS14</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar alertas para su visualización y seguimiento en la aplicación móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Listado disponible</strong><br> Dado que la app muestra un feed con “pull to refresh”,<br> Cuando consulta el endpoint,<br> Entonces se retornan alertas paginadas (200) ordenadas por severidad/fecha y se pueden marcar como leídas.<br><br> <strong>Escenario 02: Sin alertas</strong><br> Dado el endpoint de consulta de alertas,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app ofrece ir a configuración de alertas. </td> </tr> </table> <br>
+
+ <!-- TS15 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS15</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar combos de productos respetando reglas de composición.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Combo registrado</strong><br> Dado que el usuario arma un combo en la app seleccionando productos y cantidades,<br> Cuando envía la creación,<br> Entonces el backend valida reglas (stock mínimo, no repetidos) y crea el combo (201) de forma atómica.<br><br> <strong>Escenario 02: Datos inválidos</strong><br> Dado el endpoint de combos,<br> Cuando la composición es inválida o hay productos inexistentes,<br> Entonces se retorna 400 con detalle y la app conserva la selección para corregir. </td> </tr> </table> <br>
+
+ <!-- TS16 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS16</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar combos registrados para mostrarlos como opciones agrupadas en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Listado de combos</strong><br> Dado que la app lista combos con imágenes y precio total,<br> Cuando consulta el endpoint,<br> Entonces el backend retorna 200 con lista paginada y la app permite ordenar y guardar favoritos.<br><br> <strong>Escenario 02: Sin combos</strong><br> Dado el endpoint de combos,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado sin datos con botón para crear combo. </td> </tr> </table>
+
+### Spike Story
+
+<!-- SPK01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK01</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Modelo de datos y validaciones de producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga y prototipa el esquema de productos (campos obligatorios, unicidad por código, estados y auditoría) para definir reglas de validación y errores estándar.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Reglas de unicidad y requeridos</strong></p> <ul> <li>Dado que el modelo preliminar de producto está definido,</li> <li>Cuando valida la unicidad de código y los campos requeridos,</li> <li>Entonces documenta reglas y códigos de error por campo.</li> </ul> <p><strong>Escenario 02: Datos inválidos normalizados</strong></p> <ul> <li>Dado que existen escenarios de datos inválidos,</li> <li>Cuando ejecuta la validación,</li> <li>Entonces rechaza la operación y registra causas normalizadas.</li> </ul> <p><strong>Escenario 03: Auditoría mínima de producto</strong></p> <ul> <li>Dado que se definen requisitos de auditoría,</li> <li>Cuando configura metadatos,</li> <li>Entonces persiste timestamps, actor y versión en pruebas de PoC.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK02</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Concurrencia de stock y movimientos atómicos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga estrategias de bloqueo/versión, transacciones e idempotencia para asegurar consistencia en entradas, salidas, devoluciones y lotes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Consistencia ante salidas concurrentes</strong></p> <ul> <li>Dado que existen solicitudes concurrentes de salida,</li> <li>Cuando la suma excede el stock,</li> <li>Entonces una operación se rechaza y el stock final permanece consistente.</li> </ul> <p><strong>Escenario 02: Idempotencia de movimientos</strong></p> <ul> <li>Dado que se reintenta un movimiento con la misma clave de idempotencia,</li> <li>Cuando procesa la operación,</li> <li>Entonces retorna el mismo resultado sin duplicados.</li> </ul> <p><strong>Escenario 03: Transacción atómica válida</strong></p> <ul> <li>Dado que el movimiento es válido,</li> <li>Cuando confirma la transacción,</li> <li>Entonces registra el movimiento y devuelve el stock actualizado.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK03 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK03</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Búsqueda y etiquetado: normalización e índices</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga normalización (acentos/case), diseño de índices y control de duplicidad semántica de etiquetas para búsquedas por nombre, código, categoría y etiqueta.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Búsqueda insensible a acentos y mayúsculas</strong></p> <ul> <li>Dado que se ingresa un término con acentos o mayúsculas,</li> <li>Cuando se ejecuta la búsqueda,</li> <li>Entonces retorna coincidencias insensibles a acentos y case.</li> </ul> <p><strong>Escenario 02: Equivalencia y deduplicación de etiquetas</strong></p> <ul> <li>Dado que existen etiquetas equivalentes,</li> <li>Cuando se evalúa su alta o uso,</li> <li>Entonces evita duplicidad lógica mediante normalización definida.</li> </ul> <p><strong>Escenario 03: Filtros combinados consistentes</strong></p> <ul> <li>Dado que se aplican filtros por etiqueta y categoría,</li> <li>Cuando se ejecuta la consulta,</li> <li>Entonces retorna la intersección consistente.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK04</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">Historial y auditoría de movimientos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo de historial transaccional y criterios de auditoría para consultar entradas y salidas con metadatos esenciales y retención.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Historial ordenado con metadatos</strong></p> <ul> <li>Dado que un producto posee movimientos,</li> <li>Cuando se consulta el historial,</li> <li>Entonces retorna eventos ordenados con tipo, cantidad, fecha y actor.</li> </ul> <p><strong>Escenario 02: Historial vacío documentado</strong></p> <ul> <li>Dado que un producto no posee movimientos,</li> <li>Cuando se consulta el historial,</li> <li>Entonces retorna colección vacía documentada.</li> </ul> <p><strong>Escenario 03: Trazabilidad de movimientos</strong></p> <ul> <li>Dado que se registra un movimiento,</li> <li>Cuando persiste el evento,</li> <li>Entonces guarda autor, motivo y correlación.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK05 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK05</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP05 – Alertas y notificaciones</td> </tr> <tr> <th>Title</th><td colspan="3">Alertas por stock mínimo y caducidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga disparadores, deduplicación y severidad de alertas para bajo stock, vencidos y próximos a vencer, con almacenamiento y consulta.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Alerta única por estado</strong></p> <ul> <li>Dado que un producto tiene un umbral configurado,</li> <li>Cuando el stock cae por debajo del mínimo,</li> <li>Entonces registra una alerta única por estado hasta la recuperación.</li> </ul> <p><strong>Escenario 02: Severidad por caducidad</strong></p> <ul> <li>Dado que existen fechas de caducidad,</li> <li>Cuando detecta vencidos o próximos a vencer,</li> <li>Entonces genera alertas con severidad definida y agrupación por producto.</li> </ul> <p><strong>Escenario 03: Consulta paginada de alertas</strong></p> <ul> <li>Dado que el repositorio de alertas está disponible,</li> <li>Cuando se consulta,</li> <li>Entonces retorna resultados paginados y ordenados por severidad y fecha.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK06 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK06</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">Definiciones de KPIs y analítica (ventas, ticket, stock, comparativos)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga definiciones métricas, fuentes y materialización para productos más vendidos, categorías, ticket promedio, stock promedio e indicadores comparativos.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: KPIs reproducibles</strong></p> <ul> <li>Dado que existe un diccionario de KPIs,</li> <li>Cuando calcula sobre un dataset de prueba,</li> <li>Entonces obtiene resultados reproducibles y documentados.</li> </ul> <p><strong>Escenario 02: Comparación por periodos</strong></p> <ul> <li>Dado que se seleccionan periodos a comparar,</li> <li>Cuando procesa ventas por periodo,</li> <li>Entonces retorna variaciones con la misma granularidad.</li> </ul> <p><strong>Escenario 03: Consistencia con filtros</strong></p> <ul> <li>Dado que se aplican filtros por categoría o producto,</li> <li>Cuando se recalculan los KPIs,</li> <li>Entonces mantiene consistencia con los totales de referencia.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK07 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK07</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">Importación y exportación (PDF) y límites operativos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga formatos, validaciones y manejo de tamaños grandes con procesamiento paginado o en streaming para importaciones y exportaciones.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Importación validada por fila</strong></p> <ul> <li>Dado que el archivo posee encabezados válidos,</li> <li>Cuando procesa la importación,</li> <li>Entonces valida filas, reporta errores por línea y aplica cambios atómicos por lote.</li> </ul> <p><strong>Escenario 02: Exportación con tipos correctos</strong></p> <ul> <li>Dado que se solicita una exportación,</li> <li>Cuando genera el archivo,</li> <li>Entonces produce el formato solicitado con tipos de datos correctos.</li> </ul> <p><strong>Escenario 03: Manejo de archivos grandes</strong></p> <ul> <li>Dado que el tamaño supera el umbral definido,</li> <li>Cuando procesa la operación,</li> <li>Entonces utiliza streaming/paginación y documenta límites.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK08</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP04 – Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">Roles y permisos en API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo RBAC con matriz rol permiso y puntos de control en API para operaciones de inventario y administración.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Autorización según política</strong></p> <ul> <li>Dado que un rol tiene permisos definidos,</li> <li>Cuando solicita una operación restringida,</li> <li>Entonces autoriza o rechaza de acuerdo con la política.</li> </ul> <p><strong>Escenario 02: Intentos no autorizados</strong></p> <ul> <li>Dado que un usuario carece del permiso,</li> <li>Cuando intenta modificar recursos,</li> <li>Entonces rechaza la acción y registra el intento.</li> </ul> <p><strong>Escenario 03: Efecto de cambios de rol</strong></p> <ul> <li>Dado que se actualizan las asignaciones de rol,</li> <li>Cuando el cambio entra en vigor,</li> <li>Entonces aplica permisos vigentes sin inconsistencias.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK09</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Entrada por voz: comandos estructurados e interpretación</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga gramática mínima y extracción de entidades (cantidad, producto) para registrar movimientos por voz con manejo de ambigüedad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Extracción de entidades con confianza mínima</strong></p> <ul> <li>Dado que se recibe un comando válido,</li> <li>Cuando procesa audio o texto,</li> <li>Entonces extrae cantidad y referencia de producto con un umbral de confianza definido.</li> </ul> <p><strong>Escenario 02: Manejo de ambigüedad</strong></p> <ul> <li>Dado que existen múltiples coincidencias,</li> <li>Cuando detecta ambigüedad,</li> <li>Entonces solicita desambiguación dentro del flujo técnico.</li> </ul> <p><strong>Escenario 03: Dictado consecutivo</strong></p> <ul> <li>Dado que el usuario dicta varios comandos,</li> <li>Cuando los recibe en secuencia,</li> <li>Entonces procesa cada uno y conserva estado hasta terminación.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK10</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Geolocalización y modelo de ubicación (GPS y QR)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga captura de lat/long, precisión, almacenamiento, permisos y asociación de ubicación por QR para productos y entregas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Persistencia de coordenadas</strong></p> <ul> <li>Dado que los permisos de ubicación están concedidos,</li> <li>Cuando captura la ubicación,</li> <li>Entonces persiste coordenadas con precisión y timestamp.</li> </ul> <p><strong>Escenario 02: Flujo sin permisos</strong></p> <ul> <li>Dado que los permisos son denegados,</li> <li>Cuando se requiere ubicación,</li> <li>Entonces documenta flujo de entrada manual de dirección o coordenadas.</li> </ul> <p><strong>Escenario 03: Asociación por QR</strong></p> <ul> <li>Dado que se dispone de un QR válido,</li> <li>Cuando asocia la ubicación,</li> <li>Entonces vincula el producto al punto definido y lo hace consultable.</li> </ul> </td> </tr> </table> <br>
+
+<!-- SPK11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK11</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Predicción de reabastecimiento</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga una fórmula base (media móvil + lead time) con parámetros ajustables para sugerir fecha y cantidad de reabastecimiento.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Sugerencia con supuestos explícitos</strong></p> <ul> <li>Dado que existe histórico de ventas y stock mínimo,</li> <li>Cuando calcula demanda proyectada,</li> <li>Entonces sugiere fecha y cantidad con supuestos explícitos.</li> </ul> <p><strong>Escenario 02: Recalculo por parámetros</strong></p> <ul> <li>Dado que los parámetros son ajustables,</li> <li>Cuando actualiza valores,</li> <li>Entonces recalcula sugerencias con trazabilidad de versiones.</li> </ul> <p><strong>Escenario 03: Detección de quiebre inminente</strong></p> <ul> <li>Dado que el consumo supera la previsión,</li> <li>Cuando se detecta desvío relevante,</li> <li>Entonces marca riesgo de quiebre y registra recomendación prioritaria.</li> </ul> </td> </tr> </table> <br>
 
 ### 2.4.2. Impact Mapping
 
@@ -1886,15 +1906,19 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
 </table>
 
 ## 2.5. Strategic-Level Domain-Driven Design
+
 En esta sección se describe el proceso utilizado en las decisiones del negocio, aplicando el enfoque de Domain Driven Design. A través de esta metodología, se busca identificar y definir los distintos Bounded Contexts que conforman el sistema, es decir, subconjuntos con límites lógicos y naturales en función del dominio del problema. Para lograrlo, el equipo emplea herramientas como EventStorming y el Bounded Context Canvas, las cuales permiten visualizar, analizar y delimitar las responsabilidades, flujos de eventos y relaciones clave dentro del sistema.
+
 ### 2.5.1. EventStorming
+
 En este apartado se documenta el proceso del Event Storming, una herramienta clave para construir una primera aproximación al modelado general del dominio del negocio. Esta técnica colaborativa permite identificar eventos relevantes, actors, commands y aggregates dentro del sistema. Con ello, el objetivo principal es explorar nuestro dominio para descubrir patrones de software relevantes, límites y conexiones claras entre nuestros bounded context y sentar las bases para una buena arquitectura. Para ello, se realizaron los siguientes pasos en la herramienta Lucidchart bajo la normativa del DDD Estratégico. https://miro.com/app/board/uXjVJIfQcmY=/?share_link_id=739758304264
 
 #### 2.5.1.1. Candidate Context Discovery
 
 A continuación se detalla el proceso y la evolución final del event storming.
 
-### Step 1: Unstructured exploration 
+### Step 1: Unstructured exploration
+
 Primero tuvimos una lluvia de ideas en la cual nos propusimos identificar exhaustivamente todos los eventos que ocurrirán en nuestro aplicativo, para asegurarnos de abarcar una amplia gama de posibilidades y ofrecer una experiencia completa y satisfactoria a nuestros usuarios.
 
 A continuación, se presentan una serie de figuras que evidencian este proceso de exploración inicial.
@@ -1903,8 +1927,9 @@ A continuación, se presentan una serie de figuras que evidencian este proceso d
 <br>En esta figura se aprecia un mural con todos los eventos del dominio que fueron rescatados de la lluvia de ideas que realizó el equipo.<br>
 
 ### Step 2 : Timeline construction
+
 Una vez identificados los eventos, organizamos la secuencia cronológica en la que estos ocurren dentro del flujo del sistema. Esto nos permitió identificar la secuencia natural del negocio y clarificar la narrativa del dominio.
-A continuación, se presentan una serie de capturas de pantalla que ilustran cómo estructuramos esta línea temporal. 
+A continuación, se presentan una serie de capturas de pantalla que ilustran cómo estructuramos esta línea temporal.
 
 <img src="./assets/Chapter-2/eventStorming_step2.1.png">
 
@@ -1916,9 +1941,10 @@ A continuación, se presentan una serie de capturas de pantalla que ilustran có
 <img src="./assets/Chapter-2/eventStorming_step2.4.png">
 <br><br>  
 <img src="./assets/Chapter-2/eventStorming_step2.5.png">
-<br><br>  
+<br><br>
 
 #### Step 3: Pain Points
+
 En este paso identificamos los puntos críticos que requieren especial atención dentro de nuestro dominio, ya sea por su nivel de impacto en el negocio, riesgo potencial o complejidad. Para facilitar su análisis y visualización, se ha elaborado un diagrama colaborativo que refleja dichos puntos críticos.
 
 A continuación, se presentan una serie de figuras que evidencian el proceso realizado durante la identificación y análisis de los puntos críticos del dominio. Estas capturas complementan el diagrama general elaborado en Miro y permiten observar con mayor detalle los elementos clave identificados.
@@ -1932,18 +1958,20 @@ A continuación, se presentan una serie de figuras que evidencian el proceso rea
 <img src="./assets/Chapter-2/eventStorming_step3.4.png">
 <br>En esta imagen se aprecia la identificación de incertidumbres sobre qué datos “validados” deben alimentar la auditoría y los reportes (para evitar inconsistencias), así como el alcance y filtros de los informes (ventas semanales, tendencias, métricas como stock promedio) y quién puede exportar/compartir (Excel, correo) según el plan<br> 
 <img src="./assets/Chapter-2/eventStorming_step3.5.png">
-<br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo garantizar que un “ajuste de stock” refleje la realidad y no oculte errores o maniobras: cuándo corresponde usar ajuste versus quitar stock por venta o baja por daño, qué evidencias (motivo, usuario, documento/foto) y doble validación exigir, cómo conciliar el conteo físico sin duplicar salidas previas, cómo impactar lotes y reservas (p. ej., liberar reservas ya innecesarias) y cómo disparar alertas por umbral después de cada movimiento.<br> 
+<br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo garantizar que un “ajuste de stock” refleje la realidad y no oculte errores o maniobras: cuándo corresponde usar ajuste versus quitar stock por venta o baja por daño, qué evidencias (motivo, usuario, documento/foto) y doble validación exigir, cómo conciliar el conteo físico sin duplicar salidas previas, cómo impactar lotes y reservas (p. ej., liberar reservas ya innecesarias) y cómo disparar alertas por umbral después de cada movimiento.<br>
 
 #### Step 4: Pivotal Points
-En esta sección se marcaron los puntos clave que denotan transiciones significativas dentro del proceso de desarrollo, especialmente aquellos eventos o decisiones que implican un cambio en el comportamiento del sistema o en la forma en que los distintos Bounded Contexts interactúan entre sí. Como se puede observar, los pivotal points son sumamente importantes. Por ello, para poder comprender y apreciar el diseño realizado en este paso, se muestran las siguientes imágenes. 
+
+En esta sección se marcaron los puntos clave que denotan transiciones significativas dentro del proceso de desarrollo, especialmente aquellos eventos o decisiones que implican un cambio en el comportamiento del sistema o en la forma en que los distintos Bounded Contexts interactúan entre sí. Como se puede observar, los pivotal points son sumamente importantes. Por ello, para poder comprender y apreciar el diseño realizado en este paso, se muestran las siguientes imágenes.
 
 <img src="./assets/Chapter-2/eventStorming_step4.1.png">
-<br><br>  
+<br><br>
 
 <img src="./assets/Chapter-2/eventStorming_step4.2.png">
-<br><br>  
+<br><br>
 
 #### Step 5: Commands
+
 En este paso se definen los comandos que representan las acciones que los usuarios pueden ejecutar en el sistema. Estos comandos son fundamentales para desencadenar eventos y modificar el estado del sistema, y deben estar alineados con los eventos identificados previamente. A continuación, se muestran los comandos relevantes para nuestro dominio.
 
 <img src="./assets/Chapter-2/eventStorming_step5.1.png">
@@ -1982,9 +2010,10 @@ Los siguientes frames contienen políticas que indican diferentes restricciones 
 <img src="./assets/Chapter-2/eventStorming_step6.4.png">
 <br><br> 
 <img src="./assets/Chapter-2/eventStorming_step6.5.png">
-<br><br> 
+<br><br>
 
 #### Step 7 & 8: Read Models & External Systems
+
 Estos dos pasos conforman la aparición de los read models y los external systems respectivamente. Por un lado, los read models son proyecciones que representan vistas personalizadas, dashboards, o reportes. Por otro lado, los external systems en DDD representan aquellos componentes o servicios externos con los que el sistema necesita interactuar, como pasarelas de pago, servicios de autenticación, sistemas de terceros, o integraciones con otras plataformas empresariales.
 
 <img src="./assets/Chapter-2/eventStorming_step7.1.png">
@@ -1992,32 +2021,34 @@ Estos dos pasos conforman la aparición de los read models y los external system
 <img src="./assets/Chapter-2/eventStorming_step7.2.png">
 <br><br> 
 <img src="./assets/Chapter-2/eventStorming_step7.3.png">
-<br><br> 
+<br><br>
 
 #### Step 9 & 10: Aggregates & Bounded Contexts
+
 En los pasos 9 y 10 se introducen dos conceptos clave del Domain-Driven Design: Aggregates y Bounded Contexts. Los aggregates representan unidades de consistencia dentro del modelo de dominio, agrupando entidades y objetos de valor que deben mantenerse coherentes bajo una misma raíz (aggregate root). Por otro lado, los bounded contexts definen límites en los cuales un modelo tiene significado y coherencia, estableciendo una frontera clara para evitar ambigüedades conceptuales.
 
-<br>Bounded Context: IAM<br> 
+<br>Bounded Context: IAM<br>
 <img src="./assets/Chapter-2/eventStorming_step9.1.png">
-<br><br> 
+<br><br>
 <br>Bounded Context: Product catalog<br>
 <img src="./assets/Chapter-2/eventStorming_step9.2.png">
 <br><br>
-<br>Bounded Context: Inventory<br> 
+<br>Bounded Context: Inventory<br>
 <img src="./assets/Chapter-2/eventStorming_step9.3.png">
 <br><br>
-<br>Bounded Context: Alerts<br> 
+<br>Bounded Context: Alerts<br>
 <img src="./assets/Chapter-2/eventStorming_step9.4.png">
 <br><br>
-<br>Bounded Context: AuditReport<br> 
+<br>Bounded Context: AuditReport<br>
 <img src="./assets/Chapter-2/eventStorming_step9.5.png">
 <br><br>
 
 #### 2.5.1.2. Domain Message Flows Modeling
-En los siguientes gráficos, se representa el proceso seguido para visualizar cómo  deben colaborar los bounded contexts para resolver distintos escenarios que pueden presentarse en el negocio.
+
+En los siguientes gráficos, se representa el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver distintos escenarios que pueden presentarse en el negocio.
 
 <br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow1.png"><br>
-Este es un escenario de creación e inicio/cierre de sesión para nuestra app de bodega: primero, el usuario registra su cuenta en la Web App enviando su correo o teléfono; la aplicación remite el comando a IAM, que coordina con el proveedor OTP/SMS/Email para verificar el contacto y, una vez confirmado, publica el evento “Nuevo usuario ingresado” dejando la cuenta activa. A continuación, el usuario solicita iniciar sesión; la Web App envía el comando a IAM, que valida credenciales/OTP y emite “Sesión iniciada”, habilitando el acceso a las demás funciones. Finalmente, cuando el usuario decide salir, la Web App manda “Cerrar sesión” a IAM, que invalida el token/sesión y concluye el ciclo de autenticación.<br> 
+Este es un escenario de creación e inicio/cierre de sesión para nuestra app de bodega: primero, el usuario registra su cuenta en la Web App enviando su correo o teléfono; la aplicación remite el comando a IAM, que coordina con el proveedor OTP/SMS/Email para verificar el contacto y, una vez confirmado, publica el evento “Nuevo usuario ingresado” dejando la cuenta activa. A continuación, el usuario solicita iniciar sesión; la Web App envía el comando a IAM, que valida credenciales/OTP y emite “Sesión iniciada”, habilitando el acceso a las demás funciones. Finalmente, cuando el usuario decide salir, la Web App manda “Cerrar sesión” a IAM, que invalida el token/sesión y concluye el ciclo de autenticación.<br>
 
 <br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow2.png"><br>
 Este es un escenario de archivado de producto con validación de stock: el Admin solicita en Product Catalog el comando Archivar producto y, antes de ejecutar el cambio, el catálogo consulta a Inventory el estado de existencias y reservas. Con la Consulta de stock, Inventory responde si hay unidades o reservas activas; si aún existe stock o reservas, desde la Web App se genera la notificación correspondiente y se envía a Alerts (Alerta generada) para informar y bloquear la acción. Si el resultado confirma stock=0 y sin reservas, el catálogo procede a completar la operación y se publica el evento Producto archivado, quedando el ítem fuera de publicación.<br>
@@ -2029,24 +2060,24 @@ Este es un escenario de recepción de lote: el admin, a través de la Web App, e
 Este es un escenario de cambio de plan (Subscription): el usuario solicita en el Website el comando Cambio de plan, que es atendido por el BC IAM; IAM coordina con la pasarela de pagos para capturar el cobro y, una vez confirmado, publica los eventos “Cambio de plan realizado” y “Pasa a plan premium”, los cuales habilitan capacidades en los demás contextos: Alerts reconfigura sus canales (por ejemplo, activa SMS para notificaciones críticas) y Report registra el movimiento de suscripción en la auditoría; como efecto visible, el Website recibe el permiso de exportar reportes (gating por plan) y el usuario continúa operando con las nuevas funcionalidades asociadas a su plan activo..<br>
 
 #### 2.5.1.3. Bounded Context Canvases
+
 El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DDD) que permite definir, entender y comunicar de forma clara los límites, responsabilidades y elementos clave de un Bounded Context. Ayuda a alinear al equipo en torno a una visión compartida del dominio, identificando entidades, eventos, comandos y relaciones externas. Además, elaborar un diseño modular del sistema de manera coherente es posible gracias a las nomenclaturas establecidas por un Bounded Context Canvas
 
-<br>Bounded Context: IAM<br> 
+<br>Bounded Context: IAM<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas1.png">
-<br><br> 
+<br><br>
 <br>Bounded Context: Product catalog<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas2.png">
 <br><br>
-<br>Bounded Context: Inventory<br> 
+<br>Bounded Context: Inventory<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas3.png">
 <br><br>
-<br>Bounded Context: Alerts<br> 
+<br>Bounded Context: Alerts<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas4.png">
 <br><br>
-<br>Bounded Context: AuditReport<br> 
+<br>Bounded Context: AuditReport<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas5.png">
 <br><br>
-
 
 ### 2.5.2. Context Mapping
 
@@ -2067,11 +2098,17 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
+
 ### 2.6.1. Bounded Context: AlertStockManagement Context
+
 #### 2.6.1.1. Domain Layer
+
 #### 2.6.1.2. Interface Layer
+
 #### 2.6.1.3. Application Layer
+
 #### 2.6.1.4. Infrastructure Layer
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div align="center">
@@ -2079,14 +2116,21 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 </div>
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.2. Bounded Context: Iam Context
+
 #### 2.6.2.1. Domain Layer
+
 #### 2.6.2.2. Interface Layer
+
 #### 2.6.2.3. Application Layer
+
 #### 2.6.2.4. Infrastructure Layer
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div align="center">
@@ -2094,14 +2138,21 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 </div>
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.3. Bounded Context: Inventory Context
+
 #### 2.6.3.1. Domain Layer
+
 #### 2.6.3.2. Interface Layer
+
 #### 2.6.3.3. Application Layer
+
 #### 2.6.3.4. Infrastructure Layer
+
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div align="center">
@@ -2109,14 +2160,21 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 </div>
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.4. Bounded Context: ProductManagement Context
+
 #### 2.6.4.1. Domain Layer
+
 #### 2.6.4.2. Interface Layer
+
 #### 2.6.4.3. Application Layer
+
 #### 2.6.4.4. Infrastructure Layer
+
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div align="center">
@@ -2124,14 +2182,21 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 </div>
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.5. Bounded Context: Reports Context
+
 #### 2.6.5.1. Domain Layer
+
 #### 2.6.5.2. Interface Layer
+
 #### 2.6.5.3. Application Layer
+
 #### 2.6.5.4. Infrastructure Layer
+
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 <div align="center">
@@ -2139,5 +2204,7 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 </div>
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
