@@ -202,7 +202,6 @@
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
-- [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video App Validation](#video-app-validation)
 - [Video About-the-Product](#video-about-the-product)
@@ -244,7 +243,7 @@ soluciones de software.</b></td>
         <p>.</p>
         <p><b>TF:</b></p>
         <p>.</p>
-        <p><b>name</b></p>
+        <p><b>Camila Sanchez Rios</b></p>
        <p><b>TB1:</b></p>
         <p></p>
         <p><b>TP1:</b></p>
@@ -457,10 +456,16 @@ de software.</td>
 
 
 
-# Conclusiones
 # Conclusiones y recomendaciones
+El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una aplicación movil de alto valor, adaptable y preparada para el crecimiento continuo.
+
 # Video App Validation
 # Video About-the-Product
 # Video About-the-team
 # Bibliografía
+1. Dux Software. (2025, 9 abril). Dux Software: El Sistema de Gestión para tu Negocio. https://www.duxsoftware.com.ar/
+2. Mecalux. (s. f.). Store fulfillment. Mecalux.pe. https://www.mecalux.pe/software/store-fulfillment
+3. SoftDoIt. (s. f.). ▷Vendus: agiliza la gestión de tu punto de venta. https://www.softwaredoit.es/vendus/vendus.html
 # Anexos
+
+**Video de Entrevistas:** 
