@@ -236,7 +236,8 @@ soluciones de software.</b></td>
       <td>
         <p><b>Jocelyn Almerco </b></p>
         <p><b>TB1:</b></p>
-        <p>..</p>
+        <p>Reconocí que participar en la edición del video de entrevistas y en las herramientas de análisis (Capítulo II, matrices, mapeos y backlog) me exige un aprendizaje permanente para mejorar mi aporte en proyectos de software.
+        </p>
         <p><b>TP1:</b></p>
         <p>,..</p>
         <p><b>TB2:</b></p>
@@ -254,7 +255,7 @@ soluciones de software.</b></td>
         <p>.</p>
         <p><b>Kevin Chi</b></p>
         <p><b>TB1:</b></p>
-        <p>     
+        <p>Puse en práctica lo que sabía y reforcé mis conocimientos diseñando el C4 y el modelo de base de datos para el proyecto.   
         </p>
         <p><b>TP1:</b></p>
         <p>.</p>
@@ -264,7 +265,7 @@ soluciones de software.</b></td>
         <p><b>Alejandro Oroncoy</b></p>
         <p><b></b></p>
        <p><b>TB1:</b></p>
-        <p></p>
+        <p>Mejoré mis conocimientos aplicando el Tactical DDD y organizando el dominio del proyecto de una manera más clara.</p>
         <p><b>TP1:</b></p>
         <p></p>
         <p><b>TB2:</b></p>
@@ -272,6 +273,7 @@ soluciones de software.</b></td>
         <p><b>TF:</b></p>
         <p></p>
         <p><b>Jeremy Paucar</b></p>
+          Aprendí nuevas formas de mapear el flujo de eventos y actualicé mi conocimiento aplicando EventStorming en el proyecto.
         <p><b></b></p>
        <p><b>TB1:</b></p>
         <p></p>
@@ -303,7 +305,7 @@ de software.</td>
       <td>
         <p><b>Jocelyn Almerco</b></p>
         <p><b>TB1:</b></p>
-        <p>..</p>
+        <p>Me encargué de editar el video de las entrevistas. Colaboré con Capítulo II: Entrevistas,  User Task Matrix, User Journey Mapping, Empathy Mapping,  Requirements specification, User Stories, Impact Mapping, Product Backlog.</p>
         <p><b>TP1:</b></p>
         <p>..</p>
         <p><b>TB2:</b></p>
@@ -321,7 +323,7 @@ de software.</td>
         <p>.</p>
         <p><b>Kevin Chi</b></p>
         <p><b>TB1:</b></p>
-        <p>..
+        <p>Me di cuenta de que al trabajar con C4 y el diagrama de base de datos necesito seguir aprendiendo sobre cómo representar bien la arquitectura y los datos de un sistema.
         </p>
         <p><b>TP1:</b></p>
         <p>..</p>
@@ -331,7 +333,7 @@ de software.</td>
         <p>.</p>
         <p><b>Alejandro Oroncoy</b></p>
        <p><b>TB1:</b></p>
-        <p>...</p>
+        <p>Comprendí que usar las tácticas de DDD requiere aprendizaje constante de patrones como entidades y agregados para aplicarlos bien en el dominio.</p>
         <p><b>TP1:</b></p>
         <p>...</p>
         <p><b>TB2:</b></p>
@@ -340,7 +342,7 @@ de software.</td>
         <p>...</p>
         <p><b>Jeremy Paucar</b></p>
        <p><b>TB1:</b></p>
-        <p>...</p>
+        <p>Entendí que al hacer EventStorming es clave seguir capacitándome para identificar de forma correcta los eventos y procesos del sistema.</p>
         <p><b>TP1:</b></p>
         <p>...</p>
         <p><b>TB2:</b></p>
