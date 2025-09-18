@@ -2261,13 +2261,43 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ### 2.6.1. Bounded Context: AlertStockManagement Context
 
-#### 2.6.1.1. Domain Layer
+### 2.6.1.1. Domain Layer  
 
-#### 2.6.1.2. Interface Layer
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **StockAlertItem** | Aggregate Root (Entity) | Representa una alerta de stock para un producto | ProductName, Quantity, MinStock, EntryDate, IsLowStock |
+| **StockAlertQuery** | Query | Criterio de consulta de alertas de stock | IncludeLowStock |
+| **IStockAlertQueryService** | Domain Service (Interface) | Define contrato para consultas de alertas de stock | GetAlertsAsync(StockAlertQuery): Task<IEnumerable<StockAlertItem>> |
+| **IInventoryReadRepository** | Repository (Interface) | Lectura de inventario para generar alertas | GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
+| **IStockAlertReadRepository** | Repository (Interface) | Lectura de alertas de stock ya calculadas | GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
 
-#### 2.6.1.3. Application Layer
+---
 
-#### 2.6.1.4. Infrastructure Layer
+### 2.6.1.2. Application Layer  
+
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **StockAlertQueryService** | Application Service | Implementa consultas de alertas de stock contra inventario | repository, GetAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
+| **IStockAlertQueryService** | Application Service (Interface) | Contrato de aplicación para consultas de alertas de stock | GetAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
+
+---
+
+### 2.6.1.3. Interface Layer  
+
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **StockAlertResource** | Resource (DTO) | Representa alerta de stock en respuestas REST | ProductName, Quantity, MinStock, EntryDate, IsLowStock |
+| **StockAlertTransform** | Assembler | Convierte entidad StockAlertItem en DTO | ToResource(StockAlertItem): StockAlertResource |
+| **StockAlertController** | REST Controller | Expone endpoints para consultar alertas de stock | _service, GetAlerts(): Task<IActionResult> |
+
+---
+
+### 2.6.1.4. Infrastructure Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **InventoryReadRepository** | Repository Implementation | Implementación EF Core para leer stock y generar alertas | context, GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
+
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2287,13 +2317,61 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ### 2.6.2. Bounded Context: Iam Context
 
-#### 2.6.2.1. Domain Layer
+### 2.6.2.1. Domain Layer  
 
-#### 2.6.2.2. Interface Layer
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **User** | Aggregate Root (Entity) | Representa un usuario dentro del sistema IAM | Id, Name, LastName, Email, Password, Role, User(), User(SignInCommand), User(SignUpCommand) |
+| **UserRole** | Enum (Value Object) | Define los roles posibles de usuario | Employee, Administrator |
+| **SignUpCommand** | Command | Solicitud para registrar un nuevo usuario | Name, LastName, Email, Password |
+| **SignInCommand** | Command | Solicitud para iniciar sesión | Email, Password |
+| **ChangeUserRoleCommand** | Command | Solicitud para cambiar el rol de un usuario | UserId, NewRole |
+| **GetUserByIdQuery** | Query | Consulta para obtener un usuario por ID | Id |
+| **IUserCommandService** | Domain Service (Interface) | Define el contrato de servicios para manejar comandos de usuario | Handle(SignUpCommand), Handle(SignInCommand), Handle(ChangeUserRoleCommand) |
+| **IUserQueryService** | Domain Service (Interface) | Define el contrato de servicios para consultas de usuario | Handle(GetUserByIdQuery) |
+| **IUserRepository** | Repository (Interface) | Acceso abstracto a la persistencia de usuarios | FindByEmailAsync, FindByIdAsync, AddAsync, UpdateUserRoleAsync |
 
-#### 2.6.2.3. Application Layer
+---
 
-#### 2.6.2.4. Infrastructure Layer
+### 2.6.2.2. Interface Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **SignUpResource** | Resource (DTO) | Representa los datos de entrada para registrarse | Name, LastName, Email, Password |
+| **SignInResource** | Resource (DTO) | Representa los datos de entrada para iniciar sesión | Email, Password |
+| **UserResource** | Resource (DTO) | Representa un usuario simplificado en respuesta | Id, Name, Email |
+| **AuthenticatedUserResource** | Resource (DTO) | Representa un usuario autenticado junto con token | Id, Name, LastName, Token, Role |
+| **ChangeUserRoleResource** | Resource (DTO) | Datos de entrada para cambiar el rol de un usuario | UserId, NewRole |
+| **SignUpCommandFromResourceAssembler** | Assembler | Convierte un recurso en un comando de dominio | ToCommandFromResource(SignUpResource) |
+| **SignInCommandFromResourceAssembler** | Assembler | Convierte un recurso en un comando de dominio | ToCommandFromResource(SignInResource) |
+| **UserResourceFromEntityAssembler** | Assembler | Convierte una entidad en un recurso DTO | ToResourceFromEntity(User) |
+| **ChangeUserRoleCommandFromResourceAssembler** | Assembler | Convierte un recurso en un comando de dominio | ToCommandFromResource(ChangeUserRoleResource) |
+| **AuthenticatedUserResourceFromEntityAssembler** | Assembler | Convierte entidad y token en recurso de autenticación | ToResourceFromEntity(User, Token) |
+| **AuthenticationController** | REST Controller | Expone endpoints de autenticación y gestión de usuario | SignUp(SignUpResource), SignIn(SignInResource), ChangeUserRole(ChangeUserRoleResource) |
+
+---
+
+### 2.6.2.3. Application Layer  
+
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **UserCommandService** | Application Service | Implementa los servicios de comando de usuarios | userRepository, tokenService, hashingService, unitOfWork, Handle(SignUpCommand), Handle(SignInCommand), Handle(ChangeUserRoleCommand) |
+| **UserQueryService** | Application Service | Implementa los servicios de consulta de usuarios | userRepository, GetAllAsync(), FindByIdAsync(int) |
+| **ITokenService** | Outbound Service (Interface) | Define generación y validación de tokens | GenerateToken(User), ValidateToken(string) |
+| **IHashingService** | Outbound Service (Interface) | Define operaciones de hashing de contraseñas | GenerateHash(string), VerifyHash(string, string) |
+
+---
+
+### 2.6.2.4. Infrastructure Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **UserRepository** | Repository (Implementation) | Implementación de acceso a datos de usuarios | context, FindByEmailAsync, FindByIdAsync, AddAsync, UpdateUserRoleAsync |
+| **TokenService** | Outbound Service Implementation | Implementación de generación y validación de tokens JWT | GenerateToken(User), ValidateToken(string) |
+| **HashingService** | Outbound Service Implementation | Implementación de hashing de contraseñas con BCrypt | GenerateHash(string), VerifyHash(string, string) |
+| **TokenSettings** | Configuration | Configuración de secret key para JWT | Secret |
+| **AuthorizeRolesAttribute** | Authorization Filter | Atributo para restringir acceso por roles en controllers | _roles, OnAuthorization(AuthorizationFilterContext) |
+
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2312,14 +2390,62 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.3. Bounded Context: Inventory Context
+### 2.6.3.1. Domain Layer  
 
-#### 2.6.3.1. Domain Layer
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **InventoryByProduct** | Aggregate Root (Entity) | Representa inventario por producto | Id, Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida, InventoryByProduct(), InventoryByProduct(...) |
+| **InventoryByBatch** | Aggregate Root (Entity) | Representa inventario por lotes | Id, Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad, Total, InventoryByBatch(), InventoryByBatch(...) |
+| **Cantidad** | Value Object | Representa una cantidad | Value, Cantidad(int) |
+| **Precio** | Value Object | Representa un precio monetario | Value, Precio(decimal) |
+| **StockMinimo** | Value Object | Define el stock mínimo de un producto | Value, StockMinimo(int) |
+| **Unidad** | Value Object | Representa la unidad de medida | Value, Unidad(string) |
+| **CreateInventoryByProductCommand** | Command | Crear inventario por producto | Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida |
+| **CreateInventoryByBatchCommand** | Command | Crear inventario por lote | Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad |
+| **GetInventoryByBatchQuery** | Query | Consultar todos los inventarios por lote | - |
+| **GetInventoryByProductQuery** | Query | Consultar todos los inventarios por producto | - |
+| **GetInventoryByProductByIdQuery** | Query | Consultar inventario por producto por Id | Id |
+| **GetInventoryByBatchByIdQuery** | Query | Consultar inventario por lote por Id | Id |
+| **GetGeneralInventoryQuery** | Query | Consultar inventario general | - |
+| **IInventoryByProductCommandService** | Domain Service (Interface) | Define contrato para comandos de inventario por producto | Handle(CreateInventoryByProductCommand), DeleteAsync(int) |
+| **IInventoryByProductQueryService** | Domain Service (Interface) | Define contrato para consultas de inventario por producto | GetAllAsync(), GetByIdAsync(int) |
+| **IInventoryByBatchCommandService** | Domain Service (Interface) | Define contrato para comandos de inventario por lote | Handle(CreateInventoryByBatchCommand), DeleteAsync(int) |
+| **IInventoryByBatchQueryService** | Domain Service (Interface) | Define contrato para consultas de inventario por lote | Handle(GetInventoryByBatchQuery) |
+| **IInventoryByProductRepository** | Repository (Interface) | Acceso abstracto a inventarios por producto | ListAsync(), FindByIdAsync(int), AddAsync(InventoryByProduct), DeleteAsync(int) |
+| **IInventoryByBatchRepository** | Repository (Interface) | Acceso abstracto a inventarios por lote | ListAsync(), FindByIdAsync(int), AddAsync(InventoryByBatch), DeleteAsync(int) |
 
-#### 2.6.3.2. Interface Layer
+---
 
-#### 2.6.3.3. Application Layer
+### 2.6.3.2. Application Layer  
 
-#### 2.6.3.4. Infrastructure Layer
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **InventoryByProductCommandService** | Application Service | Implementa comandos de inventario por producto | repository, unitOfWork, Handle(CreateInventoryByProductCommand), DeleteAsync(int) |
+| **InventoryByBatchCommandService** | Application Service | Implementa comandos de inventario por lote | repository, unitOfWork, Handle(CreateInventoryByBatchCommand), DeleteAsync(int) |
+| **InventoryByProductQueryService** | Application Service | Implementa consultas de inventario por producto | repository, GetAllAsync(), GetByIdAsync(int) |
+| **InventoryByBatchQueryService** | Application Service | Implementa consultas de inventario por lote | repository, Handle(GetInventoryByBatchQuery) |
+
+---
+
+### 2.6.3.3. Interface Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **InventoryGeneralResource** | Resource (DTO) | Representa el inventario general (productos y lotes) | Productos, Lotes |
+| **InventoryByProductResource** | Resource (DTO) | Representa inventario por producto en respuestas | Id, Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida |
+| **InventoryByBatchResource** | Resource (DTO) | Representa inventario por lote en respuestas | Id, Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad, Total |
+| **InventoryTransform** | Assembler | Convierte entidades de inventario a recursos DTO | ToResourceFromEntity(InventoryByProduct), ToResourceFromEntity(InventoryByBatch) |
+| **InventoryController** | REST Controller | Expone endpoints de inventarios | GetAllInventory() |
+
+---
+
+### 2.6.3.4. Infrastructure Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **InventoryByProductRepository** | Repository Implementation | Implementación acceso a inventario por producto (EF Core) | context, ListAsync(), FindByIdAsync(int), AddAsync(InventoryByProduct), DeleteAsync(int) |
+| **InventoryByBatchRepository** | Repository Implementation | Implementación acceso a inventario por lote (EF Core) | context, ListAsync(), FindByIdAsync(int), AddAsync(InventoryByBatch), DeleteAsync(int) |
+
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2345,15 +2471,98 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
-### 2.6.4. Bounded Context: ProductManagement Context
+### 2.6.4.1. Domain Layer  
 
-#### 2.6.4.1. Domain Layer
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **Product** | Aggregate Root (Entity) | Representa un producto dentro del sistema | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, Category, Unit, ProductTags, Product(), Product(...), Product(CreateProductCommand), UpdateProduct(...), AddTag(int), RemoveTag(int) |
+| **Category** | Entity | Agrupa productos por categoría | Id, Name, Products, Category(), Category(string), UpdateName(string) |
+| **Unit** | Entity | Representa la unidad de medida de un producto | Id, Name, Abbreviation, Products, Unit(), Unit(string, string), UpdateUnit(string, string) |
+| **ProductTag** | Entity (Join) | Relaciona productos con etiquetas | ProductId, TagId, ProductTag(int, int) |
+| **Tag** | Entity | Representa una etiqueta asociada a productos | Id, Name, Description, Tag(), Tag(string, string), UpdateTag(string, string) |
+| **Combo** | Entity | Representa un combo de productos | Id, Name, Description, Price, ComboItems, Combo(), Combo(...), UpdateCombo(...) |
+| **ComboItem** | Entity | Relaciona un producto con un combo | Id, ComboId, ProductId, Quantity, Combo, Product, ComboItem(), ComboItem(int, int, int), UpdateQuantity(int) |
+| **ProductId** | Value Object | Identificador de producto | Value |
+| **UnitId** | Value Object | Identificador de unidad | Value |
+| **TagId** | Value Object | Identificador de etiqueta | Value |
+| **CategoryId** | Value Object | Identificador de categoría | Value |
+| **CreateProductCommand** | Command | Crear un nuevo producto | Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, TagIds |
+| **UpdateProductCommand** | Command | Actualizar datos de un producto | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId |
+| **DeleteProductCommand** | Command | Eliminar un producto | Id |
+| **CreateComboCommand** | Command | Crear un combo | Name, Description, Price |
+| **UpdateComboCommand** | Command | Actualizar datos de un combo | Id, Name, Description, Price |
+| **CreateComboItemCommand** | Command | Crear ítem en un combo | ComboId, ProductId, Quantity |
+| **UpdateComboItemCommand** | Command | Actualizar ítem de un combo | Id, Quantity |
+| **DeleteComboItemCommand** | Command | Eliminar ítem de un combo | Id |
+| **DeleteComboCommand** | Command | Eliminar un combo | Id |
+| **GetProductByIdQuery** | Query | Consultar producto por Id | Id |
+| **GetAllProductsQuery** | Query | Consultar todos los productos | - |
+| **GetProductsByCategoryQuery** | Query | Consultar productos por categoría | CategoryId |
+| **GetProductsByTagQuery** | Query | Consultar productos por etiqueta | TagId |
+| **GetProductsByPriceRangeQuery** | Query | Consultar productos por rango de precios | MinPrice, MaxPrice |
+| **GetComboByIdQuery** | Query | Consultar combo por Id | Id |
+| **GetAllCombosQuery** | Query | Consultar todos los combos | - |
+| **GetComboItemByIdQuery** | Query | Consultar ítem de combo por Id | Id |
+| **GetComboItemsByComboIdQuery** | Query | Consultar ítems de un combo | ComboId |
+| **IProductCommandService** | Domain Service (Interface) | Define el contrato para manejar comandos de productos | Handle(CreateProductCommand), Handle(UpdateProductCommand), Handle(DeleteProductCommand) |
+| **IProductQueryService** | Domain Service (Interface) | Define el contrato para consultas de productos | Handle(GetProductByIdQuery), Handle(GetAllProductsQuery), Handle(GetProductsByCategoryQuery), Handle(GetProductsByTagQuery), Handle(GetProductsByPriceRangeQuery) |
+| **IComboCommandService** | Domain Service (Interface) | Define el contrato para comandos de combos | Handle(CreateComboCommand), Handle(UpdateComboCommand) |
+| **IComboQueryService** | Domain Service (Interface) | Contrato para consultas de combos | GetAllAsync() |
+| **IUnitQueryService** | Domain Service (Interface) | Contrato para consultas de unidades | GetAllAsync() |
+| **ITagQueryService** | Domain Service (Interface) | Contrato para consultas de etiquetas | GetAllAsync() |
+| **IProductRepository** | Repository (Interface) | Acceso abstracto a productos | FindProductByNameAsync, FindAllProductsAsync, FindProductsByCategoryAsync, FindProductsByTagAsync, FindProductsByPriceRangeAsync, FindProductWithRelationsAsync |
+| **ICategoryRepository** | Repository (Interface) | Acceso abstracto a categorías | FindCategoryByNameAsync, FindAllCategoriesAsync |
+| **IUnitRepository** | Repository (Interface) | Acceso abstracto a unidades | FindUnitByNameAsync, FindAllUnitsAsync |
+| **ITagRepository** | Repository (Interface) | Acceso abstracto a etiquetas | FindTagByNameAsync, FindAllTagsAsync, FindTagsByIdsAsync |
+| **IComboRepository** | Repository (Interface) | Acceso abstracto a combos | FindComboByNameAsync, FindAllCombosAsync |
 
-#### 2.6.4.2. Interface Layer
+---
 
-#### 2.6.4.3. Application Layer
+### 2.6.4.2. Application Layer  
 
-#### 2.6.4.4. Infrastructure Layer
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **ProductCommandService** | Application Service | Implementa comandos de producto | productRepository, tagRepository, unitOfWork, Handle(CreateProductCommand), Handle(UpdateProductCommand) |
+| **ProductQueryService** | Application Service | Implementa consultas de productos | productRepository, Handle(GetProductByIdQuery), Handle(GetAllProductsQuery), Handle(GetProductsByCategoryQuery), Handle(GetProductsByTagQuery), Handle(GetProductsByPriceRangeQuery) |
+| **ComboCommandService** | Application Service | Implementa comandos de combos | comboRepository, unitOfWork, Handle(CreateComboCommand), Handle(UpdateComboCommand) |
+| **ComboQueryService** | Application Service | Consultas sobre combos | comboRepository, GetAllAsync() |
+| **UnitQueryService** | Application Service | Consultas sobre unidades | unitRepository, GetAllAsync() |
+| **TagQueryService** | Application Service | Consultas sobre etiquetas | tagRepository, GetAllAsync() |
+
+---
+
+### 2.6.4.3. Interface Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **CreateProductResource** | Resource (DTO) | Datos de entrada para crear producto | Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, TagIds |
+| **UpdateProductResource** | Resource (DTO) | Datos de entrada para actualizar producto | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId |
+| **ProductResource** | Resource (DTO) | Representa un producto completo en respuesta | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, Category, Unit, Tags |
+| **CategoryResource** | Resource (DTO) | Representa una categoría | Id, Name |
+| **UnitResource** | Resource (DTO) | Representa una unidad | Id, Name, Abbreviation |
+| **TagResource** | Resource (DTO) | Representa una etiqueta | Id, Name, Description |
+| **ComboResource** | Resource (DTO) | Representa un combo | Id, Name, Description, Price |
+| **CreateComboResource** | Resource (DTO) | Datos de entrada para crear combo | Name, Description, Price |
+| **CreateProductCommandFromResourceAssembler** | Assembler | Convierte recurso a comando | ToCommandFromResource(CreateProductResource) |
+| **UpdateProductCommandFromResourceAssembler** | Assembler | Convierte recurso a comando | ToCommandFromResource(UpdateProductResource) |
+| **ProductResourceFromEntityAssembler** | Assembler | Convierte entidad a recurso DTO | ToResourceFromEntity(Product) |
+| **ProductsController** | REST Controller | Expone endpoints de productos | GetProductById, CreateProduct, GetAllProducts, GetProductsByCategory, GetProductsByTag |
+| **UnitsController** | REST Controller | Expone endpoints de unidades | GetAllUnits |
+| **TagsController** | REST Controller | Expone endpoints de etiquetas | GetAllTags |
+| **CombosController** | REST Controller | Expone endpoints de combos | GetComboById, CreateCombo, GetAllCombos |
+
+---
+
+### 2.6.4.4. Infrastructure Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **ProductRepository** | Repository Implementation | Implementación acceso a productos (EF Core) | context, FindProductByNameAsync, FindAllProductsAsync, FindProductsByCategoryAsync, FindProductsByTagAsync, FindProductsByPriceRangeAsync, FindProductWithRelationsAsync |
+| **CategoryRepository** | Repository Implementation | Implementación acceso a categorías (EF Core) | context, FindCategoryByNameAsync, FindAllCategoriesAsync |
+| **UnitRepository** | Repository Implementation | Implementación acceso a unidades (EF Core) | context, FindUnitByNameAsync, FindAllUnitsAsync |
+| **TagRepository** | Repository Implementation | Implementación acceso a etiquetas (EF Core) | context, FindTagByNameAsync, FindAllTagsAsync, FindTagsByIdsAsync |
+| **ComboRepository** | Repository Implementation | Implementación acceso a combos (EF Core) | context, FindComboByNameAsync, FindAllCombosAsync |
+
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2382,13 +2591,69 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 ### 2.6.5. Bounded Context: Reports Context
 
-#### 2.6.5.1. Domain Layer
+### 2.6.5.1. Domain Layer  
 
-#### 2.6.5.2. Interface Layer
+| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
+|----------------|------|-----------|----------------------|
+| **CategoryReport** | Aggregate Root (Entity) | Reporte de productos por categoría | Id, Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad, Total, CategoryReport(), CategoryReport(...), UpdateCantidad(int), UpdatePrecio(decimal) |
+| **StockAverageReport** | Aggregate Root (Entity) | Reporte de stock promedio por producto y categoría | Id, StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado, StockAverageReport(...) |
+| **ReportType** | Enum | Define el tipo de reporte | Category, StockAverage |
+| **ReportDate** | Value Object | Fecha de un reporte | Value, ReportDate(DateTime) |
+| **StockStatus** | Value Object | Estado de stock | Value, StockStatus(string) |
+| **ProductName** | Value Object | Nombre del producto | Value, ProductName(string) |
+| **CategoryName** | Value Object | Nombre de la categoría | Value, CategoryName(string) |
+| **CreateCategoryReportCommand** | Command | Crear reporte por categoría | Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad |
+| **CreateStockAverageReportCommand** | Command | Crear reporte de stock promedio | StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado |
+| **GetAllCategoryReportsQuery** | Query | Consultar todos los reportes de categoría | - |
+| **GetCategoryReportsByDateQuery** | Query | Consultar reportes de categoría por fecha | FechaConsulta |
+| **GetCategoryReportByIdQuery** | Query | Consultar reporte de categoría por Id | Id |
+| **GetAllStockAverageReportsQuery** | Query | Consultar todos los reportes de stock promedio | - |
+| **GetStockAverageReportsByDateQuery** | Query | Consultar reportes de stock promedio por fecha | FechaConsulta |
+| **GetStockAverageReportByIdQuery** | Query | Consultar reporte de stock promedio por Id | Id |
+| **ICategoryReportCommandService** | Domain Service (Interface) | Define contrato para comandos de reportes de categoría | Handle(CreateCategoryReportCommand) |
+| **ICategoryReportQueryService** | Domain Service (Interface) | Define contrato para consultas de reportes de categoría | Handle(GetAllCategoryReportsQuery), Handle(GetCategoryReportsByDateQuery), Handle(GetCategoryReportByIdQuery) |
+| **IStockAverageReportCommandService** | Domain Service (Interface) | Define contrato para comandos de reportes de stock promedio | Handle(CreateStockAverageReportCommand) |
+| **IStockAverageReportQueryService** | Domain Service (Interface) | Define contrato para consultas de reportes de stock promedio | Handle(GetAllStockAverageReportsQuery), Handle(GetStockAverageReportsByDateQuery) |
+| **ICategoryReportRepository** | Repository (Interface) | Acceso a reportes de categoría | FindAllAsync(), FindByDateAsync(DateTime), AddAsync(CategoryReport), FindByIdAsync(int) |
+| **IStockAverageReportRepository** | Repository (Interface) | Acceso a reportes de stock promedio | FindAllAsync(), FindByDateAsync(DateTime), AddAsync(StockAverageReport), FindByIdAsync(int) |
 
-#### 2.6.5.3. Application Layer
+---
 
-#### 2.6.5.4. Infrastructure Layer
+### 2.6.5.2. Application Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **CategoryReportCommandService** | Application Service | Implementa comandos de reportes de categoría | repository, unitOfWork, Handle(CreateCategoryReportCommand) |
+| **StockAverageReportCommandService** | Application Service | Implementa comandos de reportes de stock promedio | repository, unitOfWork, Handle(CreateStockAverageReportCommand) |
+| **CategoryReportQueryService** | Application Service | Implementa consultas de reportes de categoría | repository, Handle(GetAllCategoryReportsQuery), Handle(GetCategoryReportsByDateQuery), Handle(GetCategoryReportByIdQuery) |
+| **StockAverageReportQueryService** | Application Service | Implementa consultas de reportes de stock promedio | repository, Handle(GetAllStockAverageReportsQuery), Handle(GetStockAverageReportsByDateQuery) |
+
+---
+
+### 2.6.5.3. Interface Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **GeneralReportResource** | Resource (DTO) | Representa todos los reportes (categoría y stock promedio) | CategoryReports, StockAverageReports |
+| **CategoryReportResource** | Resource (DTO) | Representa reporte de categoría en respuestas | Id, Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad, Total |
+| **StockAverageReportResource** | Resource (DTO) | Representa reporte de stock promedio en respuestas | Id, StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado |
+| **CreateCategoryReportResource** | Resource (DTO) | Datos de entrada para crear un reporte de categoría | Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad |
+| **CreateStockAverageReportResource** | Resource (DTO) | Datos de entrada para crear un reporte de stock promedio | StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado |
+| **CategoryReportResourceAssembler** | Assembler | Convierte entidad CategoryReport en DTO | ToResource(CategoryReport) |
+| **StockAverageReportResourceAssembler** | Assembler | Convierte entidad StockAverageReport en DTO | ToResource(StockAverageReport) |
+| **CreateCategoryReportCommandAssembler** | Assembler | Convierte recurso en comando | ToCommand(CreateCategoryReportResource) |
+| **CreateStockAverageReportCommandAssembler** | Assembler | Convierte recurso en comando | ToCommand(CreateStockAverageReportResource) |
+| **ReportController** | REST Controller | Expone endpoints para reportes | GetAllReports(), CreateCategory(CreateCategoryReportResource), GetAllCategoryReports(), GetCategoryReportById(int), GetCategoryByDate(DateTime), CreateStockAverage(CreateStockAverageReportResource), GetAllStockAverageReports(), GetStockAverageReportById(int), GetStockAverageByDate(DateTime) |
+
+---
+
+### 2.6.5.4. Infrastructure Layer  
+
+| Clase | Tipo | Propósito | Atributos / Métodos |
+|-------|------|-----------|----------------------|
+| **CategoryReportRepository** | Repository Implementation | Implementación EF Core para reportes de categoría | context, FindAllAsync(), FindByDateAsync(DateTime), AddAsync(CategoryReport), FindByIdAsync(int) |
+| **StockAverageReportRepository** | Repository Implementation | Implementación EF Core para reportes de stock promedio | context, FindAllAsync(), FindByDateAsync(DateTime), AddAsync(StockAverageReport), FindByIdAsync(int) |
+
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
