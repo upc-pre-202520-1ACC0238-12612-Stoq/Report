@@ -1884,10 +1884,13 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
 </table>
 
 ## 2.5. Strategic-Level Domain-Driven Design
-
+En esta sección se describe el proceso utilizado en las decisiones del negocio, aplicando el enfoque de Domain Driven Design. A través de esta metodología, se busca identificar y definir los distintos Bounded Contexts que conforman el sistema, es decir, subconjuntos con límites lógicos y naturales en función del dominio del problema. Para lograrlo, el equipo emplea herramientas como EventStorming y el Bounded Context Canvas, las cuales permiten visualizar, analizar y delimitar las responsabilidades, flujos de eventos y relaciones clave dentro del sistema.
 ### 2.5.1. EventStorming
+En este apartado se documenta el proceso del Event Storming, una herramienta clave para construir una primera aproximación al modelado general del dominio del negocio. Esta técnica colaborativa permite identificar eventos relevantes, actors, commands y aggregates dentro del sistema. Con ello, el objetivo principal es explorar nuestro dominio para descubrir patrones de software relevantes, límites y conexiones claras entre nuestros bounded context y sentar las bases para una buena arquitectura. Para ello, se realizaron los siguientes pasos en la herramienta Lucidchart bajo la normativa del DDD Estratégico. https://miro.com/app/board/uXjVJIfQcmY=/?share_link_id=739758304264
 
 #### 2.5.1.1. Candidate Context Discovery
+
+A continuación se detalla el proceso y la evolución final del event storming.
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
