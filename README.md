@@ -38,7 +38,7 @@ La paleta de colores de StockWise ha sido cuidadosamente seleccionada para trans
 - #302325 (Marrón oscuro / gris cálido): texto general, íconos y texto principal
 - #D9D593 (Gris suave): Elementos secundarios, bordes, fondos suaves
 
-<center> <img src="assets/Chapter-4/color.jpeg" style="width: 250px;"/> </center>
+<center> <img src="assets/Chapter-3/color.jpeg" style="width: 250px;"/> </center>
 <br>
 
 **Tipografía**
@@ -52,7 +52,7 @@ Escala:
 - Interlineado: 1.1
 - Weights: Bold - Medium - Regular - Light
 
-<center> <img src="assets/Chapter-4/tipografia.png" style="width: 250px;"/> </center>
+<center> <img src="assets/Chapter-3/tipografia.png" style="width: 250px;"/> </center>
 <br>
 
 ### 3.1.2. Information Architecture
