@@ -32,11 +32,19 @@ Usamos términos fáciles de entender: “productos”, “alertas”, “entrad
 
 La paleta de colores de StockWise ha sido cuidadosamente seleccionada para transmitir profesionalismo, confianza y accesibilidad.
 
-- #F5E1A4 (Fondo cálido claro): 	Fondo general de la app o materiales 
-- #BC162A (Rojo intenso): Este tono vibrante servirá para destacar llamadas a la acción (CTA), botones y elementos interactivos. Representa dinamismo y urgencia, incentivando a los usuarios a actuar.
-- #EE7F27 (Naranja vibrante): íconos o llamados a la acción secundarios
-- #302325 (Marrón oscuro / gris cálido): texto general, íconos y texto principal
-- #D9D593 (Gris suave): Elementos secundarios, bordes, fondos suaves
+**Primary Colors:**
+- #BC162A (Rojo intenso): Botones principales, acciones críticas, alertas importantes
+- #EE7F27 (Naranja vibrante): Botones secundarios, estados activos, notificaciones
+- #302325 (Marrón oscuro): Texto principal, headers, elementos de navegación
+
+**Background Colors:**
+- #F5E1A4 (Fondo cálido claro): Fondo general de la aplicación
+- #D9D593 (Gris suave): Fondos de secciones, cards secundarios
+
+**Functional Colors:**
+- #27A300 (Verde éxito): Confirmaciones, estados positivos
+- #FFC107 (Amarillo advertencia): Alertas moderadas, advertencias
+- #DC3545 (Rojo error): Estados de error, acciones destructivas
 
 <center> <img src="assets/Chapter-3/color.jpeg" style="width: 250px;"/> </center>
 <br>
@@ -45,15 +53,43 @@ La paleta de colores de StockWise ha sido cuidadosamente seleccionada para trans
 
 La elección tipográfica para StockWise es un componente esencial que complementa la identidad visual de la marca. Se han seleccionado dos familias tipográficas que juntas ofrecen versatilidad y coherencia, asegurando que la comunicación sea clara y efectiva en todos los medios.
 
-Escala:
+**Font Families:**
+- Inter: Para textos largos, body copy y contenido principal
+- Nunito: Para headers, botones y elementos de interfaz
 
-- Base: 16px
-- Tipografía: Nunito e Inter 
-- Interlineado: 1.1
-- Weights: Bold - Medium - Regular - Light
+**Font Scale (Mobile First):**
+- h1: 24px / 1.1 / Bold
+- h2: 20px / 1.1 / SemiBold
+- h3: 18px / 1.2 / Medium
+- Body Large: 17px / 1.4 / Regular
+- Body: 16px / 1.4 / Regular
+- Small: 14px / 1.4 / Regular
+- Caption: 12px / 1.3 / Regular
 
-<center> <img src="assets/Chapter-3/tipografia.png" style="width: 250px;"/> </center>
-<br>
+**Weights:**
+- Bold (700): Títulos principales, acciones críticas
+- SemiBold (600): Subtítulos, botones importantes
+- Medium (500): Etiquetas, elementos interactivos
+- Regular (400): Texto body, contenido principal
+- Light (300): Texto secundario, descripciones
+
+**Border Radius:**
+- Small: 8px (botones pequeños, inputs)
+- Medium: 12px (cards, modales)
+- Large: 16px (containers principales)
+
+**Spacing System (8px base):**
+- xs: 4px
+- sm: 8px
+- md: 16px
+- lg: 24px
+- xl: 32px
+- xxl: 48px
+
+**Shadows:**
+- Low: 0 2px 4px rgba(48, 35, 37, 0.1)
+- Medium: 0 4px 8px rgba(48, 35, 37, 0.15)
+- High: 0 8px 16px rgba(48, 35, 37, 0.2)
 
 ### 3.1.2. Information Architecture
 La arquitectura de la información, también conocida como Information Architecture (IA), implica la organización de la información de manera clara y lógica, de modo que los usuarios puedan comprender su ubicación, lo que han descubierto, qué pueden esperar y qué está disponible a su alrededor. Esto tiene como objetivo permitir a los usuarios encontrar con facilidad lo que están buscando, y a los clientes, comprender las capacidades de la plataforma. Además, la arquitectura de la información posibilita la incorporación de nuevas funciones y la expansión del producto sin generar una estructura compleja o de difícil comprensión (Rosenfeld, Morville & Arango 2015).
@@ -76,6 +112,18 @@ La interfaz adapta su contenido según el tipo de usuario:
 
 La disposición lógica de las herramientas, acompañada de una navegación consistente, etiquetas claras y una estructura jerárquica coherente, garantiza que tanto nuevos usuarios como operadores frecuentes puedan comprender rápidamente el flujo de trabajo y realizar sus tareas con eficiencia.
 #### 3.1.2.2. Labelling Systems
+En StockWise ha sido diseñado para mejorar la organización, búsqueda, pagos y clasificación de productos dentro del inventario, facilitando la gestión y toma de decisiones por parte de los usuarios.
+
+| Elemento de Navegación  | Descripción     |
+|----------------------------|-----------------------|
+| Sistema de Etiquetas         | Permite asignar múltiples etiquetas a productos para mejorar la organización, búsqueda y clasificación dentro del inventario.                   |
+| Creación de Etiquetas        | Los usuarios pueden crear nuevas etiquetas o seleccionar etiquetas ya existentes mediante autocompletado en el formulario del producto.         |
+| Visualización de Etiquetas   | Las etiquetas se muestran como chips de colores junto al nombre del producto, permitiendo una identificación rápida y visual.                   |
+| Filtro por Etiquetas         | En la vista de inventario se puede filtrar por una o varias etiquetas, facilitando la segmentación de productos.                              |
+| Permisos por Rol             | Administradores pueden crear/editar/eliminar etiquetas globales. Empleados pueden aplicar etiquetas existentes o proponer nuevas.              |
+| Sugerencia de Etiquetas      | El sistema sugiere etiquetas ya existentes mientras se escriben nuevas, para evitar duplicados y mantener consistencia.                        |
+| Accesibilidad y Estilo       | Las etiquetas tienen colores accesibles y tipografía legible, respetando la paleta y el diseño UI de StockWise.                                |
+| Aplicación en Reportes       | Las etiquetas también pueden utilizarse como criterio para generar reportes filtrados de productos e inventario.                               |
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 #### 3.1.2.4. Searching Systems
