@@ -236,6 +236,35 @@ El sistema de búsqueda de StockWise está diseñado para ser intuitivo y potent
   - Procesamiento offline con sincronización posterior
 
 #### 3.1.2.5. Navigation Systems
+El sistema de navegación de StockWise está optimizado para dispositivos móviles, priorizando la accesibilidad y la eficiencia en las tareas diarias.
+
+**Patrones de Navegación Principal:**
+
+**Bottom Navigation Bar:**
+``` text
+[🏠 Inicio]  [📦 Inventario]  [➕ Agregar]  [📊 Reportes]  [👤 Perfil]
+``` 
+**Navegación por Gestos:**
+
+- Deslizar hacia la derecha: Menú lateral
+- Deslizar hacia abajo: Actualizar contenido
+- Deslizar hacia arriba: Acciones rápidas
+- Toque largo: Opciones contextuales
+
+**Navegación Contextual:**
+
+- Breadcrumbs para ubicación en estructuras profundas
+- Botón "Atras" nativo del dispositivo
+- Navegación por pestañas en secciones complejas
+- Accesos directos personalizables según uso frecuente
+
+**Navegación para Accesibilidad:**
+
+- Soporte completo para lectores de pantalla
+- Navegación por teclado en versiones tablet
+- Tamaños de touch target mínimos de 44px
+- Alto contraste y modos de daltonismo
+
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
 #### 3.1.3.2. Landing Page Mock-up
