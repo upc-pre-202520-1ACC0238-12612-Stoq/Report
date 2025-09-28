@@ -96,34 +96,84 @@ La arquitectura de la información, también conocida como Information Architect
 #### 3.1.2.1. Organization Systems
 La interfaz se divide en módulos bien definidos, accesibles desde un panel de navegación estructurado jerárquicamente. Estos módulos incluyen: Inicio, Home, Inventario y Configuración. Cada sección agrupa funciones específicas según su propósito, permitiendo que las tareas clave estén siempre al alcance del usuario.
 
-Por ejemplo:
+# 3.1.2.1. Organization Systems
 
-- En **Home**, los usuarios pueden crear kits o combos de productos, generar alertas por bajo stock, gestionar proveedores, revisar el historial de movimientos y acceder a estadísticas claves como los productos más vendidos o el ticket promedio.
+La arquitectura de organización de StockWise está diseñada siguiendo principios de agrupación lógica y progresiva de la información, permitiendo a los usuarios acceder rápidamente a las funciones necesarias según su rol y contexto de uso.
 
-- El módulo de **Inventario** ofrece un entorno completo para registrar nuevos productos, gestionar precios, unidades, ubicaciones físicas (estanterías), etiquetas, notas internas, devoluciones y caducidades, así como personalizar columnas para facilitar la visualización.
+**Estructura Organizacional Principal**
 
-- En **Configuración**, se pueden gestionar los roles de usuario (Administrador o Empleado), permisos según el plan activo, y actualizar perfiles a través de un asistente guiado.
+| Módulo | Descripción | Funciones Principales | Acceso por Rol |
+|--------|-------------|---------------------|----------------|
+| **Dashboard Principal** | Vista consolidada del estado del inventario y métricas clave | - Resumen ejecutivo de stock<br>- Alertas prioritarias<br>- Acciones rápidas<br>- Métricas en tiempo real | Admin, Encargado |
+| **Gestión de Inventario** | Núcleo operativo para administración completa de productos | - Registro y edición de productos<br>- Control de niveles de stock<br>- Categorización y etiquetado<br>- Gestión de ubicaciones físicas | Admin, Encargado, Empleado |
+| **Operaciones Diarias** | Módulo para transacciones y movimientos regulares | - Registro de entradas/salidas<br>- Ajustes de inventario<br>- Historial de movimientos<br>- Devoluciones y mermas | Admin, Encargado, Empleado |
+| **Reportes y Analytics** | Sistema de generación y visualización de datos | - Reportes personalizados<br>- Análisis de tendencias<br>- Métricas de rendimiento<br>- Exportación de datos | Admin, Encargado |
+| **Configuración del Sistema** | Administración de preferencias y usuarios | - Gestión de perfiles de usuario<br>- Configuración de empresa<br>- Preferencias de notificaciones<br>- Backup y seguridad | Admin |
 
-La interfaz adapta su contenido según el tipo de usuario:
+**Principios de Organización Aplicados**
 
-- **Administradores** tienen acceso completo a la configuración del sistema y la gestión general.
+1. **Agrupación por Funcionalidad**
+Las características se organizan según su propósito común, facilitando la asociación mental y reduciendo la carga cognitiva.
 
-- **Empleados** acceden a funciones operativas esenciales, sin comprometer la seguridad ni integridad de la información.
+1. **Jerarquía Visual Progresiva**
+La información se presenta desde lo general hacia lo específico, permitiendo drill-down controlado según las necesidades del usuario.
 
-La disposición lógica de las herramientas, acompañada de una navegación consistente, etiquetas claras y una estructura jerárquica coherente, garantiza que tanto nuevos usuarios como operadores frecuentes puedan comprender rápidamente el flujo de trabajo y realizar sus tareas con eficiencia.
+1. **Contextualización Dinámica**
+Las opciones disponibles se adaptan según el rol del usuario y el módulo activo, mostrando solo las funciones relevantes.
+
+1. **Consistencia Transversal**
+Mismos patrones organizativos se aplican en todos los módulos, creando una experiencia unificada y predecible.
+
+**Organización de Contenido por Módulo**
+
+**Módulo de Inventario**
+- **Agrupación Primaria:** Por estado de stock (Normal, Bajo, Crítico)
+- **Agrupación Secundaria:** Por categorías de producto
+- **Agrupación Terciaria:** Por ubicación física en bodega
+
+**Módulo de Reportes**
+- **Agrupación Temporal:** Diario, Semanal, Mensual
+- **Agrupación por Métrica:** Ventas, Stock, Rentabilidad
+- **Agrupación por Producto:** Individual, Por categoría, Global
+
 #### 3.1.2.2. Labelling Systems
-En StockWise ha sido diseñado para mejorar la organización, búsqueda, pagos y clasificación de productos dentro del inventario, facilitando la gestión y toma de decisiones por parte de los usuarios.
+El sistema de etiquetado en StockWise sigue principios de claridad, consistencia y contexto, asegurando que los usuarios comprendan inmediatamente la función de cada elemento.
 
-| Elemento de Navegación  | Descripción     |
-|----------------------------|-----------------------|
-| Sistema de Etiquetas         | Permite asignar múltiples etiquetas a productos para mejorar la organización, búsqueda y clasificación dentro del inventario.                   |
-| Creación de Etiquetas        | Los usuarios pueden crear nuevas etiquetas o seleccionar etiquetas ya existentes mediante autocompletado en el formulario del producto.         |
-| Visualización de Etiquetas   | Las etiquetas se muestran como chips de colores junto al nombre del producto, permitiendo una identificación rápida y visual.                   |
-| Filtro por Etiquetas         | En la vista de inventario se puede filtrar por una o varias etiquetas, facilitando la segmentación de productos.                              |
-| Permisos por Rol             | Administradores pueden crear/editar/eliminar etiquetas globales. Empleados pueden aplicar etiquetas existentes o proponer nuevas.              |
-| Sugerencia de Etiquetas      | El sistema sugiere etiquetas ya existentes mientras se escriben nuevas, para evitar duplicados y mantener consistencia.                        |
-| Accesibilidad y Estilo       | Las etiquetas tienen colores accesibles y tipografía legible, respetando la paleta y el diseño UI de StockWise.                                |
-| Aplicación en Reportes       | Las etiquetas también pueden utilizarse como criterio para generar reportes filtrados de productos e inventario.                               |
+**Principios de Etiquetado:**
+
+- Lenguaje Natural: Usamos términos del dominio del usuario ("productos", "proveedores", "ventas")
+- Consistencia: Mismo término para misma función en toda la aplicación
+- Jerarquía Visual: Tamaño y peso tipográfico reflejan importancia
+- Contexto: Las etiquetas cambian según el módulo y las acciones disponibles
+
+**Sistema de Iconografía:**
+
+- **Acciones Principales:**
+  - ➕ Agregar/Registrar
+  - ✏️ Editar/Modificar
+  - 🗑️ Eliminar/Descartar
+  - 🔍 Buscar/Filtrar
+  - 📤 Exportar/Compartir
+
+- **Módulos y Secciones:**
+  - 📊 Dashboard - Vista general
+  - 📦 Inventario - Gestión de productos
+  - 🔄 Movimientos - Entradas y salidas
+  - 📈 Reportes - Analytics y métricas
+  - ⚙️ Configuración - Ajustes del sistema
+
+- **Estados del Sistema:**
+  - ✅ Completado/Éxito
+  - ⚠️ Advertencia/Alerta
+  - ❌ Error/Problema
+  - 🔄 Procesando/En curso
+
+**Microcopy y Mensajes:**
+
+- **Botones de Acción:** "Agregar Producto", "Registrar Entrada", "Generar Reporte"
+- **Mensajes de Confirmación:** "¿Estás seguro de eliminar este producto?"
+- **Estados Vacíos:** "Aún no tienes productos registrados"
+- **Guías Contextuales:** "Usa el código de barras para buscar más rápido"
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 #### 3.1.2.4. Searching Systems
