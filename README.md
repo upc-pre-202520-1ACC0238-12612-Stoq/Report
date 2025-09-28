@@ -216,6 +216,25 @@ SEO (Search Engine Optimization) Tags son elementos de HTML que ayudan a los mot
 ``` 
 
 #### 3.1.2.4. Searching Systems
+El sistema de búsqueda de StockWise está diseñado para ser intuitivo y potente, permitiendo a los usuarios encontrar rápidamente la información que necesitan en su inventario.
+
+**Características del Sistema de Búsqueda:**
+
+- **Búsqueda Inteligente:**
+  - Búsqueda por texto libre en múltiples campos (nombre, - código, categoría, proveedor)
+  - Búsqueda por código de barras usando la cámara del dispositivo
+  - Búsqueda por voz para hands-free operation
+  - Búsqueda predictiva con sugerencias en tiempo real
+- **Resultados de Búsqueda:**
+  - Ordenamiento por relevancia, nombre, stock, fecha
+  - Vista de tarjetas con información esencial
+  - Acciones rápidas desde los resultados
+  - Historial de búsquedas recientes
+- **Búsqueda por Lotes:**
+  - Escaneo múltiple de códigos de barras
+  - Reconocimiento de imágenes para productos sin código
+  - Procesamiento offline con sincronización posterior
+
 #### 3.1.2.5. Navigation Systems
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
