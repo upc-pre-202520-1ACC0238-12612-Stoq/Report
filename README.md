@@ -176,6 +176,45 @@ El sistema de etiquetado en StockWise sigue principios de claridad, consistencia
 - **Guías Contextuales:** "Usa el código de barras para buscar más rápido"
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+**SEO Tags**
+
+SEO (Search Engine Optimization) Tags son elementos de HTML que ayudan a los motores de búsqueda a entender el contenido y la estructura de una página web. Estos tags influyen en cómo los motores de búsqueda indexan y clasifican tu sitio en los resultados de búsqueda. 
+
+**Algunos ejemplos importantes de SEO Tags  para StockWise:**
+
+**Title Tags para Páginas Principales:**
+
+``` html
+<!-- Página de Inicio -->
+<title>StockWise - App de Gestión de Inventarios para PYMES</title>
+
+<!-- Página de Características -->
+<title>Gestión de Inventario Móvil | StockWise App</title>
+
+<!-- Página de Precios -->
+<title>Planes de Gestión de Inventario | StockWise</title>
+```
+
+**Header Tags Estructurados:**
+``` html
+<h1>Gestiona Tu Inventario desde tu Móvil</h1>
+<h2>La solución simple para negocios en crecimiento</h2>
+<h3>Control total de tu stock en tiempo real</h3>
+```
+
+**Meta Descriptions Optimizadas:**
+``` html
+<meta name="description" content="StockWise - App móvil de gestión de inventarios para PYMES. Controla stock, genera reportes y evita quiebres de inventario desde tu teléfono.">
+
+<meta name="keywords" content="gestión inventarios, app móvil, control stock, PYMES, bodegas, emprendedores">
+``` 
+**Open Graph Tags para Redes Sociales:**
+``` html
+<meta property="og:title" content="StockWise - App de Inventarios">
+<meta property="og:description" content="Gestiona tu inventario desde cualquier lugar con StockWise">
+<meta property="og:image" content="/images/stockwise-social-preview.png">
+``` 
+
 #### 3.1.2.4. Searching Systems
 #### 3.1.2.5. Navigation Systems
 ### 3.1.3. Landing Page UI Design
