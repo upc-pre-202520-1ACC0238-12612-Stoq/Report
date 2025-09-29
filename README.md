@@ -267,6 +267,30 @@ El sistema de navegación de StockWise está optimizado para dispositivos móvil
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
+El prototipado de la landing page cuenta diversas secciones:
+
+- Header: Incluye botones para facilitar la navegación
+- Hero Section: Con un botón CTA principal, un título y una imagen.
+- Sección de Beneficios / Características: mostrara un resumen de 3 beneficios que ofrece la app
+- Planes / Precios: Trendra 2 planes con su referente título y lista de características y contara con un botón CTA secundario por cada plan.
+- Testimonios: Consta de un título y subtítulo, así como de unos testimonios de usuarios de cada segmento, lo que aumenta la confianza en los potenciales clientes.
+- Llamado a la acción final (CTA grande) : Tiene un título y subtítulo, un boton CTA grande para "Try our app"
+- Footer: Sección que da fin a la landing page, cuenta con las redes sociales de la plataforma.
+
+**Wireframe Desktop**
+<center> <img src="assets/Chapter-3/Wireframe-Desktop.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Wireframe Mobile**
+
+En la versión mobile el navbar se reemplaza por un menu desplegable.
+
+<center> <img src="assets/Chapter-3/Wireframe - Mobile.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
 #### 3.1.3.2. Landing Page Mock-up
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
