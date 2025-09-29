@@ -2040,7 +2040,7 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
     <tr><td>6</td><td>US11</td><td>Generar estadística de stock promedio</td><td>5</td></tr>
     <tr><td>7</td><td>US15</td><td>Configurar roles y permisos</td><td>5</td></tr>
     <tr><td>8</td><td>US17</td><td>Registrar lote de productos</td><td>5</td></tr>
-    <tr><td>9</td><td>US20</td><td>Crear kits o combos de productos</td><td>5</td></tr>
+    <tr><td>9</td><td>US20</td><td>Añadir etiquetas a productos</td><td>5</td></tr>
     <tr><td>10</td><td>US26</td><td>Registrar productos por voz</td><td>5</td></tr>
     <tr><td>11</td><td>US27</td><td>Registrar geolocalización de productos y entregas</td><td>5</td></tr>
     <tr><td>12</td><td>US28</td><td>Localizar productos con mapa y QR</td><td>5</td></tr>
@@ -2053,15 +2053,20 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
     <tr><td>19</td><td>US13</td><td>Controlar productos caducados</td><td>3</td></tr>
     <tr><td>20</td><td>US14</td><td>Registrar devolución de productos</td><td>3</td></tr>
     <tr><td>21</td><td>US16</td><td>Gestionar proveedores</td><td>3</td></tr>
-    <tr><td>22</td><td>US18</td><td>Registrar precios de compra y venta</td><td>3</td></tr>
-    <tr><td>23</td><td>US19</td><td>Registrar unidades de medida</td><td>3</td></tr>
-    <tr><td>24</td><td>US21</td><td>Agregar ubicación de producto</td><td>3</td></tr>
-    <tr><td>25</td><td>US22</td><td>Personalizar columnas en inventario</td><td>3</td></tr>
-    <tr><td>26</td><td>US23</td><td>Duplicar ficha de producto</td><td>3</td></tr>
-    <tr><td>27</td><td>US25</td><td>Ver inventario por estantería</td><td>3</td></tr>
-    <tr><td>28</td><td>US29</td><td>Exportar reportes</td><td>3</td></tr>
-    <tr><td>29</td><td>US30</td><td>Personalizar notificaciones</td><td>3</td></tr>
-    <tr><td>30</td><td>US24</td><td>Añadir notas internas a productos</td><td>2</td></tr>
+    <tr><td>22</td><td>US18</td><td>Visualizar historial de stock</td><td>3</td></tr>
+    <tr><td>23</td><td>US19</td><td>Configurar alertas de stock mínimo</td><td>3</td></tr>
+    <tr><td>24</td><td>US21</td><td>Buscar productos en inventario</td><td>3</td></tr>
+    <tr><td>25</td><td>US22</td><td>Generar alertas por productos caducados</td><td>3</td></tr>
+    <tr><td>26</td><td>US23</td><td>Registrar ingreso de productos</td><td>3</td></tr>
+    <tr><td>27</td><td>US25</td><td>Comparar ventas entre periodos</td><td>3</td></tr>
+    <tr><td>28</td><td>US29</td><td>	Gestionar predicción de reabastecimiento</td><td>3</td></tr>
+    <tr><td>30</td><td>TS03</td><td>Generar API Creación de productos</td><td>3</td></tr>
+    <tr><td>29</td><td>TS06</td><td>Generar API Productos por etiqueta</td><td>3</td></tr>
+    <tr><td>31</td><td>TS07</td><td>Generar API Registro de inventario</td><td>3</td></tr>
+    <tr><td>32</td><td>US30</td><td>Escanear por lotes con cámara rápida</td><td>3</td></tr>
+    <tr><td>33</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
+   
+
   </tbody>
 </table>
 
