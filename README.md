@@ -449,13 +449,13 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 ### 2.2.3. Análisis de entrevistas
 
 **Segmento 1: Bodegas especializadas por rubro**
-Los entrevistados (Milagros, Elvis, Catalina) gestionan inventarios de forma manual, con apuntes en cuadernos o Excel, lo que genera dificultades para mantener un control preciso y actualizado. Las principales problemáticas incluyen falta de control sobre fechas de vencimiento, pérdidas por productos no vendidos a tiempo, ausencia de automatización, y falta de sistemas que permitan actualizar precios en tiempo real o visualizar el inventario de manera dinámica. Los entrevistados manifiestan la necesidad de plataformas digitales con alertas y reportes para mejorar la gestión, delegar tareas y reducir errores humanos, lo que apuntaría a una alta demanda por soluciones tecnológicas accesibles y específicas para bodegas tradicionales.
+Los entrevistados (Milagros, Elvis, Catalina) gestionan inventarios de forma manual, con cuadernos o Excel, lo que dificulta mantener la información precisa y actualizada. Cuando los datos llegan tarde, los productos se vencen sin que nadie lo note y se pierden ventas; además, los cambios de precio no quedan registrados. El problema no es falta de interés por la tecnología, sino que registrar toma tiempo mientras atienden a clientes. Para este grupo la solución debe reducir pasos: registro rápido (por voz en el celular, duplicar fichas o cargar varios productos de una vez), una pantalla que muestre “lo que vence pronto” con avisos simples y la ubicación por estantería para encontrar productos sin perder minutos. Con ello deberían bajar las pérdidas, reducir el tiempo de registro y aumentar la confianza en el sistema.
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 
-Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (uso de Excel, cuadernos, y sistemas en proceso de digitalización). Tienen una mayor actividad y volumen, con operaciones en crecimiento, y venden usando canales digitales como WhatsApp y redes sociales. Aunque reconocen la importancia de digitalizar y automatizar sus procesos para ganar eficiencia, enfrentan obstáculos como la complejidad o altos costos de las soluciones disponibles. Buscan sistemas simples, automáticos, que avisen sobre niveles de stock y faciliten la organización para poder escalar su negocio sin perder control.
+Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (Excel, cuadernos y sistemas en transición). El reto principal es coordinar más volumen y varios canales (WhatsApp y redes). Muchas salidas no quedan en un solo registro y preparar pedidos demora porque no se ubican los productos con precisión; además, varias personas cambian precios y no se sabe quién hizo qué. Necesitan orden sin un sistema pesado: roles y permisos con historial para saber quién hizo cada cambio, zonas y códigos QR para acelerar el picking, combos que resten insumos automáticamente y reportes simples por canal para ver qué se mueve más. Así pueden crecer sin perder control.
 
-Ambos segmentos comparten retos similares: control manual, dificultades con productos perecibles, pérdidas por falta de actualización o visibilidad, y la necesidad de automatización. Sin embargo, los bodegueros tradicionales tienen una menor adopción y experiencia con herramientas digitales y requieren soluciones accesibles y adaptadas a su realidad, mientras que las startups muestran interés en herramientas integradas y avanzadas, pero preocupadas por la complejidad y costos. Una solución escalable, intuitiva y que pueda adaptarse a distintos tamaños de negocios sería ideal para cubrir ambos mercados.
+Ambos segmentos comparten el manejo manual, los problemas con perecibles y la falta de visibilidad, por lo que requieren automatización. La diferencia es que las bodegas piden simplicidad inmediata, mientras que las startups necesitan además trazabilidad y velocidad. Por ello se propone empezar con un núcleo fácil de usar (alertas de caducidad, registro rápido, ubicación clara y cambios de precio con historial) y activar, solo si se requiere, funciones de escala como roles, QR, combos y reportes por canal. Si con esto bajan las mermas, disminuye el tiempo de registro y sube la exactitud del stock, la solución será escalable, intuitiva y eficiente, alineada con lo que se recogió en las entrevistas.
 
 ## 2.3. Needfinding
 
@@ -1990,7 +1990,7 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 <!-- SPK05 -->
 <table border="1" cellspacing="0" cellpadding="8">
   <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
-  <tr><td>SPK054</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td></tr>
+  <tr><td>SPK05</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td></tr>
   <tr><th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida (visión ML)</td></tr>
   <tr><th colspan="4">Description</th></tr>
   <tr><td colspan="4">La app toma una foto al lote; una API de visión (p.ej., Google ML Kit) devuelve etiquetas genéricas. El usuario confirma producto exacto y cantidad antes de registrar; se puede saltar a su ubicación en el almacén virtual.</td></tr>
@@ -2064,8 +2064,9 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
     <tr><td>29</td><td>TS06</td><td>Generar API Productos por etiqueta</td><td>3</td></tr>
     <tr><td>31</td><td>TS07</td><td>Generar API Registro de inventario</td><td>3</td></tr>
     <tr><td>32</td><td>US30</td><td>Escanear por lotes con cámara rápida</td><td>3</td></tr>
-    <tr><td>33</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
-   
+    <tr><td>33</td><td>TS14</td><td>Generar API Consulta de alertas</td><td>3</td></tr>
+    <tr><td>34</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
+    
 
   </tbody>
 </table>
