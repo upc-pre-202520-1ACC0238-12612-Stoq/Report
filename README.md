@@ -676,7 +676,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 
   <tr>
     <th>Title</th>
-    <td colspan="3">Registra producto nuevo</td>
+    <td colspan="3">Registrar producto nuevo</td>
   </tr>
 
   <tr>
@@ -992,7 +992,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US08</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Estadística de productos más vendidos</td>
+    <th>Title</th><td colspan="3">Generar estadística de productos más vendidos</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1032,7 +1032,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US09</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Estadística de categoría más vendida</td>
+    <th>Title</th><td colspan="3">Generar estadística de categoría más vendida</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1072,7 +1072,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US10</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Ticket promedio</td>
+    <th>Title</th><td colspan="3">Generar ticket promedio</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1112,7 +1112,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US11</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Estadística de stock promedio</td>
+    <th>Title</th><td colspan="3">Generar estadística de stock promedio</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1758,7 +1758,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US27</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Geolocalización de productos y entregas</td>
+    <th>Title</th><td colspan="3">Registrar geolocalización de productos y entregas</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1854,7 +1854,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US29</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Predicción de reabastecimiento</td>
+    <th>Title</th><td colspan="3">Gestionar predicción de reabastecimiento</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1902,7 +1902,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US30</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida</td>
+    <th>Title</th><td colspan="3">Escanear por lotes con cámara rápida</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
