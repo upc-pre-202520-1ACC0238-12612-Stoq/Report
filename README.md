@@ -291,7 +291,23 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma*
+
 #### 3.1.3.2. Landing Page Mock-up
+**Wireframe Desktop**
+<center> <img src="assets/Chapter-3/Mockup-Desktop.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Wireframe Mobile**
+
+En la versión mobile el navbar se reemplaza por un menu desplegable.
+
+<center> <img src="assets/Chapter-3/Mockup - Mobile.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
