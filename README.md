@@ -310,6 +310,292 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
+Los wireframes ayudan a los diseñadores y desarrolladores a planificar la arquitectura y la funcionalidad de la aplicación, permitiendo visualizar cómo los usuarios interactuarán con ella. Son esenciales en las primeras etapas de desarrollo, ya que facilitan la comunicación de ideas, la identificación de problemas potenciales y la alineación de todos los involucrados en el proyecto antes de pasar al diseño detallado y la programación.
+
+**Iniciar sesión**
+
+La siguiente imagen evidencia el wireframe de la sección de “inicio de sesión” desde la vista desktop web browser. En ella, los usuarios deberán ingresar las credenciales necesarias para poder acceder a la aplicación, siempre y cuando posean con una cuenta previamente creada.
+
+<center> <img src="assets/Chapter-3/Inicio de sesión.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Crear cuenta**
+
+La siguiente imagen presenta la sección de “registro de usuario”, a través de la cual los administradores podrán remitir a la aplicación la información necesaria para crear una cuenta.
+
+<center> <img src="assets/Chapter-3/Registro.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Elegir plan de pago**
+
+La siguiente imagen presenta la sección “Elegir plan de pago”, la cual despliega las categorías de planes disponibles en la plataforma. Los tres planes están diseñados para adaptarse a las necesidades de los administradores de tienda acorde a sus necesidades.
+
+<center> <img src="assets/Chapter-3/Seleccionar plan.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Pasarela de pagos**
+
+La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los usuarios son dirigidas a un formulario para seleccionar y registrar su método de pago. Una vez que el proceso de pago es completado exitosamente, se notifica al usuario con un mensaje confirmando el vinculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podra hacer a travéz de su perfil.
+
+<center> <img src="assets/Chapter-3/Pago.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Mi perfil**
+
+La sección titulada “Mi perfil” solicita al usuario que complete información en dos categorías para registrar sus datos. Adicionalmente, la categoría "cambiar cuenta" ofrece la opción de permitir al usuario cambiar de cuenta a una de empleador y utilizar las herramientas de este por la plataforma. Tambien, tiene libertad de cambiar el plan si es necesario.
+
+*Perfil Administrador*
+
+En este perfil, el usuario puede ver a la derecha sus herramientas correpondientes a su cuenta.
+
+<center> <img src="assets/Chapter-3/Perfil.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+<center> <img src="assets/Chapter-3/Perfil (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Panel de control (Dashboard)**
+
+Esta pantalla representa el panel de control principal del sistema StockWise. Su objetivo es proporcionar al usuario una vista general del estado del inventario y acceso rápido a funciones clave. Entre sus elementos principales se encuentran:
+
+- Resumen de información:
+  - Total de Productos: número total de ítems registrados.
+  - Fecha del Último Proveedor: muestra la última fecha de ingreso de productos (por proveedor).
+  - Próximos a Caducar: productos con fecha de vencimiento próxima, indicando la fecha y el stock restante.
+- Accesos rápidos:
+  - Historial de Movimientos: seguimiento de entradas y salidas del inventario.
+  - Inventario: acceso directo a la lista completa de productos.
+- Botones de acción:
+  - Agregar Productos: para registrar nuevos productos en el sistema.
+  - Kits de Productos: permite combinar productos individuales en un kit.
+  - Devolución de Productos: facilita el registro de productos devueltos por proveedores o clientes.
+
+<center> <img src="assets/Chapter-3/Dashboard.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Combinación de Productos en Kits**
+
+Esta sección está dedicada a la funcionalidad de crear kits de productos, una herramienta útil para negocios que venden combos o paquetes predefinidos. Las características principales incluyen:
+
+Buscador de productos: permite al usuario localizar rápidamente productos por nombre.
+Listado de productos existentes:
+Muestra el nombre, precio y stock disponible de cada producto.
+Incluye un botón de acción en cada fila para añadir productos al kit.
+Botón “Seleccionar para kit”: una vez seleccionados los productos deseados, el usuario puede avanzar para crear el kit final.
+Esta funcionalidad mejora la gestión del stock agrupado y permite optimizar estrategias de venta, como combos promocionales o paquetes de temporada.
+
+<center> <img src="assets/Chapter-3/Combinar Producto.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Agregar Producto**
+
+Esta pantalla permite visualizar todos los productos actualmente registrados en el inventario, con acceso rápido para editar o ver más detalles. Las funcionalidades clave incluyen:
+
+- Tarjetas de producto con información relevante:
+  - Nombre del producto (ej. Galleta).
+  - Categoría/etiqueta (ej. Golosina).
+  - Stock disponible.
+- Botón “+ Detalle” para ver información adicional o editar.
+- Botón “+”: permite agregar un nuevo producto desde cero
+- Buscador de productos y opción de filtro por categoría o stock.
+
+<center> <img src="assets/Chapter-3/Agregar Producto (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Registro de Nuevo Producto**
+
+Pantalla que aparece al presionar el botón “+”, diseñada para agregar un nuevo producto al sistema. Incluye los siguientes campos:
+
+- Nombre del producto.
+- Etiquetas/Categorías (por ejemplo: Golosina, Bebida).
+- Precio de compra y de venta.
+- Cantidad inicial del producto.
+- Número de lote y fecha de caducidad.
+- Notas adicionales, si se desea registrar observaciones específicas.
+
+Una vez completado el formulario, se debe presionar "Guardar" para registrar el nuevo ítem.
+
+<center> <img src="assets/Chapter-3/Agregar Producto.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+*Edición Rápida de Producto*
+
+Este modal aparece al hacer clic en “+ Detalle” sobre cualquier tarjeta de producto en la pantalla principal. Permite realizar modificaciones rápidas sobre un producto específico:
+
+- Editar etiquetas.
+- Actualizar cantidad.
+- Modificar fecha de caducidad.
+- Agregar notas.
+
+Incluye botones para “Duplicar” (crear una copia rápida del producto) y “Eliminar” (quitar del sistema).
+
+<center> <img src="assets/Chapter-3/Agregar Producto (2).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Historial de Movimientos**
+
+Esta vista permite al usuario consultar todos los movimientos registrados en el sistema, ya sea por producto individual, por categoría o mediante cálculo del ticket promedio.
+
+- Filtros disponibles:
+  - Tipo de gestión: Producto, Categoría o Stock Promedio.
+  - Rango de fecha: permite buscar registros por fechas específicas.
+- Resultados organizados en tarjetas que muestran:
+  - Producto o categoría
+  - Fecha del movimiento
+  - Precio unitario (si aplica)
+  - Cantidad gestionada
+  - Total del movimiento
+- También cuenta con botones para:
+  - Editar un registro
+  - Eliminar un registro (con confirmación previa).
+
+<center> <img src="assets/Chapter-3/Historial.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+*Confirmación de Eliminación*
+
+Al presionar el botón de eliminar, se despliega una ventana emergente de confirmación que advierte al usuario antes de borrar un registro del historial.
+
+<center> <img src="assets/Chapter-3/Historial Eliminar.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Ticket Promedio**   
+
+Al seleccionar “Stock Promedio” como tipo de gestión, se habilita el acceso al cálculo de Ticket Promedio, que estima el valor promedio de venta por unidad en un rango de fechas. Este recurso permite realizar un análisis financiero rápido sobre el comportamiento de productos específicos.
+
+- Campos del formulario:
+  - Rango de fecha.
+  - Producto a analizar.
+  - Cantidad de ventas.
+  - Precio total de ventas.
+  - Resultado del ticket promedio (calculado automáticamente).
+- Botones:
+  - Crear: Guarda el registro del ticket.
+  - Cancelar: Cierra el modal sin guardar.
+
+<center> <img src="assets/Chapter-3/Historial Ticket Promedio.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Pantalla principal de Inventario por Lote**
+
+Esta pantalla permite la visualización y gestión del inventario agrupado por lote de entrada.
+
+- Filtros en la parte superior:
+  - Búsqueda por Producto
+  - Proveedor
+  - Fecha de ingreso
+  - Cantidad
+  - Precio
+- Lista de productos ingresados por lote:
+  - Proveedor
+  - Producto
+  - Fecha de entrada
+  - Cantidad por unidad
+  - Precio por unidad
+  - Unidad de medida
+- Botón rojo “Generar Nuevo Lote” ubicado a la derecha, que permite agregar un nuevo registro.
+
+<center> <img src="assets/Chapter-3/Inventario por lote.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+*Busqueda Avanzada* 
+
+<center> <img src="assets/Chapter-3/Inventario por lote (2).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+*Pantalla de Comentarios del Lote* 
+
+Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar notas asociadas a un producto, útiles para incidencias, condiciones especiales del lote o instrucciones de seguimiento.
+
+- Campos de entrada para seleccionar el Lote y el Producto.
+- Área para ingresar el comentario del usuario.
+- Botones:
+  - “Guardar” (acción de confirmar)
+  - “Cancelar” (descartar el comentario)
+
+<center> <img src="assets/Chapter-3/Inventario por lote (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+*Pantalla de Exportación*
+
+Permite obtener un respaldo o trabajar fuera del sistema con los datos del inventario. Al dar click, saldra una ventana emergente con el ícono de exportación. Mostrara un texto “¿Deseas exportar en excel?” y botones de acción: “Volver” y “Continuar”.
+
+<center> <img src="assets/Chapter-3/Inventario expor.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+**Pantalla de Inventario por Producto**
+
+Visualización clara de todos los productos del inventario, con opción de filtrar por condiciones específicas, lo cual optimiza el control individualizado del stock.
+
+- Filtros:
+  - Categoría
+  - Productos
+  - Rango de Fecha
+  - Stock Mínimo.
+- Tabla:
+  - Categoría
+  - Producto
+  - Fecha de entrada
+  - Cantidad
+  - Precio
+  - Stock mínimo
+  - Unidad de medida.
+- Botón: “Generar Nuevo Lote”.
+
+<center> <img src="assets/Chapter-3/Inventario por producto.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma*
+
+*Edición de Registro*
+
+Facilita la actualización de datos en tiempo real, permitiendo mantener el inventario siempre actualizado y preciso.
+
+- Elementos mostrados:
+  - Formulario editable con campos: Categoría, Producto, Cantidad por unidad, Precio por unidad, Unidad de medida.
+  - Botones de acción: “Crear” (confirmar edición) y “Cancelar”.
+
+<center> <img src="assets/Chapter-3/Inventario por producto (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
