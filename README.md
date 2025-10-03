@@ -597,6 +597,128 @@ Facilita la actualización de datos en tiempo real, permitiendo mantener el inve
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+**Iniciar sesión**
+<center> <img src="assets/Chapter-3/Inicio de sesión (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Crear cuenta**
+<center> <img src="assets/Chapter-3/Registro (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Elegir plan de pago**
+<center> <img src="assets/Chapter-3/Seleccionar plan (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Pasarela de pagos**
+<center> <img src="assets/Chapter-3/Pago (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Mi perfil**
+*Perfil Administrador*
+<center> <img src="assets/Chapter-3/Perfil (2).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+<center> <img src="assets/Chapter-3/Perfil ajustes.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Panel de control (Dashboard)**
+<center> <img src="assets/Chapter-3/Dashboard (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Combinación de Productos en Kits**
+<center> <img src="assets/Chapter-3/Combinar producto (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Agregar Producto**
+<center> <img src="assets/Chapter-3/Agregar Producto (3).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Registro de Nuevo Producto**
+<center> <img src="assets/Chapter-3/Registro Prodcuto.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+*Edición Rápida de Producto*
+<center> <img src="assets/Chapter-3/Edicion Producto.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Historial de Movimientos**
+<center> <img src="assets/Chapter-3/Historial (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+*Confirmación de Eliminación*
+<center> <img src="assets/Chapter-3/Historial Eliminar (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Ticket Promedio**  
+<center> <img src="assets/Chapter-3/Historial Ticket Promedio (1).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Pantalla principal de Inventario por Lote**
+<center> <img src="assets/Chapter-3/Inventario.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+*Busqueda Avanzada*
+<center> <img src="assets/Chapter-3/Inventario Busqueda.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+*Pantalla de Comentarios del Lote* 
+<center> <img src="assets/Chapter-3/Inventario Comentario.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+*Pantalla de Exportación*
+<center> <img src="assets/Chapter-3/Inventario Expo.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**Pantalla de Inventario por Producto**
+<center> <img src="assets/Chapter-3/Inventario por producto (2).png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+*Edición de Registro*
+<center> <img src="assets/Chapter-3/Inventario por producto edi.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
