@@ -449,11 +449,120 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 ### 2.2.3. Análisis de entrevistas
 
 **Segmento 1: Bodegas especializadas por rubro**
+
 Los entrevistados (Milagros, Elvis, Catalina) gestionan inventarios de forma manual, con cuadernos o Excel, lo que dificulta mantener la información precisa y actualizada. Cuando los datos llegan tarde, los productos se vencen sin que nadie lo note y se pierden ventas; además, los cambios de precio no quedan registrados. El problema no es falta de interés por la tecnología, sino que registrar toma tiempo mientras atienden a clientes. Para este grupo la solución debe reducir pasos: registro rápido (por voz en el celular, duplicar fichas o cargar varios productos de una vez), una pantalla que muestre “lo que vence pronto” con avisos simples y la ubicación por estantería para encontrar productos sin perder minutos. Con ello deberían bajar las pérdidas, reducir el tiempo de registro y aumentar la confianza en el sistema.
+
+Además de los aspectos técnicos, los entrevistados expresan frustración por el desorden y la pérdida de productos, pero también muestran disposición a adoptar soluciones simples que les permitan sentir mayor control y tranquilidad en la gestión diaria.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-family: Arial, sans-serif; font-size: 13px;">
+  <thead style="background:#f2f2f2;">
+    <tr>
+      <th style="text-align:left;">Característica</th>
+      <th style="text-align:center;">Frecuencia (n/3)</th>
+      <th style="text-align:center;">Porcentaje</th>
+      <th style="text-align:left;">Entrevistas relacionadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control manual del inventario (cuaderno/Excel)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>1(Milagros), 2(Elvis), 3(Catalina)</td>
+    </tr>
+    <tr>
+      <td>Pérdidas por productos vencidos / falta de alertas</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>1, 2, 3</td>
+    </tr>
+    <tr>
+      <td>Precios desactualizados o cambios no registrados</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>1, 2</td>
+    </tr>
+    <tr>
+      <td>Falta de tiempo por atención a clientes (se omiten registros)</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>1, 3</td>
+    </tr>
+    <tr>
+      <td>Preferencia por solución simple y rápida (alertas de vencimiento, registro ágil)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>1, 2, 3</td>
+    </tr>
+    <tr>
+      <td>Necesidad de ubicar productos por estantería/sector</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>1, 3</td>
+    </tr>
+  </tbody>
+</table>
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 
 Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (Excel, cuadernos y sistemas en transición). El reto principal es coordinar más volumen y varios canales (WhatsApp y redes). Muchas salidas no quedan en un solo registro y preparar pedidos demora porque no se ubican los productos con precisión; además, varias personas cambian precios y no se sabe quién hizo qué. Necesitan orden sin un sistema pesado: roles y permisos con historial para saber quién hizo cada cambio, zonas y códigos QR para acelerar el picking, combos que resten insumos automáticamente y reportes simples por canal para ver qué se mueve más. Así pueden crecer sin perder control.
+
+En este grupo se percibe una actitud proactiva y de mejora continua: buscan herramientas que reflejen su crecimiento y les brinden seguridad al delegar tareas, evidenciando motivación por alcanzar mayor eficiencia y profesionalización.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-family: Arial, sans-serif; font-size: 13px;">
+  <thead style="background:#f2f2f2;">
+    <tr>
+      <th style="text-align:left;">Característica</th>
+      <th style="text-align:center;">Frecuencia (n/3)</th>
+      <th style="text-align:center;">Porcentaje</th>
+      <th style="text-align:left;">Entrevistas relacionadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gestión manual o semiautomatizada (Excel/cuadernos/sistema parcial)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>4(Juan Carlos), 5(Leonardo), 6(Eduardo)</td>
+    </tr>
+    <tr>
+      <td>Ventas y coordinación por WhatsApp/redes sociales</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>4, 5, 6</td>
+    </tr>
+    <tr>
+      <td>Problemas para ubicar productos y preparar pedidos rápido</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>4, 5</td>
+    </tr>
+    <tr>
+      <td>Falta de control centralizado / trazabilidad de cambios de precio y salidas</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>5, 6</td>
+    </tr>
+    <tr>
+      <td>Interés en digitalizar para ganar eficiencia (sin sistemas pesados)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>4, 5, 6</td>
+    </tr>
+    <tr>
+      <td>Necesidad de roles/permisos e historial de cambios</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>5, 6</td>
+    </tr>
+    <tr>
+      <td>Reportes simples por canal y mayor visibilidad del stock</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>4, 5</td>
+    </tr>
+  </tbody>
+</table>
 
 Ambos segmentos comparten el manejo manual, los problemas con perecibles y la falta de visibilidad, por lo que requieren automatización. La diferencia es que las bodegas piden simplicidad inmediata, mientras que las startups necesitan además trazabilidad y velocidad. Por ello se propone empezar con un núcleo fácil de usar (alertas de caducidad, registro rápido, ubicación clara y cambios de precio con historial) y activar, solo si se requiere, funciones de escala como roles, QR, combos y reportes por canal. Si con esto bajan las mermas, disminuye el tiempo de registro y sube la exactitud del stock, la solución será escalable, intuitiva y eficiente, alineada con lo que se recogió en las entrevistas.
 
