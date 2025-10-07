@@ -507,7 +507,7 @@ Además de los aspectos técnicos, los entrevistados expresan frustración por e
 
 Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (Excel, cuadernos y sistemas en transición). El reto principal es coordinar más volumen y varios canales (WhatsApp y redes). Muchas salidas no quedan en un solo registro y preparar pedidos demora porque no se ubican los productos con precisión; además, varias personas cambian precios y no se sabe quién hizo qué. Necesitan orden sin un sistema pesado: roles y permisos con historial para saber quién hizo cada cambio, zonas y códigos QR para acelerar el picking, combos que resten insumos automáticamente y reportes simples por canal para ver qué se mueve más. Así pueden crecer sin perder control.
 
-En este grupo se percibe una actitud proactiva y de mejora continua: buscan herramientas que reflejen su crecimiento y les brinden seguridad al delegar tareas, evidenciando motivación por alcanzar mayor eficiencia y profesionalización.
+Pese a estas limitaciones operativas, en este grupo se percibe una actitud proactiva y de mejora continua: buscan herramientas que reflejen su crecimiento y les brinden seguridad al delegar tareas, evidenciando motivación por alcanzar mayor eficiencia y profesionalización.
 
 <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-family: Arial, sans-serif; font-size: 13px;">
   <thead style="background:#f2f2f2;">
