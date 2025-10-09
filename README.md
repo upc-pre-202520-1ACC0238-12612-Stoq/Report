@@ -101,9 +101,38 @@ Adoptamos esta metodología para estructurar los mensajes de confirmación de ca
 | Archivos nombrados igual que la clase        | `UserProfile.kt`                                                        |
 | Indentación con 4 espacios                   | No usar tabs                                                            |
 | Uso de `val` por defecto, `var` si mutable   | Promueve inmutabilidad                                                  |
-| Expresiones lambda con `it`   | `users.filter { it.isActive }`                                          |
+| Expresiones lambda con `it`   | `users.filter { it.isActive }` |
 
 #### 4.1.4. Software Deployment Configuration
+**Deployment Landing Page:** 
+
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![image](https://imgur.com/4J7UJO8.png)
+
+2. Agregamos a los participantes:
+
+![image](https://imgur.com/BZ8WX95.png)
+
+1. Habilitamos Netlifly para poder importar nuestro proyecto:
+
+![image](https://imgur.com/KcnDArx.png)
+
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![image](https://imgur.com/FAx39hz.png)
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
+
+**Enlace de la Landing Page: https://stockwiselanding.netlify.app/**
+<br>
+**About the product: https://youtu.be/gKQCMO4rORw?si=j6qLgCYkp8SHd2Py**
+<br>
+**Deployment Backend:**
+En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de
 
 ### 4.2. Landing Page & Mobile Application Implementation
 #### 4.2.1. Sprint n
