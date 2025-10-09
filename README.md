@@ -245,6 +245,36 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 | Sum of Story Points | 24 Story Points | 
 
 ##### 4.2.1.2. Sprint Backlog 1
+**Objetivo del Sprint:**  
+Desarrollar la funcionalidad principal del sistema de gestión de inventario para bodegas, implementando los módulos de productos, inventario y reportes, así como los servicios API de autenticación y creación de productos.  
+El Sprint se considera completado si las historias de usuario relacionadas con la gestión de inventarios y APIs de usuario están implementadas y validadas mediante pruebas unitarias e integración.
+
+| Sprint # | Sprint n | **User Story** |   | **Work-Item / Task** |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|
+|   |   | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| 1 | Sprint 1 | US01 | Registrar producto nuevo | TSK-01 | Implementar formulario de registro | Formulario para crear producto con validación de campos requeridos; al guardar debe persistir en BD y aparecer en inventario. | 6 | Jeremy | Done |
+| 1 | Sprint 1 | US02 | Editar información de producto | TSK-02 | Desarrollar módulo de edición | Edición de un producto existente con validaciones; guarda cambios válidos y muestra errores si son inválidos. | 5 | Jocelyn | Done |
+| 1 | Sprint 1 | US03 | Registrar salida de producto | TSK-03 | Control de stock de salida | Registrar salida si hay stock suficiente, descontar cantidad y crear movimiento; rechazar si supera stock. | 5 | Kevin | Done |
+| 1 | Sprint 1 | US05 | Usuario de inventario | TSK-04 | Crear interfaz de autenticación | UI para registro/login del usuario de inventario integrada con APIs de autenticación. | 6 | Alejandro | Done |
+| 1 | Sprint 1 | US06 | Buscar productos en inventarios | TSK-05 | Implementar búsqueda avanzada | Búsqueda por nombre/código con resultados en tiempo real y mensaje “No se encontraron resultados” si no hay coincidencias. | 5 | Jeremy | Done |
+| 1 | Sprint 1 | US07 | Añadir etiquetas para productos | TSK-06 | Crear módulo de etiquetas | Gestión de etiquetas: crear/sugerir existentes y filtrar por etiqueta en inventario. | 5 | Jocelyn | Done |
+| 1 | Sprint 1 | US08 | Generar estadística de productos más vendidos | TSK-07 | Implementar gráfico de ventas | Ranking por periodo (unidades/ingresos) y opción de exportar a PDF. | 6 | Kevin | Done |
+| 1 | Sprint 1 | US12 | Generar reportes de inventario | TSK-08 | Crear vista de reportes | Generación de reportes por fecha/categoría/stock mínimo con opción de exportar a PDF o Excel. | 6 | Alejandro | Done |
+| 1 | Sprint 1 | US17 | Registrar lote de productos | TSK-09 | Programar ingreso por lotes | Registro de múltiples productos en un lote con proveedor, fecha y condiciones; visualizar detalle del lote. | 5 | Kevin | Done |
+| 1 | Sprint 1 | TS01 | API Registro de usuarios | TSK-10 | Desarrollar endpoint /sign-up | Endpoint de registro que retorna token (201) y valida duplicados/formatos (400/409). | 4 | Alejandro | Done |
+| 1 | Sprint 1 | TS02 | API Autenticación de usuarios | TSK-11 | Desarrollar endpoint /sign-in | Endpoint de login que emite access/refresh tokens (200) y maneja 401/403 para credenciales inválidas. | 4 | Jeremy | Done |
+| 1 | Sprint 1 | TS03 | API Creación de productos | TSK-12 | Crear endpoint /products | Crear producto (201) con validaciones y unicidad; soportar imagen/código de barras; errores 400/409. | 5 | Jocelyn | Done |
+| 1 | Sprint 1 | TS04 | API Consulta de productos | TSK-13 | Implementar GET /products/by-category | Listado paginado/ordenado; estado vacío si no hay registros. | 4 | Kevin | Done |
+| 1 | Sprint 1 | TS05 | API Productos por categoría | TSK-14 | GET /products/by-tag | Filtro por categoría/etiqueta ignorando mayúsculas/acentos; permitir limpiar filtros. | 4 | Jeremy | Done |
+| 1 | Sprint 1 | TS06 | API Productos por etiqueta | TSK-15 | Endpoint /products/by-tag | Autocompletado y combinación con otros filtros activos; lista vacía si no hay coincidencias. | 4 | Kevin | Done |
+| 1 | Sprint 1 | TS09 | API Inventario por producto | TSK-16 | Endpoint /inventory/by-product | Consultar stock y últimos movimientos por producto; 404 si no existe. | 6 | Alejandro | Done |
+| 1 | Sprint 1 | US18 | Visualizar historial de stock | TSK-17 | Crear historial de cambios | Gráfica de variación de stock por producto con filtro de periodo. | 5 | Jocelyn | To-Do |
+| 1 | Sprint 1 | US20 | Añadir etiquetas a productos | TSK-18 | Implementar visualización en interfaz | Alta/edición con etiquetas nuevas o existentes; búsqueda por etiqueta. | 4 | Jeremy | To-Do |
+| 1 | Sprint 1 | US21 | Buscar productos en inventario | TSK-19 | Integrar búsqueda en inventario | Búsqueda por nombre y filtros por categoría desde módulo de inventario. | 5 | Kevin | To-Do |
+| 1 | Sprint 1 | US23 | Registrar ingreso de productos | TSK-20 | Crear flujo de entrada | Ingreso individual desde formulario y soporte para carga masiva por archivo. | 5 | Alejandro | To-Do |
+| 1 | Sprint 1 | US24 | Visualizar resumen de stock por categoría | TSK-21 | Mostrar gráfico resumen | Tabla/gráfico con totales y stock promedio por categoría, con acceso al detalle. | 5 | Jocelyn | To-Do |
+
+SPRINT BACKLOG 1: https://trello.com/b/8Uj3aB6o/stockwise-sprint1
 
 ##### 4.2.1.3. Development Evidence for Sprint Review
 Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
