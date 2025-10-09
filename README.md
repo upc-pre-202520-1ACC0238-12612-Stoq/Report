@@ -800,4 +800,47 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+**User Goal: Registrar**
+
+<center> <img src="assets/Chapter-3/userregi.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Iniciar sesión**
+
+<center> <img src="assets/Chapter-3/useriniciar.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Navegar por el Dashboard**
+
+<center> <img src="assets/Chapter-3/userdash.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Inventario (Producto / Lote)**
+
+<center> <img src="assets/Chapter-3/userinventario.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+<center> <img src="assets/Chapter-3/userproducto.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Historial de Movimientos**
+
+<center> <img src="assets/Chapter-3/userhistorial.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
 #### 3.1.4.5. Mobile Applications Prototyping
