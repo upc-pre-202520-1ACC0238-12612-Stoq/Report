@@ -279,6 +279,39 @@ Para el despliegue del backend se realizaron los siguientes pasos:
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
 
+En esta sección se proporcionan los insights para el sprint 1.
+
+**Documentation**
+
+En esta sección, el equipo destacó la importancia de mantener una documentación clara y actualizada que facilite la colaboración y el entendimiento común. Se identificó que una buena documentación agiliza la resolución de dudas y mejora la calidad del desarrollo. 
+
+A continuación se muestran los insights del equipo para la sección correspondiente:
+
+![Doc](vvv.png)
+
+**Landing Page** 
+
+El equipo observó que la landing page funciona como la primera ventana de contacto con el usuario, por lo que es vital que sea atractiva y fácil de navegar. Se resaltó la necesidad de optimizar los textos y elementos visuales para maximizar la conversión y el enganche inicial. 
+
+A continuación se muestran los insights del equipo para la sección correspondiente:
+
+[![Landing](https://imgur.com/0sc9mos.png)](https://imgur.com/0sc9mos.png)
+
+**Backend**
+
+En equipo analizamos que la arquitectura del backend debía ser robusta y escalable para soportar las futuras demandas. Identificamos retos en la gestión de datos y seguridad, lo que motivó la implementación de buenas prácticas para garantizar la integridad y eficiencia. 
+
+A continuación se muestran los insights del equipo para la sección correspondiente:
+
+[![Back](vv.png)](d)
+
+
+**Mobile Frontend**
+
+Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas. 
+
+[![Front](vv.png)](d)
+
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas
 #### 4.3.2. Registro de Entrevistas
