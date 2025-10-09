@@ -206,13 +206,13 @@ A continuación se detallan los pasos para crear un servidor privado virtual (VP
 <br>
 ![Dashboard de Google Cloud](assets/chapter-4/googleCloud-Dashboard.png)
 <br>
-![Dashboard de Google Cloud](assets/chapter-4/swagger-1.png)
+![Swagger-1](assets/chapter-4/swagger-1.png)
 <br>
-![Dashboard de Google Cloud](assets/chapter-4/swagger-2.png)
+![Swagger-2](assets/chapter-4/swagger-2.png)
 <br>
-![Dashboard de Google Cloud](assets/chapter-4/swagger-3.png)
+![Swagger-3](assets/chapter-4/swagger-3.png)
 <br>
-![Dashboard de Google Cloud](assets/chapter-4/swagger-4.png)
+![Swagger-4](assets/chapter-4/swagger-4.png)
 
 
 
