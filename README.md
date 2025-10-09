@@ -260,11 +260,11 @@ Durante este sprint, se han realizado avances significativos en la implementaci√
    </tr>
    <tr>
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services</td>
-      <td>Development</td>
+      <td>Main</td>
       <td>Backend</td>
-      <td>xxx</td>
-      <td>xxxtd>
-      <td>Mes Dia, 2025</td>
+      <td>a83775a0459b3c8f7ca1a8e41782c349a9e849b3</td>
+      <td>inicial commit>
+      <td>Octubre 09, 2025</td>
    </tr>
    <tr>
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Landing-Page</td>
@@ -278,8 +278,8 @@ Durante este sprint, se han realizado avances significativos en la implementaci√
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Native-mobile-development</td>
       <td>Development</td>
       <td>Mobile Frontend</td>
-      <td>xxx</td>
-      <td>xxx</td>
+      <td>13b7a69ca9f225b3b39bd1e6bd28397243c16596</td>
+      <td>fix response to endPoint login</td>
       <td>Ocrubre 9, 2025</td>
    </tr>
 </table>
