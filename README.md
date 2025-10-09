@@ -314,7 +314,37 @@ Durante este Sprint, se han alcanzado varios hitos importantes en la implementac
 
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
-[Falta]
+En esta sección se evidencia la documentación de los servicios implementados para el sprint actual que conforman el backend.
+
+Backend
+
+![Swagger](assets/chapter-4/swagger-5.png)
+<br>
+
+Athentication 
+
+![Swagger-1](assets/chapter-4/swagger-IAM.png)
+<br>
+
+Inventory
+
+![Swagger-1](assets/chapter-4/swagger-inventory.png)
+<br>
+
+Products
+
+![Swagger-1](assets/chapter-4/swagger-Products.png)
+<br>
+
+Combos
+
+![Swagger-1](assets/chapter-4/swagger-Combos.png)
+<br>
+
+Report 
+![Swagger-1](assets/chapter-4/swagger-Report.png)
+
+<br>
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -363,6 +393,152 @@ Desde el panel de control de Netlify es posible:
 ##### Backend
 
 Para el despliegue del backend se realizaron los siguientes pasos:
+#### 1. Configuración del Entorno Docker en el VPS
+
+**Paso 1: Instalación de Docker y Docker Compose**
+```bash
+# Actualizar paquetes del sistema
+sudo apt update && sudo apt upgrade -y
+
+# Instalar dependencias necesarias
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+
+# Agregar la clave GPG oficial de Docker
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+# Agregar el repositorio de Docker
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Actualizar paquetes e instalar Docker
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+# Iniciar y habilitar Docker
+sudo systemctl start docker
+sudo systemctl enable docker
+
+# Añadir el usuario actual al grupo docker
+sudo usermod -aG docker $USER
+```
+
+**Paso 2: Verificación de la instalación**
+```bash
+# Verificar versión de Docker
+docker --version
+docker compose version
+
+# Probar Docker con un contenedor de prueba
+docker run hello-world
+```
+
+#### 2. Preparación del Proyecto ASP.NET 9
+
+**Paso 3: Creación del Dockerfile**
+```dockerfile
+# Usar imagen base de ASP.NET 9
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+COPY ["StockWise.API/StockWise.API.csproj", "StockWise.API/"]
+RUN dotnet restore "StockWise.API/StockWise.API.csproj"
+
+COPY . .
+WORKDIR "/src/StockWise.API"
+RUN dotnet build "StockWise.API.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "StockWise.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "StockWise.API.dll"]
+```
+
+**Paso 4: Creación del archivo docker-compose.yml**
+```yaml
+version: '3.8'
+
+services:
+  stockwise-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Host=stockwise-db;Database=StockWiseDB;Username=stockwise_user;Password=TuPasswordSeguro123!
+    depends_on:
+      - stockwise-db
+    networks:
+      - stockwise-network
+    restart: unless-stopped
+
+  stockwise-db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=StockWiseDB
+      - POSTGRES_USER=stockwise_user
+      - POSTGRES_PASSWORD=TuPasswordSeguro123!
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - stockwise-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  stockwise-network:
+    driver: bridge
+```
+
+#### 3. Despliegue de la Aplicación
+
+**Paso 5: Clonación del Repositorio y Configuración**
+```bash
+# Crear directorio para la aplicación
+sudo mkdir -p /opt/stockwise
+cd /opt/stockwise
+
+# Clonar el repositorio
+git clone https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services.git .
+
+# Construir las imágenes Docker
+docker compose build
+
+# Iniciar los servicios en modo detached
+docker compose up -d
+
+# Verificar el estado de los contenedores
+docker compose ps
+```
+
+#### 4. Configuración de Nginx como Reverse Proxy
+
+**Paso 6: Instalación y Configuración de Nginx**
+```bash
+# Instalar Nginx
+sudo apt install -y nginx
+
+# Configurar SSL con Let's Encrypt
+sudo apt install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d tu-dominio.com
+```
+
+Este proceso completo asegura el despliegue robusto y escalable de la API ASP.NET 9 con PostgreSQL utilizando contenedores Docker en un VPS.
+
+![Swagger-1](assets/chapter-4/googleCloud-Dashboard2.png)
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
 
