@@ -131,8 +131,90 @@ Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la
 <br>
 **About the product: https://youtu.be/gKQCMO4rORw?si=j6qLgCYkp8SHd2Py**
 <br>
-**Deployment Backend:**
-En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de
+### Deployment Backend:
+En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Google Cloud.
+
+#### Creación de VPS en Google Cloud Platform (GCP)
+
+A continuación se detallan los pasos para crear un servidor privado virtual (VPS) en Google Cloud Platform para el despliegue del backend:
+
+##### 1. Configuración Inicial del Proyecto
+
+**Paso 1: Crear un Proyecto en GCP**
+1. Iniciar sesión en [Google Cloud Console](https://console.cloud.google.com/)
+2. Hacer clic en el selector de proyectos en la parte superior
+3. Seleccionar "NUEVO PROYECTO"
+4. Asignar un nombre descriptivo al proyecto (ej: "stockwise-backend")
+5. Hacer clic en "CREAR"
+
+**Paso 2: Configurar Facturación**
+1. Navegar a "Facturación" en el menú de navegación
+2. Vincular una cuenta de facturación válida
+3. Seleccionar el proyecto creado como proyecto de facturación
+
+##### 2. Creación de la Instancia de VM
+
+**Paso 3: Habilitar Compute Engine API**
+1. En la barra de búsqueda, escribir "Compute Engine API"
+2. Seleccionar la API y hacer clic en "HABILITAR"
+
+**Paso 4: Crear Instancia de VM**
+1. Navegar a "Compute Engine" > "Instancias de VM"
+2. Hacer clic en "CREAR INSTANCIA"
+3. Configurar los siguientes parámetros:
+
+**Detalles de la Instancia:**
+- **Nombre**: stockwise-backend-server
+- **Región**: us-central1 (o la región más cercana a los usuarios)
+- **Zona**: us-central1-a
+
+**Configuración de Máquina:**
+- **Tipo de máquina**: e2-medium (2 vCPU, 4 GB RAM)
+- **Serie**: E2
+- **Tipo de máquina**: Uso general
+
+**Disco de arranque:**
+- **Sistema operativo**: Ubuntu
+- **Versión**: Ubuntu 20.04 LTS
+- **Tipo**: Disco persistente equilibrado
+- **Tamaño**: 30 GB
+
+**Firewall (Reglas de red):**
+-  Permitir tráfico HTTP
+-  Permitir tráfico HTTPS
+-  Permitir tráfico SSH
+
+4. Hacer clic en "CREAR" para iniciar la creación de la instancia
+
+
+##### 3. Configuración de Acceso y Seguridad
+
+**Paso 5: Configurar Acceso SSH**
+1. Una vez creada la instancia, hacer clic sobre el nombre de la instancia
+2. En la sección "Conectarse", hacer clic en "Modificar" en "Control de acceso"
+3. Agregar la clave SSH pública del equipo de desarrollo
+4. Alternativamente, usar "Abrir en ventana del navegador" para acceso directo
+
+**Paso 6: Configurar Reglas de Firewall Personalizadas**
+1. Navegar a "Redes VPC" > "Firewall"
+2. Hacer clic en "CREAR REGLA DE FIREWALL"
+3. Configurar para el backend:
+   - **Nombre**: backend-api-allow
+   - **Dirección IP de origen**: 0.0.0.0/0 (para desarrollo)
+   - **Protocolos y puertos**: TCP, puerto 8080 (o puerto del API)
+4. Hacer clic en "CREAR"
+<br>
+![Dashboard de Google Cloud](assets/chapter-4/googleCloud-Dashboard.png)
+<br>
+![Dashboard de Google Cloud](assets/chapter-4/swagger-1.png)
+<br>
+![Dashboard de Google Cloud](assets/chapter-4/swagger-2.png)
+<br>
+![Dashboard de Google Cloud](assets/chapter-4/swagger-3.png)
+<br>
+![Dashboard de Google Cloud](assets/chapter-4/swagger-4.png)
+
+
 
 ### 4.2. Landing Page & Mobile Application Implementation
 #### 4.2.1. Sprint 1
