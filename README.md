@@ -128,11 +128,11 @@ En esta sección, detallamos el proceso de implementación de nuestra landing pa
 Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
 
 **Enlace de la Landing Page: https://stockwiselanding.netlify.app/**
-<br>
-**About the product: https://youtu.be/gKQCMO4rORw?si=j6qLgCYkp8SHd2Py**
-<br>
+
 ### Deployment Backend:
 En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Google Cloud.
+
+**Enlace del Backend: http://34.39.181.148:8080/swagger/index.html**
 
 #### Creación de VPS en Google Cloud Platform (GCP)
 
@@ -370,7 +370,7 @@ Durante este Sprint, se han alcanzado varios hitos importantes en la implementac
 
 #### Mobile Frontend
 
-![Dashboard](xxx)
+![Inicio](https://imgur.com/krlIFKF.png)
 
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -610,7 +610,7 @@ En esta sección, el equipo destacó la importancia de mantener una documentaci�
 
 A continuación se muestran los insights del equipo para la sección correspondiente:
 
-![Doc](vvv.png)
+![Doc](https://imgur.com/1aY7feG.png)
 
 **Landing Page** 
 
@@ -633,7 +633,7 @@ A continuación se muestran los insights del equipo para la sección correspondi
 
 Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas. 
 
-[![Front](vv.png)](d)
+[![Front](https://imgur.com/83O5qvN.png)](https://imgur.com/83O5qvN.png)
 
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas
