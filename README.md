@@ -597,6 +597,85 @@ Facilita la actualización de datos en tiempo real, permitiendo mantener el inve
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+Los Mobile Applications Wireflow Diagrams son una combinación de wireframes y flujos de usuario (user flows) que ilustran no solo la estructura y disposición de las pantallas de una Mobile Application, sino también cómo los usuarios navegarán entre ellas. Estos diagramas proporcionan una visión detallada del recorrido del usuario, mostrando las interacciones clave y las transiciones de una pantalla a otra dentro de la aplicación.
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar". A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico. Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podrá hacer a través de su perfil. Finalmente hacer clic en el botón "Aceptar".
+
+<center> <img src="assets/Chapter-3/userregister.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña, luego hace clic en el botón "Log In". Después, se le redirige al panel de perfil, donde podrá editar su información personal y acceder a las herramientas según su perfil "Administrador" o "Empleado".
+
+<center> <img src="assets/Chapter-3/userini.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Navegar por el Dashboard**
+
+1. El usuario inicia sesión desde la Landing Page.
+2. Ingresa a la vista principal del Dashboard.
+3. Visualiza el total de productos registrados y la fecha del último proveedor.
+4. Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
+5. Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+
+<center> <img src="assets/Chapter-3/userdas.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Inventario (Producto / Lote)**
+
+1. Ingresa a la sección de Inventario.
+2. Revisa el listado de productos presionando el botón "por producto".
+3. Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
+4. Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
+
+<center> <img src="assets/Chapter-3/userinve.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+1. Pulsa el botón "Agregar Producto".
+2. Rellena los campos solicitados para registrar uno nuevo.
+3. Pulsa el botón "Crear Kit".
+4. Combina productos existentes para crear un kit nuevo.
+5. El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+6. Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+7. Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre,etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+8. Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
+
+<center> <img src="assets/Chapter-3/userpro.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
+**User Goal: Historial de Movimientos**
+
+1. Navega a la sección de Historial.
+2. Visualiza entradas y salidas de productos.
+3. Filtra movimientos por fecha, producto o lote.
+4. El usuario accede a la sección de Historial desde el panel principal.
+5. Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+6. Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+7. Consulta métricas como el stock promedio, estado del producto y stock ideal.
+8. Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
+<center> <img src="assets/Chapter-3/userhi.png" style="width: 420px;"/> </center>
+<br>
+
+*Imagen (N°). Elaboración propia. Realizado en Figma* 
+
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
