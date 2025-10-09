@@ -478,11 +478,10 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/fotoKevin.jpg" alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotoKevin.jpg" alt="Foto de perfil de Kevin" width="800px">
     </th>
     <td valign="top">
-      <p><b>	
-Chi Cruzatt, Kevin Jorge</b></p>
+      <p><b>Chi Cruzatt, Kevin Jorge</b></p>
       <p>
         Actualmente estoy cursando la carrera de ingeniería de Software y me encuentro en el 6° ciclo. Tengo experiencia utilizando diferentes metodologías de diseño, como Domain Driven Design (DDD) y CMV, además de frameworks como Laravel y Spring en lenguajes como Java, PHP, etc. Me considero una persona paciente y perseverante en situaciones difíciles.
       </p>
@@ -490,12 +489,12 @@ Chi Cruzatt, Kevin Jorge</b></p>
   </tr>
   <tr>
     <th>
-      <img src="assets/Chapter-1/fotoAlejo.png" alt="Foto de perfil de " width="800px">
+      <img src="assets/Chapter-1/fotoAlejo.png" alt="Foto de perfil de Alejandro" width="800px">
     </th>
     <td valign="top">
       <p><b>Oroncoy Almeyda, Alejandro Daniel</b></p>
       <p>
-     Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 6to ciclo. Me considero una persona proactiva, autodidacta y orientada a objetivos.
+      Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 6to ciclo. Me considero una persona proactiva, autodidacta y orientada a objetivos.
       </p>
     </td>
   </tr>
@@ -530,13 +529,13 @@ El costo se traduce en pérdidas económicas significativas por productos no ven
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
-El propósito de StockWise es proporcionar una aplicación intuitiva y accesible para que pequeñas y medianas empresas, startups y bodegas especializadas puedan gestionar su inventario de forma eficiente, digitalizada y sin complicaciones técnicas ni altos costos.
+El propósito de StockWise es proporcionar una aplicación intuitiva y accesible para que empresas pequeñas y medianas, startups y bodegas especializadas puedan gestionar su inventario de forma eficiente, digitalizada y sin complicaciones técnicas ni altos costos.
 
-El problema se encuentra en que muchos de estos negocios aún dependen de métodos manuales como hojas de cálculo, cuadernos físicos o herramientas no especializadas para registrar y controlar su stock. Esto genera errores frecuentes, pérdidas de productos, compras innecesarias, falta de trazabilidad y escasa visibilidad sobre la operación logística.
+Actualmente, muchos de estos negocios aún dependen de métodos manuales  para registrar y controlar su stock. Este enfoque genera errores frecuentes, tales como registros incorrectos, desactualización en tiempo real o pérdidas de productos. Como resultado, se producen compras innecesarias, falta de trazabilidad, escasa visibilidad sobre los niveles de inventario y una gestión logística ineficiente. Según un estudio de NetSuite (2024), el promedio de precisión de inventario en empresas es de aproximadamente 83 %, lo que refleja un margen de error significativo que afecta los costos operativos y la toma de decisiones.
 
-Hemos observado que esta situación impacta negativamente en la productividad del negocio, la satisfacción del cliente y la capacidad de tomar decisiones basadas en datos. A medida que estos negocios escalan, el desorden operativo se vuelve insostenible, provocando sobrecostos y afectando su crecimiento.
+Diversas investigaciones sostienen que una gestión ineficiente del inventario repercute directamente en la productividad empresarial, la satisfacción del cliente y la rentabilidad general del negocio, además de generar sobrecostos en almacenamiento y desperdicio de recursos (Altavant Consulting, 2024; Arce-Gonzales & Sandoval, 2023). A medida que estas empresas escalan, el desorden operativo se vuelve insostenible, reduciendo su capacidad de respuesta ante la demanda y su competitividad en el mercado.
 
-¿Cómo podríamos diseñar una aplicación de gestión de inventarios que sea lo suficientemente simple, funcional y adaptable para cubrir las necesidades reales de estos negocios en expansión, facilitando el control del inventario, reduciendo errores y mejorando la toma de decisiones, con métricas que midan eficiencia operativa, precisión del stock y satisfacción del usuario?
+Por lo tanto, surge la necesidad de diseñar una aplicación de gestión de inventarios que sea simple, funcional y adaptable, capaz de atender las necesidades reales de las pymes en crecimiento. Esta herramienta debe facilitar el control exacto del inventario, reducir errores humanos, mejorar la trazabilidad y proporcionar información en tiempo real para respaldar decisiones basadas en datos.
 
 #### 1.2.2.2. Lean UX Assumptions
 **Business Assumptions:**
@@ -586,23 +585,25 @@ Creemos que el sistema debe incluir un módulo de reportes y dashboards visuales
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hipótesis 1:** Creemos que los usuarios valorarán las alertas inteligentes push.</br> Sabremos que es cierto. 
-</br>Cuando al menos el 80% de los usuarios activos tengan las notificaciones activadas y reporten una reducción en quiebres de stock en encuestas de satisfacción.
+**Hipótesis 1:** Creemos que las alertas inteligentes push resolverán el problema de pérdidas económicas por quiebres de stock inesperados que enfrentan las pymes.  
+Sabremos que es cierto  
+Cuando al menos el 80% de los usuarios activos reporten una reducción del 25% en pérdidas por productos agotados y mejoren su planificación de reabastecimiento en encuestas trimestrales.
 
-**Hipótesis 2:** Creemos que los usuarios encontrarán valiosos los reportes visuales optimizados para móvil.</br> Sabremos que es cierto .
-</br>el módulo de reportes muestre una tasa de uso semanal superior al 40% y contribuya a un aumento del 20% en la retención de usuarios.
+**Hipótesis 2:** Creemos que los reportes visuales móviles resolverán la falta de visibilidad sobre el rendimiento del inventario que impide a los emprendedores tomar decisiones estratégicas basadas en datos.  
+Sabremos que es cierto  
+Cuando el 70% de los usuarios utilicen los reportes semanalmente y reporten una mejora del 30% en sus decisiones de compra y gestión de stock.
 
-**Hipótesis 3:** Creemos que ofrecer una versión gratuita con funcionalidades básicas incentivará la adopción inicial y las conversiones a premium.</br>
- Sabremos que es cierto</br>
-si la tasa de conversión de usuarios gratuitos a premium supera el 5% y el tiempo hasta la conversión es menor a 90 días.
+**Hipótesis 3:** Creemos que el modelo freemium resolverá la barrera económica que impide a pequeños negocios acceder a herramientas profesionales de gestión de inventarios.  
+Sabremos que es cierto  
+Cuando logremos una adopción del 15% de usuarios gratuitos que conviertan a premium en 60 días, demostrando el valor percibido de la solución.
 
-**Hipótesis 4:** Creemos que implementar alertas inteligentes por stock bajo y fechas de vencimiento reducirá significativamente los quiebres de inventario.</br>
-Sabremos que tenemos razón </br>
-Cuando los usuarios que activan las alertas experimenten una reducción del 30% en incidentes de stock cero en un período de 3 meses.
+**Hipótesis 4:** Creemos que las alertas automatizadas por stock bajo resolverán el problema de sobrecostos operativos causados por el monitoreo manual del inventario.  
+Sabremos que tenemos razón  
+Cuando los usuarios reduzcan en 40% el tiempo dedicado a control manual de stock y eliminen el 90% de los quiebres de inventario críticos.
 
-**Hipótesis 5:** Creemos que implementar  la generación de boletas de venta directamente en la app agilizará el proceso de cierre de ventas y el control de ingresos.</br>
-Sabremos que tenemos razón, </br>
-Cuando los usuarios que utilizan la función reporten un ahorro de tiempo mínimo de 1 hora diaria en administración y un control más preciso de su flujo de caja diario.  
+**Hipótesis 5:** Creemos que la generación digital de boletas de venta resolverá los errores de facturación y la desorganización financiera que afecta el flujo de caja de las pymes.  
+Sabremos que tenemos razón  
+Cuando los usuarios reporten una reducción del 50% en errores de facturación y mejoren en 35% la precisión de su control de ingresos diarios.  
 
 #### 1.2.2.4. Lean UX Canvas
 
