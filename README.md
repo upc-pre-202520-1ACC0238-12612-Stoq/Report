@@ -56,6 +56,53 @@ Adoptamos esta metodología para estructurar los mensajes de confirmación de ca
 * perf: Mejoras de rendimiento en el código.
 
 #### 4.1.3. Source Code Style Guide & Conventions
+### HTML
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Etiquetas y atributos en minúsculas    | `<div class="container">`, `<img src="logo.png" alt="Logo">`           |
+| Atributos ordenados lógicamente        | `class`, `id`, `name`, `type`, `value`, etc.                           |
+| Uso de comillas dobles                 | `<input type="text" name="username">`                                  |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs                                            |
+
+---
+
+### CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Nombres de clases en `kebab-case`      | `.main-header`, `.user-profile-card`                                   |
+| Propiedades en minúsculas y ordenadas  | `color: #333; font-size: 16px; margin-top: 20px;`                       |
+| Uso de comentarios                     | `/* Sección de estilos para el header */`                              |
+| Indentación consistente                | 2 o 4 espacios, no usar tabs                                            |
+
+---
+
+### JavaScript
+
+| Regla                                       | Ejemplo / Explicación                                                   |
+|--------------------------------------------|--------------------------------------------------------------------------|
+| Variables y funciones en `camelCase`       | `let userName = "Juan";`, `function getUserData() {}`                  |
+| Clases en `PascalCase`                     | `class UserProfile {}`                                                 |
+| Constantes en `UPPER_SNAKE_CASE`           | `const API_URL = "https://api.example.com";`                           |
+| Uso de `const` y `let`                     | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas            | `let nombre = "Carlos";`                                               |
+| Indentación consistente (2 o 4 espacios)   | Mantener el mismo estilo en todo el proyecto                           |
+
+---
+
+### Kotlin
+
+| Regla                                         | Ejemplo / Explicación                                                   |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| Variables y funciones en `camelCase`         | `val userName = "Juan"`, `fun getUserData() {}`                         |
+| Clases y objetos en `PascalCase`             | `class UserProfile`, `object AppConfig`                                 |
+| Constantes en `UPPER_SNAKE_CASE`             | `const val MAX_USERS = 100`                                             |
+| Archivos nombrados igual que la clase        | `UserProfile.kt`                                                        |
+| Indentación con 4 espacios                   | No usar tabs                                                            |
+| Uso de `val` por defecto, `var` si mutable   | Promueve inmutabilidad                                                  |
+| Expresiones lambda con `it`   | `users.filter { it.isActive }`                                          |
+
 #### 4.1.4. Software Deployment Configuration
 
 ### 4.2. Landing Page & Mobile Application Implementation
