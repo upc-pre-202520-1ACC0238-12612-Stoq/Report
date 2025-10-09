@@ -199,6 +199,14 @@ Durante este sprint, se han realizado avances significativos en la implementaci�
 
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 ##### 4.2.1.5. Execution Evidence for Sprint Review
+Durante este Sprint, se han alcanzado varios hitos importantes en la implementación de la Landing Page. Además se realizaron avances en el frontend de la aplicaciones mobile. Se han completado las siguientes tareas:
+
+- Implementación de 
+- Visualización de funcionalidades.
+- Visualización de planes disponibles.
+- Implementacion de la Internacionalizacion
+- 
+  
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
