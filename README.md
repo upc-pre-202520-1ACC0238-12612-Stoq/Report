@@ -135,9 +135,28 @@ Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la
 En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de
 
 ### 4.2. Landing Page & Mobile Application Implementation
-#### 4.2.1. Sprint n
-##### 4.2.1.1. Sprint Planning n
-##### 4.2.1.2. Sprint Backlog n
+#### 4.2.1. Sprint 1
+Este informe documenta el progreso realizado durante la fase de definición de requisitos del proyecto, que incluye entrevistas con los interesados y creación de artefactos antes y después de la implementación de la aplicación mobile. Proporcionar una visión clara del avance y garantizar una comunicación efectiva entre el equipo de desarrollo y los interesados son los objetivos principales.
+
+Durante esta etapa, se realizaron extensas entrevistas con los interesados para comprender sus necesidades, expectativas y requisitos particulares para la aplicación. Las entrevistas proporcionaron información útil que ayudó a definir los requisitos del proyecto.
+
+Se realizaron actividades de creación de artefactos antes y después de la implementación de la aplicación mobile, además de entrevistas. Estos objetos fueron:
+##### 4.2.1.1. Sprint Planning 1
+| Sprint # | Sprint 1  | 
+|--------------------|------------|
+| Sprint Planning Background | 
+| Date | 2025-05-14 | 
+| Time |  10:00 AM |
+| Location |  UPC - Monterrico |
+| Preparate by| Maycol Jhordan Rojas Velasquez | 
+|  Attendees (to planning meeting) | Gómez Vallejos Sergio André ,Aranda Vallejos, Oscar Gabriel ,Ticona Panduro, Estrella del Pilar ,Durand Vera, Gianfranco Angel, Miranda Sinarahua, Piero Stephano  | 
+| Sprint n-1 Review Summary | En resumen se desarrollaron avances en la landing page, backend y frontend mobile | 
+| Sprint Planning Background | Durante esta etapa, se llevó a cabo una exhaustiva verificación de la funcionalidad de la landing page diseñada para el proyecto. El objetivo principal fue asegurar que la landing page cumpla con los estándares de calidad y proporcionar una experiencia óptima para los visitantes. Asimismo, se realizó la primera implementación de la aplicación mobil y el despliegue del backend |
+| Sprint Goal & User Stories | 
+| Sprint 1 Goal | Desarrolar la funcionalidad de la página web con i18n e implementar CRUD en el backend. Se considerará que el objetivo del sprint se ha cumplido si todas las historias de usuario relacionadas con la landing page están implementadas y si todas las historias de usuario relacionadas con la implementación de APIs para la gestión de una entidad están completadas en un 80%. |  
+| Sprint Velocity | Se establece un Velocity de 36 Story Points para este Sprint. | 
+| Sum of Story Points | 36 Story Points | 
+##### 4.2.1.2. Sprint Backlog 1
 ##### 4.2.1.3. Development Evidence for Sprint Review
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 ##### 4.2.1.5. Execution Evidence for Sprint Review
