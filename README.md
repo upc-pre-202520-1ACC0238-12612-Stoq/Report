@@ -158,7 +158,45 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 | Sum of Story Points | 24 Story Points | 
 
 ##### 4.2.1.2. Sprint Backlog 1
+
 ##### 4.2.1.3. Development Evidence for Sprint Review
+Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
+
+<table>
+   <tr>
+      <td>Repository</td>
+      <td>Branch</td>
+      <td>Component</td>
+      <td>Commit Id</td>
+      <td>Commit Message</td>
+      <td>Commited on (Date)</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services</td>
+      <td>Development</td>
+      <td>Backend</td>
+      <td>xxx</td>
+      <td>xxxtd>
+      <td>Mes Dia, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Landing-Page</td>
+      <td>Develop</td>
+      <td>Landing Page</td>
+      <td>27811d1b1f7fae66c103cf20dd69dde3615c416b</td>
+      <td>initialize React application with Vite</td>
+      <td>Octubre 2, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Native-mobile-development</td>
+      <td>Development</td>
+      <td>Mobile Frontend</td>
+      <td>xxx</td>
+      <td>xxx</td>
+      <td>Ocrubre 9, 2025</td>
+   </tr>
+</table>
+
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 ##### 4.2.1.5. Execution Evidence for Sprint Review
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
