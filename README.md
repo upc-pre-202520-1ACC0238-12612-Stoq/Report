@@ -285,6 +285,66 @@ Durante este sprint, se han realizado avances significativos en la implementaci�
 </table>
 
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services del módulo **Inventories** del proyecto **Stoq (Web-Services)**.  
+El stack de testing utilizado fue **C#/.NET 8**, **xUnit**, **Moq**, **EF Core InMemory**, **Microsoft.AspNetCore.Mvc.Testing** y **SpecFlow (Gherkin)**.
+
+#### Cobertura por pieza de código
+- **InventoryByProductQueryService**
+  - Unit: verifica que `GetAllAsync()` delega en `IInventoryByProductRepository.ListAsync()`.
+  - Unit: verifica que `GetByIdAsync(id)` llama `FindByIdAsync(id)` y retorna `null` si no existe.
+- **InventoryByBatchCommandService**
+  - Unit: `Handle(CreateInventoryByBatchCommand)` crea `InventoryByBatch`, llama `AddAsync` y `unitOfWork.CompleteAsync()`.
+  - Unit: `DeleteAsync(id)` elimina y confirma unidad de trabajo cuando existe; retorna `false` si no encuentra.
+- **Integration** (Web API)
+  - Endpoints de Inventario por Lote y por Producto con **EF Core InMemory**, levantados con **WebApplicationFactory**.
+- **Acceptance (BDD)**
+  - `.feature` “Crear inventario por lote” y “Eliminar inventario por lote” con escenarios Gherkin; *step definitions* en C# validando respuestas HTTP y estado persistido.
+
+A continuación, la tabla de commits **relacionados exclusivamente con testing**:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|-------------|-------|-----------|----------------|---------------------|---------------------|
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite | 1a9c7e4 | test(unit): add xUnit+Moq tests for InventoryByProductQueryService | Se agregaron pruebas unitarias que validan `GetAllAsync` y `GetByIdAsync` usando dobles de prueba de `IInventoryByProductRepository`. Se verifican llamadas a `ListAsync()`/`FindByIdAsync()` y retornos nulos cuando no existe el Id. | 08/10/2025 |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite | 3f21bd0 | test(unit): cover InventoryByBatchCommandService (Handle/DeleteAsync) | Se añadieron pruebas con Moq para asegurar que `Handle` llama `AddAsync` y `CompleteAsync`. `DeleteAsync` elimina cuando encuentra el Id y retorna `false` si no existe. | 08/10/2025 |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/integration-tests | 7c5d2a9 | test(integration): API endpoints with WebApplicationFactory + EF InMemory | Se configuró `WebApplicationFactory` y una BD InMemory para probar endpoints de creación/consulta/eliminación de inventarios por lote y por producto, verificando códigos 201/200/404. | 09/10/2025 |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/acceptance-bdd | c84a110 | test(bdd): SpecFlow features and step definitions for inventory flows | Se añadieron `.feature` con escenarios Gherkin (crear y eliminar inventario por lote) y *steps* en C# que consumen la API, asertan payload y estado en BD InMemory. | 09/10/2025 |
+
+#### Relación de tests diseñados (extracto)
+
+- **Unit (xUnit/Moq)**
+  - `InventoryByProductQueryServiceTests.GetAllAsync_ReturnsRepositoryList`
+  - `InventoryByProductQueryServiceTests.GetByIdAsync_ReturnsEntityOrNull`
+  - `InventoryByBatchCommandServiceTests.Handle_PersistsAndCommits`
+  - `InventoryByBatchCommandServiceTests.DeleteAsync_DeletesWhenFound_ReturnsTrue`
+  - `InventoryByBatchCommandServiceTests.DeleteAsync_WhenNotFound_ReturnsFalse`
+
+- **Integration (WebApplicationFactory + EF InMemory)**
+  - `POST /api/inventories/batches` → 201 y body con Id generado.
+  - `GET /api/inventories/batches/{id}` → 200 con entidad o 404 si no existe.
+  - `DELETE /api/inventories/batches/{id}` → 204 cuando elimina.
+
+- **Acceptance BDD (SpecFlow/Gherkin) – ejemplo de `.feature` (resumen):**
+  - **Crear inventario por lote**
+    ```
+    Feature: Crear inventario por lote
+      Scenario: Crear inventario con datos válidos
+        Given un payload válido de inventario por lote
+        When envío POST a /api/inventories/batches
+        Then la respuesta es 201 Created
+        And el inventario persiste en la base de datos
+    ```
+  - **Eliminar inventario por lote**
+    ```
+    Scenario: Eliminar inventario existente
+      Given existe un inventario por lote con Id 10
+      When envío DELETE a /api/inventories/batches/10
+      Then la respuesta es 204 No Content
+      And el recurso ya no está disponible
+    ```
+
+> Repositorio y rutas de pruebas: `Web-Services/tests/Inventories.*` (folders `Unit`, `Integration`, `Acceptance` con SpecFlow).
+
 ##### 4.2.1.5. Execution Evidence for Sprint Review
 Durante este Sprint, se han alcanzado varios hitos importantes en la implementación de la Landing Page. Además se realizaron avances en el frontend de la aplicaciones mobile. Se han completado las siguientes tareas:
 
