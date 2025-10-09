@@ -886,3 +886,140 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
 </table>
 
 #### 4.3.3. Evaluaciones según heurísticas
+
+# EVALUACIÓN DE USABILIDAD SEGÚN HEURÍSTICAS
+
+## SITE o APP A EVALUAR
+**StockWise – App móvil de gestión de inventario para bodegas y emprendimientos**
+
+---
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad en las siguientes tareas:
+
+1. Registro de un nuevo usuario.  
+2. Inicio de sesión con credenciales existentes.  
+3. Registro y edición de productos.  
+4. Búsqueda y filtrado de productos por nombre, categoría o lote.  
+5. Visualización de productos próximos a vencer.  
+6. Registro de salida o venta de productos.  
+7. Consulta del historial de movimientos.  
+8. Visualización de stock y control por lotes.  
+9. Cierre de sesión.  
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con sistemas externos de pago.  
+2. Sincronización con otros dispositivos.  
+3. Administración de usuarios con distintos roles.  
+4. Funcionalidades futuras de geolocalización o predicción de demanda.  
+
+---
+
+## ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|--------------|
+| **1** | Problema superficial: se supera fácilmente y no interfiere con la tarea. |
+| **2** | Problema menor: ocurre con cierta frecuencia o requiere más esfuerzo. |
+| **3** | Problema mayor: impide completar tareas o genera frustración frecuente. |
+| **4** | Problema crítico: bloquea la tarea o impide el uso del sistema. |
+
+---
+
+## TABLA RESUMEN DE HALLAZGOS
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
+|---|-----------|---------------------|--------------------------------|
+| 1 | No hay indicador visual claro de diferencia entre “Stock” y “Lote”, lo cual puede generar confusión inicial. | 2 | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
+| 2 | No existe un acceso rápido desde la pantalla principal al registro de ventas o salidas de productos. | 3 | Usability – Flexibilidad y eficiencia de uso. |
+| 3 | No hay opción para registrar créditos o pagos pendientes dentro del flujo principal. | 3 | Information Architecture – Is it complete? |
+| 4 | El tamaño de algunos botones y textos resulta pequeño en ciertos dispositivos móviles. | 2 | Inclusive Design – Accesibilidad visual. |
+| 5 | No existe vista resumida o gráfica de reportes o estadísticas de ventas. | 2 | Usability – Visibilidad del estado del sistema. |
+| 6 | La interfaz no muestra recordatorios personalizables para productos próximos a vencer. | 2 | Usability – Ayuda y prevención de errores. |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### PROBLEMA #1: Confusión inicial entre “Stock” y “Lote”
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real.  
+
+**Problema:**  
+Durante las pruebas, los usuarios Milagros y Catalina manifestaron dudas iniciales sobre la diferencia entre “stock” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital.  
+
+**Recomendación:**  
+Agregar una breve descripción o globo de ayuda que explique la diferencia entre ambos términos (por ejemplo: “Stock: cantidad total disponible. Lote: grupo de productos con la misma fecha de vencimiento”).  
+
+---
+
+### PROBLEMA #2: Falta de acceso rápido al registro de ventas
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso.  
+
+**Problema:**  
+Usuarios como Elvis y Juan Carlos señalaron que, aunque el registro de productos es sencillo, no existe un acceso directo desde el dashboard para registrar ventas o salidas. Esto implica más pasos de navegación y retrasa la gestión diaria.  
+
+**Recomendación:**  
+Incluir un botón visible o un acceso rápido en el dashboard para registrar ventas o salidas directamente, sin pasar por el menú lateral.  
+
+---
+
+### PROBLEMA #3: Ausencia de módulo de pagos o créditos pendientes
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Is it complete?  
+
+**Problema:**  
+Varios usuarios (Milagros y Juan Carlos) mencionaron la necesidad de registrar pagos pendientes o créditos, dado que muchas bodegas operan con ventas fiadas. La ausencia de esta función limita la utilidad integral de la app.  
+
+**Recomendación:**  
+Agregar un submódulo para registrar clientes con deudas y fechas de pago, con alertas visuales y posibilidad de marcar los pagos como cancelados.  
+
+---
+
+### PROBLEMA #4: Tamaño reducido de texto y botones
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Accesibilidad visual.  
+
+**Problema:**  
+Elvis mencionó que el tamaño de algunos elementos no se adapta correctamente en pantallas pequeñas, dificultando la interacción para usuarios con menos destreza táctil.  
+
+**Recomendación:**  
+Optimizar el diseño responsivo para móviles, asegurando un tamaño mínimo de toque de 44x44 px y contraste adecuado según WCAG 2.1.  
+
+---
+
+### PROBLEMA #5: Falta de reportes visuales o estadísticas
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema.  
+
+**Problema:**  
+Los usuarios destacaron que la app podría mejorar si mostrara reportes o gráficos de ventas y stock. Actualmente, la información está distribuida, pero no se resume de forma visual.  
+
+**Recomendación:**  
+Incorporar una vista de “Resumen de actividad” con gráficos simples (barras o pastel) sobre productos más vendidos, alertas y stock por categoría.  
+
+---
+
+### PROBLEMA #6: Recordatorios limitados para productos próximos a vencer
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Prevención de errores.  
+
+**Problema:**  
+Catalina valoró la alerta de productos próximos a vencer, pero comentó que sería mejor si pudiera configurar recordatorios personalizados según tipo de producto o periodo (por ejemplo, 5, 10 o 30 días antes del vencimiento).  
+
+**Recomendación:**  
+Permitir que el usuario ajuste la anticipación de alertas y el canal de notificación (push o correo).  
+
+---
+
+## CONCLUSIÓN GENERAL
+
+La app **StockWise** presenta una excelente base de usabilidad y accesibilidad, destacando por su claridad visual, fluidez de navegación y aprendizaje rápido incluso en usuarios con baja experiencia tecnológica.  
+
+Las oportunidades de mejora se centran en profundizar funciones avanzadas de gestión (créditos, reportes, recordatorios personalizados) y refinar detalles visuales en dispositivos móviles.  
+
+En general, los usuarios calificaron la experiencia como positiva, práctica y recomendable, con potencial para convertirse en una herramienta estándar para la gestión de bodegas pequeñas y medianas.
+
