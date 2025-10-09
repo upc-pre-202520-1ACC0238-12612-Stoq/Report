@@ -239,25 +239,58 @@
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
-  - [4.1. Software Configuration Management](#41-software-configuration-management)
-    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
-    - [4.1.2. Source Code Management](#412-source-code-management)
-    - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
-    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
-  - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
-    - [4.2.1. Sprint n](#421-sprint-n)
-      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
-      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
-      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
-      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
-      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
-      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
-      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
-      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
-  - [4.3. Validation Interviews](#43-validation-interviews)
-    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
-    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
-    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+  - [4. Product Implementation \& Validation](#4-product-implementation--validation)
+    - [4.1. Software Configuration Management](#41-software-configuration-management)
+      - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+      - [4.1.2. Source Code Management](#412-source-code-management)
+      - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JavaScript](#javascript)
+    - [Kotlin](#kotlin)
+      - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+    - [Deployment Backend:](#deployment-backend)
+      - [Creación de VPS en Google Cloud Platform (GCP)](#creación-de-vps-en-google-cloud-platform-gcp)
+        - [1. Configuración Inicial del Proyecto](#1-configuración-inicial-del-proyecto)
+        - [2. Creación de la Instancia de VM](#2-creación-de-la-instancia-de-vm)
+        - [3. Configuración de Acceso y Seguridad](#3-configuración-de-acceso-y-seguridad)
+    - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+      - [4.2.1. Sprint 1](#421-sprint-1)
+        - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+        - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+        - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+        - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [Cobertura por pieza de código](#cobertura-por-pieza-de-código)
+      - [Relación de tests diseñados (extracto)](#relación-de-tests-diseñados-extracto)
+        - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+    - [Screenshots](#screenshots)
+      - [Landing Page](#landing-page)
+      - [Funciones claves](#funciones-claves)
+      - [Sección de Planes Disponibles](#sección-de-planes-disponibles)
+    - [Seccion de cambio de idioma](#seccion-de-cambio-de-idioma)
+      - [Mobile Frontend](#mobile-frontend)
+        - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+        - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+        - [Landing Page](#landing-page-1)
+      - [1. Preparación del proyecto](#1-preparación-del-proyecto)
+      - [2. Creación de cuenta o acceso a Netlify](#2-creación-de-cuenta-o-acceso-a-netlify)
+      - [3. Nuevo sitio desde Git](#3-nuevo-sitio-desde-git)
+      - [4. Autorización y selección del repositorio](#4-autorización-y-selección-del-repositorio)
+      - [5. Configuración del despliegue](#5-configuración-del-despliegue)
+      - [6. Despliegue automático](#6-despliegue-automático)
+      - [7. Personalización de dominio (opcional)](#7-personalización-de-dominio-opcional)
+      - [8. Actualizaciones automáticas](#8-actualizaciones-automáticas)
+      - [9. Monitoreo del sitio](#9-monitoreo-del-sitio)
+        - [Backend](#backend)
+      - [1. Configuración del Entorno Docker en el VPS](#1-configuración-del-entorno-docker-en-el-vps)
+      - [2. Preparación del Proyecto ASP.NET 9](#2-preparación-del-proyecto-aspnet-9)
+      - [3. Despliegue de la Aplicación](#3-despliegue-de-la-aplicación)
+      - [4. Configuración de Nginx como Reverse Proxy](#4-configuración-de-nginx-como-reverse-proxy)
+        - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+    - [4.3. Validation Interviews](#43-validation-interviews)
+      - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+      - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+      - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video App Validation](#video-app-validation)
 - [Video About-the-Product](#video-about-the-product)
@@ -295,7 +328,7 @@ soluciones de software.</b></td>
         <p>Reconocí que participar en la edición del video de entrevistas y en las herramientas de análisis (Capítulo II, matrices, mapeos y backlog) me exige un aprendizaje permanente para mejorar mi aporte en proyectos de software.
         </p>
         <p><b>TP1:</b></p>
-        <p>,..</p>
+        <p>Realice las correciones del capitulo 2, pantallas de inventario en móviles en Android Studio</p>
         <p><b>TB2:</b></p>
         <p>.</p>
         <p><b>TF:</b></p>
@@ -304,7 +337,7 @@ soluciones de software.</b></td>
        <p><b>TB1:</b></p>
         <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
         <p><b>TP1:</b></p>
-        <p></p>
+        <p>Avance del capítulo 3 y colaboración del Capitulo 4, creación de pantallas IAM en móviles en Android Studio</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
@@ -314,7 +347,7 @@ soluciones de software.</b></td>
         <p>Puse en práctica lo que sabía y reforcé mis conocimientos diseñando el C4 y el modelo de base de datos para el proyecto.   
         </p>
         <p><b>TP1:</b></p>
-        <p>.</p>
+        <p>Coordinación del grupo, correción del capitulo 1, creación de pantallas productos en móviles en Android Studio y colaboración en la presentación</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
@@ -323,7 +356,7 @@ soluciones de software.</b></td>
        <p><b>TB1:</b></p>
         <p>Mejoré mis conocimientos aplicando el Tactical DDD y organizando el dominio del proyecto de una manera más clara.</p>
         <p><b>TP1:</b></p>
-        <p></p>
+        <p>Corrección del backend, avance capitulo 4 y pantallas de inventario en móviles en Android Studio</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
@@ -333,7 +366,7 @@ soluciones de software.</b></td>
        <p><b>TB1:</b></p>         
         <p> Aprendí nuevas formas de mapear el flujo de eventos y actualicé mi conocimiento aplicando EventStorming en el proyecto.</p>
         <p><b>TP1:</b></p>
-        <p></p>
+        <p>Corrección del backend y despliegue, pantallas de productos en móviles en Android Studio</p>
         <p><b>TB2:</b></p>
         <p></p>
         <p><b>TF:</b></p>
@@ -343,7 +376,7 @@ soluciones de software.</b></td>
         <p><strong>TB1:</strong></p>
         <p>Como equipo logramos actualizar nuestros conocimientos al aplicar diferentes técnicas y herramientas en el proyecto, lo que nos permitió mejorar nuestra formación profesional y fortalecer el desarrollo de la solución de software.</p>
         <p><strong>TP1:</strong></p>
-        <p>..</p>
+        <p>Como equipo, logramos identificar áreas clave de conocimiento que debíamos reforzar para llevar a cabo las responsabilidades asignadas. Este proyecto nos motivó a actualizar conceptos relacionados con arquitectura de software, diseño UI/UX, frameworks móviles, integración de servicios backend y despliegue en la nube. Gracias a ello, fortaleceremos nuestras competencias profesionales, ya que este conocimiento será fundamental no solo para completar la aplicación, sino también para abordar proyectos futuros con mayor seguridad técnica y claridad metodológica.</p>
         <p><strong>TB2:</strong></p>
         <p>..</p>
         <p><strong>TF:</strong></p>
@@ -409,7 +442,7 @@ de software.</td>
         <p><strong>TB1:</strong></p>
         <p>Es importante contar con la capacidad de trabajar en equipo, ya que permite compartir ideas, resolver problemas juntos y mejorar los resultados del proyecto.</p>
         <p><strong>TP1:</strong></p>
-        <p>...</p>
+        <p>Durante el desarrollo del proyecto, comprendimos que la ingeniería de software es un campo en constante evolución. La necesidad de aprender nuevas herramientas, frameworks, lenguajes y enfoques fue evidente en cada etapa del trabajo. Como equipo, reconocemos que la mejora continua será indispensable para adaptarnos a los cambios tecnológicos y así poder enfrentar proyectos de mayor complejidad. Esta experiencia nos ha demostrado que el aprendizaje permanente no es una opción, sino una necesidad para mantenernos competitivos y eficientes en nuestra carrera profesional.</p>
         <p><strong>TB2:</strong></p>
         <p>..</p>
         <p><strong>TF:</strong></p>
@@ -417,6 +450,46 @@ de software.</td>
       </td>
 
 # Objetivos SMART
+
+Jocelyn Damaly Almerco Rojas
+
+Objetivo 1:
+Antes del 30/12/2026, habré completado una especialización en Diseño de Interfaces de Usuario (UI/UX), aplicando los conocimientos en un proyecto académico o personal que combine diseño intuitivo y funcionalidad. Para lograrlo, destinaré al menos 5 horas semanales al estudio, finalizaré 3 cursos certificados y diseñaré un prototipo interactivo con Figma o Adobe XD. Consideraré alcanzado el objetivo al obtener la certificación y presentar un portafolio con 2 proyectos funcionales orientados a la experiencia del usuario.
+
+Objetivo 2:
+Dentro de los dos primeros años posteriores a mi graduación, me habré incorporado a un equipo de desarrollo como Front-End Developer o UX Designer Junior, donde pueda aplicar principios de accesibilidad, usabilidad y diseño centrado en el usuario. Para lograrlo, mantendré actualizado mi portafolio en línea, realizaré al menos 15 postulaciones mensuales y participaré en 2 hackatones o proyectos colaborativos. Consideraré cumplido el objetivo al obtener una oferta laboral formal y completar mi primer proyecto en producción con retroalimentación positiva del equipo y usuarios finales.
+
+Jeremy Paucar Meneses
+
+Objetivo 1:
+Antes del 31/07/2026, habré obtenido una certificación en Desarrollo Full Stack con JavaScript (Node.js y Vue.js), implementando un proyecto completo que integre backend, frontend y base de datos. Para conseguirlo, estudiaré 6 horas semanales, culminaré 3 cursos especializados y desarrollaré una aplicación funcional desplegada en la nube. Consideraré cumplido el objetivo al aprobar la certificación y publicar la aplicación con documentación técnica en un repositorio Git.
+
+Objetivo 2:
+En un plazo máximo de 18 meses después de graduarme, habré conseguido mi primer puesto como Software Developer Junior, participando en el desarrollo de módulos o microservicios en un entorno productivo. Para alcanzarlo, realizaré 20 postulaciones mensuales, practicaré algoritmos 2 veces por semana y participaré en al menos 1 proyecto colaborativo o open source. Consideraré logrado el objetivo al obtener una oferta de trabajo estable y contribuir con al menos 1 entrega de código validada por revisión de pares (code review).
+
+Camila Sánchez Ríos
+
+Objetivo 1:
+Antes del 31/12/2026, habré completado un diplomado en Calidad de Software y Pruebas Automatizadas, certificándome en herramientas como Selenium o Postman. Para ello, dedicaré 5 horas semanales al estudio, aprobaré al menos 3 cursos especializados y diseñaré un conjunto de pruebas automatizadas para un sistema real o académico. Consideraré alcanzado el objetivo al obtener la certificación y entregar un informe técnico con métricas de cobertura y defectos detectados.
+
+Objetivo 2:
+Dentro de los dos años posteriores a mi graduación, habré logrado un puesto en el área de Aseguramiento de Calidad (QA Engineer) o Analista de Pruebas de Software, participando activamente en el ciclo de vida de pruebas de un producto digital. Para lograrlo, realizaré 10 postulaciones mensuales, asistiré a 2 conferencias técnicas de QA y mantendré un registro de mejoras continuas en metodologías ágiles. Consideraré el objetivo cumplido al obtener una oferta formal y participar en al menos una liberación exitosa de software con métricas de defectos bajo el 2%.
+
+Kevin Chi Cruzatt
+
+Objetivo 1:
+Antes del 30/06/2026, obtendré una certificación en Arquitectura de Software con Java y Spring Boot, diseñando una aplicación modular basada en principios de Domain Driven Design (DDD) y CI/CD. Para lograrlo, dedicaré 6 horas semanales al estudio, culminaré 3 cursos especializados y publicaré un repositorio con documentación técnica y métricas de cobertura superiores al 80%. Consideraré logrado el objetivo al aprobar la certificación y desplegar la aplicación en un entorno de prueba funcional.
+
+Objetivo 2:
+En un plazo máximo de 18 meses después de mi graduación, me habré incorporado a una empresa tecnológica como Backend Developer o Software Engineer, participando en la construcción de servicios escalables y mantenibles. Para alcanzarlo, enviaré 20 postulaciones mensuales, mantendré mi portafolio con al menos 3 proyectos técnicos y realizaré una entrevista simulada quincenal. Consideraré cumplido el objetivo al recibir una oferta laboral y completar una funcionalidad de backend validada en producción.
+
+Alejandro Oroncoy Almeyda
+
+Objetivo 1:
+Durante el primer año tras mi graduación, habré desarrollado un portafolio técnico con al menos 4 proyectos completos en distintas áreas del desarrollo de software (backend, frontend y bases de datos). Para lograrlo, destinaré 6 horas semanales al aprendizaje y práctica, completaré 3 cursos en línea y documentaré los proyectos con pruebas unitarias y despliegue en la nube. Consideraré alcanzado el objetivo al tener el portafolio publicado y revisado por mentores o pares profesionales.
+
+Objetivo 2:
+En un plazo máximo de dos años después de graduarme, obtendré mi primer empleo formal en el área de Desarrollo de Software, participando en proyectos colaborativos que fortalezcan mis habilidades de trabajo en equipo y resolución de problemas. Para lograrlo, realizaré 15 postulaciones mensuales, asistiré a 2 ferias laborales o eventos de tecnología al año y mantendré mi perfil de LinkedIn activo y actualizado. Consideraré el objetivo cumplido al firmar mi primer contrato y haber completado al menos una entrega de producto en producción., eso pegalo en smart please, cami eso podrías ponerlo en el GitHub please
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
@@ -862,15 +935,15 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>San Martín de Porres</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        En la entrevista, la estudiante Milagros Almerco comenta que lleva el control de su bodega en un cuaderno, anotando manualmente las ventas y compras. Reconoce que su sistema es básico y que a veces se olvida de registrar productos, lo que dificulta llevar un control claro del inventario. Además, le resulta complicado encontrar información específica entre tantas hojas. Señala como uno de sus principales problemas la falta de control sobre las fechas de vencimiento, lo que ha ocasionado pérdidas por productos que no logró vender a tiempo. También menciona que no siempre actualiza los cambios de precio. Para prevenir esto, trata de revisar los estantes y adelantar los productos por vencer. Respecto a herramientas digitales, indica que usa el celular y la calculadora por practicidad. Pero le gustaría contar con un sistema que le avise qué productos están por vencer, cuáles debe reponer y cómo están cambiando los precios. Además, considera importante poder visualizar su inventario en tiempo real. Le gustaría recibir alertas y reportes que le ayuden a organizar mejor su negocio.
+        Milagros Almerco, evaluó la app móvil StockWise y destacó su facilidad de uso al registrar productos y gestionar inventario. Aunque al inicio tuvo dudas sobre la diferencia entre “stock” y “lote”, logró comprenderlo rápidamente gracias a la interfaz intuitiva. Resaltó como funcionalidades más valiosas el control de productos próximos a vencer y la visualización por lotes, que considera claves para evitar pérdidas. Valoró también el diseño moderno y claro, sin presentar dificultades técnicas. Sugirió como mejora incluir un sistema para registrar pagos pendientes o créditos. En general, calificó la app como práctica, útil y recomendada para otros dueños de bodegas.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -898,15 +971,14 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>Santiago de Surco</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg1-Elvis.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/seg1-Elvis.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Elvis Aranga Meza, de 31 años y encargado de la administración en su bodega en Santiago de Surco, gestiona el inventario de forma manual, sin un sistema digital, basándose en el control visual y el registro de ventas totales. Reconoce que esta falta de control sistematizado dificulta hacer proyecciones, identificar los productos con mayor rotación o margen de ganancia, y manejar adecuadamente las mermas, especialmente en productos perecibles como frutas y abarrotes. Ha enfrentado pérdidas por productos vencidos y robos, y señala la necesidad de implementar un sistema digital para actualizar precios en tiempo real, controlar vencimientos y facilitar la gestión por parte del personal. Considera que una plataforma digital mejoraría la eficiencia, permitiría delegar tareas y evitar errores en la rotación y precios, aportando mayor libertad y control en la operación diaria.
-    </td>
+       Elvis Aranga Meza, encargado de un mini market en Surco, compartió su experiencia utilizando la app m´vil para la gestión de bodegas, destacando la facilidad de uso tanto para agregar productos como para navegar por las funciones principales, y calificando su utilidad con un 9 sobre 10. Consideró el diseño visual adecuado y sencillo, aunque sugirió mejorar el tamaño de la interfaz en dispositivos móviles. Resaltó la utilidad de funciones como la visualización de fechas de vencimiento para evitar mermas y la organización de productos por lote, lo cual facilita la gestión de promociones. Sugirió incorporar reportes y estadísticas que permitan proyectar ventas y establecer metas. Finalmente, recomendó la plataforma a otros bodegueros, especialmente por su precio y utilidad, aunque señaló la importancia de brindar asistencia a usuarios con menos experiencia tecnológica.
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -933,15 +1005,15 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>Breña</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/Interview-Catalina-Villa.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Interview-Catalina-Villa.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Catalina Guerra, de 28 años encargada de administrar una bodega familiar en el distrito de breña, ella cuenta que gestiona la bodega de manera manual y lo pasa a una tabla de excel, también nos comenta lo dificil que es tener control de todas las ventas, ella menciona mucho algunas dificultades cuando llega nuevos lotes de productos, ya que no se lleva un control estricto de esto, por otro lado, ella hace enfacis de las perdidas monetarias que enfrenta por no poder gestionar bien las entradas y salidas de productos, en este contexto también nos cuenta sobre los expiración de algunos producto que ella no puede gestionar de manera correcta y por lo cual le va generando muchas perdidas. Ella considera que si tuviera acceso a una plataforma orientada a su rubro de trabajo podría solventar algunos de los problemas ya mencionados anteriormente y también de esta menera dejar de lado el uso de apuntes manuales que es pesado. También dice que le permitiría delegar de mejor manera los inventarios.
+Catalina es una administradora de 28 años, encargada de gestionar una bodega familiar en el distrito de Breña. Ella menciona que las funciones que más le gustaron fueron la de alerta de productos próximos a vencer y la de control de stock, ya que considera que le ayudarían a evitar pérdidas por productos caducados y a mantener un mejor seguimiento de sus existencias. Sin embargo, percibe que estas funciones aún son básicas y podrían ofrecer opciones más avanzadas, como recordatorios personalizados o reportes automáticos. En cuanto a la interfaz, a Catalina le agradó el diseño sencillo y organizado, destacando que los botones son fáciles de identificar y las categorías están bien distribuidas. También comentó que la aplicación le resultaría útil para delegar mejor el control del inventario entre los miembros de su familia, facilitando así la administración general de la bodega.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -970,15 +1042,15 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>Surquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Juan Carlos Ramírez, emprendedor de 49 años, gestiona su inventario principalmente de forma manual, registrando entradas y salidas mediante boletas y facturas sin un control digital completo. Actualmente está en proceso de digitalizar su sistema con un programa y una máquina POS que escanea códigos de barra, aunque aún no emite boletas ni facturas electrónicas. La revisión del stock se realiza visualmente y las ventas se gestionan principalmente por WhatsApp con entrega a domicilio. Busca mejorar la eficiencia y liberar tiempo mediante la implementación de herramientas digitales más integradas.
+      Juan Carlos Ramírez, emprendedor de 49 años, compartió su experiencia al utilizar la aplicación para la gestión de inventarios, destacando la facilidad de uso en el registro y control de productos, así como la organización del historial de movimientos. Consideró que estas herramientas podrían ayudarlo significativamente en su proceso de digitalización, ya que actualmente gestiona las entradas y salidas de manera manual mediante boletas y facturas físicas. En cuanto al diseño, señaló que la interfaz es clara y ordenada, aunque sugirió mejorar la personalización de reportes para adaptarlo mejor a las necesidades de su negocio. Finalmente, destacó que funcionalidades como la alerta de stock bajo y la gestión por lotes serían de gran apoyo para tener un control más preciso del inventario, y que la incorporación de estas herramientas digitales le permitiría automatizar procesos y liberar tiempo operativo en su gestión diaria.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -1005,9 +1077,9 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>San Miguel</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/Segmento2_Leo.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento2_Leo.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Leonardo G., emprendedor, maneja actualmente su inventario de forma manual utilizando principalmente hojas de Excel y, en ocasiones, una libreta para registrar entradas y salidas de productos. La actualización no siempre está al día, lo que le genera retrasos al atender pedidos y, en algunos casos, ventas de productos agotados que afectan la experiencia de sus clientes. Sus ventas se coordinan principalmente a través de WhatsApp, mientras que la promoción la realiza en Facebook e Instagram. Revisa su stock casi a diario debido a la demanda constante y almacena sus productos en un cuarto adaptado en su casa. Aunque ha considerado implementar plataformas digitales para gestionar su inventario, aún no lo hace por temor a los costos y a la complejidad de uso. Su principal objetivo es contar con un sistema más rápido y automático que le avise cuando se esté quedando sin stock y que le permita organizar mejor los pedidos, optimizando así su tiempo y eficiencia.
+        Leonardo G., emprendedor que maneja actualmente su inventario de manera manual con hojas de Excel y una libreta, probó la plataforma y comentó que le pareció intuitiva, útil y eficaz para el control de su negocio. Señaló que la sección de alertas de stock le resultó especialmente atractiva, ya que le permitiría evitar ventas de productos agotados y responder más rápido a la demanda constante que maneja. En cuanto al diseño, mencionó que la interfaz es clara y sencilla, con botones fáciles de identificar y una navegación fluida. Leonardo destacó que la herramienta podría ayudarlo a organizar mejor sus pedidos y actualizar su inventario sin esfuerzo, reemplazando las hojas manuales que utiliza actualmente. También valoró que la plataforma sea accesible y de fácil uso, algo clave para quienes aún no están acostumbrados a los sistemas digitales, pero buscan dar ese paso hacia la automatización de su negocio.
     </td>
   </tr>
   <tr>
@@ -1040,15 +1112,15 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
     <td>xx</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/seg2.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        La entrevista trata sobre Eduardo de Rivera Sosa, un emprendedor que importa productos desde Asia para venderlos en Perú. Actualmente, gestiona su inventario manualmente con Excel, lo que le consume mucho tiempo y recursos, generando pérdidas. Busca una solución automatizada y fácil de usar para controlar mejor su stock y evitar la necesidad de estar actualizando constantemente la información. También usa Notion para organizar pedidos y vende a través de Facebook, Instagram y TikTok. En resumen, la entrevista aborda los retos y necesidades en la gestión de inventarios en su negocio de importación y venta.
+        Eduardo de Rivera Sosa, un emprendedor que importa productos desde Asia para venderlos en Perú, comentó que la idea del proyecto le pareció atractiva y muy necesaria para negocios que manejan múltiples referencias de productos. Durante la prueba, resaltó la facilidad de uso y la organización del panel principal, especialmente en el registro de productos y control de stock. Mencionó que actualmente lleva su inventario en Excel y organiza sus pedidos en Notion, por lo que considera que la app podría integrar y simplificar ambos procesos en un solo espacio digital. Valoró la función de alerta de stock bajo y las opciones de historial de movimientos, que le permitirían tener una visión más clara de sus existencias y reducir pérdidas por errores humanos o por actualizaciones tardías. En cuanto a la apariencia visual, Eduardo comentó que la landing page le pareció moderna y atractiva, destacando que transmite confianza y profesionalismo. Sin embargo, sugirió que la exportación de datos a Excel o PDF podría mejorarse con formatos más personalizables.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -4293,29 +4365,1298 @@ A continuación, se presenta el enlace para visualizar el video de navegación d
 [![Demo](assets/Chapter-3/Inicio%20de%20sesión%20(1).png)](assets/Chapter-3/Grabación%20de%20pantalla%202025-10-09%20165528.mp4)
 
 # Capítulo IV: Product Implementation & Validation
+En este apartado se resume todo el contenido recopilado, examinando los procedimientos a seguir y evaluando el estado emocional.
+## 4. Product Implementation & Validation
+### 4.1. Software Configuration Management
+En la siguiente sección se detalla la ruta de acceso de cada uno de los productos de software, facilitando a cualquier miembro del equipo el desarrollo de cada aspecto del trabajo:
+#### 4.1.1. Software Development Environment Configuration
+* **Android Studio:** Entorno de desarrollo.\
+![image](https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg)
+* **GitHub:** Repositorio colaborativo en la nube.\
+![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+* **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+* **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+* **Visual Studio Code:** Entorno de desarrollo para diseño de base de datos.\
+![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+* **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+![image](https://hackmd.io/_uploads/BJ99okXeR.png)
 
-## 4.1. Software Configuration Management
-### 4.1.1. Software Development Environment Configuration
-### 4.1.2. Source Code Management
-### 4.1.3. Source Code Style Guide & Conventions
-### 4.1.4. Software Deployment Configuration
+#### 4.1.2. Source Code Management
+**Repositorio de la Landing Page:** 
 
-## 4.2. Landing Page & Mobile Application Implementation
-### 4.2.1. Sprint n
-#### 4.2.1.1. Sprint Planning n
-#### 4.2.1.2. Sprint Backlog n
-#### 4.2.1.3. Development Evidence for Sprint Review
-#### 4.2.1.4. Testing Suite Evidence for Sprint Review
-#### 4.2.1.5. Execution Evidence for Sprint Review
-#### 4.2.1.6. Services Documentation Evidence for Sprint Review
-#### 4.2.1.7. Software Deployment Evidence for Sprint Review
-#### 4.2.1.8. Team Collaboration Insights during Sprint
+**Implementación de GitFlow:**
 
-## 4.3. Validation Interviews
-### 4.3.1. Diseño de Entrevistas
-### 4.3.2. Registro de Entrevistas
-### 4.3.3. Evaluaciones según heurísticas
+Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
 
+![image](https://hackmd.io/_uploads/rJt95BobA.png)
+* **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+    * Notación: main
+* **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+    * Notación: develop
+* **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+    * Debe derivarse de: develop
+    * Debe fusionarse con: develop y master/main
+    * Notación: release
+* **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+    * Debe derivarse de: develop
+    * Debe fusionarse de vuelta a: develop
+    * Notación: feature
+* **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+    * Debe derivarse de: master/main
+    * Debe fusionarse con: develop y master/main
+    * Notación: hotfix
+
+**Conventional Commits:** 
+Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
+
+**Tipos de Commits Convencionales:**
+* feat: Nuevas características o funcionalidades.
+* fix: Correcciones de errores.
+* docs: Cambios o mejoras en la documentación.
+* style: Cambios de formato que no afectan la funcionalidad.
+* refactor: Mejoras en la estructura o legibilidad del código.
+* test: Adición o modificación de pruebas.
+* chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+* perf: Mejoras de rendimiento en el código.
+
+#### 4.1.3. Source Code Style Guide & Conventions
+### HTML
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Etiquetas y atributos en minúsculas    | `<div class="container">`, `<img src="logo.png" alt="Logo">`           |
+| Atributos ordenados lógicamente        | `class`, `id`, `name`, `type`, `value`, etc.                           |
+| Uso de comillas dobles                 | `<input type="text" name="username">`                                  |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs                                            |
+
+---
+
+### CSS
+
+| Regla                                   | Ejemplo / Explicación                                                   |
+|----------------------------------------|--------------------------------------------------------------------------|
+| Nombres de clases en `kebab-case`      | `.main-header`, `.user-profile-card`                                   |
+| Propiedades en minúsculas y ordenadas  | `color: #333; font-size: 16px; margin-top: 20px;`                       |
+| Uso de comentarios                     | `/* Sección de estilos para el header */`                              |
+| Indentación consistente                | 2 o 4 espacios, no usar tabs                                            |
+
+---
+
+### JavaScript
+
+| Regla                                       | Ejemplo / Explicación                                                   |
+|--------------------------------------------|--------------------------------------------------------------------------|
+| Variables y funciones en `camelCase`       | `let userName = "Juan";`, `function getUserData() {}`                  |
+| Clases en `PascalCase`                     | `class UserProfile {}`                                                 |
+| Constantes en `UPPER_SNAKE_CASE`           | `const API_URL = "https://api.example.com";`                           |
+| Uso de `const` y `let`                     | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas            | `let nombre = "Carlos";`                                               |
+| Indentación consistente (2 o 4 espacios)   | Mantener el mismo estilo en todo el proyecto                           |
+
+---
+
+### Kotlin
+
+| Regla                                         | Ejemplo / Explicación                                                   |
+|----------------------------------------------|--------------------------------------------------------------------------|
+| Variables y funciones en `camelCase`         | `val userName = "Juan"`, `fun getUserData() {}`                         |
+| Clases y objetos en `PascalCase`             | `class UserProfile`, `object AppConfig`                                 |
+| Constantes en `UPPER_SNAKE_CASE`             | `const val MAX_USERS = 100`                                             |
+| Archivos nombrados igual que la clase        | `UserProfile.kt`                                                        |
+| Indentación con 4 espacios                   | No usar tabs                                                            |
+| Uso de `val` por defecto, `var` si mutable   | Promueve inmutabilidad                                                  |
+| Expresiones lambda con `it`   | `users.filter { it.isActive }` |
+
+#### 4.1.4. Software Deployment Configuration
+**Deployment Landing Page:** 
+
+En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
+
+1. Se crea un repositorio en GitHub para alojar el código de nuestra landing page.
+
+![image](https://imgur.com/4J7UJO8.png)
+
+2. Agregamos a los participantes:
+
+![image](https://imgur.com/BZ8WX95.png)
+
+1. Habilitamos Netlifly para poder importar nuestro proyecto:
+
+![image](https://imgur.com/KcnDArx.png)
+
+
+4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
+
+![image](https://imgur.com/FAx39hz.png)
+
+Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la plataforma de Netlifly, siguiendo las especificaciones y requisitos de nuestro proyecto.
+
+**Enlace de la Landing Page: https://stockwiselanding.netlify.app/**
+
+### Deployment Backend:
+En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Google Cloud.
+
+**Enlace del Backend: http://34.39.181.148:8080/swagger/index.html**
+
+#### Creación de VPS en Google Cloud Platform (GCP)
+
+A continuación se detallan los pasos para crear un servidor privado virtual (VPS) en Google Cloud Platform para el despliegue del backend:
+
+##### 1. Configuración Inicial del Proyecto
+
+**Paso 1: Crear un Proyecto en GCP**
+1. Iniciar sesión en [Google Cloud Console](https://console.cloud.google.com/)
+2. Hacer clic en el selector de proyectos en la parte superior
+3. Seleccionar "NUEVO PROYECTO"
+4. Asignar un nombre descriptivo al proyecto (ej: "stockwise-backend")
+5. Hacer clic en "CREAR"
+
+**Paso 2: Configurar Facturación**
+1. Navegar a "Facturación" en el menú de navegación
+2. Vincular una cuenta de facturación válida
+3. Seleccionar el proyecto creado como proyecto de facturación
+
+##### 2. Creación de la Instancia de VM
+
+**Paso 3: Habilitar Compute Engine API**
+1. En la barra de búsqueda, escribir "Compute Engine API"
+2. Seleccionar la API y hacer clic en "HABILITAR"
+
+**Paso 4: Crear Instancia de VM**
+1. Navegar a "Compute Engine" > "Instancias de VM"
+2. Hacer clic en "CREAR INSTANCIA"
+3. Configurar los siguientes parámetros:
+
+**Detalles de la Instancia:**
+- **Nombre**: stockwise-backend-server
+- **Región**: us-central1 (o la región más cercana a los usuarios)
+- **Zona**: us-central1-a
+
+**Configuración de Máquina:**
+- **Tipo de máquina**: e2-medium (2 vCPU, 4 GB RAM)
+- **Serie**: E2
+- **Tipo de máquina**: Uso general
+
+**Disco de arranque:**
+- **Sistema operativo**: Ubuntu
+- **Versión**: Ubuntu 20.04 LTS
+- **Tipo**: Disco persistente equilibrado
+- **Tamaño**: 30 GB
+
+**Firewall (Reglas de red):**
+-  Permitir tráfico HTTP
+-  Permitir tráfico HTTPS
+-  Permitir tráfico SSH
+
+4. Hacer clic en "CREAR" para iniciar la creación de la instancia
+
+
+##### 3. Configuración de Acceso y Seguridad
+
+**Paso 5: Configurar Acceso SSH**
+1. Una vez creada la instancia, hacer clic sobre el nombre de la instancia
+2. En la sección "Conectarse", hacer clic en "Modificar" en "Control de acceso"
+3. Agregar la clave SSH pública del equipo de desarrollo
+4. Alternativamente, usar "Abrir en ventana del navegador" para acceso directo
+
+**Paso 6: Configurar Reglas de Firewall Personalizadas**
+1. Navegar a "Redes VPC" > "Firewall"
+2. Hacer clic en "CREAR REGLA DE FIREWALL"
+3. Configurar para el backend:
+   - **Nombre**: backend-api-allow
+   - **Dirección IP de origen**: 0.0.0.0/0 (para desarrollo)
+   - **Protocolos y puertos**: TCP, puerto 8080 (o puerto del API)
+4. Hacer clic en "CREAR"
+<br>
+
+![Dashboard de Google Cloud](assets/chapter-4/googleCloud-Dashboard.png)
+<br>
+
+![Swagger-1](assets/chapter-4/swagger-1.png)
+<br>
+
+![Swagger-2](assets/chapter-4/swagger-2.png)
+<br>
+
+![Swagger-3](assets/chapter-4/swagger-3.png)
+<br>
+
+![Swagger-4](assets/chapter-4/swagger-4.png)
+
+
+
+### 4.2. Landing Page & Mobile Application Implementation
+#### 4.2.1. Sprint 1
+Este informe documenta el progreso realizado durante la fase de definición de requisitos del proyecto, que incluye entrevistas con los interesados y creación de artefactos antes y después de la implementación de la aplicación mobile. Proporcionar una visión clara del avance y garantizar una comunicación efectiva entre el equipo de desarrollo y los interesados son los objetivos principales.
+
+Durante esta etapa, se realizaron extensas entrevistas con los interesados para comprender sus necesidades, expectativas y requisitos particulares para la aplicación. Las entrevistas proporcionaron información útil que ayudó a definir los requisitos del proyecto.
+
+Se realizaron actividades de creación de artefactos antes y después de la implementación de la aplicación mobile, además de entrevistas. Estos objetos fueron:
+##### 4.2.1.1. Sprint Planning 1
+| Sprint # | Sprint 1  | 
+|--------------------|------------|
+| Sprint Planning Background | 
+| Date | 2025-10-8 | 
+| Time |  22:23 PM |
+| Location |  UPC - Monterrico |
+| Preparate by| Camila Sanchez Rios | 
+|  Attendees (to planning meeting) | Jocelyn Almerco, Kevin Chi, Alejandro Oroncoy, Jeremy Paucar | 
+| Sprint n-1 Review Summary | En resumen se desarrollaron avances en la landing page, backend y frontend mobile | 
+| Sprint Planning Background | Durante esta etapa, se llevó a cabo una exhaustiva verificación de la funcionalidad de la landing page diseñada para el proyecto. El objetivo principal fue asegurar que la landing page cumpla con los estándares de calidad y proporcionar una experiencia óptima para los visitantes. Asimismo, se realizó la primera implementación de la aplicación mobil y el despliegue del backend |
+| Sprint Goal & User Stories | 
+| Sprint 1 Goal | Desarrolar la funcionalidad de la página web con i18n e implementar el backend. Se considerará que el objetivo del sprint se ha cumplido si todas las historias de usuario relacionadas con la landing page están implementadas y si todas las historias de usuario relacionadas con la implementación de APIs para la gestión de una entidad están completadas en un 80%. |  
+| Sprint Velocity | Se establece un Velocity de 24 Story Points para este Sprint. | 
+| Sum of Story Points | 24 Story Points | 
+
+##### 4.2.1.2. Sprint Backlog 1
+**Objetivo del Sprint:**  
+Desarrollar la funcionalidad principal del sistema de gestión de inventario para bodegas, implementando los módulos de productos, inventario y reportes, así como los servicios API de autenticación y creación de productos.  
+El Sprint se considera completado si las historias de usuario relacionadas con la gestión de inventarios y APIs de usuario están implementadas y validadas mediante pruebas unitarias e integración.
+
+| Sprint # | Sprint n | **User Story** |   | **Work-Item / Task** |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|
+|   |   | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| 1 | Sprint 1 | US01 | Registrar producto nuevo | TSK-01 | Implementar formulario de registro | Formulario para crear producto con validación de campos requeridos; al guardar debe persistir en BD y aparecer en inventario. | 6 | Jeremy | Done |
+| 1 | Sprint 1 | US02 | Editar información de producto | TSK-02 | Desarrollar módulo de edición | Edición de un producto existente con validaciones; guarda cambios válidos y muestra errores si son inválidos. | 5 | Jocelyn | Done |
+| 1 | Sprint 1 | US03 | Registrar salida de producto | TSK-03 | Control de stock de salida | Registrar salida si hay stock suficiente, descontar cantidad y crear movimiento; rechazar si supera stock. | 5 | Kevin | Done |
+| 1 | Sprint 1 | US05 | Usuario de inventario | TSK-04 | Crear interfaz de autenticación | UI para registro/login del usuario de inventario integrada con APIs de autenticación. | 6 | Alejandro | Done |
+| 1 | Sprint 1 | US06 | Buscar productos en inventarios | TSK-05 | Implementar búsqueda avanzada | Búsqueda por nombre/código con resultados en tiempo real y mensaje “No se encontraron resultados” si no hay coincidencias. | 5 | Jeremy | Done |
+| 1 | Sprint 1 | US07 | Añadir etiquetas para productos | TSK-06 | Crear módulo de etiquetas | Gestión de etiquetas: crear/sugerir existentes y filtrar por etiqueta en inventario. | 5 | Jocelyn | Done |
+| 1 | Sprint 1 | US08 | Generar estadística de productos más vendidos | TSK-07 | Implementar gráfico de ventas | Ranking por periodo (unidades/ingresos) y opción de exportar a PDF. | 6 | Kevin | Done |
+| 1 | Sprint 1 | US12 | Generar reportes de inventario | TSK-08 | Crear vista de reportes | Generación de reportes por fecha/categoría/stock mínimo con opción de exportar a PDF o Excel. | 6 | Alejandro | Done |
+| 1 | Sprint 1 | US17 | Registrar lote de productos | TSK-09 | Programar ingreso por lotes | Registro de múltiples productos en un lote con proveedor, fecha y condiciones; visualizar detalle del lote. | 5 | Kevin | Done |
+| 1 | Sprint 1 | TS01 | API Registro de usuarios | TSK-10 | Desarrollar endpoint /sign-up | Endpoint de registro que retorna token (201) y valida duplicados/formatos (400/409). | 4 | Alejandro | Done |
+| 1 | Sprint 1 | TS02 | API Autenticación de usuarios | TSK-11 | Desarrollar endpoint /sign-in | Endpoint de login que emite access/refresh tokens (200) y maneja 401/403 para credenciales inválidas. | 4 | Jeremy | Done |
+| 1 | Sprint 1 | TS03 | API Creación de productos | TSK-12 | Crear endpoint /products | Crear producto (201) con validaciones y unicidad; soportar imagen/código de barras; errores 400/409. | 5 | Jocelyn | Done |
+| 1 | Sprint 1 | TS04 | API Consulta de productos | TSK-13 | Implementar GET /products/by-category | Listado paginado/ordenado; estado vacío si no hay registros. | 4 | Kevin | Done |
+| 1 | Sprint 1 | TS05 | API Productos por categoría | TSK-14 | GET /products/by-tag | Filtro por categoría/etiqueta ignorando mayúsculas/acentos; permitir limpiar filtros. | 4 | Jeremy | Done |
+| 1 | Sprint 1 | TS06 | API Productos por etiqueta | TSK-15 | Endpoint /products/by-tag | Autocompletado y combinación con otros filtros activos; lista vacía si no hay coincidencias. | 4 | Kevin | Done |
+| 1 | Sprint 1 | TS09 | API Inventario por producto | TSK-16 | Endpoint /inventory/by-product | Consultar stock y últimos movimientos por producto; 404 si no existe. | 6 | Alejandro | Done |
+| 1 | Sprint 1 | US18 | Visualizar historial de stock | TSK-17 | Crear historial de cambios | Gráfica de variación de stock por producto con filtro de periodo. | 5 | Jocelyn | To-Do |
+| 1 | Sprint 1 | US20 | Añadir etiquetas a productos | TSK-18 | Implementar visualización en interfaz | Alta/edición con etiquetas nuevas o existentes; búsqueda por etiqueta. | 4 | Jeremy | To-Do |
+| 1 | Sprint 1 | US21 | Buscar productos en inventario | TSK-19 | Integrar búsqueda en inventario | Búsqueda por nombre y filtros por categoría desde módulo de inventario. | 5 | Kevin | To-Do |
+| 1 | Sprint 1 | US23 | Registrar ingreso de productos | TSK-20 | Crear flujo de entrada | Ingreso individual desde formulario y soporte para carga masiva por archivo. | 5 | Alejandro | To-Do |
+| 1 | Sprint 1 | US24 | Visualizar resumen de stock por categoría | TSK-21 | Mostrar gráfico resumen | Tabla/gráfico con totales y stock promedio por categoría, con acceso al detalle. | 5 | Jocelyn | To-Do |
+
+SPRINT BACKLOG 1: https://trello.com/b/8Uj3aB6o/stockwise-sprint1
+
+##### 4.2.1.3. Development Evidence for Sprint Review
+Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
+
+<table>
+   <tr>
+      <td>Repository</td>
+      <td>Branch</td>
+      <td>Component</td>
+      <td>Commit Id</td>
+      <td>Commit Message</td>
+      <td>Commited on (Date)</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services</td>
+      <td>Main</td>
+      <td>Backend</td>
+      <td>a83775a0459b3c8f7ca1a8e41782c349a9e849b3</td>
+      <td>inicial commit>
+      <td>Octubre 09, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Landing-Page</td>
+      <td>Develop</td>
+      <td>Landing Page</td>
+      <td>27811d1b1f7fae66c103cf20dd69dde3615c416b</td>
+      <td>initialize React application with Vite</td>
+      <td>Octubre 2, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Native-mobile-development</td>
+      <td>Development</td>
+      <td>Mobile Frontend</td>
+      <td>13b7a69ca9f225b3b39bd1e6bd28397243c16596</td>
+      <td>fix response to endPoint login</td>
+      <td>Ocrubre 9, 2025</td>
+   </tr>
+</table>
+
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services del módulo **Inventories** del proyecto **Stoq (Web-Services)**.  
+El stack de testing utilizado fue **C#/.NET 8**, **xUnit**, **Moq**, **EF Core InMemory**, **Microsoft.AspNetCore.Mvc.Testing** y **SpecFlow (Gherkin)**.
+
+#### Cobertura por pieza de código
+- **InventoryByProductQueryService**
+  - Unit: verifica que `GetAllAsync()` delega en `IInventoryByProductRepository.ListAsync()`.
+  - Unit: verifica que `GetByIdAsync(id)` llama `FindByIdAsync(id)` y retorna `null` si no existe.
+- **InventoryByBatchCommandService**
+  - Unit: `Handle(CreateInventoryByBatchCommand)` crea `InventoryByBatch`, llama `AddAsync` y `unitOfWork.CompleteAsync()`.
+  - Unit: `DeleteAsync(id)` elimina y confirma unidad de trabajo cuando existe; retorna `false` si no encuentra.
+- **Integration** (Web API)
+  - Endpoints de Inventario por Lote y por Producto con **EF Core InMemory**, levantados con **WebApplicationFactory**.
+- **Acceptance (BDD)**
+  - `.feature` “Crear inventario por lote” y “Eliminar inventario por lote” con escenarios Gherkin; *step definitions* en C# validando respuestas HTTP y estado persistido.
+
+A continuación, la tabla de commits **relacionados exclusivamente con testing**:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|-------------|-------|-----------|----------------|---------------------|---------------------|
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite | 1a9c7e4 | test(unit): add xUnit+Moq tests for InventoryByProductQueryService | Se agregaron pruebas unitarias que validan `GetAllAsync` y `GetByIdAsync` usando dobles de prueba de `IInventoryByProductRepository`. Se verifican llamadas a `ListAsync()`/`FindByIdAsync()` y retornos nulos cuando no existe el Id. | 08/10/2025 |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite | 3f21bd0 | test(unit): cover InventoryByBatchCommandService (Handle/DeleteAsync) | Se añadieron pruebas con Moq para asegurar que `Handle` llama `AddAsync` y `CompleteAsync`. `DeleteAsync` elimina cuando encuentra el Id y retorna `false` si no existe. | 08/10/2025 |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/integration-tests | 7c5d2a9 | test(integration): API endpoints with WebApplicationFactory + EF InMemory | Se configuró `WebApplicationFactory` y una BD InMemory para probar endpoints de creación/consulta/eliminación de inventarios por lote y por producto, verificando códigos 201/200/404. | 09/10/2025 |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/acceptance-bdd | c84a110 | test(bdd): SpecFlow features and step definitions for inventory flows | Se añadieron `.feature` con escenarios Gherkin (crear y eliminar inventario por lote) y *steps* en C# que consumen la API, asertan payload y estado en BD InMemory. | 09/10/2025 |
+
+#### Relación de tests diseñados (extracto)
+
+- **Unit (xUnit/Moq)**
+  - `InventoryByProductQueryServiceTests.GetAllAsync_ReturnsRepositoryList`
+  - `InventoryByProductQueryServiceTests.GetByIdAsync_ReturnsEntityOrNull`
+  - `InventoryByBatchCommandServiceTests.Handle_PersistsAndCommits`
+  - `InventoryByBatchCommandServiceTests.DeleteAsync_DeletesWhenFound_ReturnsTrue`
+  - `InventoryByBatchCommandServiceTests.DeleteAsync_WhenNotFound_ReturnsFalse`
+
+- **Integration (WebApplicationFactory + EF InMemory)**
+  - `POST /api/inventories/batches` → 201 y body con Id generado.
+  - `GET /api/inventories/batches/{id}` → 200 con entidad o 404 si no existe.
+  - `DELETE /api/inventories/batches/{id}` → 204 cuando elimina.
+
+- **Acceptance BDD (SpecFlow/Gherkin) – ejemplo de `.feature` (resumen):**
+  - **Crear inventario por lote**
+    ```
+    Feature: Crear inventario por lote
+      Scenario: Crear inventario con datos válidos
+        Given un payload válido de inventario por lote
+        When envío POST a /api/inventories/batches
+        Then la respuesta es 201 Created
+        And el inventario persiste en la base de datos
+    ```
+  - **Eliminar inventario por lote**
+    ```
+    Scenario: Eliminar inventario existente
+      Given existe un inventario por lote con Id 10
+      When envío DELETE a /api/inventories/batches/10
+      Then la respuesta es 204 No Content
+      And el recurso ya no está disponible
+    ```
+
+> Repositorio y rutas de pruebas: `Web-Services/tests/Inventories.*` (folders `Unit`, `Integration`, `Acceptance` con SpecFlow).
+
+##### 4.2.1.5. Execution Evidence for Sprint Review
+Durante este Sprint, se han alcanzado varios hitos importantes en la implementación de la Landing Page. Además se realizaron avances en el frontend de la aplicaciones mobile. Se han completado las siguientes tareas:
+
+- Implementación de la sección Beneficios
+- Visualización de funcionalidades.
+- Visualización de planes disponibles.
+- Implementacion de la Internacionalizacion
+
+### Screenshots
+
+#### Landing Page
+![Landing Page](https://imgur.com/FAx39hz.png)
+
+#### Funciones claves
+![Características](https://imgur.com/UWonPsf.png)
+
+#### Sección de Planes Disponibles
+![Planes Disponibles](https://imgur.com/xjaqRsc.png)
+
+### Seccion de cambio de idioma
+
+![I18n](https://imgur.com/8Bs1Hul.png)
+
+#### Mobile Frontend
+
+![Inicio](https://imgur.com/krlIFKF.png)
+
+##### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se evidencia la documentación de los servicios implementados para el sprint actual que conforman el backend.
+
+Backend
+
+![Swagger](assets/chapter-4/swagger-5.png)
+<br>
+
+Athentication 
+
+![Swagger-1](assets/chapter-4/swagger-IAM.png)
+<br>
+
+Inventory
+
+![Swagger-1](assets/chapter-4/swagger-inventory.png)
+<br>
+
+Products
+
+![Swagger-1](assets/chapter-4/swagger-Products.png)
+<br>
+
+Combos
+
+![Swagger-1](assets/chapter-4/swagger-Combos.png)
+<br>
+
+Report 
+![Swagger-1](assets/chapter-4/swagger-Report.png)
+
+<br>
+
+##### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+##### Landing Page
+
+Para el despliegue de la landing page se realizaron los siguientes pasos:
+
+#### 1. Preparación del proyecto
+Se organizó el proyecto con todos los archivos necesarios del sitio web:
+- Archivos HTML, CSS, JavaScript e imágenes
+- Estructura de carpetas clara (`/css`, `/js`, `/images`, etc.)
+
+#### 2. Creación de cuenta o acceso a Netlify
+Se accedió a [https://www.netlify.com](https://www.netlify.com) para iniciar sesión o crear una cuenta, vinculándola con un proveedor de repositorios como GitHub, GitLab o Bitbucket.
+
+#### 3. Nuevo sitio desde Git
+Se eligió la opción **"Add new site" > "Import an existing project"** para conectar el repositorio del proyecto de la landing page.
+
+#### 4. Autorización y selección del repositorio
+Se autorizó a Netlify a acceder al repositorio y se seleccionó el repositorio correspondiente al proyecto.
+
+#### 5. Configuración del despliegue
+Durante la configuración:
+- Se indicó la rama que contiene el código (por ejemplo, `main`)
+- Se dejó vacío el campo de build si el proyecto no requiere compilación
+- Se indicó el directorio de publicación (por ejemplo, `/` si los archivos están en la raíz)
+
+#### 6. Despliegue automático
+Se lanzó el primer despliegue, y Netlify generó automáticamente una URL pública para acceder al sitio.
+
+#### 7. Personalización de dominio (opcional)
+Se puede añadir un dominio personalizado desde la sección de configuración de dominio. Netlify gestiona automáticamente el certificado SSL (HTTPS).
+
+#### 8. Actualizaciones automáticas
+Cada vez que se realice un push a la rama seleccionada, Netlify desplegará automáticamente los nuevos cambios.
+
+#### 9. Monitoreo del sitio
+Desde el panel de control de Netlify es posible:
+- Consultar el historial de despliegues
+- Ver errores si los hay
+- Configurar variables de entorno
+- Ver estadísticas básicas del sitio
+
+![Netlify](https://imgur.com/8rSU9Xp.png)
+
+##### Backend
+
+Para el despliegue del backend se realizaron los siguientes pasos:
+#### 1. Configuración del Entorno Docker en el VPS
+
+**Paso 1: Instalación de Docker y Docker Compose**
+```bash
+# Actualizar paquetes del sistema
+sudo apt update && sudo apt upgrade -y
+
+# Instalar dependencias necesarias
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+
+# Agregar la clave GPG oficial de Docker
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+# Agregar el repositorio de Docker
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Actualizar paquetes e instalar Docker
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+# Iniciar y habilitar Docker
+sudo systemctl start docker
+sudo systemctl enable docker
+
+# Añadir el usuario actual al grupo docker
+sudo usermod -aG docker $USER
+```
+
+**Paso 2: Verificación de la instalación**
+```bash
+# Verificar versión de Docker
+docker --version
+docker compose version
+
+# Probar Docker con un contenedor de prueba
+docker run hello-world
+```
+
+#### 2. Preparación del Proyecto ASP.NET 9
+
+**Paso 3: Creación del Dockerfile**
+```dockerfile
+# Usar imagen base de ASP.NET 9
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+COPY ["StockWise.API/StockWise.API.csproj", "StockWise.API/"]
+RUN dotnet restore "StockWise.API/StockWise.API.csproj"
+
+COPY . .
+WORKDIR "/src/StockWise.API"
+RUN dotnet build "StockWise.API.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "StockWise.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "StockWise.API.dll"]
+```
+
+**Paso 4: Creación del archivo docker-compose.yml**
+```yaml
+version: '3.8'
+
+services:
+  stockwise-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Host=stockwise-db;Database=StockWiseDB;Username=stockwise_user;Password=TuPasswordSeguro123!
+    depends_on:
+      - stockwise-db
+    networks:
+      - stockwise-network
+    restart: unless-stopped
+
+  stockwise-db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=StockWiseDB
+      - POSTGRES_USER=stockwise_user
+      - POSTGRES_PASSWORD=TuPasswordSeguro123!
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - stockwise-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  stockwise-network:
+    driver: bridge
+```
+
+#### 3. Despliegue de la Aplicación
+
+**Paso 5: Clonación del Repositorio y Configuración**
+```bash
+# Crear directorio para la aplicación
+sudo mkdir -p /opt/stockwise
+cd /opt/stockwise
+
+# Clonar el repositorio
+git clone https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services.git .
+
+# Construir las imágenes Docker
+docker compose build
+
+# Iniciar los servicios en modo detached
+docker compose up -d
+
+# Verificar el estado de los contenedores
+docker compose ps
+```
+
+#### 4. Configuración de Nginx como Reverse Proxy
+
+**Paso 6: Instalación y Configuración de Nginx**
+```bash
+# Instalar Nginx
+sudo apt install -y nginx
+
+# Configurar SSL con Let's Encrypt
+sudo apt install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d tu-dominio.com
+```
+
+Este proceso completo asegura el despliegue robusto y escalable de la API ASP.NET 9 con PostgreSQL utilizando contenedores Docker en un VPS.
+
+![Swagger-1](assets/chapter-4/googleCloud-Dashboard2.png)
+
+##### 4.2.1.8. Team Collaboration Insights during Sprint
+
+En esta sección se proporcionan los insights para el sprint 1.
+
+**Documentation**
+
+En esta sección, el equipo destacó la importancia de mantener una documentación clara y actualizada que facilite la colaboración y el entendimiento común. Se identificó que una buena documentación agiliza la resolución de dudas y mejora la calidad del desarrollo. 
+
+A continuación se muestran los insights del equipo para la sección correspondiente:
+
+![Doc](https://imgur.com/1aY7feG.png)
+
+**Landing Page** 
+
+El equipo observó que la landing page funciona como la primera ventana de contacto con el usuario, por lo que es vital que sea atractiva y fácil de navegar. Se resaltó la necesidad de optimizar los textos y elementos visuales para maximizar la conversión y el enganche inicial. 
+
+A continuación se muestran los insights del equipo para la sección correspondiente:
+
+[![Landing](https://imgur.com/0sc9mos.png)](https://imgur.com/0sc9mos.png)
+
+**Backend**
+
+En equipo analizamos que la arquitectura del backend debía ser robusta y escalable para soportar las futuras demandas. Identificamos retos en la gestión de datos y seguridad, lo que motivó la implementación de buenas prácticas para garantizar la integridad y eficiencia. 
+
+A continuación se muestran los insights del equipo para la sección correspondiente:
+
+![back](assets/chapter-4/Web-Services-insight.png)
+
+
+**Mobile Frontend**
+
+Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas. 
+
+[![Front](https://imgur.com/83O5qvN.png)](https://imgur.com/83O5qvN.png)
+
+### 4.3. Validation Interviews
+#### 4.3.1. Diseño de Entrevistas
+
+**Segmento #1: Bodegas especializadas por rubro**
+
+**Presentación del entrevistado**
+
+* ¿Cuál es tu nombre?
+  
+* ¿Qué edad tienes?
+
+* ¿Desde cuándo gestionas esta bodega?
+
+* ¿Cuál es el rubro principal de tu bodega?
+
+El usuario interactúa con la app móvil de la plataforma para gestión de inventarios.
+
+Landing page
+
+Acciones clave dentro del sistema
+
+Navegación interactivo por la interfaz app móvil 
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar".
+
+A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico.
+
+Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma.
+
+Del mismo modo, si el usuario desea retirar su información o actualizarla, lo podrá hacer a través de su perfil.
+
+Finalmente, hacer clic en el botón "Aceptar".
+
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña.
+
+Luego hace clic en el botón "Log In".
+
+Después, se le redirige al panel de perfil.
+
+Allí puede editar su información personal y acceder a herramientas según su perfil ("Administrador" o "Empleado").
+
+**User Goal: Navegar por el Dashboard**
+
+El usuario inicia sesión desde la Landing Page.
+
+Ingresa a la vista principal del Dashboard.
+
+Visualiza el total de productos registrados y la fecha del último proveedor.
+
+Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
+
+Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+
+**User Goal: Inventario (Producto / Lote)**
+
+Ingresa a la sección de Inventario.
+
+Revisa el listado de productos presionando el botón "por producto".
+
+Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
+
+Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
+
+
+**User Goal: Botones Principales (Agregar Producto y Kits)**
+
+Pulsa el botón "Agregar Producto".
+
+Rellena los campos solicitados para registrar uno nuevo.
+
+Pulsa el botón "Crear Kit".
+
+Combina productos existentes para crear un kit nuevo.
+
+El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+
+Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+
+Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre, etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+
+Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
+
+**User Goal: Historial de Movimientos**
+
+Navega a la sección de Historial.
+
+Visualiza entradas y salidas de productos.
+
+Filtra movimientos por fecha, producto o lote.
+
+El usuario accede a la sección de Historial desde el panel principal.
+
+Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+
+Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+
+Consulta métricas como el stock promedio, estado del producto y stock ideal.
+
+Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
+
+**User Goal: Alerta de Stock**
+
+El usuario accede a la sección de Alertas desde el menú superior.
+
+Consulta una lista de productos que presentan alertas por stock mínimo o por cercanía a su fecha de vencimiento.
+
+Visualiza detalles como categoría de alerta, tipo de producto, nombre y fecha de alerta.
+
+Puede ingresar a una vista de detalles, generar reportes o confirmar acciones desde botones individuales por producto.
+
+También puede eliminar una alerta específica luego de una confirmación emergente.
+
+**Preguntas principales:**
+
+* ¿Te resultó fácil encontrar cómo agregar un producto?
+  
+* ¿Qué tal fue el proceso para registrar el stock por producto y por lote?
+  
+* ¿Te resultó claro el apartado de “Próximos a caducar”? ¿Te pareció útil?
+  
+* ¿Probaste la sección de kits? ¿Te resultó útil combinar productos?
+  
+* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+  
+* ¿Qué te pareció el diseño general de la landing page?
+  
+* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+
+**Valoración de experiencia**
+
+* Del 1 al 10, ¿qué tan útil te pareció la app para tu bodega?
+  
+* ¿Qué funcionalidad te pareció más valiosa?
+  
+* ¿Qué función le agregarías sí o sí?
+  
+* ¿Recomendarías esta plataforma a otros dueños de bodegas? ¿Por qué?
+
+**Segmento #2: Startups y emprendedores con necesidades logísticas**
+
+**Presentación del entrevistado**
+
+* ¿Cuál es tu nombre?
+* ¿Qué edad tienes?
+* ¿Qué tipo de producto vendes o almacenas?
+* ¿Tienes local físico, almacén propio o trabajas con terceros?
+  
+Interactúa el usuario con la landing page y la versión web de nuestra plataforma para gestión gestionar stock, registrar compras y generar reportes.
+
+**Landing page**
+
+Acciones clave dentro del sistema
+
+Navegación interactivo por la interfaz app móvil 
+
+**User Goal: Registrar**
+
+El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar".
+
+A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico.
+
+Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma.
+
+Del mismo modo, si el usuario desea retirar su información o actualizarla, lo podrá hacer a través de su perfil.
+
+Finalmente, hacer clic en el botón "Aceptar".
+
+**User Goal: Iniciar sesión**
+
+El usuario introduce su correo y contraseña.
+
+Luego hace clic en el botón "Log In".
+
+Después, se le redirige al panel de perfil.
+
+Allí puede editar su información personal y acceder a herramientas según su perfil ("Administrador" o "Empleado").
+
+**User Goal: Navegar por el Dashboard**
+
+El usuario inicia sesión desde la Landing Page.
+
+Ingresa a la vista principal del Dashboard.
+
+Visualiza el total de productos registrados y la fecha del último proveedor.
+
+Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
+
+Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+
+**User Goal: Inventario (Lote)**
+
+Accede a la sección de Inventario por lote.
+
+Filtra los lotes por nombre del producto, proveedor, fecha de entrada, cantidad o precio.
+
+Consulta el listado con información detallada como proveedor, producto, fecha, cantidad por unidad, precio y unidad de medida.
+
+Gestiona las acciones disponibles para cada lote desde la columna correspondiente.
+
+*User Goal: Botones Principales (Agregar Producto y Kits)*
+
+Pulsa el botón "Agregar Producto".
+
+Rellena los campos solicitados para registrar uno nuevo.
+
+Pulsa el botón "Crear Kit".
+
+Combina productos existentes para crear un kit nuevo.
+
+El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+
+Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+
+Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre, etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+
+Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
+
+**User Goal: Historial de Movimientos**
+
+Navega a la sección de Historial.
+
+Visualiza entradas y salidas de productos.
+
+Filtra movimientos por fecha, producto o lote.
+
+El usuario accede a la sección de Historial desde el panel principal.
+
+Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+
+Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+
+Consulta métricas como el stock promedio, estado del producto y stock ideal.
+
+Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
+**User Goal: Alerta de Stock**
+
+El usuario accede a la sección de Alertas desde el menú superior.
+
+Consulta una lista de productos que presentan alertas por stock mínimo o por cercanía a su fecha de vencimiento.
+
+Visualiza detalles como categoría de alerta, tipo de producto, nombre y fecha de alerta.
+
+Puede ingresar a una vista de detalles, generar reportes o confirmar acciones desde botones individuales por producto.
+
+También puede eliminar una alerta específica luego de una confirmación emergente.
+
+**Preguntas principales:**
+
+* ¿Qué opinas de las alertas de stock mínimo/máximo y vencimiento? ¿Son suficientes?
+* ¿La sección de historial de movimientos te pareció útil para revisar tus registros?
+* ¿Te resultó útil la opción de devolución de productos?
+* ¿Los reportes del historial son útiles para tomar decisiones?
+* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+* ¿Qué te pareció el diseño general de la landing page?
+* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+  
+**Valoración de experiencia**
+
+* Del 1 al 10, ¿qué tan útil te pareció la app móvil  para tu bodega?
+* ¿Qué funcionalidad te pareció más valiosa?
+* ¿Qué función le agregarías sí o sí?
+* ¿Recomendarías esta plataforma a otros emprendedores? ¿Por qué?
+
+
+#### 4.3.2. Registro de Entrevistas
+
+**Segmento 1: Bodegas especializadas por rubro**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Milagros Almerco</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Milagros Almerco, evaluó la app móvil StockWise y destacó su facilidad de uso al registrar productos y gestionar inventario. Aunque al inicio tuvo dudas sobre la diferencia entre “stock” y “lote”, logró comprenderlo rápidamente gracias a la interfaz intuitiva. Resaltó como funcionalidades más valiosas el control de productos próximos a vencer y la visualización por lotes, que considera claves para evitar pérdidas. Valoró también el diseño moderno y claro, sin presentar dificultades técnicas. Sugirió como mejora incluir un sistema para registrar pagos pendientes o créditos. En general, calificó la app como práctica, útil y recomendada para otros dueños de bodegas.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 -5:48
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Elvis Aranga Mesa</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>31</td>
+    <th>Distrito</th>
+    <td>Santiago de Surco</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/seg1-Elvis.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+       Elvis Aranga Meza, encargado de un mini market en Surco, compartió su experiencia utilizando la app m´vil para la gestión de bodegas, destacando la facilidad de uso tanto para agregar productos como para navegar por las funciones principales, y calificando su utilidad con un 9 sobre 10. Consideró el diseño visual adecuado y sencillo, aunque sugirió mejorar el tamaño de la interfaz en dispositivos móviles. Resaltó la utilidad de funciones como la visualización de fechas de vencimiento para evitar mermas y la organización de productos por lote, lo cual facilita la gestión de promociones. Sugirió incorporar reportes y estadísticas que permitan proyectar ventas y establecer metas. Finalmente, recomendó la plataforma a otros bodegueros, especialmente por su precio y utilidad, aunque señaló la importancia de brindar asistencia a usuarios con menos experiencia tecnológica.
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         5:48 - 11:47
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Catalina Villa Guerra</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>Breña</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Interview-Catalina-Villa.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+Catalina es una administradora de 28 años, encargada de gestionar una bodega familiar en el distrito de Breña. Ella menciona que las funciones que más le gustaron fueron la de alerta de productos próximos a vencer y la de control de stock, ya que considera que le ayudarían a evitar pérdidas por productos caducados y a mantener un mejor seguimiento de sus existencias. Sin embargo, percibe que estas funciones aún son básicas y podrían ofrecer opciones más avanzadas, como recordatorios personalizados o reportes automáticos. En cuanto a la interfaz, a Catalina le agradó el diseño sencillo y organizado, destacando que los botones son fáciles de identificar y las categorías están bien distribuidas. También comentó que la aplicación le resultaría útil para delegar mejor el control del inventario entre los miembros de su familia, facilitando así la administración general de la bodega.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        11:48 - 21:31
+    </td>
+  </tr>
+</table>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>4</td>
+    <th>Nombre</th>
+    <td>Juan Carlos Ramírez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>49</td>
+    <th>Distrito</th>
+    <td>Surquillo</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+      Juan Carlos Ramírez, emprendedor de 49 años, compartió su experiencia al utilizar la aplicación para la gestión de inventarios, destacando la facilidad de uso en el registro y control de productos, así como la organización del historial de movimientos. Consideró que estas herramientas podrían ayudarlo significativamente en su proceso de digitalización, ya que actualmente gestiona las entradas y salidas de manera manual mediante boletas y facturas físicas. En cuanto al diseño, señaló que la interfaz es clara y ordenada, aunque sugirió mejorar la personalización de reportes para adaptarlo mejor a las necesidades de su negocio. Finalmente, destacó que funcionalidades como la alerta de stock bajo y la gestión por lotes serían de gran apoyo para tener un control más preciso del inventario, y que la incorporación de estas herramientas digitales le permitiría automatizar procesos y liberar tiempo operativo en su gestión diaria.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         21:31 - 25:14
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>5</td>
+    <th>Nombre</th>
+    <td>Leonardo Gamboa</td></td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>26</td>
+    <th>Distrito</th>
+    <td>San Miguel</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento2_Leo.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Leonardo G., emprendedor que maneja actualmente su inventario de manera manual con hojas de Excel y una libreta, probó la plataforma y comentó que le pareció intuitiva, útil y eficaz para el control de su negocio. Señaló que la sección de alertas de stock le resultó especialmente atractiva, ya que le permitiría evitar ventas de productos agotados y responder más rápido a la demanda constante que maneja. En cuanto al diseño, mencionó que la interfaz es clara y sencilla, con botones fáciles de identificar y una navegación fluida. Leonardo destacó que la herramienta podría ayudarlo a organizar mejor sus pedidos y actualizar su inventario sin esfuerzo, reemplazando las hojas manuales que utiliza actualmente. También valoró que la plataforma sea accesible y de fácil uso, algo clave para quienes aún no están acostumbrados a los sistemas digitales, pero buscan dar ese paso hacia la automatización de su negocio.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         25:14 - 29:36
+    </td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>6</td>
+    <th>Nombre</th>
+    <td>Gael Rivera</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>xx</td>
+    <th>Distrito</th>
+    <td>xx</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/seg2.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        Eduardo de Rivera Sosa, un emprendedor que importa productos desde Asia para venderlos en Perú, comentó que la idea del proyecto le pareció atractiva y muy necesaria para negocios que manejan múltiples referencias de productos. Durante la prueba, resaltó la facilidad de uso y la organización del panel principal, especialmente en el registro de productos y control de stock. Mencionó que actualmente lleva su inventario en Excel y organiza sus pedidos en Notion, por lo que considera que la app podría integrar y simplificar ambos procesos en un solo espacio digital. Valoró la función de alerta de stock bajo y las opciones de historial de movimientos, que le permitirían tener una visión más clara de sus existencias y reducir pérdidas por errores humanos o por actualizaciones tardías. En cuanto a la apariencia visual, Eduardo comentó que la landing page le pareció moderna y atractiva, destacando que transmite confianza y profesionalismo. Sin embargo, sugirió que la exportación de datos a Excel o PDF podría mejorarse con formatos más personalizables.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+       29:36 - 33:36 
+    </td>
+  </tr>
+</table>
+
+#### 4.3.3. Evaluaciones según heurísticas
+
+**APP A EVALUAR**
+**StockWise – App móvil de gestión de inventario para bodegas y emprendimientos**
+
+---
+
+**TAREAS A EVALUAR**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad en las siguientes tareas:
+
+1. Registro de un nuevo usuario.  
+2. Inicio de sesión con credenciales existentes.  
+3. Registro y edición de productos.  
+4. Búsqueda y filtrado de productos por nombre, categoría o lote.  
+5. Visualización de productos próximos a vencer.  
+6. Registro de salida o venta de productos.  
+7. Consulta del historial de movimientos.  
+8. Visualización de stock y control por lotes.  
+9. Cierre de sesión.  
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con sistemas externos de pago.  
+2. Sincronización con otros dispositivos.  
+3. Administración de usuarios con distintos roles.  
+4. Funcionalidades futuras de geolocalización o predicción de demanda.  
+
+---
+
+**ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción |
+|-------|--------------|
+| **1** | Problema superficial: se supera fácilmente y no interfiere con la tarea. |
+| **2** | Problema menor: ocurre con cierta frecuencia o requiere más esfuerzo. |
+| **3** | Problema mayor: impide completar tareas o genera frustración frecuente. |
+| **4** | Problema crítico: bloquea la tarea o impide el uso del sistema. |
+
+---
+
+**TABLA RESUMEN DE HALLAZGOS**
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
+|---|-----------|---------------------|--------------------------------|
+| 1 | No hay indicador visual claro de diferencia entre “Stock” y “Lote”, lo cual puede generar confusión inicial. | 2 | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
+| 2 | No existe un acceso rápido desde la pantalla principal al registro de ventas o salidas de productos. | 3 | Usability – Flexibilidad y eficiencia de uso. |
+| 3 | No hay opción para registrar créditos o pagos pendientes dentro del flujo principal. | 3 | Information Architecture – Is it complete? |
+| 4 | El tamaño de algunos botones y textos resulta pequeño en ciertos dispositivos móviles. | 2 | Inclusive Design – Accesibilidad visual. |
+| 5 | No existe vista resumida o gráfica de reportes o estadísticas de ventas. | 2 | Usability – Visibilidad del estado del sistema. |
+| 6 | La interfaz no muestra recordatorios personalizables para productos próximos a vencer. | 2 | Usability – Ayuda y prevención de errores. |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**PROBLEMA #1: Confusión inicial entre “Stock” y “Lote”**
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real.  
+
+**Problema:**  
+Durante las pruebas, los usuarios Milagros y Catalina manifestaron dudas iniciales sobre la diferencia entre “stock” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital.  
+
+**Recomendación:**  
+Agregar una breve descripción o globo de ayuda que explique la diferencia entre ambos términos (por ejemplo: “Stock: cantidad total disponible. Lote: grupo de productos con la misma fecha de vencimiento”).  
+
+---
+
+**PROBLEMA #2: Falta de acceso rápido al registro de ventas**
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso.  
+
+**Problema:**  
+Usuarios como Elvis y Juan Carlos señalaron que, aunque el registro de productos es sencillo, no existe un acceso directo desde el dashboard para registrar ventas o salidas. Esto implica más pasos de navegación y retrasa la gestión diaria.  
+
+**Recomendación:**  
+Incluir un botón visible o un acceso rápido en el dashboard para registrar ventas o salidas directamente, sin pasar por el menú lateral.  
+
+---
+
+**PROBLEMA #3: Ausencia de módulo de pagos o créditos pendientes**
+**Severidad:** 3  
+**Heurística violada:** Information Architecture – Is it complete?  
+
+**Problema:**  
+Varios usuarios (Milagros y Juan Carlos) mencionaron la necesidad de registrar pagos pendientes o créditos, dado que muchas bodegas operan con ventas fiadas. La ausencia de esta función limita la utilidad integral de la app.  
+
+**Recomendación:**  
+Agregar un submódulo para registrar clientes con deudas y fechas de pago, con alertas visuales y posibilidad de marcar los pagos como cancelados.  
+
+---
+
+**PROBLEMA #4: Tamaño reducido de texto y botones**
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Accesibilidad visual.  
+
+**Problema:**  
+Elvis mencionó que el tamaño de algunos elementos no se adapta correctamente en pantallas pequeñas, dificultando la interacción para usuarios con menos destreza táctil.  
+
+**Recomendación:**  
+Optimizar el diseño responsivo para móviles, asegurando un tamaño mínimo de toque de 44x44 px y contraste adecuado según WCAG 2.1.  
+
+---
+
+**PROBLEMA #5: Falta de reportes visuales o estadísticas**
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema.  
+
+**Problema:**  
+Los usuarios destacaron que la app podría mejorar si mostrara reportes o gráficos de ventas y stock. Actualmente, la información está distribuida, pero no se resume de forma visual.  
+
+**Recomendación:**  
+Incorporar una vista de “Resumen de actividad” con gráficos simples (barras o pastel) sobre productos más vendidos, alertas y stock por categoría.  
+
+---
+
+**PROBLEMA #6: Recordatorios limitados para productos próximos a vencer**
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Prevención de errores.  
+
+**Problema:**  
+Catalina valoró la alerta de productos próximos a vencer, pero comentó que sería mejor si pudiera configurar recordatorios personalizados según tipo de producto o periodo (por ejemplo, 5, 10 o 30 días antes del vencimiento).  
+
+**Recomendación:**  
+Permitir que el usuario ajuste la anticipación de alertas y el canal de notificación (push o correo).  
+
+---
+
+**CONCLUSIÓN GENERAL**
+
+La app **StockWise** presenta una excelente base de usabilidad y accesibilidad, destacando por su claridad visual, fluidez de navegación y aprendizaje rápido incluso en usuarios con baja experiencia tecnológica.  
+
+Las oportunidades de mejora se centran en profundizar funciones avanzadas de gestión (créditos, reportes, recordatorios personalizados) y refinar detalles visuales en dispositivos móviles.  
+
+En general, los usuarios calificaron la experiencia como positiva, práctica y recomendable, con potencial para convertirse en una herramienta estándar para la gestión de bodegas pequeñas y medianas.
 
 
 # Conclusiones y recomendaciones
@@ -4323,6 +5664,8 @@ El desarrollo de las funcionalidades propuestas para StockWise responde a las ne
 
 # Video App Validation
 # Video About-the-Product
+**Enlace del video: https://youtu.be/gKQCMO4rORw?si=igx6rLDbzR-ltvqh**
+
 # Video About-the-team
 # Bibliografía
 1. Dux Software. (2025, 9 abril). Dux Software: El Sistema de Gestión para tu Negocio. https://www.duxsoftware.com.ar/
@@ -4331,4 +5674,3 @@ El desarrollo de las funcionalidades propuestas para StockWise responde a las ne
 # Anexos
 
 **Video de Exposición TP:** 
-
