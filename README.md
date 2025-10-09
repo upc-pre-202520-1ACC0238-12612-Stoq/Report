@@ -566,7 +566,7 @@ En equipo analizamos que la arquitectura del backend debía ser robusta y escala
 
 A continuación se muestran los insights del equipo para la sección correspondiente:
 
-[![Back](vv.png)](d)
+![back](assets/chapter-4/Web-Services-insight.png)
 
 
 **Mobile Frontend**
