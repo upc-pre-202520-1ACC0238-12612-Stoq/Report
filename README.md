@@ -844,3 +844,12 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 #### 3.1.4.5. Mobile Applications Prototyping
+El apartado de Mobile Application Prototyping muestra el primer acercamiento visual e interactivo al diseño de la aplicación. A través del uso de herramientas de prototipado, se crean representaciones dinámicas que permiten simular la navegación, disposición de módulos y flujos de interacción del usuario antes de pasar a la fase de desarrollo.
+
+Durante este proceso, se estructuran pantallas clave como el login, panel de control, gestión de productos, movimientos de stock, generación de reportes y alertas de inventario. El objetivo es anticipar posibles mejoras de usabilidad y validar la propuesta funcional con los usuarios finales.
+
+El prototipo también permite identificar ajustes necesarios en la experiencia de usuario (UX) y verificar que los requisitos funcionales definidos en las User Stories se reflejen correctamente en las interfaces propuestas.
+
+A continuación, se presenta el enlace para visualizar el video de navegación del prototipo interactivo:
+
+[![Demo](assets/Chapter-3/Inicio%20de%20sesión%20(1).png)](assets/Chapter-3/Grabación%20de%20pantalla%202025-10-09%20165528.mp4)
