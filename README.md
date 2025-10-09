@@ -692,7 +692,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>San Martín de Porres</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Milagros Almerco, evaluó la app móvil StockWise y destacó su facilidad de uso al registrar productos y gestionar inventario. Aunque al inicio tuvo dudas sobre la diferencia entre “stock” y “lote”, logró comprenderlo rápidamente gracias a la interfaz intuitiva. Resaltó como funcionalidades más valiosas el control de productos próximos a vencer y la visualización por lotes, que considera claves para evitar pérdidas. Valoró también el diseño moderno y claro, sin presentar dificultades técnicas. Sugirió como mejora incluir un sistema para registrar pagos pendientes o créditos. En general, calificó la app como práctica, útil y recomendada para otros dueños de bodegas.
     </td>
@@ -700,7 +700,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -728,14 +728,14 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>Santiago de Surco</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg1-Elvis.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-4/seg1-Elvis.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
        Elvis Aranga Meza, encargado de un mini market en Surco, compartió su experiencia utilizando la app m´vil para la gestión de bodegas, destacando la facilidad de uso tanto para agregar productos como para navegar por las funciones principales, y calificando su utilidad con un 9 sobre 10. Consideró el diseño visual adecuado y sencillo, aunque sugirió mejorar el tamaño de la interfaz en dispositivos móviles. Resaltó la utilidad de funciones como la visualización de fechas de vencimiento para evitar mermas y la organización de productos por lote, lo cual facilita la gestión de promociones. Sugirió incorporar reportes y estadísticas que permitan proyectar ventas y establecer metas. Finalmente, recomendó la plataforma a otros bodegueros, especialmente por su precio y utilidad, aunque señaló la importancia de brindar asistencia a usuarios con menos experiencia tecnológica.
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -762,7 +762,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
     <td>Breña</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/Interview-Catalina-Villa.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-4/Interview-Catalina-Villa.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
 Catalina es una administradora de 28 años, encargada de gestionar una bodega familiar en el distrito de Breña. Ella menciona que las funciones que más le gustaron fueron la de alerta de productos próximos a vencer y la de control de stock, ya que considera que le ayudarían a evitar pérdidas por productos caducados y a mantener un mejor seguimiento de sus existencias. Sin embargo, percibe que estas funciones aún son básicas y podrían ofrecer opciones más avanzadas, como recordatorios personalizados o reportes automáticos. En cuanto a la interfaz, a Catalina le agradó el diseño sencillo y organizado, destacando que los botones son fáciles de identificar y las categorías están bien distribuidas. También comentó que la aplicación le resultaría útil para delegar mejor el control del inventario entre los miembros de su familia, facilitando así la administración general de la bodega.
     </td>
@@ -770,7 +770,7 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -799,7 +799,7 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
     <td>Surquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-4/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
       Juan Carlos Ramírez, emprendedor de 49 años, compartió su experiencia al utilizar la aplicación para la gestión de inventarios, destacando la facilidad de uso en el registro y control de productos, así como la organización del historial de movimientos. Consideró que estas herramientas podrían ayudarlo significativamente en su proceso de digitalización, ya que actualmente gestiona las entradas y salidas de manera manual mediante boletas y facturas físicas. En cuanto al diseño, señaló que la interfaz es clara y ordenada, aunque sugirió mejorar la personalización de reportes para adaptarlo mejor a las necesidades de su negocio. Finalmente, destacó que funcionalidades como la alerta de stock bajo y la gestión por lotes serían de gran apoyo para tener un control más preciso del inventario, y que la incorporación de estas herramientas digitales le permitiría automatizar procesos y liberar tiempo operativo en su gestión diaria.
     </td>
@@ -807,7 +807,7 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -834,7 +834,7 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
     <td>San Miguel</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/Segmento2_Leo.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-4/Segmento2_Leo.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Leonardo G., emprendedor que maneja actualmente su inventario de manera manual con hojas de Excel y una libreta, probó la plataforma y comentó que le pareció intuitiva, útil y eficaz para el control de su negocio. Señaló que la sección de alertas de stock le resultó especialmente atractiva, ya que le permitiría evitar ventas de productos agotados y responder más rápido a la demanda constante que maneja. En cuanto al diseño, mencionó que la interfaz es clara y sencilla, con botones fáciles de identificar y una navegación fluida. Leonardo destacó que la herramienta podría ayudarlo a organizar mejor sus pedidos y actualizar su inventario sin esfuerzo, reemplazando las hojas manuales que utiliza actualmente. También valoró que la plataforma sea accesible y de fácil uso, algo clave para quienes aún no están acostumbrados a los sistemas digitales, pero buscan dar ese paso hacia la automatización de su negocio.
     </td>
@@ -869,7 +869,7 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
     <td>xx</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-4/seg2.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Eduardo de Rivera Sosa, un emprendedor que importa productos desde Asia para venderlos en Perú, comentó que la idea del proyecto le pareció atractiva y muy necesaria para negocios que manejan múltiples referencias de productos. Durante la prueba, resaltó la facilidad de uso y la organización del panel principal, especialmente en el registro de productos y control de stock. Mencionó que actualmente lleva su inventario en Excel y organiza sus pedidos en Notion, por lo que considera que la app podría integrar y simplificar ambos procesos en un solo espacio digital. Valoró la función de alerta de stock bajo y las opciones de historial de movimientos, que le permitirían tener una visión más clara de sus existencias y reducir pérdidas por errores humanos o por actualizaciones tardías. En cuanto a la apariencia visual, Eduardo comentó que la landing page le pareció moderna y atractiva, destacando que transmite confianza y profesionalismo. Sin embargo, sugirió que la exportación de datos a Excel o PDF podría mejorarse con formatos más personalizables.
     </td>
@@ -877,7 +877,7 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EWZLjufk66ZGs5HIemlhfY4BUKlkT04Q6fAi_-ly4pIBcg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7zmUts">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g068_upc_edu_pe/EfICOj-xe6REtnBdqmvY7QsB40AX08yJQHh4VQP5k9XQUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SCUtfJ">
         Ver grabación
       </a>
     </td>
@@ -892,14 +892,12 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
 
 #### 4.3.3. Evaluaciones según heurísticas
 
-# EVALUACIÓN DE USABILIDAD SEGÚN HEURÍSTICAS
-
-## SITE o APP A EVALUAR
+**APP A EVALUAR**
 **StockWise – App móvil de gestión de inventario para bodegas y emprendimientos**
 
 ---
 
-## TAREAS A EVALUAR
+**TAREAS A EVALUAR**
 
 El alcance de esta evaluación incluye la revisión de la usabilidad en las siguientes tareas:
 
@@ -922,7 +920,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ---
 
-## ESCALA DE SEVERIDAD
+**ESCALA DE SEVERIDAD**
 
 | Nivel | Descripción |
 |-------|--------------|
@@ -933,7 +931,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ---
 
-## TABLA RESUMEN DE HALLAZGOS
+**TABLA RESUMEN DE HALLAZGOS**
 
 | # | Problema | Escala de severidad | Heurística/Principio violado(a) |
 |---|-----------|---------------------|--------------------------------|
@@ -946,9 +944,9 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ---
 
-## DESCRIPCIÓN DE PROBLEMAS
+**DESCRIPCIÓN DE PROBLEMAS**
 
-### PROBLEMA #1: Confusión inicial entre “Stock” y “Lote”
+**PROBLEMA #1: Confusión inicial entre “Stock” y “Lote”**
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real.  
 
@@ -960,7 +958,7 @@ Agregar una breve descripción o globo de ayuda que explique la diferencia entre
 
 ---
 
-### PROBLEMA #2: Falta de acceso rápido al registro de ventas
+**PROBLEMA #2: Falta de acceso rápido al registro de ventas**
 **Severidad:** 3  
 **Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso.  
 
@@ -972,7 +970,7 @@ Incluir un botón visible o un acceso rápido en el dashboard para registrar ven
 
 ---
 
-### PROBLEMA #3: Ausencia de módulo de pagos o créditos pendientes
+**PROBLEMA #3: Ausencia de módulo de pagos o créditos pendientes**
 **Severidad:** 3  
 **Heurística violada:** Information Architecture – Is it complete?  
 
@@ -984,7 +982,7 @@ Agregar un submódulo para registrar clientes con deudas y fechas de pago, con a
 
 ---
 
-### PROBLEMA #4: Tamaño reducido de texto y botones
+**PROBLEMA #4: Tamaño reducido de texto y botones**
 **Severidad:** 2  
 **Heurística violada:** Inclusive Design – Accesibilidad visual.  
 
@@ -996,7 +994,7 @@ Optimizar el diseño responsivo para móviles, asegurando un tamaño mínimo de 
 
 ---
 
-### PROBLEMA #5: Falta de reportes visuales o estadísticas
+**PROBLEMA #5: Falta de reportes visuales o estadísticas**
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Visibilidad del estado del sistema.  
 
@@ -1008,7 +1006,7 @@ Incorporar una vista de “Resumen de actividad” con gráficos simples (barras
 
 ---
 
-### PROBLEMA #6: Recordatorios limitados para productos próximos a vencer
+**PROBLEMA #6: Recordatorios limitados para productos próximos a vencer**
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Prevención de errores.  
 
@@ -1020,7 +1018,7 @@ Permitir que el usuario ajuste la anticipación de alertas y el canal de notific
 
 ---
 
-## CONCLUSIÓN GENERAL
+**CONCLUSIÓN GENERAL**
 
 La app **StockWise** presenta una excelente base de usabilidad y accesibilidad, destacando por su claridad visual, fluidez de navegación y aprendizaje rápido incluso en usuarios con baja experiencia tecnológica.  
 
