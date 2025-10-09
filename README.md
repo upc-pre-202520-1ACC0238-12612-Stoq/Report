@@ -149,6 +149,7 @@
     - [Segmento Objetivo 1: Bodegas especializadas por rubro](#segmento-objetivo-1-bodegas-especializadas-por-rubro)
     - [Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas](#segmento-objetivo-2-startups-y-emprendedores-en-expansión-con-necesidades-logísticas)
     - [2.4.3. Product Backlog](#243-product-backlog)
+    - [Gestión del producto Backlog](#gestión-del-producto-backlog)
   - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
       - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
@@ -1062,13 +1063,122 @@ La finalidad de realizar entrevistas es obtener un alcance más completo sobre l
 ### 2.2.3. Análisis de entrevistas
 
 **Segmento 1: Bodegas especializadas por rubro**
-Los entrevistados (Milagros, Elvis, Catalina) gestionan inventarios de forma manual, con apuntes en cuadernos o Excel, lo que genera dificultades para mantener un control preciso y actualizado. Las principales problemáticas incluyen falta de control sobre fechas de vencimiento, pérdidas por productos no vendidos a tiempo, ausencia de automatización, y falta de sistemas que permitan actualizar precios en tiempo real o visualizar el inventario de manera dinámica. Los entrevistados manifiestan la necesidad de plataformas digitales con alertas y reportes para mejorar la gestión, delegar tareas y reducir errores humanos, lo que apuntaría a una alta demanda por soluciones tecnológicas accesibles y específicas para bodegas tradicionales.
+
+Los entrevistados (Milagros, Elvis, Catalina) gestionan inventarios de forma manual, con cuadernos o Excel, lo que dificulta mantener la información precisa y actualizada. Cuando los datos llegan tarde, los productos se vencen sin que nadie lo note y se pierden ventas; además, los cambios de precio no quedan registrados. El problema no es falta de interés por la tecnología, sino que registrar toma tiempo mientras atienden a clientes. Para este grupo la solución debe reducir pasos: registro rápido (por voz en el celular, duplicar fichas o cargar varios productos de una vez), una pantalla que muestre “lo que vence pronto” con avisos simples y la ubicación por estantería para encontrar productos sin perder minutos. Con ello deberían bajar las pérdidas, reducir el tiempo de registro y aumentar la confianza en el sistema.
+
+Además de los aspectos técnicos, los entrevistados expresan frustración por el desorden y la pérdida de productos, pero también muestran disposición a adoptar soluciones simples que les permitan sentir mayor control y tranquilidad en la gestión diaria.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-family: Arial, sans-serif; font-size: 13px;">
+  <thead style="background:#f2f2f2;">
+    <tr>
+      <th style="text-align:left;">Característica</th>
+      <th style="text-align:center;">Frecuencia (n/3)</th>
+      <th style="text-align:center;">Porcentaje</th>
+      <th style="text-align:left;">Entrevistas relacionadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Control manual del inventario (cuaderno/Excel)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>1(Milagros), 2(Elvis), 3(Catalina)</td>
+    </tr>
+    <tr>
+      <td>Pérdidas por productos vencidos / falta de alertas</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>1, 2, 3</td>
+    </tr>
+    <tr>
+      <td>Precios desactualizados o cambios no registrados</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>1, 2</td>
+    </tr>
+    <tr>
+      <td>Falta de tiempo por atención a clientes (se omiten registros)</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>1, 3</td>
+    </tr>
+    <tr>
+      <td>Preferencia por solución simple y rápida (alertas de vencimiento, registro ágil)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>1, 2, 3</td>
+    </tr>
+    <tr>
+      <td>Necesidad de ubicar productos por estantería/sector</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>1, 3</td>
+    </tr>
+  </tbody>
+</table>
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
 
-Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (uso de Excel, cuadernos, y sistemas en proceso de digitalización). Tienen una mayor actividad y volumen, con operaciones en crecimiento, y venden usando canales digitales como WhatsApp y redes sociales. Aunque reconocen la importancia de digitalizar y automatizar sus procesos para ganar eficiencia, enfrentan obstáculos como la complejidad o altos costos de las soluciones disponibles. Buscan sistemas simples, automáticos, que avisen sobre niveles de stock y faciliten la organización para poder escalar su negocio sin perder control.
+Los entrevistados Juan Carlos, Leonardo y Eduardo manejan inventarios mayormente manuales o semiautomatizados (Excel, cuadernos y sistemas en transición). El reto principal es coordinar más volumen y varios canales (WhatsApp y redes). Muchas salidas no quedan en un solo registro y preparar pedidos demora porque no se ubican los productos con precisión; además, varias personas cambian precios y no se sabe quién hizo qué. Necesitan orden sin un sistema pesado: roles y permisos con historial para saber quién hizo cada cambio, zonas y códigos QR para acelerar el picking, combos que resten insumos automáticamente y reportes simples por canal para ver qué se mueve más. Así pueden crecer sin perder control.
 
-Ambos segmentos comparten retos similares: control manual, dificultades con productos perecibles, pérdidas por falta de actualización o visibilidad, y la necesidad de automatización. Sin embargo, los bodegueros tradicionales tienen una menor adopción y experiencia con herramientas digitales y requieren soluciones accesibles y adaptadas a su realidad, mientras que las startups muestran interés en herramientas integradas y avanzadas, pero preocupadas por la complejidad y costos. Una solución escalable, intuitiva y que pueda adaptarse a distintos tamaños de negocios sería ideal para cubrir ambos mercados.
+Pese a estas limitaciones operativas, en este grupo se percibe una actitud proactiva y de mejora continua: buscan herramientas que reflejen su crecimiento y les brinden seguridad al delegar tareas, evidenciando motivación por alcanzar mayor eficiencia y profesionalización.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-family: Arial, sans-serif; font-size: 13px;">
+  <thead style="background:#f2f2f2;">
+    <tr>
+      <th style="text-align:left;">Característica</th>
+      <th style="text-align:center;">Frecuencia (n/3)</th>
+      <th style="text-align:center;">Porcentaje</th>
+      <th style="text-align:left;">Entrevistas relacionadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gestión manual o semiautomatizada (Excel/cuadernos/sistema parcial)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>4(Juan Carlos), 5(Leonardo), 6(Eduardo)</td>
+    </tr>
+    <tr>
+      <td>Ventas y coordinación por WhatsApp/redes sociales</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>4, 5, 6</td>
+    </tr>
+    <tr>
+      <td>Problemas para ubicar productos y preparar pedidos rápido</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>4, 5</td>
+    </tr>
+    <tr>
+      <td>Falta de control centralizado / trazabilidad de cambios de precio y salidas</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>5, 6</td>
+    </tr>
+    <tr>
+      <td>Interés en digitalizar para ganar eficiencia (sin sistemas pesados)</td>
+      <td style="text-align:center;">3/3</td>
+      <td style="text-align:center;"><strong>100%</strong></td>
+      <td>4, 5, 6</td>
+    </tr>
+    <tr>
+      <td>Necesidad de roles/permisos e historial de cambios</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>5, 6</td>
+    </tr>
+    <tr>
+      <td>Reportes simples por canal y mayor visibilidad del stock</td>
+      <td style="text-align:center;">2/3</td>
+      <td style="text-align:center;">67%</td>
+      <td>4, 5</td>
+    </tr>
+  </tbody>
+</table>
+
+Ambos segmentos comparten el manejo manual, los problemas con perecibles y la falta de visibilidad, por lo que requieren automatización. La diferencia es que las bodegas piden simplicidad inmediata, mientras que las startups necesitan además trazabilidad y velocidad. Por ello se propone empezar con un núcleo fácil de usar (alertas de caducidad, registro rápido, ubicación clara y cambios de precio con historial) y activar, solo si se requiere, funciones de escala como roles, QR, combos y reportes por canal. Si con esto bajan las mermas, disminuye el tiempo de registro y sube la exactitud del stock, la solución será escalable, intuitiva y eficiente, alineada con lo que se recogió en las entrevistas.
 
 ## 2.3. Needfinding
 
@@ -1282,12 +1392,12 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US01</td>
     <td>Usuario de inventario</td>
     <td>Alta</td>
-    <td>EP01 – Funciones básicas de inventario</td>
+    <td>EP01 - Funciones básicas de inventario</td>
   </tr>
 
   <tr>
     <th>Title</th>
-    <td colspan="3">Registra producto nuevo</td>
+    <td colspan="3">Registrar producto nuevo</td>
   </tr>
 
   <tr>
@@ -1388,7 +1498,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US03</td>
     <td>Usuario de inventario</td>
     <td>Alta</td>
-    <td>EP01 – Funciones básicas de inventario</td>
+    <td>EP01 - Funciones básicas de inventario</td>
   </tr>
 
   <tr>
@@ -1474,7 +1584,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US05</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
+    <td>US05</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Generar alertas por bajo stock</td>
@@ -1514,7 +1624,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US06</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
+    <td>US06</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Buscar productos en inventarios</td>
@@ -1554,7 +1664,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US07</td><td>Usuario de inventario</td><td></td><td>EP01 – Funciones básicas de inventario</td>
+    <td>US07</td><td>Usuario de inventario</td><td></td><td>EP01 - Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Añadir etiquetas para productos</td>
@@ -1600,10 +1710,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US08</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US08</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Estadística de productos más vendidos</td>
+    <th>Title</th><td colspan="3">Generar estadística de productos más vendidos</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1640,10 +1750,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US09</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US09</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Estadística de categoría más vendida</td>
+    <th>Title</th><td colspan="3">Generar estadística de categoría más vendida</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1680,10 +1790,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US10</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US10</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Ticket promedio</td>
+    <th>Title</th><td colspan="3">Generar ticket promedio</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1720,10 +1830,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US11</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US11</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Estadística de stock promedio</td>
+    <th>Title</th><td colspan="3">Generar estadística de stock promedio</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1760,7 +1870,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US12</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US12</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Generar reportes de inventario</td>
@@ -1800,7 +1910,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US13</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US13</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Controlar productos caducados</td>
@@ -1840,7 +1950,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US14</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US14</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar devolución de productos</td>
@@ -1880,7 +1990,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US15</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US15</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Configurar roles y permisos de usuario</td>
@@ -1920,7 +2030,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US16</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
+    <td>US16</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Gestionar proveedores</td>
@@ -1960,7 +2070,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US17</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
+    <td>US17</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar lote de productos</td>
@@ -2000,7 +2110,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US18</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US18</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Visualizar historial de stock</td>
@@ -2040,7 +2150,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US19</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US19</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Configurar alertas de stock mínimo</td>
@@ -2080,7 +2190,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US20</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
+    <td>US20</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Añadir etiquetas a productos</td>
@@ -2160,7 +2270,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US22</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
+    <td>US22</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Generar alertas por productos caducados</td>
@@ -2200,7 +2310,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US23</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
+    <td>US23</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar ingreso de productos</td>
@@ -2240,7 +2350,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US24</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US24</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Visualizar resumen de stock por categoría</td>
@@ -2280,7 +2390,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US25</td><td>Usuario de inventario</td><td>Media</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td>
+    <td>US25</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Comparar ventas entre periodos</td>
@@ -2318,7 +2428,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US26</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
+    <td>US26</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
     <th>Title</th><td colspan="3">Registrar productos por voz</td>
@@ -2369,7 +2479,7 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>US27</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Geolocalización de productos y entregas</td>
+    <th>Title</th><td colspan="3">Registrar geolocalización de productos y entregas</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -2462,10 +2572,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US29</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
+    <td>US29</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Predicción de reabastecimiento</td>
+    <th>Title</th><td colspan="3">Gestionar predicción de reabastecimiento</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -2510,10 +2620,10 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
   </tr>
   <tr>
-    <td>US30</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td>
+    <td>US30</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
   </tr>
   <tr>
-    <th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida</td>
+    <th>Title</th><td colspan="3">Escanear por lotes con cámara rápida</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -2568,15 +2678,15 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 
  <!-- TS07 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS07</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de inventario</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar movimientos/stock de inventario con validaciones de negocio.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Registro válido</strong><br> Dado que la app permite escanear código/QR,<br> Cuando se registra una entrada o salida con cantidad válida,<br> Entonces el backend guarda el movimiento (201) y retorna el stock actualizado para mostrar en la app.<br><br> <strong>Escenario 02: Registro inválido</strong><br> Dado el endpoint de inventario,<br> Cuando la cantidad es negativa o la salida supera el stock,<br> Entonces se retorna 400 con detalle y la app resalta el campo con error. </td> </tr> </table> <br>
 
- <!-- TS08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS08</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por precio</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango válido</strong><br> Dado que el usuario ajusta un rango (slider),<br> Cuando se consulta el endpoint con la moneda/locale del dispositivo,<br> Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.<br><br> <strong>Escenario 02: Sin resultados</strong><br> Dado un rango sin coincidencias,<br> Cuando el backend no encuentra registros,<br> Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango. </td> </tr> </table> <br>
+ <!-- TS08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS08</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por precio</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango válido</strong><br> Dado que el usuario ajusta un rango (slider),<br> Cuando se consulta el endpoint con la moneda/locale del dispositivo,<br> Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.<br><br> <strong>Escenario 02: Sin resultados</strong><br> Dado un rango sin coincidencias,<br> Cuando el backend no encuentra registros,<br> Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango. </td> </tr> </table> <br>
 
- <!-- TS09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS09</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventario por producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Producto existente</strong><br> Dado que la app escanea o selecciona un producto,<br> Cuando se consulta por su ID,<br> Entonces el backend retorna 200 con stock actual y últimos movimientos.<br><br> <strong>Escenario 02: Producto inexistente</strong><br> Dado el endpoint por producto,<br> Cuando el ID no existe o está inactivo,<br> Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto. </td> </tr> </table> <br>
+ <!-- TS09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS09</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventario por producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Producto existente</strong><br> Dado que la app escanea o selecciona un producto,<br> Cuando se consulta por su ID,<br> Entonces el backend retorna 200 con stock actual y últimos movimientos.<br><br> <strong>Escenario 02: Producto inexistente</strong><br> Dado el endpoint por producto,<br> Cuando el ID no existe o está inactivo,<br> Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto. </td> </tr> </table> <br>
 
- <!-- TS10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS10</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Fecha con registros</strong><br> Dado que el usuario selecciona un rango con el date picker del móvil,<br> Cuando la app consulta con la zona horaria del dispositivo,<br> Entonces el backend retorna 200 con los registros del período.<br><br> <strong>Escenario 02: Fecha sin registros</strong><br> Dado el endpoint por fecha,<br> Cuando el rango no tiene datos,<br> Entonces se retorna 200 con lista vacía y la app propone rangos cercanos. </td> </tr> </table> <br>
+ <!-- TS10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS10</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Fecha con registros</strong><br> Dado que el usuario selecciona un rango con el date picker del móvil,<br> Cuando la app consulta con la zona horaria del dispositivo,<br> Entonces el backend retorna 200 con los registros del período.<br><br> <strong>Escenario 02: Fecha sin registros</strong><br> Dado el endpoint por fecha,<br> Cuando el rango no tiene datos,<br> Entonces se retorna 200 con lista vacía y la app propone rangos cercanos. </td> </tr> </table> <br>
 
- <!-- TS11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS11</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por cantidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango/cantidad válida</strong><br> Dado que la app permite filtrar por cantidad o rango,<br> Cuando se consulta el endpoint,<br> Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.<br><br> <strong>Escenario 02: Sin coincidencias</strong><br> Dado el filtro por cantidad/rango,<br> Cuando no hay resultados,<br> Entonces se retorna 200 con lista vacía y la app permite guardar el filtro. </td> </tr> </table> <br>
+ <!-- TS11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS11</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por cantidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango/cantidad válida</strong><br> Dado que la app permite filtrar por cantidad o rango,<br> Cuando se consulta el endpoint,<br> Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.<br><br> <strong>Escenario 02: Sin coincidencias</strong><br> Dado el filtro por cantidad/rango,<br> Cuando no hay resultados,<br> Entonces se retorna 200 con lista vacía y la app permite guardar el filtro. </td> </tr> </table> <br>
 
- <!-- TS12 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS12</td><td>Developer</td><td>Alta</td><td>EP02 – Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por proveedor</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Proveedor existente</strong><br> Dado que el usuario selecciona un proveedor en la app,<br> Cuando se consulta el endpoint con su identificador,<br> Entonces retorna 200 con la lista paginada de inventarios.<br><br> <strong>Escenario 02: Proveedor sin productos</strong><br> Dado el endpoint por proveedor,<br> Cuando no hay inventarios vinculados,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado informativo. </td> </tr> </table> <br>
+ <!-- TS12 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS12</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por proveedor</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Proveedor existente</strong><br> Dado que el usuario selecciona un proveedor en la app,<br> Cuando se consulta el endpoint con su identificador,<br> Entonces retorna 200 con la lista paginada de inventarios.<br><br> <strong>Escenario 02: Proveedor sin productos</strong><br> Dado el endpoint por proveedor,<br> Cuando no hay inventarios vinculados,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado informativo. </td> </tr> </table> <br>
 
  <!-- TS13 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS13</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito registrar alertas del sistema (p.ej., bajo stock) para su notificación en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Alerta registrada</strong><br> Dado un evento de bajo stock detectado en la app o backend,<br> Cuando se envía la alerta con datos válidos al endpoint,<br> Entonces se registra (201) y la app puede disparar notificación local/push.<br><br> <strong>Escenario 02: Datos inválidos</strong><br> Dado el endpoint de alertas,<br> Cuando el tipo es inválido o faltan campos requeridos,<br> Entonces se retorna 400 con detalle de validaciones. </td> </tr> </table> <br>
 
@@ -2588,20 +2698,20 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 
 ### Spike Story
 
-<!-- SPK01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK01</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Entrada por voz: comandos estructurados e interpretación</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga gramática mínima y extracción de entidades (cantidad, producto) para registrar movimientos por voz con manejo de ambigüedad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Extracción de entidades con confianza mínima</strong></p> <ul> <li>Dado que se recibe un comando válido,</li> <li>Cuando procesa audio o texto,</li> <li>Entonces extrae cantidad y referencia de producto con un umbral de confianza definido.</li> </ul> <p><strong>Escenario 02: Manejo de ambigüedad</strong></p> <ul> <li>Dado que existen múltiples coincidencias,</li> <li>Cuando detecta ambigüedad,</li> <li>Entonces solicita desambiguación dentro del flujo técnico.</li> </ul> <p><strong>Escenario 03: Dictado consecutivo</strong></p> <ul> <li>Dado que el usuario dicta varios comandos,</li> <li>Cuando los recibe en secuencia,</li> <li>Entonces procesa cada uno y conserva estado hasta terminación.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK01</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Implementar entrada por voz, comandos estructurados e interpretación</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga gramática mínima y extracción de entidades (cantidad, producto) para registrar movimientos por voz con manejo de ambigüedad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Extracción de entidades con confianza mínima</strong></p> <ul> <li>Dado que se recibe un comando válido,</li> <li>Cuando procesa audio o texto,</li> <li>Entonces extrae cantidad y referencia de producto con un umbral de confianza definido.</li> </ul> <p><strong>Escenario 02: Manejo de ambigüedad</strong></p> <ul> <li>Dado que existen múltiples coincidencias,</li> <li>Cuando detecta ambigüedad,</li> <li>Entonces solicita desambiguación dentro del flujo técnico.</li> </ul> <p><strong>Escenario 03: Dictado consecutivo</strong></p> <ul> <li>Dado que el usuario dicta varios comandos,</li> <li>Cuando los recibe en secuencia,</li> <li>Entonces procesa cada uno y conserva estado hasta terminación.</li> </ul> </td> </tr> </table> <br>
 
-<!-- SPK02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK02</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP04 – Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">Roles y permisos en API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo RBAC con matriz rol permiso y puntos de control en API para operaciones de inventario y administración.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Autorización según política</strong></p> <ul> <li>Dado que un rol tiene permisos definidos,</li> <li>Cuando solicita una operación restringida,</li> <li>Entonces autoriza o rechaza de acuerdo con la política.</li> </ul> <p><strong>Escenario 02: Intentos no autorizados</strong></p> <ul> <li>Dado que un usuario carece del permiso,</li> <li>Cuando intenta modificar recursos,</li> <li>Entonces rechaza la acción y registra el intento.</li> </ul> <p><strong>Escenario 03: Efecto de cambios de rol</strong></p> <ul> <li>Dado que se actualizan las asignaciones de rol,</li> <li>Cuando el cambio entra en vigor,</li> <li>Entonces aplica permisos vigentes sin inconsistencias.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK02</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">Roles y permisos en API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo RBAC con matriz rol permiso y puntos de control en API para operaciones de inventario y administración.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Autorización según política</strong></p> <ul> <li>Dado que un rol tiene permisos definidos,</li> <li>Cuando solicita una operación restringida,</li> <li>Entonces autoriza o rechaza de acuerdo con la política.</li> </ul> <p><strong>Escenario 02: Intentos no autorizados</strong></p> <ul> <li>Dado que un usuario carece del permiso,</li> <li>Cuando intenta modificar recursos,</li> <li>Entonces rechaza la acción y registra el intento.</li> </ul> <p><strong>Escenario 03: Efecto de cambios de rol</strong></p> <ul> <li>Dado que se actualizan las asignaciones de rol,</li> <li>Cuando el cambio entra en vigor,</li> <li>Entonces aplica permisos vigentes sin inconsistencias.</li> </ul> </td> </tr> </table> <br>
 
 
-<!-- SPK3 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK03</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Geolocalización y modelo de ubicación (GPS y QR)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga captura de lat/long, precisión, almacenamiento, permisos y asociación de ubicación por QR para productos y entregas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Persistencia de coordenadas</strong></p> <ul> <li>Dado que los permisos de ubicación están concedidos,</li> <li>Cuando captura la ubicación,</li> <li>Entonces persiste coordenadas con precisión y timestamp.</li> </ul> <p><strong>Escenario 02: Flujo sin permisos</strong></p> <ul> <li>Dado que los permisos son denegados,</li> <li>Cuando se requiere ubicación,</li> <li>Entonces documenta flujo de entrada manual de dirección o coordenadas.</li> </ul> <p><strong>Escenario 03: Asociación por QR</strong></p> <ul> <li>Dado que se dispone de un QR válido,</li> <li>Cuando asocia la ubicación,</li> <li>Entonces vincula el producto al punto definido y lo hace consultable.</li> </ul> </td> </tr> </table> <br>
-
-<!-- SPK04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK04</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Predicción de reabastecimiento</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga una fórmula base (media móvil + lead time) con parámetros ajustables para sugerir fecha y cantidad de reabastecimiento.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Sugerencia con supuestos explícitos</strong></p> <ul> <li>Dado que existe histórico de ventas y stock mínimo,</li> <li>Cuando calcula demanda proyectada,</li> <li>Entonces sugiere fecha y cantidad con supuestos explícitos.</li> </ul> <p><strong>Escenario 02: Recalculo por parámetros</strong></p> <ul> <li>Dado que los parámetros son ajustables,</li> <li>Cuando actualiza valores,</li> <li>Entonces recalcula sugerencias con trazabilidad de versiones.</li> </ul> <p><strong>Escenario 03: Detección de quiebre inminente</strong></p> <ul> <li>Dado que el consumo supera la previsión,</li> <li>Cuando se detecta desvío relevante,</li> <li>Entonces marca riesgo de quiebre y registra recomendación prioritaria.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK3 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK03</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Geolocalizar y modelar la ubicación (GPS y QR)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga captura de lat/long, precisión, almacenamiento, permisos y asociación de ubicación por QR para productos y entregas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Persistencia de coordenadas</strong></p> <ul> <li>Dado que los permisos de ubicación están concedidos,</li> <li>Cuando captura la ubicación,</li> <li>Entonces persiste coordenadas con precisión y timestamp.</li> </ul> <p><strong>Escenario 02: Flujo sin permisos</strong></p> <ul> <li>Dado que los permisos son denegados,</li> <li>Cuando se requiere ubicación,</li> <li>Entonces documenta flujo de entrada manual de dirección o coordenadas.</li> </ul> <p><strong>Escenario 03: Asociación por QR</strong></p> <ul> <li>Dado que se dispone de un QR válido,</li> <li>Cuando asocia la ubicación,</li> <li>Entonces vincula el producto al punto definido y lo hace consultable.</li> </ul> </td> </tr> </table> <br>
+  
+<!-- SPK04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK04</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Configurar predicción de reabastecimiento</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga una fórmula base (media móvil + lead time) con parámetros ajustables para sugerir fecha y cantidad de reabastecimiento.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Sugerencia con supuestos explícitos</strong></p> <ul> <li>Dado que existe histórico de ventas y stock mínimo,</li> <li>Cuando calcula demanda proyectada,</li> <li>Entonces sugiere fecha y cantidad con supuestos explícitos.</li> </ul> <p><strong>Escenario 02: Recalculo por parámetros</strong></p> <ul> <li>Dado que los parámetros son ajustables,</li> <li>Cuando actualiza valores,</li> <li>Entonces recalcula sugerencias con trazabilidad de versiones.</li> </ul> <p><strong>Escenario 03: Detección de quiebre inminente</strong></p> <ul> <li>Dado que el consumo supera la previsión,</li> <li>Cuando se detecta desvío relevante,</li> <li>Entonces marca riesgo de quiebre y registra recomendación prioritaria.</li> </ul> </td> </tr> </table> <br>
 
 
 <!-- SPK05 -->
 <table border="1" cellspacing="0" cellpadding="8">
   <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
-  <tr><td>SPK054</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 – Innovación y valor agregado</td></tr>
+  <tr><td>SPK05</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td></tr>
   <tr><th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida (visión ML)</td></tr>
   <tr><th colspan="4">Description</th></tr>
   <tr><td colspan="4">La app toma una foto al lote; una API de visión (p.ej., Google ML Kit) devuelve etiquetas genéricas. El usuario confirma producto exacto y cantidad antes de registrar; se puede saltar a su ubicación en el almacén virtual.</td></tr>
@@ -2639,43 +2749,57 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
       <th>#</th>
       <th>User Story ID</th>
       <th>Título</th>
-      <th>Descripción</th>
       <th>Story Points</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>US01</td><td>Registra producto nuevo</td><td>Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado desde el inicio.</td><td>5</td></tr>
-    <tr><td>2</td><td>US05</td><td>Generar alertas por bajo stock</td><td>Como usuario, quiero recibir alertas por bajo stock, para reabastecerme a tiempo.</td><td>5</td></tr>
-    <tr><td>3</td><td>US07</td><td>Añadir etiquetas para productos</td><td>Como usuario, quiero clasificar productos con etiquetas, para organizar el stock y facilitar búsquedas.</td><td>5</td></tr>
-    <tr><td>4</td><td>US08</td><td>Estadística de productos más vendidos</td><td>Como usuario, quiero ver los productos más vendidos para identificar los de mayor demanda.</td><td>5</td></tr>
-    <tr><td>5</td><td>US09</td><td>Estadística de categoría más vendida</td><td>Como usuario, quiero saber qué categorías son las más vendidas para tomar decisiones comerciales.</td><td>5</td></tr>
-    <tr><td>6</td><td>US11</td><td>Estadística de stock promedio</td><td>Como usuario, quiero ver el stock promedio para detectar quiebres o sobrestock.</td><td>5</td></tr>
-    <tr><td>7</td><td>US15</td><td>Configurar roles y permisos</td><td>Como administrador, quiero definir roles y permisos para proteger la información del sistema.</td><td>5</td></tr>
-    <tr><td>8</td><td>US17</td><td>Registrar lote de productos</td><td>Como usuario, quiero registrar productos por lote para facilitar el control masivo.</td><td>5</td></tr>
-    <tr><td>9</td><td>US20</td><td>Crear kits o combos de productos</td><td>Como usuario, quiero agrupar productos en kits para venderlos como un solo paquete.</td><td>5</td></tr>
-    <tr><td>10</td><td>US26</td><td>Registrar productos por voz</td><td>Como usuario, quiero registrar productos mediante comandos de voz para ganar rapidez y comodidad.</td><td>5</td></tr>
-    <tr><td>11</td><td>US27</td><td>Geolocalización de productos y entregas</td><td>Como usuario, quiero integrar GPS para registrar procedencia y puntos de entrega para optimizar trazabilidad.</td><td>5</td></tr>
-    <tr><td>12</td><td>US28</td><td>Localizar productos con mapa y QR</td><td>Como usuario, quiero ubicar productos dentro del almacén usando mapa y QR para encontrarlos con precisión.</td><td>5</td></tr>
-    <tr><td>13</td><td>US02</td><td>Editar información de producto</td><td>Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.</td><td>3</td></tr>
-    <tr><td>14</td><td>US03</td><td>Registrar salida de producto</td><td>Como usuario, quiero registrar la salida de productos, para mantener actualizado el stock en tiempo real.</td><td>3</td></tr>
-    <tr><td>15</td><td>US04</td><td>Ver historial de movimientos</td><td>Como usuario, quiero ver el historial de movimientos, para rastrear los cambios en el inventario.</td><td>3</td></tr>
-    <tr><td>16</td><td>US06</td><td>Buscar productos en inventario</td><td>Como usuario, quiero buscar productos por nombre o categoría, para encontrarlos rápidamente.</td><td>3</td></tr>
-    <tr><td>17</td><td>US10</td><td>Ticket promedio</td><td>Como usuario, quiero conocer el ticket promedio para evaluar efectividad de precios.</td><td>3</td></tr>
-    <tr><td>18</td><td>US12</td><td>Generar reportes de inventario</td><td>Como usuario, quiero generar reportes detallados del inventario para tomar decisiones informadas.</td><td>3</td></tr>
-    <tr><td>19</td><td>US13</td><td>Controlar productos caducados</td><td>Como usuario, quiero identificar productos caducados para evitar pérdidas.</td><td>3</td></tr>
-    <tr><td>20</td><td>US14</td><td>Registrar devolución de productos</td><td>Como usuario, quiero registrar devoluciones al inventario para mantener el stock actualizado.</td><td>3</td></tr>
-    <tr><td>21</td><td>US16</td><td>Gestionar proveedores</td><td>Como usuario, quiero registrar y gestionar proveedores para facilitar la reposición de productos.</td><td>3</td></tr>
-    <tr><td>22</td><td>US18</td><td>Registrar precios de compra y venta</td><td>Como usuario, quiero registrar precios para calcular márgenes de ganancia.</td><td>3</td></tr>
-    <tr><td>23</td><td>US19</td><td>Registrar unidades de medida</td><td>Como usuario, quiero definir unidades de medida para cada producto.</td><td>3</td></tr>
-    <tr><td>24</td><td>US21</td><td>Agregar ubicación de producto</td><td>Como usuario, quiero registrar la ubicación del producto para facilitar su localización.</td><td>3</td></tr>
-    <tr><td>25</td><td>US22</td><td>Personalizar columnas en inventario</td><td>Como usuario, quiero personalizar la vista del inventario según mis necesidades.</td><td>3</td></tr>
-    <tr><td>26</td><td>US23</td><td>Duplicar ficha de producto</td><td>Como usuario, quiero duplicar productos para registrar variantes fácilmente.</td><td>3</td></tr>
-    <tr><td>27</td><td>US25</td><td>Ver inventario por estantería</td><td>Como usuario, quiero ver inventario por ubicación física para facilitar el control por zonas.</td><td>3</td></tr>
-    <tr><td>28</td><td>US29</td><td>Exportar reportes</td><td>Como usuario, quiero exportar reportes a PDF o Excel para compartir y analizar fuera de la plataforma.</td><td>3</td></tr>
-    <tr><td>29</td><td>US30</td><td>Personalizar notificaciones</td><td>Como usuario, quiero configurar notificaciones personalizadas para alertas de stock, caducidad y otras condiciones.</td><td>3</td></tr>
-    <tr><td>30</td><td>US24</td><td>Añadir notas internas a productos</td><td>Como usuario, quiero añadir comentarios internos para registrar incidencias sin mostrarlas al cliente.</td><td>2</td></tr>
+    <tr><td>1</td><td>US01</td><td>Registrar producto nuevo</td><td>5</td></tr>
+    <tr><td>2</td><td>US05</td><td>Generar alertas por bajo stock</td><td>5</td></tr>
+    <tr><td>3</td><td>US07</td><td>Añadir etiquetas para productos</td><td>5</td></tr>
+    <tr><td>4</td><td>US08</td><td>Generar estadística de productos más vendidos</td><td>5</td></tr>
+    <tr><td>5</td><td>US09</td><td>Generar estadística de categoría más vendida</td><td>5</td></tr>
+    <tr><td>6</td><td>US11</td><td>Generar estadística de stock promedio</td><td>5</td></tr>
+    <tr><td>7</td><td>US15</td><td>Configurar roles y permisos</td><td>5</td></tr>
+    <tr><td>8</td><td>US17</td><td>Registrar lote de productos</td><td>5</td></tr>
+    <tr><td>9</td><td>US20</td><td>Añadir etiquetas a productos</td><td>5</td></tr>
+    <tr><td>10</td><td>US26</td><td>Registrar productos por voz</td><td>5</td></tr>
+    <tr><td>11</td><td>US27</td><td>Registrar geolocalización de productos y entregas</td><td>5</td></tr>
+    <tr><td>12</td><td>US28</td><td>Localizar productos con mapa y QR</td><td>5</td></tr>
+    <tr><td>13</td><td>US02</td><td>Editar información de producto</td><td>3</td></tr>
+    <tr><td>14</td><td>US03</td><td>Registrar salida de producto</td><td>3</td></tr>
+    <tr><td>15</td><td>US04</td><td>Ver historial de movimientos</td><td>3</td></tr>
+    <tr><td>16</td><td>US06</td><td>Buscar productos en inventario</td><td>3</td></tr>
+    <tr><td>17</td><td>US10</td><td>Generar ticket promedio</td><td>3</td></tr>
+    <tr><td>18</td><td>US12</td><td>Generar reportes de inventario</td><td>3</td></tr>
+    <tr><td>19</td><td>US13</td><td>Controlar productos caducados</td><td>3</td></tr>
+    <tr><td>20</td><td>US14</td><td>Registrar devolución de productos</td><td>3</td></tr>
+    <tr><td>21</td><td>US16</td><td>Gestionar proveedores</td><td>3</td></tr>
+    <tr><td>22</td><td>US18</td><td>Visualizar historial de stock</td><td>3</td></tr>
+    <tr><td>23</td><td>US19</td><td>Configurar alertas de stock mínimo</td><td>3</td></tr>
+    <tr><td>24</td><td>US21</td><td>Buscar productos en inventario</td><td>3</td></tr>
+    <tr><td>25</td><td>US22</td><td>Generar alertas por productos caducados</td><td>3</td></tr>
+    <tr><td>26</td><td>US23</td><td>Registrar ingreso de productos</td><td>3</td></tr>
+    <tr><td>27</td><td>US25</td><td>Comparar ventas entre periodos</td><td>3</td></tr>
+    <tr><td>28</td><td>US29</td><td>	Gestionar predicción de reabastecimiento</td><td>3</td></tr>
+    <tr><td>29</td><td>TS03</td><td>Generar API Creación de productos</td><td>3</td></tr>
+    <tr><td>30</td><td>TS06</td><td>Generar API Productos por etiqueta</td><td>3</td></tr>
+    <tr><td>31</td><td>SPK01</td><td>Implementar entrada por voz, comandos estructurados e interpretación</td><td>3</td></tr>
+    <tr><td>32</td><td>SPK03</td><td>	Geolocalizar y modelar la ubicación</td><td>3</td></tr>
+    <tr><td>33</td><td>SPK04</td><td>	Configurar predicción de reabastecimiento</td><td>3</td></tr>
+    <tr><td>34</td><td>TS07</td><td>Generar API Registro de inventario</td><td>3</td></tr>
+    <tr><td>35</td><td>US30</td><td>Escanear por lotes con cámara rápida</td><td>3</td></tr>
+    <tr><td>36</td><td>TS14</td><td>Generar API Consulta de alertas</td><td>3</td></tr>
+    <tr><td>37</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
+
   </tbody>
 </table>
+
+### Gestión del producto Backlog
+
+<img src="./assets/Chapter-2/Product_Backlog.png">
+<br><br>
+
+Trello del Product Backlog: https://trello.com/invite/b/68d9c7c26edf04fc488ca657/ATTIe2ace23b94bb268e8de0b90039ed6ef756FAD28C/stoq-product-backlog
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
