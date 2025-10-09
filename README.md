@@ -201,12 +201,30 @@ Durante este sprint, se han realizado avances significativos en la implementaci�
 ##### 4.2.1.5. Execution Evidence for Sprint Review
 Durante este Sprint, se han alcanzado varios hitos importantes en la implementación de la Landing Page. Además se realizaron avances en el frontend de la aplicaciones mobile. Se han completado las siguientes tareas:
 
-- Implementación de 
+- Implementación de la sección Beneficios
 - Visualización de funcionalidades.
 - Visualización de planes disponibles.
 - Implementacion de la Internacionalizacion
-- 
-  
+
+### Screenshots
+
+#### Landing Page
+![Landing Page](https://imgur.com/FAx39hz.png)
+
+#### Funciones claves
+![Características](https://imgur.com/UWonPsf.png)
+
+#### Sección de Planes Disponibles
+![Planes Disponibles](https://imgur.com/xjaqRsc.png)
+
+### Seccion de cambio de idioma
+
+![I18n](https://imgur.com/8Bs1Hul.png)
+
+#### Mobile Frontend
+
+![Dashboard](xxx)
+
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
