@@ -52,25 +52,57 @@
                 <td>17/09/2025</td>
                 <td>
                     <ul>
-          <li>Jocelyn Almerco</li>
-          <li>Camila Sanchez</li>
-          <li>Kevin Chi</li>
-          <li>Alejandro Oroncoy </li>
-          <li>Jeremy Paucar</li>
+                      <li>Jocelyn Almerco</li>
+                      <li>Camila Sanchez</li>
+                      <li>Kevin Chi</li>
+                      <li>Alejandro Oroncoy </li>
+                      <li>Jeremy Paucar</li>
                     <ul>
-           </td>
-      <td>            
-             <ul>
-          <li>Capítulo I: Presentacion</li>
-          <li>Capítulo II: Requirements Development and Software Solution Design </li>
-          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
-        </ul>
-      </td>
-  </tr>
-</tbody>
+                </td>
+                 <td>            
+                    <ul>
+                  <li>Capítulo I: Presentacion</li>
+                  <li>Capítulo II: Requirements Development and Software Solution Design </li>
+                  <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+                </ul>
+              </td>
+           </tr>
+            <tr>
+                <th>TP</th>
+                <td>10/10/2025</td>
+                <td>
+                    <ul>
+                      <li>Jocelyn Almerco</li>
+                      <li>Camila Sanchez</li>
+                      <li>Kevin Chi</li>
+                      <li>Alejandro Oroncoy </li>
+                      <li>Jeremy Paucar</li>
+                    <ul>
+                </td>
+                 <td>            
+                    <ul>
+                  <li>Capítulo III: Solution UI/UX Design</li>
+                  <li>Capítulo IV: Product Implementation & Validation</li>
+                  <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+                </ul>
+              </td>
+           </tr>
+        </tbody>
 </table>
 
+
 # Project Report Collaboration Insights
+
+<div align="center">
+  <img src="assets/Chapter-3/Contributors.png" alt="deploy-diagram"/>
+</div>
+
+<div align="center">
+  <img src="assets/Chapter-3/Grupal.png" alt="deploy-diagram"/>
+</div>
+
+<br>
+
 [Link de repositorio del reporte:](https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Report): https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Report
 
 # Contenido
@@ -301,11 +333,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <tbody>
     <tr>
       <td><b>Actualiza conceptos y
-conocimientos necesarios
-para su desarrollo
-profesional y en especial
-para su proyecto en
-soluciones de software.</b></td>
+        conocimientos necesarios
+        para su desarrollo
+        profesional y en especial
+        para su proyecto en
+        soluciones de software.</b></td>
       <td>
         <p><b>Jocelyn Almerco </b></p>
         <p><b>TB1:</b></p>
@@ -432,55 +464,58 @@ de software.</td>
         <p><strong>TF:</strong></p>
         <p>...</p>
       </td>
+</table>
+
 
 # Objetivos SMART
 
-Jocelyn Damaly Almerco Rojas
+**Jocelyn Damaly Almerco Rojas**
 
-Objetivo 1:
+***Objetivo 1:***
 Antes del 30/12/2026, habré completado una especialización en Diseño de Interfaces de Usuario (UI/UX), aplicando los conocimientos en un proyecto académico o personal que combine diseño intuitivo y funcionalidad. Para lograrlo, destinaré al menos 5 horas semanales al estudio, finalizaré 3 cursos certificados y diseñaré un prototipo interactivo con Figma o Adobe XD. Consideraré alcanzado el objetivo al obtener la certificación y presentar un portafolio con 2 proyectos funcionales orientados a la experiencia del usuario.
 
-Objetivo 2:
+***Objetivo 2:***
 Dentro de los dos primeros años posteriores a mi graduación, me habré incorporado a un equipo de desarrollo como Front-End Developer o UX Designer Junior, donde pueda aplicar principios de accesibilidad, usabilidad y diseño centrado en el usuario. Para lograrlo, mantendré actualizado mi portafolio en línea, realizaré al menos 15 postulaciones mensuales y participaré en 2 hackatones o proyectos colaborativos. Consideraré cumplido el objetivo al obtener una oferta laboral formal y completar mi primer proyecto en producción con retroalimentación positiva del equipo y usuarios finales.
 
-Jeremy Paucar Meneses
+**Kevin Chi Cruzatt**
 
-Objetivo 1:
-Antes del 31/07/2026, habré obtenido una certificación en Desarrollo Full Stack con JavaScript (Node.js y Vue.js), implementando un proyecto completo que integre backend, frontend y base de datos. Para conseguirlo, estudiaré 6 horas semanales, culminaré 3 cursos especializados y desarrollaré una aplicación funcional desplegada en la nube. Consideraré cumplido el objetivo al aprobar la certificación y publicar la aplicación con documentación técnica en un repositorio Git.
-
-Objetivo 2:
-En un plazo máximo de 18 meses después de graduarme, habré conseguido mi primer puesto como Software Developer Junior, participando en el desarrollo de módulos o microservicios en un entorno productivo. Para alcanzarlo, realizaré 20 postulaciones mensuales, practicaré algoritmos 2 veces por semana y participaré en al menos 1 proyecto colaborativo o open source. Consideraré logrado el objetivo al obtener una oferta de trabajo estable y contribuir con al menos 1 entrega de código validada por revisión de pares (code review).
-
-Camila Sánchez Ríos
-
-Objetivo 1:
-Antes del 31/12/2026, habré completado un diplomado en Calidad de Software y Pruebas Automatizadas, certificándome en herramientas como Selenium o Postman. Para ello, dedicaré 5 horas semanales al estudio, aprobaré al menos 3 cursos especializados y diseñaré un conjunto de pruebas automatizadas para un sistema real o académico. Consideraré alcanzado el objetivo al obtener la certificación y entregar un informe técnico con métricas de cobertura y defectos detectados.
-
-Objetivo 2:
-Dentro de los dos años posteriores a mi graduación, habré logrado un puesto en el área de Aseguramiento de Calidad (QA Engineer) o Analista de Pruebas de Software, participando activamente en el ciclo de vida de pruebas de un producto digital. Para lograrlo, realizaré 10 postulaciones mensuales, asistiré a 2 conferencias técnicas de QA y mantendré un registro de mejoras continuas en metodologías ágiles. Consideraré el objetivo cumplido al obtener una oferta formal y participar en al menos una liberación exitosa de software con métricas de defectos bajo el 2%.
-
-Kevin Chi Cruzatt
-
-Objetivo 1:
+***Objetivo 1:***
 Antes del 30/06/2026, obtendré una certificación en Arquitectura de Software con Java y Spring Boot, diseñando una aplicación modular basada en principios de Domain Driven Design (DDD) y CI/CD. Para lograrlo, dedicaré 6 horas semanales al estudio, culminaré 3 cursos especializados y publicaré un repositorio con documentación técnica y métricas de cobertura superiores al 80%. Consideraré logrado el objetivo al aprobar la certificación y desplegar la aplicación en un entorno de prueba funcional.
 
-Objetivo 2:
+***Objetivo 2:***
 En un plazo máximo de 18 meses después de mi graduación, me habré incorporado a una empresa tecnológica como Backend Developer o Software Engineer, participando en la construcción de servicios escalables y mantenibles. Para alcanzarlo, enviaré 20 postulaciones mensuales, mantendré mi portafolio con al menos 3 proyectos técnicos y realizaré una entrevista simulada quincenal. Consideraré cumplido el objetivo al recibir una oferta laboral y completar una funcionalidad de backend validada en producción.
 
-Alejandro Oroncoy Almeyda
+**Alejandro Oroncoy Almeyda**
 
-Objetivo 1:
+***Objetivo 1:***
 Durante el primer año tras mi graduación, habré desarrollado un portafolio técnico con al menos 4 proyectos completos en distintas áreas del desarrollo de software (backend, frontend y bases de datos). Para lograrlo, destinaré 6 horas semanales al aprendizaje y práctica, completaré 3 cursos en línea y documentaré los proyectos con pruebas unitarias y despliegue en la nube. Consideraré alcanzado el objetivo al tener el portafolio publicado y revisado por mentores o pares profesionales.
 
-Objetivo 2:
+***Objetivo 2:***
 En un plazo máximo de dos años después de graduarme, obtendré mi primer empleo formal en el área de Desarrollo de Software, participando en proyectos colaborativos que fortalezcan mis habilidades de trabajo en equipo y resolución de problemas. Para lograrlo, realizaré 15 postulaciones mensuales, asistiré a 2 ferias laborales o eventos de tecnología al año y mantendré mi perfil de LinkedIn activo y actualizado. Consideraré el objetivo cumplido al firmar mi primer contrato y haber completado al menos una entrega de producto en producción., eso pegalo en smart please, cami eso podrías ponerlo en el GitHub please
+
+**Jeremy Paucar Meneses**
+
+***Objetivo 1:***
+Antes del 31/07/2026, habré obtenido una certificación en Desarrollo Full Stack con JavaScript (Node.js y Vue.js), implementando un proyecto completo que integre backend, frontend y base de datos. Para conseguirlo, estudiaré 6 horas semanales, culminaré 3 cursos especializados y desarrollaré una aplicación funcional desplegada en la nube. Consideraré cumplido el objetivo al aprobar la certificación y publicar la aplicación con documentación técnica en un repositorio Git.
+
+***Objetivo 2:***
+En un plazo máximo de 18 meses después de graduarme, habré conseguido mi primer puesto como Software Developer Junior, participando en el desarrollo de módulos o microservicios en un entorno productivo. Para alcanzarlo, realizaré 20 postulaciones mensuales, practicaré algoritmos 2 veces por semana y participaré en al menos 1 proyecto colaborativo o open source. Consideraré logrado el objetivo al obtener una oferta de trabajo estable y contribuir con al menos 1 entrega de código validada por revisión de pares (code review).
+
+**Camila Sánchez Ríos**
+
+***Objetivo 1:***
+Antes del 31/12/2026, habré completado un diplomado en Calidad de Software y Pruebas Automatizadas, certificándome en herramientas como Selenium o Postman. Para ello, dedicaré 5 horas semanales al estudio, aprobaré al menos 3 cursos especializados y diseñaré un conjunto de pruebas automatizadas para un sistema real o académico. Consideraré alcanzado el objetivo al obtener la certificación y entregar un informe técnico con métricas de cobertura y defectos detectados.
+
+***Objetivo 2:***
+Dentro de los dos años posteriores a mi graduación, habré logrado un puesto en el área de Aseguramiento de Calidad (QA Engineer) o Analista de Pruebas de Software, participando activamente en el ciclo de vida de pruebas de un producto digital. Para lograrlo, realizaré 10 postulaciones mensuales, asistiré a 2 conferencias técnicas de QA y mantendré un registro de mejoras continuas en metodologías ágiles. Consideraré el objetivo cumplido al obtener una oferta formal y participar en al menos una liberación exitosa de software con métricas de defectos bajo el 2%.
+
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
 
-StockWise es un aplicativo movil de gestión de inventarios dirigida a pequeñas y medianas empresas, startups y bodegas especializadas. Su objetivo principal es facilitar el control eficiente de entradas y salidas de productos, la gestión de usuarios, la configuración de alertas inteligentes, la generación de reportes detallados y de boleta de venta, todo a través de una interfaz intuitiva y accesible desde cualquier dispositivo.
+StockWise es un aplicación móvil de gestión de inventarios dirigida a pequeñas y medianas empresas, startups y bodegas especializadas. Su objetivo principal es facilitar el control eficiente de entradas y salidas de productos, la gestión de usuarios, la configuración de alertas inteligentes, la generación de reportes detallados y de boleta de venta, todo a través de una interfaz intuitiva y accesible desde cualquier dispositivo.
 
 La solución responde a una problemática concreta: muchos negocios aún utilizan métodos manuales (como hojas de cálculo o registros en papel) para administrar sus inventarios y pagos, lo cual genera errores, desorganización, sobrecompras y pérdidas económicas. StockWise busca resolver este problema digitalizando y centralizando el control del inventario y de las ganancias de la tienda, permitiendo a los negocios tomar decisiones basadas en datos y optimizar su operación mediante cuatro planes de funcionalidad avanzada:
 
@@ -3897,7 +3932,7 @@ A continuación se detalla el proceso y la evolución final del event storming.
 
 ### Step 1: Unstructured exploration
 
-Primero tuvimos una lluvia de ideas en la cual nos propusimos identificar exhaustivamente todos los eventos que ocurrirán en nuestro aplicativo, para asegurarnos de abarcar una amplia gama de posibilidades y ofrecer una experiencia completa y satisfactoria a nuestros usuarios.
+Primero tuvimos una lluvia de ideas en la cual nos propusimos identificar exhaustivamente todos los eventos que ocurrirán en nuestra aplicación, para asegurarnos de abarcar una amplia gama de posibilidades y ofrecer una experiencia completa y satisfactoria a nuestros usuarios.
 
 A continuación, se presentan una serie de figuras que evidencian este proceso de exploración inicial.
 
@@ -5118,32 +5153,62 @@ Facilita la actualización de datos en tiempo real, permitiendo mantener el inve
 Los Mobile Applications Wireflow Diagrams son una combinación de wireframes y flujos de usuario (user flows) que ilustran no solo la estructura y disposición de las pantallas de una Mobile Application, sino también cómo los usuarios navegarán entre ellas. Estos diagramas proporcionan una visión detallada del recorrido del usuario, mostrando las interacciones clave y las transiciones de una pantalla a otra dentro de la aplicación.
 
 **User Goal: Registrar**
+El usuario desea crear una nueva cuenta para comenzar a usar la plataforma y vincular su método de pago según el plan seleccionado.
 
-El usuario selecciona la opción "Register", completa los campos solicitados y hace clic en el botón "Registrar". A continuación, se muestra el panel "Add Card", donde debe llenar los campos relacionados con su tarjeta y correo electrónico. Una vez que el proceso de pago se complete exitosamente, se notifica al usuario con un mensaje confirmando el vínculo de su tarjeta con la plataforma. Del mismo modo, si el usuario desea retirar su información o actualizar lo podrá hacer a través de su perfil. Finalmente hacer clic en el botón "Aceptar".
+1. El usuario selecciona la opción “Registrar” en la Landing Page.
+2. Ingresa los datos solicitados: correo electrónico, nombre y contraseña.
+3. Selecciona el tipo de plan.
+4. Si elige el Plan Negocio, completa los datos de la tarjeta y confirma el pago.
+5. El sistema valida la transacción.
+6. Si el pago es exitoso, se muestra una ventana flotante indicando “Pago realizado correctamente”.
+7. Si el pago falla, se muestra una alerta de error con el mensaje “No se pudo procesar el pago”.
+8. Finalmente, se redirige al usuario a la pantalla de Inicio de sesión.
 
-<center> <img src="assets/Chapter-3/userregister.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Registrar.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Iniciar sesión**
 
-El usuario introduce su correo y contraseña, luego hace clic en el botón "Log In". Después, se le redirige al panel de perfil, donde podrá editar su información personal y acceder a las herramientas según su perfil "Administrador" o "Empleado".
+El usuario accede al sistema mediante sus credenciales y se dirige a su panel principal de control.
 
-<center> <img src="assets/Chapter-3/userini.png" style="width: 420px;"/> </center>
+1. El usuario introduce su correo electrónico y contraseña.
+
+2. Presiona el botón “Iniciar sesión”.
+
+3. El sistema valida las credenciales ingresadas.
+
+4. Si son correctas, se muestra el Dashboard principal.
+
+5. Desde allí, puede acceder al Perfil y editar su información.
+
+6. Si las credenciales son inválidas, aparece una ventana flotante con el mensaje “Correo o contraseña incorrectos”, permitiendo reintentar.
+
+<center> <img src="assets/Chapter-3/user goal Iniciar sesion.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Navegar por el Dashboard**
 
-1. El usuario inicia sesión desde la Landing Page.
-2. Ingresa a la vista principal del Dashboard.
-3. Visualiza el total de productos registrados y la fecha del último proveedor.
-4. Visualiza un resumen de productos próximos a caducar con su respectiva fecha y stock disponible.
-5. Accede a botones de acción rápida como “Historial”, “Inventario”, “Añadir Productos”, “Kits” y “Devolución de productos”.
+El usuario explora la vista principal para acceder a las herramientas clave del sistema.
 
-<center> <img src="assets/Chapter-3/userdas.png" style="width: 420px;"/> </center>
+1. El usuario accede al Dashboard después de iniciar sesión.
+2. Visualiza indicadores principales:
+  *  Total de productos registrados.
+  *  Fecha del último proveedor.
+
+3. Observa un resumen de productos próximos a caducar con stock y fecha.
+4. Accede a botones de acción rápida:
+* Historial de Movimientos
+* Inventario
+* Agregar Productos
+* Kits
+* Devolución de productos
+5. Selecciona cualquiera de las secciones para continuar su gestión.
+
+<center> <img src="assets/Chapter-3/user goal Navegador por el dashboard.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -5155,7 +5220,7 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 3. Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
 4. Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
 
-<center> <img src="assets/Chapter-3/userinve.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Inventario.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -5173,7 +5238,7 @@ El usuario introduce su correo y contraseña, luego hace clic en el botón "Log 
 
 En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
 
-<center> <img src="assets/Chapter-3/userpro.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Botones principales.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -5189,7 +5254,7 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 7. Consulta métricas como el stock promedio, estado del producto y stock ideal.
 8. Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
 
-<center> <img src="assets/Chapter-3/userhi.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Historial .png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -5321,42 +5386,42 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 
 **User Goal: Registrar**
 
-<center> <img src="assets/Chapter-3/userregi.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Registrar.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Iniciar sesión**
 
-<center> <img src="assets/Chapter-3/useriniciar.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Iniciar sesion.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Navegar por el Dashboard**
 
-<center> <img src="assets/Chapter-3/userdash.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Navegador.png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Inventario (Producto / Lote)**
 
-<center> <img src="assets/Chapter-3/userinventario.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Inventario .png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
-<center> <img src="assets/Chapter-3/userproducto.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Botones principales .png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Historial de Movimientos**
 
-<center> <img src="assets/Chapter-3/userhistorial.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Historial .png" style="width: 420px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -5651,7 +5716,7 @@ El Sprint se considera completado si las historias de usuario relacionadas con l
 SPRINT BACKLOG 1: https://trello.com/b/8Uj3aB6o/stockwise-sprint1
 
 ##### 4.2.1.3. Development Evidence for Sprint Review
-Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
+Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend de la aplicación móvil. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
 
 <table>
    <tr>
@@ -6050,7 +6115,7 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 |Location| UPC – Monterrico|
 |Prepared by| Alejandro Oroncoy |
 |Attendees (Planning Meeting)| Kevin Chi, Alejandro Oroncoy, Jeremy Paucar, Camila Sánchez|
-|Sprint n-2 Review Summary | En el Sprint 2 se completaron las funcionalidades principales del backend (registro, autenticación y gestión de productos) e integración base con la aplicación móvil. Se implementó la estructura de navegación y módulos de productos e inventario.|
+|Sprint n-1 Review Summary | En el Sprint 2 se completaron las funcionalidades principales del backend (registro, autenticación y gestión de productos) e integración base con la aplicación móvil. Se implementó la estructura de navegación y módulos de productos e inventario.|
 |Sprint Planning Background| En este segundo sprint se centrará el trabajo en la optimización del backend y la implementación de funcionalidades avanzadas de control de inventario, reportes y alertas. Además, se realizará el despliegue del backend y documentación técnica en un sitio público, así como la preparación del entorno para la validación de la app móvil.|
 |Sprint Goal & User Stories||
 |Sprint 2 Goal| Consolidar la infraestructura backend y desplegarla públicamente, integrando nuevas funcionalidades en la app móvil (reportes, alertas, combos y consultas avanzadas). Se considera cumplido el objetivo si el backend está operativo y documentado, y las principales funciones core del sistema están visibles y validadas.  |
@@ -6613,13 +6678,12 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
 #### 4.3.3. Evaluaciones según heurísticas
 
 **APP A EVALUAR**
-**StockWise – App móvil de gestión de inventario para bodegas y emprendimientos**
+**StockWise**: Aplicación móvil de gestión de inventarios diseñada para bodegas y pequeños emprendimientos. Su objetivo es optimizar el control de productos, fechas de vencimiento y movimientos de stock, ofreciendo una experiencia intuitiva para usuarios no especializados en gestión logística.
 
----
 
 **TAREAS A EVALUAR**
 
-El alcance de esta evaluación incluye la revisión de la usabilidad en las siguientes tareas:
+El alcance de esta evaluación comprende la revisión de la usabilidad y experiencia del usuario en las siguientes tareas principales:
 
 1. Registro de un nuevo usuario.  
 2. Inicio de sesión con credenciales existentes.  
@@ -6628,7 +6692,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad en las sigu
 5. Visualización de productos próximos a vencer.  
 6. Registro de salida o venta de productos.  
 7. Consulta del historial de movimientos.  
-8. Visualización de stock y control por lotes.  
+8. Control de stock y control por lotes.  
 9. Cierre de sesión.  
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
@@ -6644,10 +6708,10 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 | Nivel | Descripción |
 |-------|--------------|
-| **1** | Problema superficial: se supera fácilmente y no interfiere con la tarea. |
-| **2** | Problema menor: ocurre con cierta frecuencia o requiere más esfuerzo. |
-| **3** | Problema mayor: impide completar tareas o genera frustración frecuente. |
-| **4** | Problema crítico: bloquea la tarea o impide el uso del sistema. |
+|**1**|Problema superficial: Puede ser fácilmente superador por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+| **2** | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| **3** |Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
 
 ---
 
@@ -6666,55 +6730,43 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 **DESCRIPCIÓN DE PROBLEMAS**
 
-**PROBLEMA #1: Confusión inicial entre “Stock” y “Lote”**
+**PROBLEMA N° 1: Confusión inicial entre “Stock” y “Lote”**
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real.  
 
 **Problema:**  
-Durante las pruebas, los usuarios Milagros y Catalina manifestaron dudas iniciales sobre la diferencia entre “stock” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital.  
+Durante las pruebas, los usuarios manifestaron dudas iniciales sobre la diferencia entre “stock” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital. 
 
 **Recomendación:**  
 Agregar una breve descripción o globo de ayuda que explique la diferencia entre ambos términos (por ejemplo: “Stock: cantidad total disponible. Lote: grupo de productos con la misma fecha de vencimiento”).  
 
 ---
 
-**PROBLEMA #2: Falta de acceso rápido al registro de ventas**
+**PROBLEMA N° 2: Falta de acceso rápido al registro de ventas**
 **Severidad:** 3  
 **Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso.  
 
 **Problema:**  
-Usuarios como Elvis y Juan Carlos señalaron que, aunque el registro de productos es sencillo, no existe un acceso directo desde el dashboard para registrar ventas o salidas. Esto implica más pasos de navegación y retrasa la gestión diaria.  
+Usuarios señalaron que, aunque el registro de productos es sencillo, no existe un acceso directo desde el dashboard para registrar ventas o salidas. Esto implica más pasos de navegación y retrasa la gestión diaria.  
 
 **Recomendación:**  
 Incluir un botón visible o un acceso rápido en el dashboard para registrar ventas o salidas directamente, sin pasar por el menú lateral.  
 
 ---
 
-**PROBLEMA #3: Ausencia de módulo de pagos o créditos pendientes**
+**PROBLEMA N° 3: Ausencia de módulo de pagos o créditos pendientes**
 **Severidad:** 3  
 **Heurística violada:** Information Architecture – Is it complete?  
 
 **Problema:**  
-Varios usuarios (Milagros y Juan Carlos) mencionaron la necesidad de registrar pagos pendientes o créditos, dado que muchas bodegas operan con ventas fiadas. La ausencia de esta función limita la utilidad integral de la app.  
+Varios usuarios mencionaron la necesidad de registrar pagos pendientes o créditos, dado que muchas bodegas operan con ventas fiadas. La ausencia de esta función limita la utilidad integral de la app.  
 
 **Recomendación:**  
 Agregar un submódulo para registrar clientes con deudas y fechas de pago, con alertas visuales y posibilidad de marcar los pagos como cancelados.  
 
 ---
 
-**PROBLEMA #4: Tamaño reducido de texto y botones**
-**Severidad:** 2  
-**Heurística violada:** Inclusive Design – Accesibilidad visual.  
-
-**Problema:**  
-Elvis mencionó que el tamaño de algunos elementos no se adapta correctamente en pantallas pequeñas, dificultando la interacción para usuarios con menos destreza táctil.  
-
-**Recomendación:**  
-Optimizar el diseño responsivo para móviles, asegurando un tamaño mínimo de toque de 44x44 px y contraste adecuado según WCAG 2.1.  
-
----
-
-**PROBLEMA #5: Falta de reportes visuales o estadísticas**
+**PROBLEMA N° 4: Falta de reportes visuales o estadísticas**
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Visibilidad del estado del sistema.  
 
@@ -6726,7 +6778,7 @@ Incorporar una vista de “Resumen de actividad” con gráficos simples (barras
 
 ---
 
-**PROBLEMA #6: Recordatorios limitados para productos próximos a vencer**
+**PROBLEMA N° 5: Recordatorios limitados para productos próximos a vencer**
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Prevención de errores.  
 
