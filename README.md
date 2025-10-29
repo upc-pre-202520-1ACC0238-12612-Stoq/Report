@@ -1,54 +1,38 @@
 # <center>COURSE PROJECT</center>
 
-<p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software - 2025-2</strong><br>
-    <strong>Aplicaciones para Dispositivos Móviles - 12612</strong><br>
-    <strong>Profesor: David Gerardo Quevedo Velasco</strong><br>
-    <br><strong>Informe del Trabajo Final</strong>
-</p>
-
-</p>
+<center>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="200"><br>
+    <h2>Universidad Peruana de Ciencias Aplicadas</h2>
+    <h3>Ingeniería de Software</h3>
+</center>
 
 <p align="center">
-    <strong>Startup: Stoq</strong><br>
-    <strong>Producto: StockWise </strong>
+    Periodo: 202520 <br>
+    1ACC0238 | Aplicaciones para Dispositivos Móviles <br>
+    NRC: 12612 <br>
+    Docente: David Gerardo Quevedo Velasco <br>
 </p>
 
-<div style="text-align:center;">
-    <h3>Team Members:</h3>
-    <table align="center">
-        <tr>
-            <th style="text-align:center;">Member</th>
-            <th style="text-align:center;">Code</th>
-        </tr>
-        <tr>
-            <td>Almerco Rojas, Jocelyn Damaly </td>
-            <td>U20221g068</td>
-        </tr>
-        <tr>
-            <td>Sanchez Rios, Camila Cristina</td>
-            <td>U202210973</td>
-        </tr>
-        <tr>
-            <td> Chi Cruzatt, Kevin Jorge</td>
-            <td>U202313655</td>
-        </tr>
-        <tr>
-            <td>Oroncoy Almeyda, Alejandro Daniel</td>
-            <td>U202313397</td>
-        </tr>
-        <tr>
-            <td>Paucar Meneses, Jeremy Alion</td>
-            <td>U201719449</td>
-        </tr>
-    </table>
+<hr>
+
+<div align="center">
+    <h5><strong>Informe del Trabajo Parcial</strong></h5>
+    Startup: Stoq <br>
+    Producto: StockWise <br>
 </div>
 
-<p align="center">
-    <strong>Abril, 2025</strong>
-</p>
+<div align="center">
+    <h5><strong>Integrantes del Equipo</strong></h5>
+    <p>
+        U20221g068 – Almerco Rojas, Jocelyn Damaly <br>
+        U202313655 – Chi Cruzatt, Kevin Jorge <br>
+        U202313397 – Oroncoy Almeyda, Alejandro Daniel <br>
+        U201719449 – Paucar Meneses, Jeremy Alion <br>
+        U202210973 – Sanchez Rios, Camila Cristina <br>
+    </p>
+    <p><em>Octubre, 2025</em></p>
+</div>
+
 <br>
 
 <h1 align="center">Registro de versiones del Informe</h1>
@@ -517,6 +501,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
 <b>Visión: </b>StockWise se enfoca en ser una aplicación preferida de los empresarios que buscan una gestión de inventarios, herramientas de alto valor con un modelo escalable, adaptable y centrado en el usuario.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
 <table>
   <tr>
     <th>
@@ -525,7 +510,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
     <td valign="top">
       <p><b>Jocelyn Damaly Almerco Rohas</b></p>
       <p>
-        Soy estudiante de Ingeniería de Software y actualmente curso el 5to ciclo. En mi tiempo libre me gusta tocar ukelele, leer libros, resolver sudoku, escuchar música y ver series.
+        Soy estudiante de Ingeniería de Software y actualmente curso el 5to ciclo. Considero que tengo buen dominio en la elaboración de diagramas en C++. Los lenguajes que sé es C++, SQL, CSS, HTML y Javascript. En mi tiempo libre me gusta tocar ukelele, leer libros, resolver sudoku, escuchar música y ver series. Mi compromiso radica en ser responsable con las tareas asignadas, y mis habilidades incluyen la creatividad, el trabajo en equipo, la empatía y la responsabilidad.
       </p>
     </td>
   </tr>
@@ -536,7 +521,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
     <td valign="top">
       <p><b>Jeremy Paucar Meneses</b></p>
       <p>
-        Estudiante de Ingeniería de Software, apacionado a programar, tengo conocimientos en c++, js, c#, y algunos frameworks como Vue, dentro de mis pasatiempos esta escuchar musica, ver futbol y ver series
+        Soy estudiante de Ingeniería de Software, apasionado por la programación y el desarrollo de soluciones tecnológicas. Poseo conocimientos en C++, JavaScript y C#, así como experiencia básica en el uso de frameworks modernos como Vue.js. Me considero una persona curiosa, perseverante y orientada al aprendizaje continuo. En mi tiempo libre disfruto escuchar música, ver fútbol y series, actividades que me ayudan a mantener el equilibrio entre la creatividad y la concentración.
       </p>
     </td>
   </tr>
@@ -547,7 +532,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
     <td valign="top">
       <p><b>Sánchez Ríos, Camila Cristina</b></p>
       <p>
-        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el octavo ciclo. Me gusta escuchar música y leer en los ratos libres y aprender más sobre la carrera.
+        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el octavo ciclo. Poseo conocimientos sólidos en el desarrollo de aplicaciones web y de escritorio utilizando lenguajes como HTML, Java y C#, aplicando principios de diseño orientados al dominio (Domain Driven Design) y metodologías de desarrollo modernas.
       </p>
     </td>
   </tr>
@@ -569,7 +554,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
     <td valign="top">
       <p><b>Oroncoy Almeyda, Alejandro Daniel</b></p>
       <p>
-      Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 6to ciclo. Me considero una persona proactiva, autodidacta y orientada a objetivos.
+        Mi nombre es Alejandro Oroncoy. Tengo 19 años, soy estudiante de la carrera de ingeniería de software, estoy en 6to ciclo. Tengo experiencia trabajando con frameworks como Angular y Vue.js para el desarrollo frontend, así como en la implementación de arquitecturas limpias y mantenibles. Me considero una persona proactiva, autodidacta y orientada a objetivos.
       </p>
     </td>
   </tr>
@@ -1454,12 +1439,13 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 
 Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
 
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US01</td>
@@ -1506,12 +1492,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US02 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US02</td>
@@ -1560,12 +1547,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US03 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US03</td>
@@ -1612,9 +1600,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US04 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US04</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
@@ -1652,9 +1644,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US05 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US05</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
@@ -1692,9 +1688,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US06 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US06</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
@@ -1732,9 +1732,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US07 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US07</td><td>Usuario de inventario</td><td></td><td>EP01 - Funciones básicas de inventario</td>
@@ -1778,9 +1782,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US08 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US08</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -1818,9 +1826,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US09 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US09</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -1858,9 +1870,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US10 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US10</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -1898,9 +1914,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US11 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US11</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -1938,9 +1958,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US12 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US12</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -1978,9 +2002,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US13 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US13</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -2018,9 +2046,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US14 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US14</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -2058,9 +2090,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US15 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US15</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -2098,9 +2134,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US16 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US16</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
@@ -2138,9 +2178,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US17 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US17</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
@@ -2178,9 +2222,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US18 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US18</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -2218,9 +2266,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US19 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US19</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -2258,9 +2310,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US20 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US20</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
@@ -2298,9 +2354,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US21 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US21</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
@@ -2338,9 +2398,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US22 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US22</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
@@ -2378,9 +2442,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US23 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US23</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
@@ -2418,9 +2486,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US24 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US24</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -2458,9 +2530,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US25 -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US25</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
@@ -2496,9 +2572,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US26 – Plan A: Entrada por voz -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US26</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
@@ -2544,9 +2624,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US27 – Plan B: Geolocalización (GPS) -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US27</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
@@ -2592,9 +2676,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US28 – Plan C (Localiza): Mapa + QR en almacén -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US28</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
@@ -2640,9 +2728,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US29 – Plan C (Predice): Reabastecimiento inteligente -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US29</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
@@ -2688,9 +2780,13 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US30 – Plan D: Escaneo por lotes con cámara rápida (visión) -->
-<table border="1" cellspacing="0" cellpadding="8">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
-    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
   <tr>
     <td>US30</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
@@ -2733,43 +2829,954 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
   </tr>
 </table>
 
+
+### No funcionales
+
+En esta sección se presentan las historias de usuario no funcionales, las cuales describen los atributos de calidad, restricciones y condiciones que el sistema debe cumplir para garantizar su correcto desempeño.
+
+<!-- NF01 – Seguridad: Encriptación -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>NF01</td><td>Administrador</td><td>Alta</td><td>EP04 - Seguridad y mantenimiento</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Encriptar credenciales y transacciones</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como administrador, quiero que todas las credenciales y transacciones estén encriptadas, para proteger los datos de usuarios y registros de inventario ante accesos no autorizados.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Cifrado de contraseñas</strong></p>
+      <ul>
+        <li>Dado que el sistema almacena credenciales,</li>
+        <li>Cuando se crea o actualiza una cuenta,</li>
+        <li>Entonces la contraseña se almacena mediante un cifrado seguro.</li>
+      </ul>
+      <p><strong>Escenario 02: Protección de datos en tránsito</strong></p>
+      <ul>
+        <li>Dado que el usuario inicia sesión,</li>
+        <li>Cuando se transmiten los datos,</li>
+        <li>Entonces la conexión utiliza HTTPS para evitar accesos no autorizados.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+   
+
+<!-- NF02 – Rendimiento -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>NF02</td><td>Usuario</td><td>Alta</td><td>EP04 - Rendimiento del sistema</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Optimizar tiempos de respuesta</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero que las acciones de registro o edición respondan en menos de 3 segundos, para mantener una experiencia fluida al manejar grandes volúmenes de datos.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro rápido</strong></p>
+      <ul>
+        <li>Dado que el usuario registra un nuevo producto,</li>
+        <li>Cuando se envía el formulario,</li>
+        <li>Entonces la operación se completa en menos de 3 segundos.</li>
+      </ul>
+      <p><strong>Escenario 02: Consulta simultánea</strong></p>
+      <ul>
+        <li>Dado que varios usuarios acceden al sistema,</li>
+        <li>Cuando ejecutan búsquedas,</li>
+        <li>Entonces el rendimiento no se ve afectado por las solicitudes concurrentes.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+
+<br>
+<!-- NF03 – Escalabilidad -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>NF03</td><td>Usuario</td><td>Alta</td><td>EP04 - Escalabilidad y estabilidad</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Soporte a grandes volúmenes de datos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como dueño del negocio, quiero que el sistema maneje hasta 10,000 productos sin pérdida de rendimiento, para asegurar el crecimiento del negocio sin fallos.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Carga masiva</strong></p>
+      <ul>
+        <li>Dado que se importan grandes volúmenes de productos,</li>
+        <li>Cuando se ejecuta la operación,</li>
+        <li>Entonces el sistema procesa todos los registros sin interrupciones.</li>
+      </ul>
+      <p><strong>Escenario 02: Rendimiento estable</strong></p>
+      <ul>
+        <li>Dado que aumenta el número de productos,</li>
+        <li>Cuando el usuario realiza búsquedas o consultas,</li>
+        <li>Entonces el tiempo de respuesta se mantiene dentro del rango permitido.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- NF04 – Usabilidad -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>NF04</td><td>Usuario con discapacidad visual</td><td>Media</td><td>EP04 - Usabilidad e inclusión</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Diseño accesible e inclusivo</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario con discapacidad visual, quiero que la interfaz tenga alto contraste, tipografía legible y opción de modo oscuro, para poder utilizar el sistema cómodamente.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Activación de modo oscuro</strong></p>
+      <ul>
+        <li>Dado que el usuario accede a la configuración,</li>
+        <li>Cuando habilita el modo oscuro,</li>
+        <li>Entonces todos los elementos se visualizan correctamente con contraste adecuado.</li>
+      </ul>
+      <p><strong>Escenario 02: Legibilidad del texto</strong></p>
+      <ul>
+        <li>Dado que el usuario modifica el tamaño de la fuente,</li>
+        <li>Cuando navega por las pantallas,</li>
+        <li>Entonces el contenido se mantiene legible sin distorsión ni superposición.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- NF05 – Disponibilidad -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>NF05</td><td>Usuario</td><td>Alta</td><td>EP04 - Disponibilidad y alertas</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">Alertas en tiempo real</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero que las alertas de stock y caducidad se generen en tiempo real, para poder tomar decisiones inmediatas y evitar pérdidas en el inventario.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Bajo stock</strong></p>
+      <ul>
+        <li>Dado que el producto alcanza el mínimo de stock,</li>
+        <li>Cuando el sistema actualiza inventario,</li>
+        <li>Entonces se genera una alerta visual y sonora instantánea.</li>
+      </ul>
+      <p><strong>Escenario 02: Producto caducado</strong></p>
+      <ul>
+        <li>Dado que un lote expira,</li>
+        <li>Cuando el usuario abre la aplicación,</li>
+        <li>Entonces se muestra una advertencia prioritaria en la pantalla principal.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+
 ### Technical Stories
 
 En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros.
 
-<!-- TS01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS01</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar nuevos usuarios, asegurando validaciones y persistencia correcta en el backend.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Registro exitoso</strong><br> Dado que el endpoint de registro está disponible y la app valida email/contraseña,<br> Cuando el usuario envía datos válidos desde el móvil,<br> Entonces el backend crea la cuenta (201), retorna token y la app lo guarda de forma segura (Keychain/Keystore).<br><br> <strong>Escenario 02: Datos inválidos o duplicados</strong><br> Dado el endpoint de registro,<br> Cuando el email ya existe o los campos no cumplen las reglas (formato/fortaleza),<br> Entonces se responde 400/409 con mensaje claro y la app muestra los errores sin duplicar el envío. </td> </tr> </table> <br>
+<!-- TS01 – API Registro de usuarios -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS01</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Registro de usuarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como desarrollador, necesito exponer endpoints para registrar nuevos usuarios, asegurando validaciones y persistencia correcta en el backend.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro exitoso</strong></p>
+      <ul>
+        <li>Dado que el endpoint de registro está disponible y la app valida email/contraseña,</li>
+        <li>Cuando el usuario envía datos válidos desde el móvil,</li>
+        <li>Entonces el backend crea la cuenta (201), retorna token y la app lo guarda de forma segura (Keychain/Keystore).</li>
+      </ul>
+      <p><strong>Escenario 02: Datos inválidos o duplicados</strong></p>
+      <ul>
+        <li>Dado el endpoint de registro,</li>
+        <li>Cuando el email ya existe o los campos no cumplen las reglas (formato/fortaleza),</li>
+        <li>Entonces se responde 400/409 con mensaje claro y la app muestra los errores sin duplicar el envío.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<!-- TS02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS02</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">API Autenticación de usuarios</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito implementar endpoints de autenticación para que la app móvil inicie sesión de forma segura (emisión y validación de tokens).</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Login válido</strong><br> Dado el endpoint de autenticación,<br> Cuando se envían credenciales válidas desde la app,<br> Entonces se retorna 200 con access/refresh token y datos mínimos del perfil; la app inicia sesión persistente y puede habilitar biometría.<br><br> <strong>Escenario 02: Login inválido</strong><br> Dado el endpoint de autenticación,<br> Cuando las credenciales son incorrectas o el usuario está inactivo,<br> Entonces se retorna 401/403 con mensaje adecuado y la app ofrece “recuperar contraseña”. </td> </tr> </table> <br>
+<!-- TS02 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS02</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Autenticación de usuarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito implementar endpoints de autenticación para que la app móvil inicie sesión de forma segura (emisión y validación de tokens).</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Login válido</strong></p>
+      <ul>
+        <li>Dado el endpoint de autenticación,</li>
+        <li>Cuando se envían credenciales válidas desde la app,</li>
+        <li>Entonces se retorna 200 con access/refresh token y datos mínimos del perfil; la app inicia sesión persistente y puede habilitar biometría.</li>
+      </ul>
+      <p><strong>Escenario 02: Login inválido</strong></p>
+      <ul>
+        <li>Dado el endpoint de autenticación,</li>
+        <li>Cuando las credenciales son incorrectas o el usuario está inactivo,</li>
+        <li>Entonces se retorna 401/403 con mensaje adecuado y la app ofrece “recuperar contraseña”.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<!-- TS03 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS03</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Creación de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar productos con validaciones de campos requeridos y unicidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Producto creado</strong><br> Dado que la app permite capturar foto/código de barras,<br> Cuando se envían datos correctos desde el móvil,<br> Entonces el backend crea el producto (201) y la app sincroniza la imagen en segundo plano.<br><br> <strong>Escenario 02: Datos inválidos</strong><br> Dado el endpoint de productos,<br> Cuando el código está duplicado o faltan campos requeridos,<br> Entonces se retorna 400/409 con detalle y la app resalta los campos a corregir. </td> </tr> </table> <br>
+<br>
 
-<!-- TS04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS04</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de productos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar productos con soporte de paginación y orden para su visualización en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Lista disponible</strong><br> Dado que la app lista con “infinite scroll”,<br> Cuando consulta el endpoint,<br> Entonces se retorna colección paginada (200) mostrando placeholders y usando caché local si no hay conexión.<br><br> <strong>Escenario 02: Sin registros</strong><br> Dado el endpoint de consulta,<br> Cuando no existen productos,<br> Entonces se retorna 200 con lista vacía y la app muestra estado vacío con CTA para crear. </td> </tr> </table> <br>
+<!-- TS03 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS03</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Creación de productos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar productos con validaciones de campos requeridos y unicidad.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Producto creado</strong></p>
+      <ul>
+        <li>Dado que la app permite capturar foto/código de barras,</li>
+        <li>Cuando se envían datos correctos desde el móvil,</li>
+        <li>Entonces el backend crea el producto (201) y la app sincroniza la imagen en segundo plano.</li>
+      </ul>
+      <p><strong>Escenario 02: Datos inválidos</strong></p>
+      <ul>
+        <li>Dado el endpoint de productos,</li>
+        <li>Cuando el código está duplicado o faltan campos requeridos,</li>
+        <li>Entonces se retorna 400/409 con detalle y la app resalta los campos a corregir.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
- <!-- TS05 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS05</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por categoría</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar productos por categoría para agilizar búsquedas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Categoría existente</strong><br> Dado que el usuario selecciona una categoría (chips/filtros),<br> Cuando se consulta el endpoint con la categoría,<br> Entonces se retorna 200 con resultados ignorando mayúsculas/acentos y la app recuerda el filtro.<br><br> <strong>Escenario 02: Sin coincidencias</strong><br> Dado el filtro por categoría,<br> Cuando no hay productos asociados,<br> Entonces se retorna 200 con lista vacía y la app permite limpiar filtros. </td> </tr> </table> <br>
+<br>
 
- <!-- TS06 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS06</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Productos por etiqueta</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito permitir la consulta de productos por etiqueta para mejorar la organización y búsqueda.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Etiqueta válida</strong><br> Dado que la app ofrece autocompletado de etiquetas recientes,<br> Cuando el usuario selecciona una etiqueta y consulta,<br> Entonces el backend retorna los productos (200) y la app permite combinar con otros filtros activos.<br><br> <strong>Escenario 02: Etiqueta sin resultados</strong><br> Dado que se consulta por una etiqueta inexistente o sin datos,<br> Cuando el backend no encuentra coincidencias,<br> Entonces responde 200 con lista vacía y la app sugiere etiquetas relacionadas. </td> </tr> </table> <br>
+<!-- TS04 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS04</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Consulta de productos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito listar productos con soporte de paginación y orden para su visualización en la app móvil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Lista disponible</strong></p>
+      <ul>
+        <li>Dado que la app lista con “infinite scroll”,</li>
+        <li>Cuando consulta el endpoint,</li>
+        <li>Entonces se retorna colección paginada (200) mostrando placeholders y usando caché local si no hay conexión.</li>
+      </ul>
+      <p><strong>Escenario 02: Sin registros</strong></p>
+      <ul>
+        <li>Dado el endpoint de consulta,</li>
+        <li>Cuando no existen productos,</li>
+        <li>Entonces se retorna 200 con lista vacía y la app muestra estado vacío con CTA para crear.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
- <!-- TS07 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS07</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de inventario</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar movimientos/stock de inventario con validaciones de negocio.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Registro válido</strong><br> Dado que la app permite escanear código/QR,<br> Cuando se registra una entrada o salida con cantidad válida,<br> Entonces el backend guarda el movimiento (201) y retorna el stock actualizado para mostrar en la app.<br><br> <strong>Escenario 02: Registro inválido</strong><br> Dado el endpoint de inventario,<br> Cuando la cantidad es negativa o la salida supera el stock,<br> Entonces se retorna 400 con detalle y la app resalta el campo con error. </td> </tr> </table> <br>
+<br>
 
- <!-- TS08 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS08</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por precio</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango válido</strong><br> Dado que el usuario ajusta un rango (slider),<br> Cuando se consulta el endpoint con la moneda/locale del dispositivo,<br> Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.<br><br> <strong>Escenario 02: Sin resultados</strong><br> Dado un rango sin coincidencias,<br> Cuando el backend no encuentra registros,<br> Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango. </td> </tr> </table> <br>
+<!-- TS05 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS05</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Productos por categoría</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito filtrar productos por categoría para agilizar búsquedas desde la app.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Categoría existente</strong></p>
+      <ul>
+        <li>Dado que el usuario selecciona una categoría (chips/filtros),</li>
+        <li>Cuando se consulta el endpoint con la categoría,</li>
+        <li>Entonces se retorna 200 con resultados ignorando mayúsculas/acentos y la app recuerda el filtro.</li>
+      </ul>
+      <p><strong>Escenario 02: Sin coincidencias</strong></p>
+      <ul>
+        <li>Dado el filtro por categoría,</li>
+        <li>Cuando no hay productos asociados,</li>
+        <li>Entonces se retorna 200 con lista vacía y la app permite limpiar filtros.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
- <!-- TS09 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS09</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventario por producto</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Producto existente</strong><br> Dado que la app escanea o selecciona un producto,<br> Cuando se consulta por su ID,<br> Entonces el backend retorna 200 con stock actual y últimos movimientos.<br><br> <strong>Escenario 02: Producto inexistente</strong><br> Dado el endpoint por producto,<br> Cuando el ID no existe o está inactivo,<br> Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto. </td> </tr> </table> <br>
+<br>
 
- <!-- TS10 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS10</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Fecha con registros</strong><br> Dado que el usuario selecciona un rango con el date picker del móvil,<br> Cuando la app consulta con la zona horaria del dispositivo,<br> Entonces el backend retorna 200 con los registros del período.<br><br> <strong>Escenario 02: Fecha sin registros</strong><br> Dado el endpoint por fecha,<br> Cuando el rango no tiene datos,<br> Entonces se retorna 200 con lista vacía y la app propone rangos cercanos. </td> </tr> </table> <br>
+<!-- TS06 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS06</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Productos por etiqueta</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito permitir la consulta de productos por etiqueta para mejorar la organización y búsqueda.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Etiqueta válida</strong></p>
+      <ul>
+        <li>Dado que la app ofrece autocompletado de etiquetas recientes,</li>
+        <li>Cuando el usuario selecciona una etiqueta y consulta,</li>
+        <li>Entonces el backend retorna los productos (200) y la app permite combinar con otros filtros activos.</li>
+      </ul>
+      <p><strong>Escenario 02: Etiqueta sin resultados</strong></p>
+      <ul>
+        <li>Dado que se consulta por una etiqueta inexistente o sin datos,</li>
+        <li>Cuando el backend no encuentra coincidencias,</li>
+        <li>Entonces responde 200 con lista vacía y la app sugiere etiquetas relacionadas.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
- <!-- TS11 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS11</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por cantidad</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Rango/cantidad válida</strong><br> Dado que la app permite filtrar por cantidad o rango,<br> Cuando se consulta el endpoint,<br> Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.<br><br> <strong>Escenario 02: Sin coincidencias</strong><br> Dado el filtro por cantidad/rango,<br> Cuando no hay resultados,<br> Entonces se retorna 200 con lista vacía y la app permite guardar el filtro. </td> </tr> </table> <br>
+<br>
 
- <!-- TS12 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS12</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td> </tr> <tr> <th>Title</th><td colspan="3">API Inventarios por proveedor</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Proveedor existente</strong><br> Dado que el usuario selecciona un proveedor en la app,<br> Cuando se consulta el endpoint con su identificador,<br> Entonces retorna 200 con la lista paginada de inventarios.<br><br> <strong>Escenario 02: Proveedor sin productos</strong><br> Dado el endpoint por proveedor,<br> Cuando no hay inventarios vinculados,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado informativo. </td> </tr> </table> <br>
+<!-- TS07 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS07</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Registro de inventario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito endpoints para registrar movimientos/stock de inventario con validaciones de negocio.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Registro válido</strong></p>
+      <ul>
+        <li>Dado que la app permite escanear código/QR,</li>
+        <li>Cuando se registra una entrada o salida con cantidad válida,</li>
+        <li>Entonces el backend guarda el movimiento (201) y retorna el stock actualizado para mostrar en la app.</li>
+      </ul>
+      <p><strong>Escenario 02: Registro inválido</strong></p>
+      <ul>
+        <li>Dado el endpoint de inventario,</li>
+        <li>Cuando la cantidad es negativa o la salida supera el stock,</li>
+        <li>Entonces se retorna 400 con detalle y la app resalta el campo con error.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
- <!-- TS13 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS13</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito registrar alertas del sistema (p.ej., bajo stock) para su notificación en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Alerta registrada</strong><br> Dado un evento de bajo stock detectado en la app o backend,<br> Cuando se envía la alerta con datos válidos al endpoint,<br> Entonces se registra (201) y la app puede disparar notificación local/push.<br><br> <strong>Escenario 02: Datos inválidos</strong><br> Dado el endpoint de alertas,<br> Cuando el tipo es inválido o faltan campos requeridos,<br> Entonces se retorna 400 con detalle de validaciones. </td> </tr> </table> <br>
+<br>
 
- <!-- TS14 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS14</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de alertas</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito listar alertas para su visualización y seguimiento en la aplicación móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Listado disponible</strong><br> Dado que la app muestra un feed con “pull to refresh”,<br> Cuando consulta el endpoint,<br> Entonces se retornan alertas paginadas (200) ordenadas por severidad/fecha y se pueden marcar como leídas.<br><br> <strong>Escenario 02: Sin alertas</strong><br> Dado el endpoint de consulta de alertas,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app ofrece ir a configuración de alertas. </td> </tr> </table> <br>
+<!-- TS08 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS08</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Inventarios por precio</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Rango válido</strong></p>
+      <ul>
+        <li>Dado que el usuario ajusta un rango (slider),</li>
+        <li>Cuando se consulta el endpoint con la moneda/locale del dispositivo,</li>
+        <li>Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.</li>
+      </ul>
+      <p><strong>Escenario 02: Sin resultados</strong></p>
+      <ul>
+        <li>Dado un rango sin coincidencias,</li>
+        <li>Cuando el backend no encuentra registros,</li>
+        <li>Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
- <!-- TS15 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS15</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Registro de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito endpoints para registrar combos de productos respetando reglas de composición.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Combo registrado</strong><br> Dado que el usuario arma un combo en la app seleccionando productos y cantidades,<br> Cuando envía la creación,<br> Entonces el backend valida reglas (stock mínimo, no repetidos) y crea el combo (201) de forma atómica.<br><br> <strong>Escenario 02: Datos inválidos</strong><br> Dado el endpoint de combos,<br> Cuando la composición es inválida o hay productos inexistentes,<br> Entonces se retorna 400 con detalle y la app conserva la selección para corregir. </td> </tr> </table> <br>
+<br>
 
- <!-- TS16 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>TS16</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td> </tr> <tr> <th>Title</th><td colspan="3">API Consulta de combos</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como desarrollador, necesito consultar combos registrados para mostrarlos como opciones agrupadas en la app móvil.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <strong>Escenario 01: Listado de combos</strong><br> Dado que la app lista combos con imágenes y precio total,<br> Cuando consulta el endpoint,<br> Entonces el backend retorna 200 con lista paginada y la app permite ordenar y guardar favoritos.<br><br> <strong>Escenario 02: Sin combos</strong><br> Dado el endpoint de combos,<br> Cuando no existen registros,<br> Entonces se retorna 200 con lista vacía y la app muestra un estado sin datos con botón para crear combo. </td> </tr> </table>
+<!-- TS09 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS09</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Inventario por producto</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Producto existente</strong></p>
+      <ul>
+        <li>Dado que la app escanea o selecciona un producto,</li>
+        <li>Cuando se consulta por su ID,</li>
+        <li>Entonces el backend retorna 200 con stock actual y últimos movimientos.</li>
+      </ul>
+      <p><strong>Escenario 02: Producto inexistente</strong></p>
+      <ul>
+        <li>Dado el endpoint por producto,</li>
+        <li>Cuando el ID no existe o está inactivo,</li>
+        <li>Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- TS10 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS10</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Fecha con registros</strong></p>
+      <ul>
+        <li>Dado que el usuario selecciona un rango con el date picker del móvil,</li>
+        <li>Cuando la app consulta con la zona horaria del dispositivo,</li>
+        <li>Entonces el backend retorna 200 con los registros del período.</li>
+      </ul>
+      <p><strong>Escenario 02: Fecha sin registros</strong></p>
+      <ul>
+        <li>Dado el endpoint por fecha,</li>
+        <li>Cuando el rango no tiene datos,</li>
+        <li>Entonces se retorna 200 con lista vacía y la app propone rangos cercanos.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- TS11 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS11</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Inventarios por cantidad</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Rango/cantidad válida</strong></p>
+      <ul>
+        <li>Dado que la app permite filtrar por cantidad o rango,</li>
+        <li>Cuando se consulta el endpoint,</li>
+        <li>Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.</li>
+      </ul>
+      <p><strong>Escenario 02: Sin coincidencias</strong></p>
+      <ul>
+        <li>Dado el filtro por cantidad/rango,</li>
+        <li>Cuando no hay resultados,</li>
+        <li>Entonces se retorna 200 con lista vacía y la app permite guardar el filtro.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+
+<!-- TS12 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS12</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Inventarios por proveedor</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Proveedor existente</strong></p>
+      <ul>
+        <li>Dado que el usuario selecciona un proveedor en la app,</li>
+        <li>Cuando se consulta el endpoint con su identificador,</li>
+        <li>Entonces retorna 200 con la lista paginada de inventarios.</li>
+      </ul>
+      <p><strong>Escenario 02: Proveedor sin productos</strong></p>
+      <ul>
+        <li>Dado el endpoint por proveedor,</li>
+        <li>Cuando no hay inventarios vinculados,</li>
+        <li>Entonces se retorna 200 con lista vacía y la app muestra un estado informativo.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- TS13 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS13</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Registro de alertas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito registrar alertas del sistema (p.ej., bajo stock) para su notificación en la app móvil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Alerta registrada</strong></p>
+      <ul>
+        <li>Dado un evento de bajo stock detectado en la app o backend,</li>
+        <li>Cuando se envía la alerta con datos válidos al endpoint,</li>
+        <li>Entonces se registra (201) y la app puede disparar notificación local/push.</li>
+      </ul>
+      <p><strong>Escenario 02: Datos inválidos</strong></p>
+      <ul>
+        <li>Dado el endpoint de alertas,</li>
+        <li>Cuando el tipo es inválido o faltan campos requeridos,</li>
+        <li>Entonces se retorna 400 con detalle de validaciones.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- TS14 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS14</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Consulta de alertas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito listar alertas para su visualización y seguimiento en la aplicación móvil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Listado disponible</strong></p>
+      <ul>
+        <li>Dado que la app muestra un feed con “pull to refresh”,</li>
+        <li>Cuando consulta el endpoint,</li>
+        <li>Entonces se retornan alertas paginadas (200) ordenadas por severidad/fecha y se pueden marcar como leídas.</li>
+      </ul>
+      <p><strong>Escenario 02: Sin alertas</strong></p>
+      <ul>
+        <li>Dado el endpoint de consulta de alertas,</li>
+        <li>Cuando no existen registros,</li>
+        <li>Entonces se retorna 200 con lista vacía y la app ofrece ir a configuración de alertas.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- TS15 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS15</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Registro de combos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito endpoints para registrar combos de productos respetando reglas de composición.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Combo registrado</strong></p>
+      <ul>
+        <li>Dado que el usuario arma un combo en la app seleccionando productos y cantidades,</li>
+        <li>Cuando envía la creación,</li>
+        <li>Entonces el backend valida reglas (stock mínimo, no repetidos) y crea el combo (201) de forma atómica.</li>
+      </ul>
+      <p><strong>Escenario 02: Datos inválidos</strong></p>
+      <ul>
+        <li>Dado el endpoint de combos,</li>
+        <li>Cuando la composición es inválida o hay productos inexistentes,</li>
+        <li>Entonces se retorna 400 con detalle y la app conserva la selección para corregir.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- TS16 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>TS16</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+  <tr>
+    <th>Title</th><td colspan="3">API Consulta de combos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador, necesito consultar combos registrados para mostrarlos como opciones agrupadas en la app móvil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Listado de combos</strong></p>
+      <ul>
+        <li>Dado que la app lista combos con imágenes y precio total,</li>
+        <li>Cuando consulta el endpoint,</li>
+        <li>Entonces el backend retorna 200 con lista paginada y la app permite ordenar y guardar favoritos.</li>
+      </ul>
+      <p><strong>Escenario 02: Sin combos</strong></p>
+      <ul>
+        <li>Dado el endpoint de combos,</li>
+        <li>Cuando no existen registros,</li>
+        <li>Entonces se retorna 200 con lista vacía y la app muestra un estado sin datos con botón para crear combo.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ### Spike Story
+
 
 <!-- SPK01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK01</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Implementar entrada por voz, comandos estructurados e interpretación</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga gramática mínima y extracción de entidades (cantidad, producto) para registrar movimientos por voz con manejo de ambigüedad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Extracción de entidades con confianza mínima</strong></p> <ul> <li>Dado que se recibe un comando válido,</li> <li>Cuando procesa audio o texto,</li> <li>Entonces extrae cantidad y referencia de producto con un umbral de confianza definido.</li> </ul> <p><strong>Escenario 02: Manejo de ambigüedad</strong></p> <ul> <li>Dado que existen múltiples coincidencias,</li> <li>Cuando detecta ambigüedad,</li> <li>Entonces solicita desambiguación dentro del flujo técnico.</li> </ul> <p><strong>Escenario 03: Dictado consecutivo</strong></p> <ul> <li>Dado que el usuario dicta varios comandos,</li> <li>Cuando los recibe en secuencia,</li> <li>Entonces procesa cada uno y conserva estado hasta terminación.</li> </ul> </td> </tr> </table> <br>
 
@@ -2798,6 +3805,7 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
     <ul><li>Dado un producto confirmado,</li><li>Cuando el usuario lo solicita,</li><li>Entonces navega a su ubicación (QR o GPS) en el mapa del almacén.</li></ul>
   </td></tr>
 </table>
+
 
 
 ### 2.4.2. Impact Mapping
@@ -5030,6 +6038,86 @@ A continuación se muestran los insights del equipo para la sección correspondi
 Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas. 
 
 [![Front](https://imgur.com/83O5qvN.png)](https://imgur.com/83O5qvN.png)
+
+#### 4.2.2. Sprint 2
+
+##### 4.2.2.1. Sprint Planning 2
+| Sprint # | Sprint 2  | 
+|--------------------|------------|
+|Sprint Planning Background|  |
+|Date| 2025-10-22|
+|Time|21:15 PM|
+|Location| UPC – Monterrico|
+|Prepared by| Alejandro Oroncoy |
+|Attendees (Planning Meeting)| Kevin Chi, Alejandro Oroncoy, Jeremy Paucar, Camila Sánchez|
+|Sprint n-2 Review Summary | En el Sprint 2 se completaron las funcionalidades principales del backend (registro, autenticación y gestión de productos) e integración base con la aplicación móvil. Se implementó la estructura de navegación y módulos de productos e inventario.|
+|Sprint Planning Background| En este segundo sprint se centrará el trabajo en la optimización del backend y la implementación de funcionalidades avanzadas de control de inventario, reportes y alertas. Además, se realizará el despliegue del backend y documentación técnica en un sitio público, así como la preparación del entorno para la validación de la app móvil.|
+|Sprint Goal & User Stories||
+|Sprint 2 Goal| Consolidar la infraestructura backend y desplegarla públicamente, integrando nuevas funcionalidades en la app móvil (reportes, alertas, combos y consultas avanzadas). Se considera cumplido el objetivo si el backend está operativo y documentado, y las principales funciones core del sistema están visibles y validadas.  |
+|Sprint Velocity | 26 Story Points |
+|Sum of Story Points| 26 Story Points|
+
+
+##### 4.2.2.2. Sprint Backlog 2
+**Objetivo del Sprint:**  
+Optimizar la aplicación móvil StockWise e integrar las funcionalidades avanzadas: reportes, alertas, consultas filtradas, combos y predicción de reabastecimiento, asegurando la correcta comunicación con el backend desplegado y documentado públicamente.
+
+| Sprint # | Sprint n | User Story |   | Work-Item / Task |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|
+|   |   | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| 2        | Sprint 2 | US12           | Generar reportes de inventario            | TSK-22               | Optimizar módulo de reportes      | Agregar filtros por categoría y rango de fechas con exportación a PDF/Excel.      | 6                      | Kevin           | Done                                               |
+| 2        | Sprint 2 | US14           | Registrar devolución de productos         | TSK-23               | Implementar devoluciones en móvil | Permitir registrar devoluciones y actualizar stock automáticamente.               | 5                      | Jocelyn         | Done                                               |
+| 2        | Sprint 2 | US15           | Configurar roles y permisos de usuario    | TSK-24               | Interfaz de roles y usuarios      | Crear pantalla de gestión de usuarios integrada con autorización en API.          | 5                      | Alejandro       | Done                                               |
+| 2        | Sprint 2 | US16           | Gestionar proveedores                     | TSK-25               | Módulo de proveedores             | Registrar y editar datos de proveedores para vincularlos con lotes.               | 5                      | Jeremy          | Done                                               |
+| 2        | Sprint 2 | US18           | Visualizar historial de stock             | TSK-26               | Implementar gráfica de histórico  | Mostrar evolución de stock por producto con filtro de periodo.                    | 5                      | Kevin           | Done                                               |
+| 2        | Sprint 2 | US19           | Alertas de stock mínimo                   | TSK-27               | Crear alertas automáticas         | Notificar al usuario cuando el stock cae por debajo del mínimo.                   | 5                      | Jocelyn         | Done                                               |
+| 2        | Sprint 2 | US22           | Alertas por productos caducados           | TSK-28               | Control de caducidad              | Detectar productos vencidos y mostrar alertas visuales y sonoras.                 | 5                      | Alejandro       | Done                                               |
+| 2        | Sprint 2 | US23           | Registrar ingreso de productos            | TSK-29               | Mejorar flujo de entrada          | Permitir registro individual y masivo desde archivo Excel.                        | 4                      | Jeremy          | Done                                               |
+| 2        | Sprint 2 | US24           | Visualizar resumen de stock por categoría | TSK-30               | Panel de resumen                  | Mostrar totales por categoría con gráfico de barras y colores por nivel de stock. | 4                      | Kevin           | Done                                               |
+| 2        | Sprint 2 | SPK01          | Entrada por voz (prototipo)               | TSK-31               | Probar Speech-to-Text             | Explorar reconocimiento de voz para comandos básicos de inventario.               | 6                      | Jeremy          | In-Process                                         |
+| 2        | Sprint 2 | SPK02          | Roles y permisos en API                   | TSK-32               | Ajustar modelo RBAC backend       | Integrar permisos por rol para operaciones de inventario desde móvil.             | 4                      | Alejandro       | In-Process                                         |
+
+
+SPRINT BACKLOG 2: https://trello.com/invite/b/6901e5bd6397432560be15a9/ATTI1739f7821067be06836cf579b98d49864A6994EE/stockwise-sprint-2
+
+#### 4.2.3. Sprint 3
+Este informe documenta el progreso realizado durante la fase de definición de requisitos del proyecto, que incluye entrevistas con los interesados y creación de artefactos antes y después de la implementación de la aplicación mobile. Proporcionar una visión clara del avance y garantizar una comunicación efectiva entre el equipo de desarrollo y los interesados son los objetivos principales.
+
+Durante esta etapa, se realizaron extensas entrevistas con los interesados para comprender sus necesidades, expectativas y requisitos particulares para la aplicación. Las entrevistas proporcionaron información útil que ayudó a definir los requisitos del proyecto.
+
+Se realizaron actividades de creación de artefactos antes y después de la implementación de la aplicación mobile, además de entrevistas. Estos objetos fueron:
+##### 4.2.3.1. Sprint Planning 3
+| Sprint # | Sprint 3 | 
+|--------------------|------------|
+| Sprint Planning Background | 
+| Date | 2025-11-12 | 
+| Time |  22:00 PM |
+| Location |  UPC - Monterrico |
+| Preparate by| Camila Sanchez Rios | 
+|  Attendees (to planning meeting) | Jocelyn Almerco, Kevin Chi, Alejandro Oroncoy, Jeremy Paucar | 
+| Sprint 3 Review Summary | En el Sprint 3 se logró el despliegue completo del backend en un sitio público con documentación y se integraron las funciones avanzadas (alertas, reportes, combos y roles). La app móvil mostró las funcionalidades core y las primeras pruebas de validación. | 
+| Sprint Planning Background |Se centrará en la validación final del producto, pruebas integrales, corrección de errores y preparación de las entregas multimedia.|
+| Sprint Goal & User Stories | 
+| Sprint 3 Goal | Finalizar el desarrollo de la aplicación StockWise, validando todas las funcionalidades del Product Backlog y entregando la versión final del sistema (app móvil, backend y landing page). Se considera cumplido si la app está desplegada, validada y respaldada con los videos requeridos. |  
+| Sprint Velocity | Se establece un Velocity de 28 Story Points para este Sprint. | 
+| Sum of Story Points | 28 Story Points | 
+
+##### 4.2.3.2. Sprint Backlog 3
+**Objetivo del Sprint:**  
+Culminar el desarrollo y validación integral del producto StockWise, incluyendo la publicación en un servicio de distribución, los videos de presentación y la documentación final del proyecto.
+
+| Sprint # | Sprint n | User Story |   | Work-Item / Task |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|
+|   |   | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** ||
+| 3            | Sprint 3     | SPK03          | Geolocalización (GPS y QR)           | TSK-33               | Integrar módulo de ubicación        | Permitir asociar ubicación GPS/QR a productos y visualizar en mapa.             | 5                      | Kevin           | Done       |
+| 3            | Sprint 3     | SPK04          | Predicción de reabastecimiento       | TSK-34               | Calcular demanda proyectada         | Implementar algoritmo (media móvil + lead time) para sugerir reabastecimientos. | 6                      | Alejandro       | Done       |
+| 3            | Sprint 3     | SPK05          | Escaneo por lotes con visión ML      | TSK-35               | Prototipo ML Kit                    | Probar detección de productos por imagen y confirmación de lote.                | 5                      | Jocelyn         | Done       |
+| 3            | Sprint 3     | US28           | Localizar productos con mapa y QR                 | TSK-36               | Integrar escaneo QR y mapa       | Permitir buscar y ubicar productos escaneando QR o desde el mapa del almacén.                            | 5                      | Alejandro       | Done       |
+| 3            | Sprint 3     | US29           | Gestionar predicción de reabastecimiento          | TSK-37               | Implementar modelo de predicción | Aplicar media móvil + lead time para sugerir reabastecimiento con alertas ajustables.                    | 5                      | Jeremy          | Done       |
+| 3            | Sprint 3     | US30           | Escanear por lotes con cámara rápida              | TSK-38               | Prototipo con visión por IA      | Implementar escaneo por lotes con API de visión (ML Kit), etiquetas y ubicación automática.              | 5                      | Kevin           | Done       |
+
+
+SPRINT BACKLOG 3: https://trello.com/invite/b/6901e5dc63f69a57fbbb17fa/ATTIdce0e9b3397eb8bf84cae3105e673678715E13A3/stockwise-sprint-3
 
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas
