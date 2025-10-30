@@ -1478,11 +1478,11 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 
 Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
 
-<!-- Contenedor fijo para uniformar tamaño -->
-<div style="width:900px; margin:auto;">
+<!-- US01 -->
+<div align="center">
 
 <table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse:collapse; width:100%; table-layout:fixed;">
+       style="border-collapse: collapse; width:900px; table-layout: fixed;">
   <tr>
     <th style="width:15%;">Story ID</th>
     <th style="width:25%;">User</th>
@@ -1495,19 +1495,21 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <td>Alta</td>
     <td>EP01 - Funciones básicas de inventario</td>
   </tr>
+
   <tr>
     <th>Title</th>
     <td colspan="3">Registrar producto nuevo</td>
   </tr>
+
   <tr>
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4">
-      Como usuario, quiero registrar un nuevo producto en mi inventario, 
-      para tener un control detallado de su existencia desde el comienzo.
+    <td colspan="4" style="text-align:justify;">
+      Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado de su existencia desde el comienzo.
     </td>
   </tr>
+
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1530,14 +1532,15 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 </div>
 
+---
+
 <!-- US02 -->
-<div style="width:900px; margin:auto;">
+<div align="center">
 
 <table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse:collapse; width:100%; table-layout:fixed;">
+       style="border-collapse: collapse; width:900px; table-layout: fixed;">
   <tr>
     <th style="width:15%;">Story ID</th>
     <th style="width:25%;">User</th>
@@ -1555,15 +1558,16 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     <th>Title</th>
     <td colspan="3">Editar información de producto</td>
   </tr>
+
   <tr>
     <th colspan="4">Description</th>
   </tr>
   <tr>
     <td colspan="4" style="text-align:justify;">
-      Como usuario, quiero editar la información de un producto registrado, 
-      para corregir o actualizar datos.
+      Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.                                       
     </td>
   </tr>
+
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
@@ -1586,9 +1590,61 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
     </td>
   </tr>
 </table>
-
 </div>
 
+
+<!-- US02 -->
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Usuario de inventario</td>
+    <td>Alta</td>
+    <td>EP01 - Funciones básicas de inventario</td>
+  </tr>
+
+  <tr>
+    <th>Title</th>
+    <td colspan="3">Editar información de producto</td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.
+    </td>
+  </tr>
+
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><strong>Escenario 01: Edición con éxito</strong></p>
+      <ul>
+        <li><strong>Dado que</strong> el usuario ya tiene un producto en el inventario</li>
+        <li><strong>Cuando</strong> modifica campos de información del producto</li>
+        <li><strong>Y</strong> procesa el regitsro adecuadamente</li>
+        <li><strong>Entonces</strong> el sistema guarda los cambios</li>
+      </ul>
+        <p><strong>Escenario 02: Edición con datos inválidos</strong></p>
+      <ul>
+        <li><strong>Dado que</strong> el usuario está editando información de un producto</li>
+        <li><strong>Cuando</strong> ingrese datos inválidos</li>
+        <li><strong>Entonces</strong> el sistema le muestra los errores</li>
+        <li><strong>Y</strong> no se guardan los cambios</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br>
 
