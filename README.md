@@ -4647,7 +4647,6 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 3 | Ausencia de módulo de pagos o créditos pendientes. | 3 | Information Architecture – Is it complete? |
 | 4 | Falta de reportes visuales o estadísticas | 2 | Inclusive Design – Accesibilidad visual. |
 | 5 | Recordatorios limitados para productos próximos a vencer | 2 | Usability – Visibilidad del estado del sistema. |
-| 6 | Recordatorios limitados para productos próximos a vencer | 2 | Usability – Ayuda y prevención de errores. |
 
 ---
 
