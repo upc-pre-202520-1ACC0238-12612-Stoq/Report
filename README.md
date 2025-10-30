@@ -547,7 +547,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
     <td valign="top">
       <p><b>Jocelyn Damaly Almerco Rohas</b></p>
       <p>
-        Soy estudiante de Ingeniería de Software y actualmente curso el 5to ciclo. Considero que tengo buen dominio en la elaboración de diagramas en C++. Los lenguajes que sé es C++, SQL, CSS, HTML y Javascript. En mi tiempo libre me gusta tocar ukelele, leer libros, resolver sudoku, escuchar música y ver series. Mi compromiso radica en ser responsable con las tareas asignadas, y mis habilidades incluyen la creatividad, el trabajo en equipo, la empatía y la responsabilidad.
+        Soy estudiante de Ingeniería de Software. Tengo buen dominio en la elaboración de diagramas en C++ y manejo lenguajes como C++, SQL, CSS, HTML y JavaScript. Además, poseo conocimientos básicos en frameworks como Angular y Vue.js para el desarrollo frontend. Aporto al equipo con habilidades en análisis lógico, documentación técnica y diseño estructurado de software, contribuyendo a mantener la coherencia y calidad del proyecto
       </p>
     </td>
   </tr>
@@ -569,7 +569,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
     <td valign="top">
       <p><b>Sánchez Ríos, Camila Cristina</b></p>
       <p>
-        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el octavo ciclo. Poseo conocimientos sólidos en el desarrollo de aplicaciones web y de escritorio utilizando lenguajes como HTML, Java y C#, aplicando principios de diseño orientados al dominio (Domain Driven Design) y metodologías de desarrollo modernas.
+       Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente me encuentro en el octavo ciclo. Poseo conocimientos sólidos en el desarrollo de aplicaciones web y de escritorio utilizando lenguajes como HTML, Java y C#, aplicando principios de diseño orientados al dominio (Domain Driven Design) y metodologías de desarrollo modernas. Además, tengo experiencia en diseño de interfaces y prototipado con Figma, lo que me permite aportar al equipo en la creación de soluciones visualmente coherentes, funcionales y centradas en la experiencia del usuario (UI/UX)..
       </p>
     </td>
   </tr>
@@ -1834,17 +1834,17 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
     <tr><td>33</td><td>SPK04</td><td>	Configurar predicción de reabastecimiento</td><td>3</td></tr>
     <tr><td>34</td><td>TS07</td><td>Generar API Registro de inventario</td><td>3</td></tr>
     <tr><td>35</td><td>US30</td><td>Escanear por lotes con cámara rápida</td><td>3</td></tr>
-    <tr><td>36</td><td>TS14</td><td>Generar API Consulta de alertas</td><td>3</td></tr>
-    <tr><td>37</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
-    <tr><td>38</td><td>NF03</td><td>Optimizar tiempos de respuesta</td><td>2</td></tr>
-    <tr><td>39</td><td>NF05</td><td>Alertas en tiempo reals</td><td>2</td></tr>
+    <tr><td>36</td><td>NF02</td><td>Optimizar tiempos de respuesta</td><td>3</td></tr>
+    <tr><td>37</td><td>NF05</td><td>Alertas en tiempo reals</td><td>3</td></tr>
+    <tr><td>38</td><td>TS14</td><td>Generar API Consulta de alertas</td><td>3</td></tr>
+    <tr><td>39</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
   </tbody>
 </table>
 
 ### Gestión del producto Backlog
 
 <img src="./assets/Chapter-2/Product_Backlog.png">
-<br><br>
+<br>
 
 Trello del Product Backlog: https://trello.com/invite/b/68d9c7c26edf04fc488ca657/ATTIe2ace23b94bb268e8de0b90039ed6ef756FAD28C/stoq-product-backlog
 
@@ -3095,7 +3095,7 @@ El usuario desea crear una nueva cuenta para comenzar a usar la plataforma y vin
 7. Si el pago falla, se muestra una alerta de error con el mensaje “No se pudo procesar el pago”.
 8. Finalmente, se redirige al usuario a la pantalla de Inicio de sesión.
 
-<center> <img src="assets/Chapter-3/user goal Registrar.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Registrar.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -3116,7 +3116,7 @@ El usuario accede al sistema mediante sus credenciales y se dirige a su panel pr
 
 6. Si las credenciales son inválidas, aparece una ventana flotante con el mensaje “Correo o contraseña incorrectos”, permitiendo reintentar.
 
-<center> <img src="assets/Chapter-3/user goal Iniciar sesion.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Iniciar sesion.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -3131,7 +3131,7 @@ El usuario explora la vista principal para acceder a las herramientas clave del 
 4. Accede a botones de acción rápida (Historial de Movimientos, Inventario, Agregar Productos, Kits y Devolución de productos)
 5. Selecciona cualquiera de las secciones para continuar su gestión.
 
-<center> <img src="assets/Chapter-3/user goal Navegador por el dashboard.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Navegador por el dashboard.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -3143,7 +3143,7 @@ El usuario explora la vista principal para acceder a las herramientas clave del 
 3. Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
 4. Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
 
-<center> <img src="assets/Chapter-3/user goal Inventario.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Inventario.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -3161,7 +3161,7 @@ El usuario explora la vista principal para acceder a las herramientas clave del 
 
 En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
 
-<center> <img src="assets/Chapter-3/user goal Botones principales.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/user goal Botones principales.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma*
@@ -3309,42 +3309,42 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 
 **User Goal: Registrar**
 
-<center> <img src="assets/Chapter-3/Color user goal Registrar.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Registrar.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Iniciar sesión**
 
-<center> <img src="assets/Chapter-3/Color user goal Iniciar sesion.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Iniciar sesion.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Navegar por el Dashboard**
 
-<center> <img src="assets/Chapter-3/Color user goal Navegador.png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Navegador.png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Inventario (Producto / Lote)**
 
-<center> <img src="assets/Chapter-3/Color user goal Inventario .png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Inventario .png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
-<center> <img src="assets/Chapter-3/Color user goal Botones principales .png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Botones principales .png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Historial de Movimientos**
 
-<center> <img src="assets/Chapter-3/Color user goal Historial .png" style="width: 420px;"/> </center>
+<center> <img src="assets/Chapter-3/Color user goal Historial .png" style="width: 820px;"/> </center>
 <br>
 
 *Imagen (N°). Elaboración propia. Realizado en Figma* 
@@ -4038,7 +4038,7 @@ Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, as
 |Location| UPC – Monterrico|
 |Prepared by| Alejandro Oroncoy |
 |Attendees (Planning Meeting)| Kevin Chi, Alejandro Oroncoy, Jeremy Paucar, Camila Sánchez|
-|Sprint n-1 Review Summary | En el Sprint 2 se completaron las funcionalidades principales del backend (registro, autenticación y gestión de productos) e integración base con la aplicación móvil. Se implementó la estructura de navegación y módulos de productos e inventario.|
+|Sprint n-1 Review Summary | Durante esta etapa se completaron las funcionalidades principales del backend (registro, autenticación y gestión de productos) e integración base con la aplicación móvil. Se implementó la estructura de navegación y módulos de productos e inventario.|
 |Sprint Planning Background| En este segundo sprint se centrará el trabajo en la optimización del backend y la implementación de funcionalidades avanzadas de control de inventario, reportes y alertas. Además, se realizará el despliegue del backend y documentación técnica en un sitio público, así como la preparación del entorno para la validación de la app móvil.|
 |Sprint Goal & User Stories||
 |Sprint 2 Goal| Consolidar la infraestructura backend y desplegarla públicamente, integrando nuevas funcionalidades en la app móvil (reportes, alertas, combos y consultas avanzadas). Se considera cumplido el objetivo si el backend está operativo y documentado, y las principales funciones core del sistema están visibles y validadas.  |
@@ -4642,12 +4642,12 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 | # | Problema | Escala de severidad | Heurística/Principio violado(a) |
 |---|-----------|---------------------|--------------------------------|
-| 1 | No hay indicador visual claro de diferencia entre “Stock” y “Lote”, lo cual puede generar confusión inicial. | 2 | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
-| 2 | No existe un acceso rápido desde la pantalla principal al registro de ventas o salidas de productos. | 3 | Usability – Flexibilidad y eficiencia de uso. |
-| 3 | No hay opción para registrar créditos o pagos pendientes dentro del flujo principal. | 3 | Information Architecture – Is it complete? |
-| 4 | El tamaño de algunos botones y textos resulta pequeño en ciertos dispositivos móviles. | 2 | Inclusive Design – Accesibilidad visual. |
-| 5 | No existe vista resumida o gráfica de reportes o estadísticas de ventas. | 2 | Usability – Visibilidad del estado del sistema. |
-| 6 | La interfaz no muestra recordatorios personalizables para productos próximos a vencer. | 2 | Usability – Ayuda y prevención de errores. |
+| 1 | Confusión inicial entre “Stock” y “Lote". | 2 | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
+| 2 | Falta de acceso rápido al registro de ventas. | 3 | Usability – Flexibilidad y eficiencia de uso. |
+| 3 | Ausencia de módulo de pagos o créditos pendientes. | 3 | Information Architecture – Is it complete? |
+| 4 | Falta de reportes visuales o estadísticas | 2 | Inclusive Design – Accesibilidad visual. |
+| 5 | Recordatorios limitados para productos próximos a vencer | 2 | Usability – Visibilidad del estado del sistema. |
+| 6 | Recordatorios limitados para productos próximos a vencer | 2 | Usability – Ayuda y prevención de errores. |
 
 ---
 
