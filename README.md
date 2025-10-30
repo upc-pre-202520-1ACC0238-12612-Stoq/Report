@@ -4402,7 +4402,7 @@ También puede eliminar una alerta específica luego de una confirmación emerge
   <tr>
     <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Milagros Almerco, evaluó la app móvil StockWise y destacó su facilidad de uso al registrar productos y gestionar inventario. Aunque al inicio tuvo dudas sobre la diferencia entre “stock” y “lote”, logró comprenderlo rápidamente gracias a la interfaz intuitiva. Resaltó como funcionalidades más valiosas el control de productos próximos a vencer y la visualización por lotes, que considera claves para evitar pérdidas. Valoró también el diseño moderno y claro, sin presentar dificultades técnicas. Sugirió como mejora incluir un sistema para registrar pagos pendientes o créditos. En general, calificó la app como práctica, útil y recomendada para otros dueños de bodegas.
+        Milagros Almerco, evaluó la app móvil StockWise y destacó su facilidad de uso al registrar productos y gestionar inventario. Aunque al inicio tuvo dudas sobre la diferencia entre “producto” y “lote”, logró comprenderlo rápidamente gracias a la interfaz intuitiva. Resaltó como funcionalidades más valiosas el control de productos próximos a vencer y la visualización por lotes, que considera claves para evitar pérdidas. Valoró también el diseño moderno y claro, sin presentar dificultades técnicas. Sugirió como mejora incluir un sistema para registrar pagos pendientes o créditos. En general, calificó la app como práctica, útil y recomendada para otros dueños de bodegas.
     </td>
   </tr>
   <tr>
@@ -4642,7 +4642,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 | # | Problema | Escala de severidad | Heurística/Principio violado(a) |
 |---|-----------|---------------------|--------------------------------|
-| 1 | Confusión inicial entre “Stock” y “Lote". | 2 | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
+| 1 | Confusión inicial entre “Producto” y “Lote". | 2 | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
 | 2 | Falta de acceso rápido al registro de ventas. | 3 | Usability – Flexibilidad y eficiencia de uso. |
 | 3 | Ausencia de módulo de pagos o créditos pendientes. | 3 | Information Architecture – Is it complete? |
 | 4 | Falta de reportes visuales o estadísticas | 2 | Inclusive Design – Accesibilidad visual. |
@@ -4652,15 +4652,15 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 **DESCRIPCIÓN DE PROBLEMAS**
 
-**PROBLEMA N° 1: Confusión inicial entre “Stock” y “Lote”**
+**PROBLEMA N° 1: Confusión inicial entre “Producto” y “Lote”**
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real.  
 
 **Problema:**  
-Durante las pruebas, los usuarios manifestaron dudas iniciales sobre la diferencia entre “stock” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital. 
+Durante las pruebas, los usuarios manifestaron dudas iniciales sobre la diferencia entre “producto” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital. 
 
 **Recomendación:**  
-Agregar una breve descripción o globo de ayuda que explique la diferencia entre ambos términos (por ejemplo: “Stock: cantidad total disponible. Lote: grupo de productos con la misma fecha de vencimiento”).  
+Incorporar una breve descripción contextual o un globo de ayuda que aclare la diferencia entre ambos conceptos (por ejemplo: “Producto: artículo registrado en el inventario. Lote: grupo de unidades del mismo producto con una fecha de vencimiento o ingreso común”).  
 
 ---
 
