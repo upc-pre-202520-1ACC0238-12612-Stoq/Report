@@ -1479,2422 +1479,298 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
 
 <!-- US01 -->
-<div style="display: flex; justify-content: center;">
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; min-width:900px; max-width:900px; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US01</td>
-    <td>Usuario de inventario</td>
-    <td>Alta</td>
-    <td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Registrar producto nuevo</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero registrar un nuevo producto en mi inventario, para tener un control detallado de su existencia desde el comienzo.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro exitoso de producto</strong></p>
-      <ul>
-        <li>Dado que el sistema recibe datos válidos para un producto,</li>
-        <li>Cuando procesa el registro,</li>
-        <li>Entonces guarda el producto en la base de datos</li>
-        <li>Y lo incluye en el inventario.</li>
-      </ul>
-      <p><strong>Escenario 02: Interno de registro en campos vacíos</strong></p>
-      <ul>
-        <li>Dado que el sistema recibe un producto con campos requeridos vacíos,</li>
-        <li>Cuando intenta registrar el producto,</li>
-        <li>Entonces el sistema rechaza la operación</li>
-        <li>Y muestra mensajes de validación sobre los campos faltantes.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-</div>
+<img src="assets/Chapter-2/US01.png" alt="User persona - segmento 1" width="600"/>
 
----
+<br>
 
 <!-- US02 -->
-<div style="display: flex; justify-content: center;">
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; min-width:900px; max-width:900px; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US02</td>
-    <td>Usuario de inventario</td>
-    <td>Alta</td>
-    <td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Editar información de producto</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Edición con éxito</strong></p>
-      <ul>
-        <li><strong>Dado que</strong> el usuario ya tiene un producto en el inventario,</li>
-        <li><strong>Cuando</strong> modifica campos de información del producto,</li>
-        <li><strong>Entonces</strong> el sistema guarda los cambios.</li>
-      </ul>
-      <p><strong>Escenario 02: Edición con datos inválidos</strong></p>
-      <ul>
-        <li><strong>Dado que</strong> el usuario está editando información de un producto,</li>
-        <li><strong>Cuando</strong> ingresa datos inválidos,</li>
-        <li><strong>Entonces</strong> el sistema muestra errores,</li>
-        <li><strong>Y</strong> no guarda los cambios.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-</div>
-
-
-<!-- US02 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US02</td>
-    <td>Usuario de inventario</td>
-    <td>Alta</td>
-    <td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Editar información de producto</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Edición con éxito</strong></p>
-      <ul>
-        <li><strong>Dado que</strong> el usuario ya tiene un producto en el inventario</li>
-        <li><strong>Cuando</strong> modifica campos de información del producto</li>
-        <li><strong>Y</strong> procesa el regitsro adecuadamente</li>
-        <li><strong>Entonces</strong> el sistema guarda los cambios</li>
-      </ul>
-        <p><strong>Escenario 02: Edición con datos inválidos</strong></p>
-      <ul>
-        <li><strong>Dado que</strong> el usuario está editando información de un producto</li>
-        <li><strong>Cuando</strong> ingrese datos inválidos</li>
-        <li><strong>Entonces</strong> el sistema le muestra los errores</li>
-        <li><strong>Y</strong> no se guardan los cambios</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US02.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US03 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US03</td>
-    <td>Usuario de inventario</td>
-    <td>Alta</td>
-    <td>EP01 - Funciones básicas de inventario</td>
-  </tr>
+<img src="assets/Chapter-2/US03.png" alt="User persona - segmento 1" width="600"/>
 
-  <tr>
-    <th>Title</th>
-    <td colspan="3">Registrar salida de producto</td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero registrar la salida de productos del inventario, para mantener actualizado el stock en tiempo real.
-    </td>
-  </tr>
-
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro válido de salida de stock</strong></p>
-      <ul>
-        <li><strong>Dado que</strong> un producto tiene suficiente stock disponible</li>
-        <li><strong>Cuando</strong> el sistema recibe una salida con cantidad permitida,</li>
-        <li><strong>Entonces</strong> descuenta la cantidad del stock</li>
-        <li><strong>Y</strong> registra el movimiento. </li>
-      </ul>
-        <p><strong>Escenario 02: Intento de salida mayor al stock disponible</strong></p>
-      <ul>
-        <li><strong>Dado que</strong> que el stock actual es menor que la cantidad solicitada</li>
-        <li><strong>Cuando</strong> valida la salida</li>
-        <li><strong>Entonces</strong> rechaza la operación</li>
-        <li><strong>Y</strong> expone el motivo “cantidad supera stock disponible”</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<br>
 
 <!-- US04 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US04</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 – Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Ver historial de movimientos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero ver el historial de entrada y salida de mis productos, para rastrear los cambios y movimientos en el inventario.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualización del historial completo</strong></p>
-      <ul>
-        <li>Dado que el usuario está en la sección historial de un producto</li>
-        <li>Cuando este producto tiene movimientos registrados</li>
-        <li>Entonces el sistema muestra una lista con toda la información del producto</li>
-      </ul>
-      <p><strong>Escenario 02: Producto sin historial de movimientos</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al historial de un producto nuevo o sin registro</li>
-        <li>Cuando no hay datos previos</li>
-        <li>Entonces el sistema muestra un mensaje indicando que no hay movimientos registrados</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US04.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US05 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US05</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Generar alertas por bajo stock</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero recibir alertas cuando un producto está debajo del stock mínimo, para reabastecerme a tiempo.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Activación automática de alerta por stock bajo</strong></p>
-      <ul>
-        <li>Dado que un producto tiene un límite mínimo configurado</li>
-        <li>Cuando su stock baja por debajo del mínimo</li>
-        <li>Entonces el sistema genera una alerta visual y notifica al usuario</li>
-      </ul>
-      <p><strong>Escenario 02: Personalización de la alerta</strong></p>
-      <ul>
-        <li>Dado que el usuario desea configurar alertas específicas</li>
-        <li>Cuando accede a la edición del producto y define un nuevo valor de stock mínimo</li>
-        <li>Entonces el sistema guarda la alerta y la activa con el nuevo valor</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US05.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US06 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US06</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Buscar productos en inventarios</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero buscar productos en el inventario por nombre o categoría, para encontrarlo de manera rápida y fácil.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Búsqueda por nombre o código</strong></p>
-      <ul>
-        <li>Dado que el usuario está en la sección “Inventario”</li>
-        <li>Cuando ingresa el nombre o código de un producto en el buscador</li>
-        <li>Entonces se muestran los productos que coinciden con los términos de búsqueda</li>
-      </ul>
-      <p><strong>Escenario 02: Búsqueda sin coincidencias</strong></p>
-      <ul>
-        <li>Dado que el usuario realiza una búsqueda con término no registrado</li>
-        <li>Cuando busca el producto</li>
-        <li>Entonces el sistema muestra el mensaje “No se encontraron resultados”</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US06.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US07 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US07</td><td>Usuario de inventario</td><td></td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Añadir etiquetas para productos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero poder clasificar los productos mediante etiquetas, para organizar el stock y agilizar búsquedas.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Añadir etiqueta correctamente</strong></p>
-      <ul>
-        <li>Dado que el usuario está en el formulario de “Nuevo producto”</li>
-        <li>Cuando escribe una o varias etiquetas personalizadas y lo guarda exitosamente</li>
-        <li>Entonces las etiquetas se registran con el producto y son visibles en su detalle</li>
-      </ul>
-      <p><strong>Escenario 02: Usar etiquetas existentes</strong></p>
-      <ul>
-        <li>Dado que el usuario comienza a escribir una etiqueta</li>
-        <li>Cuando ya existe una similar en el sistema</li>
-        <li>Entonces el sistema sugiere etiquetas existentes para evitar duplicados</li>
-      </ul>
-      <p><strong>Escenario 03: Filtrar por etiquetas</strong></p>
-      <ul>
-        <li>Dado que el usuario está en el módulo de inventario</li>
-        <li>Cuando selecciona una etiqueta desde el filtro</li>
-        <li>Entonces se muestran solo los productos que contienen esa etiqueta</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US07.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US08 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US08</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Generar estadística de productos más vendidos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero ver un listado con los productos más vendidos durante un periodo de tiempo, para identificar los de mayor demanda y planificar mejor.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Ver productos más vendidos en un periodo</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de estadísticas</li>
-        <li>Cuando selecciona un rango de fechas</li>
-        <li>Entonces el sistema muestra un ranking de productos más vendidos y permite ordenarlos por unidades o ingresos</li>
-      </ul>
-      <p><strong>Escenario 02: Exportar reporte</strong></p>
-      <ul>
-        <li>Dado que el usuario visualiza el listado</li>
-        <li>Cuando solicita la exportación</li>
-        <li>Entonces el sistema genera un archivo PDF con el ranking</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US08.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US09 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US09</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Generar estadística de categoría más vendida</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero visualizar qué categorías o líneas de productos son las que más se venden, para saber cuál promocionar o reducir del catálogo.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Ver categorías más vendidas</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de estadísticas</li>
-        <li>Cuando selecciona un rango de fechas</li>
-        <li>Entonces se muestra un gráfico con la participación de cada categoría en las ventas</li>
-      </ul>
-      <p><strong>Escenario 02: Ver detalle de productos por categoría</strong></p>
-      <ul>
-        <li>Dado que el usuario visualiza las categorías más vendidas</li>
-        <li>Cuando busca en categoría</li>
-        <li>Entonces se muestra la lista con los productos que la componen y sus ventas</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US09.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
+
 <!-- US10 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US10</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Generar ticket promedio</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero conocer el ticket promedio de mis ventas para entender cuánto gasta en promedio cada cliente y evaluar la efectividad de los precios.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualizar ticket promedio</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de estadísticas</li>
-        <li>Cuando selecciona un rango de fechas</li>
-        <li>Entonces se muestra el ticket promedio, el total de ingresos y el número de ventas</li>
-      </ul>
-      <p><strong>Escenario 02: Comparar ticket con periodo anterior</strong></p>
-      <ul>
-        <li>Dado que el usuario ve el ticket promedio actual</li>
-        <li>Cuando habilita la opción de comparación</li>
-        <li>Entonces el sistema muestra la variación respecto al periodo anterior</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US10.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US11 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US11</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Generar estadística de stock promedio</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero visualizar el promedio de stock disponible para identificar niveles óptimos y evitar quiebres o exceso de stock.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualizar stock promedio</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de estadísticas</li>
-        <li>Cuando selecciona un producto o categoría y un rango de fechas</li>
-        <li>Entonces se muestra el promedio de stock disponible en ese periodo</li>
-      </ul>
-      <p><strong>Escenario 02: Detectar stock por fuera del rango óptimo</strong></p>
-      <ul>
-        <li>Dado que el usuario ve el reporte de stock promedio</li>
-        <li>Cuando el valor está por debajo o por encima del stock ideal</li>
-        <li>Entonces el sistema resalta los productos con riesgo de quiebre o sobrestock y puede sugerir acciones</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US11.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US12 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US12</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Generar reportes de inventario</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero generar reportes detallados del inventario para analizar el estado general y tomar decisiones informadas.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Generar reporte completo</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de reportes</li>
-        <li>Cuando selecciona parámetros como fecha, información, categorías o stock mínimo</li>
-        <li>Entonces el sistema genera un reporte con esa información</li>
-      </ul>
-      <p><strong>Escenario 02: Exportar reporte</strong></p>
-      <ul>
-        <li>Dado que el usuario visualiza el reporte generado</li>
-        <li>Cuando hace clic en “Exportar”</li>
-        <li>Entonces el sistema descarga el reporte en PDF o Excel</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US12.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US13 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US13</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Controlar productos caducados</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero identificar productos próximos a caducar o ya caducados, para evitar pérdidas y mantener la calidad del inventario.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualizar productos próximos a caducar</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de inventario</li>
-        <li>Cuando filtra por fecha de caducidad próxima</li>
-        <li>Entonces el sistema muestra una lista con los productos que caducan pronto</li>
-      </ul>
-      <p><strong>Escenario 02: Alerta de productos caducados</strong></p>
-      <ul>
-        <li>Dado que un producto está caducado</li>
-        <li>Cuando el usuario accede al inventario</li>
-        <li>Entonces el sistema muestra una alerta visual destacando esos productos</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US13.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US14 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US14</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Registrar devolución de productos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero registrar devoluciones de productos al inventario, para mantener el stock actualizado y controlar incidencias.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro de devolución válida</strong></p>
-      <ul>
-        <li>Dado que un producto fue devuelto por un cliente</li>
-        <li>Cuando el usuario ingresa la cantidad devuelta y la razón y confirma</li>
-        <li>Entonces el sistema incrementa el stock y guarda el movimiento</li>
-      </ul>
-      <p><strong>Escenario 02: Devolución con cantidad inválida</strong></p>
-      <ul>
-        <li>Dado que el usuario intenta registrar una devolución con cantidad negativa o mayor a la vendida</li>
-        <li>Cuando hace clic en “Guardar”</li>
-        <li>Entonces el sistema muestra un error y no registra la devolución</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US14.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US15 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US15</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Configurar roles y permisos de usuario</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero definir roles y permisos para los usuarios del sistema.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Crear nuevo rol con permisos específicos</strong></p>
-      <ul>
-        <li>Dado que el administrador accede a la configuración de usuarios</li>
-        <li>Cuando crea un nuevo rol y asigna permisos</li>
-        <li>Entonces el rol se guarda y puede ser asignado</li>
-      </ul>
-      <p><strong>Escenario 02: Asignar rol a usuario</strong></p>
-      <ul>
-        <li>Dado que el administrador selecciona un usuario existente</li>
-        <li>Cuando asigna un rol específico</li>
-        <li>Entonces el sistema muestra los permisos del rol asignado</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US15.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US16 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US16</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Gestionar proveedores</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero registrar y gestionar la información de proveedores, para mantener contactos actualizados y facilitar la reposición.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro exitoso de proveedor</strong></p>
-      <ul>
-        <li>Dado que el usuario está en “Nuevo proveedor”</li>
-        <li>Cuando completa los campos obligatorios y guarda</li>
-        <li>Entonces el proveedor se registra y aparece en la lista</li>
-      </ul>
-      <p><strong>Escenario 02: Edición de datos de proveedor</strong></p>
-      <ul>
-        <li>Dado que el usuario selecciona un proveedor existente</li>
-        <li>Cuando modifica la información y guarda</li>
-        <li>Entonces el sistema actualiza los datos del proveedor</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US16.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US17 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US17</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Registrar lote de productos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero registrar productos por lote, para controlar el ingreso masivo con un mismo proveedor, fecha y condiciones.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro de lote con múltiples productos</strong></p>
-      <ul>
-        <li>Dado que el usuario accede a “Nuevo lote”</li>
-        <li>Cuando añade varios productos con fecha, proveedor y condiciones</li>
-        <li>Entonces el sistema guarda el lote y vincula los productos</li>
-      </ul>
-      <p><strong>Escenario 02: Visualizar lote registrado</strong></p>
-      <ul>
-        <li>Dado que el usuario visualiza la lista de productos</li>
-        <li>Cuando selecciona “Ver lote”</li>
-        <li>Entonces se muestra la información común del lote</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US17.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US18 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US18</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Visualizar historial de stock</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero ver el historial de stock de un producto, para analizar su comportamiento y tomar mejores decisiones de compra.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualizar historial por producto</strong></p>
-      <ul>
-        <li>Dado que el usuario accede a la ficha de un producto</li>
-        <li>Cuando selecciona “Ver historial”</li>
-        <li>Entonces se muestra una gráfica con variaciones de stock en el tiempo</li>
-      </ul>
-      <p><strong>Escenario 02: Filtro por periodo</strong></p>
-      <ul>
-        <li>Dado que el usuario visualiza el historial de stock</li>
-        <li>Cuando aplica un filtro por rango de fechas</li>
-        <li>Entonces la gráfica se actualiza con el periodo seleccionado</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US18.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
+
 <!-- US19 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US19</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Configurar alertas de stock mínimo</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero configurar alertas cuando un producto alcance su stock mínimo, para poder reabastecerme a tiempo.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Configurar stock mínimo</strong></p>
-      <ul>
-        <li>Dado que el usuario accede a la configuración de productos</li>
-        <li>Cuando establece un valor de stock mínimo por producto</li>
-        <li>Entonces el sistema guarda ese valor para alertas</li>
-      </ul>
-      <p><strong>Escenario 02: Alerta de bajo stock</strong></p>
-      <ul>
-        <li>Dado que un producto llega o baja del stock mínimo configurado</li>
-        <li>Cuando el usuario accede al panel o inventario</li>
-        <li>Entonces se muestra una alerta visual indicando que se debe reponer</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US19.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US20 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US20</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Añadir etiquetas a productos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero añadir etiquetas personalizadas a los productos, para facilitar su clasificación y búsqueda.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Etiquetado desde el formulario del producto</strong></p>
-      <ul>
-        <li>Dado que el usuario está registrando o editando un producto</li>
-        <li>Cuando escribe nuevas etiquetas o selecciona existentes</li>
-        <li>Entonces las etiquetas se asocian al producto guardado</li>
-      </ul>
-      <p><strong>Escenario 02: Buscar productos por etiqueta</strong></p>
-      <ul>
-        <li>Dado que el usuario está en el módulo de búsqueda o lista</li>
-        <li>Cuando ingresa el nombre de una etiqueta</li>
-        <li>Entonces se filtran los productos asociados a esa etiqueta</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US20.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US21 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US21</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Buscar productos en inventario</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero buscar productos en el inventario por nombre o categoría, para encontrarlos de forma rápida y eficiente.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Búsqueda por nombre</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al buscador</li>
-        <li>Cuando ingresa parte del nombre del producto</li>
-        <li>Entonces se muestran resultados coincidentes en tiempo real</li>
-      </ul>
-      <p><strong>Escenario 02: Búsqueda por categoría</strong></p>
-      <ul>
-        <li>Dado que el usuario está en el buscador</li>
-        <li>Cuando selecciona una categoría del filtro</li>
-        <li>Entonces se muestran solo productos de esa categoría</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US21.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US22 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US22</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Generar alertas por productos caducados</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero recibir alertas automáticas de productos caducados, para poder retirarlos del inventario a tiempo.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Activar alertas automáticas</strong></p>
-      <ul>
-        <li>Dado que el usuario accede a configuración de alertas</li>
-        <li>Cuando activa la opción de alerta por caducidad</li>
-        <li>Entonces el sistema enviará notificaciones cuando haya productos vencidos</li>
-      </ul>
-      <p><strong>Escenario 02: Visualización de productos vencidos</strong></p>
-      <ul>
-        <li>Dado que hay productos caducados en el inventario</li>
-        <li>Cuando el usuario accede al sistema</li>
-        <li>Entonces se muestra un panel o lista resaltando estos productos</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US22.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US23 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US23</td><td>Usuario de inventario</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Registrar ingreso de productos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero registrar el ingreso de productos al inventario, para mantener actualizado el stock disponible.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Ingreso individual de producto</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al formulario de ingreso</li>
-        <li>Cuando registra los datos del producto y la cantidad recibida</li>
-        <li>Entonces el sistema actualiza el stock del producto</li>
-      </ul>
-      <p><strong>Escenario 02: Ingreso masivo por archivo</strong></p>
-      <ul>
-        <li>Dado que el usuario cuenta con un archivo de productos</li>
-        <li>Cuando carga el archivo en el sistema</li>
-        <li>Entonces se actualiza el inventario con los productos del archivo</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US23.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US24 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US24</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Visualizar resumen de stock por categoría</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero ver un resumen del stock agrupado por categoría, para conocer el estado general del inventario de forma ordenada.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Visualización del resumen por categoría</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de inventario</li>
-        <li>Cuando selecciona “Resumen por categoría”</li>
-        <li>Entonces se muestra una tabla con cada categoría, cantidad total de productos y stock promedio</li>
-      </ul>
-      <p><strong>Escenario 02: Acceso al detalle desde el resumen</strong></p>
-      <ul>
-        <li>Dado que el usuario visualiza el resumen por categoría</li>
-        <li>Cuando hace clic en una categoría</li>
-        <li>Entonces se despliega la lista de productos que la conforman</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US24.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- US25 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US25</td><td>Usuario de inventario</td><td>Media</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Comparar ventas entre periodos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como usuario, quiero comparar las ventas entre dos periodos, para identificar tendencias y evaluar el impacto de promociones.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Comparación de periodos seleccionados</strong></p>
-      <ul>
-        <li>Dado que el usuario accede al módulo de estadísticas</li>
-        <li>Cuando selecciona dos periodos a comparar</li>
-        <li>Entonces se muestra una gráfica con la diferencia de ventas</li>
-      </ul>
-      <p><strong>Escenario 02: Comparación por categoría o producto</strong></p>
-      <ul>
-        <li>Dado que el usuario visualiza la comparación general</li>
-        <li>Cuando filtra por categoría o producto</li>
-        <li>Entonces la gráfica se actualiza con los datos seleccionados</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<!-- US26 – Plan A: Entrada por voz -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US26</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Registrar productos por voz</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero registrar productos mediante comandos de voz (ej. “Agregar 20 botellas de agua al inventario”), para ganar rapidez y comodidad cuando no pueda usar el teclado.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Comando válido</strong></p>
-      <ul>
-        <li>Dado que el usuario activa el modo voz,</li>
-        <li>Cuando dicta “Agregar &lt;cantidad&gt; &lt;producto&gt; al inventario”,</li>
-        <li>Entonces el sistema reconoce cantidad y producto, muestra un resumen y al confirmar registra el movimiento.</li>
-      </ul>
-      <p><strong>Escenario 02: Ambigüedad o error</strong></p>
-      <ul>
-        <li>Dado que el audio no es claro o hay varias coincidencias,</li>
-        <li>Cuando el sistema no puede identificar el producto,</li>
-        <li>Entonces solicita confirmación/sugerencias y permite corregir o escribir manualmente.</li>
-      </ul>
-      <p><strong>Escenario 03: Dictado continuo</strong></p>
-      <ul>
-        <li>Dado que el usuario permanece en modo voz,</li>
-        <li>Cuando dicta varios comandos consecutivos,</li>
-        <li>Entonces el sistema procesa cada ítem y permite “cancelar” o “terminar” por voz.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/US25.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- US27 – Plan B: Geolocalización (GPS) -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US27</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Registrar geolocalización de productos y entregas</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero integrar GPS para registrar procedencia, puntos de entrega y visualizar en un mapa las sedes vinculadas a la tienda principal, para optimizar trazabilidad y distribución.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Captura de ubicación</strong></p>
-      <ul>
-        <li>Dado que el usuario registra un movimiento/entrega,</li>
-        <li>Cuando concede permisos de ubicación,</li>
-        <li>Entonces el sistema guarda latitud/longitud y muestra un pin en el mapa del producto o entrega.</li>
-      </ul>
-      <p><strong>Escenario 02: Mapa de sedes</strong></p>
-      <ul>
-        <li>Dado que el usuario abre el mapa,</li>
-        <li>Cuando selecciona “Sedes y rutas”,</li>
-        <li>Entonces visualiza marcadores por sede y puede filtrar por estado.</li>
-      </ul>
-      <p><strong>Escenario 03: Sin permisos</strong></p>
-      <ul>
-        <li>Dado que el usuario deniega GPS,</li>
-        <li>Cuando intenta registrar ubicación,</li>
-        <li>Entonces el sistema muestra aviso y permite ingresar dirección manual.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- US26 -->
+<img src="assets/Chapter-2/US26.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- US28 – Plan C (Localiza): Mapa + QR en almacén -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US28</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Localizar productos con mapa y QR</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero ubicar productos dentro del almacén usando un mapa interactivo e integración de códigos QR, para encontrarlos con precisión.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Asociar ubicación por QR</strong></p>
-      <ul>
-        <li>Dado que el usuario escanea un QR de estantería/pasillo,</li>
-        <li>Cuando guarda la ubicación en la ficha del producto,</li>
-        <li>Entonces el sistema vincula el producto a ese punto del mapa.</li>
-      </ul>
-      <p><strong>Escenario 02: Búsqueda y ruta</strong></p>
-      <ul>
-        <li>Dado que el usuario busca un producto,</li>
-        <li>Cuando selecciona “Ver ubicación”,</li>
-        <li>Entonces el mapa señala pasillo/estante y puede mostrar ruta sugerida.</li>
-      </ul>
-      <p><strong>Escenario 03: QR inválido</strong></p>
-      <ul>
-        <li>Dado que el QR no existe o está dañado,</li>
-        <li>Cuando intenta asociarlo,</li>
-        <li>Entonces el sistema alerta y permite ingresar ubicación manual.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- US27 -->
+<img src="assets/Chapter-2/US27.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- US29 – Plan C (Predice): Reabastecimiento inteligente -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US29</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Gestionar predicción de reabastecimiento</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero recibir sugerencias de cuándo y cuánto reponer según patrones de ventas y stock mínimo, para evitar quiebres y sobrestock.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Sugerencia de compra</strong></p>
-      <ul>
-        <li>Dado que el sistema analiza histórico y lead time,</li>
-        <li>Cuando el stock proyectado cae bajo el nivel objetivo,</li>
-        <li>Entonces propone fecha y cantidad de reabastecimiento y permite aceptarla/editarla.</li>
-      </ul>
-      <p><strong>Escenario 02: Alerta de quiebre inminente</strong></p>
-      <ul>
-        <li>Dado que el consumo supera la previsión,</li>
-        <li>Cuando se detecta riesgo de quiebre,</li>
-        <li>Entonces se muestra alerta prioritaria y recomendaciones de acción.</li>
-      </ul>
-      <p><strong>Escenario 03: Parámetros ajustables</strong></p>
-      <ul>
-        <li>Dado que el usuario abre “Predicción”,</li>
-        <li>Cuando ajusta stock mínimo, tiempo de reposición y estacionalidad,</li>
-        <li>Entonces el modelo recalcula y actualiza las sugerencias.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- US28 -->
+<img src="assets/Chapter-2/US28.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- US30 – Plan D: Escaneo por lotes con cámara rápida (visión) -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>US30</td><td>Usuario de inventario</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Escanear por lotes con cámara rápida</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero registrar lotes tomando una foto del producto/lote para que una API de visión devuelva etiquetas genéricas; luego confirmar producto exacto y cantidad y ver su ubicación en el almacén virtual.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro por visión</strong></p>
-      <ul>
-        <li>Dado que el usuario abre “Escaneo rápido”,</li>
-        <li>Cuando toma una foto del lote,</li>
-        <li>Entonces la API (p.ej., ML Kit) devuelve etiquetas; el usuario elige el producto, ingresa cantidad y confirma el registro del lote.</li>
-      </ul>
-      <p><strong>Escenario 02: Etiquetas ambiguas</strong></p>
-      <ul>
-        <li>Dado que la API devuelve varias opciones o no encuentra coincidencias,</li>
-        <li>Cuando el usuario revisa sugerencias,</li>
-        <li>Entonces puede seleccionar/corregir manualmente y continuar sin perder el flujo.</li>
-      </ul>
-      <p><strong>Escenario 03: Ubicación en almacén virtual</strong></p>
-      <ul>
-        <li>Dado que el lote quedó registrado,</li>
-        <li>Cuando el usuario finaliza,</li>
-        <li>Entonces el sistema muestra o permite elegir la ubicación del lote en el mapa del almacén.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- US29 -->
+<img src="assets/Chapter-2/US29.png" alt="User persona - segmento 1" width="600"/>
 
+<br>
+
+<!-- US30 -->
+<img src="assets/Chapter-2/US30.png" alt="User persona - segmento 1" width="600"/>
+
+<br>
 
 ### No funcionales
 
 En esta sección se presentan las historias de usuario no funcionales, las cuales describen los atributos de calidad, restricciones y condiciones que el sistema debe cumplir para garantizar su correcto desempeño.
 
-<!-- NF01 – Seguridad: Encriptación -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>NF01</td><td>Administrador</td><td>Alta</td><td>EP04 - Seguridad y mantenimiento</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Encriptar credenciales y transacciones</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como administrador, quiero que todas las credenciales y transacciones estén encriptadas, para proteger los datos de usuarios y registros de inventario ante accesos no autorizados.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Cifrado de contraseñas</strong></p>
-      <ul>
-        <li>Dado que el sistema almacena credenciales,</li>
-        <li>Cuando se crea o actualiza una cuenta,</li>
-        <li>Entonces la contraseña se almacena mediante un cifrado seguro.</li>
-      </ul>
-      <p><strong>Escenario 02: Protección de datos en tránsito</strong></p>
-      <ul>
-        <li>Dado que el usuario inicia sesión,</li>
-        <li>Cuando se transmiten los datos,</li>
-        <li>Entonces la conexión utiliza HTTPS para evitar accesos no autorizados.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br>
-   
-
-<!-- NF02 – Rendimiento -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>NF02</td><td>Usuario</td><td>Alta</td><td>EP04 - Rendimiento del sistema</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Optimizar tiempos de respuesta</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero que las acciones de registro o edición respondan en menos de 3 segundos, para mantener una experiencia fluida al manejar grandes volúmenes de datos.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro rápido</strong></p>
-      <ul>
-        <li>Dado que el usuario registra un nuevo producto,</li>
-        <li>Cuando se envía el formulario,</li>
-        <li>Entonces la operación se completa en menos de 3 segundos.</li>
-      </ul>
-      <p><strong>Escenario 02: Consulta simultánea</strong></p>
-      <ul>
-        <li>Dado que varios usuarios acceden al sistema,</li>
-        <li>Cuando ejecutan búsquedas,</li>
-        <li>Entonces el rendimiento no se ve afectado por las solicitudes concurrentes.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- NF01 -->
+<img src="assets/Chapter-2/NF01.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-
-<br>
-<!-- NF03 – Escalabilidad -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>NF03</td><td>Usuario</td><td>Alta</td><td>EP04 - Escalabilidad y estabilidad</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Soporte a grandes volúmenes de datos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como dueño del negocio, quiero que el sistema maneje hasta 10,000 productos sin pérdida de rendimiento, para asegurar el crecimiento del negocio sin fallos.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Carga masiva</strong></p>
-      <ul>
-        <li>Dado que se importan grandes volúmenes de productos,</li>
-        <li>Cuando se ejecuta la operación,</li>
-        <li>Entonces el sistema procesa todos los registros sin interrupciones.</li>
-      </ul>
-      <p><strong>Escenario 02: Rendimiento estable</strong></p>
-      <ul>
-        <li>Dado que aumenta el número de productos,</li>
-        <li>Cuando el usuario realiza búsquedas o consultas,</li>
-        <li>Entonces el tiempo de respuesta se mantiene dentro del rango permitido.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- NF02 -->
+<img src="assets/Chapter-2/NF02.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- NF04 – Usabilidad -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>NF04</td><td>Usuario con discapacidad visual</td><td>Media</td><td>EP04 - Usabilidad e inclusión</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Diseño accesible e inclusivo</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario con discapacidad visual, quiero que la interfaz tenga alto contraste, tipografía legible y opción de modo oscuro, para poder utilizar el sistema cómodamente.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Activación de modo oscuro</strong></p>
-      <ul>
-        <li>Dado que el usuario accede a la configuración,</li>
-        <li>Cuando habilita el modo oscuro,</li>
-        <li>Entonces todos los elementos se visualizan correctamente con contraste adecuado.</li>
-      </ul>
-      <p><strong>Escenario 02: Legibilidad del texto</strong></p>
-      <ul>
-        <li>Dado que el usuario modifica el tamaño de la fuente,</li>
-        <li>Cuando navega por las pantallas,</li>
-        <li>Entonces el contenido se mantiene legible sin distorsión ni superposición.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- NF03 -->
+<img src="assets/Chapter-2/NF03.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- NF05 – Disponibilidad -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>NF05</td><td>Usuario</td><td>Alta</td><td>EP04 - Disponibilidad y alertas</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">Alertas en tiempo real</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como usuario, quiero que las alertas de stock y caducidad se generen en tiempo real, para poder tomar decisiones inmediatas y evitar pérdidas en el inventario.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Bajo stock</strong></p>
-      <ul>
-        <li>Dado que el producto alcanza el mínimo de stock,</li>
-        <li>Cuando el sistema actualiza inventario,</li>
-        <li>Entonces se genera una alerta visual y sonora instantánea.</li>
-      </ul>
-      <p><strong>Escenario 02: Producto caducado</strong></p>
-      <ul>
-        <li>Dado que un lote expira,</li>
-        <li>Cuando el usuario abre la aplicación,</li>
-        <li>Entonces se muestra una advertencia prioritaria en la pantalla principal.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- NF04 -->
+<img src="assets/Chapter-2/NF04.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
+<!-- NF05 -->
+<img src="assets/Chapter-2/NF05.png" alt="User persona - segmento 1" width="600"/>
+
+<br>
 
 ### Technical Stories
 
 En esta sección se describen las historias técnicas que desarrollamos para implementar las funcionalidades clave. Cada historia define tareas específicas que el equipo de desarrollo debe realizar, como crear endpoints, manejar validaciones, controlar el stock, generar reportes, entre otros.
 
-<!-- TS01 – API Registro de usuarios -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS01</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Registro de usuarios</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      Como desarrollador, necesito exponer endpoints para registrar nuevos usuarios, asegurando validaciones y persistencia correcta en el backend.
-    </td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro exitoso</strong></p>
-      <ul>
-        <li>Dado que el endpoint de registro está disponible y la app valida email/contraseña,</li>
-        <li>Cuando el usuario envía datos válidos desde el móvil,</li>
-        <li>Entonces el backend crea la cuenta (201), retorna token y la app lo guarda de forma segura (Keychain/Keystore).</li>
-      </ul>
-      <p><strong>Escenario 02: Datos inválidos o duplicados</strong></p>
-      <ul>
-        <li>Dado el endpoint de registro,</li>
-        <li>Cuando el email ya existe o los campos no cumplen las reglas (formato/fortaleza),</li>
-        <li>Entonces se responde 400/409 con mensaje claro y la app muestra los errores sin duplicar el envío.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- TS01 -->
+<img src="assets/Chapter-2/TS01.png" alt="User persona - segmento 1" width="600"/>
+
+<br>
 
 <!-- TS02 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS02</td><td>Developer</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Autenticación de usuarios</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito implementar endpoints de autenticación para que la app móvil inicie sesión de forma segura (emisión y validación de tokens).</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Login válido</strong></p>
-      <ul>
-        <li>Dado el endpoint de autenticación,</li>
-        <li>Cuando se envían credenciales válidas desde la app,</li>
-        <li>Entonces se retorna 200 con access/refresh token y datos mínimos del perfil; la app inicia sesión persistente y puede habilitar biometría.</li>
-      </ul>
-      <p><strong>Escenario 02: Login inválido</strong></p>
-      <ul>
-        <li>Dado el endpoint de autenticación,</li>
-        <li>Cuando las credenciales son incorrectas o el usuario está inactivo,</li>
-        <li>Entonces se retorna 401/403 con mensaje adecuado y la app ofrece “recuperar contraseña”.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS02.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS03 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS03</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Creación de productos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito exponer endpoints para registrar productos con validaciones de campos requeridos y unicidad.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Producto creado</strong></p>
-      <ul>
-        <li>Dado que la app permite capturar foto/código de barras,</li>
-        <li>Cuando se envían datos correctos desde el móvil,</li>
-        <li>Entonces el backend crea el producto (201) y la app sincroniza la imagen en segundo plano.</li>
-      </ul>
-      <p><strong>Escenario 02: Datos inválidos</strong></p>
-      <ul>
-        <li>Dado el endpoint de productos,</li>
-        <li>Cuando el código está duplicado o faltan campos requeridos,</li>
-        <li>Entonces se retorna 400/409 con detalle y la app resalta los campos a corregir.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS03.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS04 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS04</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Consulta de productos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito listar productos con soporte de paginación y orden para su visualización en la app móvil.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Lista disponible</strong></p>
-      <ul>
-        <li>Dado que la app lista con “infinite scroll”,</li>
-        <li>Cuando consulta el endpoint,</li>
-        <li>Entonces se retorna colección paginada (200) mostrando placeholders y usando caché local si no hay conexión.</li>
-      </ul>
-      <p><strong>Escenario 02: Sin registros</strong></p>
-      <ul>
-        <li>Dado el endpoint de consulta,</li>
-        <li>Cuando no existen productos,</li>
-        <li>Entonces se retorna 200 con lista vacía y la app muestra estado vacío con CTA para crear.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS04.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS05 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS05</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Productos por categoría</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito filtrar productos por categoría para agilizar búsquedas desde la app.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Categoría existente</strong></p>
-      <ul>
-        <li>Dado que el usuario selecciona una categoría (chips/filtros),</li>
-        <li>Cuando se consulta el endpoint con la categoría,</li>
-        <li>Entonces se retorna 200 con resultados ignorando mayúsculas/acentos y la app recuerda el filtro.</li>
-      </ul>
-      <p><strong>Escenario 02: Sin coincidencias</strong></p>
-      <ul>
-        <li>Dado el filtro por categoría,</li>
-        <li>Cuando no hay productos asociados,</li>
-        <li>Entonces se retorna 200 con lista vacía y la app permite limpiar filtros.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS05.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS06 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS06</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Productos por etiqueta</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito permitir la consulta de productos por etiqueta para mejorar la organización y búsqueda.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Etiqueta válida</strong></p>
-      <ul>
-        <li>Dado que la app ofrece autocompletado de etiquetas recientes,</li>
-        <li>Cuando el usuario selecciona una etiqueta y consulta,</li>
-        <li>Entonces el backend retorna los productos (200) y la app permite combinar con otros filtros activos.</li>
-      </ul>
-      <p><strong>Escenario 02: Etiqueta sin resultados</strong></p>
-      <ul>
-        <li>Dado que se consulta por una etiqueta inexistente o sin datos,</li>
-        <li>Cuando el backend no encuentra coincidencias,</li>
-        <li>Entonces responde 200 con lista vacía y la app sugiere etiquetas relacionadas.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS06.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS07 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS07</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Registro de inventario</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito endpoints para registrar movimientos/stock de inventario con validaciones de negocio.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Registro válido</strong></p>
-      <ul>
-        <li>Dado que la app permite escanear código/QR,</li>
-        <li>Cuando se registra una entrada o salida con cantidad válida,</li>
-        <li>Entonces el backend guarda el movimiento (201) y retorna el stock actualizado para mostrar en la app.</li>
-      </ul>
-      <p><strong>Escenario 02: Registro inválido</strong></p>
-      <ul>
-        <li>Dado el endpoint de inventario,</li>
-        <li>Cuando la cantidad es negativa o la salida supera el stock,</li>
-        <li>Entonces se retorna 400 con detalle y la app resalta el campo con error.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS07.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS08 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS08</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Inventarios por precio</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito consultar inventarios filtrados por rango de precio para análisis desde la app.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Rango válido</strong></p>
-      <ul>
-        <li>Dado que el usuario ajusta un rango (slider),</li>
-        <li>Cuando se consulta el endpoint con la moneda/locale del dispositivo,</li>
-        <li>Entonces se retornan resultados (200) y pueden ordenarse por precio asc/desc.</li>
-      </ul>
-      <p><strong>Escenario 02: Sin resultados</strong></p>
-      <ul>
-        <li>Dado un rango sin coincidencias,</li>
-        <li>Cuando el backend no encuentra registros,</li>
-        <li>Entonces retorna 200 con lista vacía y la app sugiere ampliar el rango.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS08.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS09 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS09</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Inventario por producto</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito consultar el inventario de un producto específico para mostrar su disponibilidad.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Producto existente</strong></p>
-      <ul>
-        <li>Dado que la app escanea o selecciona un producto,</li>
-        <li>Cuando se consulta por su ID,</li>
-        <li>Entonces el backend retorna 200 con stock actual y últimos movimientos.</li>
-      </ul>
-      <p><strong>Escenario 02: Producto inexistente</strong></p>
-      <ul>
-        <li>Dado el endpoint por producto,</li>
-        <li>Cuando el ID no existe o está inactivo,</li>
-        <li>Entonces se retorna 404 con mensaje “no encontrado” y la app ofrece buscar otro producto.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS09.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS10 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS10</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Inventarios por fecha de ingreso</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito filtrar inventarios por fecha de ingreso para consultas cronológicas desde la app.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Fecha con registros</strong></p>
-      <ul>
-        <li>Dado que el usuario selecciona un rango con el date picker del móvil,</li>
-        <li>Cuando la app consulta con la zona horaria del dispositivo,</li>
-        <li>Entonces el backend retorna 200 con los registros del período.</li>
-      </ul>
-      <p><strong>Escenario 02: Fecha sin registros</strong></p>
-      <ul>
-        <li>Dado el endpoint por fecha,</li>
-        <li>Cuando el rango no tiene datos,</li>
-        <li>Entonces se retorna 200 con lista vacía y la app propone rangos cercanos.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS10.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS11 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS11</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Inventarios por cantidad</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito consultar inventarios por cantidad exacta o rango para monitorear niveles críticos o excedentes.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Rango/cantidad válida</strong></p>
-      <ul>
-        <li>Dado que la app permite filtrar por cantidad o rango,</li>
-        <li>Cuando se consulta el endpoint,</li>
-        <li>Entonces se retornan productos (200) e indicadores de “bajo stock” si están bajo el mínimo configurado.</li>
-      </ul>
-      <p><strong>Escenario 02: Sin coincidencias</strong></p>
-      <ul>
-        <li>Dado el filtro por cantidad/rango,</li>
-        <li>Cuando no hay resultados,</li>
-        <li>Entonces se retorna 200 con lista vacía y la app permite guardar el filtro.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS11.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-
 <!-- TS12 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS12</td><td>Developer</td><td>Alta</td><td>EP02 - Funciones de analítica, reportes y control avanzado</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Inventarios por proveedor</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito consultar inventarios asociados a un proveedor para análisis y gestión.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Proveedor existente</strong></p>
-      <ul>
-        <li>Dado que el usuario selecciona un proveedor en la app,</li>
-        <li>Cuando se consulta el endpoint con su identificador,</li>
-        <li>Entonces retorna 200 con la lista paginada de inventarios.</li>
-      </ul>
-      <p><strong>Escenario 02: Proveedor sin productos</strong></p>
-      <ul>
-        <li>Dado el endpoint por proveedor,</li>
-        <li>Cuando no hay inventarios vinculados,</li>
-        <li>Entonces se retorna 200 con lista vacía y la app muestra un estado informativo.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS12.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS13 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS13</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Registro de alertas</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito registrar alertas del sistema (p.ej., bajo stock) para su notificación en la app móvil.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Alerta registrada</strong></p>
-      <ul>
-        <li>Dado un evento de bajo stock detectado en la app o backend,</li>
-        <li>Cuando se envía la alerta con datos válidos al endpoint,</li>
-        <li>Entonces se registra (201) y la app puede disparar notificación local/push.</li>
-      </ul>
-      <p><strong>Escenario 02: Datos inválidos</strong></p>
-      <ul>
-        <li>Dado el endpoint de alertas,</li>
-        <li>Cuando el tipo es inválido o faltan campos requeridos,</li>
-        <li>Entonces se retorna 400 con detalle de validaciones.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS13.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS14 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS14</td><td>Developer</td><td>Alta</td><td>EP05 - Alertas y notificaciones</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Consulta de alertas</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito listar alertas para su visualización y seguimiento en la aplicación móvil.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Listado disponible</strong></p>
-      <ul>
-        <li>Dado que la app muestra un feed con “pull to refresh”,</li>
-        <li>Cuando consulta el endpoint,</li>
-        <li>Entonces se retornan alertas paginadas (200) ordenadas por severidad/fecha y se pueden marcar como leídas.</li>
-      </ul>
-      <p><strong>Escenario 02: Sin alertas</strong></p>
-      <ul>
-        <li>Dado el endpoint de consulta de alertas,</li>
-        <li>Cuando no existen registros,</li>
-        <li>Entonces se retorna 200 con lista vacía y la app ofrece ir a configuración de alertas.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS14.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS15 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS15</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Registro de combos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito endpoints para registrar combos de productos respetando reglas de composición.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Combo registrado</strong></p>
-      <ul>
-        <li>Dado que el usuario arma un combo en la app seleccionando productos y cantidades,</li>
-        <li>Cuando envía la creación,</li>
-        <li>Entonces el backend valida reglas (stock mínimo, no repetidos) y crea el combo (201) de forma atómica.</li>
-      </ul>
-      <p><strong>Escenario 02: Datos inválidos</strong></p>
-      <ul>
-        <li>Dado el endpoint de combos,</li>
-        <li>Cuando la composición es inválida o hay productos inexistentes,</li>
-        <li>Entonces se retorna 400 con detalle y la app conserva la selección para corregir.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS15.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
 <!-- TS16 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
-  <tr>
-    <th style="width:15%;">Story ID</th>
-    <th style="width:25%;">User</th>
-    <th style="width:15%;">Priority</th>
-    <th style="width:45%;">Epic</th>
-  </tr>
-  <tr>
-    <td>TS16</td><td>Developer</td><td>Alta</td><td>EP01 - Funciones básicas de inventario</td>
-  </tr>
-  <tr>
-    <th>Title</th><td colspan="3">API Consulta de combos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4">Como desarrollador, necesito consultar combos registrados para mostrarlos como opciones agrupadas en la app móvil.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <p><strong>Escenario 01: Listado de combos</strong></p>
-      <ul>
-        <li>Dado que la app lista combos con imágenes y precio total,</li>
-        <li>Cuando consulta el endpoint,</li>
-        <li>Entonces el backend retorna 200 con lista paginada y la app permite ordenar y guardar favoritos.</li>
-      </ul>
-      <p><strong>Escenario 02: Sin combos</strong></p>
-      <ul>
-        <li>Dado el endpoint de combos,</li>
-        <li>Cuando no existen registros,</li>
-        <li>Entonces se retorna 200 con lista vacía y la app muestra un estado sin datos con botón para crear combo.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/Chapter-2/TS16.png" alt="User persona - segmento 1" width="600"/>
+
+<br>
+
 
 ### Spike Story
 
 
-<!-- SPK01 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK01</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Implementar entrada por voz, comandos estructurados e interpretación</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga gramática mínima y extracción de entidades (cantidad, producto) para registrar movimientos por voz con manejo de ambigüedad.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Extracción de entidades con confianza mínima</strong></p> <ul> <li>Dado que se recibe un comando válido,</li> <li>Cuando procesa audio o texto,</li> <li>Entonces extrae cantidad y referencia de producto con un umbral de confianza definido.</li> </ul> <p><strong>Escenario 02: Manejo de ambigüedad</strong></p> <ul> <li>Dado que existen múltiples coincidencias,</li> <li>Cuando detecta ambigüedad,</li> <li>Entonces solicita desambiguación dentro del flujo técnico.</li> </ul> <p><strong>Escenario 03: Dictado consecutivo</strong></p> <ul> <li>Dado que el usuario dicta varios comandos,</li> <li>Cuando los recibe en secuencia,</li> <li>Entonces procesa cada uno y conserva estado hasta terminación.</li> </ul> </td> </tr> </table> <br>
+<!-- SPK01 -->
+<img src="assets/Chapter-2/SPK01.png" alt="User persona - segmento 1" width="600"/>
 
-<!-- SPK02 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK02</td><td>Equipo de desarrollo</td><td>Alta</td><td>EP04 - Cuentas y seguridad</td> </tr> <tr> <th>Title</th><td colspan="3">Roles y permisos en API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga un modelo RBAC con matriz rol permiso y puntos de control en API para operaciones de inventario y administración.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Autorización según política</strong></p> <ul> <li>Dado que un rol tiene permisos definidos,</li> <li>Cuando solicita una operación restringida,</li> <li>Entonces autoriza o rechaza de acuerdo con la política.</li> </ul> <p><strong>Escenario 02: Intentos no autorizados</strong></p> <ul> <li>Dado que un usuario carece del permiso,</li> <li>Cuando intenta modificar recursos,</li> <li>Entonces rechaza la acción y registra el intento.</li> </ul> <p><strong>Escenario 03: Efecto de cambios de rol</strong></p> <ul> <li>Dado que se actualizan las asignaciones de rol,</li> <li>Cuando el cambio entra en vigor,</li> <li>Entonces aplica permisos vigentes sin inconsistencias.</li> </ul> </td> </tr> </table> <br>
+<br>
 
+<!-- SPK02 -->
+<img src="assets/Chapter-2/SPK02.png" alt="User persona - segmento 1" width="600"/>
 
-<!-- SPK3 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK03</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Geolocalizar y modelar la ubicación (GPS y QR)</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga captura de lat/long, precisión, almacenamiento, permisos y asociación de ubicación por QR para productos y entregas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Persistencia de coordenadas</strong></p> <ul> <li>Dado que los permisos de ubicación están concedidos,</li> <li>Cuando captura la ubicación,</li> <li>Entonces persiste coordenadas con precisión y timestamp.</li> </ul> <p><strong>Escenario 02: Flujo sin permisos</strong></p> <ul> <li>Dado que los permisos son denegados,</li> <li>Cuando se requiere ubicación,</li> <li>Entonces documenta flujo de entrada manual de dirección o coordenadas.</li> </ul> <p><strong>Escenario 03: Asociación por QR</strong></p> <ul> <li>Dado que se dispone de un QR válido,</li> <li>Cuando asocia la ubicación,</li> <li>Entonces vincula el producto al punto definido y lo hace consultable.</li> </ul> </td> </tr> </table> <br>
-  
-<!-- SPK04 --> <table border="1" cellspacing="0" cellpadding="8"> <tr> <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th> </tr> <tr> <td>SPK04</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td> </tr> <tr> <th>Title</th><td colspan="3">Configurar predicción de reabastecimiento</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4">Como equipo de desarrollo, investiga una fórmula base (media móvil + lead time) con parámetros ajustables para sugerir fecha y cantidad de reabastecimiento.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <p><strong>Escenario 01: Sugerencia con supuestos explícitos</strong></p> <ul> <li>Dado que existe histórico de ventas y stock mínimo,</li> <li>Cuando calcula demanda proyectada,</li> <li>Entonces sugiere fecha y cantidad con supuestos explícitos.</li> </ul> <p><strong>Escenario 02: Recalculo por parámetros</strong></p> <ul> <li>Dado que los parámetros son ajustables,</li> <li>Cuando actualiza valores,</li> <li>Entonces recalcula sugerencias con trazabilidad de versiones.</li> </ul> <p><strong>Escenario 03: Detección de quiebre inminente</strong></p> <ul> <li>Dado que el consumo supera la previsión,</li> <li>Cuando se detecta desvío relevante,</li> <li>Entonces marca riesgo de quiebre y registra recomendación prioritaria.</li> </ul> </td> </tr> </table> <br>
+<br>
 
+<!-- SPK03 -->
+<img src="assets/Chapter-2/SPK03.png" alt="User persona - segmento 1" width="600"/>
+
+<br>
+
+<!-- SPK04 -->
+<img src="assets/Chapter-2/SPK04.png" alt="User persona - segmento 1" width="600"/>
+
+<br>
 
 <!-- SPK05 -->
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr><th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th></tr>
-  <tr><td>SPK05</td><td>Equipo de desarrollo</td><td>Baja</td><td>EP03 - Innovación y valor agregado</td></tr>
-  <tr><th>Title</th><td colspan="3">Escaneo por lotes con cámara rápida (visión ML)</td></tr>
-  <tr><th colspan="4">Description</th></tr>
-  <tr><td colspan="4">La app toma una foto al lote; una API de visión (p.ej., Google ML Kit) devuelve etiquetas genéricas. El usuario confirma producto exacto y cantidad antes de registrar; se puede saltar a su ubicación en el almacén virtual.</td></tr>
-  <tr><th colspan="4">Acceptance Criteria</th></tr>
-  <tr><td colspan="4">
-    <p><strong>Escenario 01: Etiquetado y confirmación</strong></p>
-    <ul><li>Dado una imagen de lote,</li><li>Cuando el servicio devuelve top-N etiquetas,</li><li>Entonces el usuario selecciona producto y define cantidad en un paso.</li></ul>
-    <p><strong>Escenario 02: Registro por lotes</strong></p>
-    <ul><li>Dado múltiples fotos consecutivas,</li><li>Cuando procesa cada captura,</li><li>Entonces registra movimientos en cola con feedback de éxito/error por ítem.</li></ul>
-    <p><strong>Escenario 03: Acceso a ubicación</strong></p>
-    <ul><li>Dado un producto confirmado,</li><li>Cuando el usuario lo solicita,</li><li>Entonces navega a su ubicación (QR o GPS) en el mapa del almacén.</li></ul>
-  </td></tr>
-</table>
+<img src="assets/Chapter-2/SPK05.png" alt="User persona - segmento 1" width="600"/>
 
+<br>
 
 
 ### 2.4.2. Impact Mapping
