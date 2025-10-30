@@ -1477,49 +1477,42 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 ### 2.4.1. User Stories
 
 Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
-<table border="1" cellspacing="0" cellpadding="8"
-       style="border-collapse:collapse;
-              width:900px;               /* ancho fijo total */
-              height:550px;              /* alto total fijo */
-              table-layout:fixed;        /* evita cambio por contenido */
-              font-size:14px;
-              text-align:left;">
 
-  <tr style="height:35px;">
-    <th style="width:120px;">Story ID</th>
-    <th style="width:220px;">User</th>
-    <th style="width:120px;">Priority</th>
-    <th style="width:440px;">Epic</th>
+<!-- Contenedor fijo para uniformar tamaño -->
+<div style="width:900px; margin:auto;">
+
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse:collapse; width:100%; table-layout:fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
   </tr>
-
-  <tr style="height:35px;">
+  <tr>
     <td>US01</td>
     <td>Usuario de inventario</td>
     <td>Alta</td>
     <td>EP01 - Funciones básicas de inventario</td>
   </tr>
-
-  <tr style="height:30px;">
+  <tr>
     <th>Title</th>
     <td colspan="3">Registrar producto nuevo</td>
   </tr>
-
-  <tr style="height:30px;">
+  <tr>
     <th colspan="4">Description</th>
   </tr>
-  <tr style="height:80px;">
-    <td colspan="4" style="overflow:hidden; text-overflow:ellipsis;">
+  <tr>
+    <td colspan="4">
       Como usuario, quiero registrar un nuevo producto en mi inventario, 
       para tener un control detallado de su existencia desde el comienzo.
     </td>
   </tr>
-
-  <tr style="height:30px;">
+  <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
-
-  <tr style="height:180px;">
-    <td colspan="4" style="overflow:auto;">
+  <tr>
+    <td colspan="4">
       <p><strong>Escenario 01: Registro exitoso de producto</strong></p>
       <ul>
         <li>Dado que el sistema recibe datos válidos para un producto,</li>
@@ -1536,67 +1529,66 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
       </ul>
     </td>
   </tr>
-
 </table>
 
+</div>
 
 <!-- US02 -->
-<table border="1" cellspacing="0" cellpadding="8"
-       style="border-collapse:collapse;
-              width:900px;               /* ancho fijo total */
-              table-layout:fixed;        /* bloquea el ajuste dinámico */
-              text-align:left;
-              font-size:14px;">
-  <tr style="height:35px;"> <!-- altura fija de encabezado -->
-    <th style="width:120px;">Story ID</th>
-    <th style="width:220px;">User</th>
-    <th style="width:120px;">Priority</th>
-    <th style="width:440px;">Epic</th>
-  </tr>
+<div style="width:900px; margin:auto;">
 
-  <tr style="height:35px;">
+<table border="1" cellspacing="0" cellpadding="8" 
+       style="border-collapse:collapse; width:100%; table-layout:fixed;">
+  <tr>
+    <th style="width:15%;">Story ID</th>
+    <th style="width:25%;">User</th>
+    <th style="width:15%;">Priority</th>
+    <th style="width:45%;">Epic</th>
+  </tr>
+  <tr>
     <td>US02</td>
     <td>Usuario de inventario</td>
     <td>Alta</td>
     <td>EP01 - Funciones básicas de inventario</td>
   </tr>
 
-  <tr style="height:30px;">
-    <th>Title</th>
-    <td colspan="3"><strong>Editar información de producto</strong></td>
-  </tr>
-
   <tr>
-    <th colspan="4" style="height:30px;">Description</th>
+    <th>Title</th>
+    <td colspan="3">Editar información de producto</td>
   </tr>
-  <tr style="height:80px;">
-    <td colspan="4" style="overflow:hidden;">
-      Como usuario, quiero editar la información de un producto registrado, para corregir o actualizar datos.
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4" style="text-align:justify;">
+      Como usuario, quiero editar la información de un producto registrado, 
+      para corregir o actualizar datos.
     </td>
   </tr>
-
-  <tr style="height:30px;">
+  <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
-
-  <tr style="height:180px;">
-    <td colspan="4" style="overflow:auto;">
+  <tr>
+    <td colspan="4">
       <p><strong>Escenario 01: Edición con éxito</strong></p>
       <ul>
-        <li><b>Dado que</b> el usuario ya tiene un producto en el inventario</li>
-        <li><b>Cuando</b> modifica campos de información del producto</li>
-        <li>Y procesa el registro adecuadamente</li>
-        <li><b>Entonces</b> el sistema guarda los cambios</li>
+        <li><strong>Dado que</strong> el usuario ya tiene un producto en el inventario</li>
+        <li><strong>Cuando</strong> modifica campos de información del producto</li>
+        <li><strong>Y</strong> procesa el registro adecuadamente</li>
+        <li><strong>Entonces</strong> el sistema guarda los cambios</li>
       </ul>
       <p><strong>Escenario 02: Edición con datos inválidos</strong></p>
       <ul>
-        <li><b>Dado que</b> el usuario está editando información de un producto</li>
-        <li><b>Cuando</b> ingresa datos inválidos</li>
-        <li><b>Entonces</b> el sistema muestra mensajes de validación</li>
+        <li><strong>Dado que</strong> el usuario está editando información de un producto</li>
+        <li><strong>Cuando</strong> ingresa datos inválidos</li>
+        <li><strong>Entonces</strong> el sistema muestra los errores</li>
+        <li><strong>Y</strong> no se guardan los cambios</li>
       </ul>
     </td>
   </tr>
 </table>
+
+</div>
+
 
 <br>
 
