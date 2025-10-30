@@ -1,10 +1,12 @@
-# <center>COURSE PROJECT</center>
+<h1 align="center">COURSE PROJECT</h1>
 
-<center>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="200"><br>
-    <h2>Universidad Peruana de Ciencias Aplicadas</h2>
-    <h3>Ingeniería de Software</h3>
-</center>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="200">
+</p>
+
+<h2 align="center">Universidad Peruana de Ciencias Aplicadas</h2>
+<h3 align="center">Ingeniería de Software</h3>
+
 
 <p align="center">
     Periodo: 202520 <br>
@@ -401,17 +403,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </tr>
     <tr>
       <td>Reconoce la necesidad del
-aprendizaje permanente
-para el desempeño
-profesional y el desarrollo
-de proyectos en soluciones
-de software.</td>
+        aprendizaje permanente
+        para el desempeño
+        profesional y el desarrollo
+        de proyectos en soluciones
+        de software.</td>
       <td>
         <p><b>Jocelyn Almerco</b></p>
         <p><b>TB1:</b></p>
         <p>Me encargué de editar el video de las entrevistas. Colaboré con Capítulo II: Entrevistas,  User Task Matrix, User Journey Mapping, Empathy Mapping,  Requirements specification, User Stories, Impact Mapping, Product Backlog.</p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>Comprendí la importancia del aprendizaje continuo al realizar correcciones del capítulo 2 y desarrollar pantallas móviles de inventario en Android Studio. Reforcé mis conocimientos en diseño UI y validación visual, aplicando mejoras en base al feedback del equipo.</p>
         <p><b>TB2:</b></p>
         <p>..</p>
         <p><b>TF:</b></p>
@@ -420,7 +422,7 @@ de software.</td>
        <p><b>TB1:</b></p>
         <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>Al participar en el avance del capítulo 3 y colaborar en el capítulo 4, además de crear pantallas IAM en Android Studio, confirmé que la actualización constante en frameworks y diseño móvil es esencial para mi desarrollo profesional.</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
@@ -430,7 +432,7 @@ de software.</td>
         <p>Me di cuenta de que al trabajar con C4 y el diagrama de base de datos necesito seguir aprendiendo sobre cómo representar bien la arquitectura y los datos de un sistema.
         </p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>Durante la coordinación del grupo y la creación de pantallas de productos móviles en Android Studio, reconocí la necesidad de seguir aprendiendo sobre arquitectura de software y buenas prácticas en desarrollo colaborativo.</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
@@ -439,7 +441,7 @@ de software.</td>
        <p><b>TB1:</b></p>
         <p>Comprendí que usar las tácticas de DDD requiere aprendizaje constante de patrones como entidades y agregados para aplicarlos bien en el dominio.</p>
         <p><b>TP1:</b></p>
-        <p>...</p>
+        <p>Al corregir el backend y avanzar en el capítulo 4, comprendí la importancia del aprendizaje permanente para aplicar correctamente patrones y mejorar la integración entre backend y diseño móvil.</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
@@ -448,7 +450,7 @@ de software.</td>
        <p><b>TB1:</b></p>
         <p>Entendí que al hacer EventStorming es clave seguir capacitándome para identificar de forma correcta los eventos y procesos del sistema.</p>
         <p><b>TP1:</b></p>
-        <p>...</p>
+        <p>En la corrección y despliegue del backend, así como en el desarrollo de pantallas móviles de productos, entendí que el aprendizaje constante es clave para optimizar procesos técnicos y adaptarme a nuevas herramientas de desarrollo.</p>
         <p><b>TB2:</b></p>
         <p>...</p>
         <p><b>TF:</b></p>
@@ -1280,11 +1282,13 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 ### 2.3.1. User Personas
 
 **Segmento 1: Bodegas especializadas por rubro**
+
 <img src="assets/Chapter-2/segmento1.png" alt="User persona - segmento 1" width="600"/>
 
 _Imagen (N°2). Elaboración propia. Realizado en UXPressia_
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
 <img src="assets/Chapter-2/segmento2.png" alt="User persona - segmento 2" width="600"/>
 
 _Imagen (N°3). Elaboración propia. Realizado en UXPressia_
@@ -1474,8 +1478,14 @@ El siguiente glosario presenta los términos clave utilizados a lo largo del des
 
 Las User Stories son clave en metodologías ágiles porque traducen los requisitos funcionales desde la mirada del usuario. Cada historia especifica una necesidad concreta, lo que permite planificar, priorizar y construir el sistema de forma iterativa. Así se asegura que cada función aporte valor real y permanezca alineada con las expectativas del usuario final.
 
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+<table border="1" cellspacing="0" cellpadding="6" width="100%" 
+       style="border-collapse:collapse; text-align:left; table-layout:fixed;">
+  <colgroup>
+    <col style="width:15%">
+    <col style="width:25%">
+    <col style="width:15%">
+    <col style="width:45%">
+  </colgroup>
   <tr>
     <th style="width:15%;">Story ID</th>
     <th style="width:25%;">User</th>
@@ -1527,8 +1537,14 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 </table>
 
 <!-- US02 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+<table border="1" cellspacing="0" cellpadding="6" width="100%" 
+       style="border-collapse:collapse; text-align:left; table-layout:fixed;">
+  <colgroup>
+    <col style="width:15%">
+    <col style="width:25%">
+    <col style="width:15%">
+    <col style="width:45%">
+  </colgroup>
   <tr>
     <th style="width:15%;">Story ID</th>
     <th style="width:25%;">User</th>
@@ -1582,8 +1598,14 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <br>
 
 <!-- US03 -->
-<table border="1" cellspacing="0" cellpadding="8" 
-       style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+<table border="1" cellspacing="0" cellpadding="6" width="100%" 
+       style="border-collapse:collapse; text-align:left; table-layout:fixed;">
+  <colgroup>
+    <col style="width:15%">
+    <col style="width:25%">
+    <col style="width:15%">
+    <col style="width:45%">
+  </colgroup>
   <tr>
     <th style="width:15%;">Story ID</th>
     <th style="width:25%;">User</th>
@@ -3906,7 +3928,8 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
     <tr><td>35</td><td>US30</td><td>Escanear por lotes con cámara rápida</td><td>3</td></tr>
     <tr><td>36</td><td>TS14</td><td>Generar API Consulta de alertas</td><td>3</td></tr>
     <tr><td>37</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
-
+    <tr><td>38</td><td>NF03</td><td>Optimizar tiempos de respuesta</td><td>2</td></tr>
+    <tr><td>39</td><td>NF05</td><td>Alertas en tiempo reals</td><td>2</td></tr>
   </tbody>
 </table>
 
@@ -5195,17 +5218,9 @@ El usuario accede al sistema mediante sus credenciales y se dirige a su panel pr
 El usuario explora la vista principal para acceder a las herramientas clave del sistema.
 
 1. El usuario accede al Dashboard después de iniciar sesión.
-2. Visualiza indicadores principales:
-  *  Total de productos registrados.
-  *  Fecha del último proveedor.
-
+2. Visualiza el total de productos registrados y fecha del último proveedor.
 3. Observa un resumen de productos próximos a caducar con stock y fecha.
-4. Accede a botones de acción rápida:
-* Historial de Movimientos
-* Inventario
-* Agregar Productos
-* Kits
-* Devolución de productos
+4. Accede a botones de acción rápida (Historial de Movimientos, Inventario, Agregar Productos, Kits y Devolución de productos)
 5. Selecciona cualquiera de las secciones para continuar su gestión.
 
 <center> <img src="assets/Chapter-3/user goal Navegador por el dashboard.png" style="width: 420px;"/> </center>
@@ -5241,7 +5256,7 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 <center> <img src="assets/Chapter-3/user goal Botones principales.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N°). Elaboración propia. Realizado en Figma*
 
 **User Goal: Historial de Movimientos**
 
