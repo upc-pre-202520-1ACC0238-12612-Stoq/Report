@@ -1779,13 +1779,13 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 
 ![bodeguero](assets/Chapter-2/stockwise%20-%20impact%20map-bodeguero.png)
 
-_Imagen (N°12). Elaboración propia. Realizado en UXPRESSIA_
+_Imagen (N°8). Elaboración propia. Realizado en UXPRESSIA_
 
 ### Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas
 
 ![emprendedor](assets/Chapter-2/stockwise%20-%20impact%20map-emprendedor.png)
 
-_Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
+_Imagen (N°9). Elaboración propia. Realizado en UXPRESSIA_
 
 ### 2.4.3. Product Backlog
 
@@ -1844,7 +1844,8 @@ _Imagen (N°13). Elaboración propia. Realizado en UXPRESSIA_
 ### Gestión del producto Backlog
 
 <img src="./assets/Chapter-2/Product_Backlog.png">
-<br>
+
+_Imagen (N°10). Elaboración propia. Realizado en Trello_
 
 Trello del Product Backlog: https://trello.com/invite/b/68d9c7c26edf04fc488ca657/ATTIe2ace23b94bb268e8de0b90039ed6ef756FAD28C/stoq-product-backlog
 
@@ -1868,6 +1869,9 @@ Primero tuvimos una lluvia de ideas en la cual nos propusimos identificar exhaus
 A continuación, se presentan una serie de figuras que evidencian este proceso de exploración inicial.
 
 <img src="./assets/Chapter-2/eventStorming_step1.png"> 
+
+_Imagen (N°11). Elaboración propia. Realizado en Miro_
+
 <br>En esta figura se aprecia un mural con todos los eventos del dominio que fueron rescatados de la lluvia de ideas que realizó el equipo.<br>
 
 ### Step 2 : Timeline construction
@@ -1877,15 +1881,35 @@ A continuación, se presentan una serie de capturas de pantalla que ilustran có
 
 <img src="./assets/Chapter-2/eventStorming_step2.1.png">
 
-<br><br>  
+<br>
+
+_Imagen (N°12). Elaboración propia. Realizado en Miro_
+
+<br>  
 <img src="./assets/Chapter-2/eventStorming_step2.2.png">
-<br><br>
+<br>
+
+_Imagen (N°13). Elaboración propia. Realizado en Miro_
+
+<br>
 <img src="./assets/Chapter-2/eventStorming_step2.3.png">
-<br><br>
+<br>
+
+_Imagen (N°14). Elaboración propia. Realizado en Miro_
+
+<br>
 <img src="./assets/Chapter-2/eventStorming_step2.4.png">
-<br><br>  
+<br>
+
+_Imagen (N°15). Elaboración propia. Realizado en Miro_
+
+<br>  
 <img src="./assets/Chapter-2/eventStorming_step2.5.png">
-<br><br>
+<br>
+
+_Imagen (N°16). Elaboración propia. Realizado en Miro_
+
+<br>
 
 #### Step 3: Pain Points
 
@@ -1894,14 +1918,29 @@ En este paso identificamos los puntos críticos que requieren especial atención
 A continuación, se presentan una serie de figuras que evidencian el proceso realizado durante la identificación y análisis de los puntos críticos del dominio. Estas capturas complementan el diagrama general elaborado en Miro y permiten observar con mayor detalle los elementos clave identificados.
 
 <img src="./assets/Chapter-2/eventStorming_step3.1.png">
+
+_Imagen (N°17). Elaboración propia. Realizado en Miro_
+
 <br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo manejar la verificación (canal, reintentos, expiración y fallback) y cuándo activar la cuenta si el código no llega o falla. Al resolver estas interrogantes —reenvío OTP, cambio de canal, rate-limit y soporte— mejoraremos el alta de usuarios y reduciremos abandonos.<br> 
 <img src="./assets/Chapter-2/eventStorming_step3.2.png">
+
+_Imagen (N°18). Elaboración propia. Realizado en Miro_
+
 <br>En esta imagen se aprecia la identificación de incertidumbres sobre de dónde salen los valores por defecto, si son obligatorios y cómo impactan las alertas. Al imponer validación y defaults por categoría, habilitamos reposición oportuna y alertas útiles sin fricción para el usuario.<br> 
 <img src="./assets/Chapter-2/eventStorming_step3.3.png">
+
+_Imagen (N°19). Elaboración propia. Realizado en Miro_
+
 <br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo cerrar una alerta: si se exige confirmación de atención o escalamiento previo, quién puede marcarla como “vista/resuelta”, y cómo tratar estados como ignorada o urgente cuando hay alertas por stock bajo, vencimiento o sobrestock; además, hay dudas sobre la creación de alertas personalizadas y el procesamiento por lotes al final del día.<br> 
 <img src="./assets/Chapter-2/eventStorming_step3.4.png">
+
+_Imagen (N°20). Elaboración propia. Realizado en Miro_
+
 <br>En esta imagen se aprecia la identificación de incertidumbres sobre qué datos “validados” deben alimentar la auditoría y los reportes (para evitar inconsistencias), así como el alcance y filtros de los informes (ventas semanales, tendencias, métricas como stock promedio) y quién puede exportar/compartir (Excel, correo) según el plan<br> 
 <img src="./assets/Chapter-2/eventStorming_step3.5.png">
+
+_Imagen (N°21). Elaboración propia. Realizado en Miro_
+
 <br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo garantizar que un “ajuste de stock” refleje la realidad y no oculte errores o maniobras: cuándo corresponde usar ajuste versus quitar stock por venta o baja por daño, qué evidencias (motivo, usuario, documento/foto) y doble validación exigir, cómo conciliar el conteo físico sin duplicar salidas previas, cómo impactar lotes y reservas (p. ej., liberar reservas ya innecesarias) y cómo disparar alertas por umbral después de cada movimiento.<br>
 
 #### Step 4: Pivotal Points
@@ -1909,24 +1948,47 @@ A continuación, se presentan una serie de figuras que evidencian el proceso rea
 En esta sección se marcaron los puntos clave que denotan transiciones significativas dentro del proceso de desarrollo, especialmente aquellos eventos o decisiones que implican un cambio en el comportamiento del sistema o en la forma en que los distintos Bounded Contexts interactúan entre sí. Como se puede observar, los pivotal points son sumamente importantes. Por ello, para poder comprender y apreciar el diseño realizado en este paso, se muestran las siguientes imágenes.
 
 <img src="./assets/Chapter-2/eventStorming_step4.1.png">
-<br><br>
+<br>
+
+_Imagen (N°22). Elaboración propia. Realizado en Miro_
+
+<br>
 
 <img src="./assets/Chapter-2/eventStorming_step4.2.png">
-<br><br>
+<br>
+
+_Imagen (N°23). Elaboración propia. Realizado en Miro_
+
+<br>
 
 #### Step 5: Commands
 
 En este paso se definen los comandos que representan las acciones que los usuarios pueden ejecutar en el sistema. Estos comandos son fundamentales para desencadenar eventos y modificar el estado del sistema, y deben estar alineados con los eventos identificados previamente. A continuación, se muestran los comandos relevantes para nuestro dominio.
 
 <img src="./assets/Chapter-2/eventStorming_step5.1.png">
+
+_Imagen (N°24). Elaboración propia. Realizado en Miro_
+
 <br>Crear cuenta de usuario registra la cuenta y dispara la verificación (SMS/Email); Iniciar sesión autentica factores y abre una sesión válida; Cambiar plan de suscripción solicita upgrade/downgrade, coordina el cobro y aplica el plan activo tras confirmación; Cerrar sesión invalida la sesión/token en curso.<br>  
 <img src="./assets/Chapter-2/eventStorming_step5.2.png">
+
+_Imagen (N°25). Elaboración propia. Realizado en Miro_
+
 <br>Agregar producto da de alta un ítem con sus datos base; Actualizar producto modifica atributos (nombre, descripción, imágenes, etc.); Cambiar la categoría de producto reasigna su clasificación; Archivar producto cambia el estado a “archivado” cuando no existen existencias ni reservas activas.<br>  
 <img src="./assets/Chapter-2/eventStorming_step5.3.png">
+
+_Imagen (N°26). Elaboración propia. Realizado en Miro_
+
 <br>Registrar lote ingresa stock por lote (cantidad, almacén, vencimiento); Definir stock establece umbrales mínimo/máximo para alertas y reposición; Ajuste de stock corrige existencias con doble validación cuando procede; Liberar reserva de stock devuelve a disponible las cantidades apartadas que ya no se necesitan.<br>  
 <img src="./assets/Chapter-2/eventStorming_step5.4.png">
+
+_Imagen (N°27). Elaboración propia. Realizado en Miro_
+
 <br>Generar alerta crea una alerta con severidad y canales según reglas; Marcar alerta como resuelta cierra el caso tras confirmación de atención; Marcar como urgente eleva prioridad y canal; Ignorar alerta cambia el estado cuando aplica (con trazabilidad).<br>  
 <img src="./assets/Chapter-2/eventStorming_step5.5.png">
+
+_Imagen (N°28). Elaboración propia. Realizado en Miro_
+
 <br>Generar reporte ejecuta una consulta/KPI sobre datos validados; Exportar reporte materializa el resultado (Excel/PDF) con sello/firma; Enviar/Compartir reporte distribuye el archivo por correo o canal elegido y registra la entrega.<br>  
  
 #### Step 6: Policies
@@ -1946,26 +2008,58 @@ Los siguientes frames contienen políticas que indican diferentes restricciones 
 -Exportos con firma/sello. Los archivos exportados (Excel/PDF) deben incluir firma digital o sello de autenticidad.<br>
 
 <img src="./assets/Chapter-2/eventStorming_step6.1.png">
-<br><br> 
+<br>
+
+_Imagen (N°29). Elaboración propia. Realizado en Miro_
+
+<br> 
 <img src="./assets/Chapter-2/eventStorming_step6.2.png">
-<br><br> 
+<br>
+
+_Imagen (N°30). Elaboración propia. Realizado en Miro_
+
+<br> 
 <img src="./assets/Chapter-2/eventStorming_step6.3.png">
-<br><br> 
+<br>
+
+_Imagen (N°31). Elaboración propia. Realizado en Miro_
+
+<br> 
 <img src="./assets/Chapter-2/eventStorming_step6.4.png">
-<br><br> 
+<br>
+
+_Imagen (N°32). Elaboración propia. Realizado en Miro_
+
+<br> 
 <img src="./assets/Chapter-2/eventStorming_step6.5.png">
-<br><br>
+<br>
+
+_Imagen (N°33). Elaboración propia. Realizado en Miro_
+
+<br>
 
 #### Step 7 & 8: Read Models & External Systems
 
 Estos dos pasos conforman la aparición de los read models y los external systems respectivamente. Por un lado, los read models son proyecciones que representan vistas personalizadas, dashboards, o reportes. Por otro lado, los external systems en DDD representan aquellos componentes o servicios externos con los que el sistema necesita interactuar, como pasarelas de pago, servicios de autenticación, sistemas de terceros, o integraciones con otras plataformas empresariales.
 
 <img src="./assets/Chapter-2/eventStorming_step7.1.png">
-<br><br> 
+<br>
+
+_Imagen (N°34). Elaboración propia. Realizado en Miro_
+
+<br> 
 <img src="./assets/Chapter-2/eventStorming_step7.2.png">
-<br><br> 
+<br>
+
+_Imagen (N°35). Elaboración propia. Realizado en Miro_
+
+<br> 
 <img src="./assets/Chapter-2/eventStorming_step7.3.png">
-<br><br>
+<br>
+
+_Imagen (N°36). Elaboración propia. Realizado en Miro_
+
+<br>
 
 #### Step 9 & 10: Aggregates & Bounded Contexts
 
@@ -1973,34 +2067,71 @@ En los pasos 9 y 10 se introducen dos conceptos clave del Domain-Driven Design: 
 
 <br>Bounded Context: IAM<br>
 <img src="./assets/Chapter-2/eventStorming_step9.1.png">
-<br><br>
+<br>
+
+_Imagen (N°37). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: Product catalog<br>
 <img src="./assets/Chapter-2/eventStorming_step9.2.png">
-<br><br>
+<br>
+
+_Imagen (N°38). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: Inventory<br>
 <img src="./assets/Chapter-2/eventStorming_step9.3.png">
-<br><br>
+<br>
+
+_Imagen (N°39). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: Alerts<br>
 <img src="./assets/Chapter-2/eventStorming_step9.4.png">
-<br><br>
+<br>
+
+_Imagen (N°40). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: AuditReport<br>
 <img src="./assets/Chapter-2/eventStorming_step9.5.png">
-<br><br>
+<br>
+
+_Imagen (N°41). Elaboración propia. Realizado en Miro_
+
+<br>
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
 En los siguientes gráficos, se representa el proceso seguido para visualizar cómo deben colaborar los bounded contexts para resolver distintos escenarios que pueden presentarse en el negocio.
 
-<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow1.png"><br>
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow1.png">
+
+_Imagen (N°42). Elaboración propia. Realizado en Miro_
+
+<br>
 Este es un escenario de creación e inicio/cierre de sesión para nuestra app de bodega: primero, el usuario registra su cuenta en la Web App enviando su correo o teléfono; la aplicación remite el comando a IAM, que coordina con el proveedor OTP/SMS/Email para verificar el contacto y, una vez confirmado, publica el evento “Nuevo usuario ingresado” dejando la cuenta activa. A continuación, el usuario solicita iniciar sesión; la Web App envía el comando a IAM, que valida credenciales/OTP y emite “Sesión iniciada”, habilitando el acceso a las demás funciones. Finalmente, cuando el usuario decide salir, la Web App manda “Cerrar sesión” a IAM, que invalida el token/sesión y concluye el ciclo de autenticación.<br>
 
-<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow2.png"><br>
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow2.png">
+
+_Imagen (N°43). Elaboración propia. Realizado en Miro_
+
+
+<br>
 Este es un escenario de archivado de producto con validación de stock: el Admin solicita en Product Catalog el comando Archivar producto y, antes de ejecutar el cambio, el catálogo consulta a Inventory el estado de existencias y reservas. Con la Consulta de stock, Inventory responde si hay unidades o reservas activas; si aún existe stock o reservas, desde la Web App se genera la notificación correspondiente y se envía a Alerts (Alerta generada) para informar y bloquear la acción. Si el resultado confirma stock=0 y sin reservas, el catálogo procede a completar la operación y se publica el evento Producto archivado, quedando el ítem fuera de publicación.<br>
 
-<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow3.png"><br>
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow3.png">
+
+_Imagen (N°43). Elaboración propia. Realizado en Miro_
+
+<br>
 Este es un escenario de recepción de lote: el admin, a través de la Web App, envía a Inventory el comando Registrar lote con productId, lotId, qty y expiryDate; Inventory valida la política de perecibles (exigir fecha de vencimiento) y confirma la alta con el evento Lote registrado; a partir de ese hecho aplica sus reglas: si el lote es perecible y cae dentro del umbral, detecta “Próximo a vencer” y ordena en Alerts el comando Generar Alerta para notificar al usuario; en paralelo, registra la trazabilidad de la operación en AuditReport mediante el evento Movimiento registrado en historial, dejando el ingreso listo para reportes e indicadores.<br>
 
-<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow4.png"><br>
+<br><img src="./assets/Chapter-2/eventStorming_DomainMessageFlow4.png">
+
+_Imagen (N°44). Elaboración propia. Realizado en Miro_
+
+<br>
 Este es un escenario de cambio de plan (Subscription): el usuario solicita en el Website el comando Cambio de plan, que es atendido por el BC IAM; IAM coordina con la pasarela de pagos para capturar el cobro y, una vez confirmado, publica los eventos “Cambio de plan realizado” y “Pasa a plan premium”, los cuales habilitan capacidades en los demás contextos: Alerts reconfigura sus canales (por ejemplo, activa SMS para notificaciones críticas) y Report registra el movimiento de suscripción en la auditoría; como efecto visible, el Website recibe el permiso de exportar reportes (gating por plan) y el usuario continúa operando con las nuevas funcionalidades asociadas a su plan activo..<br>
 
 #### 2.5.1.3. Bounded Context Canvases
@@ -2009,19 +2140,39 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 
 <br>Bounded Context: IAM<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas1.png">
-<br><br>
+<br>
+
+_Imagen (N°45). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: Product catalog<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas2.png">
-<br><br>
+<br>
+
+_Imagen (N°46). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: Inventory<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas3.png">
-<br><br>
+<br>
+
+_Imagen (N°47). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: Alerts<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas4.png">
-<br><br>
+<br>
+
+_Imagen (N°48). Elaboración propia. Realizado en Miro_
+
+<br>
 <br>Bounded Context: AuditReport<br>
 <img src="./assets/Chapter-2/eventStorming_BoundenContextCavas5.png">
-<br><br>
+<br>
+
+_Imagen (N°49). Elaboración propia. Realizado en Miro_
+
+<br>
 
 ### 2.5.2. Context Mapping
 
@@ -2033,17 +2184,24 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/c4-context.png" alt="c4-context"/>
 </div>
 
+_Imagen (N°50). Elaboración propia. Realizado en Structurizr_
+
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 <div align="center">
   <img src="assets/Chapter-2/c4-container.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°51). Elaboración propia. Realizado en Structurizr_
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 <div align="center">
   <img src="assets/Chapter-2/deployment-diagram.png" alt="deploy-diagram"/>
 </div>
+
+_Imagen (N°52). Elaboración propia. Realizado en Structurizr_
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -2093,6 +2251,9 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/c4-component-alertstock.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°53). Elaboración propia. Realizado en Structurizr_
+
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2100,6 +2261,9 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
 <div align="center">
   <img src="assets/Chapter-2/class-alertstock-domain.png" alt="class-container"/>
 </div>
+
+_Imagen (N°54). Elaboración propia. Realizado en Structurizr_
+
 
 ### 2.6.2. Bounded Context: Iam Context
 
@@ -2165,6 +2329,9 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/c4-component-iam.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°55). Elaboración propia. Realizado en Structurizr_
+
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2173,11 +2340,17 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/class-iam-domain.png" alt="class-container"/>
 </div>
 
+_Imagen (N°56). Elaboración propia._
+
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 <div align="center">
   <img src="assets/Chapter-2/db-iam-context.png" alt="db-diagram"/>
 </div>
+
+_Imagen (N°57). Elaboración propia._
+
 
 ### 2.6.3. Bounded Context: Inventory Context
 ### 2.6.3.1. Domain Layer  
@@ -2243,6 +2416,8 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/c4-component-inventory.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°58). Elaboración propia. Realizado en Structurizr_
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2253,17 +2428,24 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/class-inventory-domain-model.png" alt="class-container"/>
 </div>
 
+_Imagen (N°59). Elaboración propia._
+
 ###### Domain: Services
 
 <div align="center">
   <img src="assets/Chapter-2/class-inventory-domain-services.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°60). Elaboración propia._
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 <div align="center">
   <img src="assets/Chapter-2/db-inventory.png" alt="db-diagram"/>
 </div>
+
+_Imagen (N°61). Elaboración propia._
+
 
 ### 2.6.4.1. Domain Layer  
 
@@ -2364,6 +2546,9 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/c4-component-productmanagement.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°62). Elaboración propia. Realizado en Structurizr_
+
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2372,17 +2557,25 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/db-products.png" alt="db-diagram"/>
 </div>
 
+_Imagen (N°63). Elaboración propia._
+
+
 ###### Domain: Model
 
 <div align="center">
   <img src="assets/Chapter-2/class-productmanagement-domain-model.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°64). Elaboración propia._
+
+
 ###### Domain: Services
 
 <div align="center">
   <img src="assets/Chapter-2/class-productmanagement-domain-services.png" alt="c4-container"/>
 </div>
+
+_Imagen (N°65). Elaboración propia._
 
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
@@ -2459,6 +2652,9 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/c4-component-reports.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°66). Elaboración propia. Realizado en Structurizr_
+
+
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2469,17 +2665,25 @@ El Bounded Context Canvas es una herramienta visual del Domain-Driven Design (DD
   <img src="assets/Chapter-2/class-reports-domain-model.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°67). Elaboración propia._
+
+
 ###### Domain: Services
 
 <div align="center">
   <img src="assets/Chapter-2/class-reports-domain-services.png" alt="c4-container"/>
 </div>
 
+_Imagen (N°68). Elaboración propia._
+
+
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 <div align="center">
   <img src="assets/Chapter-2/db-reports.png" alt="db-diagram"/>
 </div>
+
+_Imagen (N°69). Elaboración propia._
 
 
 # Capítulo III: Solution UI/UX Design
@@ -2765,7 +2969,7 @@ El prototipado de la landing page cuenta diversas secciones:
 <center> <img src="assets/Chapter-3/Wireframe-Desktop.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 70). Elaboración propia. Realizado en Figma*
 
 **Wireframe Mobile**
 
@@ -2774,14 +2978,14 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 <center> <img src="assets/Chapter-3/Wireframe - Mobile.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 71). Elaboración propia. Realizado en Figma*
 
 #### 3.1.3.2. Landing Page Mock-up
 **Wireframe Desktop**
 <center> <img src="assets/Chapter-3/Mockup-Desktop.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 72). Elaboración propia. Realizado en Figma*
 
 **Wireframe Mobile**
 
@@ -2790,7 +2994,7 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 <center> <img src="assets/Chapter-3/Mockup - Mobile.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 74). Elaboración propia. Realizado en Figma*
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
@@ -2803,7 +3007,7 @@ La siguiente imagen evidencia el wireframe de la sección de “inicio de sesió
 <center> <img src="assets/Chapter-3/Inicio de sesión.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 75). Elaboración propia. Realizado en Figma*
 
 **Crear cuenta**
 
@@ -2812,7 +3016,7 @@ La siguiente imagen presenta la sección de “registro de usuario”, a través
 <center> <img src="assets/Chapter-3/Registro.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 76). Elaboración propia. Realizado en Figma*
 
 **Elegir plan de pago**
 
@@ -2821,7 +3025,7 @@ La siguiente imagen presenta la sección “Elegir plan de pago”, la cual desp
 <center> <img src="assets/Chapter-3/Seleccionar plan.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 77). Elaboración propia. Realizado en Figma*
 
 **Pasarela de pagos**
 
@@ -2830,7 +3034,7 @@ La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los 
 <center> <img src="assets/Chapter-3/Pago.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 78). Elaboración propia. Realizado en Figma*
 
 **Mi perfil**
 
@@ -2843,12 +3047,12 @@ En este perfil, el usuario puede ver a la derecha sus herramientas correpondient
 <center> <img src="assets/Chapter-3/Perfil.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 79). Elaboración propia. Realizado en Figma*
 
 <center> <img src="assets/Chapter-3/Perfil (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 80). Elaboración propia. Realizado en Figma*
 
 **Panel de control (Dashboard)**
 
@@ -2869,7 +3073,7 @@ Esta pantalla representa el panel de control principal del sistema StockWise. Su
 <center> <img src="assets/Chapter-3/Dashboard.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 81). Elaboración propia. Realizado en Figma*
 
 **Combinación de Productos en Kits**
 
@@ -2885,7 +3089,7 @@ Esta funcionalidad mejora la gestión del stock agrupado y permite optimizar est
 <center> <img src="assets/Chapter-3/Combinar Producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 82). Elaboración propia. Realizado en Figma*
 
 **Agregar Producto**
 
@@ -2902,7 +3106,7 @@ Esta pantalla permite visualizar todos los productos actualmente registrados en 
 <center> <img src="assets/Chapter-3/Agregar Producto (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 83). Elaboración propia. Realizado en Figma*
 
 **Registro de Nuevo Producto**
 
@@ -2920,7 +3124,7 @@ Una vez completado el formulario, se debe presionar "Guardar" para registrar el 
 <center> <img src="assets/Chapter-3/Agregar Producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 84). Elaboración propia. Realizado en Figma*
 
 *Edición Rápida de Producto*
 
@@ -2936,7 +3140,7 @@ Incluye botones para “Duplicar” (crear una copia rápida del producto) y “
 <center> <img src="assets/Chapter-3/Agregar Producto (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 85). Elaboración propia. Realizado en Figma*
 
 **Historial de Movimientos**
 
@@ -2958,7 +3162,7 @@ Esta vista permite al usuario consultar todos los movimientos registrados en el 
 <center> <img src="assets/Chapter-3/Historial.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 86). Elaboración propia. Realizado en Figma*
 
 *Confirmación de Eliminación*
 
@@ -2967,7 +3171,7 @@ Al presionar el botón de eliminar, se despliega una ventana emergente de confir
 <center> <img src="assets/Chapter-3/Historial Eliminar.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 87). Elaboración propia. Realizado en Figma*
 
 **Ticket Promedio**   
 
@@ -2986,7 +3190,7 @@ Al seleccionar “Stock Promedio” como tipo de gestión, se habilita el acceso
 <center> <img src="assets/Chapter-3/Historial Ticket Promedio.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 88). Elaboración propia. Realizado en Figma*
 
 **Pantalla principal de Inventario por Lote**
 
@@ -3010,14 +3214,14 @@ Esta pantalla permite la visualización y gestión del inventario agrupado por l
 <center> <img src="assets/Chapter-3/Inventario por lote.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 89). Elaboración propia. Realizado en Figma*
 
 *Busqueda Avanzada* 
 
 <center> <img src="assets/Chapter-3/Inventario por lote (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 90). Elaboración propia. Realizado en Figma*
 
 *Pantalla de Comentarios del Lote* 
 
@@ -3032,7 +3236,7 @@ Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar not
 <center> <img src="assets/Chapter-3/Inventario por lote (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 91). Elaboración propia. Realizado en Figma*
 
 *Pantalla de Exportación*
 
@@ -3041,7 +3245,7 @@ Permite obtener un respaldo o trabajar fuera del sistema con los datos del inven
 <center> <img src="assets/Chapter-3/Inventario expor.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 91). Elaboración propia. Realizado en Figma*
 
 **Pantalla de Inventario por Producto**
 
@@ -3065,7 +3269,7 @@ Visualización clara de todos los productos del inventario, con opción de filtr
 <center> <img src="assets/Chapter-3/Inventario por producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 92). Elaboración propia. Realizado en Figma*
 
 *Edición de Registro*
 
@@ -3078,7 +3282,7 @@ Facilita la actualización de datos en tiempo real, permitiendo mantener el inve
 <center> <img src="assets/Chapter-3/Inventario por producto (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 93). Elaboración propia. Realizado en Figma* 
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 Los Mobile Applications Wireflow Diagrams son una combinación de wireframes y flujos de usuario (user flows) que ilustran no solo la estructura y disposición de las pantallas de una Mobile Application, sino también cómo los usuarios navegarán entre ellas. Estos diagramas proporcionan una visión detallada del recorrido del usuario, mostrando las interacciones clave y las transiciones de una pantalla a otra dentro de la aplicación.
@@ -3098,7 +3302,7 @@ El usuario desea crear una nueva cuenta para comenzar a usar la plataforma y vin
 <center> <img src="assets/Chapter-3/user goal Registrar.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 94). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Iniciar sesión**
 
@@ -3119,7 +3323,7 @@ El usuario accede al sistema mediante sus credenciales y se dirige a su panel pr
 <center> <img src="assets/Chapter-3/user goal Iniciar sesion.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 95). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Navegar por el Dashboard**
 
@@ -3134,7 +3338,7 @@ El usuario explora la vista principal para acceder a las herramientas clave del 
 <center> <img src="assets/Chapter-3/user goal Navegador por el dashboard.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 96). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Inventario (Producto / Lote)**
 
@@ -3146,7 +3350,7 @@ El usuario explora la vista principal para acceder a las herramientas clave del 
 <center> <img src="assets/Chapter-3/user goal Inventario.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 97). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
@@ -3164,7 +3368,7 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 <center> <img src="assets/Chapter-3/user goal Botones principales.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma*
+*Imagen (N° 98). Elaboración propia. Realizado en Figma*
 
 **User Goal: Historial de Movimientos**
 
@@ -3180,7 +3384,7 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 <center> <img src="assets/Chapter-3/user goal Historial .png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 99). Elaboración propia. Realizado en Figma* 
 
 
 #### 3.1.4.3. Mobile Applications Mock-ups
@@ -3189,121 +3393,121 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 <center> <img src="assets/Chapter-3/Inicio de sesión (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 100). Elaboración propia. Realizado en Figma* 
 
 **Crear cuenta**
 <center> <img src="assets/Chapter-3/Registro (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 101). Elaboración propia. Realizado en Figma* 
 
 **Elegir plan de pago**
 <center> <img src="assets/Chapter-3/Seleccionar plan (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 102). Elaboración propia. Realizado en Figma* 
 
 **Pasarela de pagos**
 <center> <img src="assets/Chapter-3/Pago (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 103). Elaboración propia. Realizado en Figma* 
 
 **Mi perfil**
 *Perfil Administrador*
 <center> <img src="assets/Chapter-3/Perfil (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 104). Elaboración propia. Realizado en Figma* 
 
 <center> <img src="assets/Chapter-3/Perfil ajustes.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 105). Elaboración propia. Realizado en Figma* 
 
 **Panel de control (Dashboard)**
 <center> <img src="assets/Chapter-3/Dashboard (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 106). Elaboración propia. Realizado en Figma* 
 
 **Combinación de Productos en Kits**
 <center> <img src="assets/Chapter-3/Combinar producto (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 107). Elaboración propia. Realizado en Figma* 
 
 **Agregar Producto**
 <center> <img src="assets/Chapter-3/Agregar Producto (3).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 108). Elaboración propia. Realizado en Figma* 
 
 **Registro de Nuevo Producto**
 <center> <img src="assets/Chapter-3/Registro Prodcuto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 109). Elaboración propia. Realizado en Figma* 
 
 *Edición Rápida de Producto*
 <center> <img src="assets/Chapter-3/Edicion Producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 110). Elaboración propia. Realizado en Figma* 
 
 **Historial de Movimientos**
 <center> <img src="assets/Chapter-3/Historial (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 111). Elaboración propia. Realizado en Figma* 
 
 *Confirmación de Eliminación*
 <center> <img src="assets/Chapter-3/Historial Eliminar (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 112). Elaboración propia. Realizado en Figma* 
 
 **Ticket Promedio**  
 <center> <img src="assets/Chapter-3/Historial Ticket Promedio (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 113). Elaboración propia. Realizado en Figma* 
 
 **Pantalla principal de Inventario por Lote**
 <center> <img src="assets/Chapter-3/Inventario.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 114). Elaboración propia. Realizado en Figma* 
 
 *Busqueda Avanzada*
 <center> <img src="assets/Chapter-3/Inventario Busqueda.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 115). Elaboración propia. Realizado en Figma* 
 
 *Pantalla de Comentarios del Lote* 
 <center> <img src="assets/Chapter-3/Inventario Comentario.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 116). Elaboración propia. Realizado en Figma* 
 
 *Pantalla de Exportación*
 <center> <img src="assets/Chapter-3/Inventario Expo.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 117). Elaboración propia. Realizado en Figma* 
 
 **Pantalla de Inventario por Producto**
 <center> <img src="assets/Chapter-3/Inventario por producto (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 118). Elaboración propia. Realizado en Figma* 
 
 *Edición de Registro*
 <center> <img src="assets/Chapter-3/Inventario por producto edi.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 119). Elaboración propia. Realizado en Figma* 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -3312,42 +3516,42 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 <center> <img src="assets/Chapter-3/Color user goal Registrar.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 120). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Iniciar sesión**
 
 <center> <img src="assets/Chapter-3/Color user goal Iniciar sesion.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 121). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Navegar por el Dashboard**
 
 <center> <img src="assets/Chapter-3/Color user goal Navegador.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 122). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Inventario (Producto / Lote)**
 
 <center> <img src="assets/Chapter-3/Color user goal Inventario .png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 123). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
 <center> <img src="assets/Chapter-3/Color user goal Botones principales .png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 124). Elaboración propia. Realizado en Figma* 
 
 **User Goal: Historial de Movimientos**
 
 <center> <img src="assets/Chapter-3/Color user goal Historial .png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N°). Elaboración propia. Realizado en Figma* 
+*Imagen (N° 125). Elaboración propia. Realizado en Figma* 
 
 #### 3.1.4.5. Mobile Applications Prototyping
 El apartado de Mobile Application Prototyping muestra el primer acercamiento visual e interactivo al diseño de la aplicación. A través del uso de herramientas de prototipado, se crean representaciones dinámicas que permiten simular la navegación, disposición de módulos y flujos de interacción del usuario antes de pasar a la fase de desarrollo.
