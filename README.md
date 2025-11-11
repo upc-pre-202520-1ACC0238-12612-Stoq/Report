@@ -1,12 +1,9 @@
-<h1 align="center">COURSE PROJECT</h1>
-
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="200">
 </p>
 
 <h2 align="center">Universidad Peruana de Ciencias Aplicadas</h2>
 <h3 align="center">Ingeniería de Software</h3>
-
 
 <p align="center">
     Periodo: 202520 <br>
@@ -18,13 +15,13 @@
 <hr>
 
 <div align="center">
-    <h5><strong>Informe del Trabajo Parcial</strong></h5>
+    <h5><strong>Informe del Trabajo Final</strong></h5>
     Startup: Stoq <br>
     Producto: StockWise <br>
 </div>
 
 <div align="center">
-    <h5><strong>Integrantes del Equipo</strong></h5>
+    <h5><strong>Integrantes</strong></h5>
     <p>
         U20221g068 – Almerco Rojas, Jocelyn Damaly <br>
         U202313655 – Chi Cruzatt, Kevin Jorge <br>
@@ -32,7 +29,7 @@
         U201719449 – Paucar Meneses, Jeremy Alion <br>
         U202210973 – Sanchez Rios, Camila Cristina <br>
     </p>
-    <p><em>Octubre, 2025</em></p>
+    <p><em>Noviembre, 2025</em></p>
 </div>
 
 <br>
@@ -68,9 +65,9 @@
                   <li>Avance de Conclusiones, Bibliografía y Anexos</li>
                 </ul>
               </td>
-           </tr>
+            </tr>
             <tr>
-                <th>TP</th>
+                <th>TP1</th>
                 <td>10/10/2025</td>
                 <td>
                     <ul>
@@ -89,9 +86,51 @@
                 </ul>
               </td>
            </tr>
+           <tr>
+                <th>TB2</th>
+                <td>12/11/2025</td>
+                <td>
+                    <ul>
+                      <li>Jocelyn Almerco</li>
+                      <li>Camila Sanchez</li>
+                      <li>Kevin Chi</li>
+                      <li>Alejandro Oroncoy </li>
+                      <li>Jeremy Paucar</li>
+                    <ul>
+                </td>
+                 <td>
+                  <ul>
+                    <li>Se han incluído las mejoras indicadas por el docente de la entrega anterior.</li>
+                    <li>Desplegado el Landing Page</li>
+                    <li>Desplegado al 100% el backend</li>
+                    <li>Capítulo IV: Product Implementation & Validation</li>
+                    <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+                  </ul>
+              </td>
+           </tr>
+           <tr>
+                <th>TF1</th>
+                <td> </td>
+                <td>
+                  <ul>
+                    <li>Jocelyn Almerco</li>
+                    <li>Camila Sanchez</li>
+                    <li>Kevin Chi</li>
+                    <li>Alejandro Oroncoy </li>
+                    <li>Jeremy Paucar</li>
+                  <ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Desplegado el Landing Page</li>
+                    <li>Desplegado al 100% el backend</li>
+                    <li>Capítulo IV: Product Implementation & Validation</li>
+                    <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+                  </ul>
+                </td>
+           </tr>
         </tbody>
 </table>
-
 
 # Project Report Collaboration Insights
 
@@ -105,14 +144,18 @@
 
 <br>
 
-[Link de repositorio del reporte:](https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Report): https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Report
+**Enlace del repositorio del informe: https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Report**
+
+**Enlace de los repositorios de la organización: https://github.com/orgs/upc-pre-202520-1ACC0238-12612-Stoq/repositories**
 
 # Contenido
+
 [Student Outcome](#student-outcome)
 
 [Objetivos SMART](#Objetivos-SMART)
 
 [Capítulo I: Presentación](#capítulo-i-Presentación)
+
 - [1.1. Startup Profile](#11-startup-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -126,6 +169,7 @@
 - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
+
 - [COURSE PROJECT](#course-project)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -242,20 +286,16 @@
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
     - [3.1.2. Information Architecture](#312-information-architecture)
       - [3.1.2.1. Organization Systems](#3121-organization-systems)
-- [3.1.2.1. Organization Systems](#3121-organization-systems-1)
-      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
-      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
-      - [3.1.2.4. Searching Systems](#3124-searching-systems)
-      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
-    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
-      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
-      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
-    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
-      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
-      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
-      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
-      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
-      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [3.1.2.1. Organization Systems](#3121-organization-systems-1) - [3.1.2.2. Labelling Systems](#3122-labelling-systems) - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags) - [3.1.2.4. Searching Systems](#3124-searching-systems) - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+  - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+    - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+    - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+  - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+    - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+    - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+    - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+    - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+    - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
   - [4. Product Implementation \& Validation](#4-product-implementation--validation)
     - [4.1. Software Configuration Management](#41-software-configuration-management)
@@ -316,9 +356,8 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
-
 # Student Outcome
+
 ABET - EAC - Student Outcome 7
 
 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
@@ -348,16 +387,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TP1:</b></p>
         <p>Realice las correciones del capitulo 2, pantallas de inventario en móviles en Android Studio</p>
         <p><b>TB2:</b></p>
-        <p>.</p>
-        <p><b>TF:</b></p>
-        <p>.</p>
-        <p><b>Camila Sanchez Rios</b></p>
-       <p><b>TB1:</b></p>
-        <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
-        <p><b>TP1:</b></p>
-        <p>Avance del capítulo 3 y colaboración del Capitulo 4, creación de pantallas IAM en móviles en Android Studio</p>
-        <p><b>TB2:</b></p>
-        <p></p>
+        <p>Corregí el reporte del proyecto e investigué la implementación del Plan D - Escaneo por lotes con cámara rápida, aprendiendo sobre visión computacional con Google ML Kit.</p>
         <p><b>TF:</b></p>
         <p>.</p>
         <p><b>Kevin Chi</b></p>
@@ -367,28 +397,37 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TP1:</b></p>
         <p>Coordinación del grupo, correción del capitulo 1, creación de pantallas productos en móviles en Android Studio y colaboración en la presentación</p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>Puse en práctica mis conocimientos en diseño de interfaces creando las pantallas de inventario, producto, historial y combo. Además, avancé con el Plan A (Entrada por voz, integrando comandos para registrar productos de forma más rápida).</p>
         <p><b>TF:</b></p>
         <p><b>Alejandro Oroncoy</b></p>
         <p><b></b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p>Mejoré mis conocimientos aplicando el Tactical DDD y organizando el dominio del proyecto de una manera más clara.</p>
         <p><b>TP1:</b></p>
         <p>Corrección del backend, avance capitulo 4 y pantallas de inventario en móviles en Android Studio</p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>Avancé con el Plan C - Localización y predicción inteligente, aplicando conceptos de IA y análisis de patrones para mejorar el control de stock en el sistema.</p>
         <p><b>TF:</b></p>
         <p></p>
         <p><b>Jeremy Paucar</b></p>
         <p><b></b></p>
-       <p><b>TB1:</b></p>         
+        <p><b>TB1:</b></p>         
         <p> Aprendí nuevas formas de mapear el flujo de eventos y actualicé mi conocimiento aplicando EventStorming en el proyecto.</p>
         <p><b>TP1:</b></p>
         <p>Corrección del backend y despliegue, pantallas de productos en móviles en Android Studio</p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>Corregí el backend e investigué la implementación del Plan B - Geolocalización (GPS), reforzando mis conocimientos sobre servicios REST y sincronización de coordenadas</p>
         <p><b>TF:</b></p>
         <p></p>
+        <p><b>Camila Sanchez Rios</b></p>
+        <p><b>TB1:</b></p>
+        <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
+        <p><b>TP1:</b></p>
+        <p>Avance del capítulo 3 y colaboración del Capitulo 4, creación de pantallas IAM en móviles en Android Studio</p>
+        <p><b>TB2:</b></p>
+        <p>Diseñé las pantallas del perfil e investigué la implementación del Plan B – Geolocalización (GPS), fortaleciendo mis conocimientos en APIs de ubicación y mapas interactivos.</p>
+        <p><b>TF:</b></p>
+        <p>.</p>
       </td>
       <td>
         <p><strong>TB1:</strong></p>
@@ -396,7 +435,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><strong>TP1:</strong></p>
         <p>Como equipo, logramos identificar áreas clave de conocimiento que debíamos reforzar para llevar a cabo las responsabilidades asignadas. Este proyecto nos motivó a actualizar conceptos relacionados con arquitectura de software, diseño UI/UX, frameworks móviles, integración de servicios backend y despliegue en la nube. Gracias a ello, fortaleceremos nuestras competencias profesionales, ya que este conocimiento será fundamental no solo para completar la aplicación, sino también para abordar proyectos futuros con mayor seguridad técnica y claridad metodológica.</p>
         <p><strong>TB2:</strong></p>
-        <p>..</p>
+        <p>Como grupo fortalecimos nuestros conocimientos al enfocarnos en la investigación y desarrollo de los planes complementarios del proyecto. Analizamos la viabilidad e implementación de funciones como entrada por voz, geolocalización, predicción inteligente y escaneo por visión, aplicando conceptos técnicos actualizados y trabajo colaborativo. Esta etapa nos permitió ampliar nuestra comprensión sobre nuevas tecnologías y su integración en soluciones de software.</p>
         <p><strong>TF:</strong></p>
         <p>..</p>
       </td>
@@ -415,18 +454,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TP1:</b></p>
         <p>Comprendí la importancia del aprendizaje continuo al realizar correcciones del capítulo 2 y desarrollar pantallas móviles de inventario en Android Studio. Reforcé mis conocimientos en diseño UI y validación visual, aplicando mejoras en base al feedback del equipo.</p>
         <p><b>TB2:</b></p>
-        <p>..</p>
+        <p>Al trabajar en el Plan D de escaneo por lotes con cámara rápida, reconocí la necesidad de seguir aprendiendo sobre visión computacional y procesamiento de imágenes con APIs como Google ML Kit.</p>
         <p><b>TF:</b></p>
         <p>..</p>
-        <p><b> Camila Sanchez</b></p>
-       <p><b>TB1:</b></p>
-        <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
-        <p><b>TP1:</b></p>
-        <p>Al participar en el avance del capítulo 3 y colaborar en el capítulo 4, además de crear pantallas IAM en Android Studio, confirmé que la actualización constante en frameworks y diseño móvil es esencial para mi desarrollo profesional.</p>
-        <p><b>TB2:</b></p>
-        <p>...</p>
-        <p><b>TF:</b></p>
-        <p>.</p>
         <p><b>Kevin Chi</b></p>
         <p><b>TB1:</b></p>
         <p>Me di cuenta de que al trabajar con C4 y el diagrama de base de datos necesito seguir aprendiendo sobre cómo representar bien la arquitectura y los datos de un sistema.
@@ -434,16 +464,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TP1:</b></p>
         <p>Durante la coordinación del grupo y la creación de pantallas de productos móviles en Android Studio, reconocí la necesidad de seguir aprendiendo sobre arquitectura de software y buenas prácticas en desarrollo colaborativo.</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>Al diseñar las pantallas de inventario, producto e historial, comprendí que debo seguir aprendiendo sobre interfaces adaptativas y optimización de la experiencia de usuario en Android Studio.</p>
         <p><b>TF:</b></p>
         <p>.</p>
         <p><b>Alejandro Oroncoy</b></p>
-       <p><b>TB1:</b></p>
+        <p><b>TB1:</b></p>
         <p>Comprendí que usar las tácticas de DDD requiere aprendizaje constante de patrones como entidades y agregados para aplicarlos bien en el dominio.</p>
         <p><b>TP1:</b></p>
         <p>Al corregir el backend y avanzar en el capítulo 4, comprendí la importancia del aprendizaje permanente para aplicar correctamente patrones y mejorar la integración entre backend y diseño móvil.</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>Mientras investigaba el Plan C de localización y predicción inteligente, entendí que debo seguir aprendiendo sobre modelos de aprendizaje automático y análisis de patrones de consumo.</p>
         <p><b>TF:</b></p>
         <p>...</p>
         <p><b>Jeremy Paucar</b></p>
@@ -452,67 +482,75 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TP1:</b></p>
         <p>En la corrección y despliegue del backend, así como en el desarrollo de pantallas móviles de productos, entendí que el aprendizaje constante es clave para optimizar procesos técnicos y adaptarme a nuevas herramientas de desarrollo.</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>Al corregir el backend y explorar la integración del GPS, noté que necesito fortalecer mis conocimientos en arquitectura cliente-servidor y manejo de datos en tiempo real.</p>
         <p><b>TF:</b></p>
         <p>...</p>
+        <p><b> Camila Sanchez</b></p>
+        <p><b>TB1:</b></p>
+        <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
+        <p><b>TP1:</b></p>
+        <p>Al participar en el avance del capítulo 3 y colaborar en el capítulo 4, además de crear pantallas IAM en Android Studio, confirmé que la actualización constante en frameworks y diseño móvil es esencial para mi desarrollo profesional.</p>
+        <p><b>TB2:</b></p>
+        <p>Durante la creación del módulo de perfil y la investigación sobre geolocalización, reconocí la importancia de seguir aprendiendo sobre integración de APIs y gestión de permisos en aplicaciones móviles.</p>
+        <p><b>TF:</b></p>
+        <p>.</p>
       </td>
-       <td>
+      <td>
         <p><strong>TB1:</strong></p>
         <p>Es importante contar con la capacidad de trabajar en equipo, ya que permite compartir ideas, resolver problemas juntos y mejorar los resultados del proyecto.</p>
         <p><strong>TP1:</strong></p>
         <p>Durante el desarrollo del proyecto, comprendimos que la ingeniería de software es un campo en constante evolución. La necesidad de aprender nuevas herramientas, frameworks, lenguajes y enfoques fue evidente en cada etapa del trabajo. Como equipo, reconocemos que la mejora continua será indispensable para adaptarnos a los cambios tecnológicos y así poder enfrentar proyectos de mayor complejidad. Esta experiencia nos ha demostrado que el aprendizaje permanente no es una opción, sino una necesidad para mantenernos competitivos y eficientes en nuestra carrera profesional.</p>
         <p><strong>TB2:</strong></p>
-        <p>..</p>
+        <p>Como grupo reconocimos la importancia del aprendizaje continuo para mejorar nuestro desempeño en el desarrollo de soluciones de software. A través de la investigación y avance de los distintos planes (entrada por voz, geolocalización, predicción inteligente y escaneo por visión). Identificamos nuevas áreas en las que debemos seguir aprendiendo, como arquitectura de sistemas, integración de APIs, inteligencia artificial y visión computacional, fortaleciendo así nuestras capacidades para futuros proyectos.</p>
         <p><strong>TF:</strong></p>
         <p>...</p>
       </td>
 </table>
 
-
 # Objetivos SMART
 
 **Jocelyn Damaly Almerco Rojas**
 
-***Objetivo 1:***
+**_Objetivo 1:_**
 Antes del 30/12/2026, habré completado una especialización en Diseño de Interfaces de Usuario (UI/UX), aplicando los conocimientos en un proyecto académico o personal que combine diseño intuitivo y funcionalidad. Para lograrlo, destinaré al menos 5 horas semanales al estudio, finalizaré 3 cursos certificados y diseñaré un prototipo interactivo con Figma o Adobe XD. Consideraré alcanzado el objetivo al obtener la certificación y presentar un portafolio con 2 proyectos funcionales orientados a la experiencia del usuario.
 
-***Objetivo 2:***
+**_Objetivo 2:_**
 Dentro de los dos primeros años posteriores a mi graduación, me habré incorporado a un equipo de desarrollo como Front-End Developer o UX Designer Junior, donde pueda aplicar principios de accesibilidad, usabilidad y diseño centrado en el usuario. Para lograrlo, mantendré actualizado mi portafolio en línea, realizaré al menos 15 postulaciones mensuales y participaré en 2 hackatones o proyectos colaborativos. Consideraré cumplido el objetivo al obtener una oferta laboral formal y completar mi primer proyecto en producción con retroalimentación positiva del equipo y usuarios finales.
 
 **Kevin Chi Cruzatt**
 
-***Objetivo 1:***
+**_Objetivo 1:_**
 Antes del 30/06/2026, obtendré una certificación en Arquitectura de Software con Java y Spring Boot, diseñando una aplicación modular basada en principios de Domain Driven Design (DDD) y CI/CD. Para lograrlo, dedicaré 6 horas semanales al estudio, culminaré 3 cursos especializados y publicaré un repositorio con documentación técnica y métricas de cobertura superiores al 80%. Consideraré logrado el objetivo al aprobar la certificación y desplegar la aplicación en un entorno de prueba funcional.
 
-***Objetivo 2:***
+**_Objetivo 2:_**
 En un plazo máximo de 18 meses después de mi graduación, me habré incorporado a una empresa tecnológica como Backend Developer o Software Engineer, participando en la construcción de servicios escalables y mantenibles. Para alcanzarlo, enviaré 20 postulaciones mensuales, mantendré mi portafolio con al menos 3 proyectos técnicos y realizaré una entrevista simulada quincenal. Consideraré cumplido el objetivo al recibir una oferta laboral y completar una funcionalidad de backend validada en producción.
 
 **Alejandro Oroncoy Almeyda**
 
-***Objetivo 1:***
+**_Objetivo 1:_**
 Durante el primer año tras mi graduación, habré desarrollado un portafolio técnico con al menos 4 proyectos completos en distintas áreas del desarrollo de software (backend, frontend y bases de datos). Para lograrlo, destinaré 6 horas semanales al aprendizaje y práctica, completaré 3 cursos en línea y documentaré los proyectos con pruebas unitarias y despliegue en la nube. Consideraré alcanzado el objetivo al tener el portafolio publicado y revisado por mentores o pares profesionales.
 
-***Objetivo 2:***
+**_Objetivo 2:_**
 En un plazo máximo de dos años después de graduarme, obtendré mi primer empleo formal en el área de Desarrollo de Software, participando en proyectos colaborativos que fortalezcan mis habilidades de trabajo en equipo y resolución de problemas. Para lograrlo, realizaré 15 postulaciones mensuales, asistiré a 2 ferias laborales o eventos de tecnología al año y mantendré mi perfil de LinkedIn activo y actualizado. Consideraré el objetivo cumplido al firmar mi primer contrato y haber completado al menos una entrega de producto en producción., eso pegalo en smart please, cami eso podrías ponerlo en el GitHub please
 
 **Jeremy Paucar Meneses**
 
-***Objetivo 1:***
+**_Objetivo 1:_**
 Antes del 31/07/2026, habré obtenido una certificación en Desarrollo Full Stack con JavaScript (Node.js y Vue.js), implementando un proyecto completo que integre backend, frontend y base de datos. Para conseguirlo, estudiaré 6 horas semanales, culminaré 3 cursos especializados y desarrollaré una aplicación funcional desplegada en la nube. Consideraré cumplido el objetivo al aprobar la certificación y publicar la aplicación con documentación técnica en un repositorio Git.
 
-***Objetivo 2:***
+**_Objetivo 2:_**
 En un plazo máximo de 18 meses después de graduarme, habré conseguido mi primer puesto como Software Developer Junior, participando en el desarrollo de módulos o microservicios en un entorno productivo. Para alcanzarlo, realizaré 20 postulaciones mensuales, practicaré algoritmos 2 veces por semana y participaré en al menos 1 proyecto colaborativo o open source. Consideraré logrado el objetivo al obtener una oferta de trabajo estable y contribuir con al menos 1 entrega de código validada por revisión de pares (code review).
 
 **Camila Sánchez Ríos**
 
-***Objetivo 1:***
+**_Objetivo 1:_**
 Antes del 31/12/2026, habré completado un diplomado en Calidad de Software y Pruebas Automatizadas, certificándome en herramientas como Selenium o Postman. Para ello, dedicaré 5 horas semanales al estudio, aprobaré al menos 3 cursos especializados y diseñaré un conjunto de pruebas automatizadas para un sistema real o académico. Consideraré alcanzado el objetivo al obtener la certificación y entregar un informe técnico con métricas de cobertura y defectos detectados.
 
-***Objetivo 2:***
+**_Objetivo 2:_**
 Dentro de los dos años posteriores a mi graduación, habré logrado un puesto en el área de Aseguramiento de Calidad (QA Engineer) o Analista de Pruebas de Software, participando activamente en el ciclo de vida de pruebas de un producto digital. Para lograrlo, realizaré 10 postulaciones mensuales, asistiré a 2 conferencias técnicas de QA y mantendré un registro de mejoras continuas en metodologías ágiles. Consideraré el objetivo cumplido al obtener una oferta formal y participar en al menos una liberación exitosa de software con métricas de defectos bajo el 2%.
 
-
 # Capítulo I: Presentación
+
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
@@ -526,6 +564,7 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
 - **Plan B – Geolocalización (GPS):** Integra funciones de ubicación para optimizar la trazabilidad y distribución de productos, permitiendo identificar su procedencia, registrar puntos de entrega y visualizar en un mapa interactivo las distintas sedes o sucursales vinculadas a la tienda principal.
 
 - **Plan C – Localización y predicción inteligente:**
+
   - Localiza: Utiliza un mapa interactivo con integración de códigos QR para ubicar productos dentro del almacén de manera precisa.
   - Predice: Implementa un sistema de reabastecimiento inteligente basado en patrones de ventas, que sugiere cuándo y cuánto stock reponer para evitar quiebres de inventario.
 
@@ -601,40 +640,44 @@ La solución responde a una problemática concreta: muchos negocios aún utiliza
 <br>
 
 ## 1.2. Solution Profile
+
 ### 1.2.1 Antecedentes y problemática
 
 - **Who (¿Quiénes?)**<br>
-Emprendedores, startups y pequeñas/medianas empresas con bodegas físicas que almacenan productos de distintos rubros como ropa, calzado, electrodomésticos, ferretería o alimentos. 
+  Emprendedores, startups y pequeñas/medianas empresas con bodegas físicas que almacenan productos de distintos rubros como ropa, calzado, electrodomésticos, ferretería o alimentos.
 
 - **What (¿Qué sucede?)**<br>
-A medida que sus negocios escalan, la gestión manual del inventario con hojas de cálculo o registros físicos se vuelve ineficiente, generando pérdidas, errores, quiebres de stock, sobrecompras y desorden logístico.
+  A medida que sus negocios escalan, la gestión manual del inventario con hojas de cálculo o registros físicos se vuelve ineficiente, generando pérdidas, errores, quiebres de stock, sobrecompras y desorden logístico.
 
 - **When (¿Cuándo ocurre?)**<br>
-En el momento en que el negocio empieza a crecer, aumentar su variedad de productos o abrir múltiples canales de venta, como tiendas físicas y plataformas online.
+  En el momento en que el negocio empieza a crecer, aumentar su variedad de productos o abrir múltiples canales de venta, como tiendas físicas y plataformas online.
 
 - **Where (¿Dónde ocurre?)**<br>
-En bodegas físicas propias, espacios alquilados o incluso en el hogar del emprendedor, especialmente en etapas tempranas o de expansión del negocio.
+  En bodegas físicas propias, espacios alquilados o incluso en el hogar del emprendedor, especialmente en etapas tempranas o de expansión del negocio.
 
 - **Why (¿Por qué es un problema?)**<br>
-La falta de un sistema centralizado y en tiempo real impide tomar decisiones estratégicas basadas en datos. Esto afecta la planificación de compras, genera pérdidas económicas, y daña la experiencia del cliente final.
+  La falta de un sistema centralizado y en tiempo real impide tomar decisiones estratégicas basadas en datos. Esto afecta la planificación de compras, genera pérdidas económicas, y daña la experiencia del cliente final.
 
 - **How (¿Cómo lo solucionan hoy?)**<br>
-Mediante herramientas manuales como cuaderno o hojas de papel, inventarios escritos o software no especializado, que resultan limitados, propensos a errores y poco escalables.
+  Mediante herramientas manuales como cuaderno o hojas de papel, inventarios escritos o software no especializado, que resultan limitados, propensos a errores y poco escalables.
 
 - **How much (¿Cuánto cuesta no resolverlo?)**<br>
-El costo se traduce en pérdidas económicas significativas por productos no vendidos, errores de stock, tiempo invertido en tareas manuales y menor competitividad frente a negocios más organizados.
+  El costo se traduce en pérdidas económicas significativas por productos no vendidos, errores de stock, tiempo invertido en tareas manuales y menor competitividad frente a negocios más organizados.
 
 ### 1.2.2 Lean UX Process
+
 #### 1.2.2.1. Lean UX Problem Statements
+
 El propósito de StockWise es proporcionar una aplicación intuitiva y accesible para que empresas pequeñas y medianas, startups y bodegas especializadas puedan gestionar su inventario de forma eficiente, digitalizada y sin complicaciones técnicas ni altos costos.
 
-Actualmente, muchos de estos negocios aún dependen de métodos manuales  para registrar y controlar su stock. Este enfoque genera errores frecuentes, tales como registros incorrectos, desactualización en tiempo real o pérdidas de productos. Como resultado, se producen compras innecesarias, falta de trazabilidad, escasa visibilidad sobre los niveles de inventario y una gestión logística ineficiente. Según un estudio de NetSuite (2024), el promedio de precisión de inventario en empresas es de aproximadamente 83 %, lo que refleja un margen de error significativo que afecta los costos operativos y la toma de decisiones.
+Actualmente, muchos de estos negocios aún dependen de métodos manuales para registrar y controlar su stock. Este enfoque genera errores frecuentes, tales como registros incorrectos, desactualización en tiempo real o pérdidas de productos. Como resultado, se producen compras innecesarias, falta de trazabilidad, escasa visibilidad sobre los niveles de inventario y una gestión logística ineficiente. Según un estudio de NetSuite (2024), el promedio de precisión de inventario en empresas es de aproximadamente 83 %, lo que refleja un margen de error significativo que afecta los costos operativos y la toma de decisiones.
 
 Diversas investigaciones sostienen que una gestión ineficiente del inventario repercute directamente en la productividad empresarial, la satisfacción del cliente y la rentabilidad general del negocio, además de generar sobrecostos en almacenamiento y desperdicio de recursos (Altavant Consulting, 2024; Arce-Gonzales & Sandoval, 2023). A medida que estas empresas escalan, el desorden operativo se vuelve insostenible, reduciendo su capacidad de respuesta ante la demanda y su competitividad en el mercado.
 
 Por lo tanto, surge la necesidad de diseñar una aplicación de gestión de inventarios que sea simple, funcional y adaptable, capaz de atender las necesidades reales de las pymes en crecimiento. Esta herramienta debe facilitar el control exacto del inventario, reducir errores humanos, mejorar la trazabilidad y proporcionar información en tiempo real para respaldar decisiones basadas en datos.
 
 #### 1.2.2.2. Lean UX Assumptions
+
 **Business Assumptions:**
 
 1. Creemos que los negocios emergentes necesitan digitalizar su gestión de inventarios a través de una solución móvil accesible.
@@ -660,8 +703,8 @@ Por lo tanto, surge la necesidad de diseñar una aplicación de gestión de inve
 11. Mitigaremos este riesgo realizando pruebas de usabilidad móvil con usuarios reales, iteraciones rápidas basadas en feedback y una estrategia de onboarding dentro de la app que guíe al usuario paso a paso.
 
 **User Assumptions:**</br>
+
 - **¿Quién es el usuario?** Dueños de negocios, encargados de bodegas o logística en pymes/startups que necesitan gestionar inventarios de forma remota.
-  
 - **¿Qué problemas busca resolver nuestro producto?** La falta de control inmediato del stock, los errores por registros manuales en papel, los sobrecostos por pérdidas y las ventas fallidas debido a quiebres de stock inesperados.
 
 - **¿Qué características son importantes?** Un registro rápido de productos (por voz, cámara o manual), un historial de movimientos accesible, alertas push personalizables, reportes visuales simplificados y la generación de boletas de venta directamente desde el dispositivo móvil.
@@ -700,18 +743,20 @@ Cuando los usuarios reduzcan en 40% el tiempo dedicado a control manual de stock
 
 **Hipótesis 5:** Creemos que la generación digital de boletas de venta resolverá los errores de facturación y la desorganización financiera que afecta el flujo de caja de las pymes.  
 Sabremos que tenemos razón  
-Cuando los usuarios reporten una reducción del 50% en errores de facturación y mejoren en 35% la precisión de su control de ingresos diarios.  
+Cuando los usuarios reporten una reducción del 50% en errores de facturación y mejoren en 35% la precisión de su control de ingresos diarios.
 
 #### 1.2.2.4. Lean UX Canvas
 
  <img src="assets/Chapter-1/Lean Ux canvas.png" alt="Lean Ux canvas" width="800px">
 
- *Imagen (N°1). Elaboración propia. Realizado en Canva*
+_Imagen (N°1). Elaboración propia. Realizado en Canva_
 
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
+
 ### 2.1.1. Análisis competitivo
+
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
     <th colspan="5">
@@ -1374,6 +1419,7 @@ _Imagen (N°7). Elaboración propia. Realizado en UXPressia_
 <br> <!-- Esto agrega espacio visual en algunas plataformas -->
 
 ### 2.3.5. Ubiquitous Language
+
 El siguiente glosario presenta los términos clave utilizados a lo largo del desarrollo del proyecto StockWise. Este lenguaje común busca asegurar que todos los miembros del equipo (tanto técnicos como no ténicos) compartan una compresnión unificada de los conceptos centrales del sistema, facilitando así la comunicación y el diseño colaborativo.
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -1523,7 +1569,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 
 <br>
 
-
 <!-- US10 -->
 <img src="assets/Chapter-2/US10.png" alt="User persona - segmento 1" width="600"/>
 
@@ -1568,7 +1613,6 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 <img src="assets/Chapter-2/US18.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
-
 
 <!-- US19 -->
 <img src="assets/Chapter-2/US19.png" alt="User persona - segmento 1" width="600"/>
@@ -1630,32 +1674,28 @@ Las User Stories son clave en metodologías ágiles porque traducen los requisit
 
 <br>
 
-### No funcionales
-
-En esta sección se presentan las historias de usuario no funcionales, las cuales describen los atributos de calidad, restricciones y condiciones que el sistema debe cumplir para garantizar su correcto desempeño.
-
-<!-- NF01 -->
-<img src="assets/Chapter-2/NF01.png" alt="User persona - segmento 1" width="600"/>
+<!-- US31 -->
+<img src="assets/Chapter-2/US31.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- NF02 -->
-<img src="assets/Chapter-2/NF02.png" alt="User persona - segmento 1" width="600"/>
+<!-- US32 -->
+<img src="assets/Chapter-2/US32.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- NF03 -->
-<img src="assets/Chapter-2/NF03.png" alt="User persona - segmento 1" width="600"/>
+<!-- US33 -->
+<img src="assets/Chapter-2/US33.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- NF04 -->
-<img src="assets/Chapter-2/NF04.png" alt="User persona - segmento 1" width="600"/>
+<!-- US34 -->
+<img src="assets/Chapter-2/US34.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
-<!-- NF05 -->
-<img src="assets/Chapter-2/NF05.png" alt="User persona - segmento 1" width="600"/>
+<!-- US35 -->
+<img src="assets/Chapter-2/US35.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
 
@@ -1743,9 +1783,7 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 
 <br>
 
-
 ### Spike Story
-
 
 <!-- SPK01 -->
 <img src="assets/Chapter-2/SPK01.png" alt="User persona - segmento 1" width="600"/>
@@ -1771,7 +1809,6 @@ En esta sección se describen las historias técnicas que desarrollamos para imp
 <img src="assets/Chapter-2/SPK05.png" alt="User persona - segmento 1" width="600"/>
 
 <br>
-
 
 ### 2.4.2. Impact Mapping
 
@@ -1834,8 +1871,8 @@ _Imagen (N°9). Elaboración propia. Realizado en UXPRESSIA_
     <tr><td>33</td><td>SPK04</td><td>	Configurar predicción de reabastecimiento</td><td>3</td></tr>
     <tr><td>34</td><td>TS07</td><td>Generar API Registro de inventario</td><td>3</td></tr>
     <tr><td>35</td><td>US30</td><td>Escanear por lotes con cámara rápida</td><td>3</td></tr>
-    <tr><td>36</td><td>NF02</td><td>Optimizar tiempos de respuesta</td><td>3</td></tr>
-    <tr><td>37</td><td>NF05</td><td>Alertas en tiempo reals</td><td>3</td></tr>
+    <tr><td>36</td><td>US32</td><td>Optimizar tiempos de respuesta</td><td>3</td></tr>
+    <tr><td>37</td><td>US35</td><td>Alertas en tiempo reals</td><td>3</td></tr>
     <tr><td>38</td><td>TS14</td><td>Generar API Consulta de alertas</td><td>3</td></tr>
     <tr><td>39</td><td>US24</td><td>Visualizar resumen de stock por categoría</td><td>2</td></tr>
   </tbody>
@@ -1848,7 +1885,6 @@ _Imagen (N°9). Elaboración propia. Realizado en UXPRESSIA_
 _Imagen (N°10). Elaboración propia. Realizado en Trello_
 
 Trello del Product Backlog: https://trello.com/invite/b/68d9c7c26edf04fc488ca657/ATTIe2ace23b94bb268e8de0b90039ed6ef756FAD28C/stoq-product-backlog
-
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
@@ -1868,7 +1904,7 @@ Primero tuvimos una lluvia de ideas en la cual nos propusimos identificar exhaus
 
 A continuación, se presentan una serie de figuras que evidencian este proceso de exploración inicial.
 
-<img src="./assets/Chapter-2/eventStorming_step1.png"> 
+<img src="./assets/Chapter-2/eventStorming_step1.png">
 
 _Imagen (N°11). Elaboración propia. Realizado en Miro_
 
@@ -1921,22 +1957,22 @@ A continuación, se presentan una serie de figuras que evidencian el proceso rea
 
 _Imagen (N°17). Elaboración propia. Realizado en Miro_
 
-<br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo manejar la verificación (canal, reintentos, expiración y fallback) y cuándo activar la cuenta si el código no llega o falla. Al resolver estas interrogantes —reenvío OTP, cambio de canal, rate-limit y soporte— mejoraremos el alta de usuarios y reduciremos abandonos.<br> 
+<br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo manejar la verificación (canal, reintentos, expiración y fallback) y cuándo activar la cuenta si el código no llega o falla. Al resolver estas interrogantes —reenvío OTP, cambio de canal, rate-limit y soporte— mejoraremos el alta de usuarios y reduciremos abandonos.<br>
 <img src="./assets/Chapter-2/eventStorming_step3.2.png">
 
 _Imagen (N°18). Elaboración propia. Realizado en Miro_
 
-<br>En esta imagen se aprecia la identificación de incertidumbres sobre de dónde salen los valores por defecto, si son obligatorios y cómo impactan las alertas. Al imponer validación y defaults por categoría, habilitamos reposición oportuna y alertas útiles sin fricción para el usuario.<br> 
+<br>En esta imagen se aprecia la identificación de incertidumbres sobre de dónde salen los valores por defecto, si son obligatorios y cómo impactan las alertas. Al imponer validación y defaults por categoría, habilitamos reposición oportuna y alertas útiles sin fricción para el usuario.<br>
 <img src="./assets/Chapter-2/eventStorming_step3.3.png">
 
 _Imagen (N°19). Elaboración propia. Realizado en Miro_
 
-<br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo cerrar una alerta: si se exige confirmación de atención o escalamiento previo, quién puede marcarla como “vista/resuelta”, y cómo tratar estados como ignorada o urgente cuando hay alertas por stock bajo, vencimiento o sobrestock; además, hay dudas sobre la creación de alertas personalizadas y el procesamiento por lotes al final del día.<br> 
+<br>En esta imagen se aprecia la identificación de incertidumbres sobre cómo cerrar una alerta: si se exige confirmación de atención o escalamiento previo, quién puede marcarla como “vista/resuelta”, y cómo tratar estados como ignorada o urgente cuando hay alertas por stock bajo, vencimiento o sobrestock; además, hay dudas sobre la creación de alertas personalizadas y el procesamiento por lotes al final del día.<br>
 <img src="./assets/Chapter-2/eventStorming_step3.4.png">
 
 _Imagen (N°20). Elaboración propia. Realizado en Miro_
 
-<br>En esta imagen se aprecia la identificación de incertidumbres sobre qué datos “validados” deben alimentar la auditoría y los reportes (para evitar inconsistencias), así como el alcance y filtros de los informes (ventas semanales, tendencias, métricas como stock promedio) y quién puede exportar/compartir (Excel, correo) según el plan<br> 
+<br>En esta imagen se aprecia la identificación de incertidumbres sobre qué datos “validados” deben alimentar la auditoría y los reportes (para evitar inconsistencias), así como el alcance y filtros de los informes (ventas semanales, tendencias, métricas como stock promedio) y quién puede exportar/compartir (Excel, correo) según el plan<br>
 <img src="./assets/Chapter-2/eventStorming_step3.5.png">
 
 _Imagen (N°21). Elaboración propia. Realizado en Miro_
@@ -1989,9 +2025,10 @@ _Imagen (N°27). Elaboración propia. Realizado en Miro_
 
 _Imagen (N°28). Elaboración propia. Realizado en Miro_
 
-<br>Generar reporte ejecuta una consulta/KPI sobre datos validados; Exportar reporte materializa el resultado (Excel/PDF) con sello/firma; Enviar/Compartir reporte distribuye el archivo por correo o canal elegido y registra la entrega.<br>  
- 
+<br>Generar reporte ejecuta una consulta/KPI sobre datos validados; Exportar reporte materializa el resultado (Excel/PDF) con sello/firma; Enviar/Compartir reporte distribuye el archivo por correo o canal elegido y registra la entrega.<br>
+
 #### Step 6: Policies
+
 En este paso se describen políticas que rigen decisiones y acciones dentro del sistema, asegurando que este se alinie con las necesidades del usuario y los objetivos del negocio.
 Los siguientes frames contienen políticas que indican diferentes restricciones o condiciones descritas a continuación:
 
@@ -2116,7 +2153,6 @@ Este es un escenario de creación e inicio/cierre de sesión para nuestra app de
 
 _Imagen (N°43). Elaboración propia. Realizado en Miro_
 
-
 <br>
 Este es un escenario de archivado de producto con validación de stock: el Admin solicita en Product Catalog el comando Archivar producto y, antes de ejecutar el cambio, el catálogo consulta a Inventory el estado de existencias y reservas. Con la Consulta de stock, Inventory responde si hay unidades o reservas activas; si aún existe stock o reservas, desde la Web App se genera la notificación correspondiente y se envía a Alerts (Alerta generada) para informar y bloquear la acción. Si el resultado confirma stock=0 y sin reservas, el catálogo procede a completar la operación y se publica el evento Producto archivado, quedando el ítem fuera de publicación.<br>
 
@@ -2186,7 +2222,6 @@ _Imagen (N°49). Elaboración propia. Realizado en Miro_
 
 _Imagen (N°50). Elaboración propia. Realizado en Structurizr_
 
-
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 <div align="center">
@@ -2207,43 +2242,42 @@ _Imagen (N°52). Elaboración propia. Realizado en Structurizr_
 
 ### 2.6.1. Bounded Context: AlertStockManagement Context
 
-### 2.6.1.1. Domain Layer  
+### 2.6.1.1. Domain Layer
 
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **StockAlertItem** | Aggregate Root (Entity) | Representa una alerta de stock para un producto | ProductName, Quantity, MinStock, EntryDate, IsLowStock |
-| **StockAlertQuery** | Query | Criterio de consulta de alertas de stock | IncludeLowStock |
-| **IStockAlertQueryService** | Domain Service (Interface) | Define contrato para consultas de alertas de stock | GetAlertsAsync(StockAlertQuery): Task<IEnumerable<StockAlertItem>> |
-| **IInventoryReadRepository** | Repository (Interface) | Lectura de inventario para generar alertas | GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
-| **IStockAlertReadRepository** | Repository (Interface) | Lectura de alertas de stock ya calculadas | GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
-
----
-
-### 2.6.1.2. Application Layer  
-
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **StockAlertQueryService** | Application Service | Implementa consultas de alertas de stock contra inventario | repository, GetAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
-| **IStockAlertQueryService** | Application Service (Interface) | Contrato de aplicación para consultas de alertas de stock | GetAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
+| Clase/Interfaz                | Tipo                       | Propósito                                          | Atributos / Métodos                                                |
+| ----------------------------- | -------------------------- | -------------------------------------------------- | ------------------------------------------------------------------ |
+| **StockAlertItem**            | Aggregate Root (Entity)    | Representa una alerta de stock para un producto    | ProductName, Quantity, MinStock, EntryDate, IsLowStock             |
+| **StockAlertQuery**           | Query                      | Criterio de consulta de alertas de stock           | IncludeLowStock                                                    |
+| **IStockAlertQueryService**   | Domain Service (Interface) | Define contrato para consultas de alertas de stock | GetAlertsAsync(StockAlertQuery): Task<IEnumerable<StockAlertItem>> |
+| **IInventoryReadRepository**  | Repository (Interface)     | Lectura de inventario para generar alertas         | GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>>   |
+| **IStockAlertReadRepository** | Repository (Interface)     | Lectura de alertas de stock ya calculadas          | GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>>   |
 
 ---
 
-### 2.6.1.3. Interface Layer  
+### 2.6.1.2. Application Layer
 
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **StockAlertResource** | Resource (DTO) | Representa alerta de stock en respuestas REST | ProductName, Quantity, MinStock, EntryDate, IsLowStock |
-| **StockAlertTransform** | Assembler | Convierte entidad StockAlertItem en DTO | ToResource(StockAlertItem): StockAlertResource |
-| **StockAlertController** | REST Controller | Expone endpoints para consultar alertas de stock | _service, GetAlerts(): Task<IActionResult> |
+| Clase/Interfaz              | Tipo                            | Propósito                                                  | Atributos / Métodos                                                     |
+| --------------------------- | ------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **StockAlertQueryService**  | Application Service             | Implementa consultas de alertas de stock contra inventario | repository, GetAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
+| **IStockAlertQueryService** | Application Service (Interface) | Contrato de aplicación para consultas de alertas de stock  | GetAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>>             |
 
 ---
 
-### 2.6.1.4. Infrastructure Layer  
+### 2.6.1.3. Interface Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
+| Clase/Interfaz           | Tipo            | Propósito                                        | Atributos / Métodos                                    |
+| ------------------------ | --------------- | ------------------------------------------------ | ------------------------------------------------------ |
+| **StockAlertResource**   | Resource (DTO)  | Representa alerta de stock en respuestas REST    | ProductName, Quantity, MinStock, EntryDate, IsLowStock |
+| **StockAlertTransform**  | Assembler       | Convierte entidad StockAlertItem en DTO          | ToResource(StockAlertItem): StockAlertResource         |
+| **StockAlertController** | REST Controller | Expone endpoints para consultar alertas de stock | \_service, GetAlerts(): Task<IActionResult>            |
+
+---
+
+### 2.6.1.4. Infrastructure Layer
+
+| Clase                       | Tipo                      | Propósito                                                | Atributos / Métodos                                                       |
+| --------------------------- | ------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **InventoryReadRepository** | Repository Implementation | Implementación EF Core para leer stock y generar alertas | context, GetStockAlertsAsync(StockAlertQuery): Task<List<StockAlertItem>> |
-
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2252,7 +2286,6 @@ _Imagen (N°52). Elaboración propia. Realizado en Structurizr_
 </div>
 
 _Imagen (N°53). Elaboración propia. Realizado en Structurizr_
-
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2264,64 +2297,62 @@ _Imagen (N°53). Elaboración propia. Realizado en Structurizr_
 
 _Imagen (N°54). Elaboración propia. Realizado en Structurizr_
 
-
 ### 2.6.2. Bounded Context: Iam Context
 
-### 2.6.2.1. Domain Layer  
+### 2.6.2.1. Domain Layer
 
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **User** | Aggregate Root (Entity) | Representa un usuario dentro del sistema IAM | Id, Name, LastName, Email, Password, Role, User(), User(SignInCommand), User(SignUpCommand) |
-| **UserRole** | Enum (Value Object) | Define los roles posibles de usuario | Employee, Administrator |
-| **SignUpCommand** | Command | Solicitud para registrar un nuevo usuario | Name, LastName, Email, Password |
-| **SignInCommand** | Command | Solicitud para iniciar sesión | Email, Password |
-| **ChangeUserRoleCommand** | Command | Solicitud para cambiar el rol de un usuario | UserId, NewRole |
-| **GetUserByIdQuery** | Query | Consulta para obtener un usuario por ID | Id |
-| **IUserCommandService** | Domain Service (Interface) | Define el contrato de servicios para manejar comandos de usuario | Handle(SignUpCommand), Handle(SignInCommand), Handle(ChangeUserRoleCommand) |
-| **IUserQueryService** | Domain Service (Interface) | Define el contrato de servicios para consultas de usuario | Handle(GetUserByIdQuery) |
-| **IUserRepository** | Repository (Interface) | Acceso abstracto a la persistencia de usuarios | FindByEmailAsync, FindByIdAsync, AddAsync, UpdateUserRoleAsync |
-
----
-
-### 2.6.2.2. Interface Layer  
-
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **SignUpResource** | Resource (DTO) | Representa los datos de entrada para registrarse | Name, LastName, Email, Password |
-| **SignInResource** | Resource (DTO) | Representa los datos de entrada para iniciar sesión | Email, Password |
-| **UserResource** | Resource (DTO) | Representa un usuario simplificado en respuesta | Id, Name, Email |
-| **AuthenticatedUserResource** | Resource (DTO) | Representa un usuario autenticado junto con token | Id, Name, LastName, Token, Role |
-| **ChangeUserRoleResource** | Resource (DTO) | Datos de entrada para cambiar el rol de un usuario | UserId, NewRole |
-| **SignUpCommandFromResourceAssembler** | Assembler | Convierte un recurso en un comando de dominio | ToCommandFromResource(SignUpResource) |
-| **SignInCommandFromResourceAssembler** | Assembler | Convierte un recurso en un comando de dominio | ToCommandFromResource(SignInResource) |
-| **UserResourceFromEntityAssembler** | Assembler | Convierte una entidad en un recurso DTO | ToResourceFromEntity(User) |
-| **ChangeUserRoleCommandFromResourceAssembler** | Assembler | Convierte un recurso en un comando de dominio | ToCommandFromResource(ChangeUserRoleResource) |
-| **AuthenticatedUserResourceFromEntityAssembler** | Assembler | Convierte entidad y token en recurso de autenticación | ToResourceFromEntity(User, Token) |
-| **AuthenticationController** | REST Controller | Expone endpoints de autenticación y gestión de usuario | SignUp(SignUpResource), SignIn(SignInResource), ChangeUserRole(ChangeUserRoleResource) |
+| Clase/Interfaz            | Tipo                       | Propósito                                                        | Atributos / Métodos                                                                         |
+| ------------------------- | -------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **User**                  | Aggregate Root (Entity)    | Representa un usuario dentro del sistema IAM                     | Id, Name, LastName, Email, Password, Role, User(), User(SignInCommand), User(SignUpCommand) |
+| **UserRole**              | Enum (Value Object)        | Define los roles posibles de usuario                             | Employee, Administrator                                                                     |
+| **SignUpCommand**         | Command                    | Solicitud para registrar un nuevo usuario                        | Name, LastName, Email, Password                                                             |
+| **SignInCommand**         | Command                    | Solicitud para iniciar sesión                                    | Email, Password                                                                             |
+| **ChangeUserRoleCommand** | Command                    | Solicitud para cambiar el rol de un usuario                      | UserId, NewRole                                                                             |
+| **GetUserByIdQuery**      | Query                      | Consulta para obtener un usuario por ID                          | Id                                                                                          |
+| **IUserCommandService**   | Domain Service (Interface) | Define el contrato de servicios para manejar comandos de usuario | Handle(SignUpCommand), Handle(SignInCommand), Handle(ChangeUserRoleCommand)                 |
+| **IUserQueryService**     | Domain Service (Interface) | Define el contrato de servicios para consultas de usuario        | Handle(GetUserByIdQuery)                                                                    |
+| **IUserRepository**       | Repository (Interface)     | Acceso abstracto a la persistencia de usuarios                   | FindByEmailAsync, FindByIdAsync, AddAsync, UpdateUserRoleAsync                              |
 
 ---
 
-### 2.6.2.3. Application Layer  
+### 2.6.2.2. Interface Layer
 
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **UserCommandService** | Application Service | Implementa los servicios de comando de usuarios | userRepository, tokenService, hashingService, unitOfWork, Handle(SignUpCommand), Handle(SignInCommand), Handle(ChangeUserRoleCommand) |
-| **UserQueryService** | Application Service | Implementa los servicios de consulta de usuarios | userRepository, GetAllAsync(), FindByIdAsync(int) |
-| **ITokenService** | Outbound Service (Interface) | Define generación y validación de tokens | GenerateToken(User), ValidateToken(string) |
-| **IHashingService** | Outbound Service (Interface) | Define operaciones de hashing de contraseñas | GenerateHash(string), VerifyHash(string, string) |
+| Clase                                            | Tipo            | Propósito                                              | Atributos / Métodos                                                                    |
+| ------------------------------------------------ | --------------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| **SignUpResource**                               | Resource (DTO)  | Representa los datos de entrada para registrarse       | Name, LastName, Email, Password                                                        |
+| **SignInResource**                               | Resource (DTO)  | Representa los datos de entrada para iniciar sesión    | Email, Password                                                                        |
+| **UserResource**                                 | Resource (DTO)  | Representa un usuario simplificado en respuesta        | Id, Name, Email                                                                        |
+| **AuthenticatedUserResource**                    | Resource (DTO)  | Representa un usuario autenticado junto con token      | Id, Name, LastName, Token, Role                                                        |
+| **ChangeUserRoleResource**                       | Resource (DTO)  | Datos de entrada para cambiar el rol de un usuario     | UserId, NewRole                                                                        |
+| **SignUpCommandFromResourceAssembler**           | Assembler       | Convierte un recurso en un comando de dominio          | ToCommandFromResource(SignUpResource)                                                  |
+| **SignInCommandFromResourceAssembler**           | Assembler       | Convierte un recurso en un comando de dominio          | ToCommandFromResource(SignInResource)                                                  |
+| **UserResourceFromEntityAssembler**              | Assembler       | Convierte una entidad en un recurso DTO                | ToResourceFromEntity(User)                                                             |
+| **ChangeUserRoleCommandFromResourceAssembler**   | Assembler       | Convierte un recurso en un comando de dominio          | ToCommandFromResource(ChangeUserRoleResource)                                          |
+| **AuthenticatedUserResourceFromEntityAssembler** | Assembler       | Convierte entidad y token en recurso de autenticación  | ToResourceFromEntity(User, Token)                                                      |
+| **AuthenticationController**                     | REST Controller | Expone endpoints de autenticación y gestión de usuario | SignUp(SignUpResource), SignIn(SignInResource), ChangeUserRole(ChangeUserRoleResource) |
 
 ---
 
-### 2.6.2.4. Infrastructure Layer  
+### 2.6.2.3. Application Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **UserRepository** | Repository (Implementation) | Implementación de acceso a datos de usuarios | context, FindByEmailAsync, FindByIdAsync, AddAsync, UpdateUserRoleAsync |
-| **TokenService** | Outbound Service Implementation | Implementación de generación y validación de tokens JWT | GenerateToken(User), ValidateToken(string) |
-| **HashingService** | Outbound Service Implementation | Implementación de hashing de contraseñas con BCrypt | GenerateHash(string), VerifyHash(string, string) |
-| **TokenSettings** | Configuration | Configuración de secret key para JWT | Secret |
-| **AuthorizeRolesAttribute** | Authorization Filter | Atributo para restringir acceso por roles en controllers | _roles, OnAuthorization(AuthorizationFilterContext) |
+| Clase/Interfaz         | Tipo                         | Propósito                                        | Atributos / Métodos                                                                                                                   |
+| ---------------------- | ---------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **UserCommandService** | Application Service          | Implementa los servicios de comando de usuarios  | userRepository, tokenService, hashingService, unitOfWork, Handle(SignUpCommand), Handle(SignInCommand), Handle(ChangeUserRoleCommand) |
+| **UserQueryService**   | Application Service          | Implementa los servicios de consulta de usuarios | userRepository, GetAllAsync(), FindByIdAsync(int)                                                                                     |
+| **ITokenService**      | Outbound Service (Interface) | Define generación y validación de tokens         | GenerateToken(User), ValidateToken(string)                                                                                            |
+| **IHashingService**    | Outbound Service (Interface) | Define operaciones de hashing de contraseñas     | GenerateHash(string), VerifyHash(string, string)                                                                                      |
 
+---
+
+### 2.6.2.4. Infrastructure Layer
+
+| Clase                       | Tipo                            | Propósito                                                | Atributos / Métodos                                                     |
+| --------------------------- | ------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **UserRepository**          | Repository (Implementation)     | Implementación de acceso a datos de usuarios             | context, FindByEmailAsync, FindByIdAsync, AddAsync, UpdateUserRoleAsync |
+| **TokenService**            | Outbound Service Implementation | Implementación de generación y validación de tokens JWT  | GenerateToken(User), ValidateToken(string)                              |
+| **HashingService**          | Outbound Service Implementation | Implementación de hashing de contraseñas con BCrypt      | GenerateHash(string), VerifyHash(string, string)                        |
+| **TokenSettings**           | Configuration                   | Configuración de secret key para JWT                     | Secret                                                                  |
+| **AuthorizeRolesAttribute** | Authorization Filter            | Atributo para restringir acceso por roles en controllers | \_roles, OnAuthorization(AuthorizationFilterContext)                    |
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2330,7 +2361,6 @@ _Imagen (N°54). Elaboración propia. Realizado en Structurizr_
 </div>
 
 _Imagen (N°55). Elaboración propia. Realizado en Structurizr_
-
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2342,7 +2372,6 @@ _Imagen (N°55). Elaboración propia. Realizado en Structurizr_
 
 _Imagen (N°56). Elaboración propia._
 
-
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 <div align="center">
@@ -2351,64 +2380,63 @@ _Imagen (N°56). Elaboración propia._
 
 _Imagen (N°57). Elaboración propia._
 
-
 ### 2.6.3. Bounded Context: Inventory Context
-### 2.6.3.1. Domain Layer  
 
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **InventoryByProduct** | Aggregate Root (Entity) | Representa inventario por producto | Id, Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida, InventoryByProduct(), InventoryByProduct(...) |
-| **InventoryByBatch** | Aggregate Root (Entity) | Representa inventario por lotes | Id, Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad, Total, InventoryByBatch(), InventoryByBatch(...) |
-| **Cantidad** | Value Object | Representa una cantidad | Value, Cantidad(int) |
-| **Precio** | Value Object | Representa un precio monetario | Value, Precio(decimal) |
-| **StockMinimo** | Value Object | Define el stock mínimo de un producto | Value, StockMinimo(int) |
-| **Unidad** | Value Object | Representa la unidad de medida | Value, Unidad(string) |
-| **CreateInventoryByProductCommand** | Command | Crear inventario por producto | Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida |
-| **CreateInventoryByBatchCommand** | Command | Crear inventario por lote | Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad |
-| **GetInventoryByBatchQuery** | Query | Consultar todos los inventarios por lote | - |
-| **GetInventoryByProductQuery** | Query | Consultar todos los inventarios por producto | - |
-| **GetInventoryByProductByIdQuery** | Query | Consultar inventario por producto por Id | Id |
-| **GetInventoryByBatchByIdQuery** | Query | Consultar inventario por lote por Id | Id |
-| **GetGeneralInventoryQuery** | Query | Consultar inventario general | - |
-| **IInventoryByProductCommandService** | Domain Service (Interface) | Define contrato para comandos de inventario por producto | Handle(CreateInventoryByProductCommand), DeleteAsync(int) |
-| **IInventoryByProductQueryService** | Domain Service (Interface) | Define contrato para consultas de inventario por producto | GetAllAsync(), GetByIdAsync(int) |
-| **IInventoryByBatchCommandService** | Domain Service (Interface) | Define contrato para comandos de inventario por lote | Handle(CreateInventoryByBatchCommand), DeleteAsync(int) |
-| **IInventoryByBatchQueryService** | Domain Service (Interface) | Define contrato para consultas de inventario por lote | Handle(GetInventoryByBatchQuery) |
-| **IInventoryByProductRepository** | Repository (Interface) | Acceso abstracto a inventarios por producto | ListAsync(), FindByIdAsync(int), AddAsync(InventoryByProduct), DeleteAsync(int) |
-| **IInventoryByBatchRepository** | Repository (Interface) | Acceso abstracto a inventarios por lote | ListAsync(), FindByIdAsync(int), AddAsync(InventoryByBatch), DeleteAsync(int) |
+### 2.6.3.1. Domain Layer
 
----
-
-### 2.6.3.2. Application Layer  
-
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **InventoryByProductCommandService** | Application Service | Implementa comandos de inventario por producto | repository, unitOfWork, Handle(CreateInventoryByProductCommand), DeleteAsync(int) |
-| **InventoryByBatchCommandService** | Application Service | Implementa comandos de inventario por lote | repository, unitOfWork, Handle(CreateInventoryByBatchCommand), DeleteAsync(int) |
-| **InventoryByProductQueryService** | Application Service | Implementa consultas de inventario por producto | repository, GetAllAsync(), GetByIdAsync(int) |
-| **InventoryByBatchQueryService** | Application Service | Implementa consultas de inventario por lote | repository, Handle(GetInventoryByBatchQuery) |
+| Clase/Interfaz                        | Tipo                       | Propósito                                                 | Atributos / Métodos                                                                                                               |
+| ------------------------------------- | -------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **InventoryByProduct**                | Aggregate Root (Entity)    | Representa inventario por producto                        | Id, Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida, InventoryByProduct(), InventoryByProduct(...) |
+| **InventoryByBatch**                  | Aggregate Root (Entity)    | Representa inventario por lotes                           | Id, Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad, Total, InventoryByBatch(), InventoryByBatch(...)                 |
+| **Cantidad**                          | Value Object               | Representa una cantidad                                   | Value, Cantidad(int)                                                                                                              |
+| **Precio**                            | Value Object               | Representa un precio monetario                            | Value, Precio(decimal)                                                                                                            |
+| **StockMinimo**                       | Value Object               | Define el stock mínimo de un producto                     | Value, StockMinimo(int)                                                                                                           |
+| **Unidad**                            | Value Object               | Representa la unidad de medida                            | Value, Unidad(string)                                                                                                             |
+| **CreateInventoryByProductCommand**   | Command                    | Crear inventario por producto                             | Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida                                                    |
+| **CreateInventoryByBatchCommand**     | Command                    | Crear inventario por lote                                 | Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad                                                                       |
+| **GetInventoryByBatchQuery**          | Query                      | Consultar todos los inventarios por lote                  | -                                                                                                                                 |
+| **GetInventoryByProductQuery**        | Query                      | Consultar todos los inventarios por producto              | -                                                                                                                                 |
+| **GetInventoryByProductByIdQuery**    | Query                      | Consultar inventario por producto por Id                  | Id                                                                                                                                |
+| **GetInventoryByBatchByIdQuery**      | Query                      | Consultar inventario por lote por Id                      | Id                                                                                                                                |
+| **GetGeneralInventoryQuery**          | Query                      | Consultar inventario general                              | -                                                                                                                                 |
+| **IInventoryByProductCommandService** | Domain Service (Interface) | Define contrato para comandos de inventario por producto  | Handle(CreateInventoryByProductCommand), DeleteAsync(int)                                                                         |
+| **IInventoryByProductQueryService**   | Domain Service (Interface) | Define contrato para consultas de inventario por producto | GetAllAsync(), GetByIdAsync(int)                                                                                                  |
+| **IInventoryByBatchCommandService**   | Domain Service (Interface) | Define contrato para comandos de inventario por lote      | Handle(CreateInventoryByBatchCommand), DeleteAsync(int)                                                                           |
+| **IInventoryByBatchQueryService**     | Domain Service (Interface) | Define contrato para consultas de inventario por lote     | Handle(GetInventoryByBatchQuery)                                                                                                  |
+| **IInventoryByProductRepository**     | Repository (Interface)     | Acceso abstracto a inventarios por producto               | ListAsync(), FindByIdAsync(int), AddAsync(InventoryByProduct), DeleteAsync(int)                                                   |
+| **IInventoryByBatchRepository**       | Repository (Interface)     | Acceso abstracto a inventarios por lote                   | ListAsync(), FindByIdAsync(int), AddAsync(InventoryByBatch), DeleteAsync(int)                                                     |
 
 ---
 
-### 2.6.3.3. Interface Layer  
+### 2.6.3.2. Application Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **InventoryGeneralResource** | Resource (DTO) | Representa el inventario general (productos y lotes) | Productos, Lotes |
-| **InventoryByProductResource** | Resource (DTO) | Representa inventario por producto en respuestas | Id, Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida |
-| **InventoryByBatchResource** | Resource (DTO) | Representa inventario por lote en respuestas | Id, Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad, Total |
-| **InventoryTransform** | Assembler | Convierte entidades de inventario a recursos DTO | ToResourceFromEntity(InventoryByProduct), ToResourceFromEntity(InventoryByBatch) |
-| **InventoryController** | REST Controller | Expone endpoints de inventarios | GetAllInventory() |
+| Clase                                | Tipo                | Propósito                                       | Atributos / Métodos                                                               |
+| ------------------------------------ | ------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------- |
+| **InventoryByProductCommandService** | Application Service | Implementa comandos de inventario por producto  | repository, unitOfWork, Handle(CreateInventoryByProductCommand), DeleteAsync(int) |
+| **InventoryByBatchCommandService**   | Application Service | Implementa comandos de inventario por lote      | repository, unitOfWork, Handle(CreateInventoryByBatchCommand), DeleteAsync(int)   |
+| **InventoryByProductQueryService**   | Application Service | Implementa consultas de inventario por producto | repository, GetAllAsync(), GetByIdAsync(int)                                      |
+| **InventoryByBatchQueryService**     | Application Service | Implementa consultas de inventario por lote     | repository, Handle(GetInventoryByBatchQuery)                                      |
 
 ---
 
-### 2.6.3.4. Infrastructure Layer  
+### 2.6.3.3. Interface Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
+| Clase                          | Tipo            | Propósito                                            | Atributos / Métodos                                                                |
+| ------------------------------ | --------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **InventoryGeneralResource**   | Resource (DTO)  | Representa el inventario general (productos y lotes) | Productos, Lotes                                                                   |
+| **InventoryByProductResource** | Resource (DTO)  | Representa inventario por producto en respuestas     | Id, Categoria, Producto, FechaEntrada, Cantidad, Precio, StockMinimo, UnidadMedida |
+| **InventoryByBatchResource**   | Resource (DTO)  | Representa inventario por lote en respuestas         | Id, Proveedor, Producto, FechaEntrada, Cantidad, Precio, Unidad, Total             |
+| **InventoryTransform**         | Assembler       | Convierte entidades de inventario a recursos DTO     | ToResourceFromEntity(InventoryByProduct), ToResourceFromEntity(InventoryByBatch)   |
+| **InventoryController**        | REST Controller | Expone endpoints de inventarios                      | GetAllInventory()                                                                  |
+
+---
+
+### 2.6.3.4. Infrastructure Layer
+
+| Clase                            | Tipo                      | Propósito                                                 | Atributos / Métodos                                                                      |
+| -------------------------------- | ------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | **InventoryByProductRepository** | Repository Implementation | Implementación acceso a inventario por producto (EF Core) | context, ListAsync(), FindByIdAsync(int), AddAsync(InventoryByProduct), DeleteAsync(int) |
-| **InventoryByBatchRepository** | Repository Implementation | Implementación acceso a inventario por lote (EF Core) | context, ListAsync(), FindByIdAsync(int), AddAsync(InventoryByBatch), DeleteAsync(int) |
-
+| **InventoryByBatchRepository**   | Repository Implementation | Implementación acceso a inventario por lote (EF Core)     | context, ListAsync(), FindByIdAsync(int), AddAsync(InventoryByBatch), DeleteAsync(int)   |
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2446,99 +2474,97 @@ _Imagen (N°60). Elaboración propia._
 
 _Imagen (N°61). Elaboración propia._
 
+### 2.6.4.1. Domain Layer
 
-### 2.6.4.1. Domain Layer  
-
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **Product** | Aggregate Root (Entity) | Representa un producto dentro del sistema | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, Category, Unit, ProductTags, Product(), Product(...), Product(CreateProductCommand), UpdateProduct(...), AddTag(int), RemoveTag(int) |
-| **Category** | Entity | Agrupa productos por categoría | Id, Name, Products, Category(), Category(string), UpdateName(string) |
-| **Unit** | Entity | Representa la unidad de medida de un producto | Id, Name, Abbreviation, Products, Unit(), Unit(string, string), UpdateUnit(string, string) |
-| **ProductTag** | Entity (Join) | Relaciona productos con etiquetas | ProductId, TagId, ProductTag(int, int) |
-| **Tag** | Entity | Representa una etiqueta asociada a productos | Id, Name, Description, Tag(), Tag(string, string), UpdateTag(string, string) |
-| **Combo** | Entity | Representa un combo de productos | Id, Name, Description, Price, ComboItems, Combo(), Combo(...), UpdateCombo(...) |
-| **ComboItem** | Entity | Relaciona un producto con un combo | Id, ComboId, ProductId, Quantity, Combo, Product, ComboItem(), ComboItem(int, int, int), UpdateQuantity(int) |
-| **ProductId** | Value Object | Identificador de producto | Value |
-| **UnitId** | Value Object | Identificador de unidad | Value |
-| **TagId** | Value Object | Identificador de etiqueta | Value |
-| **CategoryId** | Value Object | Identificador de categoría | Value |
-| **CreateProductCommand** | Command | Crear un nuevo producto | Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, TagIds |
-| **UpdateProductCommand** | Command | Actualizar datos de un producto | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId |
-| **DeleteProductCommand** | Command | Eliminar un producto | Id |
-| **CreateComboCommand** | Command | Crear un combo | Name, Description, Price |
-| **UpdateComboCommand** | Command | Actualizar datos de un combo | Id, Name, Description, Price |
-| **CreateComboItemCommand** | Command | Crear ítem en un combo | ComboId, ProductId, Quantity |
-| **UpdateComboItemCommand** | Command | Actualizar ítem de un combo | Id, Quantity |
-| **DeleteComboItemCommand** | Command | Eliminar ítem de un combo | Id |
-| **DeleteComboCommand** | Command | Eliminar un combo | Id |
-| **GetProductByIdQuery** | Query | Consultar producto por Id | Id |
-| **GetAllProductsQuery** | Query | Consultar todos los productos | - |
-| **GetProductsByCategoryQuery** | Query | Consultar productos por categoría | CategoryId |
-| **GetProductsByTagQuery** | Query | Consultar productos por etiqueta | TagId |
-| **GetProductsByPriceRangeQuery** | Query | Consultar productos por rango de precios | MinPrice, MaxPrice |
-| **GetComboByIdQuery** | Query | Consultar combo por Id | Id |
-| **GetAllCombosQuery** | Query | Consultar todos los combos | - |
-| **GetComboItemByIdQuery** | Query | Consultar ítem de combo por Id | Id |
-| **GetComboItemsByComboIdQuery** | Query | Consultar ítems de un combo | ComboId |
-| **IProductCommandService** | Domain Service (Interface) | Define el contrato para manejar comandos de productos | Handle(CreateProductCommand), Handle(UpdateProductCommand), Handle(DeleteProductCommand) |
-| **IProductQueryService** | Domain Service (Interface) | Define el contrato para consultas de productos | Handle(GetProductByIdQuery), Handle(GetAllProductsQuery), Handle(GetProductsByCategoryQuery), Handle(GetProductsByTagQuery), Handle(GetProductsByPriceRangeQuery) |
-| **IComboCommandService** | Domain Service (Interface) | Define el contrato para comandos de combos | Handle(CreateComboCommand), Handle(UpdateComboCommand) |
-| **IComboQueryService** | Domain Service (Interface) | Contrato para consultas de combos | GetAllAsync() |
-| **IUnitQueryService** | Domain Service (Interface) | Contrato para consultas de unidades | GetAllAsync() |
-| **ITagQueryService** | Domain Service (Interface) | Contrato para consultas de etiquetas | GetAllAsync() |
-| **IProductRepository** | Repository (Interface) | Acceso abstracto a productos | FindProductByNameAsync, FindAllProductsAsync, FindProductsByCategoryAsync, FindProductsByTagAsync, FindProductsByPriceRangeAsync, FindProductWithRelationsAsync |
-| **ICategoryRepository** | Repository (Interface) | Acceso abstracto a categorías | FindCategoryByNameAsync, FindAllCategoriesAsync |
-| **IUnitRepository** | Repository (Interface) | Acceso abstracto a unidades | FindUnitByNameAsync, FindAllUnitsAsync |
-| **ITagRepository** | Repository (Interface) | Acceso abstracto a etiquetas | FindTagByNameAsync, FindAllTagsAsync, FindTagsByIdsAsync |
-| **IComboRepository** | Repository (Interface) | Acceso abstracto a combos | FindComboByNameAsync, FindAllCombosAsync |
-
----
-
-### 2.6.4.2. Application Layer  
-
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **ProductCommandService** | Application Service | Implementa comandos de producto | productRepository, tagRepository, unitOfWork, Handle(CreateProductCommand), Handle(UpdateProductCommand) |
-| **ProductQueryService** | Application Service | Implementa consultas de productos | productRepository, Handle(GetProductByIdQuery), Handle(GetAllProductsQuery), Handle(GetProductsByCategoryQuery), Handle(GetProductsByTagQuery), Handle(GetProductsByPriceRangeQuery) |
-| **ComboCommandService** | Application Service | Implementa comandos de combos | comboRepository, unitOfWork, Handle(CreateComboCommand), Handle(UpdateComboCommand) |
-| **ComboQueryService** | Application Service | Consultas sobre combos | comboRepository, GetAllAsync() |
-| **UnitQueryService** | Application Service | Consultas sobre unidades | unitRepository, GetAllAsync() |
-| **TagQueryService** | Application Service | Consultas sobre etiquetas | tagRepository, GetAllAsync() |
+| Clase/Interfaz                   | Tipo                       | Propósito                                             | Atributos / Métodos                                                                                                                                                                                                      |
+| -------------------------------- | -------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Product**                      | Aggregate Root (Entity)    | Representa un producto dentro del sistema             | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, Category, Unit, ProductTags, Product(), Product(...), Product(CreateProductCommand), UpdateProduct(...), AddTag(int), RemoveTag(int) |
+| **Category**                     | Entity                     | Agrupa productos por categoría                        | Id, Name, Products, Category(), Category(string), UpdateName(string)                                                                                                                                                     |
+| **Unit**                         | Entity                     | Representa la unidad de medida de un producto         | Id, Name, Abbreviation, Products, Unit(), Unit(string, string), UpdateUnit(string, string)                                                                                                                               |
+| **ProductTag**                   | Entity (Join)              | Relaciona productos con etiquetas                     | ProductId, TagId, ProductTag(int, int)                                                                                                                                                                                   |
+| **Tag**                          | Entity                     | Representa una etiqueta asociada a productos          | Id, Name, Description, Tag(), Tag(string, string), UpdateTag(string, string)                                                                                                                                             |
+| **Combo**                        | Entity                     | Representa un combo de productos                      | Id, Name, Description, Price, ComboItems, Combo(), Combo(...), UpdateCombo(...)                                                                                                                                          |
+| **ComboItem**                    | Entity                     | Relaciona un producto con un combo                    | Id, ComboId, ProductId, Quantity, Combo, Product, ComboItem(), ComboItem(int, int, int), UpdateQuantity(int)                                                                                                             |
+| **ProductId**                    | Value Object               | Identificador de producto                             | Value                                                                                                                                                                                                                    |
+| **UnitId**                       | Value Object               | Identificador de unidad                               | Value                                                                                                                                                                                                                    |
+| **TagId**                        | Value Object               | Identificador de etiqueta                             | Value                                                                                                                                                                                                                    |
+| **CategoryId**                   | Value Object               | Identificador de categoría                            | Value                                                                                                                                                                                                                    |
+| **CreateProductCommand**         | Command                    | Crear un nuevo producto                               | Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, TagIds                                                                                                                                   |
+| **UpdateProductCommand**         | Command                    | Actualizar datos de un producto                       | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId                                                                                                                                       |
+| **DeleteProductCommand**         | Command                    | Eliminar un producto                                  | Id                                                                                                                                                                                                                       |
+| **CreateComboCommand**           | Command                    | Crear un combo                                        | Name, Description, Price                                                                                                                                                                                                 |
+| **UpdateComboCommand**           | Command                    | Actualizar datos de un combo                          | Id, Name, Description, Price                                                                                                                                                                                             |
+| **CreateComboItemCommand**       | Command                    | Crear ítem en un combo                                | ComboId, ProductId, Quantity                                                                                                                                                                                             |
+| **UpdateComboItemCommand**       | Command                    | Actualizar ítem de un combo                           | Id, Quantity                                                                                                                                                                                                             |
+| **DeleteComboItemCommand**       | Command                    | Eliminar ítem de un combo                             | Id                                                                                                                                                                                                                       |
+| **DeleteComboCommand**           | Command                    | Eliminar un combo                                     | Id                                                                                                                                                                                                                       |
+| **GetProductByIdQuery**          | Query                      | Consultar producto por Id                             | Id                                                                                                                                                                                                                       |
+| **GetAllProductsQuery**          | Query                      | Consultar todos los productos                         | -                                                                                                                                                                                                                        |
+| **GetProductsByCategoryQuery**   | Query                      | Consultar productos por categoría                     | CategoryId                                                                                                                                                                                                               |
+| **GetProductsByTagQuery**        | Query                      | Consultar productos por etiqueta                      | TagId                                                                                                                                                                                                                    |
+| **GetProductsByPriceRangeQuery** | Query                      | Consultar productos por rango de precios              | MinPrice, MaxPrice                                                                                                                                                                                                       |
+| **GetComboByIdQuery**            | Query                      | Consultar combo por Id                                | Id                                                                                                                                                                                                                       |
+| **GetAllCombosQuery**            | Query                      | Consultar todos los combos                            | -                                                                                                                                                                                                                        |
+| **GetComboItemByIdQuery**        | Query                      | Consultar ítem de combo por Id                        | Id                                                                                                                                                                                                                       |
+| **GetComboItemsByComboIdQuery**  | Query                      | Consultar ítems de un combo                           | ComboId                                                                                                                                                                                                                  |
+| **IProductCommandService**       | Domain Service (Interface) | Define el contrato para manejar comandos de productos | Handle(CreateProductCommand), Handle(UpdateProductCommand), Handle(DeleteProductCommand)                                                                                                                                 |
+| **IProductQueryService**         | Domain Service (Interface) | Define el contrato para consultas de productos        | Handle(GetProductByIdQuery), Handle(GetAllProductsQuery), Handle(GetProductsByCategoryQuery), Handle(GetProductsByTagQuery), Handle(GetProductsByPriceRangeQuery)                                                        |
+| **IComboCommandService**         | Domain Service (Interface) | Define el contrato para comandos de combos            | Handle(CreateComboCommand), Handle(UpdateComboCommand)                                                                                                                                                                   |
+| **IComboQueryService**           | Domain Service (Interface) | Contrato para consultas de combos                     | GetAllAsync()                                                                                                                                                                                                            |
+| **IUnitQueryService**            | Domain Service (Interface) | Contrato para consultas de unidades                   | GetAllAsync()                                                                                                                                                                                                            |
+| **ITagQueryService**             | Domain Service (Interface) | Contrato para consultas de etiquetas                  | GetAllAsync()                                                                                                                                                                                                            |
+| **IProductRepository**           | Repository (Interface)     | Acceso abstracto a productos                          | FindProductByNameAsync, FindAllProductsAsync, FindProductsByCategoryAsync, FindProductsByTagAsync, FindProductsByPriceRangeAsync, FindProductWithRelationsAsync                                                          |
+| **ICategoryRepository**          | Repository (Interface)     | Acceso abstracto a categorías                         | FindCategoryByNameAsync, FindAllCategoriesAsync                                                                                                                                                                          |
+| **IUnitRepository**              | Repository (Interface)     | Acceso abstracto a unidades                           | FindUnitByNameAsync, FindAllUnitsAsync                                                                                                                                                                                   |
+| **ITagRepository**               | Repository (Interface)     | Acceso abstracto a etiquetas                          | FindTagByNameAsync, FindAllTagsAsync, FindTagsByIdsAsync                                                                                                                                                                 |
+| **IComboRepository**             | Repository (Interface)     | Acceso abstracto a combos                             | FindComboByNameAsync, FindAllCombosAsync                                                                                                                                                                                 |
 
 ---
 
-### 2.6.4.3. Interface Layer  
+### 2.6.4.2. Application Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **CreateProductResource** | Resource (DTO) | Datos de entrada para crear producto | Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, TagIds |
-| **UpdateProductResource** | Resource (DTO) | Datos de entrada para actualizar producto | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId |
-| **ProductResource** | Resource (DTO) | Representa un producto completo en respuesta | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, Category, Unit, Tags |
-| **CategoryResource** | Resource (DTO) | Representa una categoría | Id, Name |
-| **UnitResource** | Resource (DTO) | Representa una unidad | Id, Name, Abbreviation |
-| **TagResource** | Resource (DTO) | Representa una etiqueta | Id, Name, Description |
-| **ComboResource** | Resource (DTO) | Representa un combo | Id, Name, Description, Price |
-| **CreateComboResource** | Resource (DTO) | Datos de entrada para crear combo | Name, Description, Price |
-| **CreateProductCommandFromResourceAssembler** | Assembler | Convierte recurso a comando | ToCommandFromResource(CreateProductResource) |
-| **UpdateProductCommandFromResourceAssembler** | Assembler | Convierte recurso a comando | ToCommandFromResource(UpdateProductResource) |
-| **ProductResourceFromEntityAssembler** | Assembler | Convierte entidad a recurso DTO | ToResourceFromEntity(Product) |
-| **ProductsController** | REST Controller | Expone endpoints de productos | GetProductById, CreateProduct, GetAllProducts, GetProductsByCategory, GetProductsByTag |
-| **UnitsController** | REST Controller | Expone endpoints de unidades | GetAllUnits |
-| **TagsController** | REST Controller | Expone endpoints de etiquetas | GetAllTags |
-| **CombosController** | REST Controller | Expone endpoints de combos | GetComboById, CreateCombo, GetAllCombos |
+| Clase                     | Tipo                | Propósito                         | Atributos / Métodos                                                                                                                                                                  |
+| ------------------------- | ------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **ProductCommandService** | Application Service | Implementa comandos de producto   | productRepository, tagRepository, unitOfWork, Handle(CreateProductCommand), Handle(UpdateProductCommand)                                                                             |
+| **ProductQueryService**   | Application Service | Implementa consultas de productos | productRepository, Handle(GetProductByIdQuery), Handle(GetAllProductsQuery), Handle(GetProductsByCategoryQuery), Handle(GetProductsByTagQuery), Handle(GetProductsByPriceRangeQuery) |
+| **ComboCommandService**   | Application Service | Implementa comandos de combos     | comboRepository, unitOfWork, Handle(CreateComboCommand), Handle(UpdateComboCommand)                                                                                                  |
+| **ComboQueryService**     | Application Service | Consultas sobre combos            | comboRepository, GetAllAsync()                                                                                                                                                       |
+| **UnitQueryService**      | Application Service | Consultas sobre unidades          | unitRepository, GetAllAsync()                                                                                                                                                        |
+| **TagQueryService**       | Application Service | Consultas sobre etiquetas         | tagRepository, GetAllAsync()                                                                                                                                                         |
 
 ---
 
-### 2.6.4.4. Infrastructure Layer  
+### 2.6.4.3. Interface Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **ProductRepository** | Repository Implementation | Implementación acceso a productos (EF Core) | context, FindProductByNameAsync, FindAllProductsAsync, FindProductsByCategoryAsync, FindProductsByTagAsync, FindProductsByPriceRangeAsync, FindProductWithRelationsAsync |
-| **CategoryRepository** | Repository Implementation | Implementación acceso a categorías (EF Core) | context, FindCategoryByNameAsync, FindAllCategoriesAsync |
-| **UnitRepository** | Repository Implementation | Implementación acceso a unidades (EF Core) | context, FindUnitByNameAsync, FindAllUnitsAsync |
-| **TagRepository** | Repository Implementation | Implementación acceso a etiquetas (EF Core) | context, FindTagByNameAsync, FindAllTagsAsync, FindTagsByIdsAsync |
-| **ComboRepository** | Repository Implementation | Implementación acceso a combos (EF Core) | context, FindComboByNameAsync, FindAllCombosAsync |
+| Clase                                         | Tipo            | Propósito                                    | Atributos / Métodos                                                                                      |
+| --------------------------------------------- | --------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **CreateProductResource**                     | Resource (DTO)  | Datos de entrada para crear producto         | Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, TagIds                   |
+| **UpdateProductResource**                     | Resource (DTO)  | Datos de entrada para actualizar producto    | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId                       |
+| **ProductResource**                           | Resource (DTO)  | Representa un producto completo en respuesta | Id, Name, Description, PurchasePrice, SalePrice, InternalNotes, CategoryId, UnitId, Category, Unit, Tags |
+| **CategoryResource**                          | Resource (DTO)  | Representa una categoría                     | Id, Name                                                                                                 |
+| **UnitResource**                              | Resource (DTO)  | Representa una unidad                        | Id, Name, Abbreviation                                                                                   |
+| **TagResource**                               | Resource (DTO)  | Representa una etiqueta                      | Id, Name, Description                                                                                    |
+| **ComboResource**                             | Resource (DTO)  | Representa un combo                          | Id, Name, Description, Price                                                                             |
+| **CreateComboResource**                       | Resource (DTO)  | Datos de entrada para crear combo            | Name, Description, Price                                                                                 |
+| **CreateProductCommandFromResourceAssembler** | Assembler       | Convierte recurso a comando                  | ToCommandFromResource(CreateProductResource)                                                             |
+| **UpdateProductCommandFromResourceAssembler** | Assembler       | Convierte recurso a comando                  | ToCommandFromResource(UpdateProductResource)                                                             |
+| **ProductResourceFromEntityAssembler**        | Assembler       | Convierte entidad a recurso DTO              | ToResourceFromEntity(Product)                                                                            |
+| **ProductsController**                        | REST Controller | Expone endpoints de productos                | GetProductById, CreateProduct, GetAllProducts, GetProductsByCategory, GetProductsByTag                   |
+| **UnitsController**                           | REST Controller | Expone endpoints de unidades                 | GetAllUnits                                                                                              |
+| **TagsController**                            | REST Controller | Expone endpoints de etiquetas                | GetAllTags                                                                                               |
+| **CombosController**                          | REST Controller | Expone endpoints de combos                   | GetComboById, CreateCombo, GetAllCombos                                                                  |
 
+---
+
+### 2.6.4.4. Infrastructure Layer
+
+| Clase                  | Tipo                      | Propósito                                    | Atributos / Métodos                                                                                                                                                      |
+| ---------------------- | ------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **ProductRepository**  | Repository Implementation | Implementación acceso a productos (EF Core)  | context, FindProductByNameAsync, FindAllProductsAsync, FindProductsByCategoryAsync, FindProductsByTagAsync, FindProductsByPriceRangeAsync, FindProductWithRelationsAsync |
+| **CategoryRepository** | Repository Implementation | Implementación acceso a categorías (EF Core) | context, FindCategoryByNameAsync, FindAllCategoriesAsync                                                                                                                 |
+| **UnitRepository**     | Repository Implementation | Implementación acceso a unidades (EF Core)   | context, FindUnitByNameAsync, FindAllUnitsAsync                                                                                                                          |
+| **TagRepository**      | Repository Implementation | Implementación acceso a etiquetas (EF Core)  | context, FindTagByNameAsync, FindAllTagsAsync, FindTagsByIdsAsync                                                                                                        |
+| **ComboRepository**    | Repository Implementation | Implementación acceso a combos (EF Core)     | context, FindComboByNameAsync, FindAllCombosAsync                                                                                                                        |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2547,7 +2573,6 @@ _Imagen (N°61). Elaboración propia._
 </div>
 
 _Imagen (N°62). Elaboración propia. Realizado en Structurizr_
-
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2559,7 +2584,6 @@ _Imagen (N°62). Elaboración propia. Realizado en Structurizr_
 
 _Imagen (N°63). Elaboración propia._
 
-
 ###### Domain: Model
 
 <div align="center">
@@ -2567,7 +2591,6 @@ _Imagen (N°63). Elaboración propia._
 </div>
 
 _Imagen (N°64). Elaboración propia._
-
 
 ###### Domain: Services
 
@@ -2577,74 +2600,72 @@ _Imagen (N°64). Elaboración propia._
 
 _Imagen (N°65). Elaboración propia._
 
-
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ### 2.6.5. Bounded Context: Reports Context
 
-### 2.6.5.1. Domain Layer  
+### 2.6.5.1. Domain Layer
 
-| Clase/Interfaz | Tipo | Propósito | Atributos / Métodos |
-|----------------|------|-----------|----------------------|
-| **CategoryReport** | Aggregate Root (Entity) | Reporte de productos por categoría | Id, Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad, Total, CategoryReport(), CategoryReport(...), UpdateCantidad(int), UpdatePrecio(decimal) |
-| **StockAverageReport** | Aggregate Root (Entity) | Reporte de stock promedio por producto y categoría | Id, StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado, StockAverageReport(...) |
-| **ReportType** | Enum | Define el tipo de reporte | Category, StockAverage |
-| **ReportDate** | Value Object | Fecha de un reporte | Value, ReportDate(DateTime) |
-| **StockStatus** | Value Object | Estado de stock | Value, StockStatus(string) |
-| **ProductName** | Value Object | Nombre del producto | Value, ProductName(string) |
-| **CategoryName** | Value Object | Nombre de la categoría | Value, CategoryName(string) |
-| **CreateCategoryReportCommand** | Command | Crear reporte por categoría | Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad |
-| **CreateStockAverageReportCommand** | Command | Crear reporte de stock promedio | StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado |
-| **GetAllCategoryReportsQuery** | Query | Consultar todos los reportes de categoría | - |
-| **GetCategoryReportsByDateQuery** | Query | Consultar reportes de categoría por fecha | FechaConsulta |
-| **GetCategoryReportByIdQuery** | Query | Consultar reporte de categoría por Id | Id |
-| **GetAllStockAverageReportsQuery** | Query | Consultar todos los reportes de stock promedio | - |
-| **GetStockAverageReportsByDateQuery** | Query | Consultar reportes de stock promedio por fecha | FechaConsulta |
-| **GetStockAverageReportByIdQuery** | Query | Consultar reporte de stock promedio por Id | Id |
-| **ICategoryReportCommandService** | Domain Service (Interface) | Define contrato para comandos de reportes de categoría | Handle(CreateCategoryReportCommand) |
-| **ICategoryReportQueryService** | Domain Service (Interface) | Define contrato para consultas de reportes de categoría | Handle(GetAllCategoryReportsQuery), Handle(GetCategoryReportsByDateQuery), Handle(GetCategoryReportByIdQuery) |
-| **IStockAverageReportCommandService** | Domain Service (Interface) | Define contrato para comandos de reportes de stock promedio | Handle(CreateStockAverageReportCommand) |
-| **IStockAverageReportQueryService** | Domain Service (Interface) | Define contrato para consultas de reportes de stock promedio | Handle(GetAllStockAverageReportsQuery), Handle(GetStockAverageReportsByDateQuery) |
-| **ICategoryReportRepository** | Repository (Interface) | Acceso a reportes de categoría | FindAllAsync(), FindByDateAsync(DateTime), AddAsync(CategoryReport), FindByIdAsync(int) |
-| **IStockAverageReportRepository** | Repository (Interface) | Acceso a reportes de stock promedio | FindAllAsync(), FindByDateAsync(DateTime), AddAsync(StockAverageReport), FindByIdAsync(int) |
-
----
-
-### 2.6.5.2. Application Layer  
-
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **CategoryReportCommandService** | Application Service | Implementa comandos de reportes de categoría | repository, unitOfWork, Handle(CreateCategoryReportCommand) |
-| **StockAverageReportCommandService** | Application Service | Implementa comandos de reportes de stock promedio | repository, unitOfWork, Handle(CreateStockAverageReportCommand) |
-| **CategoryReportQueryService** | Application Service | Implementa consultas de reportes de categoría | repository, Handle(GetAllCategoryReportsQuery), Handle(GetCategoryReportsByDateQuery), Handle(GetCategoryReportByIdQuery) |
-| **StockAverageReportQueryService** | Application Service | Implementa consultas de reportes de stock promedio | repository, Handle(GetAllStockAverageReportsQuery), Handle(GetStockAverageReportsByDateQuery) |
+| Clase/Interfaz                        | Tipo                       | Propósito                                                    | Atributos / Métodos                                                                                                                                        |
+| ------------------------------------- | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **CategoryReport**                    | Aggregate Root (Entity)    | Reporte de productos por categoría                           | Id, Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad, Total, CategoryReport(), CategoryReport(...), UpdateCantidad(int), UpdatePrecio(decimal) |
+| **StockAverageReport**                | Aggregate Root (Entity)    | Reporte de stock promedio por producto y categoría           | Id, StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado, StockAverageReport(...)                                                         |
+| **ReportType**                        | Enum                       | Define el tipo de reporte                                    | Category, StockAverage                                                                                                                                     |
+| **ReportDate**                        | Value Object               | Fecha de un reporte                                          | Value, ReportDate(DateTime)                                                                                                                                |
+| **StockStatus**                       | Value Object               | Estado de stock                                              | Value, StockStatus(string)                                                                                                                                 |
+| **ProductName**                       | Value Object               | Nombre del producto                                          | Value, ProductName(string)                                                                                                                                 |
+| **CategoryName**                      | Value Object               | Nombre de la categoría                                       | Value, CategoryName(string)                                                                                                                                |
+| **CreateCategoryReportCommand**       | Command                    | Crear reporte por categoría                                  | Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad                                                                                               |
+| **CreateStockAverageReportCommand**   | Command                    | Crear reporte de stock promedio                              | StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado                                                                                      |
+| **GetAllCategoryReportsQuery**        | Query                      | Consultar todos los reportes de categoría                    | -                                                                                                                                                          |
+| **GetCategoryReportsByDateQuery**     | Query                      | Consultar reportes de categoría por fecha                    | FechaConsulta                                                                                                                                              |
+| **GetCategoryReportByIdQuery**        | Query                      | Consultar reporte de categoría por Id                        | Id                                                                                                                                                         |
+| **GetAllStockAverageReportsQuery**    | Query                      | Consultar todos los reportes de stock promedio               | -                                                                                                                                                          |
+| **GetStockAverageReportsByDateQuery** | Query                      | Consultar reportes de stock promedio por fecha               | FechaConsulta                                                                                                                                              |
+| **GetStockAverageReportByIdQuery**    | Query                      | Consultar reporte de stock promedio por Id                   | Id                                                                                                                                                         |
+| **ICategoryReportCommandService**     | Domain Service (Interface) | Define contrato para comandos de reportes de categoría       | Handle(CreateCategoryReportCommand)                                                                                                                        |
+| **ICategoryReportQueryService**       | Domain Service (Interface) | Define contrato para consultas de reportes de categoría      | Handle(GetAllCategoryReportsQuery), Handle(GetCategoryReportsByDateQuery), Handle(GetCategoryReportByIdQuery)                                              |
+| **IStockAverageReportCommandService** | Domain Service (Interface) | Define contrato para comandos de reportes de stock promedio  | Handle(CreateStockAverageReportCommand)                                                                                                                    |
+| **IStockAverageReportQueryService**   | Domain Service (Interface) | Define contrato para consultas de reportes de stock promedio | Handle(GetAllStockAverageReportsQuery), Handle(GetStockAverageReportsByDateQuery)                                                                          |
+| **ICategoryReportRepository**         | Repository (Interface)     | Acceso a reportes de categoría                               | FindAllAsync(), FindByDateAsync(DateTime), AddAsync(CategoryReport), FindByIdAsync(int)                                                                    |
+| **IStockAverageReportRepository**     | Repository (Interface)     | Acceso a reportes de stock promedio                          | FindAllAsync(), FindByDateAsync(DateTime), AddAsync(StockAverageReport), FindByIdAsync(int)                                                                |
 
 ---
 
-### 2.6.5.3. Interface Layer  
+### 2.6.5.2. Application Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **GeneralReportResource** | Resource (DTO) | Representa todos los reportes (categoría y stock promedio) | CategoryReports, StockAverageReports |
-| **CategoryReportResource** | Resource (DTO) | Representa reporte de categoría en respuestas | Id, Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad, Total |
-| **StockAverageReportResource** | Resource (DTO) | Representa reporte de stock promedio en respuestas | Id, StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado |
-| **CreateCategoryReportResource** | Resource (DTO) | Datos de entrada para crear un reporte de categoría | Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad |
-| **CreateStockAverageReportResource** | Resource (DTO) | Datos de entrada para crear un reporte de stock promedio | StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado |
-| **CategoryReportResourceAssembler** | Assembler | Convierte entidad CategoryReport en DTO | ToResource(CategoryReport) |
-| **StockAverageReportResourceAssembler** | Assembler | Convierte entidad StockAverageReport en DTO | ToResource(StockAverageReport) |
-| **CreateCategoryReportCommandAssembler** | Assembler | Convierte recurso en comando | ToCommand(CreateCategoryReportResource) |
-| **CreateStockAverageReportCommandAssembler** | Assembler | Convierte recurso en comando | ToCommand(CreateStockAverageReportResource) |
-| **ReportController** | REST Controller | Expone endpoints para reportes | GetAllReports(), CreateCategory(CreateCategoryReportResource), GetAllCategoryReports(), GetCategoryReportById(int), GetCategoryByDate(DateTime), CreateStockAverage(CreateStockAverageReportResource), GetAllStockAverageReports(), GetStockAverageReportById(int), GetStockAverageByDate(DateTime) |
+| Clase                                | Tipo                | Propósito                                          | Atributos / Métodos                                                                                                       |
+| ------------------------------------ | ------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **CategoryReportCommandService**     | Application Service | Implementa comandos de reportes de categoría       | repository, unitOfWork, Handle(CreateCategoryReportCommand)                                                               |
+| **StockAverageReportCommandService** | Application Service | Implementa comandos de reportes de stock promedio  | repository, unitOfWork, Handle(CreateStockAverageReportCommand)                                                           |
+| **CategoryReportQueryService**       | Application Service | Implementa consultas de reportes de categoría      | repository, Handle(GetAllCategoryReportsQuery), Handle(GetCategoryReportsByDateQuery), Handle(GetCategoryReportByIdQuery) |
+| **StockAverageReportQueryService**   | Application Service | Implementa consultas de reportes de stock promedio | repository, Handle(GetAllStockAverageReportsQuery), Handle(GetStockAverageReportsByDateQuery)                             |
 
 ---
 
-### 2.6.5.4. Infrastructure Layer  
+### 2.6.5.3. Interface Layer
 
-| Clase | Tipo | Propósito | Atributos / Métodos |
-|-------|------|-----------|----------------------|
-| **CategoryReportRepository** | Repository Implementation | Implementación EF Core para reportes de categoría | context, FindAllAsync(), FindByDateAsync(DateTime), AddAsync(CategoryReport), FindByIdAsync(int) |
+| Clase                                        | Tipo            | Propósito                                                  | Atributos / Métodos                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------- | --------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **GeneralReportResource**                    | Resource (DTO)  | Representa todos los reportes (categoría y stock promedio) | CategoryReports, StockAverageReports                                                                                                                                                                                                                                                                |
+| **CategoryReportResource**                   | Resource (DTO)  | Representa reporte de categoría en respuestas              | Id, Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad, Total                                                                                                                                                                                                                             |
+| **StockAverageReportResource**               | Resource (DTO)  | Representa reporte de stock promedio en respuestas         | Id, StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado                                                                                                                                                                                                                           |
+| **CreateCategoryReportResource**             | Resource (DTO)  | Datos de entrada para crear un reporte de categoría        | Categoria, Producto, FechaConsulta, PrecioUnitario, Cantidad                                                                                                                                                                                                                                        |
+| **CreateStockAverageReportResource**         | Resource (DTO)  | Datos de entrada para crear un reporte de stock promedio   | StockPromedio, Categoria, Producto, FechaConsulta, StockIdeal, Estado                                                                                                                                                                                                                               |
+| **CategoryReportResourceAssembler**          | Assembler       | Convierte entidad CategoryReport en DTO                    | ToResource(CategoryReport)                                                                                                                                                                                                                                                                          |
+| **StockAverageReportResourceAssembler**      | Assembler       | Convierte entidad StockAverageReport en DTO                | ToResource(StockAverageReport)                                                                                                                                                                                                                                                                      |
+| **CreateCategoryReportCommandAssembler**     | Assembler       | Convierte recurso en comando                               | ToCommand(CreateCategoryReportResource)                                                                                                                                                                                                                                                             |
+| **CreateStockAverageReportCommandAssembler** | Assembler       | Convierte recurso en comando                               | ToCommand(CreateStockAverageReportResource)                                                                                                                                                                                                                                                         |
+| **ReportController**                         | REST Controller | Expone endpoints para reportes                             | GetAllReports(), CreateCategory(CreateCategoryReportResource), GetAllCategoryReports(), GetCategoryReportById(int), GetCategoryByDate(DateTime), CreateStockAverage(CreateStockAverageReportResource), GetAllStockAverageReports(), GetStockAverageReportById(int), GetStockAverageByDate(DateTime) |
+
+---
+
+### 2.6.5.4. Infrastructure Layer
+
+| Clase                            | Tipo                      | Propósito                                              | Atributos / Métodos                                                                                  |
+| -------------------------------- | ------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| **CategoryReportRepository**     | Repository Implementation | Implementación EF Core para reportes de categoría      | context, FindAllAsync(), FindByDateAsync(DateTime), AddAsync(CategoryReport), FindByIdAsync(int)     |
 | **StockAverageReportRepository** | Repository Implementation | Implementación EF Core para reportes de stock promedio | context, FindAllAsync(), FindByDateAsync(DateTime), AddAsync(StockAverageReport), FindByIdAsync(int) |
-
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2653,7 +2674,6 @@ _Imagen (N°65). Elaboración propia._
 </div>
 
 _Imagen (N°66). Elaboración propia. Realizado en Structurizr_
-
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2667,7 +2687,6 @@ _Imagen (N°66). Elaboración propia. Realizado en Structurizr_
 
 _Imagen (N°67). Elaboración propia._
 
-
 ###### Domain: Services
 
 <div align="center">
@@ -2675,7 +2694,6 @@ _Imagen (N°67). Elaboración propia._
 </div>
 
 _Imagen (N°68). Elaboración propia._
-
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
@@ -2685,13 +2703,16 @@ _Imagen (N°68). Elaboración propia._
 
 _Imagen (N°69). Elaboración propia._
 
-
 # Capítulo III: Solution UI/UX Design
+
 ## 3.1. Product design
+
 ### 3.1.1. Style Guidelines
+
 Un "style guideline" o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software, o cualquier otro tipo de trabajo creativo. A continuación, se otorga especificación a los parámetros implementados en la estructura del proyecto:
 
 #### 3.1.1.1. General Style Guidelines
+
 **Branding**
 
 StockWise es una marca pensada para ofrecer confianza, cercanía y eficiencia a pequeñas y medianas empresas, especialmente bodegas de barrio y emprendimientos. El branding refleja accesibilidad, modernidad y calidez. El enfoque está en facilitar la transformación digital de la gestión de inventarios con una interfaz clara, amigable y funcional.
@@ -2708,9 +2729,9 @@ El código de barras integrado representa la gestión estructurada y la automati
 <center> <img src="assets/Chapter-3/logo.png" style="width: 250px;"/> </center>
 <br>
 
-**Tono de comunicación** 
+**Tono de comunicación**
 
-Nos comunicamos como lo haría un buen amigo del barrio, claro, sin complicaciones, y con buena onda.  Queremos transmitir una sensación de seguridad y eficiencia, mientras mantenemos una comunicación cercana y amigable.
+Nos comunicamos como lo haría un buen amigo del barrio, claro, sin complicaciones, y con buena onda. Queremos transmitir una sensación de seguridad y eficiencia, mientras mantenemos una comunicación cercana y amigable.
 
 **Lenguaje (Language):**
 
@@ -2721,15 +2742,18 @@ Usamos términos fáciles de entender: “productos”, “alertas”, “entrad
 La paleta de colores de StockWise ha sido cuidadosamente seleccionada para transmitir profesionalismo, confianza y accesibilidad.
 
 **Primary Colors:**
+
 - #BC162A (Rojo intenso): Botones principales, acciones críticas, alertas importantes
 - #EE7F27 (Naranja vibrante): Botones secundarios, estados activos, notificaciones
 - #302325 (Marrón oscuro): Texto principal, headers, elementos de navegación
 
 **Background Colors:**
+
 - #F5E1A4 (Fondo cálido claro): Fondo general de la aplicación
 - #D9D593 (Gris suave): Fondos de secciones, cards secundarios
 
 **Functional Colors:**
+
 - #27A300 (Verde éxito): Confirmaciones, estados positivos
 - #FFC107 (Amarillo advertencia): Alertas moderadas, advertencias
 - #DC3545 (Rojo error): Estados de error, acciones destructivas
@@ -2742,10 +2766,12 @@ La paleta de colores de StockWise ha sido cuidadosamente seleccionada para trans
 La elección tipográfica para StockWise es un componente esencial que complementa la identidad visual de la marca. Se han seleccionado dos familias tipográficas que juntas ofrecen versatilidad y coherencia, asegurando que la comunicación sea clara y efectiva en todos los medios.
 
 **Font Families:**
+
 - Inter: Para textos largos, body copy y contenido principal
 - Nunito: Para headers, botones y elementos de interfaz
 
 **Font Scale (Mobile First):**
+
 - h1: 24px / 1.1 / Bold
 - h2: 20px / 1.1 / SemiBold
 - h3: 18px / 1.2 / Medium
@@ -2755,6 +2781,7 @@ La elección tipográfica para StockWise es un componente esencial que complemen
 - Caption: 12px / 1.3 / Regular
 
 **Weights:**
+
 - Bold (700): Títulos principales, acciones críticas
 - SemiBold (600): Subtítulos, botones importantes
 - Medium (500): Etiquetas, elementos interactivos
@@ -2762,11 +2789,13 @@ La elección tipográfica para StockWise es un componente esencial que complemen
 - Light (300): Texto secundario, descripciones
 
 **Border Radius:**
+
 - Small: 8px (botones pequeños, inputs)
 - Medium: 12px (cards, modales)
 - Large: 16px (containers principales)
 
 **Spacing System (8px base):**
+
 - xs: 4px
 - sm: 8px
 - md: 16px
@@ -2775,13 +2804,17 @@ La elección tipográfica para StockWise es un componente esencial que complemen
 - xxl: 48px
 
 **Shadows:**
+
 - Low: 0 2px 4px rgba(48, 35, 37, 0.1)
 - Medium: 0 4px 8px rgba(48, 35, 37, 0.15)
 - High: 0 8px 16px rgba(48, 35, 37, 0.2)
 
 ### 3.1.2. Information Architecture
+
 La arquitectura de la información, también conocida como Information Architecture (IA), implica la organización de la información de manera clara y lógica, de modo que los usuarios puedan comprender su ubicación, lo que han descubierto, qué pueden esperar y qué está disponible a su alrededor. Esto tiene como objetivo permitir a los usuarios encontrar con facilidad lo que están buscando, y a los clientes, comprender las capacidades de la plataforma. Además, la arquitectura de la información posibilita la incorporación de nuevas funciones y la expansión del producto sin generar una estructura compleja o de difícil comprensión (Rosenfeld, Morville & Arango 2015).
+
 #### 3.1.2.1. Organization Systems
+
 La interfaz se divide en módulos bien definidos, accesibles desde un panel de navegación estructurado jerárquicamente. Estos módulos incluyen: Inicio, Home, Inventario y Configuración. Cada sección agrupa funciones específicas según su propósito, permitiendo que las tareas clave estén siempre al alcance del usuario.
 
 # 3.1.2.1. Organization Systems
@@ -2790,41 +2823,44 @@ La arquitectura de organización de StockWise está diseñada siguiendo principi
 
 **Estructura Organizacional Principal**
 
-| Módulo | Descripción | Funciones Principales | Acceso por Rol |
-|--------|-------------|---------------------|----------------|
-| **Dashboard Principal** | Vista consolidada del estado del inventario y métricas clave | - Resumen ejecutivo de stock<br>- Alertas prioritarias<br>- Acciones rápidas<br>- Métricas en tiempo real | Admin, Encargado |
-| **Gestión de Inventario** | Núcleo operativo para administración completa de productos | - Registro y edición de productos<br>- Control de niveles de stock<br>- Categorización y etiquetado<br>- Gestión de ubicaciones físicas | Admin, Encargado, Empleado |
-| **Operaciones Diarias** | Módulo para transacciones y movimientos regulares | - Registro de entradas/salidas<br>- Ajustes de inventario<br>- Historial de movimientos<br>- Devoluciones y mermas | Admin, Encargado, Empleado |
-| **Reportes y Analytics** | Sistema de generación y visualización de datos | - Reportes personalizados<br>- Análisis de tendencias<br>- Métricas de rendimiento<br>- Exportación de datos | Admin, Encargado |
-| **Configuración del Sistema** | Administración de preferencias y usuarios | - Gestión de perfiles de usuario<br>- Configuración de empresa<br>- Preferencias de notificaciones<br>- Backup y seguridad | Admin |
+| Módulo                        | Descripción                                                  | Funciones Principales                                                                                                                   | Acceso por Rol             |
+| ----------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| **Dashboard Principal**       | Vista consolidada del estado del inventario y métricas clave | - Resumen ejecutivo de stock<br>- Alertas prioritarias<br>- Acciones rápidas<br>- Métricas en tiempo real                               | Admin, Encargado           |
+| **Gestión de Inventario**     | Núcleo operativo para administración completa de productos   | - Registro y edición de productos<br>- Control de niveles de stock<br>- Categorización y etiquetado<br>- Gestión de ubicaciones físicas | Admin, Encargado, Empleado |
+| **Operaciones Diarias**       | Módulo para transacciones y movimientos regulares            | - Registro de entradas/salidas<br>- Ajustes de inventario<br>- Historial de movimientos<br>- Devoluciones y mermas                      | Admin, Encargado, Empleado |
+| **Reportes y Analytics**      | Sistema de generación y visualización de datos               | - Reportes personalizados<br>- Análisis de tendencias<br>- Métricas de rendimiento<br>- Exportación de datos                            | Admin, Encargado           |
+| **Configuración del Sistema** | Administración de preferencias y usuarios                    | - Gestión de perfiles de usuario<br>- Configuración de empresa<br>- Preferencias de notificaciones<br>- Backup y seguridad              | Admin                      |
 
 **Principios de Organización Aplicados**
 
 1. **Agrupación por Funcionalidad**
-Las características se organizan según su propósito común, facilitando la asociación mental y reduciendo la carga cognitiva.
+   Las características se organizan según su propósito común, facilitando la asociación mental y reduciendo la carga cognitiva.
 
 1. **Jerarquía Visual Progresiva**
-La información se presenta desde lo general hacia lo específico, permitiendo drill-down controlado según las necesidades del usuario.
+   La información se presenta desde lo general hacia lo específico, permitiendo drill-down controlado según las necesidades del usuario.
 
 1. **Contextualización Dinámica**
-Las opciones disponibles se adaptan según el rol del usuario y el módulo activo, mostrando solo las funciones relevantes.
+   Las opciones disponibles se adaptan según el rol del usuario y el módulo activo, mostrando solo las funciones relevantes.
 
 1. **Consistencia Transversal**
-Mismos patrones organizativos se aplican en todos los módulos, creando una experiencia unificada y predecible.
+   Mismos patrones organizativos se aplican en todos los módulos, creando una experiencia unificada y predecible.
 
 **Organización de Contenido por Módulo**
 
 **Módulo de Inventario**
+
 - **Agrupación Primaria:** Por estado de stock (Normal, Bajo, Crítico)
 - **Agrupación Secundaria:** Por categorías de producto
 - **Agrupación Terciaria:** Por ubicación física en bodega
 
 **Módulo de Reportes**
+
 - **Agrupación Temporal:** Diario, Semanal, Mensual
 - **Agrupación por Métrica:** Ventas, Stock, Rentabilidad
 - **Agrupación por Producto:** Individual, Por categoría, Global
 
 #### 3.1.2.2. Labelling Systems
+
 El sistema de etiquetado en StockWise sigue principios de claridad, consistencia y contexto, asegurando que los usuarios comprendan inmediatamente la función de cada elemento.
 
 **Principios de Etiquetado:**
@@ -2837,6 +2873,7 @@ El sistema de etiquetado en StockWise sigue principios de claridad, consistencia
 **Sistema de Iconografía:**
 
 - **Acciones Principales:**
+
   - ➕ Agregar/Registrar
   - ✏️ Editar/Modificar
   - 🗑️ Eliminar/Descartar
@@ -2844,6 +2881,7 @@ El sistema de etiquetado en StockWise sigue principios de claridad, consistencia
   - 📤 Exportar/Compartir
 
 - **Módulos y Secciones:**
+
   - 📊 Dashboard - Vista general
   - 📦 Inventario - Gestión de productos
   - 🔄 Movimientos - Entradas y salidas
@@ -2864,15 +2902,16 @@ El sistema de etiquetado en StockWise sigue principios de claridad, consistencia
 - **Guías Contextuales:** "Usa el código de barras para buscar más rápido"
 
 #### 3.1.2.3. SEO Tags and Meta Tags
+
 **SEO Tags**
 
-SEO (Search Engine Optimization) Tags son elementos de HTML que ayudan a los motores de búsqueda a entender el contenido y la estructura de una página web. Estos tags influyen en cómo los motores de búsqueda indexan y clasifican tu sitio en los resultados de búsqueda. 
+SEO (Search Engine Optimization) Tags son elementos de HTML que ayudan a los motores de búsqueda a entender el contenido y la estructura de una página web. Estos tags influyen en cómo los motores de búsqueda indexan y clasifican tu sitio en los resultados de búsqueda.
 
-**Algunos ejemplos importantes de SEO Tags  para StockWise:**
+**Algunos ejemplos importantes de SEO Tags para StockWise:**
 
 **Title Tags para Páginas Principales:**
 
-``` html
+```html
 <!-- Página de Inicio -->
 <title>StockWise - App de Gestión de Inventarios para PYMES</title>
 
@@ -2884,26 +2923,40 @@ SEO (Search Engine Optimization) Tags son elementos de HTML que ayudan a los mot
 ```
 
 **Header Tags Estructurados:**
-``` html
+
+```html
 <h1>Gestiona Tu Inventario desde tu Móvil</h1>
 <h2>La solución simple para negocios en crecimiento</h2>
 <h3>Control total de tu stock en tiempo real</h3>
 ```
 
 **Meta Descriptions Optimizadas:**
-``` html
-<meta name="description" content="StockWise - App móvil de gestión de inventarios para PYMES. Controla stock, genera reportes y evita quiebres de inventario desde tu teléfono.">
 
-<meta name="keywords" content="gestión inventarios, app móvil, control stock, PYMES, bodegas, emprendedores">
-``` 
+```html
+<meta
+  name="description"
+  content="StockWise - App móvil de gestión de inventarios para PYMES. Controla stock, genera reportes y evita quiebres de inventario desde tu teléfono."
+/>
+
+<meta
+  name="keywords"
+  content="gestión inventarios, app móvil, control stock, PYMES, bodegas, emprendedores"
+/>
+```
+
 **Open Graph Tags para Redes Sociales:**
-``` html
-<meta property="og:title" content="StockWise - App de Inventarios">
-<meta property="og:description" content="Gestiona tu inventario desde cualquier lugar con StockWise">
-<meta property="og:image" content="/images/stockwise-social-preview.png">
-``` 
+
+```html
+<meta property="og:title" content="StockWise - App de Inventarios" />
+<meta
+  property="og:description"
+  content="Gestiona tu inventario desde cualquier lugar con StockWise"
+/>
+<meta property="og:image" content="/images/stockwise-social-preview.png" />
+```
 
 #### 3.1.2.4. Searching Systems
+
 El sistema de búsqueda de StockWise está diseñado para ser intuitivo y potente, permitiendo a los usuarios encontrar rápidamente la información que necesitan en su inventario.
 
 **Características del Sistema de Búsqueda:**
@@ -2924,14 +2977,17 @@ El sistema de búsqueda de StockWise está diseñado para ser intuitivo y potent
   - Procesamiento offline con sincronización posterior
 
 #### 3.1.2.5. Navigation Systems
+
 El sistema de navegación de StockWise está optimizado para dispositivos móviles, priorizando la accesibilidad y la eficiencia en las tareas diarias.
 
 **Patrones de Navegación Principal:**
 
 **Bottom Navigation Bar:**
-``` text
+
+```text
 [🏠 Inicio]  [📦 Inventario]  [➕ Agregar]  [📊 Reportes]  [👤 Perfil]
-``` 
+```
+
 **Navegación por Gestos:**
 
 - Deslizar hacia la derecha: Menú lateral
@@ -2954,7 +3010,9 @@ El sistema de navegación de StockWise está optimizado para dispositivos móvil
 - Alto contraste y modos de daltonismo
 
 ### 3.1.3. Landing Page UI Design
+
 #### 3.1.3.1. Landing Page Wireframe
+
 El prototipado de la landing page cuenta diversas secciones:
 
 - Header: Incluye botones para facilitar la navegación
@@ -2966,10 +3024,11 @@ El prototipado de la landing page cuenta diversas secciones:
 - Footer: Sección que da fin a la landing page, cuenta con las redes sociales de la plataforma.
 
 **Wireframe Desktop**
+
 <center> <img src="assets/Chapter-3/Wireframe-Desktop.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 70). Elaboración propia. Realizado en Figma*
+_Imagen (N° 70). Elaboración propia. Realizado en Figma_
 
 **Wireframe Mobile**
 
@@ -2978,14 +3037,16 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 <center> <img src="assets/Chapter-3/Wireframe - Mobile.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 71). Elaboración propia. Realizado en Figma*
+_Imagen (N° 71). Elaboración propia. Realizado en Figma_
 
 #### 3.1.3.2. Landing Page Mock-up
+
 **Wireframe Desktop**
+
 <center> <img src="assets/Chapter-3/Mockup-Desktop.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 72). Elaboración propia. Realizado en Figma*
+_Imagen (N° 72). Elaboración propia. Realizado en Figma_
 
 **Wireframe Mobile**
 
@@ -2994,10 +3055,12 @@ En la versión mobile el navbar se reemplaza por un menu desplegable.
 <center> <img src="assets/Chapter-3/Mockup - Mobile.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 74). Elaboración propia. Realizado en Figma*
+_Imagen (N° 74). Elaboración propia. Realizado en Figma_
 
 ### 3.1.4. Mobile Applications UX/UI Design
+
 #### 3.1.4.1. Mobile Applications Wireframes
+
 Los wireframes ayudan a los diseñadores y desarrolladores a planificar la arquitectura y la funcionalidad de la aplicación, permitiendo visualizar cómo los usuarios interactuarán con ella. Son esenciales en las primeras etapas de desarrollo, ya que facilitan la comunicación de ideas, la identificación de problemas potenciales y la alineación de todos los involucrados en el proyecto antes de pasar al diseño detallado y la programación.
 
 **Iniciar sesión**
@@ -3007,7 +3070,7 @@ La siguiente imagen evidencia el wireframe de la sección de “inicio de sesió
 <center> <img src="assets/Chapter-3/Inicio de sesión.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 75). Elaboración propia. Realizado en Figma*
+_Imagen (N° 75). Elaboración propia. Realizado en Figma_
 
 **Crear cuenta**
 
@@ -3016,7 +3079,7 @@ La siguiente imagen presenta la sección de “registro de usuario”, a través
 <center> <img src="assets/Chapter-3/Registro.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 76). Elaboración propia. Realizado en Figma*
+_Imagen (N° 76). Elaboración propia. Realizado en Figma_
 
 **Elegir plan de pago**
 
@@ -3025,7 +3088,7 @@ La siguiente imagen presenta la sección “Elegir plan de pago”, la cual desp
 <center> <img src="assets/Chapter-3/Seleccionar plan.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 77). Elaboración propia. Realizado en Figma*
+_Imagen (N° 77). Elaboración propia. Realizado en Figma_
 
 **Pasarela de pagos**
 
@@ -3034,25 +3097,25 @@ La siguiente imagen corresponde a la sección “Pasarela de pagos” donde los 
 <center> <img src="assets/Chapter-3/Pago.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 78). Elaboración propia. Realizado en Figma*
+_Imagen (N° 78). Elaboración propia. Realizado en Figma_
 
 **Mi perfil**
 
 La sección titulada “Mi perfil” solicita al usuario que complete información en dos categorías para registrar sus datos. Adicionalmente, la categoría "cambiar cuenta" ofrece la opción de permitir al usuario cambiar de cuenta a una de empleador y utilizar las herramientas de este por la plataforma. Tambien, tiene libertad de cambiar el plan si es necesario.
 
-*Perfil Administrador*
+_Perfil Administrador_
 
 En este perfil, el usuario puede ver a la derecha sus herramientas correpondientes a su cuenta.
 
 <center> <img src="assets/Chapter-3/Perfil.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 79). Elaboración propia. Realizado en Figma*
+_Imagen (N° 79). Elaboración propia. Realizado en Figma_
 
 <center> <img src="assets/Chapter-3/Perfil (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 80). Elaboración propia. Realizado en Figma*
+_Imagen (N° 80). Elaboración propia. Realizado en Figma_
 
 **Panel de control (Dashboard)**
 
@@ -3073,7 +3136,7 @@ Esta pantalla representa el panel de control principal del sistema StockWise. Su
 <center> <img src="assets/Chapter-3/Dashboard.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 81). Elaboración propia. Realizado en Figma*
+_Imagen (N° 81). Elaboración propia. Realizado en Figma_
 
 **Combinación de Productos en Kits**
 
@@ -3089,7 +3152,7 @@ Esta funcionalidad mejora la gestión del stock agrupado y permite optimizar est
 <center> <img src="assets/Chapter-3/Combinar Producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 82). Elaboración propia. Realizado en Figma*
+_Imagen (N° 82). Elaboración propia. Realizado en Figma_
 
 **Agregar Producto**
 
@@ -3106,7 +3169,7 @@ Esta pantalla permite visualizar todos los productos actualmente registrados en 
 <center> <img src="assets/Chapter-3/Agregar Producto (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 83). Elaboración propia. Realizado en Figma*
+_Imagen (N° 83). Elaboración propia. Realizado en Figma_
 
 **Registro de Nuevo Producto**
 
@@ -3124,9 +3187,9 @@ Una vez completado el formulario, se debe presionar "Guardar" para registrar el 
 <center> <img src="assets/Chapter-3/Agregar Producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 84). Elaboración propia. Realizado en Figma*
+_Imagen (N° 84). Elaboración propia. Realizado en Figma_
 
-*Edición Rápida de Producto*
+_Edición Rápida de Producto_
 
 Este modal aparece al hacer clic en “+ Detalle” sobre cualquier tarjeta de producto en la pantalla principal. Permite realizar modificaciones rápidas sobre un producto específico:
 
@@ -3140,7 +3203,7 @@ Incluye botones para “Duplicar” (crear una copia rápida del producto) y “
 <center> <img src="assets/Chapter-3/Agregar Producto (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 85). Elaboración propia. Realizado en Figma*
+_Imagen (N° 85). Elaboración propia. Realizado en Figma_
 
 **Historial de Movimientos**
 
@@ -3162,18 +3225,18 @@ Esta vista permite al usuario consultar todos los movimientos registrados en el 
 <center> <img src="assets/Chapter-3/Historial.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 86). Elaboración propia. Realizado en Figma*
+_Imagen (N° 86). Elaboración propia. Realizado en Figma_
 
-*Confirmación de Eliminación*
+_Confirmación de Eliminación_
 
 Al presionar el botón de eliminar, se despliega una ventana emergente de confirmación que advierte al usuario antes de borrar un registro del historial.
 
 <center> <img src="assets/Chapter-3/Historial Eliminar.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 87). Elaboración propia. Realizado en Figma*
+_Imagen (N° 87). Elaboración propia. Realizado en Figma_
 
-**Ticket Promedio**   
+**Ticket Promedio**
 
 Al seleccionar “Stock Promedio” como tipo de gestión, se habilita el acceso al cálculo de Ticket Promedio, que estima el valor promedio de venta por unidad en un rango de fechas. Este recurso permite realizar un análisis financiero rápido sobre el comportamiento de productos específicos.
 
@@ -3190,7 +3253,7 @@ Al seleccionar “Stock Promedio” como tipo de gestión, se habilita el acceso
 <center> <img src="assets/Chapter-3/Historial Ticket Promedio.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 88). Elaboración propia. Realizado en Figma*
+_Imagen (N° 88). Elaboración propia. Realizado en Figma_
 
 **Pantalla principal de Inventario por Lote**
 
@@ -3214,16 +3277,16 @@ Esta pantalla permite la visualización y gestión del inventario agrupado por l
 <center> <img src="assets/Chapter-3/Inventario por lote.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 89). Elaboración propia. Realizado en Figma*
+_Imagen (N° 89). Elaboración propia. Realizado en Figma_
 
-*Busqueda Avanzada* 
+_Busqueda Avanzada_
 
 <center> <img src="assets/Chapter-3/Inventario por lote (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 90). Elaboración propia. Realizado en Figma*
+_Imagen (N° 90). Elaboración propia. Realizado en Figma_
 
-*Pantalla de Comentarios del Lote* 
+_Pantalla de Comentarios del Lote_
 
 Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar notas asociadas a un producto, útiles para incidencias, condiciones especiales del lote o instrucciones de seguimiento.
 
@@ -3236,16 +3299,16 @@ Este modal aparece al hacer clic en el icono de "Comentarios", permite dejar not
 <center> <img src="assets/Chapter-3/Inventario por lote (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 91). Elaboración propia. Realizado en Figma*
+_Imagen (N° 91). Elaboración propia. Realizado en Figma_
 
-*Pantalla de Exportación*
+_Pantalla de Exportación_
 
 Permite obtener un respaldo o trabajar fuera del sistema con los datos del inventario. Al dar click, saldra una ventana emergente con el ícono de exportación. Mostrara un texto “¿Deseas exportar en excel?” y botones de acción: “Volver” y “Continuar”.
 
 <center> <img src="assets/Chapter-3/Inventario expor.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 91). Elaboración propia. Realizado en Figma*
+_Imagen (N° 91). Elaboración propia. Realizado en Figma_
 
 **Pantalla de Inventario por Producto**
 
@@ -3269,9 +3332,9 @@ Visualización clara de todos los productos del inventario, con opción de filtr
 <center> <img src="assets/Chapter-3/Inventario por producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 92). Elaboración propia. Realizado en Figma*
+_Imagen (N° 92). Elaboración propia. Realizado en Figma_
 
-*Edición de Registro*
+_Edición de Registro_
 
 Facilita la actualización de datos en tiempo real, permitiendo mantener el inventario siempre actualizado y preciso.
 
@@ -3282,9 +3345,10 @@ Facilita la actualización de datos en tiempo real, permitiendo mantener el inve
 <center> <img src="assets/Chapter-3/Inventario por producto (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 93). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 93). Elaboración propia. Realizado en Figma_
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
 Los Mobile Applications Wireflow Diagrams son una combinación de wireframes y flujos de usuario (user flows) que ilustran no solo la estructura y disposición de las pantallas de una Mobile Application, sino también cómo los usuarios navegarán entre ellas. Estos diagramas proporcionan una visión detallada del recorrido del usuario, mostrando las interacciones clave y las transiciones de una pantalla a otra dentro de la aplicación.
 
 **User Goal: Registrar**
@@ -3302,28 +3366,30 @@ El usuario desea crear una nueva cuenta para comenzar a usar la plataforma y vin
 <center> <img src="assets/Chapter-3/user goal Registrar.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 94). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 94). Elaboración propia. Realizado en Figma_
 
 **User Goal: Iniciar sesión**
 
-El usuario accede al sistema mediante sus credenciales y se dirige a su panel principal de control.
+El usuario desea iniciar sesión en la plataforma utilizando sus credenciales para acceder a las funciones principales del sistema.
 
-1. El usuario introduce su correo electrónico y contraseña.
+**Flujo funcional:**
 
-2. Presiona el botón “Iniciar sesión”.
+1. El usuario ingresa su correo electrónico y contraseña.
+
+2. El usuario selecciona la opción “Iniciar sesión”.
 
 3. El sistema valida las credenciales ingresadas.
 
-4. Si son correctas, se muestra el Dashboard principal.
+4. Si las credenciales son correctas, el sistema autoriza el acceso y muestra el panel principal (Dashboard).
 
-5. Desde allí, puede acceder al Perfil y editar su información.
+5. Desde el panel principal, el usuario puede acceder al módulo de Perfil y editar su información personal.
 
-6. Si las credenciales son inválidas, aparece una ventana flotante con el mensaje “Correo o contraseña incorrectos”, permitiendo reintentar.
+6. Si las credenciales son incorrectas, el sistema muestra un mensaje de error: “Correo o contraseña incorrectos” y permite reintentar el acceso.
 
 <center> <img src="assets/Chapter-3/user goal Iniciar sesion.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 95). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 95). Elaboración propia. Realizado en Figma_
 
 **User Goal: Navegar por el Dashboard**
 
@@ -3338,9 +3404,11 @@ El usuario explora la vista principal para acceder a las herramientas clave del 
 <center> <img src="assets/Chapter-3/user goal Navegador por el dashboard.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 96). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 96). Elaboración propia. Realizado en Figma_
 
 **User Goal: Inventario (Producto / Lote)**
+
+El usuario explora la vista de inventario para acceder a sus productos y lotes.
 
 1. Ingresa a la sección de Inventario.
 2. Revisa el listado de productos presionando el botón "por producto".
@@ -3350,9 +3418,11 @@ El usuario explora la vista principal para acceder a las herramientas clave del 
 <center> <img src="assets/Chapter-3/user goal Inventario.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 97). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 97). Elaboración propia. Realizado en Figma_
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
+
+El usuario visualiza la pantalla de productos y kits para administrar adecuadamente sus productos y lotes.
 
 1. Pulsa el botón "Agregar Producto".
 2. Rellena los campos solicitados para registrar uno nuevo.
@@ -3368,7 +3438,7 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 <center> <img src="assets/Chapter-3/user goal Botones principales.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 98). Elaboración propia. Realizado en Figma*
+_Imagen (N° 98). Elaboración propia. Realizado en Figma_
 
 **User Goal: Historial de Movimientos**
 
@@ -3384,176 +3454,255 @@ En esta sección, selecciona productos existentes y los combina mediante el bot�
 <center> <img src="assets/Chapter-3/user goal Historial .png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 99). Elaboración propia. Realizado en Figma* 
-
+_Imagen (N° 99). Elaboración propia. Realizado en Figma_
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
 **Iniciar sesión**
+
 <center> <img src="assets/Chapter-3/Inicio de sesión (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 100). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 100). Elaboración propia. Realizado en Figma_
 
 **Crear cuenta**
+
 <center> <img src="assets/Chapter-3/Registro (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 101). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 101). Elaboración propia. Realizado en Figma_
 
 **Elegir plan de pago**
+
 <center> <img src="assets/Chapter-3/Seleccionar plan (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 102). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 102). Elaboración propia. Realizado en Figma_
 
 **Pasarela de pagos**
+
 <center> <img src="assets/Chapter-3/Pago (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 103). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 103). Elaboración propia. Realizado en Figma_
 
 **Mi perfil**
-*Perfil Administrador*
+_Perfil Administrador_
+
 <center> <img src="assets/Chapter-3/Perfil (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 104). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 104). Elaboración propia. Realizado en Figma_
 
 <center> <img src="assets/Chapter-3/Perfil ajustes.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 105). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 105). Elaboración propia. Realizado en Figma_
 
 **Panel de control (Dashboard)**
+
 <center> <img src="assets/Chapter-3/Dashboard (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 106). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 106). Elaboración propia. Realizado en Figma_
 
 **Combinación de Productos en Kits**
+
 <center> <img src="assets/Chapter-3/Combinar producto (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 107). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 107). Elaboración propia. Realizado en Figma_
 
 **Agregar Producto**
+
 <center> <img src="assets/Chapter-3/Agregar Producto (3).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 108). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 108). Elaboración propia. Realizado en Figma_
 
 **Registro de Nuevo Producto**
+
 <center> <img src="assets/Chapter-3/Registro Prodcuto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 109). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 109). Elaboración propia. Realizado en Figma_
 
-*Edición Rápida de Producto*
+_Edición Rápida de Producto_
+
 <center> <img src="assets/Chapter-3/Edicion Producto.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 110). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 110). Elaboración propia. Realizado en Figma_
 
 **Historial de Movimientos**
+
 <center> <img src="assets/Chapter-3/Historial (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 111). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 111). Elaboración propia. Realizado en Figma_
 
-*Confirmación de Eliminación*
+_Confirmación de Eliminación_
+
 <center> <img src="assets/Chapter-3/Historial Eliminar (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 112). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 112). Elaboración propia. Realizado en Figma_
 
-**Ticket Promedio**  
+**Ticket Promedio**
+
 <center> <img src="assets/Chapter-3/Historial Ticket Promedio (1).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 113). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 113). Elaboración propia. Realizado en Figma_
 
 **Pantalla principal de Inventario por Lote**
+
 <center> <img src="assets/Chapter-3/Inventario.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 114). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 114). Elaboración propia. Realizado en Figma_
 
-*Busqueda Avanzada*
+_Busqueda Avanzada_
+
 <center> <img src="assets/Chapter-3/Inventario Busqueda.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 115). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 115). Elaboración propia. Realizado en Figma_
 
-*Pantalla de Comentarios del Lote* 
+_Pantalla de Comentarios del Lote_
+
 <center> <img src="assets/Chapter-3/Inventario Comentario.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 116). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 116). Elaboración propia. Realizado en Figma_
 
-*Pantalla de Exportación*
+_Pantalla de Exportación_
+
 <center> <img src="assets/Chapter-3/Inventario Expo.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 117). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 117). Elaboración propia. Realizado en Figma_
 
 **Pantalla de Inventario por Producto**
+
 <center> <img src="assets/Chapter-3/Inventario por producto (2).png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 118). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 118). Elaboración propia. Realizado en Figma_
 
-*Edición de Registro*
+_Edición de Registro_
+
 <center> <img src="assets/Chapter-3/Inventario por producto edi.png" style="width: 420px;"/> </center>
 <br>
 
-*Imagen (N° 119). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 119). Elaboración propia. Realizado en Figma_
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 **User Goal: Registrar**
 
+El usuario desea crear una nueva cuenta para comenzar a usar la plataforma y vincular su método de pago según el plan seleccionado.
+
+1. El usuario selecciona la opción “Registrar” en la Landing Page.
+2. Ingresa los datos solicitados: correo electrónico, nombre y contraseña.
+3. Selecciona el tipo de plan.
+4. Si elige el Plan Negocio, completa los datos de la tarjeta y confirma el pago.
+5. El sistema valida la transacción.
+6. Si el pago es exitoso, se muestra una ventana flotante indicando “Pago realizado correctamente”.
+7. Si el pago falla, se muestra una alerta de error con el mensaje “No se pudo procesar el pago”.
+8. Finalmente, se redirige al usuario a la pantalla de Inicio de sesión.
+
 <center> <img src="assets/Chapter-3/Color user goal Registrar.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 120). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 120). Elaboración propia. Realizado en Figma_
 
 **User Goal: Iniciar sesión**
+
+El usuario desea iniciar sesión en la plataforma utilizando sus credenciales para acceder a las funciones principales del sistema.
+
+1. El usuario ingresa su correo electrónico y contraseña.
+2. El usuario selecciona la opción “Iniciar sesión”.
+3. El sistema valida las credenciales ingresadas.
+4. Si las credenciales son correctas, el sistema autoriza el acceso y muestra el panel principal (Dashboard).
+5. Desde el panel principal, el usuario puede acceder al módulo de Perfil y editar su información personal.
+6. Si las credenciales son incorrectas, el sistema muestra un mensaje de error: “Correo o contraseña incorrectos” y permite reintentar el acceso.
 
 <center> <img src="assets/Chapter-3/Color user goal Iniciar sesion.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 121). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 121). Elaboración propia. Realizado en Figma_
 
 **User Goal: Navegar por el Dashboard**
+
+El usuario explora la vista principal para acceder a las herramientas clave del sistema.
+
+1. El usuario accede al Dashboard después de iniciar sesión.
+2. Visualiza el total de productos registrados y fecha del último proveedor.
+3. Observa un resumen de productos próximos a caducar con stock y fecha.
+4. Accede a botones de acción rápida (Historial de Movimientos, Inventario, Agregar Productos, Kits y Devolución de productos)
+5. Selecciona cualquiera de las secciones para continuar su gestión.
 
 <center> <img src="assets/Chapter-3/Color user goal Navegador.png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 122). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 122). Elaboración propia. Realizado en Figma_
 
 **User Goal: Inventario (Producto / Lote)**
+
+El usuario explora la vista de inventario para acceder a sus productos y lotes.
+
+1. Ingresa a la sección de Inventario.
+2. Revisa el listado de productos presionando el botón "por producto".
+3. Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
+4. Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
 
 <center> <img src="assets/Chapter-3/Color user goal Inventario .png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 123). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 123). Elaboración propia. Realizado en Figma_
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
+
+El usuario visualiza la pantalla de productos y kits para administrar adecuadamente sus productos y lotes.
+
+1. Pulsa el botón "Agregar Producto".
+2. Rellena los campos solicitados para registrar uno nuevo.
+3. Pulsa el botón "Crear Kit".
+4. Combina productos existentes para crear un kit nuevo.
+5. El usuario pulsa el botón “Añadir Productos” desde el Dashboard.
+6. Visualiza una galería de productos existentes y accede a opciones para editarlos o duplicarlos.
+7. Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre,etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
+8. Desde el menú principal, también accede a la opción “Kits”.
+
+En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
 
 <center> <img src="assets/Chapter-3/Color user goal Botones principales .png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 124). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 124). Elaboración propia. Realizado en Figma_
 
 **User Goal: Historial de Movimientos**
+
+El usuario visualiza la pantalla de historial para evaluar sus movimientos de consumo de sus productos.
+
+1. Navega a la sección de Historial.
+2. Visualiza entradas y salidas de productos.
+3. Filtra movimientos por fecha, producto o lote.
+4. El usuario accede a la sección de Historial desde el panel principal.
+5. Filtra los registros por tipo de gestión, categoría, stock promedio y fecha.
+6. Visualiza los movimientos realizados, incluyendo datos como nombre del producto, fecha de consulta, precio unitario, cantidad y total.
+7. Consulta métricas como el stock promedio, estado del producto y stock ideal.
+8. Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
+
 
 <center> <img src="assets/Chapter-3/Color user goal Historial .png" style="width: 820px;"/> </center>
 <br>
 
-*Imagen (N° 125). Elaboración propia. Realizado en Figma* 
+_Imagen (N° 125). Elaboración propia. Realizado en Figma_
 
 #### 3.1.4.5. Mobile Applications Prototyping
+
 El apartado de Mobile Application Prototyping muestra el primer acercamiento visual e interactivo al diseño de la aplicación. A través del uso de herramientas de prototipado, se crean representaciones dinámicas que permiten simular la navegación, disposición de módulos y flujos de interacción del usuario antes de pasar a la fase de desarrollo.
 
 Durante este proceso, se estructuran pantallas clave como el login, panel de control, gestión de productos, movimientos de stock, generación de reportes y alertas de inventario. El objetivo es anticipar posibles mejoras de usabilidad y validar la propuesta funcional con los usuarios finales.
@@ -3562,115 +3711,126 @@ El prototipo también permite identificar ajustes necesarios en la experiencia d
 
 A continuación, se presenta el enlace para visualizar el video de navegación del prototipo interactivo:
 
-[![Demo](assets/Chapter-3/Inicio%20de%20sesión%20(1).png)](assets/Chapter-3/Grabación%20de%20pantalla%202025-10-09%20165528.mp4)
+[![Demo](<assets/Chapter-3/Inicio%20de%20sesión%20(1).png>)](assets/Chapter-3/Grabación%20de%20pantalla%202025-10-09%20165528.mp4)
 
 # Capítulo IV: Product Implementation & Validation
+
 En este apartado se resume todo el contenido recopilado, examinando los procedimientos a seguir y evaluando el estado emocional.
+
 ## 4. Product Implementation & Validation
+
 ### 4.1. Software Configuration Management
+
 En la siguiente sección se detalla la ruta de acceso de cada uno de los productos de software, facilitando a cualquier miembro del equipo el desarrollo de cada aspecto del trabajo:
+
 #### 4.1.1. Software Development Environment Configuration
-* **Android Studio:** Entorno de desarrollo.\
-![image](https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg)
-* **GitHub:** Repositorio colaborativo en la nube.\
-![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
-* **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
-![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
-* **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
-![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
-* **Visual Studio Code:** Entorno de desarrollo para diseño de base de datos.\
-![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
-* **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
-![image](https://hackmd.io/_uploads/BJ99okXeR.png)
+
+- **Android Studio:** Entorno de desarrollo.\
+  ![image](https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg)
+- **GitHub:** Repositorio colaborativo en la nube.\
+  ![image](https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1744774208192)
+- **Netifly:** Plataforma que facilita implementar despliegues sencillos para nuestras páginas web.\
+  ![image](https://cmscritic.com/ms-content/uploads/2023/11/netlifty-icon.png?format=auto&width=256)
+- **Vertabelo:** Plataforma colaborativa para la creación de diagramas de base de datos.\
+  ![image](https://hackmd.io/_uploads/r1BjjyQgC.png)
+- **Visual Studio Code:** Entorno de desarrollo para diseño de base de datos.\
+  ![image](https://hackmd.io/_uploads/Hy8d2y7lR.png)
+- **Figma:** Herramienta colaborativa que permite elaborar wireframes y mockups.\
+  ![image](https://hackmd.io/_uploads/BJ99okXeR.png)
 
 #### 4.1.2. Source Code Management
-**Repositorio de la Landing Page:** 
+
+**Repositorio de la Landing Page:**
 
 **Implementación de GitFlow:**
 
 Para nuestra estrategia de gestión de versiones con Git, nos hemos inspirado en el artículo "A successful Git branching model" de Vincent Driessen, adoptando el modelo de ramificación GitFlow. Este enfoque nos permite establecer claramente las convenciones de ramificación que aplicamos en nuestro proyecto.
 
 ![image](https://hackmd.io/_uploads/rJt95BobA.png)
-* **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
-    * Notación: main
-* **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
-    * Notación: develop
-* **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
-    * Debe derivarse de: develop
-    * Debe fusionarse con: develop y master/main
-    * Notación: release
-* **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
-    * Debe derivarse de: develop
-    * Debe fusionarse de vuelta a: develop
-    * Notación: feature
-* **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
-    * Debe derivarse de: master/main
-    * Debe fusionarse con: develop y master/main
-    * Notación: hotfix
 
-**Conventional Commits:** 
+- **Rama Principal (Main branch):** Contiene el código en producción y se conoce como la Master branch o Main branch.
+  - Notación: main
+- **Rama de Desarrollo (Develop branch):** Acumula las últimas actualizaciones y cambios para la próxima versión. Funciona como un entorno de integración y prueba continua.
+  - Notación: develop
+- **Rama de Lanzamiento (Release branch):** Facilita la preparación de una nueva versión del producto, permitiendo correcciones de errores y recibiendo más actualizaciones de Develop.
+  - Debe derivarse de: develop
+  - Debe fusionarse con: develop y master/main
+  - Notación: release
+- **Rama de Características (Feature branch):** Se utiliza para desarrollar nuevas funcionalidades para la siguiente versión o futuras iteraciones.
+  - Debe derivarse de: develop
+  - Debe fusionarse de vuelta a: develop
+  - Notación: feature
+- **Rama de Corrección Rápida (Hotfix branch):** Aborda errores críticos en producción, permitiendo la implementación rápida de soluciones.
+  - Debe derivarse de: master/main
+  - Debe fusionarse con: develop y master/main
+  - Notación: hotfix
+
+**Conventional Commits:**
 Adoptamos esta metodología para estructurar los mensajes de confirmación de cambios de manera estándar y semántica, lo que facilita la comunicación y la automatización de registros de cambios.
 
 **Tipos de Commits Convencionales:**
-* feat: Nuevas características o funcionalidades.
-* fix: Correcciones de errores.
-* docs: Cambios o mejoras en la documentación.
-* style: Cambios de formato que no afectan la funcionalidad.
-* refactor: Mejoras en la estructura o legibilidad del código.
-* test: Adición o modificación de pruebas.
-* chore: Cambios en el proceso de construcción o tareas de mantenimiento.
-* perf: Mejoras de rendimiento en el código.
+
+- feat: Nuevas características o funcionalidades.
+- fix: Correcciones de errores.
+- docs: Cambios o mejoras en la documentación.
+- style: Cambios de formato que no afectan la funcionalidad.
+- refactor: Mejoras en la estructura o legibilidad del código.
+- test: Adición o modificación de pruebas.
+- chore: Cambios en el proceso de construcción o tareas de mantenimiento.
+- perf: Mejoras de rendimiento en el código.
 
 #### 4.1.3. Source Code Style Guide & Conventions
+
 ### HTML
 
-| Regla                                   | Ejemplo / Explicación                                                   |
-|----------------------------------------|--------------------------------------------------------------------------|
-| Etiquetas y atributos en minúsculas    | `<div class="container">`, `<img src="logo.png" alt="Logo">`           |
-| Atributos ordenados lógicamente        | `class`, `id`, `name`, `type`, `value`, etc.                           |
-| Uso de comillas dobles                 | `<input type="text" name="username">`                                  |
-| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs                                            |
+| Regla                                    | Ejemplo / Explicación                                        |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| Etiquetas y atributos en minúsculas      | `<div class="container">`, `<img src="logo.png" alt="Logo">` |
+| Atributos ordenados lógicamente          | `class`, `id`, `name`, `type`, `value`, etc.                 |
+| Uso de comillas dobles                   | `<input type="text" name="username">`                        |
+| Indentación consistente (2 o 4 espacios) | No mezclar espacios con tabs                                 |
 
 ---
 
 ### CSS
 
-| Regla                                   | Ejemplo / Explicación                                                   |
-|----------------------------------------|--------------------------------------------------------------------------|
-| Nombres de clases en `kebab-case`      | `.main-header`, `.user-profile-card`                                   |
-| Propiedades en minúsculas y ordenadas  | `color: #333; font-size: 16px; margin-top: 20px;`                       |
-| Uso de comentarios                     | `/* Sección de estilos para el header */`                              |
-| Indentación consistente                | 2 o 4 espacios, no usar tabs                                            |
+| Regla                                 | Ejemplo / Explicación                             |
+| ------------------------------------- | ------------------------------------------------- |
+| Nombres de clases en `kebab-case`     | `.main-header`, `.user-profile-card`              |
+| Propiedades en minúsculas y ordenadas | `color: #333; font-size: 16px; margin-top: 20px;` |
+| Uso de comentarios                    | `/* Sección de estilos para el header */`         |
+| Indentación consistente               | 2 o 4 espacios, no usar tabs                      |
 
 ---
 
 ### JavaScript
 
-| Regla                                       | Ejemplo / Explicación                                                   |
-|--------------------------------------------|--------------------------------------------------------------------------|
-| Variables y funciones en `camelCase`       | `let userName = "Juan";`, `function getUserData() {}`                  |
-| Clases en `PascalCase`                     | `class UserProfile {}`                                                 |
-| Constantes en `UPPER_SNAKE_CASE`           | `const API_URL = "https://api.example.com";`                           |
-| Uso de `const` y `let`                     | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
-| Punto y coma al final de líneas            | `let nombre = "Carlos";`                                               |
-| Indentación consistente (2 o 4 espacios)   | Mantener el mismo estilo en todo el proyecto                           |
+| Regla                                    | Ejemplo / Explicación                                                     |
+| ---------------------------------------- | ------------------------------------------------------------------------- |
+| Variables y funciones en `camelCase`     | `let userName = "Juan";`, `function getUserData() {}`                     |
+| Clases en `PascalCase`                   | `class UserProfile {}`                                                    |
+| Constantes en `UPPER_SNAKE_CASE`         | `const API_URL = "https://api.example.com";`                              |
+| Uso de `const` y `let`                   | Evitar `var`, usar `const` por defecto y `let` si se necesita mutabilidad |
+| Punto y coma al final de líneas          | `let nombre = "Carlos";`                                                  |
+| Indentación consistente (2 o 4 espacios) | Mantener el mismo estilo en todo el proyecto                              |
 
 ---
 
 ### Kotlin
 
-| Regla                                         | Ejemplo / Explicación                                                   |
-|----------------------------------------------|--------------------------------------------------------------------------|
-| Variables y funciones en `camelCase`         | `val userName = "Juan"`, `fun getUserData() {}`                         |
-| Clases y objetos en `PascalCase`             | `class UserProfile`, `object AppConfig`                                 |
-| Constantes en `UPPER_SNAKE_CASE`             | `const val MAX_USERS = 100`                                             |
-| Archivos nombrados igual que la clase        | `UserProfile.kt`                                                        |
-| Indentación con 4 espacios                   | No usar tabs                                                            |
-| Uso de `val` por defecto, `var` si mutable   | Promueve inmutabilidad                                                  |
-| Expresiones lambda con `it`   | `users.filter { it.isActive }` |
+| Regla                                      | Ejemplo / Explicación                           |
+| ------------------------------------------ | ----------------------------------------------- |
+| Variables y funciones en `camelCase`       | `val userName = "Juan"`, `fun getUserData() {}` |
+| Clases y objetos en `PascalCase`           | `class UserProfile`, `object AppConfig`         |
+| Constantes en `UPPER_SNAKE_CASE`           | `const val MAX_USERS = 100`                     |
+| Archivos nombrados igual que la clase      | `UserProfile.kt`                                |
+| Indentación con 4 espacios                 | No usar tabs                                    |
+| Uso de `val` por defecto, `var` si mutable | Promueve inmutabilidad                          |
+| Expresiones lambda con `it`                | `users.filter { it.isActive }`                  |
 
 #### 4.1.4. Software Deployment Configuration
-**Deployment Landing Page:** 
+
+**Deployment Landing Page:**
 
 En esta sección, detallamos el proceso de implementación de nuestra landing page en la plataforma de GitHub.
 
@@ -3686,7 +3846,6 @@ En esta sección, detallamos el proceso de implementación de nuestra landing pa
 
 ![image](https://imgur.com/KcnDArx.png)
 
-
 4. Finalmente, se confirma el despliegue de nuestra página web después de completar todo el procedimiento.
 
 ![image](https://imgur.com/FAx39hz.png)
@@ -3696,6 +3855,7 @@ Este proceso garantiza el despliegue satisfactorio de nuestra landing page en la
 **Enlace de la Landing Page: https://stockwiselanding.netlify.app/**
 
 ### Deployment Backend:
+
 En esta sección, detallamos el proceso de implementación de nuestro backend en la plataforma de Google Cloud.
 
 **Enlace del Backend: http://34.39.181.148:8080/swagger/index.html**
@@ -3707,6 +3867,7 @@ A continuación se detallan los pasos para crear un servidor privado virtual (VP
 ##### 1. Configuración Inicial del Proyecto
 
 **Paso 1: Crear un Proyecto en GCP**
+
 1. Iniciar sesión en [Google Cloud Console](https://console.cloud.google.com/)
 2. Hacer clic en el selector de proyectos en la parte superior
 3. Seleccionar "NUEVO PROYECTO"
@@ -3714,6 +3875,7 @@ A continuación se detallan los pasos para crear un servidor privado virtual (VP
 5. Hacer clic en "CREAR"
 
 **Paso 2: Configurar Facturación**
+
 1. Navegar a "Facturación" en el menú de navegación
 2. Vincular una cuenta de facturación válida
 3. Seleccionar el proyecto creado como proyecto de facturación
@@ -3721,47 +3883,54 @@ A continuación se detallan los pasos para crear un servidor privado virtual (VP
 ##### 2. Creación de la Instancia de VM
 
 **Paso 3: Habilitar Compute Engine API**
+
 1. En la barra de búsqueda, escribir "Compute Engine API"
 2. Seleccionar la API y hacer clic en "HABILITAR"
 
 **Paso 4: Crear Instancia de VM**
+
 1. Navegar a "Compute Engine" > "Instancias de VM"
 2. Hacer clic en "CREAR INSTANCIA"
 3. Configurar los siguientes parámetros:
 
 **Detalles de la Instancia:**
+
 - **Nombre**: stockwise-backend-server
 - **Región**: us-central1 (o la región más cercana a los usuarios)
 - **Zona**: us-central1-a
 
 **Configuración de Máquina:**
+
 - **Tipo de máquina**: e2-medium (2 vCPU, 4 GB RAM)
 - **Serie**: E2
 - **Tipo de máquina**: Uso general
 
 **Disco de arranque:**
+
 - **Sistema operativo**: Ubuntu
 - **Versión**: Ubuntu 20.04 LTS
 - **Tipo**: Disco persistente equilibrado
 - **Tamaño**: 30 GB
 
 **Firewall (Reglas de red):**
--  Permitir tráfico HTTP
--  Permitir tráfico HTTPS
--  Permitir tráfico SSH
+
+- Permitir tráfico HTTP
+- Permitir tráfico HTTPS
+- Permitir tráfico SSH
 
 4. Hacer clic en "CREAR" para iniciar la creación de la instancia
-
 
 ##### 3. Configuración de Acceso y Seguridad
 
 **Paso 5: Configurar Acceso SSH**
+
 1. Una vez creada la instancia, hacer clic sobre el nombre de la instancia
 2. En la sección "Conectarse", hacer clic en "Modificar" en "Control de acceso"
 3. Agregar la clave SSH pública del equipo de desarrollo
 4. Alternativamente, usar "Abrir en ventana del navegador" para acceso directo
 
 **Paso 6: Configurar Reglas de Firewall Personalizadas**
+
 1. Navegar a "Redes VPC" > "Firewall"
 2. Hacer clic en "CREAR REGLA DE FIREWALL"
 3. Configurar para el backend:
@@ -3769,7 +3938,7 @@ A continuación se detallan los pasos para crear un servidor privado virtual (VP
    - **Dirección IP de origen**: 0.0.0.0/0 (para desarrollo)
    - **Protocolos y puertos**: TCP, puerto 8080 (o puerto del API)
 4. Hacer clic en "CREAR"
-<br>
+   <br>
 
 ![Dashboard de Google Cloud](assets/chapter-4/googleCloud-Dashboard.png)
 <br>
@@ -3785,64 +3954,68 @@ A continuación se detallan los pasos para crear un servidor privado virtual (VP
 
 ![Swagger-4](assets/chapter-4/swagger-4.png)
 
-
-
 ### 4.2. Landing Page & Mobile Application Implementation
+
 #### 4.2.1. Sprint 1
+
 Este informe documenta el progreso realizado durante la fase de definición de requisitos del proyecto, que incluye entrevistas con los interesados y creación de artefactos antes y después de la implementación de la aplicación mobile. Proporcionar una visión clara del avance y garantizar una comunicación efectiva entre el equipo de desarrollo y los interesados son los objetivos principales.
 
 Durante esta etapa, se realizaron extensas entrevistas con los interesados para comprender sus necesidades, expectativas y requisitos particulares para la aplicación. Las entrevistas proporcionaron información útil que ayudó a definir los requisitos del proyecto.
 
 Se realizaron actividades de creación de artefactos antes y después de la implementación de la aplicación mobile, además de entrevistas. Estos objetos fueron:
+
 ##### 4.2.1.1. Sprint Planning 1
-| Sprint # | Sprint 1  | 
-|--------------------|------------|
-| Sprint Planning Background | 
-| Date | 2025-10-8 | 
-| Time |  22:23 PM |
-| Location |  UPC - Monterrico |
-| Preparate by| Camila Sanchez Rios | 
-|  Attendees (to planning meeting) | Jocelyn Almerco, Kevin Chi, Alejandro Oroncoy, Jeremy Paucar | 
-| Sprint n-1 Review Summary | En resumen se desarrollaron avances en la landing page, backend y frontend mobile | 
-| Sprint Planning Background | Durante esta etapa, se llevó a cabo una exhaustiva verificación de la funcionalidad de la landing page diseñada para el proyecto. El objetivo principal fue asegurar que la landing page cumpla con los estándares de calidad y proporcionar una experiencia óptima para los visitantes. Asimismo, se realizó la primera implementación de la aplicación mobil y el despliegue del backend |
-| Sprint Goal & User Stories | 
-| Sprint 1 Goal | Desarrolar la funcionalidad de la página web con i18n e implementar el backend. Se considerará que el objetivo del sprint se ha cumplido si todas las historias de usuario relacionadas con la landing page están implementadas y si todas las historias de usuario relacionadas con la implementación de APIs para la gestión de una entidad están completadas en un 80%. |  
-| Sprint Velocity | Se establece un Velocity de 24 Story Points para este Sprint. | 
-| Sum of Story Points | 24 Story Points | 
+
+| Sprint #                        | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sprint Planning Background      |
+| Date                            | 2025-10-8                                                                                                                                                                                                                                                                                                                                                                                  |
+| Time                            | 22:23 PM                                                                                                                                                                                                                                                                                                                                                                                   |
+| Location                        | UPC - Monterrico                                                                                                                                                                                                                                                                                                                                                                           |
+| Preparate by                    | Camila Sanchez Rios                                                                                                                                                                                                                                                                                                                                                                        |
+| Attendees (to planning meeting) | Jocelyn Almerco, Kevin Chi, Alejandro Oroncoy, Jeremy Paucar                                                                                                                                                                                                                                                                                                                               |
+| Sprint n-1 Review Summary       | En resumen se desarrollaron avances en la landing page, backend y frontend mobile                                                                                                                                                                                                                                                                                                          |
+| Sprint Planning Background      | Durante esta etapa, se llevó a cabo una exhaustiva verificación de la funcionalidad de la landing page diseñada para el proyecto. El objetivo principal fue asegurar que la landing page cumpla con los estándares de calidad y proporcionar una experiencia óptima para los visitantes. Asimismo, se realizó la primera implementación de la aplicación mobil y el despliegue del backend |
+| Sprint Goal & User Stories      |
+| Sprint 1 Goal                   | Desarrolar la funcionalidad de la página web con i18n e implementar el backend. Se considerará que el objetivo del sprint se ha cumplido si todas las historias de usuario relacionadas con la landing page están implementadas y si todas las historias de usuario relacionadas con la implementación de APIs para la gestión de una entidad están completadas en un 80%.                 |
+| Sprint Velocity                 | Se establece un Velocity de 24 Story Points para este Sprint.                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points             | 24 Story Points                                                                                                                                                                                                                                                                                                                                                                            |
 
 ##### 4.2.1.2. Sprint Backlog 1
+
 **Objetivo del Sprint:**  
 Desarrollar la funcionalidad principal del sistema de gestión de inventario para bodegas, implementando los módulos de productos, inventario y reportes, así como los servicios API de autenticación y creación de productos.  
 El Sprint se considera completado si las historias de usuario relacionadas con la gestión de inventarios y APIs de usuario están implementadas y validadas mediante pruebas unitarias e integración.
 
-| Sprint # | Sprint n | **User Story** |   | **Work-Item / Task** |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|---|---|
-|   |   | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| 1 | Sprint 1 | US01 | Registrar producto nuevo | TSK-01 | Implementar formulario de registro | Formulario para crear producto con validación de campos requeridos; al guardar debe persistir en BD y aparecer en inventario. | 6 | Jeremy | Done |
-| 1 | Sprint 1 | US02 | Editar información de producto | TSK-02 | Desarrollar módulo de edición | Edición de un producto existente con validaciones; guarda cambios válidos y muestra errores si son inválidos. | 5 | Jocelyn | Done |
-| 1 | Sprint 1 | US03 | Registrar salida de producto | TSK-03 | Control de stock de salida | Registrar salida si hay stock suficiente, descontar cantidad y crear movimiento; rechazar si supera stock. | 5 | Kevin | Done |
-| 1 | Sprint 1 | US05 | Usuario de inventario | TSK-04 | Crear interfaz de autenticación | UI para registro/login del usuario de inventario integrada con APIs de autenticación. | 6 | Alejandro | Done |
-| 1 | Sprint 1 | US06 | Buscar productos en inventarios | TSK-05 | Implementar búsqueda avanzada | Búsqueda por nombre/código con resultados en tiempo real y mensaje “No se encontraron resultados” si no hay coincidencias. | 5 | Jeremy | Done |
-| 1 | Sprint 1 | US07 | Añadir etiquetas para productos | TSK-06 | Crear módulo de etiquetas | Gestión de etiquetas: crear/sugerir existentes y filtrar por etiqueta en inventario. | 5 | Jocelyn | Done |
-| 1 | Sprint 1 | US08 | Generar estadística de productos más vendidos | TSK-07 | Implementar gráfico de ventas | Ranking por periodo (unidades/ingresos) y opción de exportar a PDF. | 6 | Kevin | Done |
-| 1 | Sprint 1 | US12 | Generar reportes de inventario | TSK-08 | Crear vista de reportes | Generación de reportes por fecha/categoría/stock mínimo con opción de exportar a PDF o Excel. | 6 | Alejandro | Done |
-| 1 | Sprint 1 | US17 | Registrar lote de productos | TSK-09 | Programar ingreso por lotes | Registro de múltiples productos en un lote con proveedor, fecha y condiciones; visualizar detalle del lote. | 5 | Kevin | Done |
-| 1 | Sprint 1 | TS01 | API Registro de usuarios | TSK-10 | Desarrollar endpoint /sign-up | Endpoint de registro que retorna token (201) y valida duplicados/formatos (400/409). | 4 | Alejandro | Done |
-| 1 | Sprint 1 | TS02 | API Autenticación de usuarios | TSK-11 | Desarrollar endpoint /sign-in | Endpoint de login que emite access/refresh tokens (200) y maneja 401/403 para credenciales inválidas. | 4 | Jeremy | Done |
-| 1 | Sprint 1 | TS03 | API Creación de productos | TSK-12 | Crear endpoint /products | Crear producto (201) con validaciones y unicidad; soportar imagen/código de barras; errores 400/409. | 5 | Jocelyn | Done |
-| 1 | Sprint 1 | TS04 | API Consulta de productos | TSK-13 | Implementar GET /products/by-category | Listado paginado/ordenado; estado vacío si no hay registros. | 4 | Kevin | Done |
-| 1 | Sprint 1 | TS05 | API Productos por categoría | TSK-14 | GET /products/by-tag | Filtro por categoría/etiqueta ignorando mayúsculas/acentos; permitir limpiar filtros. | 4 | Jeremy | Done |
-| 1 | Sprint 1 | TS06 | API Productos por etiqueta | TSK-15 | Endpoint /products/by-tag | Autocompletado y combinación con otros filtros activos; lista vacía si no hay coincidencias. | 4 | Kevin | Done |
-| 1 | Sprint 1 | TS09 | API Inventario por producto | TSK-16 | Endpoint /inventory/by-product | Consultar stock y últimos movimientos por producto; 404 si no existe. | 6 | Alejandro | Done |
-| 1 | Sprint 1 | US18 | Visualizar historial de stock | TSK-17 | Crear historial de cambios | Gráfica de variación de stock por producto con filtro de periodo. | 5 | Jocelyn | To-Do |
-| 1 | Sprint 1 | US20 | Añadir etiquetas a productos | TSK-18 | Implementar visualización en interfaz | Alta/edición con etiquetas nuevas o existentes; búsqueda por etiqueta. | 4 | Jeremy | To-Do |
-| 1 | Sprint 1 | US21 | Buscar productos en inventario | TSK-19 | Integrar búsqueda en inventario | Búsqueda por nombre y filtros por categoría desde módulo de inventario. | 5 | Kevin | To-Do |
-| 1 | Sprint 1 | US23 | Registrar ingreso de productos | TSK-20 | Crear flujo de entrada | Ingreso individual desde formulario y soporte para carga masiva por archivo. | 5 | Alejandro | To-Do |
-| 1 | Sprint 1 | US24 | Visualizar resumen de stock por categoría | TSK-21 | Mostrar gráfico resumen | Tabla/gráfico con totales y stock promedio por categoría, con acceso al detalle. | 5 | Jocelyn | To-Do |
+| Sprint # | Sprint n | **User Story** |                                               | **Work-Item / Task** |                                       |                                                                                                                               |                        |                 |                                                    |
+| -------- | -------- | -------------- | --------------------------------------------- | -------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
+|          |          | **Id**         | **Title**                                     | **Id**               | **Title**                             | **Description**                                                                                                               | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| 1        | Sprint 1 | US01           | Registrar producto nuevo                      | TSK-01               | Implementar formulario de registro    | Formulario para crear producto con validación de campos requeridos; al guardar debe persistir en BD y aparecer en inventario. | 6                      | Jeremy          | Done                                               |
+| 1        | Sprint 1 | US02           | Editar información de producto                | TSK-02               | Desarrollar módulo de edición         | Edición de un producto existente con validaciones; guarda cambios válidos y muestra errores si son inválidos.                 | 5                      | Jocelyn         | Done                                               |
+| 1        | Sprint 1 | US03           | Registrar salida de producto                  | TSK-03               | Control de stock de salida            | Registrar salida si hay stock suficiente, descontar cantidad y crear movimiento; rechazar si supera stock.                    | 5                      | Kevin           | Done                                               |
+| 1        | Sprint 1 | US05           | Usuario de inventario                         | TSK-04               | Crear interfaz de autenticación       | UI para registro/login del usuario de inventario integrada con APIs de autenticación.                                         | 6                      | Alejandro       | Done                                               |
+| 1        | Sprint 1 | US06           | Buscar productos en inventarios               | TSK-05               | Implementar búsqueda avanzada         | Búsqueda por nombre/código con resultados en tiempo real y mensaje “No se encontraron resultados” si no hay coincidencias.    | 5                      | Jeremy          | Done                                               |
+| 1        | Sprint 1 | US07           | Añadir etiquetas para productos               | TSK-06               | Crear módulo de etiquetas             | Gestión de etiquetas: crear/sugerir existentes y filtrar por etiqueta en inventario.                                          | 5                      | Jocelyn         | Done                                               |
+| 1        | Sprint 1 | US08           | Generar estadística de productos más vendidos | TSK-07               | Implementar gráfico de ventas         | Ranking por periodo (unidades/ingresos) y opción de exportar a PDF.                                                           | 6                      | Kevin           | Done                                               |
+| 1        | Sprint 1 | US12           | Generar reportes de inventario                | TSK-08               | Crear vista de reportes               | Generación de reportes por fecha/categoría/stock mínimo con opción de exportar a PDF o Excel.                                 | 6                      | Alejandro       | Done                                               |
+| 1        | Sprint 1 | US17           | Registrar lote de productos                   | TSK-09               | Programar ingreso por lotes           | Registro de múltiples productos en un lote con proveedor, fecha y condiciones; visualizar detalle del lote.                   | 5                      | Kevin           | Done                                               |
+| 1        | Sprint 1 | TS01           | API Registro de usuarios                      | TSK-10               | Desarrollar endpoint /sign-up         | Endpoint de registro que retorna token (201) y valida duplicados/formatos (400/409).                                          | 4                      | Alejandro       | Done                                               |
+| 1        | Sprint 1 | TS02           | API Autenticación de usuarios                 | TSK-11               | Desarrollar endpoint /sign-in         | Endpoint de login que emite access/refresh tokens (200) y maneja 401/403 para credenciales inválidas.                         | 4                      | Jeremy          | Done                                               |
+| 1        | Sprint 1 | TS03           | API Creación de productos                     | TSK-12               | Crear endpoint /products              | Crear producto (201) con validaciones y unicidad; soportar imagen/código de barras; errores 400/409.                          | 5                      | Jocelyn         | Done                                               |
+| 1        | Sprint 1 | TS04           | API Consulta de productos                     | TSK-13               | Implementar GET /products/by-category | Listado paginado/ordenado; estado vacío si no hay registros.                                                                  | 4                      | Kevin           | Done                                               |
+| 1        | Sprint 1 | TS05           | API Productos por categoría                   | TSK-14               | GET /products/by-tag                  | Filtro por categoría/etiqueta ignorando mayúsculas/acentos; permitir limpiar filtros.                                         | 4                      | Jeremy          | Done                                               |
+| 1        | Sprint 1 | TS06           | API Productos por etiqueta                    | TSK-15               | Endpoint /products/by-tag             | Autocompletado y combinación con otros filtros activos; lista vacía si no hay coincidencias.                                  | 4                      | Kevin           | Done                                               |
+| 1        | Sprint 1 | TS09           | API Inventario por producto                   | TSK-16               | Endpoint /inventory/by-product        | Consultar stock y últimos movimientos por producto; 404 si no existe.                                                         | 6                      | Alejandro       | Done                                               |
+| 1        | Sprint 1 | US18           | Visualizar historial de stock                 | TSK-17               | Crear historial de cambios            | Gráfica de variación de stock por producto con filtro de periodo.                                                             | 5                      | Jocelyn         | To-Do                                              |
+| 1        | Sprint 1 | US20           | Añadir etiquetas a productos                  | TSK-18               | Implementar visualización en interfaz | Alta/edición con etiquetas nuevas o existentes; búsqueda por etiqueta.                                                        | 4                      | Jeremy          | To-Do                                              |
+| 1        | Sprint 1 | US21           | Buscar productos en inventario                | TSK-19               | Integrar búsqueda en inventario       | Búsqueda por nombre y filtros por categoría desde módulo de inventario.                                                       | 5                      | Kevin           | To-Do                                              |
+| 1        | Sprint 1 | US23           | Registrar ingreso de productos                | TSK-20               | Crear flujo de entrada                | Ingreso individual desde formulario y soporte para carga masiva por archivo.                                                  | 5                      | Alejandro       | To-Do                                              |
+| 1        | Sprint 1 | US24           | Visualizar resumen de stock por categoría     | TSK-21               | Mostrar gráfico resumen               | Tabla/gráfico con totales y stock promedio por categoría, con acceso al detalle.                                              | 5                      | Jocelyn         | To-Do                                              |
 
 SPRINT BACKLOG 1: https://trello.com/b/8Uj3aB6o/stockwise-sprint1
 
 ##### 4.2.1.3. Development Evidence for Sprint Review
+
 Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend de la aplicación móvil. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
 
 <table>
@@ -3886,6 +4059,7 @@ En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests*
 El stack de testing utilizado fue **C#/.NET 8**, **xUnit**, **Moq**, **EF Core InMemory**, **Microsoft.AspNetCore.Mvc.Testing** y **SpecFlow (Gherkin)**.
 
 #### Cobertura por pieza de código
+
 - **InventoryByProductQueryService**
   - Unit: verifica que `GetAllAsync()` delega en `IInventoryByProductRepository.ListAsync()`.
   - Unit: verifica que `GetByIdAsync(id)` llama `FindByIdAsync(id)` y retorna `null` si no existe.
@@ -3895,20 +4069,21 @@ El stack de testing utilizado fue **C#/.NET 8**, **xUnit**, **Moq**, **EF Core I
 - **Integration** (Web API)
   - Endpoints de Inventario por Lote y por Producto con **EF Core InMemory**, levantados con **WebApplicationFactory**.
 - **Acceptance (BDD)**
-  - `.feature` “Crear inventario por lote” y “Eliminar inventario por lote” con escenarios Gherkin; *step definitions* en C# validando respuestas HTTP y estado persistido.
+  - `.feature` “Crear inventario por lote” y “Eliminar inventario por lote” con escenarios Gherkin; _step definitions_ en C# validando respuestas HTTP y estado persistido.
 
 A continuación, la tabla de commits **relacionados exclusivamente con testing**:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|-------------|-------|-----------|----------------|---------------------|---------------------|
-| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite | 1a9c7e4 | test(unit): add xUnit+Moq tests for InventoryByProductQueryService | Se agregaron pruebas unitarias que validan `GetAllAsync` y `GetByIdAsync` usando dobles de prueba de `IInventoryByProductRepository`. Se verifican llamadas a `ListAsync()`/`FindByIdAsync()` y retornos nulos cuando no existe el Id. | 08/10/2025 |
-| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite | 3f21bd0 | test(unit): cover InventoryByBatchCommandService (Handle/DeleteAsync) | Se añadieron pruebas con Moq para asegurar que `Handle` llama `AddAsync` y `CompleteAsync`. `DeleteAsync` elimina cuando encuentra el Id y retorna `false` si no existe. | 08/10/2025 |
-| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/integration-tests | 7c5d2a9 | test(integration): API endpoints with WebApplicationFactory + EF InMemory | Se configuró `WebApplicationFactory` y una BD InMemory para probar endpoints de creación/consulta/eliminación de inventarios por lote y por producto, verificando códigos 201/200/404. | 09/10/2025 |
-| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/acceptance-bdd | c84a110 | test(bdd): SpecFlow features and step definitions for inventory flows | Se añadieron `.feature` con escenarios Gherkin (crear y eliminar inventario por lote) y *steps* en C# que consumen la API, asertan payload y estado en BD InMemory. | 09/10/2025 |
+| Repository                                                         | Branch                    | Commit Id | Commit Message                                                            | Commit Message Body                                                                                                                                                                                                                    | Committed on (Date) |
+| ------------------------------------------------------------------ | ------------------------- | --------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite     | 1a9c7e4   | test(unit): add xUnit+Moq tests for InventoryByProductQueryService        | Se agregaron pruebas unitarias que validan `GetAllAsync` y `GetByIdAsync` usando dobles de prueba de `IInventoryByProductRepository`. Se verifican llamadas a `ListAsync()`/`FindByIdAsync()` y retornos nulos cuando no existe el Id. | 08/10/2025          |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/testing-suite     | 3f21bd0   | test(unit): cover InventoryByBatchCommandService (Handle/DeleteAsync)     | Se añadieron pruebas con Moq para asegurar que `Handle` llama `AddAsync` y `CompleteAsync`. `DeleteAsync` elimina cuando encuentra el Id y retorna `false` si no existe.                                                               | 08/10/2025          |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/integration-tests | 7c5d2a9   | test(integration): API endpoints with WebApplicationFactory + EF InMemory | Se configuró `WebApplicationFactory` y una BD InMemory para probar endpoints de creación/consulta/eliminación de inventarios por lote y por producto, verificando códigos 201/200/404.                                                 | 09/10/2025          |
+| https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services | feature/acceptance-bdd    | c84a110   | test(bdd): SpecFlow features and step definitions for inventory flows     | Se añadieron `.feature` con escenarios Gherkin (crear y eliminar inventario por lote) y _steps_ en C# que consumen la API, asertan payload y estado en BD InMemory.                                                                    | 09/10/2025          |
 
 #### Relación de tests diseñados (extracto)
 
 - **Unit (xUnit/Moq)**
+
   - `InventoryByProductQueryServiceTests.GetAllAsync_ReturnsRepositoryList`
   - `InventoryByProductQueryServiceTests.GetByIdAsync_ReturnsEntityOrNull`
   - `InventoryByBatchCommandServiceTests.Handle_PersistsAndCommits`
@@ -3916,6 +4091,7 @@ A continuación, la tabla de commits **relacionados exclusivamente con testing**
   - `InventoryByBatchCommandServiceTests.DeleteAsync_WhenNotFound_ReturnsFalse`
 
 - **Integration (WebApplicationFactory + EF InMemory)**
+
   - `POST /api/inventories/batches` → 201 y body con Id generado.
   - `GET /api/inventories/batches/{id}` → 200 con entidad o 404 si no existe.
   - `DELETE /api/inventories/batches/{id}` → 204 cuando elimina.
@@ -3942,6 +4118,7 @@ A continuación, la tabla de commits **relacionados exclusivamente con testing**
 > Repositorio y rutas de pruebas: `Web-Services/tests/Inventories.*` (folders `Unit`, `Integration`, `Acceptance` con SpecFlow).
 
 ##### 4.2.1.5. Execution Evidence for Sprint Review
+
 Durante este Sprint, se han alcanzado varios hitos importantes en la implementación de la Landing Page. Además se realizaron avances en el frontend de la aplicaciones mobile. Se han completado las siguientes tareas:
 
 - Implementación de la sección Beneficios
@@ -3952,12 +4129,15 @@ Durante este Sprint, se han alcanzado varios hitos importantes en la implementac
 ### Screenshots
 
 #### Landing Page
+
 ![Landing Page](https://imgur.com/FAx39hz.png)
 
 #### Funciones claves
+
 ![Características](https://imgur.com/UWonPsf.png)
 
 #### Sección de Planes Disponibles
+
 ![Planes Disponibles](https://imgur.com/xjaqRsc.png)
 
 ### Seccion de cambio de idioma
@@ -3977,7 +4157,7 @@ Backend
 ![Swagger](assets/chapter-4/swagger-5.png)
 <br>
 
-Athentication 
+Athentication
 
 ![Swagger-1](assets/chapter-4/swagger-IAM.png)
 <br>
@@ -3997,7 +4177,7 @@ Combos
 ![Swagger-1](assets/chapter-4/swagger-Combos.png)
 <br>
 
-Report 
+Report
 ![Swagger-1](assets/chapter-4/swagger-Report.png)
 
 <br>
@@ -4009,36 +4189,48 @@ Report
 Para el despliegue de la landing page se realizaron los siguientes pasos:
 
 #### 1. Preparación del proyecto
+
 Se organizó el proyecto con todos los archivos necesarios del sitio web:
+
 - Archivos HTML, CSS, JavaScript e imágenes
 - Estructura de carpetas clara (`/css`, `/js`, `/images`, etc.)
 
 #### 2. Creación de cuenta o acceso a Netlify
+
 Se accedió a [https://www.netlify.com](https://www.netlify.com) para iniciar sesión o crear una cuenta, vinculándola con un proveedor de repositorios como GitHub, GitLab o Bitbucket.
 
 #### 3. Nuevo sitio desde Git
+
 Se eligió la opción **"Add new site" > "Import an existing project"** para conectar el repositorio del proyecto de la landing page.
 
 #### 4. Autorización y selección del repositorio
+
 Se autorizó a Netlify a acceder al repositorio y se seleccionó el repositorio correspondiente al proyecto.
 
 #### 5. Configuración del despliegue
+
 Durante la configuración:
+
 - Se indicó la rama que contiene el código (por ejemplo, `main`)
 - Se dejó vacío el campo de build si el proyecto no requiere compilación
 - Se indicó el directorio de publicación (por ejemplo, `/` si los archivos están en la raíz)
 
 #### 6. Despliegue automático
+
 Se lanzó el primer despliegue, y Netlify generó automáticamente una URL pública para acceder al sitio.
 
 #### 7. Personalización de dominio (opcional)
+
 Se puede añadir un dominio personalizado desde la sección de configuración de dominio. Netlify gestiona automáticamente el certificado SSL (HTTPS).
 
 #### 8. Actualizaciones automáticas
+
 Cada vez que se realice un push a la rama seleccionada, Netlify desplegará automáticamente los nuevos cambios.
 
 #### 9. Monitoreo del sitio
+
 Desde el panel de control de Netlify es posible:
+
 - Consultar el historial de despliegues
 - Ver errores si los hay
 - Configurar variables de entorno
@@ -4049,9 +4241,11 @@ Desde el panel de control de Netlify es posible:
 ##### Backend
 
 Para el despliegue del backend se realizaron los siguientes pasos:
+
 #### 1. Configuración del Entorno Docker en el VPS
 
 **Paso 1: Instalación de Docker y Docker Compose**
+
 ```bash
 # Actualizar paquetes del sistema
 sudo apt update && sudo apt upgrade -y
@@ -4078,6 +4272,7 @@ sudo usermod -aG docker $USER
 ```
 
 **Paso 2: Verificación de la instalación**
+
 ```bash
 # Verificar versión de Docker
 docker --version
@@ -4090,6 +4285,7 @@ docker run hello-world
 #### 2. Preparación del Proyecto ASP.NET 9
 
 **Paso 3: Creación del Dockerfile**
+
 ```dockerfile
 # Usar imagen base de ASP.NET 9
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
@@ -4116,8 +4312,9 @@ ENTRYPOINT ["dotnet", "StockWise.API.dll"]
 ```
 
 **Paso 4: Creación del archivo docker-compose.yml**
+
 ```yaml
-version: '3.8'
+version: "3.8"
 
 services:
   stockwise-api:
@@ -4162,6 +4359,7 @@ networks:
 #### 3. Despliegue de la Aplicación
 
 **Paso 5: Clonación del Repositorio y Configuración**
+
 ```bash
 # Crear directorio para la aplicación
 sudo mkdir -p /opt/stockwise
@@ -4183,6 +4381,7 @@ docker compose ps
 #### 4. Configuración de Nginx como Reverse Proxy
 
 **Paso 6: Instalación y Configuración de Nginx**
+
 ```bash
 # Instalar Nginx
 sudo apt install -y nginx
@@ -4202,15 +4401,15 @@ En esta sección se proporcionan los insights para el sprint 1.
 
 **Documentation**
 
-En esta sección, el equipo destacó la importancia de mantener una documentación clara y actualizada que facilite la colaboración y el entendimiento común. Se identificó que una buena documentación agiliza la resolución de dudas y mejora la calidad del desarrollo. 
+En esta sección, el equipo destacó la importancia de mantener una documentación clara y actualizada que facilite la colaboración y el entendimiento común. Se identificó que una buena documentación agiliza la resolución de dudas y mejora la calidad del desarrollo.
 
 A continuación se muestran los insights del equipo para la sección correspondiente:
 
 ![Doc](https://imgur.com/1aY7feG.png)
 
-**Landing Page** 
+**Landing Page**
 
-El equipo observó que la landing page funciona como la primera ventana de contacto con el usuario, por lo que es vital que sea atractiva y fácil de navegar. Se resaltó la necesidad de optimizar los textos y elementos visuales para maximizar la conversión y el enganche inicial. 
+El equipo observó que la landing page funciona como la primera ventana de contacto con el usuario, por lo que es vital que sea atractiva y fácil de navegar. Se resaltó la necesidad de optimizar los textos y elementos visuales para maximizar la conversión y el enganche inicial.
 
 A continuación se muestran los insights del equipo para la sección correspondiente:
 
@@ -4218,113 +4417,115 @@ A continuación se muestran los insights del equipo para la sección correspondi
 
 **Backend**
 
-En equipo analizamos que la arquitectura del backend debía ser robusta y escalable para soportar las futuras demandas. Identificamos retos en la gestión de datos y seguridad, lo que motivó la implementación de buenas prácticas para garantizar la integridad y eficiencia. 
+En equipo analizamos que la arquitectura del backend debía ser robusta y escalable para soportar las futuras demandas. Identificamos retos en la gestión de datos y seguridad, lo que motivó la implementación de buenas prácticas para garantizar la integridad y eficiencia.
 
 A continuación se muestran los insights del equipo para la sección correspondiente:
 
 ![back](assets/chapter-4/Web-Services-insight.png)
 
-
 **Mobile Frontend**
 
-Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas. 
+Se destacó la relevancia de adaptar la experiencia a distintos dispositivos, asegurando una interfaz intuitiva y rápida; además de evitar la saturación de pantallas.
 
 [![Front](https://imgur.com/83O5qvN.png)](https://imgur.com/83O5qvN.png)
 
 #### 4.2.2. Sprint 2
 
 ##### 4.2.2.1. Sprint Planning 2
-| Sprint # | Sprint 2  | 
-|--------------------|------------|
-|Sprint Planning Background|  |
-|Date| 2025-10-22|
-|Time|21:15 PM|
-|Location| UPC – Monterrico|
-|Prepared by| Alejandro Oroncoy |
-|Attendees (Planning Meeting)| Kevin Chi, Alejandro Oroncoy, Jeremy Paucar, Camila Sánchez|
-|Sprint n-1 Review Summary | Durante esta etapa se completaron las funcionalidades principales del backend (registro, autenticación y gestión de productos) e integración base con la aplicación móvil. Se implementó la estructura de navegación y módulos de productos e inventario.|
-|Sprint Planning Background| En este segundo sprint se centrará el trabajo en la optimización del backend y la implementación de funcionalidades avanzadas de control de inventario, reportes y alertas. Además, se realizará el despliegue del backend y documentación técnica en un sitio público, así como la preparación del entorno para la validación de la app móvil.|
-|Sprint Goal & User Stories||
-|Sprint 2 Goal| Consolidar la infraestructura backend y desplegarla públicamente, integrando nuevas funcionalidades en la app móvil (reportes, alertas, combos y consultas avanzadas). Se considera cumplido el objetivo si el backend está operativo y documentado, y las principales funciones core del sistema están visibles y validadas.  |
-|Sprint Velocity | 26 Story Points |
-|Sum of Story Points| 26 Story Points|
 
+| Sprint #                     | Sprint 2                                                                                                                                                                                                                                                                                                                                        |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sprint Planning Background   |                                                                                                                                                                                                                                                                                                                                                 |
+| Date                         | 2025-10-22                                                                                                                                                                                                                                                                                                                                      |
+| Time                         | 21:15 PM                                                                                                                                                                                                                                                                                                                                        |
+| Location                     | UPC – Monterrico                                                                                                                                                                                                                                                                                                                                |
+| Prepared by                  | Alejandro Oroncoy                                                                                                                                                                                                                                                                                                                               |
+| Attendees (Planning Meeting) | Kevin Chi, Alejandro Oroncoy, Jeremy Paucar, Camila Sánchez                                                                                                                                                                                                                                                                                     |
+| Sprint n-1 Review Summary    | Durante esta etapa se completaron las funcionalidades principales del backend (registro, autenticación y gestión de productos) e integración base con la aplicación móvil. Se implementó la estructura de navegación y módulos de productos e inventario.                                                                                       |
+| Sprint Planning Background   | En este segundo sprint se centrará el trabajo en la optimización del backend y la implementación de funcionalidades avanzadas de control de inventario, reportes y alertas. Además, se realizará el despliegue del backend y documentación técnica en un sitio público, así como la preparación del entorno para la validación de la app móvil. |
+| Sprint Goal & User Stories   |                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 2 Goal                | Consolidar la infraestructura backend y desplegarla públicamente, integrando nuevas funcionalidades en la app móvil (reportes, alertas, combos y consultas avanzadas). Se considera cumplido el objetivo si el backend está operativo y documentado, y las principales funciones core del sistema están visibles y validadas.                   |
+| Sprint Velocity              | 26 Story Points                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points          | 26 Story Points                                                                                                                                                                                                                                                                                                                                 |
 
 ##### 4.2.2.2. Sprint Backlog 2
+
 **Objetivo del Sprint:**  
 Optimizar la aplicación móvil StockWise e integrar las funcionalidades avanzadas: reportes, alertas, consultas filtradas, combos y predicción de reabastecimiento, asegurando la correcta comunicación con el backend desplegado y documentado públicamente.
 
-| Sprint # | Sprint n | User Story |   | Work-Item / Task |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|---|---|
-|   |   | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| 2        | Sprint 2 | US12           | Generar reportes de inventario            | TSK-22               | Optimizar módulo de reportes      | Agregar filtros por categoría y rango de fechas con exportación a PDF/Excel.      | 6                      | Kevin           | Done                                               |
-| 2        | Sprint 2 | US14           | Registrar devolución de productos         | TSK-23               | Implementar devoluciones en móvil | Permitir registrar devoluciones y actualizar stock automáticamente.               | 5                      | Jocelyn         | Done                                               |
-| 2        | Sprint 2 | US15           | Configurar roles y permisos de usuario    | TSK-24               | Interfaz de roles y usuarios      | Crear pantalla de gestión de usuarios integrada con autorización en API.          | 5                      | Alejandro       | Done                                               |
-| 2        | Sprint 2 | US16           | Gestionar proveedores                     | TSK-25               | Módulo de proveedores             | Registrar y editar datos de proveedores para vincularlos con lotes.               | 5                      | Jeremy          | Done                                               |
-| 2        | Sprint 2 | US18           | Visualizar historial de stock             | TSK-26               | Implementar gráfica de histórico  | Mostrar evolución de stock por producto con filtro de periodo.                    | 5                      | Kevin           | Done                                               |
-| 2        | Sprint 2 | US19           | Alertas de stock mínimo                   | TSK-27               | Crear alertas automáticas         | Notificar al usuario cuando el stock cae por debajo del mínimo.                   | 5                      | Jocelyn         | Done                                               |
-| 2        | Sprint 2 | US22           | Alertas por productos caducados           | TSK-28               | Control de caducidad              | Detectar productos vencidos y mostrar alertas visuales y sonoras.                 | 5                      | Alejandro       | Done                                               |
-| 2        | Sprint 2 | US23           | Registrar ingreso de productos            | TSK-29               | Mejorar flujo de entrada          | Permitir registro individual y masivo desde archivo Excel.                        | 4                      | Jeremy          | Done                                               |
-| 2        | Sprint 2 | US24           | Visualizar resumen de stock por categoría | TSK-30               | Panel de resumen                  | Mostrar totales por categoría con gráfico de barras y colores por nivel de stock. | 4                      | Kevin           | Done                                               |
-| 2        | Sprint 2 | SPK01          | Entrada por voz (prototipo)               | TSK-31               | Probar Speech-to-Text             | Explorar reconocimiento de voz para comandos básicos de inventario.               | 6                      | Jeremy          | In-Process                                         |
-| 2        | Sprint 2 | SPK02          | Roles y permisos en API                   | TSK-32               | Ajustar modelo RBAC backend       | Integrar permisos por rol para operaciones de inventario desde móvil.             | 4                      | Alejandro       | In-Process                                         |
-
+| Sprint # | Sprint n | User Story |                                           | Work-Item / Task |                                   |                                                                                   |                        |                 |                                                    |
+| -------- | -------- | ---------- | ----------------------------------------- | ---------------- | --------------------------------- | --------------------------------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
+|          |          | **Id**     | **Title**                                 | **Id**           | **Title**                         | **Description**                                                                   | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| 2        | Sprint 2 | US12       | Generar reportes de inventario            | TSK-22           | Optimizar módulo de reportes      | Agregar filtros por categoría y rango de fechas con exportación a PDF/Excel.      | 6                      | Kevin           | Done                                               |
+| 2        | Sprint 2 | US14       | Registrar devolución de productos         | TSK-23           | Implementar devoluciones en móvil | Permitir registrar devoluciones y actualizar stock automáticamente.               | 5                      | Jocelyn         | Done                                               |
+| 2        | Sprint 2 | US15       | Configurar roles y permisos de usuario    | TSK-24           | Interfaz de roles y usuarios      | Crear pantalla de gestión de usuarios integrada con autorización en API.          | 5                      | Alejandro       | Done                                               |
+| 2        | Sprint 2 | US16       | Gestionar proveedores                     | TSK-25           | Módulo de proveedores             | Registrar y editar datos de proveedores para vincularlos con lotes.               | 5                      | Jeremy          | Done                                               |
+| 2        | Sprint 2 | US18       | Visualizar historial de stock             | TSK-26           | Implementar gráfica de histórico  | Mostrar evolución de stock por producto con filtro de periodo.                    | 5                      | Kevin           | Done                                               |
+| 2        | Sprint 2 | US19       | Alertas de stock mínimo                   | TSK-27           | Crear alertas automáticas         | Notificar al usuario cuando el stock cae por debajo del mínimo.                   | 5                      | Jocelyn         | Done                                               |
+| 2        | Sprint 2 | US22       | Alertas por productos caducados           | TSK-28           | Control de caducidad              | Detectar productos vencidos y mostrar alertas visuales y sonoras.                 | 5                      | Alejandro       | Done                                               |
+| 2        | Sprint 2 | US23       | Registrar ingreso de productos            | TSK-29           | Mejorar flujo de entrada          | Permitir registro individual y masivo desde archivo Excel.                        | 4                      | Jeremy          | Done                                               |
+| 2        | Sprint 2 | US24       | Visualizar resumen de stock por categoría | TSK-30           | Panel de resumen                  | Mostrar totales por categoría con gráfico de barras y colores por nivel de stock. | 4                      | Kevin           | Done                                               |
+| 2        | Sprint 2 | SPK01      | Entrada por voz (prototipo)               | TSK-31           | Probar Speech-to-Text             | Explorar reconocimiento de voz para comandos básicos de inventario.               | 6                      | Jeremy          | In-Process                                         |
+| 2        | Sprint 2 | SPK02      | Roles y permisos en API                   | TSK-32           | Ajustar modelo RBAC backend       | Integrar permisos por rol para operaciones de inventario desde móvil.             | 4                      | Alejandro       | In-Process                                         |
 
 SPRINT BACKLOG 2: https://trello.com/invite/b/6901e5bd6397432560be15a9/ATTI1739f7821067be06836cf579b98d49864A6994EE/stockwise-sprint-2
 
 #### 4.2.3. Sprint 3
+
 Este informe documenta el progreso realizado durante la fase de definición de requisitos del proyecto, que incluye entrevistas con los interesados y creación de artefactos antes y después de la implementación de la aplicación mobile. Proporcionar una visión clara del avance y garantizar una comunicación efectiva entre el equipo de desarrollo y los interesados son los objetivos principales.
 
 Durante esta etapa, se realizaron extensas entrevistas con los interesados para comprender sus necesidades, expectativas y requisitos particulares para la aplicación. Las entrevistas proporcionaron información útil que ayudó a definir los requisitos del proyecto.
 
 Se realizaron actividades de creación de artefactos antes y después de la implementación de la aplicación mobile, además de entrevistas. Estos objetos fueron:
+
 ##### 4.2.3.1. Sprint Planning 3
-| Sprint # | Sprint 3 | 
-|--------------------|------------|
-| Sprint Planning Background | 
-| Date | 2025-11-12 | 
-| Time |  22:00 PM |
-| Location |  UPC - Monterrico |
-| Preparate by| Camila Sanchez Rios | 
-|  Attendees (to planning meeting) | Jocelyn Almerco, Kevin Chi, Alejandro Oroncoy, Jeremy Paucar | 
-| Sprint 3 Review Summary | En el Sprint 3 se logró el despliegue completo del backend en un sitio público con documentación y se integraron las funciones avanzadas (alertas, reportes, combos y roles). La app móvil mostró las funcionalidades core y las primeras pruebas de validación. | 
-| Sprint Planning Background |Se centrará en la validación final del producto, pruebas integrales, corrección de errores y preparación de las entregas multimedia.|
-| Sprint Goal & User Stories | 
-| Sprint 3 Goal | Finalizar el desarrollo de la aplicación StockWise, validando todas las funcionalidades del Product Backlog y entregando la versión final del sistema (app móvil, backend y landing page). Se considera cumplido si la app está desplegada, validada y respaldada con los videos requeridos. |  
-| Sprint Velocity | Se establece un Velocity de 28 Story Points para este Sprint. | 
-| Sum of Story Points | 28 Story Points | 
+
+| Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                     |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sprint Planning Background      |
+| Date                            | 2025-11-12                                                                                                                                                                                                                                                                                   |
+| Time                            | 22:00 PM                                                                                                                                                                                                                                                                                     |
+| Location                        | UPC - Monterrico                                                                                                                                                                                                                                                                             |
+| Preparate by                    | Camila Sanchez Rios                                                                                                                                                                                                                                                                          |
+| Attendees (to planning meeting) | Jocelyn Almerco, Kevin Chi, Alejandro Oroncoy, Jeremy Paucar                                                                                                                                                                                                                                 |
+| Sprint 3 Review Summary         | En el Sprint 3 se logró el despliegue completo del backend en un sitio público con documentación y se integraron las funciones avanzadas (alertas, reportes, combos y roles). La app móvil mostró las funcionalidades core y las primeras pruebas de validación.                             |
+| Sprint Planning Background      | Se centrará en la validación final del producto, pruebas integrales, corrección de errores y preparación de las entregas multimedia.                                                                                                                                                         |
+| Sprint Goal & User Stories      |
+| Sprint 3 Goal                   | Finalizar el desarrollo de la aplicación StockWise, validando todas las funcionalidades del Product Backlog y entregando la versión final del sistema (app móvil, backend y landing page). Se considera cumplido si la app está desplegada, validada y respaldada con los videos requeridos. |
+| Sprint Velocity                 | Se establece un Velocity de 28 Story Points para este Sprint.                                                                                                                                                                                                                                |
+| Sum of Story Points             | 28 Story Points                                                                                                                                                                                                                                                                              |
 
 ##### 4.2.3.2. Sprint Backlog 3
+
 **Objetivo del Sprint:**  
 Culminar el desarrollo y validación integral del producto StockWise, incluyendo la publicación en un servicio de distribución, los videos de presentación y la documentación final del proyecto.
 
-| Sprint # | Sprint n | User Story |   | Work-Item / Task |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|---|---|
-|   |   | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** ||
-| 3            | Sprint 3     | SPK03          | Geolocalización (GPS y QR)           | TSK-33               | Integrar módulo de ubicación        | Permitir asociar ubicación GPS/QR a productos y visualizar en mapa.             | 5                      | Kevin           | Done       |
-| 3            | Sprint 3     | SPK04          | Predicción de reabastecimiento       | TSK-34               | Calcular demanda proyectada         | Implementar algoritmo (media móvil + lead time) para sugerir reabastecimientos. | 6                      | Alejandro       | Done       |
-| 3            | Sprint 3     | SPK05          | Escaneo por lotes con visión ML      | TSK-35               | Prototipo ML Kit                    | Probar detección de productos por imagen y confirmación de lote.                | 5                      | Jocelyn         | Done       |
-| 3            | Sprint 3     | US28           | Localizar productos con mapa y QR                 | TSK-36               | Integrar escaneo QR y mapa       | Permitir buscar y ubicar productos escaneando QR o desde el mapa del almacén.                            | 5                      | Alejandro       | Done       |
-| 3            | Sprint 3     | US29           | Gestionar predicción de reabastecimiento          | TSK-37               | Implementar modelo de predicción | Aplicar media móvil + lead time para sugerir reabastecimiento con alertas ajustables.                    | 5                      | Jeremy          | Done       |
-| 3            | Sprint 3     | US30           | Escanear por lotes con cámara rápida              | TSK-38               | Prototipo con visión por IA      | Implementar escaneo por lotes con API de visión (ML Kit), etiquetas y ubicación automática.              | 5                      | Kevin           | Done       |
-
+| Sprint # | Sprint n | User Story |                                          | Work-Item / Task |                                  |                                                                                             |                        |                 |                                                    |
+| -------- | -------- | ---------- | ---------------------------------------- | ---------------- | -------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- | --- |
+|          |          | **Id**     | **Title**                                | **Id**           | **Title**                        | **Description**                                                                             | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |     |
+| 3        | Sprint 3 | SPK03      | Geolocalización (GPS y QR)               | TSK-33           | Integrar módulo de ubicación     | Permitir asociar ubicación GPS/QR a productos y visualizar en mapa.                         | 5                      | Kevin           | Done                                               |
+| 3        | Sprint 3 | SPK04      | Predicción de reabastecimiento           | TSK-34           | Calcular demanda proyectada      | Implementar algoritmo (media móvil + lead time) para sugerir reabastecimientos.             | 6                      | Alejandro       | Done                                               |
+| 3        | Sprint 3 | SPK05      | Escaneo por lotes con visión ML          | TSK-35           | Prototipo ML Kit                 | Probar detección de productos por imagen y confirmación de lote.                            | 5                      | Jocelyn         | Done                                               |
+| 3        | Sprint 3 | US28       | Localizar productos con mapa y QR        | TSK-36           | Integrar escaneo QR y mapa       | Permitir buscar y ubicar productos escaneando QR o desde el mapa del almacén.               | 5                      | Alejandro       | Done                                               |
+| 3        | Sprint 3 | US29       | Gestionar predicción de reabastecimiento | TSK-37           | Implementar modelo de predicción | Aplicar media móvil + lead time para sugerir reabastecimiento con alertas ajustables.       | 5                      | Jeremy          | Done                                               |
+| 3        | Sprint 3 | US30       | Escanear por lotes con cámara rápida     | TSK-38           | Prototipo con visión por IA      | Implementar escaneo por lotes con API de visión (ML Kit), etiquetas y ubicación automática. | 5                      | Kevin           | Done                                               |
 
 SPRINT BACKLOG 3: https://trello.com/invite/b/6901e5dc63f69a57fbbb17fa/ATTIdce0e9b3397eb8bf84cae3105e673678715E13A3/stockwise-sprint-3
 
 ### 4.3. Validation Interviews
+
 #### 4.3.1. Diseño de Entrevistas
 
 **Segmento #1: Bodegas especializadas por rubro**
 
 **Presentación del entrevistado**
 
-* ¿Cuál es tu nombre?
-  
-* ¿Qué edad tienes?
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
 
-* ¿Desde cuándo gestionas esta bodega?
+- ¿Desde cuándo gestionas esta bodega?
 
-* ¿Cuál es el rubro principal de tu bodega?
+- ¿Cuál es el rubro principal de tu bodega?
 
 El usuario interactúa con la app móvil de la plataforma para gestión de inventarios.
 
@@ -4332,7 +4533,7 @@ Landing page
 
 Acciones clave dentro del sistema
 
-Navegación interactivo por la interfaz app móvil 
+Navegación interactivo por la interfaz app móvil
 
 **User Goal: Registrar**
 
@@ -4345,7 +4546,6 @@ Una vez que el proceso de pago se complete exitosamente, se notifica al usuario 
 Del mismo modo, si el usuario desea retirar su información o actualizarla, lo podrá hacer a través de su perfil.
 
 Finalmente, hacer clic en el botón "Aceptar".
-
 
 **User Goal: Iniciar sesión**
 
@@ -4378,7 +4578,6 @@ Revisa el listado de productos presionando el botón "por producto".
 Filtra los productos por categoría, nombre del producto, fecha o stock mínimo.
 
 Consulta el listado con información clave: fecha de entrada, cantidad por unidad, precio, stock mínimo y unidad de medida.
-
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
@@ -4418,7 +4617,6 @@ Consulta métricas como el stock promedio, estado del producto y stock ideal.
 
 Cuenta con botones para editar o eliminar cada registro y, para los stock promedio, exportar la información y realiza un ticket promedio.
 
-
 **User Goal: Alerta de Stock**
 
 El usuario accede a la sección de Alertas desde el menú superior.
@@ -4433,46 +4631,37 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 
 **Preguntas principales:**
 
-* ¿Te resultó fácil encontrar cómo agregar un producto?
-  
-* ¿Qué tal fue el proceso para registrar el stock por producto y por lote?
-  
-* ¿Te resultó claro el apartado de “Próximos a caducar”? ¿Te pareció útil?
-  
-* ¿Probaste la sección de kits? ¿Te resultó útil combinar productos?
-  
-* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
-  
-* ¿Qué te pareció el diseño general de la landing page?
-  
-* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+- ¿Te resultó fácil encontrar cómo agregar un producto?
+- ¿Qué tal fue el proceso para registrar el stock por producto y por lote?
+- ¿Te resultó claro el apartado de “Próximos a caducar”? ¿Te pareció útil?
+- ¿Probaste la sección de kits? ¿Te resultó útil combinar productos?
+- ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+- ¿Qué te pareció el diseño general de la landing page?
+- ¿Tuviste alguna dificultad visual o técnica durante la navegación?
 
 **Valoración de experiencia**
 
-* Del 1 al 10, ¿qué tan útil te pareció la app para tu bodega?
-  
-* ¿Qué funcionalidad te pareció más valiosa?
-  
-* ¿Qué función le agregarías sí o sí?
-  
-* ¿Recomendarías esta plataforma a otros dueños de bodegas? ¿Por qué?
+- Del 1 al 10, ¿qué tan útil te pareció la app para tu bodega?
+- ¿Qué funcionalidad te pareció más valiosa?
+- ¿Qué función le agregarías sí o sí?
+- ¿Recomendarías esta plataforma a otros dueños de bodegas? ¿Por qué?
 
 **Segmento #2: Startups y emprendedores con necesidades logísticas**
 
 **Presentación del entrevistado**
 
-* ¿Cuál es tu nombre?
-* ¿Qué edad tienes?
-* ¿Qué tipo de producto vendes o almacenas?
-* ¿Tienes local físico, almacén propio o trabajas con terceros?
-  
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿Qué tipo de producto vendes o almacenas?
+- ¿Tienes local físico, almacén propio o trabajas con terceros?
+
 Interactúa el usuario con la landing page y la versión web de nuestra plataforma para gestión gestionar stock, registrar compras y generar reportes.
 
 **Landing page**
 
 Acciones clave dentro del sistema
 
-Navegación interactivo por la interfaz app móvil 
+Navegación interactivo por la interfaz app móvil
 
 **User Goal: Registrar**
 
@@ -4518,7 +4707,7 @@ Consulta el listado con información detallada como proveedor, producto, fecha, 
 
 Gestiona las acciones disponibles para cada lote desde la columna correspondiente.
 
-*User Goal: Botones Principales (Agregar Producto y Kits)*
+_User Goal: Botones Principales (Agregar Producto y Kits)_
 
 Pulsa el botón "Agregar Producto".
 
@@ -4570,21 +4759,20 @@ También puede eliminar una alerta específica luego de una confirmación emerge
 
 **Preguntas principales:**
 
-* ¿Qué opinas de las alertas de stock mínimo/máximo y vencimiento? ¿Son suficientes?
-* ¿La sección de historial de movimientos te pareció útil para revisar tus registros?
-* ¿Te resultó útil la opción de devolución de productos?
-* ¿Los reportes del historial son útiles para tomar decisiones?
-* ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
-* ¿Qué te pareció el diseño general de la landing page?
-* ¿Tuviste alguna dificultad visual o técnica durante la navegación?
-  
+- ¿Qué opinas de las alertas de stock mínimo/máximo y vencimiento? ¿Son suficientes?
+- ¿La sección de historial de movimientos te pareció útil para revisar tus registros?
+- ¿Te resultó útil la opción de devolución de productos?
+- ¿Los reportes del historial son útiles para tomar decisiones?
+- ¿Hubo algo que no entendiste o que te confundió mientras usabas la app?
+- ¿Qué te pareció el diseño general de la landing page?
+- ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+
 **Valoración de experiencia**
 
-* Del 1 al 10, ¿qué tan útil te pareció la app móvil  para tu bodega?
-* ¿Qué funcionalidad te pareció más valiosa?
-* ¿Qué función le agregarías sí o sí?
-* ¿Recomendarías esta plataforma a otros emprendedores? ¿Por qué?
-
+- Del 1 al 10, ¿qué tan útil te pareció la app móvil para tu bodega?
+- ¿Qué funcionalidad te pareció más valiosa?
+- ¿Qué función le agregarías sí o sí?
+- ¿Recomendarías esta plataforma a otros emprendedores? ¿Por qué?
 
 #### 4.3.2. Registro de Entrevistas
 
@@ -4807,50 +4995,49 @@ Catalina es una administradora de 28 años, encargada de gestionar una bodega fa
 **APP A EVALUAR**
 **StockWise**: Aplicación móvil de gestión de inventarios diseñada para bodegas y pequeños emprendimientos. Su objetivo es optimizar el control de productos, fechas de vencimiento y movimientos de stock, ofreciendo una experiencia intuitiva para usuarios no especializados en gestión logística.
 
-
 **TAREAS A EVALUAR**
 
 El alcance de esta evaluación comprende la revisión de la usabilidad y experiencia del usuario en las siguientes tareas principales:
 
-1. Registro de un nuevo usuario.  
-2. Inicio de sesión con credenciales existentes.  
-3. Registro y edición de productos.  
-4. Búsqueda y filtrado de productos por nombre, categoría o lote.  
-5. Visualización de productos próximos a vencer.  
-6. Registro de salida o venta de productos.  
-7. Consulta del historial de movimientos.  
-8. Control de stock y control por lotes.  
-9. Cierre de sesión.  
+1. Registro de un nuevo usuario.
+2. Inicio de sesión con credenciales existentes.
+3. Registro y edición de productos.
+4. Búsqueda y filtrado de productos por nombre, categoría o lote.
+5. Visualización de productos próximos a vencer.
+6. Registro de salida o venta de productos.
+7. Consulta del historial de movimientos.
+8. Control de stock y control por lotes.
+9. Cierre de sesión.
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
-1. Integración con sistemas externos de pago.  
-2. Sincronización con otros dispositivos.  
-3. Administración de usuarios con distintos roles.  
-4. Funcionalidades futuras de geolocalización o predicción de demanda.  
+1. Integración con sistemas externos de pago.
+2. Sincronización con otros dispositivos.
+3. Administración de usuarios con distintos roles.
+4. Funcionalidades futuras de geolocalización o predicción de demanda.
 
 ---
 
 **ESCALA DE SEVERIDAD**
 
-| Nivel | Descripción |
-|-------|--------------|
-|**1**|Problema superficial: Puede ser fácilmente superador por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | Problema superficial: Puede ser fácilmente superador por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
 | **2** | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
-| **3** |Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| **4** | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+| **3** | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| **4** | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 ---
 
 **TABLA RESUMEN DE HALLAZGOS**
 
-| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
-|---|-----------|---------------------|--------------------------------|
-| 1 | Confusión inicial entre “Producto” y “Lote". | 2 | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
-| 2 | Falta de acceso rápido al registro de ventas. | 3 | Usability – Flexibilidad y eficiencia de uso. |
-| 3 | Ausencia de módulo de pagos o créditos pendientes. | 3 | Information Architecture – Is it complete? |
-| 4 | Falta de reportes visuales o estadísticas | 2 | Inclusive Design – Accesibilidad visual. |
-| 5 | Recordatorios limitados para productos próximos a vencer | 2 | Usability – Visibilidad del estado del sistema. |
+| #   | Problema                                                 | Escala de severidad | Heurística/Principio violado(a)                                        |
+| --- | -------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------- |
+| 1   | Confusión inicial entre “Producto” y “Lote".             | 2                   | Usability – Claridad del lenguaje y correspondencia con el mundo real. |
+| 2   | Falta de acceso rápido al registro de ventas.            | 3                   | Usability – Flexibilidad y eficiencia de uso.                          |
+| 3   | Ausencia de módulo de pagos o créditos pendientes.       | 3                   | Information Architecture – Is it complete?                             |
+| 4   | Falta de reportes visuales o estadísticas                | 2                   | Inclusive Design – Accesibilidad visual.                               |
+| 5   | Recordatorios limitados para productos próximos a vencer | 2                   | Usability – Visibilidad del estado del sistema.                        |
 
 ---
 
@@ -4858,85 +5045,92 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 **PROBLEMA N° 1: Confusión inicial entre “Producto” y “Lote”**
 **Severidad:** 2  
-**Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real.  
+**Heurística violada:** Usabilidad – Correspondencia entre el sistema y el mundo real.
 
 **Problema:**  
-Durante las pruebas, los usuarios manifestaron dudas iniciales sobre la diferencia entre “producto” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital. 
+Durante las pruebas, los usuarios manifestaron dudas iniciales sobre la diferencia entre “producto” y “lote”. Aunque lograron comprenderlo después de explorar la app, el término no es intuitivo para todos los perfiles de usuarios, especialmente aquellos con poca experiencia digital.
 
 **Recomendación:**  
-Incorporar una breve descripción contextual o un globo de ayuda que aclare la diferencia entre ambos conceptos (por ejemplo: “Producto: artículo registrado en el inventario. Lote: grupo de unidades del mismo producto con una fecha de vencimiento o ingreso común”).  
+Incorporar una breve descripción contextual o un globo de ayuda que aclare la diferencia entre ambos conceptos (por ejemplo: “Producto: artículo registrado en el inventario. Lote: grupo de unidades del mismo producto con una fecha de vencimiento o ingreso común”).
 
 ---
 
 **PROBLEMA N° 2: Falta de acceso rápido al registro de ventas**
 **Severidad:** 3  
-**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso.  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso.
 
 **Problema:**  
-Usuarios señalaron que, aunque el registro de productos es sencillo, no existe un acceso directo desde el dashboard para registrar ventas o salidas. Esto implica más pasos de navegación y retrasa la gestión diaria.  
+Usuarios señalaron que, aunque el registro de productos es sencillo, no existe un acceso directo desde el dashboard para registrar ventas o salidas. Esto implica más pasos de navegación y retrasa la gestión diaria.
 
 **Recomendación:**  
-Incluir un botón visible o un acceso rápido en el dashboard para registrar ventas o salidas directamente, sin pasar por el menú lateral.  
+Incluir un botón visible o un acceso rápido en el dashboard para registrar ventas o salidas directamente, sin pasar por el menú lateral.
 
 ---
 
 **PROBLEMA N° 3: Ausencia de módulo de pagos o créditos pendientes**
 **Severidad:** 3  
-**Heurística violada:** Information Architecture – Is it complete?  
+**Heurística violada:** Information Architecture – Is it complete?
 
 **Problema:**  
-Varios usuarios mencionaron la necesidad de registrar pagos pendientes o créditos, dado que muchas bodegas operan con ventas fiadas. La ausencia de esta función limita la utilidad integral de la app.  
+Varios usuarios mencionaron la necesidad de registrar pagos pendientes o créditos, dado que muchas bodegas operan con ventas fiadas. La ausencia de esta función limita la utilidad integral de la app.
 
 **Recomendación:**  
-Agregar un submódulo para registrar clientes con deudas y fechas de pago, con alertas visuales y posibilidad de marcar los pagos como cancelados.  
+Agregar un submódulo para registrar clientes con deudas y fechas de pago, con alertas visuales y posibilidad de marcar los pagos como cancelados.
 
 ---
 
 **PROBLEMA N° 4: Falta de reportes visuales o estadísticas**
 **Severidad:** 2  
-**Heurística violada:** Usabilidad – Visibilidad del estado del sistema.  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema.
 
 **Problema:**  
-Los usuarios destacaron que la app podría mejorar si mostrara reportes o gráficos de ventas y stock. Actualmente, la información está distribuida, pero no se resume de forma visual.  
+Los usuarios destacaron que la app podría mejorar si mostrara reportes o gráficos de ventas y stock. Actualmente, la información está distribuida, pero no se resume de forma visual.
 
 **Recomendación:**  
-Incorporar una vista de “Resumen de actividad” con gráficos simples (barras o pastel) sobre productos más vendidos, alertas y stock por categoría.  
+Incorporar una vista de “Resumen de actividad” con gráficos simples (barras o pastel) sobre productos más vendidos, alertas y stock por categoría.
 
 ---
 
 **PROBLEMA N° 5: Recordatorios limitados para productos próximos a vencer**
 **Severidad:** 2  
-**Heurística violada:** Usabilidad – Prevención de errores.  
+**Heurística violada:** Usabilidad – Prevención de errores.
 
 **Problema:**  
-Catalina valoró la alerta de productos próximos a vencer, pero comentó que sería mejor si pudiera configurar recordatorios personalizados según tipo de producto o periodo (por ejemplo, 5, 10 o 30 días antes del vencimiento).  
+Catalina valoró la alerta de productos próximos a vencer, pero comentó que sería mejor si pudiera configurar recordatorios personalizados según tipo de producto o periodo (por ejemplo, 5, 10 o 30 días antes del vencimiento).
 
 **Recomendación:**  
-Permitir que el usuario ajuste la anticipación de alertas y el canal de notificación (push o correo).  
+Permitir que el usuario ajuste la anticipación de alertas y el canal de notificación (push o correo).
 
 ---
 
 **CONCLUSIÓN GENERAL**
 
-La app **StockWise** presenta una excelente base de usabilidad y accesibilidad, destacando por su claridad visual, fluidez de navegación y aprendizaje rápido incluso en usuarios con baja experiencia tecnológica.  
+La app **StockWise** presenta una excelente base de usabilidad y accesibilidad, destacando por su claridad visual, fluidez de navegación y aprendizaje rápido incluso en usuarios con baja experiencia tecnológica.
 
-Las oportunidades de mejora se centran en profundizar funciones avanzadas de gestión (créditos, reportes, recordatorios personalizados) y refinar detalles visuales en dispositivos móviles.  
+Las oportunidades de mejora se centran en profundizar funciones avanzadas de gestión (créditos, reportes, recordatorios personalizados) y refinar detalles visuales en dispositivos móviles.
 
 En general, los usuarios calificaron la experiencia como positiva, práctica y recomendable, con potencial para convertirse en una herramienta estándar para la gestión de bodegas pequeñas y medianas.
 
-
 # Conclusiones y recomendaciones
+
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una aplicación movil de alto valor, adaptable y preparada para el crecimiento continuo.
 
 # Video App Validation
+
 # Video About-the-Product
+
 **Enlace del video: https://youtu.be/gKQCMO4rORw?si=igx6rLDbzR-ltvqh**
 
 # Video About-the-team
+
 # Bibliografía
+
 1. Dux Software. (2025, 9 abril). Dux Software: El Sistema de Gestión para tu Negocio. https://www.duxsoftware.com.ar/
 2. Mecalux. (s. f.). Store fulfillment. Mecalux.pe. https://www.mecalux.pe/software/store-fulfillment
 3. SoftDoIt. (s. f.). ▷Vendus: agiliza la gestión de tu punto de venta. https://www.softwaredoit.es/vendus/vendus.html
+
 # Anexos
 
-**Video de Exposición TP:** 
+**Enlace repositorio del reporte: https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Report**
+
+**Enlace del evenstorming: https://miro.com/app/board/uXjVJIfQcmY=/?share_link_id=739758304264**
