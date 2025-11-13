@@ -351,8 +351,10 @@
       - [4.2.2. Sprint 2](#422-sprint-2)
         - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
         - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
-      - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+        - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
         - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review-1)
+        - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+        - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
       - [4.2.3. Sprint 3](#423-sprint-3)
         - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
         - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
@@ -4481,7 +4483,7 @@ Optimizar la aplicación móvil StockWise e integrar las funcionalidades avanzad
 
 SPRINT BACKLOG 2: https://trello.com/invite/b/6901e5bd6397432560be15a9/ATTI1739f7821067be06836cf579b98d49864A6994EE/stockwise-sprint-2
 
-#### 6.2.2.3. Development Evidence for Sprint Review
+##### 6.2.2.3. Development Evidence for Sprint Review
 Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
 
 <table>
@@ -4528,9 +4530,134 @@ Durante este sprint, se han realizado avances significativos en la implementaci�
 </table>
 
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+##### 6.2.2.5. Execution Evidence for Sprint Review
 
-En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services del módulo **Inventories** del proyecto **Stoq (Web-Services)**.  
-El stack de testing utilizado fue **C#/.NET 8**, **xUnit**, **Moq**, **EF Core InMemory**, **Microsoft.AspNetCore.Mvc.Testing** y **SpecFlow (Gherkin)**.
+Durante este Sprint, se han alcanzado varios hitos importantes en la implementación en el frontend mobile. Se han completado las siguientes tareas:
+
+- Inventario
+- Historial
+- Perfil / configuracion
+- Producto
+- Plan A – Entrada por voz
+- Plan B – Geolocalización (GPS)
+- Plan C – Localización y predicción inteligente
+- Plan D – Escaneo por lotes con cámara rápida
+
+**Screenshots**
+
+**Mobile Frontend**
+
+**Kotlin:**
+
+**Flutter:**
+
+Login
+![Flutter](assets/chapter-4/fl1.png)
+<br>
+
+Register
+
+![Flutter](assets/chapter-4/fl2.png)
+<br>
+
+Home
+
+![Flutter](assets/chapter-4/fl3.png)
+<br>
+
+Inventario 
+
+![Flutter](assets/chapter-4/fl4.png)
+<br>
+
+Inventario por producto  
+
+![Flutter](assets/chapter-4/fl5.png)
+<br>
+
+Inventario por producto (Agregar) 
+
+![Flutter](assets/chapter-4/fl6.png)
+<br>
+
+Historial 
+
+![Flutter](assets/chapter-4/fl7.png)
+<br>
+
+Producto
+
+![Flutter](assets/chapter-4/fl8.png)
+<br>
+
+![Flutter](assets/chapter-4/fl9.png)
+<br>
+
+Kits Producto
+
+![Flutter](assets/chapter-4/fl10.png)
+<br>
+
+![Flutter](assets/chapter-4/fl11.png)
+<br>
+
+Boleta de Venta 
+
+![Flutter](assets/chapter-4/fl12.png)
+<br>
+
+Perfil / Ajustes
+
+![Flutter](assets/chapter-4/fl13.png)
+<br>
+
+![Flutter](assets/chapter-4/fl14.png)
+<br>
+
+Nuevas funciones
+
+Plan B – Geolocalización (GPS) 
+
+![Flutter](assets/chapter-4/nfl.png)
+<br>
+
+Plan D – Escaneo por lotes con cámara rápida
+
+![Flutter](assets/chapter-4/nfl2.png)
+<br>
+
+##### 6.2.1.6. Services Documentation Evidence for Sprint Review
+En esta sección se evidencia la documentación de los servicios implementados para el sprint actual que conforman el backend.
+
+Backend
+
+![Swagger](assets/chapter-4/swagger-5.png)
+<br>
+
+Athentication
+
+![Swagger-1](assets/chapter-4/swagger-IAM.png)
+<br>
+
+Inventory
+
+![Swagger-1](assets/chapter-4/swagger-inventory.png)
+<br>
+
+Products
+
+![Swagger-1](assets/chapter-4/swagger-Products.png)
+<br>
+
+Combos
+
+![Swagger-1](assets/chapter-4/swagger-Combos.png)
+<br>
+
+Report
+![Swagger-1](assets/chapter-4/swagger-Report.png)
+
+<br>
 
 
 #### 4.2.3. Sprint 3
