@@ -155,31 +155,11 @@
 
 # Contenido
 
-[Student Outcome](#student-outcome)
-
-[Objetivos SMART](#Objetivos-SMART)
-
-[Capítulo I: Presentación](#capítulo-i-Presentación)
-
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-[Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
-
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Objetivos SMART](#objetivos-smart)
-- [Capítulo I: Presentación](#capítulo-i-presentación)
+- [Objetivos SMART](#Objetivos-SMART)
+
+
+- [Capítulo I: Presentación](#capítulo-i-Presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -190,13 +170,15 @@
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
 - [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [Estrategias Generales de Posicionamiento](#estrategias-generales-de-posicionamiento)
-  - [Estrategias Ofensivas frente a Competidores](#estrategias-ofensivas-frente-a-competidores)
-  - [Estrategias Defensivas](#estrategias-defensivas)
+      - [Estrategias Generales de Posicionamiento](#estrategias-generales-de-posicionamiento)
+      - [Estrategias Ofensivas frente a Competidores](#estrategias-ofensivas-frente-a-competidores)
+      - [Estrategias Defensivas](#estrategias-defensivas)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
@@ -209,24 +191,24 @@
     - [2.3.5. Ubiquitous Language](#235-ubiquitous-language)
   - [2.4. Requirements specification](#24-requirements-specification)
     - [2.4.1. User Stories](#241-user-stories)
-    - [Technical Stories](#technical-stories)
-    - [Spike Story](#spike-story)
+      - [Technical Stories](#technical-stories)
+      - [Spike Story](#spike-story)
     - [2.4.2. Impact Mapping](#242-impact-mapping)
-    - [Segmento Objetivo 1: Bodegas especializadas por rubro](#segmento-objetivo-1-bodegas-especializadas-por-rubro)
-    - [Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas](#segmento-objetivo-2-startups-y-emprendedores-en-expansión-con-necesidades-logísticas)
+      - [Segmento Objetivo 1: Bodegas especializadas por rubro](#segmento-objetivo-1-bodegas-especializadas-por-rubro)
+      - [Segmento Objetivo 2: Startups y emprendedores en expansión con necesidades logísticas](#segmento-objetivo-2-startups-y-emprendedores-en-expansión-con-necesidades-logísticas)
     - [2.4.3. Product Backlog](#243-product-backlog)
-    - [Gestión del producto Backlog](#gestión-del-producto-backlog)
+      - [Gestión del producto Backlog](#gestión-del-producto-backlog)
   - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
       - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
-    - [Step 1: Unstructured exploration](#step-1-unstructured-exploration)
-    - [Step 2 : Timeline construction](#step-2--timeline-construction)
-      - [Step 3: Pain Points](#step-3-pain-points)
-      - [Step 4: Pivotal Points](#step-4-pivotal-points)
-      - [Step 5: Commands](#step-5-commands)
-      - [Step 6: Policies](#step-6-policies)
-      - [Step 7 \& 8: Read Models \& External Systems](#step-7--8-read-models--external-systems)
-      - [Step 9 \& 10: Aggregates \& Bounded Contexts](#step-9--10-aggregates--bounded-contexts)
+        - [Step 1: Unstructured exploration](#step-1-unstructured-exploration)
+        - [Step 2 : Timeline construction](#step-2--timeline-construction)
+        - [Step 3: Pain Points](#step-3-pain-points)
+        - [Step 4: Pivotal Points](#step-4-pivotal-points)
+        - [Step 5: Commands](#step-5-commands)
+        - [Step 6: Policies](#step-6-policies)
+        - [Step 7 \& 8: Read Models \& External Systems](#step-7--8-read-models--external-systems)
+        - [Step 9 \& 10: Aggregates \& Bounded Contexts](#step-9--10-aggregates--bounded-contexts)
       - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
       - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
     - [2.5.2. Context Mapping](#252-context-mapping)
@@ -236,37 +218,38 @@
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
     - [2.6.1. Bounded Context: AlertStockManagement Context](#261-bounded-context-alertstockmanagement-context)
-    - [2.6.1.1. Domain Layer](#2611-domain-layer)
-    - [2.6.1.2. Application Layer](#2612-application-layer)
-    - [2.6.1.3. Interface Layer](#2613-interface-layer)
-    - [2.6.1.4. Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Application Layer](#2612-application-layer)
+      - [2.6.1.3. Interface Layer](#2613-interface-layer)
+      - [2.6.1.4. Infrastructure Layer](#2614-infrastructure-layer)
       - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
     - [2.6.2. Bounded Context: Iam Context](#262-bounded-context-iam-context)
-    - [2.6.2.1. Domain Layer](#2621-domain-layer)
-    - [2.6.2.2. Interface Layer](#2622-interface-layer)
-    - [2.6.2.3. Application Layer](#2623-application-layer)
-    - [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
+      - [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer)
       - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
         - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
     - [2.6.3. Bounded Context: Inventory Context](#263-bounded-context-inventory-context)
-    - [2.6.3.1. Domain Layer](#2631-domain-layer)
-    - [2.6.3.2. Application Layer](#2632-application-layer)
-    - [2.6.3.3. Interface Layer](#2633-interface-layer)
-    - [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer)
+      - [2.6.3.2. Application Layer](#2632-application-layer)
+      - [2.6.3.3. Interface Layer](#2633-interface-layer)
+      - [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer)
       - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
           - [Domain: Model](#domain-model)
           - [Domain: Services](#domain-services)
         - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
-    - [2.6.4.1. Domain Layer](#2641-domain-layer)
-    - [2.6.4.2. Application Layer](#2642-application-layer)
-    - [2.6.4.3. Interface Layer](#2643-interface-layer)
-    - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
+    - [2.6.4. Bounded Context: Product Context](#264-bounded-context-product-context)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer)
+      - [2.6.4.2. Application Layer](#2642-application-layer)
+      - [2.6.4.3. Interface Layer](#2643-interface-layer)
+      - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
       - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
@@ -274,10 +257,10 @@
           - [Domain: Services](#domain-services-1)
         - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
     - [2.6.5. Bounded Context: Reports Context](#265-bounded-context-reports-context)
-    - [2.6.5.1. Domain Layer](#2651-domain-layer)
-    - [2.6.5.2. Application Layer](#2652-application-layer)
-    - [2.6.5.3. Interface Layer](#2653-interface-layer)
-    - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
+      - [2.6.5.1. Domain Layer](#2651-domain-layer)
+      - [2.6.5.2. Application Layer](#2652-application-layer)
+      - [2.6.5.3. Interface Layer](#2653-interface-layer)
+      - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
       - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams)
@@ -290,10 +273,9 @@
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
     - [3.1.2. Information Architecture](#312-information-architecture)
       - [3.1.2.1. Organization Systems](#3121-organization-systems)
-- [3.1.2.1. Organization Systems](#3121-organization-systems-1)
-      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
-      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
-      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems) 
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags) 
+      - [3.1.2.4. Searching Systems](#3124-searching-systems) 
       - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
     - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
       - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
@@ -305,18 +287,18 @@
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
-  - [4. Product Implementation \& Validation](#4-product-implementation--validation)
+- [4. Product Implementation \& Validation](#4-product-implementation--validation)
     - [4.1. Software Configuration Management](#41-software-configuration-management)
       - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
       - [4.1.2. Source Code Management](#412-source-code-management)
       - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [JavaScript](#javascript)
-    - [Kotlin](#kotlin)
+        - [HTML](#html)
+        - [CSS](#css)
+        - [JavaScript](#javascript)
+        - [Kotlin](#kotlin)
       - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
-    - [Deployment Backend:](#deployment-backend)
-      - [Creación de VPS en Google Cloud Platform (GCP)](#creación-de-vps-en-google-cloud-platform-gcp)
+        - [Deployment Backend:](#deployment-backend)
+        - [Creación de VPS en Google Cloud Platform (GCP)](#creación-de-vps-en-google-cloud-platform-gcp)
         - [1. Configuración Inicial del Proyecto](#1-configuración-inicial-del-proyecto)
         - [2. Creación de la Instancia de VM](#2-creación-de-la-instancia-de-vm)
         - [3. Configuración de Acceso y Seguridad](#3-configuración-de-acceso-y-seguridad)
@@ -326,51 +308,51 @@
         - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
         - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
         - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
-      - [Cobertura por pieza de código](#cobertura-por-pieza-de-código)
-      - [Relación de tests diseñados (extracto)](#relación-de-tests-diseñados-extracto)
+          - [Cobertura por pieza de código](#cobertura-por-pieza-de-código)
+          - [Relación de tests diseñados (extracto)](#relación-de-tests-diseñados-extracto)
         - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
-    - [Screenshots](#screenshots)
-      - [Landing Page](#landing-page)
-      - [Funciones claves](#funciones-claves)
-      - [Sección de Planes Disponibles](#sección-de-planes-disponibles)
-    - [Seccion de cambio de idioma](#seccion-de-cambio-de-idioma)
-      - [Mobile Frontend](#mobile-frontend)
+          - [Screenshots](#screenshots)
+          - [Landing Page](#landing-page)
+          - [Funciones claves](#funciones-claves)
+          - [Sección de Planes Disponibles](#sección-de-planes-disponibles)
+          - [Seccion de cambio de idioma](#seccion-de-cambio-de-idioma)
+          - [Mobile Frontend](#mobile-frontend)
         - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
         - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
-        - [Landing Page](#landing-page-1)
-      - [1. Preparación del proyecto](#1-preparación-del-proyecto)
-      - [2. Creación de cuenta o acceso a Netlify](#2-creación-de-cuenta-o-acceso-a-netlify)
-      - [3. Nuevo sitio desde Git](#3-nuevo-sitio-desde-git)
-      - [4. Autorización y selección del repositorio](#4-autorización-y-selección-del-repositorio)
-      - [5. Configuración del despliegue](#5-configuración-del-despliegue)
-      - [6. Despliegue automático](#6-despliegue-automático)
-      - [7. Personalización de dominio (opcional)](#7-personalización-de-dominio-opcional)
-      - [8. Actualizaciones automáticas](#8-actualizaciones-automáticas)
-      - [9. Monitoreo del sitio](#9-monitoreo-del-sitio)
-        - [Backend](#backend)
-      - [1. Configuración del Entorno Docker en el VPS](#1-configuración-del-entorno-docker-en-el-vps)
-      - [2. Preparación del Proyecto ASP.NET 9](#2-preparación-del-proyecto-aspnet-9)
-      - [3. Despliegue de la Aplicación](#3-despliegue-de-la-aplicación)
-      - [4. Configuración de Nginx como Reverse Proxy](#4-configuración-de-nginx-como-reverse-proxy)
+          - [Landing Page](#landing-page-1)
+            - [1. Preparación del proyecto](#1-preparación-del-proyecto)
+            - [2. Creación de cuenta o acceso a Netlify](#2-creación-de-cuenta-o-acceso-a-netlify)
+            - [3. Nuevo sitio desde Git](#3-nuevo-sitio-desde-git)
+            - [4. Autorización y selección del repositorio](#4-autorización-y-selección-del-repositorio)
+            - [5. Configuración del despliegue](#5-configuración-del-despliegue)
+            - [6. Despliegue automático](#6-despliegue-automático)
+            - [7. Personalización de dominio (opcional)](#7-personalización-de-dominio-opcional)
+            - [8. Actualizaciones automáticas](#8-actualizaciones-automáticas)
+            - [9. Monitoreo del sitio](#9-monitoreo-del-sitio)
+          - [Backend](#backend)
+            - [1. Configuración del Entorno Docker en el VPS](#1-configuración-del-entorno-docker-en-el-vps)
+            - [2. Preparación del Proyecto ASP.NET 9](#2-preparación-del-proyecto-aspnet-9)
+            - [3. Despliegue de la Aplicación](#3-despliegue-de-la-aplicación)
+            - [4. Configuración de Nginx como Reverse Proxy](#4-configuración-de-nginx-como-reverse-proxy)
         - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
       - [4.2.2. Sprint 2](#422-sprint-2)
         - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
         - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
-        - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
-        - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review-1)
-        - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
-        - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-        - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-        - [6.2.2.8. Team Collaboration Insights durint Sprint.](#6228-team-collaboration-insights-durint-sprint)
+        - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+        - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+        - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+        - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+        - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+        - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
       - [4.2.3. Sprint 3](#423-sprint-3)
         - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
         - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
-        - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review-1)
-        - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review-2)
-        - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review-1)
-        - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review-1)
-        - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review-1)
-        - [6.2.2.8. Team Collaboration Insights durint Sprint.](#6228-team-collaboration-insights-durint-sprint-1)
+        - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+        - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+        - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+        - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+        - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+        - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
     - [4.3. Validation Interviews](#43-validation-interviews)
       - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
       - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -379,6 +361,7 @@
 - [Video App Validation](#video-app-validation)
 - [Video About-the-Product](#video-about-the-product)
 - [Video About-the-team](#video-about-the-team)
+
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -3390,6 +3373,8 @@ Los Mobile Applications Wireflow Diagrams son una combinación de wireframes y f
 **User Goal: Registrar**
 El usuario desea crear una nueva cuenta para comenzar a usar la plataforma y vincular su método de pago según el plan seleccionado.
 
+**Flujo funcional:**
+
 1. El usuario selecciona la opción “Registrar” en la Landing Page.
 2. Ingresa los datos solicitados: correo electrónico, nombre y contraseña.
 3. Selecciona el tipo de plan.
@@ -3406,7 +3391,7 @@ _Imagen (N° 94). Elaboración propia. Realizado en Figma_
 
 **User Goal: Iniciar sesión**
 
-El usuario desea iniciar sesión en la plataforma utilizando sus credenciales para acceder a las funciones principales del sistema.
+El usuario desea iniciar sesión en la plataforma utilizando sus credenciales y acceder a las funciones principales del sistema.
 
 **Flujo funcional:**
 
@@ -3429,7 +3414,9 @@ _Imagen (N° 95). Elaboración propia. Realizado en Figma_
 
 **User Goal: Navegar por el Dashboard**
 
-El usuario explora la vista principal para acceder a las herramientas clave del sistema.
+El usuario explora la vista principal y accede a las herramientas clave del sistema.
+
+**Flujo funcional:**
 
 1. El usuario accede al Dashboard después de iniciar sesión.
 2. Visualiza el total de productos registrados y fecha del último proveedor.
@@ -3444,7 +3431,9 @@ _Imagen (N° 96). Elaboración propia. Realizado en Figma_
 
 **User Goal: Inventario (Producto / Lote)**
 
-El usuario explora la vista de inventario para acceder a sus productos y lotes.
+El usuario explora la vista de inventario y accede a los registros de productos y lotes.
+
+**Flujo funcional:**
 
 1. Ingresa a la sección de Inventario.
 2. Revisa el listado de productos presionando el botón "por producto".
@@ -3458,7 +3447,9 @@ _Imagen (N° 97). Elaboración propia. Realizado en Figma_
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
-El usuario visualiza la pantalla de productos y kits para administrar adecuadamente sus productos y lotes.
+El usuario visualiza la sección principal y gestiona productos y kits desde las opciones disponibles.
+
+**Flujo funcional:**
 
 1. Pulsa el botón "Agregar Producto".
 2. Rellena los campos solicitados para registrar uno nuevo.
@@ -3469,14 +3460,16 @@ El usuario visualiza la pantalla de productos y kits para administrar adecuadame
 7. Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre,etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
 8. Desde el menú principal, también accede a la opción “Kits”.
 
-En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
-
 <center> <img src="assets/Chapter-3/user goal Botones principales.png" style="width: 820px;"/> </center>
 <br>
 
 _Imagen (N° 98). Elaboración propia. Realizado en Figma_
 
 **User Goal: Historial de Movimientos**
+
+El usuario consulta y analiza los movimientos del inventario, accediendo a información de entradas, salidas y métricas relacionadas.
+
+**Flujo funcional:**
 
 1. Navega a la sección de Historial.
 2. Visualiza entradas y salidas de productos.
@@ -3636,8 +3629,9 @@ _Imagen (N° 119). Elaboración propia. Realizado en Figma_
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 **User Goal: Registrar**
-
 El usuario desea crear una nueva cuenta para comenzar a usar la plataforma y vincular su método de pago según el plan seleccionado.
+
+**Flujo funcional:**
 
 1. El usuario selecciona la opción “Registrar” en la Landing Page.
 2. Ingresa los datos solicitados: correo electrónico, nombre y contraseña.
@@ -3655,7 +3649,9 @@ _Imagen (N° 120). Elaboración propia. Realizado en Figma_
 
 **User Goal: Iniciar sesión**
 
-El usuario desea iniciar sesión en la plataforma utilizando sus credenciales para acceder a las funciones principales del sistema.
+El usuario desea iniciar sesión en la plataforma utilizando sus credenciales y acceder a las funciones principales del sistema.
+
+**Flujo funcional:**
 
 1. El usuario ingresa su correo electrónico y contraseña.
 2. El usuario selecciona la opción “Iniciar sesión”.
@@ -3671,7 +3667,9 @@ _Imagen (N° 121). Elaboración propia. Realizado en Figma_
 
 **User Goal: Navegar por el Dashboard**
 
-El usuario explora la vista principal para acceder a las herramientas clave del sistema.
+El usuario explora la vista principal y accede a las herramientas clave del sistema.
+
+**Flujo funcional:**
 
 1. El usuario accede al Dashboard después de iniciar sesión.
 2. Visualiza el total de productos registrados y fecha del último proveedor.
@@ -3686,7 +3684,9 @@ _Imagen (N° 122). Elaboración propia. Realizado en Figma_
 
 **User Goal: Inventario (Producto / Lote)**
 
-El usuario explora la vista de inventario para acceder a sus productos y lotes.
+El usuario explora la vista de inventario y accede a los registros de productos y lotes.
+
+**Flujo funcional:**
 
 1. Ingresa a la sección de Inventario.
 2. Revisa el listado de productos presionando el botón "por producto".
@@ -3700,7 +3700,9 @@ _Imagen (N° 123). Elaboración propia. Realizado en Figma_
 
 **User Goal: Botones Principales (Agregar Producto y Kits)**
 
-El usuario visualiza la pantalla de productos y kits para administrar adecuadamente sus productos y lotes.
+El usuario visualiza la sección principal y gestiona productos y kits desde las opciones disponibles.
+
+**Flujo funcional:**
 
 1. Pulsa el botón "Agregar Producto".
 2. Rellena los campos solicitados para registrar uno nuevo.
@@ -3711,8 +3713,6 @@ El usuario visualiza la pantalla de productos y kits para administrar adecuadame
 7. Puede agregar uno nuevo haciendo clic en el botón “+”, donde se despliega un formulario con campos como nombre,etiquetas, cantidad, lote, precios, fecha de caducidad y notas.
 8. Desde el menú principal, también accede a la opción “Kits”.
 
-En esta sección, selecciona productos existentes y los combina mediante el botón “Seleccionar para kit”, indicando cantidad e inventario disponible.
-
 <center> <img src="assets/Chapter-3/Color user goal Botones principales .png" style="width: 820px;"/> </center>
 <br>
 
@@ -3720,7 +3720,9 @@ _Imagen (N° 124). Elaboración propia. Realizado en Figma_
 
 **User Goal: Historial de Movimientos**
 
-El usuario visualiza la pantalla de historial para evaluar sus movimientos de consumo de sus productos.
+El usuario consulta y analiza los movimientos del inventario, accediendo a información de entradas, salidas y métricas relacionadas.
+
+**Flujo funcional:**
 
 1. Navega a la sección de Historial.
 2. Visualiza entradas y salidas de productos.
@@ -5539,9 +5541,16 @@ En general, los usuarios calificaron la experiencia como positiva, práctica y r
 
 El desarrollo de las funcionalidades propuestas para StockWise responde a las necesidades reales de emprendedores, pymes y startups que buscan optimizar su gestión de inventarios de manera simple, rápida y eficiente. A través de un enfoque centrado en el usuario, se priorizan características esenciales como el control de stock, la generación de alertas inteligentes, reportes visuales y una experiencia de uso intuitiva. Además, la estrategia de diferenciación frente a la competencia, basada en la simplicidad, accesibilidad y enfoque especializado, refuerza el potencial de StockWise para posicionarse como una solución líder en el mercado latinoamericano. Con esta base sólida, el proyecto avanza hacia la creación de una aplicación movil de alto valor, adaptable y preparada para el crecimiento continuo.
 
+Asimismo, la propuesta de StockWise demuestra un entendimiento profundo de las necesidades reales del mercado, integrando funciones que responden directamente a los desafíos cotidianos de los negocios en crecimiento. Al combinar simplicidad operativa con capacidades avanzadas de análisis, la aplicación se convierte en un aliado estratégico que permite a los usuarios anticiparse a la demanda, gestionar mejor sus recursos y mantener un equilibrio saludable entre inversión y abastecimiento. Esta convergencia entre usabilidad, tecnología y valor práctico refuerza la visión de StockWise como una plataforma preparada para evolucionar junto con sus usuarios, adaptándose a distintos sectores y escalas empresariales sin perder su esencia orientada a la eficiencia y el control inteligente del inventario.
+
 # Video App Validation
 
 # Video About-the-Product
+
+StockWise es una plataforma digital y móvil diseñada para ofrecer una gestión integral de inventarios, facilitando el control automático de vencimientos, niveles mínimos y la administración de kits de productos. Su modelo de negocio se enfoca en brindar a pequeños y medianos comercios una herramienta accesible, fácil de usar y orientada a reducir pérdidas y mejorar la toma de decisiones. El usuario puede interactuar directamente con la aplicación escaneando productos desde su celular, recibiendo alertas tempranas cuando un artículo está por agotarse o vencer, y visualizando en tiempo real un dashboard con indicadores clave y reportes detallados. En el video se muestran escenas donde el usuario registra un producto, revisa el estado del stock y confirma pedidos con un solo toque, demostrando la rapidez y simplicidad del sistema. Como afirma uno de los usuarios, “StockWise me ha permitido tener mi inventario bajo control sin perder tiempo; ahora todo está a un clic y nunca más se me pasó un vencimiento
+
+<center> <img src="assets/Chapter-4/productA.png" style="width: 820px;"/> </center>
+<br>
 
 **Enlace del video: https://youtu.be/gKQCMO4rORw?si=igx6rLDbzR-ltvqh**
 
