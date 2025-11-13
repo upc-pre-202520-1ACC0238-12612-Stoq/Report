@@ -170,7 +170,6 @@
 
 [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
 
-- [COURSE PROJECT](#course-project)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
@@ -286,16 +285,20 @@
       - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
     - [3.1.2. Information Architecture](#312-information-architecture)
       - [3.1.2.1. Organization Systems](#3121-organization-systems)
-- [3.1.2.1. Organization Systems](#3121-organization-systems-1) - [3.1.2.2. Labelling Systems](#3122-labelling-systems) - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags) - [3.1.2.4. Searching Systems](#3124-searching-systems) - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
-  - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
-    - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
-    - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
-  - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
-    - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
-    - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
-    - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
-    - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
-    - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [3.1.2.1. Organization Systems](#3121-organization-systems-1)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
   - [4. Product Implementation \& Validation](#4-product-implementation--validation)
     - [4.1. Software Configuration Management](#41-software-configuration-management)
@@ -345,6 +348,14 @@
       - [3. Despliegue de la Aplicación](#3-despliegue-de-la-aplicación)
       - [4. Configuración de Nginx como Reverse Proxy](#4-configuración-de-nginx-como-reverse-proxy)
         - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+      - [4.2.2. Sprint 2](#422-sprint-2)
+        - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+        - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+        - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review-1)
+      - [4.2.3. Sprint 3](#423-sprint-3)
+        - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+        - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
     - [4.3. Validation Interviews](#43-validation-interviews)
       - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
       - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -4469,6 +4480,58 @@ Optimizar la aplicación móvil StockWise e integrar las funcionalidades avanzad
 | 2        | Sprint 2 | SPK02      | Roles y permisos en API                   | TSK-32           | Ajustar modelo RBAC backend       | Integrar permisos por rol para operaciones de inventario desde móvil.             | 4                      | Alejandro       | In-Process                                         |
 
 SPRINT BACKLOG 2: https://trello.com/invite/b/6901e5bd6397432560be15a9/ATTI1739f7821067be06836cf579b98d49864A6994EE/stockwise-sprint-2
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
+
+<table>
+   <tr>
+      <td>Repository</td>
+      <td>Branch</td>
+      <td>Component</td>
+      <td>Commit Id</td>
+      <td>Commit Message</td>
+      <td>Commited on (Date)</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services</td>
+      <td>Main</td>
+      <td>Backend</td>
+      <td>a646b7bb</td>
+      <td>delete .env directory>
+      <td>Noviembre 12, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Landing-Page</td>
+      <td>Develop</td>
+      <td>Landing Page</td>
+      <td>94f1768a</td>
+      <td>feat: mejorar la sección Hero con nuevos elementos visuales y texto optimizado</td>
+      <td>Octubre 30, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Native-mobile-development</td>
+      <td>Development</td>
+      <td>Mobile Frontend</td>
+      <td>ea64488b</td>
+      <td>feat: add Plan D</td>
+      <td>Noviembre 13, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/stoq-flutter</td>
+      <td>Development</td>
+      <td>Mobile Frontend</td>
+      <td>b26537c3</td>
+      <td>fchore(config): add .claude to gitignore and update documentation</td>
+      <td>Noviembre 13, 2025</td>
+   </tr>
+</table>
+
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services del módulo **Inventories** del proyecto **Stoq (Web-Services)**.  
+El stack de testing utilizado fue **C#/.NET 8**, **xUnit**, **Moq**, **EF Core InMemory**, **Microsoft.AspNetCore.Mvc.Testing** y **SpecFlow (Gherkin)**.
+
 
 #### 4.2.3. Sprint 3
 
