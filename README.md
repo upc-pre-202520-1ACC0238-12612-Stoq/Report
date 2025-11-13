@@ -4538,10 +4538,9 @@ Durante este Sprint, se han alcanzado varios hitos importantes en la implementac
 - Historial
 - Perfil / configuracion
 - Producto
+- Boleta de Venta
 - Plan A – Entrada por voz
 - Plan B – Geolocalización (GPS)
-- Plan C – Localización y predicción inteligente
-- Plan D – Escaneo por lotes con cámara rápida
 
 **Screenshots**
 
@@ -4656,6 +4655,21 @@ Combos
 
 Report
 ![Swagger-1](assets/chapter-4/swagger-Report.png)
+
+<br>
+
+Sales
+![Swagger-1](assets/chapter-4/sales.png)
+
+<br>
+
+Tags and Units
+![Swagger-1](assets/chapter-4/tag.png)
+
+<br>
+
+StockAlert
+![Swagger-1](assets/chapter-4/ale.png)
 
 <br>
 
