@@ -360,6 +360,12 @@
       - [4.2.3. Sprint 3](#423-sprint-3)
         - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
         - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+        - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review-1)
+        - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review-2)
+        - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review-1)
+        - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review-1)
+        - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review-1)
+        - [6.2.2.8. Team Collaboration Insights durint Sprint.](#6228-team-collaboration-insights-durint-sprint-1)
     - [4.3. Validation Interviews](#43-validation-interviews)
       - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
       - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -4723,6 +4729,195 @@ Culminar el desarrollo y validación integral del producto StockWise, incluyendo
 | 3        | Sprint 3 | US30       | Escanear por lotes con cámara rápida     | TSK-38           | Prototipo con visión por IA      | Implementar escaneo por lotes con API de visión (ML Kit), etiquetas y ubicación automática. | 5                      | Kevin           | Done                                               |
 
 SPRINT BACKLOG 3: https://trello.com/invite/b/6901e5dc63f69a57fbbb17fa/ATTIdce0e9b3397eb8bf84cae3105e673678715E13A3/stockwise-sprint-3
+
+##### 6.2.2.3. Development Evidence for Sprint Review
+Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
+
+<table>
+   <tr>
+      <td>Repository</td>
+      <td>Branch</td>
+      <td>Component</td>
+      <td>Commit Id</td>
+      <td>Commit Message</td>
+      <td>Commited on (Date)</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services</td>
+      <td>Main</td>
+      <td>Backend</td>
+      <td>a646b7bb</td>
+      <td>delete .env directory>
+      <td>Noviembre 12, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Landing-Page</td>
+      <td>Develop</td>
+      <td>Landing Page</td>
+      <td>94f1768a</td>
+      <td>feat: mejorar la sección Hero con nuevos elementos visuales y texto optimizado</td>
+      <td>Octubre 30, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Native-mobile-development</td>
+      <td>Development</td>
+      <td>Mobile Frontend</td>
+      <td>ea64488b</td>
+      <td>feat: add Plan D</td>
+      <td>Noviembre 13, 2025</td>
+   </tr>
+   <tr>
+      <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/stoq-flutter</td>
+      <td>Development</td>
+      <td>Mobile Frontend - Flutter</td>
+      <td>b26537c3</td>
+      <td>fchore(config): add .claude to gitignore and update documentation</td>
+      <td>Noviembre 13, 2025</td>
+   </tr>
+</table>
+
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+##### 6.2.2.5. Execution Evidence for Sprint Review
+
+**Screenshots** 
+
+**Mobile Frontend Flutter:**
+
+Login
+![Flutter](assets/chapter-4/fl1.png)
+<br>
+
+Register
+
+![Flutter](assets/chapter-4/fl2.png)
+<br>
+
+Home
+
+![Flutter](assets/chapter-4/fl3.png)
+<br>
+
+Inventario 
+
+![Flutter](assets/chapter-4/fl4.png)
+<br>
+
+Inventario por producto  
+
+![Flutter](assets/chapter-4/fl5.png)
+<br>
+
+Inventario por producto (Agregar) 
+
+![Flutter](assets/chapter-4/fl6.png)
+<br>
+
+Historial 
+
+![Flutter](assets/chapter-4/fl7.png)
+<br>
+
+Producto
+
+![Flutter](assets/chapter-4/fl8.png)
+<br>
+
+![Flutter](assets/chapter-4/fl9.png)
+<br>
+
+Kits Producto
+
+![Flutter](assets/chapter-4/fl10.png)
+<br>
+
+![Flutter](assets/chapter-4/fl11.png)
+<br>
+
+Boleta de Venta 
+
+![Flutter](assets/chapter-4/fl12.png)
+<br>
+
+Perfil / Ajustes
+
+![Flutter](assets/chapter-4/fl13.png)
+<br>
+
+![Flutter](assets/chapter-4/fl14.png)
+<br>
+
+Nuevas funciones
+
+Plan B – Geolocalización (GPS) 
+
+![Flutter](assets/chapter-4/nfl.png)
+<br>
+
+Plan D – Escaneo por lotes con cámara rápida
+
+![Flutter](assets/chapter-4/nfl2.png)
+<br>
+
+New Landing Page Design: 
+
+![Flutter](assets/chapter-4/ladin.png)
+<br>
+
+
+##### 6.2.1.6. Services Documentation Evidence for Sprint Review
+En esta sección se evidencia la documentación de los servicios implementados para el sprint actual que conforman el backend.
+
+Backend
+
+![Swagger](assets/chapter-4/swagger-5.png)
+<br>
+
+Athentication
+
+![Swagger-1](assets/chapter-4/swagger-IAM.png)
+<br>
+
+Inventory
+
+![Swagger-1](assets/chapter-4/swagger-inventory.png)
+<br>
+
+Products
+
+![Swagger-1](assets/chapter-4/swagger-Products.png)
+<br>
+
+Combos
+
+![Swagger-1](assets/chapter-4/swagger-Combos.png)
+<br>
+
+Report
+![Swagger-1](assets/chapter-4/swagger-Report.png)
+
+<br>
+
+Sales
+![Swagger-1](assets/chapter-4/sales.png)
+
+<br>
+
+Tags and Units
+![Swagger-1](assets/chapter-4/tag.png)
+
+<br>
+
+StockAlert
+![Swagger-1](assets/chapter-4/ale.png)
+
+<br>
+
+##### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+##### 6.2.2.8. Team Collaboration Insights durint Sprint.
+
+![Swagger-1](assets/chapter-4/te.png)
+<br>
 
 ### 4.3. Validation Interviews
 
