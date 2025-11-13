@@ -34,6 +34,7 @@
 
 <br>
 
+<div style="page-break-after: always;"></div>
 <h1 align="center">Registro de versiones del Informe</h1>
 </br>
 <table>
@@ -132,6 +133,8 @@
         </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights
 
 <div align="center">
@@ -147,6 +150,8 @@
 **Enlace del repositorio del informe: https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Report**
 
 **Enlace de los repositorios de la organización: https://github.com/orgs/upc-pre-202520-1ACC0238-12612-Stoq/repositories**
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -369,6 +374,8 @@
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
+
 # Student Outcome
 
 ABET - EAC - Student Outcome 7
@@ -520,6 +527,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       </td>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Objetivos SMART
 
 **Jocelyn Damaly Almerco Rojas**
@@ -561,6 +570,8 @@ Antes del 31/12/2026, habré completado un diplomado en Calidad de Software y Pr
 
 **_Objetivo 2:_**
 Dentro de los dos años posteriores a mi graduación, habré logrado un puesto en el área de Aseguramiento de Calidad (QA Engineer) o Analista de Pruebas de Software, participando activamente en el ciclo de vida de pruebas de un producto digital. Para lograrlo, realizaré 10 postulaciones mensuales, asistiré a 2 conferencias técnicas de QA y mantendré un registro de mejoras continuas en metodologías ágiles. Consideraré el objetivo cumplido al obtener una oferta formal y participar en al menos una liberación exitosa de software con métricas de defectos bajo el 2%.
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Presentación
 
@@ -763,6 +774,8 @@ Cuando los usuarios reporten una reducción del 50% en errores de facturación y
  <img src="assets/Chapter-1/Lean Ux canvas.png" alt="Lean Ux canvas" width="800px">
 
 _Imagen (N°1). Elaboración propia. Realizado en Canva_
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Development and Software Solution Design
 
@@ -2716,6 +2729,8 @@ _Imagen (N°68). Elaboración propia._
 
 _Imagen (N°69). Elaboración propia._
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product design
@@ -2830,7 +2845,7 @@ La arquitectura de la información, también conocida como Information Architect
 
 La interfaz se divide en módulos bien definidos, accesibles desde un panel de navegación estructurado jerárquicamente. Estos módulos incluyen: Inicio, Home, Inventario y Configuración. Cada sección agrupa funciones específicas según su propósito, permitiendo que las tareas clave estén siempre al alcance del usuario.
 
-# 3.1.2.1. Organization Systems
+#### Organization Systems
 
 La arquitectura de organización de StockWise está diseñada siguiendo principios de agrupación lógica y progresiva de la información, permitiendo a los usuarios acceder rápidamente a las funciones necesarias según su rol y contexto de uso.
 
@@ -3725,6 +3740,8 @@ El prototipo también permite identificar ajustes necesarios en la experiencia d
 A continuación, se presenta el enlace para visualizar el video de navegación del prototipo interactivo:
 
 [![Demo](<assets/Chapter-3/Inicio%20de%20sesión%20(1).png>)](assets/Chapter-3/Grabación%20de%20pantalla%202025-10-09%20165528.mp4)
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Implementation & Validation
 
