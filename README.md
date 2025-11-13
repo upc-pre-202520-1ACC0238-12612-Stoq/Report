@@ -355,6 +355,8 @@
         - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review-1)
         - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
         - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+        - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+        - [6.2.2.8. Team Collaboration Insights durint Sprint.](#6228-team-collaboration-insights-durint-sprint)
       - [4.2.3. Sprint 3](#423-sprint-3)
         - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
         - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
@@ -4673,6 +4675,12 @@ StockAlert
 
 <br>
 
+##### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+##### 6.2.2.8. Team Collaboration Insights durint Sprint.
+
+![Swagger-1](assets/chapter-4/te.png)
+<br>
 
 #### 4.2.3. Sprint 3
 
