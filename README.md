@@ -346,8 +346,7 @@
         - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
         - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
         - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review-1)
-        - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review-2)
-        - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review-1)
+        - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
         - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review-1)
         - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review-1)
         - [6.2.2.8. Team Collaboration Insights durint Sprint.](#6228-team-collaboration-insights-durint-sprint-1)
@@ -4717,12 +4716,12 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 | Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                     |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Sprint Planning Background      |
-| Date                            | 2025-11-12                                                                                                                                                                                                                                                                                   |
+| Date                            | 2025-12-2                                                                                                                                                                                                                                                                                   |
 | Time                            | 22:00 PM                                                                                                                                                                                                                                                                                     |
 | Location                        | UPC - Monterrico                                                                                                                                                                                                                                                                             |
 | Preparate by                    | Camila Sanchez Rios                                                                                                                                                                                                                                                                          |
 | Attendees (to planning meeting) | Jocelyn Almerco, Kevin Chi, Alejandro Oroncoy, Jeremy Paucar                                                                                                                                                                                                                                 |
-| Sprint 3 Review Summary         | En el Sprint 3 se logró el despliegue completo del backend en un sitio público con documentación y se integraron las funciones avanzadas (alertas, reportes, combos y roles). La app móvil mostró las funcionalidades core y las primeras pruebas de validación.                             |
+| Sprint 3 Review Summary         | En el Sprint 3 se logró el despliegue completo del backend en un sitio público con documentación y se integraron las funciones avanzadas (Geolocalización de sedes, Restricciones por roles, Registro de venta con código de barras,Términos y condiciones en registro). La app móvil mostró las funcionalidades core y las primeras pruebas de validación.                             |
 | Sprint Planning Background      | Se centrará en la validación final del producto, pruebas integrales, corrección de errores y preparación de las entregas multimedia.                                                                                                                                                         |
 | Sprint Goal & User Stories      |
 | Sprint 3 Goal                   | Implementar funcionalidades avanzadas de StockWise incluyendo registro de ventas por código de barras, geolocalización de sedes, mejoras de seguridad con roles y términos y condiciones. Se considera cumplido si todas las nuevas funcionalidades están operativas y validadas por los usuarios objetivo. |
@@ -4762,9 +4761,9 @@ Durante este sprint, se han realizado avances significativos en la implementaci�
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Web-Services</td>
       <td>Main</td>
       <td>Backend</td>
-      <td>a646b7bb</td>
-      <td>delete .env directory>
-      <td>Noviembre 12, 2025</td>
+      <td>5239b84a</td>
+      <td>feat: Add data to seed
+      <td>Diciembre 2, 2025</td>
    </tr>
    <tr>
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Landing-Page</td>
@@ -4778,17 +4777,17 @@ Durante este sprint, se han realizado avances significativos en la implementaci�
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Native-mobile-development</td>
       <td>Development</td>
       <td>Mobile Frontend</td>
-      <td>ea64488b</td>
-      <td>feat: add Plan D</td>
-      <td>Noviembre 13, 2025</td>
+      <td>exxxxxx</td>
+      <td>feat: </td>
+      <td>Diciembre 2, 2025</td>
    </tr>
    <tr>
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/stoq-flutter</td>
       <td>Development</td>
       <td>Mobile Frontend - Flutter</td>
-      <td>b26537c3</td>
-      <td>fchore(config): add .claude to gitignore and update documentation</td>
-      <td>Noviembre 13, 2025</td>
+      <td> 0ce9f6e7</td>
+      <td>feat: Add stoq flutter</td>
+      <td>Diciembre 2, 2025</td>
    </tr>
 </table>
 
@@ -4811,6 +4810,7 @@ Durante el Sprint 3, se implementaron exitosamente las siguientes funcionalidade
 **Funcionalidad Principal:**
 
 Login
+
 ![Flutter](assets/chapter-4/fl1.png)
 <br>
 
