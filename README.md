@@ -396,7 +396,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Corregí el reporte del proyecto e investigué la implementación del Plan D - Escaneo por lotes con cámara rápida, aprendiendo sobre visión computacional con Google ML Kit.</p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p>Desarrollé una mayor comprensión sobre la validación técnica y funcional al participar en la elaboración del video de validación de la aplicación, integrando conceptos de testing y narrativa técnica.</p>
         <p><b>Kevin Chi</b></p>
         <p><b>TB1:</b></p>
         <p>Puse en práctica lo que sabía y reforcé mis conocimientos diseñando el C4 y el modelo de base de datos para el proyecto.   
@@ -406,6 +406,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Puse en práctica mis conocimientos en diseño de interfaces creando las pantallas de inventario, producto, historial y combo. Además, avancé con el Plan A (Entrada por voz, integrando comandos para registrar productos de forma más rápida).</p>
         <p><b>TF:</b></p>
+        <p>Durante el desarrollo del Sprint 3, reforcé mis conocimientos en arquitectura móvil y buenas prácticas de desarrollo para asegurar que el backend y la app se integren correctamente en un entorno público.</p>
         <p><b>Alejandro Oroncoy</b></p>
         <p><b></b></p>
         <p><b>TB1:</b></p>
@@ -415,7 +416,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Avancé con el Plan C - Localización y predicción inteligente, aplicando conceptos de IA y análisis de patrones para mejorar el control de stock en el sistema.</p>
         <p><b>TF:</b></p>
-        <p></p>
+        <p>Actualicé mis conceptos sobre control de versiones, lo que me permitió gestionar de forma más eficiente el Registro de Versiones y mantener coherencia entre el informe, la documentación técnica y el código.</p>
         <p><b>Jeremy Paucar</b></p>
         <p><b></b></p>
         <p><b>TB1:</b></p>         
@@ -425,7 +426,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Corregí el backend e investigué la implementación del Plan B - Geolocalización (GPS), reforzando mis conocimientos sobre servicios REST y sincronización de coordenadas</p>
         <p><b>TF:</b></p>
-        <p></p>
+        <p>Amplié mis conocimientos sobre despliegue de aplicaciones móviles al trabajar con Firebase App Distribution, entendiendo su funcionamiento, limitaciones y utilidad para la validación del producto.</p>
         <p><b>Camila Sanchez Rios</b></p>
         <p><b>TB1:</b></p>
         <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
@@ -434,7 +435,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Diseñé las pantallas del perfil e investigué la implementación del Plan B – Geolocalización (GPS), fortaleciendo mis conocimientos en APIs de ubicación y mapas interactivos.</p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p>Me capacité en criterios de diseño UI/UX, aplicando mejoras visuales en la Landing Page y en la presentación del flujo de usuario para optimizar la experiencia dentro de la aplicación.</p>
       </td>
       <td>
         <p><strong>TB1:</strong></p>
@@ -444,7 +445,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><strong>TB2:</strong></p>
         <p>Como grupo fortalecimos nuestros conocimientos al enfocarnos en la investigación y desarrollo de los planes complementarios del proyecto. Analizamos la viabilidad e implementación de funciones como entrada por voz, geolocalización, predicción inteligente y escaneo por visión, aplicando conceptos técnicos actualizados y trabajo colaborativo. Esta etapa nos permitió ampliar nuestra comprensión sobre nuevas tecnologías y su integración en soluciones de software.</p>
         <p><strong>TF:</strong></p>
-        <p>..</p>
+        <p>Como equipo, fortalecimos nuestros conocimientos técnicos a lo largo del desarrollo del proyecto, actualizando conceptos clave en arquitectura de software, diseño de interfaces, gestión de versiones y despliegue en entornos reales. Esta actualización continua nos permitió mejorar la calidad de los artefactos presentados, consolidar el backend en un sitio público con su respectiva documentación, y asegurar que la aplicación móvil cumpliera con los estándares funcionales y técnicos establecidos en el product backlog.</p>
       </td>
     </tr>
     <tr>
@@ -463,7 +464,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Al trabajar en el Plan D de escaneo por lotes con cámara rápida, reconocí la necesidad de seguir aprendiendo sobre visión computacional y procesamiento de imágenes con APIs como Google ML Kit.</p>
         <p><b>TF:</b></p>
-        <p>..</p>
+        <p>Reconocí la importancia del aprendizaje continuo al implementar nuevas funcionalidades del product backlog, lo que exigió investigar librerías, patrones y soluciones para asegurar un desarrollo eficiente.</p>
         <p><b>Kevin Chi</b></p>
         <p><b>TB1:</b></p>
         <p>Me di cuenta de que al trabajar con C4 y el diagrama de base de datos necesito seguir aprendiendo sobre cómo representar bien la arquitectura y los datos de un sistema.
@@ -473,7 +474,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Al diseñar las pantallas de inventario, producto e historial, comprendí que debo seguir aprendiendo sobre interfaces adaptativas y optimización de la experiencia de usuario en Android Studio.</p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p>Comprendí que la validación del producto requiere actualización constante de conocimientos, especialmente en metodologías ágiles y herramientas de documentación que aseguran entregables claros y completos.</p>
         <p><b>Alejandro Oroncoy</b></p>
         <p><b>TB1:</b></p>
         <p>Comprendí que usar las tácticas de DDD requiere aprendizaje constante de patrones como entidades y agregados para aplicarlos bien en el dominio.</p>
@@ -482,7 +483,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Mientras investigaba el Plan C de localización y predicción inteligente, entendí que debo seguir aprendiendo sobre modelos de aprendizaje automático y análisis de patrones de consumo.</p>
         <p><b>TF:</b></p>
-        <p>...</p>
+        <p>La elaboración de los videos About-the-Product y About-the-Team confirmó que debo fortalecer mis habilidades de comunicación técnica, un aprendizaje permanente clave para presentar soluciones de software de manera profesional.</p>
         <p><b>Jeremy Paucar</b></p>
        <p><b>TB1:</b></p>
         <p>Entendí que al hacer EventStorming es clave seguir capacitándome para identificar de forma correcta los eventos y procesos del sistema.</p>
@@ -491,7 +492,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Al corregir el backend y explorar la integración del GPS, noté que necesito fortalecer mis conocimientos en arquitectura cliente-servidor y manejo de datos en tiempo real.</p>
         <p><b>TF:</b></p>
-        <p>...</p>
+        <p>Durante la preparación del capítulo IV y sus anexos, identifiqué la necesidad de mantenerme en formación constante para poder interpretar correctamente métricas, resultados y técnicas de evaluación de software.</p>
         <p><b> Camila Sanchez</b></p>
         <p><b>TB1:</b></p>
         <p>Me encargué de crear la organización y los repositorios en el github. Colaboré con Capítulo I: Presenatcion, Capítulo II: Entrevistas, Competidores</p>
@@ -500,7 +501,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><b>TB2:</b></p>
         <p>Durante la creación del módulo de perfil y la investigación sobre geolocalización, reconocí la importancia de seguir aprendiendo sobre integración de APIs y gestión de permisos en aplicaciones móviles.</p>
         <p><b>TF:</b></p>
-        <p>.</p>
+        <p>Aprendí que el proceso de despliegue y pruebas evoluciona constantemente; por ello, mantenerme actualizado en nuevas plataformas y buenas prácticas es esencial para participar activamente en proyectos tecnológicos.</p>
       </td>
       <td>
         <p><strong>TB1:</strong></p>
@@ -510,7 +511,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <p><strong>TB2:</strong></p>
         <p>Como grupo reconocimos la importancia del aprendizaje continuo para mejorar nuestro desempeño en el desarrollo de soluciones de software. A través de la investigación y avance de los distintos planes (entrada por voz, geolocalización, predicción inteligente y escaneo por visión). Identificamos nuevas áreas en las que debemos seguir aprendiendo, como arquitectura de sistemas, integración de APIs, inteligencia artificial y visión computacional, fortaleciendo así nuestras capacidades para futuros proyectos.</p>
         <p><strong>TF:</strong></p>
-        <p>...</p>
+        <p>Durante este hito, reconocimos como equipo la importancia del aprendizaje permanente al enfrentar nuevos retos técnicos, corregir entregables previos y validar el funcionamiento integral del producto. Este proceso nos permitió comprender que el desarrollo de software exige adaptación constante, investigación continua y mejora progresiva en habilidades técnicas y de comunicación. Gracias a este enfoque, logramos avanzar de manera coordinada y consistente en la implementación, validación y presentación final del proyecto.</p>
       </td>
 </table>
 
