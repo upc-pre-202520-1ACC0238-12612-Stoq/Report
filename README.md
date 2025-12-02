@@ -4725,24 +4725,24 @@ Se realizaron actividades de creación de artefactos antes y después de la impl
 | Sprint 3 Review Summary         | En el Sprint 3 se logró el despliegue completo del backend en un sitio público con documentación y se integraron las funciones avanzadas (alertas, reportes, combos y roles). La app móvil mostró las funcionalidades core y las primeras pruebas de validación.                             |
 | Sprint Planning Background      | Se centrará en la validación final del producto, pruebas integrales, corrección de errores y preparación de las entregas multimedia.                                                                                                                                                         |
 | Sprint Goal & User Stories      |
-| Sprint 3 Goal                   | Finalizar el desarrollo de la aplicación StockWise, validando todas las funcionalidades del Product Backlog y entregando la versión final del sistema (app móvil, backend y landing page). Se considera cumplido si la app está desplegada, validada y respaldada con los videos requeridos. |
+| Sprint 3 Goal                   | Implementar funcionalidades avanzadas de StockWise incluyendo registro de ventas por código de barras, geolocalización de sedes, mejoras de seguridad con roles y términos y condiciones. Se considera cumplido si todas las nuevas funcionalidades están operativas y validadas por los usuarios objetivo. |
 | Sprint Velocity                 | Se establece un Velocity de 28 Story Points para este Sprint.                                                                                                                                                                                                                                |
 | Sum of Story Points             | 28 Story Points                                                                                                                                                                                                                                                                              |
 
 ##### 4.2.3.2. Sprint Backlog 3
 
 **Objetivo del Sprint:**  
-Culminar el desarrollo y validación integral del producto StockWise, incluyendo la publicación en un servicio de distribución, los videos de presentación y la documentación final del proyecto.
+Culminar el desarrollo de StockWise implementando funcionalidades avanzadas de registro de ventas con códigos de barras, geolocalización de sedes, mejoras en la seguridad y experiencia del usuario, y preparación de la documentación final del proyecto.
 
 | Sprint # | Sprint n | User Story |                                          | Work-Item / Task |                                  |                                                                                             |                        |                 |                                                    |
 | -------- | -------- | ---------- | ---------------------------------------- | ---------------- | -------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
 |          |          | **Id**     | **Title**                                | **Id**           | **Title**                        | **Description**                                                                             | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| 3        | Sprint 3 | SPK03      | Geolocalización (GPS y QR)               | TSK-33           | Integrar módulo de ubicación     | Permitir asociar ubicación GPS/QR a productos y visualizar en mapa.                         | 5                      | Kevin           | Done                                               |
-| 3        | Sprint 3 | SPK04      | Predicción de reabastecimiento           | TSK-34           | Calcular demanda proyectada      | Implementar algoritmo (media móvil + lead time) para sugerir reabastecimientos.             | 6                      | Alejandro       | Done                                               |
-| 3        | Sprint 3 | SPK05      | Escaneo por lotes con visión ML          | TSK-35           | Prototipo ML Kit                 | Probar detección de productos por imagen y confirmación de lote.                            | 5                      | Jocelyn         | Done                                               |
-| 3        | Sprint 3 | US28       | Localizar productos con mapa y QR        | TSK-36           | Integrar escaneo QR y mapa       | Permitir buscar y ubicar productos escaneando QR o desde el mapa del almacén.               | 5                      | Alejandro       | Done                                               |
-| 3        | Sprint 3 | US29       | Gestionar predicción de reabastecimiento | TSK-37           | Implementar modelo de predicción | Aplicar media móvil + lead time para sugerir reabastecimiento con alertas ajustables.       | 5                      | Jeremy          | Done                                               |
-| 3        | Sprint 3 | US30       | Escanear por lotes con cámara rápida     | TSK-38           | Prototipo con visión por IA      | Implementar escaneo por lotes con API de visión (ML Kit), etiquetas y ubicación automática. | 5                      | Kevin           | Done                                               |
+| 3        | Sprint 3 | US31       | Registro de venta con código de barras   | TSK-33           | Implementar escáner de ventas    | Permitir registrar ventas escaneando código de barras del producto con cámara del dispositivo. | 6                      | Kevin           | Done                                               |
+| 3        | Sprint 3 | US32       | Geolocalización de sedes                 | TSK-34           | Integrar OpenStreetMap           | Implementar mapa interactivo para visualizar y gestionar ubicaciones de sedes/almacenes.    | 5                      | Alejandro       | Done                                               |
+| 3        | Sprint 3 | US33       | Términos y condiciones en registro      | TSK-35           | Añadir T&C al signup             | Integrar aceptación de términos y condiciones durante el proceso de registro de usuarios.   | 4                      | Jocelyn         | Done                                               |
+| 3        | Sprint 3 | US34       | Restricciones por roles                  | TSK-36           | Implementar control de acceso    | Configurar permisos diferenciados entre roles Admin y Empleado en funcionalidades críticas. | 5                      | Jeremy          | Done                                               |
+| 3        | Sprint 3 | US35       | Mejoras en la interfaz de usuario       | TSK-37           | Optimizar UX/UI                  | Refinar diseño de pantallas principales y mejorar flujos de navegación en la app móvil.     | 4                      | Camila          | Done                                               |
+| 3        | Sprint 3 | TS07       | Validación y testing final              | TSK-38           | Pruebas de integración           | Ejecutar pruebas completas del sistema y validación de todas las funcionalidades.           | 6                      | Alejandro       | Done                                               |
 
 SPRINT BACKLOG 3: https://trello.com/invite/b/6901e5dc63f69a57fbbb17fa/ATTIdce0e9b3397eb8bf84cae3105e673678715E13A3/stockwise-sprint-3
 
@@ -4792,26 +4792,39 @@ Durante este sprint, se han realizado avances significativos en la implementaci�
    </tr>
 </table>
 
-##### 4.2.1.4. Testing Suite Evidence for Sprint Review
-##### 6.2.2.5. Execution Evidence for Sprint Review
+##### 4.2.3.5. Execution Evidence for Sprint Review
 
-**Screenshots** 
+Durante el Sprint 3, se implementaron exitosamente las siguientes funcionalidades clave que mejoran significativamente la experiencia del usuario y la seguridad del sistema:
+
+**Funcionalidades Implementadas:**
+
+- **Registro de ventas con código de barras**: Sistema de escaneo para agilizar el proceso de venta
+- **Geolocalización de sedes**: Integración con OpenStreetMap para gestión de ubicaciones
+- **Términos y condiciones**: Implementación durante el proceso de registro
+- **Restricciones por rol**: Control de acceso diferenciado entre Admin y Empleado
+- **Mejoras de interfaz**: Optimización del diseño y experiencia de usuario
+
+**Screenshots**
 
 **Mobile Frontend Flutter:**
+
+**Funcionalidad Principal:**
 
 Login
 ![Flutter](assets/chapter-4/fl1.png)
 <br>
 
-Register
+Register con Términos y Condiciones
 
 ![Flutter](assets/chapter-4/fl2.png)
 <br>
 
-Home
+Home Dashboard
 
 ![Flutter](assets/chapter-4/fl3.png)
 <br>
+
+**Gestión de Inventario:**
 
 Inventario 
 
@@ -4862,19 +4875,37 @@ Perfil / Ajustes
 ![Flutter](assets/chapter-4/fl14.png)
 <br>
 
-Nuevas funciones
+**Nuevas Funcionalidades Sprint 3:**
 
-Plan B – Geolocalización (GPS) 
+**Registro de Venta con Código de Barras**
+
+Sistema de escaneo integrado que permite registrar ventas de manera rápida mediante la cámara del dispositivo.
+
+![Flutter](assets/chapter-4/fl12.png)
+<br>
+
+**Geolocalización de Sedes con OpenStreetMap** 
+
+Integración de mapas interactivos para gestionar y visualizar ubicaciones de sedes y almacenes.
 
 ![Flutter](assets/chapter-4/nfl.png)
 <br>
 
-Plan D – Escaneo por lotes con cámara rápida
+**Términos y Condiciones en Registro**
+
+Implementación de aceptación obligatoria de términos durante el proceso de registro de nuevos usuarios.
+
+![Flutter](assets/chapter-4/fl2.png)
+<br>
+
+**Control de Acceso por Roles**
+
+Sistema de restricciones diferenciadas entre usuarios Admin y Empleado para garantizar la seguridad del sistema.
 
 ![Flutter](assets/chapter-4/nfl2.png)
 <br>
 
-New Landing Page Design: 
+**Rediseño de Landing Page:** 
 
 ![Flutter](assets/chapter-4/ladin.png)
 <br>
@@ -5549,7 +5580,9 @@ StockWise es una plataforma digital y móvil diseñada para ofrecer una gestión
 <center> <img src="assets/Chapter-4/productA.png" style="width: 820px;"/> </center>
 <br>
 
-**Enlace del video: https://youtu.be/gKQCMO4rORw?si=igx6rLDbzR-ltvqh**
+**Enlace del video: https://youtu.be/OPvuExjrxCY**
+
+**Enlace del video: https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing**
 
 # Video About-the-team
 
