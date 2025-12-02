@@ -4744,7 +4744,7 @@ Culminar el desarrollo de StockWise implementando funcionalidades avanzadas de r
 | 3        | Sprint 3 | US35       | Mejoras en la interfaz de usuario       | TSK-37           | Optimizar UX/UI                  | Refinar diseño de pantallas principales y mejorar flujos de navegación en la app móvil.     | 4                      | Camila          | Done                                               |
 | 3        | Sprint 3 | TS07       | Validación y testing final              | TSK-38           | Pruebas de integración           | Ejecutar pruebas completas del sistema y validación de todas las funcionalidades.           | 6                      | Alejandro       | Done                                               |
 
-SPRINT BACKLOG 3: https://trello.com/invite/b/6901e5dc63f69a57fbbb17fa/ATTIdce0e9b3397eb8bf84cae3105e673678715E13A3/stockwise-sprint-3
+SPRINT BACKLOG 3: https://trello.com/invite/b/692f4a610d8b3862418ad312/ATTI3e4cbb3da73ed87923c675e1b7c6cd569D9BC1F6/sprint-backlog-3
 
 ##### 6.2.2.3. Development Evidence for Sprint Review
 Durante este sprint, se han realizado avances significativos en la implementación de la Landing Page, backend y frontend del aplicativo mobile. Se han completado varias historias de usuario tanto de la landing page como del backend y se han realizado múltiples commits en los repositorios correspondientes.
