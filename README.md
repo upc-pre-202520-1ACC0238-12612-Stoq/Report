@@ -4778,8 +4778,8 @@ Durante este sprint, se han realizado avances significativos en la implementaci√
       <td>https://github.com/upc-pre-202520-1ACC0238-12612-Stoq/Native-mobile-development</td>
       <td>Development</td>
       <td>Mobile Frontend</td>
-      <td>exxxxxx</td>
-      <td>feat: </td>
+      <td>18c79cbe</td>
+      <td>feat: replace returns button with sales functionality</td>
       <td>Diciembre 2, 2025</td>
    </tr>
    <tr>
