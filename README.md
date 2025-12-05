@@ -29,7 +29,7 @@
         U201719449 – Paucar Meneses, Jeremy Alion <br>
         U202210973 – Sanchez Rios, Camila Cristina <br>
     </p>
-    <p><em>Noviembre, 2025</em></p>
+    <p><em>Diciembre, 2025</em></p>
 </div>
 
 <br>
